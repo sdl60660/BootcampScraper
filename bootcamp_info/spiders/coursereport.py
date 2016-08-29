@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import time
+
 import scrapy
 
 from scrapy import Spider
@@ -34,7 +36,7 @@ class CourseReportSpider(scrapy.Spider):
 
             for school in schools:
                 url_stub = school.xpath('//div[1]/h3/a/@href').extract()[index_count]
-                school_url = 'https://www.coursereport.com/' + url_stub
+                school_url = 'https://www.coursereport.com' + url_stub
                 index_count += 1
                 yield scrapy.Request(school_url, callback=self.parse_contents)
 
@@ -135,7 +137,7 @@ class CourseReportSpider(scrapy.Spider):
                     cost_xpath = course_array_xpath + '//*[@class="price"]/span/text()'
                     cost = Selector(response).xpath(cost_xpath).extract()
                     try:
-                        course['cost'] = cost[y]
+                        course['cost'] = int(''.join(cost[y].split(',')))
                     except IndexError:
                         course['cost'] = None
                     
@@ -172,7 +174,7 @@ class CourseReportSpider(scrapy.Spider):
                     
                     try:
                         time_xpath = course_array_xpath + '//*[@class="hours-week-number"]/text()'
-                        course['weekly_time'] = Selector(response).xpath(time_xpath).extract()[y]
+                        course['weekly_time'] = int(Selector(response).xpath(time_xpath).extract()[y])
                     except IndexError:
                         course['weekly_time'] = None
 
@@ -246,10 +248,21 @@ class CourseReportSpider(scrapy.Spider):
             except TypeError:
                 pass
 
-        item['num_locations'] = len(item['locations'])
-        item['num_courses'] = len(item['courses'])
+        try:
+            item['num_locations'] = len(item['locations'])
+        except KeyError:
+            pass
+        except TypeError:
+            pass
+
+        try:
+            item['num_courses'] = len(item['courses'])
+        except KeyError:
+            pass
+        except TypeError:
+            pass
         
-        item['sources'] = []
+        item['sources'] = ['CourseReport']
         item['tracking_groups'] = []
 
         #item['about'] =  
@@ -318,12 +331,21 @@ class CourseReportSpider(scrapy.Spider):
             tweets = int(''.join(tweets.split(',')))
         except ValueError:
             if tweets[-1] == 'K':
-                tweets = 100*(int(''.join((tweets[:-1]).split('.'))))
+                tweets = (tweets[:-1]).split('.')
+                if len(tweets) > 1:
+                    tweets = int(1000*int(tweets[0]))+(100*int(tweets[1]))
+                else:
+                    tweets = int(1000*int(tweets[0]))
             elif tweets[-1] == 'M':
-                tweets = 100000*(int(''.join((tweets[:-1]).split('.'))))
+                tweets = (tweets[:-1]).split('.')
+                if len(tweets) > 1:
+                    tweets = int(1000000*int(tweets[0]))+(100000*int(tweets[1]))
+                else:
+                    tweets = int(1000000*int(tweets[0]))
 
             else:
                 pass
+
         twitter['tweets'] = tweets
 
         followers = Selector(response).xpath('//a[@data-nav="followers"]//*[@class="ProfileNav-value"]/text()').extract()[0]
@@ -331,30 +353,25 @@ class CourseReportSpider(scrapy.Spider):
             followers = int(''.join(followers.split(',')))
         except ValueError:
             if followers[-1] == 'K':
-                followers = 100000*(int(''.join((followers[:-1]).split('.'))))
+                followers = (followers[:-1]).split('.')
+                if len(followers) > 1:
+                    followers = int(1000*int(followers[0]))+(100*int(followers[1]))
+                else:
+                    followers = int(1000*int(followers[0]))
+
             elif followers[-1] == 'M':
-                followers = 100000*(int(''.join((followers[:-1]).split('.'))))
+                followers = (followers[:-1]).split('.')
+                if len(followers) > 1:
+                    followers = int(1000000*int(followers[0]))+(100000*int(followers[1]))
+                else:
+                    followers = int(1000000*int(followers[0]))
             else:
                 pass
-
-        print 
-        print "====================================================="
-        print "Twitter Info:"
-        print " ----------- "
-        print
-        print "Followers: " + str(followers)
-        print "Tweets: " + str(tweets)
-        print "====================================================="
-        print
 
         twitter['followers'] = followers
 
         item['twitter'] = twitter
         return item
-
-
-
-
 
 
 #7. Work with either MongoDB or Postgres to store information in a database

@@ -48,8 +48,6 @@ for y in range(len(bootcamp_data[2])):
         #bootcamp_data[2][y]['sources'] = ['SwitchUp',]
         output_dict[name] = bootcamp_data[2][y]
 
-overlap = 0
-
 for z in range(len(bootcamp_data[3])):
     name = str(bootcamp_data[3][z]['name']).title()
     if name in output_dict:
@@ -57,17 +55,9 @@ for z in range(len(bootcamp_data[3])):
         #source_store = copy.deepcopy(bootcamp_data[3][z]['sources'])
         output_dict[name] = merge(output_dict[name], bootcamp_data[3][z])
         #bootcamp_data[3][z]['sources'] = source_store
-        pprint(output_dict[name], width=50)
-        overlap += 1
-        print
-        print
     else:
         #bootcamp_data[3][z]['sources'] = ['CourseReport',]
         output_dict[name] = bootcamp_data[3][z]
-
-print
-print "OVERLAP: " + str(overlap)
-print
 
 with open('output.json', 'w') as f:
     json.dump(output_dict, f)

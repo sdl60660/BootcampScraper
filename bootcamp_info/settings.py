@@ -18,6 +18,11 @@ NEWSPIDER_MODULE = 'bootcamp_info.spiders'
 ###PUT PIPELINE INFORMATION HERE###
 
 #ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
+ITEM_PIPELINES = {  'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
+                    'bootcamp_info.pipelines.DuplicatesPipeline': 10,
+                #'scrapy.pipelines.images.ImagesPipeline': 2,
+
+}
 
 
 ###PUT SERVER INFORMATION HERE###

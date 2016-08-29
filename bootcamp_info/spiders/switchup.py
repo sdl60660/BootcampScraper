@@ -116,7 +116,7 @@ class SwitchupSpider(scrapy.Spider):
         except TypeError:
             pass
 
-        item['sources'] = []
+        item['sources'] = ['SwitchUp']
         item['tracking_groups'] = []
             
         yield item

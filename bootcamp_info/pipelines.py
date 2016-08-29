@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+3# -*- coding: utf-8 -*-
 
 # Define your item pipelines here
 #
@@ -8,12 +8,43 @@
 import scrapy
 from scrapy.exceptions import DropItem
 
-class BootcampInfoPipeline(object):
-    
+class BootcampInfoPipeline(object):    
 
     def process_item(self, item, spider):
-        return item
+        if item['sources'][0] == 'CourseReport':
+            dropped = False
 
+            try:
+                if item['facebook']:
+                    pass
+            except KeyError:
+                raise DropItem("Had not yet filled the facebook response field")
+                dropped = True
+        
+            try:
+                if item['twitter']:
+                    pass
+            except KeyError:
+                raise DropItem("Had not yet filled the twitter response field")
+                dropped = True
+        
+            if dropped == False:
+                return item
+        else:
+            return item
+
+class DuplicatesPipeline(object):
+
+    def __init__(self):
+        self.ids_seen = set()
+
+    def process_item(self, item, spider):
+        name_source = str(item['name']) + str(item['sources'][0])
+        if name_source in self.ids_seen:
+            raise DropItem("Duplicate item found: %s" % item)
+        else:
+            self.ids_seen.add(name_source)
+            return item
 
 
 

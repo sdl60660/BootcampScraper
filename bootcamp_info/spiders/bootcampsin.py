@@ -84,7 +84,7 @@ class BootcampsinSpider(scrapy.Spider):
         except TypeError:
             pass
 
-        item['sources'] = []
+        item['sources'] = ['BootcampsIn']
         item['tracking_groups'] = []
 
         yield item
