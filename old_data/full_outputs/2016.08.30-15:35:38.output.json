@@ -248,9 +248,6 @@
     }, 
     "4Geeks Academy": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:5", 
-        "cost": null, 
         "courses": {
             "Immersive Full Stack Web Development (Part-time)": {
                 "cost": null, 
@@ -274,7 +271,6 @@
         "cr_num_reviews": 7, 
         "cr_rating": 4.9, 
         "email": "info@4geeksacademy.com", 
-        "hiring_rate": 99.0, 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -283,19 +279,11 @@
             "Caracas"
         ], 
         "name": "4Geeks Academy", 
-        "num_alumni": 80, 
         "num_courses": 1, 
         "num_locations": 2, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 2, 
-        "su_rating": 4.5, 
-        "subjects": "PHP, Wordpress, HTML5, CSS3, JavaScript, jQuery, API's, Responsive design, Design theory.", 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -872,15 +860,15 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Data Science", 
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "Digital Marketing", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
-            "followers": 850, 
+            "followers": 849, 
             "handle": "@acadgild", 
             "tweets": 2249
         }, 
@@ -1055,6 +1043,28 @@
         "visas": "No", 
         "website": "http://adadevelopersacademy.org/"
     }, 
+    "Ada Developers Academy": {
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": 0.0, 
+        "locations": "Seattle", 
+        "name": "Ada Developers Academy", 
+        "num_alumni": null, 
+        "num_locations": 7, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 5, 
+        "su_rating": 4.5, 
+        "subjects": " Ruby on Rails, JavaScript, HTML, CSS", 
+        "tracking_groups": [], 
+        "website": "http://adadevelopersacademy.org/"
+    }, 
     "Adventure Code School": {
         "accreditation": "None", 
         "courses": {
@@ -1161,9 +1171,13 @@
     }, 
     "Alphappl": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "cr_num_reviews": 4, 
         "cr_rating": 4.0, 
         "email": "apply@alphappl.com", 
+        "hiring_rate": "No data", 
         "housing": "Yes", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
@@ -1173,10 +1187,15 @@
             "Lisbon"
         ], 
         "name": "Alphappl", 
+        "num_alumni": null, 
         "num_locations": 3, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 1, 
+        "su_rating": 4.0, 
+        "subjects": null, 
         "tracking_groups": [], 
         "tracks": [
             "Other", 
@@ -1315,7 +1334,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 949, 
+            "followers": 946, 
             "handle": "@Andela_Nigeria", 
             "tweets": 679
         }, 
@@ -1583,6 +1602,24 @@
         "tracking_groups": [], 
         "website": "http://www.appcoda.com/ios-programming-course/"
     }, 
+    "Appjamming": {
+        "average_salary": null, 
+        "class_ratio": "No data", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Appjamming", 
+        "num_alumni": null, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Application Development", 
+        "tracking_groups": [], 
+        "website": "http://www.appjamming.com/index.html"
+    }, 
     "Apprentice Io By Thoughtbot": {
         "average_salary": null, 
         "class_ratio": null, 
@@ -1694,9 +1731,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Mobile Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": "N/A", 
         "visas": "No", 
@@ -1866,6 +1903,9 @@
     }, 
     "Atlanta Code": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Back End Developer Training": {
                 "cost": null, 
@@ -1896,16 +1936,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@atlantacode.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Atlanta", 
         "name": "Atlanta Code", 
+        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "Java", 
             "JavaScript", 
@@ -1928,9 +1974,6 @@
     }, 
     "Austin Coding Academy": {
         "accreditation": "None", 
-        "average_salary": 65000, 
-        "class_ratio": "1:10 for Intro, 1:7 for Intermediate, 1:5 for Advanced", 
-        "cost": "$", 
         "courses": {
             "Advanced": {
                 "cost": null, 
@@ -1974,7 +2017,6 @@
         "cr_num_reviews": 3, 
         "cr_rating": 4.7, 
         "email": "INFO@AUSTINCODINGACADEMY.COM", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -1983,16 +2025,11 @@
             "San Antonio"
         ], 
         "name": "Austin Coding Academy", 
-        "num_alumni": 250, 
         "num_courses": 3, 
         "num_locations": 2, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 2, 
-        "su_rating": 5.0, 
-        "subjects": "HTML, CSS, Bootstrap, JavaScript, PHP", 
         "technologies": [
             "Front End", 
             "HTML", 
@@ -2016,6 +2053,25 @@
         }, 
         "visas": "No", 
         "website": "http://www.austincodingacademy.com/"
+    }, 
+    "Awesome Inc  U": {
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$$", 
+        "hiring_rate": "No data", 
+        "locations": "Lexington", 
+        "name": "Awesome Inc  U", 
+        "num_alumni": null, 
+        "num_locations": 9, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "https://www.awesomeincu.com/"
     }, 
     "Awesome Inc U": {
         "accreditation": "None", 
@@ -2131,6 +2187,9 @@
     }, 
     "Base10 Academy": {
         "accreditation": "None", 
+        "average_salary": 65000, 
+        "class_ratio": "1:12", 
+        "cost": null, 
         "courses": {
             "Web Development ": {
                 "cost": 1200, 
@@ -2150,16 +2209,25 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@base10academy.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Charlotte", 
         "name": "Base10 Academy", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Server Administration, Networking, Virtualization, Web Servers, Linux, Databases, Storage, Log management", 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -2345,7 +2413,7 @@
         "twitter": {
             "followers": 95, 
             "handle": "@beachcoders", 
-            "tweets": 659
+            "tweets": 658
         }, 
         "visas": "No", 
         "website": "http://beachcoders.com/"
@@ -2393,6 +2461,28 @@
         "subjects": "Java", 
         "tracking_groups": [], 
         "website": "http://www.grandcircus.co"
+    }, 
+    "Betamore": {
+        "average_salary": null, 
+        "class_ratio": "15:1", 
+        "cost": "$", 
+        "hiring_rate": 70.0, 
+        "locations": [
+            "Washington", 
+            "Baltimore"
+        ], 
+        "name": "Betamore", 
+        "num_alumni": 74, 
+        "num_locations": 2, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Ruby, Ruby on Rails, SQL", 
+        "tracking_groups": [], 
+        "website": "http://www.betamore.com/academy"
     }, 
     "Betamore Academy": {
         "accreditation": "None", 
@@ -2539,9 +2629,6 @@
     }, 
     "Big Nerd Ranch": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
         "courses": {
             "Advanced Android": {
                 "cost": 5200, 
@@ -2635,7 +2722,6 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "marketing@bignerdranch.com", 
-        "hiring_rate": "No data", 
         "housing": "We provide housing for students who take our 5 and 7 day bootcamps at their respective locations.", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
@@ -2644,16 +2730,11 @@
             "Monterey"
         ], 
         "name": "Big Nerd Ranch", 
-        "num_alumni": null, 
         "num_courses": 7, 
         "num_locations": 2, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 3, 
-        "su_rating": 5.0, 
-        "subjects": "iOS, Swift, Ruby, Python, Android, HTML5, Cocoa", 
         "technologies": [
             "Rails", 
             "Sinatra", 
@@ -2675,7 +2756,7 @@
         "twitter": {
             "followers": 11700, 
             "handle": "@bignerdranch", 
-            "tweets": 9783
+            "tweets": 9782
         }, 
         "visas": "No", 
         "website": "http://www.bignerdranch.com/"
@@ -2973,11 +3054,11 @@
         "time_per_week": "70-80 hours", 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Digital Marketing", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 5611, 
@@ -2989,9 +3070,6 @@
     }, 
     "Bloc": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:1", 
-        "cost": "$$", 
         "courses": {
             "Android": {
                 "cost": 4999, 
@@ -3115,22 +3193,17 @@
         "cr_num_reviews": 144, 
         "cr_rating": 4.6, 
         "email": "hello@bloc.io", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
         "locations": "Online", 
         "name": "Bloc", 
-        "num_alumni": 1000, 
         "num_courses": 8, 
         "num_locations": 1, 
         "scholarships": "$100 Bloc Scholarship", 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 69, 
-        "su_rating": 4.7, 
-        "subjects": "Ruby on Rails, HTML, Javascript, iOS, Android, Objective C, Swift, UX Design, CSS, AngularJS", 
         "technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -3165,27 +3238,18 @@
     }, 
     "Blur State": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "http://www.blurstate.com/contact", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Fayetteville", 
         "name": "Blur State", 
-        "num_alumni": null, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
@@ -3330,16 +3394,36 @@
         "visas": "No", 
         "website": "http://www.boole.co/"
     }, 
+    "Boulder Digital Arts": {
+        "average_salary": null, 
+        "class_ratio": "Varies", 
+        "cost": "$", 
+        "hiring_rate": 0.0, 
+        "locations": "Boulder", 
+        "name": "Boulder Digital Arts", 
+        "num_alumni": 0, 
+        "num_locations": 7, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Android, iOS, Ruby, PHP, Javascript, CSS, SEO, Dreamweaver, HTML, WordPress, Google Analytics, Responsive Website Development, Web Design", 
+        "tracking_groups": [], 
+        "website": "http://www.boulderdigitalarts.com"
+    }, 
     "Brainstation": {
         "BCtype": "In Class", 
         "accreditation": "None", 
         "address": "460 King Street West ", 
         "address_city": "Toronto", 
         "address_country": "Canada ", 
-        "average_salary": null, 
-        "class_ratio": "1:8", 
         "class_size": "20-30 people", 
-        "cost": "$", 
+        "cost": "Full time courses: $ 8,000 Part time courses: $ 2,200", 
         "countries": "Canada ", 
         "courses": {
             "Digital Marketing": {
@@ -3491,7 +3575,6 @@
         "deposit": "Full time courses: $  500.00 + HST  Part time courses: $ 150.00 + HST ", 
         "email": "contact@brainstation.io", 
         "focus": "Javascript", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "interview": "No A tour is given ", 
         "job_assistance": "Yes", 
@@ -3506,7 +3589,6 @@
         ], 
         "min_skill_level": "", 
         "name": "Brainstation", 
-        "num_alumni": 600, 
         "num_courses": 10, 
         "num_locations": 5, 
         "payments": null, 
@@ -3514,17 +3596,10 @@
         "placement_test": "No ", 
         "prep_work": "Yes", 
         "primary_city": "New York", 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
         "started": "2012", 
-        "su_num_reviews": 30, 
-        "su_rating": 4.7, 
-        "subjects": "Intro to Web Development, Intro to iOS Development, UX Design, Visual Design, Digital Marketing, Product Management, Intermediate Web Development, Wed Development Immersive", 
         "technologies": [
             "Design", 
             "User Experience Design", 
@@ -3546,7 +3621,6 @@
         "time_per_week": "FT: 40+ hours Part Time:  3h", 
         "tracking_groups": [
             "Toronto", 
-            "Potential Market", 
             "Toronto"
         ], 
         "tracks": [
@@ -3560,7 +3634,7 @@
         "twitter": {
             "followers": 6862, 
             "handle": "@BrainStation", 
-            "tweets": 7056
+            "tweets": 7055
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -3716,10 +3790,10 @@
         "time_per_week": "50hrs", 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "Data Science", 
-            "Full-Stack Web Development"
+            "Other", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 571, 
@@ -3884,9 +3958,6 @@
     }, 
     "Careerfoundry": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:4", 
-        "cost": "$", 
         "courses": {
             "UI Designer": {
                 "cost": 2999, 
@@ -3948,13 +4019,11 @@
         "cr_num_reviews": 50, 
         "cr_rating": 4.2, 
         "email": "olivia@careerfoundry.com", 
-        "hiring_rate": "No data", 
         "housing": "\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
         "locations": "Online", 
         "name": "Careerfoundry", 
-        "num_alumni": null, 
         "num_courses": 4, 
         "num_locations": 1, 
         "scholarships": [
@@ -3964,9 +4033,6 @@
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 29, 
-        "su_rating": 4.5, 
-        "subjects": "HTML, CSS, Ruby, Rails, User Experience Design, User Interface Design, UX, UI, Careers", 
         "technologies": [
             "Design", 
             "User Experience Design", 
@@ -3987,7 +4053,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4784, 
+            "followers": 4783, 
             "handle": "@careerfoundry", 
             "tweets": 7051
         }, 
@@ -4241,25 +4307,6 @@
         }, 
         "visas": "No", 
         "website": "http://closer.academy"
-    }, 
-    "Code Bootcamp Usa": {
-        "average_salary": null, 
-        "class_ratio": "No data", 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Gainesville", 
-        "name": "Code Bootcamp Usa", 
-        "num_alumni": null, 
-        "num_locations": 11, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "iOS, Android", 
-        "tracking_groups": [], 
-        "website": "http://www.codebootcampusa.com/"
     }, 
     "Code Builders": {
         "accreditation": "None", 
@@ -4526,25 +4573,6 @@
         "visas": "No", 
         "website": "https://www.codecloud.me/"
     }, 
-    "Code District": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
-        "hiring_rate": "No data", 
-        "locations": "Los Angeles", 
-        "name": "Code District", 
-        "num_alumni": null, 
-        "num_locations": 11, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Full Stack Web Development, Angularjs and Angular 2, React.js, Node.js, Javascript,  C#.net, Python, MongoDB, Wordpress, Bootstrap", 
-        "tracking_groups": [], 
-        "website": "http://codedistrict.io/"
-    }, 
     "Code Fellows": {
         "BCtype": "In-Class (Day, Nights  & Weekends options)", 
         "accreditation": "Code Fellows is a licensed Technical Education provider by the state of Washington.", 
@@ -4799,7 +4827,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 3171, 
+            "followers": 3170, 
             "handle": "@codefellows", 
             "tweets": 3589
         }, 
@@ -4845,6 +4873,9 @@
     }, 
     "Code For Progress": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Back-End Fellowship": {
                 "cost": null, 
@@ -4878,16 +4909,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@codeforprogress.org", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Washington", 
         "name": "Code For Progress", 
+        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "Python", 
             "JavaScript", 
@@ -4906,6 +4943,24 @@
         }, 
         "visas": "Housing and living stipends provided.\u00a0", 
         "website": "http://www.codeforprogress.org/"
+    }, 
+    "Code Ingenious": {
+        "average_salary": null, 
+        "class_ratio": "1 : 1", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Code Ingenious", 
+        "num_alumni": 15, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Angular 2.0, React.js, Riot.js, Electron, Node.js etc", 
+        "tracking_groups": [], 
+        "website": "http://codeingenious.com/"
     }, 
     "Code Institute": {
         "accreditation": "Credit-rated by Edinburgh Napier University. Graduates are also awarded a globally recognized Diploma in Software Development.", 
@@ -4950,7 +5005,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1605, 
+            "followers": 1604, 
             "handle": "@CodersInstitute", 
             "tweets": 3079
         }, 
@@ -5315,27 +5370,11 @@
         "visas": "No", 
         "website": "http://codeunion.io/"
     }, 
-    "Codeacademy": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Online", 
-        "name": "Codeacademy", 
-        "num_alumni": null, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "subjects": "HTML & CSS, Javascript, jQuery, Python, Ruby, PHP", 
-        "tracking_groups": [], 
-        "website": "http://www.codecademy.com/"
-    }, 
     "Codeacamp": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Ruby on Rails Bootcamp": {
                 "cost": null, 
@@ -5359,16 +5398,22 @@
         "cr_num_reviews": 4, 
         "cr_rating": 5.0, 
         "email": null, 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Mexico City", 
         "name": "Codeacamp", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "MySQL", 
             "JavaScript", 
@@ -5388,8 +5433,29 @@
         "visas": "No", 
         "website": "http://www.codea.mx/"
     }, 
+    "Codecademy": {
+        "average_salary": null, 
+        "class_ratio": "No data", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Codecademy", 
+        "num_alumni": null, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 3, 
+        "su_rating": 4.5, 
+        "subjects": "Web, Javascript, PHP, Ruby, Python, API", 
+        "tracking_groups": [], 
+        "website": "http://www.codecademy.com/"
+    }, 
     "Codecamp Charleston": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "No data", 
+        "cost": "$", 
         "courses": {
             "JavaScript 101": {
                 "cost": 250, 
@@ -5495,16 +5561,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@chscodecamp.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Charleston", 
         "name": "Codecamp Charleston", 
+        "num_alumni": null, 
         "num_courses": 8, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Web Basics, JavaScript, MySQL, PHP 101, and Ruby 101", 
         "technologies": [
             "PHP", 
             "SQL", 
@@ -5527,6 +5599,9 @@
     }, 
     "Codeclan": {
         "accreditation": "Scottish Qualification Authority", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Software Development": {
                 "cost": null, 
@@ -5549,16 +5624,22 @@
         "cr_num_reviews": 4, 
         "cr_rating": 4.5, 
         "email": "info@codeclan.co.uk", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Edinburgh", 
         "name": "Codeclan", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 4, 
+        "su_rating": 4.8, 
+        "subjects": null, 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -6218,8 +6299,10 @@
         "address": "11200 Broadway Str. STE 2701,  Pearland, TX, 77584", 
         "address_city": null, 
         "address_country": "USA", 
+        "average_salary": 70000, 
+        "class_ratio": "10:1", 
         "class_size": "10 people", 
-        "cost": "$9,900 $11,900", 
+        "cost": "$$$", 
         "countries": "USA", 
         "courses": {
             "Full Stack .NET + JavaScript": {
@@ -6260,6 +6343,7 @@
         "deposit": "$2.500", 
         "email": "howdy@codercamps.com", 
         "focus": ".NET Javascript Objective C iOS", 
+        "hiring_rate": 90.0, 
         "housing": null, 
         "interview": "Skype", 
         "job_assistance": "Yes", 
@@ -6274,6 +6358,7 @@
         ], 
         "min_skill_level": "Basic computer skills", 
         "name": "Coder Camps", 
+        "num_alumni": 450, 
         "num_courses": 2, 
         "num_locations": 5, 
         "payments": "After graduation", 
@@ -6281,10 +6366,17 @@
         "placement_test": "No", 
         "prep_work": "Yes", 
         "primary_city": "San Francisco", 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
         "started": "6/13/2014", 
+        "su_num_reviews": 28, 
+        "su_rating": 4.2, 
+        "subjects": "Full Stack JavaScript, Full Stack .NET, Full Stack Java, Coding From Scratch", 
         "technologies": [
             "JavaScript", 
             ".NET", 
@@ -6302,12 +6394,12 @@
         "time_per_week": "60 hours", 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
             "Front-End Web Development", 
+            "Mobile Development", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 981, 
+            "followers": 980, 
             "handle": "@CoderCamps", 
             "tweets": 767
         }, 
@@ -6414,10 +6506,8 @@
         "address": "1231 Shields Road, Suite 5 Kernersville, NC 27310", 
         "address_city": "Greensboro, NC", 
         "address_country": "USA", 
-        "average_salary": 75000, 
-        "class_ratio": "1:7", 
         "class_size": "", 
-        "cost": "$$$", 
+        "cost": "$9,900", 
         "countries": "USA", 
         "courses": {
             "Full Stack Accelerated": {
@@ -6465,7 +6555,6 @@
         "deposit": "$1,000", 
         "email": "info@coderfoundry.com", 
         "focus": ".NET C # AngularJS", 
-        "hiring_rate": 95.0, 
         "housing": null, 
         "interview": "Yes", 
         "job_assistance": "Yes", 
@@ -6477,7 +6566,6 @@
         ], 
         "min_skill_level": "", 
         "name": "Coder Foundry", 
-        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 2, 
         "payments": "Depends on Financing", 
@@ -6485,14 +6573,10 @@
         "placement_test": "No", 
         "prep_work": "Yes", 
         "primary_city": "Greensboro", 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
         "started": "2014", 
-        "su_num_reviews": 28, 
-        "su_rating": 4.9, 
-        "subjects": ".NET, Javascript, HTML5, CSS3, AngularJS, C#, MVC", 
         "technologies": [
             "AngularJS", 
             "Front End", 
@@ -6516,38 +6600,32 @@
         "visas": "No", 
         "website": "http://www.coderfoundry.com/"
     }, 
-    "Coder Manual": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
-        "hiring_rate": "No data", 
-        "locations": null, 
-        "name": "Coder Manual", 
-        "num_alumni": null, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
-        "tracking_groups": [], 
-        "website": "https://codermanual.com/"
-    }, 
     "Coder Vox": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$$", 
         "cr_num_reviews": 2, 
         "cr_rating": 4.5, 
         "email": "info@codervox.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Online", 
         "name": "Coder Vox", 
+        "num_alumni": null, 
         "num_locations": 1, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 9, 
+        "su_rating": 4.8, 
+        "subjects": "PHP, HTML, CSS, JavaScript, jQuery", 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
@@ -6610,9 +6688,6 @@
     }, 
     "Coderoute": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$$$", 
         "courses": {
             "PHP Bootcamp": {
                 "cost": null, 
@@ -6629,22 +6704,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "getinvolved@coderoute.co.uk", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "London", 
         "name": "Coderoute", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "PHP, MySQL, CSS3, HTML5, GIT", 
         "technologies": "PHP", 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
@@ -6652,24 +6721,24 @@
         "visas": "No", 
         "website": "http://coderoute.co.uk"
     }, 
-    "Coders Lab": {
+    "Coderschool": {
         "average_salary": null, 
-        "class_ratio": "No data", 
-        "cost": "$$$", 
+        "class_ratio": "10:1", 
+        "cost": null, 
         "hiring_rate": "No data", 
-        "locations": "Warsaw", 
-        "name": "Coders Lab", 
-        "num_alumni": null, 
-        "num_locations": 6, 
+        "locations": "Ho Chi Minh", 
+        "name": "Coderschool", 
+        "num_alumni": 99, 
+        "num_locations": 11, 
         "scholarships": null, 
         "sources": [
             "SwitchUp"
         ], 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "subjects": "Ruby, Rails", 
+        "subjects": "iOS, Android, Ruby on Rails", 
         "tracking_groups": [], 
-        "website": "http://coderslab.pl/"
+        "website": "http://www.coderschool.vn/"
     }, 
     "Coderversity": {
         "accreditation": "None", 
@@ -6786,25 +6855,6 @@
         "visas": "No", 
         "website": "http://www.coderversity.com/"
     }, 
-    "Codeschool": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Online", 
-        "name": "Codeschool", 
-        "num_alumni": null, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 2, 
-        "su_rating": 5.0, 
-        "subjects": "Ruby, Javascript, HTML, CSS, IOS", 
-        "tracking_groups": [], 
-        "website": "http://mbsy.co/CodeSchool/18240821"
-    }, 
     "Codesmith": {
         "BCtype": "In class", 
         "accreditation": "None", 
@@ -6892,6 +6942,9 @@
     }, 
     "Codeu": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Java Bootcamp": {
                 "cost": null, 
@@ -6908,16 +6961,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "team@codeU.us", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Atlanta", 
         "name": "Codeu", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": "Java", 
         "tracking_groups": [], 
         "tracks": [
@@ -7103,7 +7162,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 183, 
+            "followers": 184, 
             "handle": "@codeworksbcn", 
             "tweets": 109
         }, 
@@ -7247,6 +7306,9 @@
     }, 
     "Coding Bootcamp Praha": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$", 
         "courses": {
             "Full-Stack Web Development": {
                 "cost": null, 
@@ -7275,16 +7337,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "ask@data4you.cz", 
+        "hiring_rate": "No data", 
         "housing": "We help our students find suitable housing.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Prague", 
         "name": "Coding Bootcamp Praha", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "MySQL", 
             "AngularJS", 
@@ -7606,10 +7674,8 @@
         "address": "332 South Michigan Ave", 
         "address_city": "Chicago", 
         "address_country": "USA", 
-        "average_salary": null, 
-        "class_ratio": "1:5", 
         "class_size": "8-10 people", 
-        "cost": "$$", 
+        "cost": " (Full time)   (Part time) ", 
         "countries": "USA", 
         "courses": {
             "ASP.NET MVC BOOTCAMP": {
@@ -7666,7 +7732,6 @@
         "deposit": "$1000 ", 
         "email": "info@codingtemple.com", 
         "focus": ".NET Javascript", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "interview": "Yes Background interview + technical interview", 
         "job_assistance": "Yes", 
@@ -7675,7 +7740,6 @@
         "locations": "Chicago", 
         "min_skill_level": "", 
         "name": "Coding Temple", 
-        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
         "payments": "Installment or 9-Month Payment Plan", 
@@ -7688,9 +7752,6 @@
             "CourseReport"
         ], 
         "started": "April 2015", 
-        "su_num_reviews": 4, 
-        "su_rating": 5.0, 
-        "subjects": ".Net, Ruby, CSS, HTML, JavaScript, C#, jQuery", 
         "technologies": [
             "MySQL", 
             "AngularJS", 
@@ -8149,7 +8210,6 @@
         ], 
         "tracking_groups": [
             "Toronto", 
-            "Potential Market", 
             "Toronto"
         ], 
         "tracks": [
@@ -8158,7 +8218,7 @@
             "Data Science"
         ], 
         "twitter": {
-            "followers": 3404, 
+            "followers": 3405, 
             "handle": "@DataScienceDojo", 
             "tweets": 3988
         }, 
@@ -8308,7 +8368,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 4964, 
+            "followers": 4963, 
             "handle": "@dataScienceRet", 
             "tweets": 2034
         }, 
@@ -8332,9 +8392,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 7276, 
+            "followers": 7275, 
             "handle": "@DataCamp", 
-            "tweets": 1716
+            "tweets": 1715
         }, 
         "visas": "No", 
         "website": "https://www.datacamp.com/"
@@ -8463,10 +8523,10 @@
         "time_per_week": "40 hours", 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 1640, 
@@ -8624,6 +8684,9 @@
     }, 
     "Deep Dive Coding": {
         "accreditation": "Beginning July 2016 cohort", 
+        "average_salary": 45000, 
+        "class_ratio": "1:4", 
+        "cost": "$$", 
         "courses": {
             "Web Development & Programming": {
                 "cost": null, 
@@ -8650,16 +8713,25 @@
         "cr_num_reviews": 5, 
         "cr_rating": 4.2, 
         "email": "info@stemuluscenter.org", 
+        "hiring_rate": "No data", 
         "housing": "Yes, partnership with University Village Hotel", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Albuquerque", 
         "name": "Deep Dive Coding", 
+        "num_alumni": 83, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 1, 
+        "su_rating": 4.0, 
+        "subjects": "Web Development & PHP Programming Bootcamp", 
         "technologies": [
             "MySQL", 
             "AngularJS", 
@@ -8921,6 +8993,9 @@
     }, 
     "Designation": {
         "accreditation": "None", 
+        "average_salary": 60500, 
+        "class_ratio": "1:3", 
+        "cost": "$$$", 
         "courses": {
             "Design Essentials (Online, Part-time)": {
                 "cost": null, 
@@ -8978,6 +9053,7 @@
         "cr_num_reviews": 32, 
         "cr_rating": 4.9, 
         "email": "team@designation.io", 
+        "hiring_rate": 95.0, 
         "housing": "Student group rates available at Chicago Getaway Hostel (getawayhostel.com)", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -8986,11 +9062,16 @@
             "Online"
         ], 
         "name": "Designation", 
+        "num_alumni": null, 
         "num_courses": 4, 
         "num_locations": 2, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 29, 
+        "su_rating": 4.8, 
+        "subjects": "web design, html, css, javascript, ux, ixd, ui, design", 
         "technologies": [
             "Front End", 
             "Design", 
@@ -9000,8 +9081,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 16200, 
@@ -9115,6 +9196,9 @@
     }, 
     "Dev Academy": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$$$", 
         "courses": {
             "Dev Academy": {
                 "cost": null, 
@@ -9136,16 +9220,25 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": null, 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Wellington", 
         "name": "Dev Academy", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 11, 
+        "su_rating": 4.4, 
+        "subjects": "Full stack Javascript ES5/6/7, HTML5, CSS3, Object Orientated Programming, SQL, noSQL databases, pair programming, Agile, Behaviour driven development and test driven development. ", 
         "technologies": [
             ".NET", 
             "HTML", 
@@ -9159,7 +9252,7 @@
         "twitter": {
             "followers": 1266, 
             "handle": "@DevAcademyNZ", 
-            "tweets": 1214
+            "tweets": 1213
         }, 
         "visas": "No", 
         "website": "http://devacademy.co.nz/"
@@ -9254,25 +9347,6 @@
         "visas": "No", 
         "website": "http://devbootcamp.com/"
     }, 
-    "Dev League": {
-        "average_salary": null, 
-        "class_ratio": "1:6", 
-        "cost": "$$", 
-        "hiring_rate": 90.0, 
-        "locations": "Honolulu", 
-        "name": "Dev League", 
-        "num_alumni": 62, 
-        "num_locations": 8, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 21, 
-        "su_rating": 4.9, 
-        "subjects": " JavaScript, HTML, CSS, AngularJS, Node.js, Backbone.js, JQuery, D3", 
-        "tracking_groups": [], 
-        "website": "http://www.devleague.com"
-    }, 
     "Dev/Iowa Bootcamp": {
         "accreditation": "Program run with University of Iowa", 
         "courses": {
@@ -9311,7 +9385,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2374, 
+            "followers": 2373, 
             "handle": "@iowajpec", 
             "tweets": 3643
         }, 
@@ -9491,36 +9565,10 @@
         "twitter": {
             "followers": 969, 
             "handle": "@devcodecamp", 
-            "tweets": 696
+            "tweets": 695
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
-    }, 
-    "Developer Bootcamp": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$$", 
-        "hiring_rate": "No data", 
-        "locations": [
-            "Chelmsford", 
-            "Dallas", 
-            "Chicago", 
-            "Houston", 
-            "San Jose", 
-            "Online"
-        ], 
-        "name": "Developer Bootcamp", 
-        "num_alumni": null, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Java, Mobile App Development, .NET, SharePoint, SQL, UNIX/Linux, Web Development, Windows System Administration", 
-        "tracking_groups": [], 
-        "website": "http://www.developer-bootcamp.com/index.htm"
     }, 
     "Developme_": {
         "accreditation": "None", 
@@ -9867,7 +9915,7 @@
         "twitter": {
             "followers": 7520, 
             "handle": "@DevMtn", 
-            "tweets": 1822
+            "tweets": 1821
         }, 
         "visas": "No", 
         "website": "http://devmounta.in/"
@@ -10233,6 +10281,28 @@
         "visas": "No", 
         "website": "https://devschool.rocks/"
     }, 
+    "Devschool Io": {
+        "average_salary": null, 
+        "class_ratio": "1:14", 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "Allendale", 
+        "name": "Devschool Io", 
+        "num_alumni": 7, 
+        "num_locations": 9, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "JavaScript, Jquery, Meteor, MongoDB, Ruby, Rails, APIs", 
+        "tracking_groups": [], 
+        "website": "https://devschool.io/"
+    }, 
     "Devstream": {
         "accreditation": "None", 
         "courses": {
@@ -10476,7 +10546,7 @@
         "tracking_groups": [], 
         "tracks": "Digital Marketing", 
         "twitter": {
-            "followers": 1624, 
+            "followers": 1626, 
             "handle": "@ChiDPI", 
             "tweets": 4670
         }, 
@@ -10682,9 +10752,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 570, 
@@ -10853,25 +10923,6 @@
         "visas": "No", 
         "website": "http://dojodevcamp.com/"
     }, 
-    "Dots School": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Los Angeles", 
-        "name": "Dots School", 
-        "num_alumni": null, 
-        "num_locations": 11, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
-        "tracking_groups": [], 
-        "website": "http://www.dots.school/"
-    }, 
     "Ehd Academy": {
         "accreditation": "None", 
         "courses": {
@@ -10909,8 +10960,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Digital Marketing", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Digital Marketing"
         ], 
         "twitter": {
             "followers": 448, 
@@ -11322,11 +11373,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Data Science", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Data Science", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 1732, 
@@ -11336,8 +11387,33 @@
         "visas": "No", 
         "website": "http://elevenfifty.org"
     }, 
+    "Eleven Fifty Coding Academy": {
+        "average_salary": null, 
+        "class_ratio": "2:15-20", 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": [
+            "Indianapolis", 
+            "Honolulu"
+        ], 
+        "name": "Eleven Fifty Coding Academy", 
+        "num_alumni": 800, 
+        "num_locations": 2, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 11, 
+        "su_rating": 5.0, 
+        "subjects": "iOS, Android, Java, JavaScript, .NET, Ruby on Rails, Big Data, Intro to Coding, Security, Unity, Programming Fundamentals,  Python", 
+        "tracking_groups": [], 
+        "website": "http://elevenfiftyacademy.org"
+    }, 
     "Elium Academy": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "1:10", 
+        "cost": null, 
         "courses": {
             "Corporate Track": {
                 "cost": 2000, 
@@ -11377,16 +11453,22 @@
         "cr_num_reviews": 1, 
         "cr_rating": 5.0, 
         "email": "sophie@elium.academy", 
+        "hiring_rate": 100.0, 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Brussels", 
         "name": "Elium Academy", 
+        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 4, 
+        "su_rating": 5.0, 
+        "subjects": "Node.js, Javascript", 
         "technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -11720,6 +11802,9 @@
     }, 
     "Epicu": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "One Year Trade School": {
                 "cost": null, 
@@ -11738,16 +11823,22 @@
         "cr_num_reviews": 2, 
         "cr_rating": 3.0, 
         "email": "epicuschool@gmail.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Dallas", 
         "name": "Epicu", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -11765,9 +11856,6 @@
     }, 
     "Evolve Security Academy": {
         "accreditation": "None", 
-        "average_salary": 65000, 
-        "class_ratio": "1:8", 
-        "cost": null, 
         "courses": {
             "Cyber Security (Full-time)": {
                 "cost": null, 
@@ -11791,22 +11879,17 @@
         "cr_num_reviews": 2, 
         "cr_rating": 5.0, 
         "email": "INFO@EVOLVEACADEMY.IO", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Chicago", 
         "name": "Evolve Security Academy", 
-        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
         "scholarships": "$500 Evolve Security Academy Scholarship", 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 3, 
-        "su_rating": 5.0, 
-        "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
         "technologies": null, 
         "tracking_groups": [], 
         "tracks": "Other", 
@@ -12162,47 +12245,6 @@
         }, 
         "visas": "No", 
         "website": "http://foundersandcoders.org/"
-    }, 
-    "Founders And Coders": {
-        "average_salary": null, 
-        "class_ratio": "1:4", 
-        "cost": "$", 
-        "hiring_rate": 0.0, 
-        "locations": "London", 
-        "name": "Founders And Coders", 
-        "num_alumni": 80, 
-        "num_locations": 6, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 41, 
-        "su_rating": 5.0, 
-        "subjects": "JavaScript, Node.js, React", 
-        "tracking_groups": [], 
-        "website": "http://foundersandcoders.org/"
-    }, 
-    "Free Code Camp": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Online", 
-        "name": "Free Code Camp", 
-        "num_alumni": 2000, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 2, 
-        "su_rating": 5.0, 
-        "subjects": "JavaScript, Node, HTML5, MongoDB, Angular, React, Express, Databases, Agile, CSS, Design, Web Development, User Experience, Full Stack, Front End", 
-        "tracking_groups": [], 
-        "website": "http://freecodecamp.com"
     }, 
     "Frontend Foundry": {
         "accreditation": "None", 
@@ -12619,7 +12661,7 @@
         "twitter": {
             "followers": 16500, 
             "handle": "@galvanize", 
-            "tweets": 6588
+            "tweets": 6586
         }, 
         "visas": "No", 
         "website": "http://www.galvanize.com/courses/"
@@ -12728,8 +12770,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Mobile Development"
+            "Mobile Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 290, 
@@ -12739,30 +12781,8 @@
         "visas": "No", 
         "website": "http://www.geekskool.com/"
     }, 
-    "Geekuni": {
-        "average_salary": 60000, 
-        "class_ratio": "1:20", 
-        "cost": "$", 
-        "hiring_rate": 95.0, 
-        "locations": "Online", 
-        "name": "Geekuni", 
-        "num_alumni": 10, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Perl,Dancer2,jQuery", 
-        "tracking_groups": [], 
-        "website": "https://geekuni.com/"
-    }, 
     "Geekwise Academy": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
         "courses": {
             "Geekwise Bootcamp I": {
                 "cost": null, 
@@ -12814,22 +12834,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@geekwiseacademy.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Fresno", 
         "name": "Geekwise Academy", 
-        "num_alumni": null, 
         "num_courses": 4, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": ".NET Programming, JavaScript, HTML5, CSS", 
         "technologies": [
             "HTML", 
             "CSS", 
@@ -13617,13 +13631,7 @@
         "su_rating": null, 
         "subjects": "HTML/CSS, JavaScript, GIT/Github, web concepts, PHP/MySQL, Angular.JS., Web Accessibility", 
         "tracking_groups": [
-            "Detroit", 
-            "Potential Market", 
-            "Buffalo", 
-            "Cincinnati", 
-            "Columbus", 
-            "Current Market", 
-            "Pittsburgh"
+            "Detroit"
         ], 
         "website": "https://www.girldevelopit.com/"
     }, 
@@ -13762,7 +13770,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 5757, 
+            "followers": 5758, 
             "handle": "@hopperacademy", 
             "tweets": 317
         }, 
@@ -13997,7 +14005,7 @@
         "twitter": {
             "followers": 287, 
             "handle": "@GXAcademy", 
-            "tweets": 167
+            "tweets": 166
         }, 
         "visas": "Yes", 
         "website": "http://www.gxacademy.com"
@@ -14076,9 +14084,6 @@
     }, 
     "Hack Pacific": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:5", 
-        "cost": null, 
         "courses": {
             "Full Stack Web Development": {
                 "cost": 78000, 
@@ -14101,25 +14106,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "hello@hackpacific.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Hong Kong", 
         "name": "Hack Pacific", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Ruby On Rails, AngularJS, HTML, CSS, Javascript, postgreSQL, git.", 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -14144,8 +14140,10 @@
         "address": "703 Market St. Suite 1700 ", 
         "address_city": "San Francisco, CA", 
         "address_country": "USA", 
+        "average_salary": 105000, 
+        "class_ratio": null, 
         "class_size": "16+16 people", 
-        "cost": "$19,780", 
+        "cost": "$$$$", 
         "countries": "USA", 
         "courses": {
             "Hack Reactor": {
@@ -14180,6 +14178,7 @@
         "deposit": "$2,000", 
         "email": "contact@hackreactor.com", 
         "focus": "Javascript", 
+        "hiring_rate": 99.0, 
         "housing": null, 
         "interview": "Skype,  In person", 
         "job_assistance": "Yes", 
@@ -14191,6 +14190,7 @@
         ], 
         "min_skill_level": "Jr. Developer", 
         "name": "Hack Reactor", 
+        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 2, 
         "payments": "Upfront", 
@@ -14198,10 +14198,14 @@
         "placement_test": "Yes", 
         "prep_work": "Yes, around 80-100h through   and  ", 
         "primary_city": "San Francisco", 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
         "started": "2012", 
+        "su_num_reviews": 33, 
+        "su_rating": 4.9, 
+        "subjects": "Algorithims, AngularJS, CoffeeScript, CSS, Data Structures, Express, Git, HTML, JavaScript, jQuery, MongoDB, MySQL, Node.js, SQL", 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -14216,7 +14220,7 @@
         "twitter": {
             "followers": 7281, 
             "handle": "@HackReactor", 
-            "tweets": 2680
+            "tweets": 2679
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -14257,8 +14261,10 @@
         "address": "683 Sutter Street ", 
         "address_city": "San Francisco", 
         "address_country": "USA", 
+        "average_salary": 89000, 
+        "class_ratio": "1:4", 
         "class_size": "", 
-        "cost": "$10,000", 
+        "cost": "$$$$", 
         "countries": "USA", 
         "courses": {
             "Introduction to Programming": {
@@ -14297,6 +14303,7 @@
         "deposit": "Yes", 
         "email": "admissions@hackbrightacademy.com", 
         "focus": "Python", 
+        "hiring_rate": 90.0, 
         "housing": "No", 
         "interview": "Yes", 
         "job_assistance": "Yes", 
@@ -14305,6 +14312,7 @@
         "locations": "San Francisco", 
         "min_skill_level": "Basic computer skills", 
         "name": "Hackbright Academy", 
+        "num_alumni": 300, 
         "num_courses": 2, 
         "num_locations": 1, 
         "payments": "Upfront, Monthly", 
@@ -14312,10 +14320,17 @@
         "placement_test": "Yes", 
         "prep_work": null, 
         "primary_city": "San Francisco", 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
         "started": "2012", 
+        "su_num_reviews": 22, 
+        "su_rating": 4.4, 
+        "subjects": "Python, JavaScript, HTML, Git, Django, SQL, CSS", 
         "technologies": [
             "Python", 
             "JavaScript", 
@@ -14427,12 +14442,15 @@
         "address": null, 
         "address_city": "San Francisco", 
         "address_country": "USA", 
+        "average_salary": null, 
+        "class_ratio": "1 to 8", 
         "class_size": "16 people", 
-        "cost": "$5,000", 
+        "cost": "$", 
         "countries": "USA", 
         "deposit": "$1,000", 
         "email": "info@hackercodingacademy.com", 
         "focus": "Javascript", 
+        "hiring_rate": "No data", 
         "housing": "", 
         "interview": "Skype", 
         "job_assistance": "Assistance", 
@@ -14440,19 +14458,25 @@
         "locations": "San Francisco", 
         "min_skill_level": "Basic computer skills", 
         "name": "Hacker: Coding Academy", 
+        "num_alumni": null, 
         "num_locations": 13, 
         "payments": "Upfront", 
         "phone": null, 
         "placement_test": "None", 
         "prep_work": "None", 
         "primary_city": "San Francisco", 
+        "scholarships": null, 
         "sources": [
-            "BootcampsIn"
+            "SwitchUp"
         ], 
         "started": "2014", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Javascript, HTML, CSS, JQuery, SQL, NoSQL, Node.js, Angular.js, Phonegap, Parse, AWS, Heroku", 
         "time_per_week": "50-70 hours", 
         "tracking_groups": [], 
-        "visas": "No"
+        "visas": "No", 
+        "website": "http://www.hackercodingacademy.com/"
     }, 
     "Hackerforge": {
         "accreditation": "None", 
@@ -14816,7 +14840,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8533, 
+            "followers": 8532, 
             "handle": "@hackeryou", 
             "tweets": 3328
         }, 
@@ -14941,17 +14965,9 @@
                 "part_or_full": "Full Time", 
                 "title": "Full-Stack Web App Development Full-Time", 
                 "topics": [
-                    "MySQL", 
                     "AngularJS", 
-                    "Front End", 
                     "JavaScript", 
-                    "MongoDB", 
-                    "HTML", 
-                    "jQuery", 
-                    "Ruby", 
-                    "CSS", 
-                    "React.js", 
-                    "Node.js"
+                    "MongoDB"
                 ], 
                 "weekly_time": 45
             }, 
@@ -14965,12 +14981,7 @@
                 "topics": [
                     "AngularJS", 
                     "JavaScript", 
-                    "MongoDB", 
-                    "HTML", 
-                    "jQuery", 
-                    "CSS", 
-                    "React.js", 
-                    "Node.js"
+                    "MongoDB"
                 ], 
                 "weekly_time": 12
             }
@@ -14991,15 +15002,7 @@
         "technologies": [
             "AngularJS", 
             "JavaScript", 
-            "MongoDB", 
-            "HTML", 
-            "jQuery", 
-            "CSS", 
-            "React.js", 
-            "Node.js", 
-            "MySQL", 
-            "Front End", 
-            "Ruby"
+            "MongoDB"
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
@@ -15009,28 +15012,6 @@
             "tweets": 1
         }, 
         "visas": "No", 
-        "website": "https://heliotraining.com/"
-    }, 
-    "Helio Training Bootcamp": {
-        "average_salary": null, 
-        "class_ratio": "1:5", 
-        "cost": "$$", 
-        "hiring_rate": 0.0, 
-        "locations": "Salt Lake City", 
-        "name": "Helio Training Bootcamp", 
-        "num_alumni": 14, 
-        "num_locations": 14, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "JavaScript, HTTP/IP/DNS, HTML/CSS, JQuery, Angular, React, Node JS, Ruby on Rails, MongoDB, MySQL, Career Services", 
-        "tracking_groups": [], 
         "website": "https://heliotraining.com/"
     }, 
     "Holberton School": {
@@ -15142,7 +15123,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2582, 
+            "followers": 2581, 
             "handle": "@holbertonschool", 
             "tweets": 1042
         }, 
@@ -15151,6 +15132,9 @@
     }, 
     "Horizons School Of Technology": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "1:8", 
+        "cost": "$$$", 
         "courses": {
             "Full-Time Semester": {
                 "cost": null, 
@@ -15198,6 +15182,7 @@
         "cr_num_reviews": 1, 
         "cr_rating": 5.0, 
         "email": "admissions@joinhorizons.com", 
+        "hiring_rate": 0.0, 
         "housing": "Housing included in tuition costs.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -15207,11 +15192,16 @@
             "Boston"
         ], 
         "name": "Horizons School Of Technology", 
+        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 3, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Full-stack Javascript, Node.js, Express.js, React.js, React Native, MongoDB, SQL, CSS, HTML, jQuery, Object Oriented Programming, Data Structures, Algorithms, MVC architecture, APIs", 
         "technologies": [
             "JavaScript", 
             "MongoDB", 
@@ -15241,41 +15231,32 @@
         "address": "1445 New York Ave NW , Suite 200", 
         "address_city": "Washington DC, 20005", 
         "address_country": "USA", 
-        "average_salary": null, 
-        "class_ratio": "No data", 
         "class_size": "", 
-        "cost": "$", 
+        "cost": "Free", 
         "countries": "USA", 
         "deposit": null, 
         "email": "hungryacademy@livingsocial.com", 
         "focus": "", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "interview": "Yes", 
         "job_assistance": "Yes, 18-month contract at LivingSocial", 
         "length": "", 
-        "locations": null, 
+        "locations": "Washington DC", 
         "min_skill_level": "", 
         "name": "Hungry Academy", 
-        "num_alumni": null, 
         "num_locations": 13, 
         "payments": null, 
         "phone": "(202) 495-0599", 
         "placement_test": "Yes", 
         "prep_work": null, 
         "primary_city": "Washington Dc", 
-        "scholarships": null, 
         "sources": [
-            "SwitchUp"
+            "BootcampsIn"
         ], 
         "started": "3/2012", 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Ruby on Rails", 
         "time_per_week": null, 
         "tracking_groups": [], 
-        "visas": "No", 
-        "website": "http://www.hungryacademy.com"
+        "visas": "No"
     }, 
     "Icancode": {
         "accreditation": "None", 
@@ -15365,9 +15346,6 @@
     }, 
     "Ikompass": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
         "courses": {
             "Web Development Immersive": {
                 "cost": null, 
@@ -15386,22 +15364,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": null, 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Singapore", 
         "name": "Ikompass", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "PMP. ITIL, PgMP, Android Development, PMI", 
         "technologies": [
             "HTML", 
             "PHP", 
@@ -15595,7 +15567,7 @@
         "tracking_groups": [], 
         "tracks": "Other", 
         "twitter": {
-            "followers": 618, 
+            "followers": 617, 
             "handle": "@Careerbootcamps", 
             "tweets": 371
         }, 
@@ -15648,7 +15620,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3827, 
+            "followers": 3826, 
             "handle": "@InsightDataSci", 
             "tweets": 249
         }, 
@@ -16640,9 +16612,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Digital Marketing", 
+            "Other", 
             "Product Management", 
-            "Other"
+            "Digital Marketing"
         ], 
         "twitter": {
             "followers": 1169, 
@@ -16911,6 +16883,9 @@
     }, 
     "Launchcode": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$", 
         "courses": {
             "CS50X": {
                 "cost": null, 
@@ -16929,6 +16904,7 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@launchcode.org", 
+        "hiring_rate": 90.0, 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -16938,11 +16914,16 @@
             "Miami"
         ], 
         "name": "Launchcode", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 3, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "MEAN stack", 
         "technologies": [
             "JavaScript", 
             ".NET", 
@@ -17061,12 +17042,15 @@
         "address": "3803 Ray Street ", 
         "address_city": "San Diego", 
         "address_country": "USA", 
+        "average_salary": null, 
+        "class_ratio": "1:9", 
         "class_size": "20 people", 
-        "cost": "$11,000", 
+        "cost": null, 
         "countries": "USA", 
         "deposit": "$200", 
         "email": "chelsea@notch8.com", 
         "focus": "Ruby on Rails Javascript", 
+        "hiring_rate": 85.0, 
         "housing": "No", 
         "interview": "No", 
         "job_assistance": "Assistance", 
@@ -17074,19 +17058,28 @@
         "locations": "San Diego", 
         "min_skill_level": "Basic computer skills", 
         "name": "Learn", 
+        "num_alumni": 45, 
         "num_locations": 9, 
         "payments": "Yes, see description ", 
         "phone": "619-940-7848", 
         "placement_test": "No", 
         "prep_work": "Yes,  2 short paragraphs +  Javascript exercise ", 
         "primary_city": "San Diego", 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
-            "BootcampsIn"
+            "SwitchUp"
         ], 
         "started": "November 2014", 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Ruby onRails, JavaScript, HTML & CSS, Git & Source control, Github, Code Reviews & Collaboration, API & Application Connections ", 
         "time_per_week": "40 hours", 
         "tracking_groups": [], 
-        "visas": "No"
+        "visas": "No", 
+        "website": "http://learn.notch8.com/?utm_source=switchup&utm_medium=banner&utm_content=click&utm_campaign=perclick"
     }, 
     "Learn Academy": {
         "accreditation": "None", 
@@ -17311,6 +17304,9 @@
     }, 
     "Learningfuze": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "5 to 1", 
+        "cost": "$$$", 
         "courses": {
             "Full-Stack Web Development Bootcamp": {
                 "cost": 495, 
@@ -17320,17 +17316,17 @@
                 "part_or_full": "Full Time", 
                 "title": "Full-Stack Web Development Bootcamp", 
                 "topics": [
-                    "MySQL", 
-                    "AngularJS", 
-                    "Front End", 
-                    "JavaScript", 
                     "HTML", 
-                    "Git", 
+                    "CSS", 
+                    "JavaScript", 
+                    "MySQL", 
                     "PHP", 
-                    "SQL", 
+                    "AngularJS", 
+                    "Git", 
                     "jQuery", 
+                    "SQL", 
                     "User Experience Design", 
-                    "CSS"
+                    "Front End"
                 ], 
                 "weekly_time": 60
             }, 
@@ -17353,6 +17349,7 @@
         "cr_num_reviews": 26, 
         "cr_rating": 5.0, 
         "email": "support@learningfuze.com", 
+        "hiring_rate": 93.0, 
         "housing": "Housing availability depends on interest.\u00a0 Housing assistance is available.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -17361,40 +17358,47 @@
             "Irvine"
         ], 
         "name": "Learningfuze", 
+        "num_alumni": 46, 
         "num_courses": 2, 
         "num_locations": 2, 
         "scholarships": "$500 LearningFuze Scholarship", 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 10, 
+        "su_rating": 5.0, 
+        "subjects": "HTML5/CSS3, JavaScript/jQuery, PHP/MySQL, MVC ,Git/GitHub, Frameworks", 
         "technologies": [
-            "MySQL", 
-            "AngularJS", 
-            "Front End", 
-            "JavaScript", 
             "HTML", 
-            "Git", 
+            "CSS", 
+            "JavaScript", 
+            "MySQL", 
             "PHP", 
-            "SQL", 
+            "AngularJS", 
+            "Git", 
             "jQuery", 
+            "SQL", 
             "User Experience Design", 
-            "CSS"
+            "Front End"
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 148, 
             "handle": "@LearningFuze", 
-            "tweets": 322
+            "tweets": 320
         }, 
         "visas": "No", 
         "website": "http://learningfuze.com/"
     }, 
     "Learntech Labs": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Computer Science": {
                 "cost": null, 
@@ -17499,16 +17503,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@learntechlabs.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "San Francisco", 
         "name": "Learntech Labs", 
+        "num_alumni": null, 
         "num_courses": 6, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "Swift", 
             "iOS", 
@@ -17628,9 +17638,8 @@
         "address_city": "Vancouver", 
         "address_country": "Canada", 
         "average_salary": "$50,000.", 
-        "class_ratio": "7:1", 
         "class_size": "20 people", 
-        "cost": "$$", 
+        "cost": "$9,000", 
         "countries": "Canada", 
         "courses": {
             "Intro to Web Development": {
@@ -17726,7 +17735,6 @@
             "90 days": 91
         }, 
         "focus": "Ruby on Rails Javascript Objective C", 
-        "hiring_rate": 95.0, 
         "housing": "Housing options available.\u00a0", 
         "interview": "Yes,  hour-long interview in-person  or via Skype.", 
         "job_assistance": "Yes", 
@@ -17750,7 +17758,6 @@
         }, 
         "min_skill_level": "Basic computer skills", 
         "name": "Lighthouse Labs", 
-        "num_alumni": 400, 
         "num_courses": 4, 
         "num_locations": 8, 
         "payments": null, 
@@ -17758,14 +17765,10 @@
         "placement_test": "Yes, 15 questions logic assessment", 
         "prep_work": "Yes,  40-60 hours ", 
         "primary_city": "Toronto", 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
         "started": "October 2013", 
-        "su_num_reviews": 38, 
-        "su_rating": 4.6, 
-        "subjects": "Ruby on Rails, JavaScript, Node, Angular.js, Objective-C, Xcode, Swift, Sinatra, Ruby, HTML, CSS", 
         "technologies": [
             "Swift", 
             "Front End", 
@@ -17793,7 +17796,6 @@
         "time_per_week": "60+ hours ", 
         "tracking_groups": [
             "Toronto", 
-            "Potential Market", 
             "Toronto"
         ], 
         "tracks": [
@@ -17802,7 +17804,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4511, 
+            "followers": 4510, 
             "handle": "@lighthouse_labs", 
             "tweets": 6643
         }, 
@@ -18079,6 +18081,9 @@
     }, 
     "Makersquare": {
         "accreditation": "Approved and Regulated by the Texas Workforce Commission\u2014Career Schools and Colleges", 
+        "average_salary": null, 
+        "class_ratio": "1:5", 
+        "cost": "$$", 
         "courses": {
             "JavaScript Full-Stack Immersive": {
                 "cost": 16920, 
@@ -18118,6 +18123,7 @@
         "cr_num_reviews": 83, 
         "cr_rating": 4.6, 
         "email": "hello@makersquare.com", 
+        "hiring_rate": 96.0, 
         "housing": "\r\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -18128,11 +18134,16 @@
             "New York City"
         ], 
         "name": "Makersquare", 
+        "num_alumni": 500, 
         "num_courses": 2, 
         "num_locations": 4, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 25, 
+        "su_rating": 4.7, 
+        "subjects": "JavaScript", 
         "technologies": [
             "AngularJS", 
             "Front End", 
@@ -18529,7 +18540,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2672, 
+            "followers": 2671, 
             "handle": "@thisismetis", 
             "tweets": 4152
         }, 
@@ -18577,9 +18588,6 @@
     }, 
     "Midwest Hacker School": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
         "courses": {
             "Hacker School": {
                 "cost": null, 
@@ -18598,22 +18606,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": null, 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Online", 
         "name": "Midwest Hacker School", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "PHP, HTML, CSS, Javascript, JQuery, Node.js, MySQL, MongoDB, Java", 
         "technologies": [
             "Rails", 
             "Ruby"
@@ -18662,9 +18664,6 @@
     }, 
     "Mobile Makers Academy": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:25 maximum", 
-        "cost": "$$$", 
         "courses": {
             "iOS Immersive": {
                 "cost": null, 
@@ -18682,7 +18681,6 @@
         "cr_num_reviews": 17, 
         "cr_rating": 4.8, 
         "email": "hello@mobilemakers.co", 
-        "hiring_rate": 90.0, 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -18691,19 +18689,11 @@
             "San Francisco"
         ], 
         "name": "Mobile Makers Academy", 
-        "num_alumni": 0, 
         "num_courses": 1, 
         "num_locations": 2, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 7, 
-        "su_rating": 3.9, 
-        "subjects": "iOS, Swift, Objective-C, WatchKit, HealthKit, Mobile, Android", 
         "technologies": [
             "Swift", 
             "iOS", 
@@ -18778,7 +18768,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1501, 
+            "followers": 1500, 
             "handle": "@monroe_college", 
             "tweets": 2169
         }, 
@@ -19008,6 +18998,24 @@
         }, 
         "visas": "No", 
         "website": "http://nashvillesoftwareschool.com/"
+    }, 
+    "Nation Of Code": {
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Nation Of Code", 
+        "num_alumni": null, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "http://www.nationofcode.com"
     }, 
     "New York Code + Design Academy": {
         "accreditation": "None", 
@@ -19272,7 +19280,7 @@
             "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 1465, 
+            "followers": 1464, 
             "handle": "@NYCodeDesign", 
             "tweets": 1472
         }, 
@@ -19303,30 +19311,18 @@
     }, 
     "Next Academy": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:10", 
-        "cost": null, 
         "cr_num_reviews": 33, 
         "cr_rating": 3.7, 
         "email": "hello@nextacademy.com", 
-        "hiring_rate": 99.0, 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": null, 
         "name": "Next Academy", 
-        "num_alumni": 200, 
         "num_locations": 1, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "iOS mobile development bootcamp, iOS, mobile, Objective-C, swift, XCODE, Mobile design, SDKS, App distribution, Ruby, Ruby-on-Rails, Sinatra, Javascript, HTML, CSS, SQL, Full-Stack Web Development, App Development, Web Development, Coding", 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
@@ -19418,24 +19414,6 @@
         "subjects": null, 
         "tracking_groups": [], 
         "website": "https://codingbootcamp.northwestern.edu/"
-    }, 
-    "Ns Screencasts": {
-        "average_salary": null, 
-        "class_ratio": "No data", 
-        "cost": null, 
-        "hiring_rate": "No data", 
-        "locations": null, 
-        "name": "Ns Screencasts", 
-        "num_alumni": null, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 1, 
-        "su_rating": 3.5, 
-        "subjects": "iOS", 
-        "tracking_groups": [], 
-        "website": "http://nsscreencast.com/"
     }, 
     "Nyc Data Science Academy": {
         "BCtype": "In class", 
@@ -19618,6 +19596,9 @@
     }, 
     "Omaha Code School": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "1 to 16", 
+        "cost": "$$", 
         "courses": {
             "Web Development": {
                 "cost": null, 
@@ -19635,16 +19616,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "learn@omahacodeschool.com", 
+        "hiring_rate": 100.0, 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Omaha", 
         "name": "Omaha Code School", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Ruby, JavaScript, HTML, CSS, Sinatra, Ruby on Rails, CoffeeScript, PostgreSQL", 
         "technologies": [
             "Rails", 
             "Ruby"
@@ -19659,29 +19646,8 @@
         "visas": "No", 
         "website": "http://omahacodeschool.com/"
     }, 
-    "One Month Rails": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
-        "hiring_rate": "No data", 
-        "locations": null, 
-        "name": "One Month Rails", 
-        "num_alumni": null, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 1, 
-        "su_rating": 4.0, 
-        "subjects": "Ruby on Rails", 
-        "tracking_groups": [], 
-        "website": "https://onemonth.com/?mbsy=bFwH7&campaignid=15165"
-    }, 
     "Operation Spark": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
         "courses": {
             "Bootcamp": {
                 "cost": null, 
@@ -19728,22 +19694,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "admissions@operationspark.org", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
         "locations": "New Orleans", 
         "name": "Operation Spark", 
-        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
         "technologies": [
             "MySQL", 
             "Front End", 
@@ -19776,9 +19736,6 @@
     }, 
     "Orange County Code School": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$$$", 
         "courses": {
             "Full-Time Immersive": {
                 "cost": 15000, 
@@ -19803,7 +19760,6 @@
         "cr_num_reviews": 22, 
         "cr_rating": 5.0, 
         "email": null, 
-        "hiring_rate": 100.0, 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -19812,16 +19768,11 @@
             "Orange County"
         ], 
         "name": "Orange County Code School", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 2, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 14, 
-        "su_rating": 5.0, 
-        "subjects": "Full-Stack: Javascript, Node.js, Angular.js, Express.js, MondgoDB, JQuery, Heroku,HTML5, CSS3,  ", 
         "technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -19835,7 +19786,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 516, 
+            "followers": 515, 
             "handle": "@OCCSDEV", 
             "tweets": 426
         }, 
@@ -19844,6 +19795,9 @@
     }, 
     "Origin Code Academy": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Career": {
                 "cost": null, 
@@ -19867,17 +19821,22 @@
         "cr_num_reviews": 6, 
         "cr_rating": 5.0, 
         "email": "questions@origincodeacademy.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
         "locations": "San Diego", 
         "name": "Origin Code Academy", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
         "scholarships": "$500 Origin Code Academy Scholarship", 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "subjects": null, 
         "technologies": [
             "JavaScript", 
             ".NET", 
@@ -20001,8 +19960,10 @@
         "address": "2626 SW Corbett Ave ", 
         "address_city": "\r\n97201", 
         "address_country": "USA", 
+        "average_salary": 40, 
+        "class_ratio": "1 to 12", 
         "class_size": "12 people", 
-        "cost": "$8,500.  $500 discount if paid in full before the first day of class.  $300 discount if 2 $4000 payments are made as agreed during the course of class.", 
+        "cost": "$", 
         "countries": "USA", 
         "courses": {
             "Junior Developer Bootcamp": {
@@ -20027,6 +19988,7 @@
         "deposit": "None", 
         "email": "Sheri@PDXCodeGuild.com", 
         "focus": "Python Javascript", 
+        "hiring_rate": 99.0, 
         "housing": null, 
         "interview": "Yes, informal", 
         "job_assistance": "Yes", 
@@ -20035,6 +19997,7 @@
         "locations": "Portland", 
         "min_skill_level": "Basic computer skills", 
         "name": "Pdx Code Guild", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
         "payments": null, 
@@ -20042,10 +20005,17 @@
         "placement_test": "None.", 
         "prep_work": "tutorials on Codecademy, and  learnpythonthehardway/book  through chapter 12.", 
         "primary_city": "Portland", 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
         "started": "2013", 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": " Python, Django, JavaScriprt, SQL, HTML, CSS, Git, ", 
         "technologies": [
             "MySQL", 
             "Python", 
@@ -20257,12 +20227,15 @@
         "address": "1771 NW Pettygrove", 
         "address_city": "Portland, OR", 
         "address_country": "USA", 
+        "average_salary": null, 
+        "class_ratio": null, 
         "class_size": "10 people", 
-        "cost": "$7,500", 
+        "cost": "$$", 
         "countries": "USA", 
         "deposit": "$1,000", 
         "email": "info@portlandcodeschool.com", 
         "focus": "Ruby on Rails", 
+        "hiring_rate": "No data", 
         "housing": "No", 
         "interview": "Skype,  In person ", 
         "job_assistance": "Assistance", 
@@ -20270,19 +20243,25 @@
         "locations": "Portland", 
         "min_skill_level": "Basic computer skills", 
         "name": "Portland Code School", 
+        "num_alumni": null, 
         "num_locations": 8, 
         "payments": "Monthly,  After graduation", 
         "phone": "", 
         "placement_test": "Yes", 
         "prep_work": "No", 
         "primary_city": "Portland", 
+        "scholarships": null, 
         "sources": [
-            "BootcampsIn"
+            "SwitchUp"
         ], 
         "started": "3/12/2012", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Node.js, JavaScript", 
         "time_per_week": "60 hours", 
         "tracking_groups": [], 
-        "visas": "No"
+        "visas": "No", 
+        "website": "http://portlandcodeschool.com"
     }, 
     "Prime Digital Academy": {
         "accreditation": "Prime Digital Academy is licensed as a private career school with the Minnesota Office of Higher Education pursuant to Minnesota Statutes, sections 141.21 to 141.32.", 
@@ -20333,9 +20312,6 @@
     }, 
     "Product School": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1:12", 
-        "cost": "$", 
         "courses": {
             "Product Management": {
                 "cost": 3500, 
@@ -20351,7 +20327,6 @@
         "cr_num_reviews": 81, 
         "cr_rating": 4.9, 
         "email": "admissions@productschool.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -20363,16 +20338,11 @@
             "Los Angeles"
         ], 
         "name": "Product School", 
-        "num_alumni": 550, 
         "num_courses": 1, 
         "num_locations": 5, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 82, 
-        "su_rating": 4.9, 
-        "subjects": "Product Management", 
         "technologies": [
             "Digital Marketing", 
             "Product Management", 
@@ -20534,7 +20504,6 @@
         ], 
         "tracking_groups": [
             "Toronto", 
-            "Potential Market", 
             "Toronto"
         ], 
         "tracks": [
@@ -20544,7 +20513,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1585, 
+            "followers": 1586, 
             "handle": "@RedAcademy", 
             "tweets": 1437
         }, 
@@ -20642,8 +20611,9 @@
         "address_city": "Boulder, CO", 
         "address_country": "USA", 
         "average_salary": "$64,140.", 
+        "class_ratio": "1:6", 
         "class_size": "20-40 people", 
-        "cost": "$13,500", 
+        "cost": "$$$", 
         "countries": "USA", 
         "courses": {
             "Advanced Backend Web Development": {
@@ -20864,6 +20834,7 @@
             "90 days": 92
         }, 
         "focus": "Javascript", 
+        "hiring_rate": 96.0, 
         "housing": "RefactorU House", 
         "interview": "Skype In person  Google+", 
         "job_assistance": "Yes", 
@@ -20881,6 +20852,7 @@
         }, 
         "min_skill_level": "Basic computer skills", 
         "name": "Refactoru", 
+        "num_alumni": 140, 
         "num_courses": 17, 
         "num_locations": 2, 
         "payments": "Upfront***", 
@@ -20888,10 +20860,14 @@
         "placement_test": "No", 
         "prep_work": "Yes", 
         "primary_city": "Boulder", 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
         "started": "1/13/2013", 
+        "su_num_reviews": 22, 
+        "su_rating": 4.5, 
+        "subjects": " JavaScript,Node.js, Bootstrap, CSS3, Git, Grunt, HTML5, jade, Jasmine, jQuery, JSON, MongoDB, ", 
         "technologies": [
             "HTML", 
             "CSS", 
@@ -20911,24 +20887,6 @@
         }, 
         "visas": "No", 
         "website": "http://refactoru.com/"
-    }, 
-    "Rmotr Com": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": null, 
-        "name": "Rmotr Com", 
-        "num_alumni": null, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Python, javascript, React", 
-        "tracking_groups": [], 
-        "website": "https://rmotr.com"
     }, 
     "Rmotr.Com": {
         "accreditation": "None", 
@@ -21060,8 +21018,10 @@
         "address": "", 
         "address_city": "Ubud, ", 
         "address_country": "Indonesia", 
+        "average_salary": null, 
+        "class_ratio": "1:4", 
         "class_size": "", 
-        "cost": "$10,500 / 9 weeks $6,000 / 4 weeks", 
+        "cost": "$$", 
         "countries": "Indonesia Canada", 
         "courses": {
             "Casually Impressive: Building on the Basic": {
@@ -21119,6 +21079,7 @@
         "deposit": "40%", 
         "email": null, 
         "focus": "Ruby on Rails", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "interview": "Skype", 
         "job_assistance": "Yes", 
@@ -21131,6 +21092,7 @@
         ], 
         "min_skill_level": "Basic computer skills", 
         "name": "Ruby On The Beach", 
+        "num_alumni": 8, 
         "num_courses": 4, 
         "num_locations": 3, 
         "payments": "Upfront", 
@@ -21138,10 +21100,17 @@
         "placement_test": "yes", 
         "prep_work": "Pre course  assignments, optional", 
         "primary_city": "Toronto", 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
         "started": "9/2013", 
+        "su_num_reviews": 5, 
+        "su_rating": 4.4, 
+        "subjects": "Ruby on Rails, Ruby, dev basics, Postgresql", 
         "technologies": [
             "Rails", 
             "Ruby", 
@@ -21160,6 +21129,9 @@
     }, 
     "Rutgers Coding Bootcamp": {
         "accreditation": "Yes", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Full Stack Flex": {
                 "cost": 10000, 
@@ -21185,6 +21157,7 @@
         "cr_num_reviews": 27, 
         "cr_rating": 4.3, 
         "email": "codingbootcamp@docs.rutgers.edu", 
+        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -21193,12 +21166,16 @@
             "Somerset"
         ], 
         "name": "Rutgers Coding Bootcamp", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 2, 
         "scholarships": "$500 Rutgers Coding Bootcamp Scholarship", 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "MySQL", 
             "Front End", 
@@ -21731,7 +21708,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 350, 
+            "followers": 349, 
             "handle": "@SDCodeBootcamp", 
             "tweets": 1338
         }, 
@@ -21740,9 +21717,6 @@
     }, 
     "Secureset Academy": {
         "accreditation": "Yes", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
         "courses": {
             "CORE Cyber Security ": {
                 "cost": 19950, 
@@ -21758,22 +21732,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@secureset.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Denver", 
         "name": "Secureset Academy", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
         "technologies": null, 
         "tracking_groups": [], 
         "tracks": "Other", 
@@ -21790,47 +21758,32 @@
         "address": "800 Grant Street,  Suite 120.", 
         "address_city": "Denver", 
         "address_country": "USA", 
-        "average_salary": 30000, 
-        "class_ratio": "2:15", 
         "class_size": "12-30 people", 
-        "cost": "$$", 
+        "cost": "$6,000", 
         "countries": "USA", 
         "deposit": null, 
         "email": "patrick@seedpaths.com ", 
         "focus": "Javascript .NET C#", 
-        "hiring_rate": 84.0, 
         "housing": "No", 
         "interview": "in-person or  video interview", 
         "job_assistance": "Assistance", 
         "length": "8 weeks", 
-        "locations": [
-            "Denver", 
-            "Boulder"
-        ], 
+        "locations": "Denver", 
         "min_skill_level": "Basic computer skills Jr. Developer", 
         "name": "Seedpaths", 
-        "num_alumni": 44, 
-        "num_locations": 2, 
+        "num_locations": 6, 
         "payments": null, 
         "phone": "603-762-1729", 
         "placement_test": "Yes", 
         "prep_work": "Yes", 
         "primary_city": "Denver", 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
-            "SwitchUp"
+            "BootcampsIn"
         ], 
         "started": "January 2014", 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "subjects": ".NET, C#, JavaScript, SQL, HTML, CSS, jQuery plus professional development", 
         "time_per_week": "60-65 hours ", 
         "tracking_groups": [], 
-        "visas": "No", 
-        "website": "http://seedpaths.com/"
+        "visas": "No"
     }, 
     "Sharptop Co.": {
         "accreditation": "None", 
@@ -21914,9 +21867,6 @@
     }, 
     "Shillington School": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$$$", 
         "courses": {
             "Graphic Design Course": {
                 "cost": null, 
@@ -21933,22 +21883,16 @@
         "cr_num_reviews": 7, 
         "cr_rating": 4.3, 
         "email": "newyork@shillingtonschool.com", 
-        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "New York City", 
         "name": "Shillington School", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 3, 
-        "su_rating": 5.0, 
-        "subjects": "Design", 
         "technologies": "Design", 
         "tracking_groups": [], 
         "tracks": [
@@ -22045,9 +21989,6 @@
     }, 
     "Simplon": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
         "courses": {
             "Ruby on Rails Bootcamp": {
                 "cost": null, 
@@ -22069,7 +22010,6 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "inbox@simplon.co", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -22078,16 +22018,11 @@
             "Paris"
         ], 
         "name": "Simplon", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 2, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "subjects": null, 
         "technologies": [
             "HTML", 
             "Git", 
@@ -22183,9 +22118,6 @@
     }, 
     "Skillcrush": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
         "courses": {
             "Freelance WordPress Developer Blueprint": {
                 "cost": 399, 
@@ -22263,22 +22195,16 @@
         "cr_num_reviews": 68, 
         "cr_rating": 4.5, 
         "email": "hello@skillcrush.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Online", 
         "name": "Skillcrush", 
-        "num_alumni": null, 
         "num_courses": 5, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 58, 
-        "su_rating": 4.7, 
-        "subjects": "HTML, CSS, Ruby, JavaScript, jQuery, User Experience Design", 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -22303,7 +22229,7 @@
         "twitter": {
             "followers": 14600, 
             "handle": "@Skillcrush", 
-            "tweets": 15600
+            "tweets": 15500
         }, 
         "visas": "No", 
         "website": "http://skillcrush.com/skillcrush-blueprints/"
@@ -22365,27 +22291,18 @@
     }, 
     "Smart Factory": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": "1 to 7", 
-        "cost": "$", 
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "go@smartfactory.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Minneapolis", 
         "name": "Smart Factory", 
-        "num_alumni": 70, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "subjects": "Ruby on Rails, iOS, Android, SEO", 
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
@@ -22551,17 +22468,17 @@
             "CourseReport"
         ], 
         "technologies": [
+            "C#", 
+            ".NET", 
+            "ASP.NET", 
+            "HTML", 
+            "CSS", 
+            "JavaScript", 
+            "jQuery", 
             "AngularJS", 
             "Front End", 
-            "JavaScript", 
-            ".NET", 
-            "HTML", 
             "Git", 
-            "C#", 
-            "ASP.NET", 
             "SQL", 
-            "jQuery", 
-            "CSS", 
             "MySQL", 
             "Java"
         ], 
@@ -22577,9 +22494,6 @@
     }, 
     "Spiced Academy": {
         "accreditation": "None", 
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": null, 
         "courses": {
             "Full Stack Web Development": {
                 "cost": null, 
@@ -22601,22 +22515,16 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "info@spiced-academy.com", 
-        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Berlin", 
         "name": "Spiced Academy", 
-        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
         "technologies": [
             "JavaScript", 
             "HTML", 
@@ -22861,8 +22769,10 @@
         "address": "222 W Merchandise  Mart Plaza ", 
         "address_city": "Chicago, IL", 
         "address_country": "USA", 
+        "average_salary": 70000, 
+        "class_ratio": "1 to 12", 
         "class_size": "20-28 people", 
-        "cost": "$8,000", 
+        "cost": "$$", 
         "countries": "USA", 
         "courses": {
             "Advanced HTML & CSS": {
@@ -22987,6 +22897,7 @@
         "deposit": "$8,000", 
         "email": "hello@startleague.com", 
         "focus": "Ruby on Rails", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "interview": "Yes", 
         "job_assistance": "Yes", 
@@ -22995,6 +22906,7 @@
         "locations": "Chicago", 
         "min_skill_level": "Basic computer skills", 
         "name": "Starter League", 
+        "num_alumni": 1000, 
         "num_courses": 8, 
         "num_locations": 1, 
         "payments": "Upfront", 
@@ -23007,6 +22919,9 @@
             "CourseReport"
         ], 
         "started": "2011", 
+        "su_num_reviews": 10, 
+        "su_rating": 5.0, 
+        "subjects": " Programming, Design, Product Development, Entrepreneurship, Visual Design, JavaScript, User Experience", 
         "technologies": [
             "HTML", 
             "Git", 
@@ -23040,6 +22955,9 @@
     }, 
     "Startup Ignition": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "1:8", 
+        "cost": null, 
         "courses": {
             "Entrepreneur Bootcamp": {
                 "cost": null, 
@@ -23059,16 +22977,22 @@
         "cr_num_reviews": 2, 
         "cr_rating": 5.0, 
         "email": "info@startupignition.com", 
+        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Provo", 
         "name": "Startup Ignition", 
+        "num_alumni": 60, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Entrepreneurship, Lean Startup", 
         "technologies": [
             "Digital Marketing", 
             "Product Management", 
@@ -23317,20 +23241,61 @@
         "visas": "No", 
         "website": "https://www.startupinstitute.com/?utm_medium=referral&utm_source=course_report&utm_campaign=gbl_course_report_prof_011416"
     }, 
+    "Steer": {
+        "average_salary": null, 
+        "class_ratio": "1:7", 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "London", 
+        "name": "Steer", 
+        "num_alumni": 400, 
+        "num_locations": 6, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "HTML, CSS, JavaScript, Ruby on Rails, iOS, Data Visualisation", 
+        "tracking_groups": [], 
+        "website": "https://www.steer.me/"
+    }, 
+    "Supacoderz": {
+        "average_salary": null, 
+        "class_ratio": "No data", 
+        "cost": "$$", 
+        "hiring_rate": "No data", 
+        "locations": "London", 
+        "name": "Supacoderz", 
+        "num_alumni": null, 
+        "num_locations": 6, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": ".NET", 
+        "tracking_groups": [], 
+        "website": "http://www.supacoderz.com/"
+    }, 
     "Sydney Dev Camp": {
         "BCtype": "In class", 
         "accreditation": "None", 
         "address": null, 
         "address_city": "Sydney", 
         "address_country": "Australia", 
+        "average_salary": null, 
+        "class_ratio": null, 
         "class_size": "", 
-        "cost": "AUD 8,000 Appox $8,400", 
+        "cost": "$$", 
         "countries": "Australia", 
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "deposit": null, 
         "email": "info@sydneydevcamp.com", 
         "focus": "", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "interview": "Skype, In person ", 
         "job_assistance": "Yes", 
@@ -23339,16 +23304,21 @@
         "locations": "Sydney", 
         "min_skill_level": "", 
         "name": "Sydney Dev Camp", 
+        "num_alumni": null, 
         "num_locations": 1, 
         "payments": "Upfront AUD 1,000 discount  when paid upfront", 
         "phone": "+61435890758", 
         "placement_test": "No", 
         "prep_work": "Yes", 
         "primary_city": "Sydney", 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
         "started": "11/12/2012", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Ruby, Rails, JavaScript, Mobile", 
         "time_per_week": "50 hours", 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
@@ -23431,7 +23401,7 @@
         "twitter": {
             "followers": 2259, 
             "handle": "@tag_school", 
-            "tweets": 2644
+            "tweets": 2645
         }, 
         "visas": "No", 
         "website": "http://innovationschool.talentgarden.org/"
@@ -23511,25 +23481,6 @@
         }, 
         "visas": "No", 
         "website": "http://www.talentbuddy.co/mentorship-webapp"
-    }, 
-    "Tealeaf": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Online", 
-        "name": "Tealeaf", 
-        "num_alumni": null, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Ruby", 
-        "tracking_groups": [], 
-        "website": "http://gotealeaf.com"
     }, 
     "Tech Bootcamps": {
         "average_salary": null, 
@@ -23721,8 +23672,11 @@
             "Cleveland", 
             "Current Market", 
             "Columbus", 
+            "Current Market", 
             "Cleveland", 
-            "Columbus"
+            "Current Market", 
+            "Columbus", 
+            "Current Market"
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
@@ -23903,6 +23857,9 @@
     }, 
     "Telegraph Academy": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$", 
         "courses": {
             "Telegraph Academy (12-Week, Full-Time Immersive Program)": {
                 "cost": 17725, 
@@ -23976,16 +23933,22 @@
         "cr_num_reviews": 45, 
         "cr_rating": 4.2, 
         "email": "hello@telegraphacademy.com", 
+        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Oakland", 
         "name": "Telegraph Academy", 
+        "num_alumni": null, 
         "num_courses": 5, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
         "technologies": [
             "MySQL", 
             "AngularJS", 
@@ -24067,7 +24030,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 893, 
+            "followers": 895, 
             "handle": "@AppAcademyNL", 
             "tweets": 3562
         }, 
@@ -24092,25 +24055,6 @@
         "subjects": "Android, Mobile", 
         "tracking_groups": [], 
         "website": "http://thecodepath.com/androidbootcamp"
-    }, 
-    "The Coded": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "NYC", 
-        "name": "The Coded", 
-        "num_alumni": null, 
-        "num_locations": 3, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": " PHP, Ruby, PhoneGap", 
-        "tracking_groups": [], 
-        "website": "http://thecoded.com/"
     }, 
     "The Coding Boot Camp At Ucla Extension": {
         "accreditation": "Yes", 
@@ -24290,24 +24234,24 @@
         "visas": "No", 
         "website": "http://codingbootcamp.unc.edu"
     }, 
-    "The Coding Bootcamp At Ut Austin": {
+    "The Coding Bootcamp At Unc Chapel Hill": {
         "average_salary": null, 
         "class_ratio": null, 
-        "cost": "$$", 
+        "cost": "$", 
         "hiring_rate": "No data", 
-        "locations": "Austin", 
-        "name": "The Coding Bootcamp At Ut Austin", 
+        "locations": "Chapel Hill", 
+        "name": "The Coding Bootcamp At Unc Chapel Hill", 
         "num_alumni": null, 
-        "num_locations": 6, 
+        "num_locations": 11, 
         "scholarships": null, 
         "sources": [
             "SwitchUp"
         ], 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "subjects": null, 
+        "subjects": "HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Git, C#, ASP.Net", 
         "tracking_groups": [], 
-        "website": "https://www.codingbootcamputaustin.com/"
+        "website": "https://codingbootcamp.unc.edu/"
     }, 
     "The Data Incubator": {
         "BCtype": "In class", 
@@ -24372,7 +24316,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2648, 
+            "followers": 2647, 
             "handle": "@thedatainc", 
             "tweets": 589
         }, 
@@ -24522,6 +24466,28 @@
         "tracking_groups": [], 
         "website": "http://hubs.ly/H029Yws0"
     }, 
+    "The Guild Of Software Architects": {
+        "average_salary": null, 
+        "class_ratio": "Each cohort has one dedicated instructor and is limited to 12 apprentices.", 
+        "cost": "$$$", 
+        "hiring_rate": "No data", 
+        "locations": "Dallas", 
+        "name": "The Guild Of Software Architects", 
+        "num_alumni": null, 
+        "num_locations": 6, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "subjects": "Android & iOS mobile development", 
+        "tracking_groups": [], 
+        "website": "http://www.guildsa.org/"
+    }, 
     "The Hacking School": {
         "accreditation": "None", 
         "cr_num_reviews": null, 
@@ -24594,9 +24560,6 @@
     }, 
     "The Iron Yard": {
         "accreditation": "None", 
-        "average_salary": 45000, 
-        "class_ratio": "1 to 15 ", 
-        "cost": "$$$", 
         "courses": {
             "Back End Engineering": {
                 "cost": 13900, 
@@ -24682,7 +24645,6 @@
         "cr_num_reviews": 46, 
         "cr_rating": 3.5, 
         "email": "academy@theironyard.com", 
-        "hiring_rate": 90.0, 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -24710,19 +24672,11 @@
             "San Antonio"
         ], 
         "name": "The Iron Yard", 
-        "num_alumni": 900, 
         "num_courses": 5, 
         "num_locations": 21, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 23, 
-        "su_rating": 3.6, 
-        "subjects": "Ruby on Rails, Ruby, HTML, CSS, Git, JavaScript, Objective-C, iOS, XCode5, Swift", 
         "technologies": [
             "HTML", 
             "Rails", 
@@ -24745,18 +24699,15 @@
         "tracking_groups": [
             "Top Camp", 
             "Detroit", 
-            "Potential Market", 
-            "Cincinnati", 
             "Top Camp", 
-            "Detroit", 
-            "Cincinnati"
+            "Detroit"
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Data Science", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Data Science"
         ], 
         "twitter": {
             "followers": 15000, 
@@ -25200,7 +25151,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6394, 
+            "followers": 6393, 
             "handle": "@thinkful", 
             "tweets": 2048
         }, 
@@ -25283,6 +25234,9 @@
     }, 
     "Tradecraft": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": "1:6", 
+        "cost": "$$$", 
         "courses": {
             "Business Development & Sales": {
                 "cost": 14000, 
@@ -25333,16 +25287,22 @@
         "cr_num_reviews": 59, 
         "cr_rating": 5.0, 
         "email": null, 
+        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "San Francisco", 
         "name": "Tradecraft", 
+        "num_alumni": null, 
         "num_courses": 3, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Business Development, Growth Marketing, Product Design, Engineering", 
         "technologies": [
             "HTML", 
             "Design", 
@@ -25489,7 +25449,7 @@
         "twitter": {
             "followers": 135000, 
             "handle": "@treehouse", 
-            "tweets": 22900
+            "tweets": 22800
         }, 
         "visas": "No", 
         "website": "https://teamtreehouse.com/techdegree"
@@ -25663,6 +25623,25 @@
         "subjects": "Ruby, JavaScript, Ruby on Rails, Sinatra, HTML, CSS", 
         "tracking_groups": [], 
         "website": "http://turing.io"
+    }, 
+    "Turn To Tech": {
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "NYC", 
+        "name": "Turn To Tech", 
+        "num_alumni": null, 
+        "num_locations": 3, 
+        "scholarships": null, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 3, 
+        "su_rating": 4.0, 
+        "subjects": "iOS and Android", 
+        "tracking_groups": [], 
+        "website": "http://turntotech.io/"
     }, 
     "Turntotech": {
         "accreditation": "None", 
@@ -25987,33 +25966,16 @@
         "tracking_groups": [], 
         "website": "https://udacity.com/"
     }, 
-    "Udemy": {
-        "average_salary": null, 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Online", 
-        "name": "Udemy", 
-        "num_alumni": null, 
-        "num_locations": 6, 
-        "scholarships": null, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 1, 
-        "su_rating": 4.0, 
-        "subjects": "HTML & CSS, Javascript, jQuery, Python, Ruby, PHP", 
-        "tracking_groups": [], 
-        "website": "http://linktrack.info/.zvcv"
-    }, 
     "V School": {
         "BCtype": "In Class ", 
         "accreditation": "None", 
         "address": "379 N University Ave ", 
         "address_city": ",  ", 
         "address_country": "USA", 
+        "average_salary": null, 
+        "class_ratio": "1:5", 
         "class_size": "less than 20 people", 
-        "cost": " Full-time    Part-time  Note : The full-time curriculum comes with  job placement / assistance for life. ", 
+        "cost": "$", 
         "countries": "USA", 
         "courses": {
             "Front End JavaScript Web Development": {
@@ -26073,6 +26035,7 @@
         "deposit": "$500", 
         "email": "info@vschool.io", 
         "focus": "Javascript", 
+        "hiring_rate": 99.0, 
         "housing": "FREE Housing depending on availability. \u00a0", 
         "interview": "Phone call evaluation of applicant's goals and current coding experience Aptitude Test Admissions Challenge  Pre Course Project Evaluation  (to be completed after course enrollment)", 
         "job_assistance": "Yes", 
@@ -26085,6 +26048,7 @@
         ], 
         "min_skill_level": "Basic computer skills", 
         "name": "V School", 
+        "num_alumni": 98, 
         "num_courses": 3, 
         "num_locations": 3, 
         "payments": "Payment plans are available on a case-by-case basis", 
@@ -26097,6 +26061,9 @@
             "CourseReport"
         ], 
         "started": "May, 2013", 
+        "su_num_reviews": 16, 
+        "su_rating": 5.0, 
+        "subjects": "JavaScript, Angular, Node.js,  iOS, HTML, CC, jQuery, MongoDB, Express, SQL, ", 
         "technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -26119,9 +26086,9 @@
         "time_per_week": "40+ hours (Full-time)  20+ hours (Part-time)", 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Mobile Development"
         ], 
         "twitter": {
             "followers": 8528, 
@@ -26248,6 +26215,9 @@
     }, 
     "Viking Code School": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$", 
         "courses": {
             "Viking Full Stack Web Application Engineering FLEX": {
                 "cost": null, 
@@ -26297,16 +26267,22 @@
         "cr_num_reviews": 9, 
         "cr_rating": 5.0, 
         "email": "hello@vikingeducation.com", 
+        "hiring_rate": "No data", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
         "locations": "Online", 
         "name": "Viking Code School", 
+        "num_alumni": null, 
         "num_courses": 2, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 11, 
+        "su_rating": 4.4, 
+        "subjects": "Ruby, Ruby on Rails, Javascript, HTML, CSS, AJAX", 
         "technologies": [
             "AngularJS", 
             "Front End", 
@@ -26530,6 +26506,9 @@
     }, 
     "We Got Coders": {
         "accreditation": "None", 
+        "average_salary": 45000, 
+        "class_ratio": "1 to 5", 
+        "cost": "$$", 
         "courses": {
             "Advanced Ruby Workshop: Concurrency. Demystified.": {
                 "cost": null, 
@@ -26580,16 +26559,25 @@
         "cr_num_reviews": 6, 
         "cr_rating": 4.8, 
         "email": "info@wegotcoders.com", 
+        "hiring_rate": 100.0, 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "London", 
         "name": "We Got Coders", 
+        "num_alumni": 10, 
         "num_courses": 3, 
         "num_locations": 1, 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 4, 
+        "su_rating": 5.0, 
+        "subjects": "\u2022\tRuby/ OO Programming  \u2022\tSinatra/ Padrino \u2022\tRuby on Rails \u2022\tDatabases & SQL \u2022\tHTML 5 \u2022\tCSS/ SASS \u2022\tNetworking/ HTTP/ WWW \u2022\tJavaScript/ JQuery/ AJax \u2022\tBackbone. js \u2022\tAgile Web Development \u2022\tTest Driven Development \u2022\tGIT", 
         "technologies": [
             "Rails", 
             "Ruby", 
@@ -26787,6 +26775,9 @@
     }, 
     "World Tech Academy": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": null, 
         "courses": {
             "Front End Development": {
                 "cost": null, 
@@ -26807,16 +26798,22 @@
         "cr_num_reviews": 3, 
         "cr_rating": 5.0, 
         "email": "info@worldtechacademy.com", 
+        "hiring_rate": "No data", 
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
         "locations": "Provo", 
         "name": "World Tech Academy", 
+        "num_alumni": null, 
         "num_courses": 1, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 11, 
+        "su_rating": 5.0, 
+        "subjects": null, 
         "technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -26836,9 +26833,6 @@
     }, 
     "World Tech Makers": {
         "accreditation": "Organization\u00b4s accreditation with strong external references.", 
-        "average_salary": 30000, 
-        "class_ratio": "1:10", 
-        "cost": null, 
         "courses": {
             "Full-stack web development bootcamp": {
                 "cost": 3000, 
@@ -26910,7 +26904,6 @@
         "cr_num_reviews": 9, 
         "cr_rating": 4.1, 
         "email": "info@worldtechmakers.com", 
-        "hiring_rate": 100.0, 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
@@ -26922,16 +26915,11 @@
             "Mexico City"
         ], 
         "name": "World Tech Makers", 
-        "num_alumni": null, 
         "num_courses": 3, 
         "num_locations": 5, 
-        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": "Latin America's First Coding Bootcamp", 
         "technologies": [
             "Swift", 
             "iOS", 
@@ -26976,8 +26964,10 @@
         "address": "400 NW 26th St,", 
         "address_city": "Miami", 
         "address_country": "USA", 
+        "average_salary": 50000, 
+        "class_ratio": "1:4", 
         "class_size": "", 
-        "cost": "$9,000", 
+        "cost": "$$", 
         "countries": "USA", 
         "courses": {
             "Web Development Intensive": {
@@ -27016,6 +27006,7 @@
         "deposit": "$1000 ", 
         "email": "weare@wyncode.co", 
         "focus": "Ruby on Rails Javascript", 
+        "hiring_rate": 92.0, 
         "housing": "No", 
         "interview": "Phone", 
         "job_assistance": "Yes", 
@@ -27027,6 +27018,7 @@
         ], 
         "min_skill_level": "No skills Basic computer skills", 
         "name": "Wyncode", 
+        "num_alumni": 50, 
         "num_courses": 2, 
         "num_locations": 2, 
         "payments": "Upfront", 
@@ -27034,10 +27026,17 @@
         "placement_test": "No", 
         "prep_work": "Yes", 
         "primary_city": "Miami", 
+        "scholarships": [
+            "\n          ", 
+            "\n          "
+        ], 
         "sources": [
             "CourseReport"
         ], 
         "started": "2014", 
+        "su_num_reviews": 64, 
+        "su_rating": 5.0, 
+        "subjects": " Ruby, Ruby on Rails, HTML, CSS, JavaScript, jQuery, Node.js, Objective-C, Swift, Rails", 
         "technologies": [
             "Swift", 
             "iOS", 
@@ -27129,9 +27128,6 @@
     }, 
     "Zip Code Wilmington": {
         "accreditation": "No", 
-        "average_salary": 55000, 
-        "class_ratio": "1:10", 
-        "cost": "$$$", 
         "courses": {
             "Java Bootcamp": {
                 "cost": null, 
@@ -27154,25 +27150,16 @@
         "cr_num_reviews": 8, 
         "cr_rating": 5.0, 
         "email": "info@zipcodewilmington.com", 
-        "hiring_rate": 100.0, 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "Wilmington", 
         "name": "Zip Code Wilmington", 
-        "num_alumni": 16, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": [
-            "\n          ", 
-            "\n          "
-        ], 
         "sources": [
             "CourseReport"
         ], 
-        "su_num_reviews": 2, 
-        "su_rating": 5.0, 
-        "subjects": "Java, JavaScript", 
         "technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -27184,15 +27171,18 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 6867, 
+            "followers": 6868, 
             "handle": "@zipcodewilm", 
-            "tweets": 2930
+            "tweets": 2929
         }, 
         "visas": "No", 
         "website": "http://www.zipcodewilmington.com/"
     }, 
     "Zipfian Academy": {
         "accreditation": "None", 
+        "average_salary": null, 
+        "class_ratio": null, 
+        "cost": "$$$$", 
         "courses": {
             "Data Fellows": {
                 "cost": null, 
@@ -27242,16 +27232,22 @@
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "email": "hello@zipfianacademy.com", 
+        "hiring_rate": 93.0, 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "locations": "San Francisco", 
         "name": "Zipfian Academy", 
+        "num_alumni": null, 
         "num_courses": 4, 
         "num_locations": 1, 
+        "scholarships": null, 
         "sources": [
             "CourseReport"
         ], 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "subjects": "Data Science, Data Engineering", 
         "technologies": "Data Science", 
         "tracking_groups": [], 
         "tracks": "Data Science", 

@@ -113,6 +113,8 @@ class SwitchupSchool(Item):
     num_locations = Field()
     tracking_groups = Field()
 
+    courses = Field()
+
     #tracks = Field() #figure out a way to get this field to include description, subjects, location, cost, start dates,
     #class size, length and commitment (which are shown on the page)
     #about = Field()

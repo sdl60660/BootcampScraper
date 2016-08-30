@@ -65,35 +65,24 @@ class TrackingGroupTags(object):
             if item['name'].title() == camp.title():
                 item['tracking_groups'].append('Top Camp')
 
-        tagged = False
-
         try:
             for loc in item['locations']:
                 for city in current_markets:
                     if city.title() == loc.title():
                         item['tracking_groups'].append(city.title())
-                        if tagged == False:
+                        if 'Current Market' not in item['tracking_groups']:
                             item['tracking_groups'].append('Current Market')
-                            tagged = True
-                tagged = False
                 for city in potential_markets:
                     if city.title() == loc.title():
                         item['tracking_groups'].append(city.title())
-                        if tagged == False:
-                            item['tracking_groups'].append()
-                            tagged = True
+                        if 'Potential Market' not in item['tracking_groups']:
+                            item['tracking_groups'].append('Potential Market')
+
         except TypeError:
             pass
         
         return item
                    
-
-
-
-        
-
-
-
 
 
 

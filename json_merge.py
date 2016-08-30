@@ -72,11 +72,13 @@ print
 print "========================================"
 print "================SUMMARY================="
 print "========================================"
+print"""
 print
 print "Total in BootcampsIn JSON: " + str(len(bootcamp_data[1]))
-print "Total in CourseReport JSON: " + str(len(bootcamp_data[2]))
-print "Total in SwitchUp JSON: " + str(len(bootcamp_data[3]))
-print "Total Similar: " + str(num_similar)
+print "Total in SwitchUp JSON: " + str(len(bootcamp_data[2]))
+print "Total in CourseReport JSON: " + str(len(bootcamp_data[3]))
+print
+"""print "Total Similar: " + str(num_similar)
 print
 #pprint(bootcamp_data[1][1]['name'], width=100)
 #print

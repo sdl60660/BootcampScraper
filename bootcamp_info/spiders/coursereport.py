@@ -221,12 +221,19 @@ class CourseReportSpider(scrapy.Spider):
         #================FACEBOOK AND TWITTER==================
         #######################################################
 
-        try:
+#=========================================================================================================#
+#============================================IN PROGRESS BELOW============================================#
+#=========================================================================================================#   
+        """try:
             fb_url = str(Selector(response).xpath('//*[@class="facebook"]//@href').extract()[0])
+            if fb_url[-1] == '/':
+                fb_url = fb_url + 'likes'
+            else:
+                fb_url = fb_url + '/likes'
             request = scrapy.Request(fb_url, callback=self.facebook_reporter, meta={'item': item}) #meta={'facebook':item}
             yield request
         except IndexError:
-            item['facebook'] = 'N/A'
+            item['facebook'] = 'N/A'"""
         
         try:
             twitter_url = str(Selector(response).xpath('//*[@class="twitter"]//@href').extract()[0])
@@ -235,18 +242,16 @@ class CourseReportSpider(scrapy.Spider):
         except IndexError:
             item['twitter'] = 'N/A'     
 
-        #=========================================================================================================#
-        #============================================IN PROGRESS BELOW============================================#
-        #=========================================================================================================#   
+
 
         #item['linkedin'] =
 
         #item['about'] =  
         #item['reviews'] = 
 
-        #=========================================================================================================#
-        #============================================IN PROGRESS ABOVE============================================#
-        #=========================================================================================================#
+#=========================================================================================================#
+#============================================IN PROGRESS ABOVE============================================#
+#=========================================================================================================#
 
         for key, value in item.iteritems():
             if type(value) is list:
@@ -279,41 +284,59 @@ class CourseReportSpider(scrapy.Spider):
 
         yield item
 
+
+
+#=========================================================================================================#
+#***************=============================HELPER FUNCTIONS===============================**************#
+#=========================================================================================================#
+
+    
+    #NEED TO ACCESS THIS THROUGH THE FACEBOOK GRAPH API INSTEAD
     def facebook_reporter(self, response):
         item = response.meta['item']
         facebook = {}
 
+        print
+        print "RESPONSE URL: " + str(response.url)
+        print
+
         #item = response.meta['facebook_item']
         #IF THIS WORKS, THEN CONVERT THESE TO INTS
-        print
-        print "====================================================="
-        full_return = Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract()
-        print "Full Return Array: " + str(full_return)
+
+        full_return = Selector(response).xpath('//body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/text()').extract()
+
+        #print
+        #print "====================================================="
+        #print "Full Return Array: " + str(full_return)
         
         try:
-            likes = Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract()[0]
+            likes = Selector(response).xpath('//body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/text()').extract()[0]
             #format as an int
             likes = int(''.join((likes[:-1]).split(',')))
             print "Likes: " + str(likes)
             facebook['likes'] = likes
         except IndexError:
             facebook['likes'] = None
-            print "ERROR REPORTING. HERE'S THE RETURNED VALUE: " + str(Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract())
+            print "ERROR REPORTING. HERE'S THE RETURNED VALUE: " + str(Selector(response).xpath('//body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/text()').extract())
         
         try:
-            visits = Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract()[1]
+            new_likes = Selector(response).xpath('//body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/text()').extract()[2]
             #format as an int
-            visits = int(''.join(visits.split(',')))
-            print "Visits: " + str(visits)
-            facebook['visits'] = visits
+            new_likes = int(''.join(visits.split(',')))
+            facebook['new_likes'] = visits
         except IndexError:
-            facebook['visits'] = None
+            facebook['new_likes'] = None
 
         print "====================================================="
         print
         
         item['facebook'] = facebook
         return item
+
+
+
+
+
 
     def twitter_reporter(self, response):
         item = response.meta['item']
