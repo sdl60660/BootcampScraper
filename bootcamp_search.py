@@ -12,7 +12,7 @@ if len(sys.argv) == 3:
     file = sys.argv[1]
     key = str(sys.argv[2]).title()
 elif len(sys.argv) == 2:
-    file = 'output.json'
+    file = 'current_data/output.json'
     key = str(sys.argv[1]).title()
 
 with open(file) as json_data:
@@ -36,24 +36,21 @@ print
 
 #mailer.send(to=['sam@techelevator.com'], subject=email_subject, body=email_body)
 
-"""
 
-print "ALSO! (temporarily) Here are some stats on technology usage:"
+print "ALSO! (temporarily) Here are some stats on technology usage and bootcamp reviews:"
 print
 
 tech_dict = {}
 
 for bootcamp in bootcamps:
+
     try:
-        try:
-            for technology in bootcamps[bootcamp]['technologies']:
-                if technology in tech_dict:
-                    tech_dict[technology] += 1
-                else:
-                    tech_dict[technology] = 1
-        except TypeError:
-            pass
-    except KeyError:
+        for technology in bootcamps[bootcamp]['technologies']:
+            if technology in tech_dict:
+                tech_dict[technology] += 1
+            else:
+                tech_dict[technology] = 1
+    except (KeyError, TypeError):
         pass
         #if technology in tech_dict:
          #   tech_dict[technology] += 1
@@ -67,8 +64,22 @@ for item in sort_dict:
         print str(item) + ": " + str(tech_dict[item])
 
 print
+print
 
-"""
+review_dict = {}
+
+for bootcamp in bootcamps:
+    try:
+        review_dict[bootcamps[bootcamp]['name']] = bootcamps[bootcamp]['twitter']['followers']
+    except (KeyError, TypeError):
+        pass
+
+sort_dict = sorted(review_dict, key=review_dict.get, reverse=True)
+
+for item in sort_dict:
+    print str(item) + ': ' + str(review_dict[item])
+
+print
 
 
 #pprint (sorted(tech_dict, key=tech_dict.get, reverse=True), width=50)

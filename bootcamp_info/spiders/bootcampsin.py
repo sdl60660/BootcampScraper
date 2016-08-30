@@ -85,7 +85,7 @@ class BootcampsinSpider(scrapy.Spider):
             pass
 
         item['sources'] = ['BootcampsIn']
-        item['tracking_groups'] = []
+        item['tracking_groups'] = list()
 
         yield item
 

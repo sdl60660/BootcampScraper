@@ -18,14 +18,16 @@ class BootcampInfoPipeline(object):
                 if item['facebook']:
                     pass
             except KeyError:
-                raise DropItem("Had not yet filled the facebook response field")
+                drop_string = "Had not yet filled the facebook response field: " + str(item['name'])
+                raise DropItem(drop_string)
                 dropped = True
         
             try:
                 if item['twitter']:
                     pass
             except KeyError:
-                raise DropItem("Had not yet filled the twitter response field")
+                drop_string = "Had not yet filled the twitter response field: " + str(item['name'])
+                raise DropItem(drop_string)
                 dropped = True
         
             if dropped == False:
@@ -45,6 +47,50 @@ class DuplicatesPipeline(object):
         else:
             self.ids_seen.add(name_source)
             return item
+
+
+
+class TrackingGroupTags(object):
+    
+    def process_item(self, item, spider):
+
+        #This is completely subject to change, just needed to put in a few to test out the pipeline
+        top_camps = ['hack reactor', 'the iron yard', 'general assembly', 'ironhack', 'dev bootcamp']
+        current_markets = ['cleveland', 'columbus']
+        potential_markets = ['cincinnati', 'pittsburgh', 'detroit', 'buffalo', 'toronto']
+        #add list of top Java/.NET, check for thse while iterating through camp names (first loop)
+        #general tag for all Java/.NET
+
+        for camp in top_camps:
+            if item['name'].title() == camp.title():
+                item['tracking_groups'].append('Top Camp')
+
+        tagged = False
+
+        try:
+            for loc in item['locations']:
+                for city in current_markets:
+                    if city.title() == loc.title():
+                        item['tracking_groups'].append(city.title())
+                        if tagged == False:
+                            item['tracking_groups'].append('Current Market')
+                            tagged = True
+                tagged = False
+                for city in potential_markets:
+                    if city.title() == loc.title():
+                        item['tracking_groups'].append(city.title())
+                        if tagged == False:
+                            item['tracking_groups'].append()
+                            tagged = True
+        except TypeError:
+            pass
+        
+        return item
+                   
+
+
+
+        
 
 
 

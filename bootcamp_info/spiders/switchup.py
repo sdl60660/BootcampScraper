@@ -117,7 +117,7 @@ class SwitchupSpider(scrapy.Spider):
             pass
 
         item['sources'] = ['SwitchUp']
-        item['tracking_groups'] = []
+        item['tracking_groups'] = list()
             
         yield item
 

@@ -96,7 +96,10 @@ class CourseReportSpider(scrapy.Spider):
         except IndexError:
             item['email'] = None
 
-        
+        #######################################################
+        #=================COURSE INFORMATION===================
+        #######################################################
+
         #In course title vs. in course description (gives clues to whether it's a focus on their course or a smaller unit)
         #key_technologies_list = ['Python', 'Java ', '.NET', 'Node', 'Angular', 'JQuery', 'SQL', 'Entity', 'Ruby', 'Django', 'HTML', 'Javascript', 'C#', 'C++', 'CSS', 'Bootstrap', 'Swift', 'Rails', 'Objective-C']
 
@@ -186,6 +189,10 @@ class CourseReportSpider(scrapy.Spider):
 
             item['courses'] = courses
             item['technologies'] = technologies
+
+        #######################################################
+        #=======EMPLOYMENT, MATRICULATION, SCHOLARSHIPS========
+        #######################################################
         
         if len(Selector(response).xpath('//*[@id="about-collapse"]/div/section/div[@class="outcomes-title"]/h2/text()').extract()) > 0:
             employment_stats = {}
@@ -210,26 +217,32 @@ class CourseReportSpider(scrapy.Spider):
         if len(Selector(response).xpath('//*[@class="scholarships"]/h4/text()').extract()) > 0:
             item['scholarships'] = Selector(response).xpath('//*[@class="scholarships"]//*[@class="row"]//h2/text()').extract()
 
-        #=========================================================================================================#
-        #============================================IN PROGRESS BELOW============================================#
-        #=========================================================================================================#
+        #######################################################
+        #================FACEBOOK AND TWITTER==================
+        #######################################################
 
-        
         try:
             fb_url = str(Selector(response).xpath('//*[@class="facebook"]//@href').extract()[0])
             request = scrapy.Request(fb_url, callback=self.facebook_reporter, meta={'item': item}) #meta={'facebook':item}
             yield request
         except IndexError:
-            pass
+            item['facebook'] = 'N/A'
         
         try:
             twitter_url = str(Selector(response).xpath('//*[@class="twitter"]//@href').extract()[0])
             request = scrapy.Request(twitter_url, callback=self.twitter_reporter, meta={'item': item})
             yield request
         except IndexError:
-            pass        
+            item['twitter'] = 'N/A'     
+
+        #=========================================================================================================#
+        #============================================IN PROGRESS BELOW============================================#
+        #=========================================================================================================#   
 
         #item['linkedin'] =
+
+        #item['about'] =  
+        #item['reviews'] = 
 
         #=========================================================================================================#
         #============================================IN PROGRESS ABOVE============================================#
@@ -249,43 +262,22 @@ class CourseReportSpider(scrapy.Spider):
                 pass
 
         try:
-            item['num_locations'] = len(item['locations'])
-        except KeyError:
-            pass
-        except TypeError:
+            if isinstance(item['locations'], list):
+                item['num_locations'] = len(item['locations'])
+            else:
+                item['num_locations'] = 1
+        except (KeyError, TypeError):
             pass
 
         try:
             item['num_courses'] = len(item['courses'])
-        except KeyError:
-            pass
-        except TypeError:
+        except (KeyError, TypeError):
             pass
         
         item['sources'] = ['CourseReport']
-        item['tracking_groups'] = []
-
-        #item['about'] =  
-        #item['reviews'] = 
+        item['tracking_groups'] = list()
 
         yield item
-
-    def panel_xpath_helper(self, index, stub):
-        xpath_start = '//*[@id="courses-collapse"]/div[@class="panel-body"]/section[@class="campuses"]/div[@class="campus panel panel-cr"]['
-        xpath_index = index + 1
-        xpath = xpath_start + str(xpath_index) + ']' + stub
-        #print
-        #print "XPATH: " + str(xpath)
-        #print
-        return xpath
-
-    def class_xpath_helper(self, index, c_index, stub):
-        xpath_index = c_index + 1
-        xpath_start = self.panel_xpath_helper(index, '')
-        middle = '/div[@class="panel-body accordion"]/div[@class="panel panel-cr panel-cr-expandable"]['
-        xpath = xpath_start + middle + str(xpath_index) + ']' + stub
-        return xpath
-
 
     def facebook_reporter(self, response):
         item = response.meta['item']
@@ -297,6 +289,7 @@ class CourseReportSpider(scrapy.Spider):
         print "====================================================="
         full_return = Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract()
         print "Full Return Array: " + str(full_return)
+        
         try:
             likes = Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract()[0]
             #format as an int
@@ -304,6 +297,7 @@ class CourseReportSpider(scrapy.Spider):
             print "Likes: " + str(likes)
             facebook['likes'] = likes
         except IndexError:
+            facebook['likes'] = None
             print "ERROR REPORTING. HERE'S THE RETURNED VALUE: " + str(Selector(response).xpath('//*[@class="_52id _50f5 _50f7"]/text()').extract())
         
         try:
@@ -324,6 +318,10 @@ class CourseReportSpider(scrapy.Spider):
     def twitter_reporter(self, response):
         item = response.meta['item']
         twitter = {}
+
+        handle = Selector(response).xpath('//*[@class="ProfileHeaderCard"]/h2/a/span/text()').extract()[0]
+        handle = '@' + str(handle)
+        twitter['handle'] = handle
 
         tweets = Selector(response).xpath('//a[@data-nav="tweets"]//*[@class="ProfileNav-value"]/text()').extract()[0]
         

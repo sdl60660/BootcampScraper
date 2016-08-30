@@ -118,7 +118,9 @@ class SwitchupSchool(Item):
     #about = Field()
     #reviews = Field()
 
-
+class AlexaPage(Item):
+    name = Field()
+    rank = Field()
 
 
 

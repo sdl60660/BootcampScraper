@@ -18,9 +18,10 @@ NEWSPIDER_MODULE = 'bootcamp_info.spiders'
 ###PUT PIPELINE INFORMATION HERE###
 
 #ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
-ITEM_PIPELINES = {  'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
-                    'bootcamp_info.pipelines.DuplicatesPipeline': 10,
-                #'scrapy.pipelines.images.ImagesPipeline': 2,
+ITEM_PIPELINES = {  #'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
+                    #'bootcamp_info.pipelines.DuplicatesPipeline': 10,
+                    'bootcamp_info.pipelines.TrackingGroupTags': 20,
+                #'scrapy.pipelines.images.ImagesPipeline': 100,
 
 }
 
@@ -36,7 +37,7 @@ ITEM_PIPELINES = {  'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay

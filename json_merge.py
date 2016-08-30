@@ -32,6 +32,10 @@ num_similar = 0
 
 output_dict = {}
 
+#THIS COULD BE ADJUSTED SO THAT IT WORKS WITH A VARIABLE NUMBER OF SOURCES
+#THAT WAY EVERYTIME I ADD A SPIDER, I DON'T NEED TO COMPLETELY RE-DO THIS
+#FUNCTION. ALSO GOING TO NEED TO TAKE INTO ACCOUNT SPIDERS LIKE ALEXA
+
 for x in range(len(bootcamp_data[1])):
     #bootcamp_data[1][x]['sources'] = ['BootcampsIn',]
     name = str(bootcamp_data[1][x]['name']).title()
@@ -48,7 +52,7 @@ for y in range(len(bootcamp_data[2])):
         #bootcamp_data[2][y]['sources'] = ['SwitchUp',]
         output_dict[name] = bootcamp_data[2][y]
 
-for z in range(len(bootcamp_data[3])):
+for z in bootcamp_data[3]:
     name = str(bootcamp_data[3][z]['name']).title()
     if name in output_dict:
         #bootcamp_data[3][z]['sources'].append('CourseReport')
@@ -60,53 +64,9 @@ for z in range(len(bootcamp_data[3])):
         output_dict[name] = bootcamp_data[3][z]
 
 with open('output.json', 'w') as f:
-    json.dump(output_dict, f)
+    json.dump(output_dict, f, indent=4, sort_keys=True)
 
 
-"""
-print
-print
-pprint (output_dict['Tech Elevator'], width = 80)
-print
-"""
-
-
-"""
-for x in range(len(bootcamp_data[1])):
-    for y in range(len(bootcamp_data[2])):
-        for z in range(len(bootcamp_data[3])):
-            if bootcamp_data[1][x]['name'] == bootcamp_data[2][y]['name'] == bootcamp_data[3][z]['name']:
-                num_similar += 1
-                if num_similar < 5:
-                    print
-                    print "Bootcamp: " + str(bootcamp_data[1][x]['name'])
-                    print "BootcampsIn Index: " + str(x)
-                    print "CourseReport Index: " + str(y)
-                    print "SwitchUp Index: " + str(z)
-                    base = None
-                    base = merge(base, bootcamp_data[1][x]) #, meta={'bootcamp': 'BootcampsIn'})
-                    base = merge(base, bootcamp_data[2][y]) #, meta={'bootcamp': 'CourseReport'})
-                    base = merge(base, bootcamp_data[3][z]) #, meta={'bootcamp': 'SwitchUp'})
-                    print
-                    print
-                    print "Just BootcampsIn"
-                    print "----------------"
-                    pprint(bootcamp_data[1][x])
-                    print
-                    print
-                    print "Just CourseReport"
-                    print "----------------"
-                    pprint(bootcamp_data[2][y])
-                    print
-                    print
-                    print "Just SwitchUp"
-                    print "----------------"
-                    pprint(bootcamp_data[3][z])
-                    print
-                    print "     MERGED     "
-                    print "----------------"
-                    pprint(base, width=50)
-                    """
 """
 print
 print "========================================"
