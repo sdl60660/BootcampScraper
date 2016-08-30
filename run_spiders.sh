@@ -1,6 +1,6 @@
 #!/bin/bash
 
-current_time=$(date "%H:%M:%S")
+current_time=$(date "+%H:%M:%S")
 echo $current_time
 echo "Scraper started!"
 
@@ -49,7 +49,7 @@ cp current_data/output.json old_data/full_outputs/$current_time.output.json
 #KEEP STATS VERY BASIC (i.e. number of bootcamps in output.json), IT'S A
 #LOG, NOT WHAT YOU'LL USE TO TRACK CHANGES
 
-current_time=$(date "%H:%M:%S")
+current_time=$(date "+%H:%M:%S")
 echo
 echo $current_time
 echo "Scraper finished!"

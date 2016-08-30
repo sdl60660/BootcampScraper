@@ -69,12 +69,14 @@ class TrackingGroupTags(object):
             for loc in item['locations']:
                 for city in current_markets:
                     if city.title() == loc.title():
-                        item['tracking_groups'].append(city.title())
+                        if city.title() not in item['tracking_groups']:
+                            item['tracking_groups'].append(city.title())
                         if 'Current Market' not in item['tracking_groups']:
                             item['tracking_groups'].append('Current Market')
                 for city in potential_markets:
                     if city.title() == loc.title():
-                        item['tracking_groups'].append(city.title())
+                        if city.title() not in item['tracking_groups']:
+                            item['tracking_groups'].append(city.title())
                         if 'Potential Market' not in item['tracking_groups']:
                             item['tracking_groups'].append('Potential Market')
 
