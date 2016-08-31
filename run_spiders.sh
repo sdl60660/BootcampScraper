@@ -1,8 +1,8 @@
 #!/bin/bash
 
+echo
 current_time=$(date "+%H:%M:%S")
-echo $current_time
-echo "Scraper started!"
+echo "$current_time: Scraper started!"
 
 current_time=$(date "+%Y.%m.%d-%H:%M:%S")
 echo $current_time >>logs/scraper_log.txt
@@ -15,7 +15,7 @@ scrapy crawl bootcampsin -o current_data/bootcampsin_data.json -t json &>logs/co
 echo
 echo "BootcampsIn Spider Finished..."    
 
-scrapy crawl switchup -o current_data/switchup_data.json -t json &>logs/command_line_outputs/switchup_logs/$current_time.switchup_output.txt
+scrapy crawl switchup -o current_data/switchup_data.json -t jsonlines &>logs/command_line_outputs/switchup_logs/$current_time.switchup_output.txt
 echo "SwitchUp Spider Finished..." 
 
 scrapy crawl coursereport -o current_data/coursereport_data.json -t json &>logs/command_line_outputs/coursereport_logs/$current_time.coursereport_output.txt 
@@ -51,8 +51,7 @@ cp current_data/output.json old_data/full_outputs/$current_time.output.json
 
 current_time=$(date "+%H:%M:%S")
 echo
-echo $current_time
-echo "Scraper finished!"
+echo "$current_time: Scraper finished!"
 
 current_time=$(date "+%Y.%m.%d-%H:%M:%S")
 echo $current_time >>logs/scraper_log.txt

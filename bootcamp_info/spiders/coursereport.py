@@ -212,7 +212,9 @@ class CourseReportSpider(scrapy.Spider):
 
             item['acceptance_rate'] = int(Selector(response).xpath('//*[@class="about"]//p/strong/text()').extract()[0][:-1])
             if len(Selector(response).xpath('//*[@class="about"]//p/strong/text()').extract()[-1]) >= 5:
-                item['average_salary'] = Selector(response).xpath('//*[@class="about"]//p/strong/text()').extract()[-1]
+                salary = (Selector(response).xpath('//*[@class="about"]//p/strong/text()').extract()[-1])[1:-1]
+                salary = int(''.join(salary.split(',')))
+                item['average_salary'] = salary
 
         if len(Selector(response).xpath('//*[@class="scholarships"]/h4/text()').extract()) > 0:
             item['scholarships'] = Selector(response).xpath('//*[@class="scholarships"]//*[@class="row"]//h2/text()').extract()

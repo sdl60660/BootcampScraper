@@ -52,12 +52,35 @@ for y in range(len(bootcamp_data[2])):
         #bootcamp_data[2][y]['sources'] = ['SwitchUp',]
         output_dict[name] = bootcamp_data[2][y]
 
+counter = 0
+
 for z in bootcamp_data[3]:
     name = str(bootcamp_data[3][z]['name']).title()
     if name in output_dict:
         #bootcamp_data[3][z]['sources'].append('CourseReport')
         #source_store = copy.deepcopy(bootcamp_data[3][z]['sources'])
+        """if counter < 200:
+            print
+            print "ORIGINAL"
+            print
+            pprint(output_dict[name])
+            print
+            print "COURSE REPORT"
+            print
+            pprint(bootcamp_data[3][z])
+            print"""
+
         output_dict[name] = merge(output_dict[name], bootcamp_data[3][z])
+        
+        """if counter < 200:
+            print "MERGED"
+            print
+            pprint(output_dict[name])
+            print
+            print "--------------------------------------------"
+            counter += 1
+            print "COUNTER: " + str(counter)"""
+
         #bootcamp_data[3][z]['sources'] = source_store
     else:
         #bootcamp_data[3][z]['sources'] = ['CourseReport',]

@@ -115,6 +115,8 @@ class SwitchupSchool(Item):
 
     courses = Field()
 
+    page = Field()
+
     #tracks = Field() #figure out a way to get this field to include description, subjects, location, cost, start dates,
     #class size, length and commitment (which are shown on the page)
     #about = Field()
