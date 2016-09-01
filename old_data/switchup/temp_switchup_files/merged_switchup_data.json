@@ -3098,6 +3098,39 @@
         "tracking_groups": [], 
         "website": "http://www.launchcode.org/"
     }, 
+    "Le Wagon": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:9", 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": [
+            "Paris", 
+            "Amsterdam", 
+            "Brussels", 
+            "S\u00e3o Paulo", 
+            "Barcelona", 
+            "Cambridge", 
+            "Beirut", 
+            "Belo Horizonte", 
+            "Bordeaux", 
+            "Copenhagen", 
+            "Lille", 
+            "Lisbon", 
+            "London", 
+            "Nantes"
+        ], 
+        "name": "Le Wagon", 
+        "num_alumni": 680, 
+        "num_locations": 14, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 63, 
+        "su_rating": 5.0, 
+        "subjects": "ruby, ruby on Rails, HTML/CSS, Javascript ", 
+        "tracking_groups": [], 
+        "website": "http://www.lewagon.org/"
+    }, 
     "Learn": {
         "average_salary": "N/A", 
         "class_ratio": "1:9", 
@@ -3399,6 +3432,42 @@
         "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
         "tracking_groups": [], 
         "website": "http://montanacodeschool.com/"
+    }, 
+    "Mums In Technology": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:5", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "London", 
+        "name": "Mums In Technology", 
+        "num_alumni": 70, 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 4, 
+        "su_rating": 5.0, 
+        "subjects": "HTML, CSS, Javascript, Data Science, Github, UX, Python", 
+        "tracking_groups": [], 
+        "website": "http://www.mumsintechnology.co.uk/"
+    }, 
+    "Nashville Software School": {
+        "average_salary": "N/A", 
+        "class_ratio": "No data", 
+        "cost": "$$$", 
+        "hiring_rate": "No data", 
+        "locations": "Nashville", 
+        "name": "Nashville Software School", 
+        "num_alumni": "N/A", 
+        "num_locations": 9, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Ruby, JavaScript, Node.js", 
+        "tracking_groups": [], 
+        "website": "http://www.nashvillesoftwareschool.com"
     }, 
     "Nation Of Code": {
         "average_salary": "N/A", 
@@ -4061,24 +4130,6 @@
         "subjects": "Web Development, Webmaking, HTMl, CSS, Javascript, PHP, UX, UI", 
         "tracking_groups": [], 
         "website": "http://bootcamp.shoutleaf.com/"
-    }, 
-    "Simplon": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": "Paris", 
-        "name": "Simplon", 
-        "num_alumni": "N/A", 
-        "num_locations": 5, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "subjects": null, 
-        "tracking_groups": [], 
-        "website": "http://simplon.co/"
     }, 
     "Skill Distillery": {
         "average_salary": 65000, 
@@ -5117,27 +5168,33 @@
         "tracking_groups": [], 
         "website": "http://worldtechacademy.com/"
     }, 
-    "Wyncode": {
-        "average_salary": 50000, 
-        "class_ratio": "1:4", 
-        "cost": "$$", 
-        "hiring_rate": 92.0, 
+    "World Tech Makers": {
+        "average_salary": 30000, 
+        "class_ratio": "1:10", 
+        "cost": null, 
+        "hiring_rate": 100.0, 
         "locations": [
-            "Miami", 
-            "Fort Lauderdale"
+            "Bogota", 
+            "Buenos Aires", 
+            " Guadalajara", 
+            "Medellin", 
+            "Mexico City", 
+            "Rio de Janeiro ", 
+            "Santiago", 
+            "S\u00e3o Paulo"
         ], 
-        "name": "Wyncode", 
-        "num_alumni": 50, 
-        "num_locations": 2, 
-        "scholarships": "Payment Plans Availabl...", 
+        "name": "World Tech Makers", 
+        "num_alumni": "N/A", 
+        "num_locations": 8, 
+        "scholarships": "Up to $500", 
         "sources": [
             "SwitchUp"
         ], 
-        "su_num_reviews": 64, 
-        "su_rating": 5.0, 
-        "subjects": " Ruby, Ruby on Rails, HTML, CSS, JavaScript, jQuery, Node.js, Objective-C, Swift, Rails", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Latin America's First Coding Bootcamp", 
         "tracking_groups": [], 
-        "website": "http://www.wyncode.co/"
+        "website": "http://www.worldtechmakers.com"
     }, 
     "Zip Code Wilmington": {
         "average_salary": 55000, 

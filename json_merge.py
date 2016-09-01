@@ -4,6 +4,8 @@ from jsonmerge import Merger
 import sys
 from pprint import pprint
 
+import datetime
+
 #import argparse
 
 #======DICT KEY (for traditional merge)=======
@@ -83,6 +85,59 @@ for file in bootcamp_data:
                 output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
             else:
                 output_dict[name] = bootcamp_data[file][x]
+
+meta_dict = {}
+
+now = datetime.datetime.now()
+meta_dict['date/time'] = str(now)[:-7]
+meta_dict['days_out'] = now.toordinal() - 736212
+meta_dict['num_entries'] = len(output_dict)
+
+meta_dict['Current Market'] = list()
+meta_dict['Potential Market'] = list()
+
+meta_dict['Cleveland'] = list()
+meta_dict['Columbus'] = list()
+meta_dict['Pittsburgh'] = list()
+meta_dict['Cincinnati'] = list()
+meta_dict['Buffalo'] = list()
+meta_dict['Detroit'] = list()
+meta_dict['Toronto'] = list()
+
+tech_dict = {}
+loc_dict = {}
+
+for name in output_dict:
+    for group in range(len(output_dict[name]['tracking_groups'])):
+        try:
+            meta_dict[output_dict[name]['tracking_groups'][group]].append(output_dict[name]['name'])
+        except KeyError:
+            pass
+    try:
+        for tech in output_dict[name]['technologies']:
+            if tech in tech_dict:
+                tech_dict[tech] += 1
+            else:
+                if len(tech) > 1 or tech == 'R' or tech == 'C':
+                    tech_dict[tech] = 1
+    except (KeyError, TypeError):
+        pass
+
+    try:
+        for loc in output_dict[name]['locations']:
+            if loc in loc_dict:
+                loc_dict[loc] += 1
+            else:
+                if len(loc) > 1:
+                    loc_dict[loc] = 1
+    except (KeyError, TypeError):
+        pass
+
+meta_dict['technologies'] = tech_dict
+meta_dict['locations'] = loc_dict
+
+output_dict['meta'] = meta_dict
+
 
 #write merge JSON to output file
 with open(output_file, 'w') as f:

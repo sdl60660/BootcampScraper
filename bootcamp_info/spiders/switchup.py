@@ -61,7 +61,7 @@ class SwitchupSpider(scrapy.Spider):
 
         item['name'] = str(Selector(response).xpath('//*[@id="first-bootcamp-section"]/div/div/h1/text()').extract())[3:-2].title() #DONE
         item['locations'] = Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr[@itemprop="address"]/td[@itemprop="addressLocality"]/a/text()').extract() #DONE
-        item['cost'] = Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr/td[@itemprop="priceRange"]/text()').extract() #DONE
+        item['general_cost'] = Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr/td[@itemprop="priceRange"]/text()').extract() #DONE
 
         website_buffer = str(Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr/td/a[@class="website-link"]/@onclick').extract()) #DONE
         item['website'] = website_buffer[16:((website_buffer.find('); trackO') - 1))] #DONE

@@ -28,10 +28,10 @@ def type1_category_lookup(category, data):
 
         try:
             for item in bootcamps[bootcamp][category]:
-                if item.title() in temp_dict:
-                    temp_dict[item.title()] += 1
+                if item in temp_dict:
+                    temp_dict[item] += 1
                 else:
-                    temp_dict[item.title()] = 1
+                    temp_dict[item] = 1
         except (KeyError, TypeError):
             pass
 
@@ -67,6 +67,11 @@ def type1_category_lookup(category, data):
                     pass
     
     return
+
+
+#=========================================================================================================#
+#============================================IN PROGRESS BELOW============================================#
+#=========================================================================================================#
 
 #TYPE 2 CATEGORY LOOKUP WILL TAKE A CATEGORY AND OUTPUT A LIST OF "BOOTCAMP NAME: NUMERICAL VALUE"
 #SORTED BY VALUE
@@ -115,6 +120,11 @@ def value_lookup(value, category, data):
         print str(item) + ': ' + str(temp_dict[item])
     
     return
+
+
+#=========================================================================================================#
+#============================================IN PROGRESS ABOVE============================================#
+#=========================================================================================================#
 
 
 #=========================================================================

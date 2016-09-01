@@ -804,7 +804,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 852, 
+            "followers": 851, 
             "handle": "@acadgild", 
             "tweets": 2255
         }, 
@@ -1086,7 +1086,7 @@
         "tracking_groups": [], 
         "tracks": "UX Design", 
         "twitter": {
-            "followers": 1447, 
+            "followers": 1448, 
             "handle": "@agitraining", 
             "tweets": 528
         }, 
@@ -1248,17 +1248,17 @@
                 "onsite": null, 
                 "title": "Full Stack Web Development", 
                 "topics": [
-                    "Ruby", 
-                    "Rails", 
-                    "CSS", 
-                    "HTML", 
+                    "Front End", 
                     "JavaScript", 
-                    "jQuery", 
-                    "React.js", 
+                    "HTML", 
+                    "Rails", 
                     "SQL", 
-                    "User Experience Design", 
+                    "jQuery", 
                     "Design", 
-                    "Front End"
+                    "Ruby", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js"
                 ], 
                 "weekly_time": null
             }, 
@@ -1306,18 +1306,18 @@
             "CourseReport"
         ], 
         "technologies": [
-            "Ruby", 
-            "Rails", 
-            "CSS", 
-            "Design", 
             "Front End", 
-            "HTML", 
             "JavaScript", 
-            "jQuery", 
-            "Node.js", 
-            "React.js", 
+            "HTML", 
+            "Rails", 
             "SQL", 
-            "User Experience Design"
+            "jQuery", 
+            "Design", 
+            "Ruby", 
+            "User Experience Design", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
         ], 
         "tracking_groups": [], 
         "tracks": [
@@ -2545,11 +2545,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 5620, 
@@ -3202,10 +3202,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "Data Science", 
-            "Full-Stack Web Development"
+            "Other", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 573, 
@@ -4271,7 +4271,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1610, 
+            "followers": 1609, 
             "handle": "@CodersInstitute", 
             "tweets": 3088
         }, 
@@ -4971,7 +4971,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1632, 
+            "followers": 1631, 
             "handle": "@CodeCoreYVR", 
             "tweets": 1731
         }, 
@@ -5517,8 +5517,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
             "Mobile Development", 
+            "Front-End Web Development", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
@@ -6057,7 +6057,7 @@
         "twitter": {
             "followers": 2228, 
             "handle": "@gocodeup", 
-            "tweets": 2100
+            "tweets": 2101
         }, 
         "visas": "No", 
         "website": "http://www.codeup.com/"
@@ -7257,7 +7257,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 7298, 
+            "followers": 7299, 
             "handle": "@DataCamp", 
             "tweets": 1721
         }, 
@@ -7362,10 +7362,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Other", 
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Other"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 1642, 
@@ -7733,7 +7733,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 6181, 
+            "followers": 6182, 
             "handle": "@DesafioLatam", 
             "tweets": 1226
         }, 
@@ -7821,8 +7821,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 16300, 
@@ -8228,9 +8228,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1015, 
+            "followers": 1016, 
             "handle": "@devcodecamp", 
-            "tweets": 731
+            "tweets": 732
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -8660,10 +8660,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "UX Design", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 404, 
@@ -10430,7 +10430,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6747, 
+            "followers": 6748, 
             "handle": "@FlatironSchool", 
             "tweets": 4286
         }, 
@@ -10690,7 +10690,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8764, 
+            "followers": 8765, 
             "handle": "@fullstack", 
             "tweets": 890
         }, 
@@ -11774,7 +11774,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 5801, 
+            "followers": 5802, 
             "handle": "@hopperacademy", 
             "tweets": 318
         }, 
@@ -11908,10 +11908,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Digital Marketing", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Mobile Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 5095, 
@@ -12183,7 +12183,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7290, 
+            "followers": 7291, 
             "handle": "@HackReactor", 
             "tweets": 2684
         }, 
@@ -12872,7 +12872,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2615, 
+            "followers": 2614, 
             "handle": "@holbertonschool", 
             "tweets": 1052
         }, 
@@ -13303,7 +13303,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3846, 
+            "followers": 3847, 
             "handle": "@InsightDataSci", 
             "tweets": 249
         }, 
@@ -13482,7 +13482,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1710, 
+            "followers": 1707, 
             "handle": "@InterfaceSchool", 
             "tweets": 3708
         }, 
@@ -13739,12 +13739,12 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8605, 
+            "followers": 8606, 
             "handle": "@ironhack", 
             "tweets": 3346
         }, 
@@ -13794,9 +13794,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Other", 
-            "Data Science", 
-            "Full-Stack Web Development"
+            "Data Science"
         ], 
         "twitter": {
             "followers": 486, 
@@ -14751,17 +14751,17 @@
                 "part_or_full": "Full Time", 
                 "title": "Full-Stack Web Development Bootcamp", 
                 "topics": [
-                    "HTML", 
-                    "CSS", 
-                    "JavaScript", 
                     "MySQL", 
-                    "PHP", 
                     "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
                     "Git", 
-                    "jQuery", 
+                    "PHP", 
                     "SQL", 
+                    "jQuery", 
                     "User Experience Design", 
-                    "Front End"
+                    "CSS"
                 ], 
                 "weekly_time": 60
             }, 
@@ -14799,22 +14799,22 @@
             "CourseReport"
         ], 
         "technologies": [
-            "HTML", 
-            "CSS", 
-            "JavaScript", 
             "MySQL", 
-            "PHP", 
             "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
             "Git", 
-            "jQuery", 
+            "PHP", 
             "SQL", 
+            "jQuery", 
             "User Experience Design", 
-            "Front End"
+            "CSS"
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 150, 
@@ -15206,7 +15206,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4523, 
+            "followers": 4524, 
             "handle": "@lighthouse_labs", 
             "tweets": 6670
         }, 
@@ -15447,7 +15447,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8663, 
+            "followers": 8664, 
             "handle": "@makersacademy", 
             "tweets": 7416
         }, 
@@ -15824,7 +15824,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2677, 
+            "followers": 2678, 
             "handle": "@thisismetis", 
             "tweets": 4170
         }, 
@@ -16469,7 +16469,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1463, 
+            "followers": 1464, 
             "handle": "@NYCodeDesign", 
             "tweets": 1472
         }, 
@@ -16847,9 +16847,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 748, 
+            "followers": 749, 
             "handle": "@OperationSpark", 
-            "tweets": 1047
+            "tweets": 1048
         }, 
         "visas": "No", 
         "website": "https://www.operationspark.org/"
@@ -19237,7 +19237,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8757, 
+            "followers": 8758, 
             "handle": "@Springboard", 
             "tweets": 1953
         }, 
@@ -19504,9 +19504,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15700, 
@@ -20247,7 +20247,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4606, 
+            "followers": 4607, 
             "handle": "@TechTalentSouth", 
             "tweets": 6773
         }, 
@@ -20530,7 +20530,7 @@
         "twitter": {
             "followers": 42700, 
             "handle": "@unccharlotte", 
-            "tweets": 6032
+            "tweets": 6033
         }, 
         "visas": "No", 
         "website": "https://codingbootcamp.uncc.edu/"
@@ -20970,7 +20970,7 @@
         "twitter": {
             "followers": 15000, 
             "handle": "@TheIronYard", 
-            "tweets": 7535
+            "tweets": 7536
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -21813,7 +21813,7 @@
         "twitter": {
             "followers": 1586, 
             "handle": "@TurnToTech", 
-            "tweets": 1081
+            "tweets": 1082
         }, 
         "visas": "No", 
         "website": "http://turntotech.io"

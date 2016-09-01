@@ -94,7 +94,7 @@ class SwitchupSchool(Item):
 
     name = Field()
     locations = Field()
-    cost = Field()  #key: $ = < $5,000; $$ = $5,000-10,000; $$$ = $10,000-$14,000; $$$$ = $14,000+
+    general_cost = Field()  #key: $ = < $5,000; $$ = $5,000-10,000; $$$ = $10,000-$14,000; $$$$ = $14,000+
 
     website = Field()
 

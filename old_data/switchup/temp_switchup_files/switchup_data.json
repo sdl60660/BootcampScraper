@@ -1,4 +1,25 @@
 {
+    "42": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": [
+            "Paris", 
+            "Silicon Valley"
+        ], 
+        "name": "42", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "https://www.42.us.org/the-university/bootcamp-piscine/"
+    }, 
     "4Geeks Academy": {
         "average_salary": "N/A", 
         "class_ratio": "1:5", 
@@ -419,6 +440,44 @@
         "tracking_groups": [], 
         "website": "http://beachcoders.com/"
     }, 
+    "Become A Developer Bootcamp ( Net)": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "Detroit", 
+        "name": "Become A Developer Bootcamp ( Net)", 
+        "num_alumni": "N/A", 
+        "num_locations": 7, 
+        "scholarships": "Veterans, Women, Under...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": ".NET", 
+        "tracking_groups": [], 
+        "website": "http://www.grandcircus.co"
+    }, 
+    "Become A Developer Bootcamp (Java)": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "Detroit", 
+        "name": "Become A Developer Bootcamp (Java)", 
+        "num_alumni": "N/A", 
+        "num_locations": 7, 
+        "scholarships": "Veterans, Women, Under...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Java", 
+        "tracking_groups": [], 
+        "website": "http://www.grandcircus.co"
+    }, 
     "Betamore": {
         "average_salary": "N/A", 
         "class_ratio": "15:1", 
@@ -619,6 +678,47 @@
             "Potential Market"
         ], 
         "website": "http://www.brainstation.io/course/toronto/web-development-immersive?utm_source=Switchup&utm_medium=marketing&utm_term=web_development_immersive&utm_campaign=Switchup"
+    }, 
+    "Byte Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:4", 
+        "cost": "$$", 
+        "hiring_rate": 98.0, 
+        "locations": "NYC", 
+        "name": "Byte Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 3, 
+        "scholarships": "Enter \"Switchup\" in yo...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 15, 
+        "su_rating": 4.5, 
+        "subjects": "Python Fullstack, FinTech, Data Sciences/Big Data, MedTech, Javascript", 
+        "tracking_groups": [], 
+        "website": "http://www.byteacademy.co/"
+    }, 
+    "Camp Code Away": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:4", 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": [
+            "Bali", 
+            "Costa Rica"
+        ], 
+        "name": "Camp Code Away", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "scholarships": "Minority and female in...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Ruby on Rails, HTML, SQL, CSS", 
+        "tracking_groups": [], 
+        "website": "http://campcodeaway.com/"
     }, 
     "Careerfoundry": {
         "average_salary": "N/A", 
@@ -1025,6 +1125,25 @@
         "tracking_groups": [], 
         "website": "http://www.joincoded.com/"
     }, 
+    "Codemasters Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:5", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "Orange County", 
+        "name": "Codemasters Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 13, 
+        "scholarships": "$500 Scholarships - Ve...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "JavaScript, AngularJS, HTML, CSS, Bootstrap, LESS, ASP.NET, C#, SQL", 
+        "tracking_groups": [], 
+        "website": "http://www.codemastersacademy.com/"
+    }, 
     "Coder Cadre": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -1107,6 +1226,23 @@
         "subjects": ".NET, Javascript, HTML5, CSS3, AngularJS, C#, MVC", 
         "tracking_groups": [], 
         "website": "http://www.coderfoundry.com/apply?utm_source=switchup&utm_medium=reviewsite&utm_campaign=switchreview"
+    }, 
+    "Coder Manual": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Coder Manual", 
+        "num_alumni": "N/A", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "https://codermanual.com/"
     }, 
     "Coder Vox": {
         "average_salary": "N/A", 
@@ -1468,6 +1604,25 @@
         "tracking_groups": [], 
         "website": "http://datalaus.com/en/"
     }, 
+    "Davinci Coders": {
+        "average_salary": 65, 
+        "class_ratio": "2 : 12", 
+        "cost": null, 
+        "hiring_rate": 75.0, 
+        "locations": "Boulder", 
+        "name": "Davinci Coders", 
+        "num_alumni": 120, 
+        "num_locations": 7, 
+        "scholarships": "$200 off", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 6, 
+        "su_rating": 4.2, 
+        "subjects": "Ruby on Rails, JavaScript, Video Game Dev (C#), iOS Dev (Swift/Objective-C)", 
+        "tracking_groups": [], 
+        "website": "http://www.davincicoders.com/"
+    }, 
     "Decode Mtl": {
         "average_salary": "N/A", 
         "class_ratio": "1:10", 
@@ -1579,6 +1734,25 @@
         "subjects": "Design, UI Design, UX Design, Visual Design, Web Design", 
         "tracking_groups": [], 
         "website": "http://trydesignlab.com?utm_source=switchup"
+    }, 
+    "Dev Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$$$", 
+        "hiring_rate": "No data", 
+        "locations": "Wellington", 
+        "name": "Dev Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 10, 
+        "scholarships": "Te Uru Rangi (Maori in...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 12, 
+        "su_rating": 4.1, 
+        "subjects": "Full stack Javascript ES5/6/7, HTML5, CSS3, Object Orientated Programming, SQL, noSQL databases, pair programming, Agile, Behaviour driven development and test driven development. ", 
+        "tracking_groups": [], 
+        "website": "http://devacademy.co.nz/"
     }, 
     "Dev Bootcamp": {
         "average_salary": "N/A", 
@@ -1822,6 +1996,24 @@
         "tracking_groups": [], 
         "website": "www.digitalprofessionalinstitute.com"
     }, 
+    "Digital Unicorn": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "London", 
+        "name": "Digital Unicorn", 
+        "num_alumni": "N/A", 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "https://digitalunicorn.co.uk/"
+    }, 
     "Digitalcrafts": {
         "average_salary": "N/A", 
         "class_ratio": "1:8", 
@@ -1843,6 +2035,24 @@
         "subjects": "Full-Stack Development including Javascript, NodeJS, AngularJS, Python, HTML, CSS, and MySQL. Electives include Swift, iOS, UX, and Ionic.", 
         "tracking_groups": [], 
         "website": "http://www.digitalcrafts.com"
+    }, 
+    "Disruption Institute": {
+        "average_salary": "N/A", 
+        "class_ratio": "No data", 
+        "cost": "$$", 
+        "hiring_rate": "No data", 
+        "locations": "Kansas City", 
+        "name": "Disruption Institute", 
+        "num_alumni": "N/A", 
+        "num_locations": 11, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 3, 
+        "su_rating": 4.0, 
+        "subjects": "Ruby on Rails", 
+        "tracking_groups": [], 
+        "website": "http://disruptioninstitute.com"
     }, 
     "Dojo Dev Camp": {
         "average_salary": "N/A", 
@@ -1918,6 +2128,28 @@
         "subjects": "Node.js, Javascript", 
         "tracking_groups": [], 
         "website": "http://www.elium.academy/"
+    }, 
+    "Epicodus": {
+        "average_salary": 45000, 
+        "class_ratio": "1:30", 
+        "cost": "$", 
+        "hiring_rate": 94.0, 
+        "locations": [
+            "Portland", 
+            "Philadelphia", 
+            "Seattle"
+        ], 
+        "name": "Epicodus", 
+        "num_alumni": 442, 
+        "num_locations": 3, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 91, 
+        "su_rating": 4.9, 
+        "subjects": "Intro to Programming, Ruby, PHP, Java, C#, JavaScript, Rails, Drupal, Android, .NET, CSS, Design", 
+        "tracking_groups": [], 
+        "website": "http://www.epicodus.com"
     }, 
     "Epicu": {
         "average_salary": "N/A", 
@@ -2014,6 +2246,25 @@
         "subjects": "JavaScript, Node.js, React", 
         "tracking_groups": [], 
         "website": "http://foundersandcoders.org/"
+    }, 
+    "Free Code Camp": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "Online", 
+        "name": "Free Code Camp", 
+        "num_alumni": 2000, 
+        "num_locations": 6, 
+        "scholarships": "We are free for everyone", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 2, 
+        "su_rating": 5.0, 
+        "subjects": "JavaScript, Node, HTML5, MongoDB, Angular, React, Express, Databases, Agile, CSS, Design, Web Development, User Experience, Full Stack, Front End", 
+        "tracking_groups": [], 
+        "website": "http://freecodecamp.com"
     }, 
     "Fullstack 360": {
         "average_salary": "N/A", 
@@ -2315,6 +2566,25 @@
         "tracking_groups": [], 
         "website": "http://gracehopper.com/?utm_source=SwitchUp&utm_medium=banner&utm_campaign=november_promo"
     }, 
+    "Grand Circus": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:8", 
+        "cost": "$$", 
+        "hiring_rate": 92.0, 
+        "locations": "Detroit", 
+        "name": "Grand Circus", 
+        "num_alumni": "N/A", 
+        "num_locations": 7, 
+        "scholarships": "$1,000 Automatic Schol...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 12, 
+        "su_rating": 5.0, 
+        "subjects": "Java, .NET, Javascript, HTML, CSS", 
+        "tracking_groups": [], 
+        "website": "http://www.grandcircus.co/"
+    }, 
     "Hack Pacific": {
         "average_salary": "N/A", 
         "class_ratio": "1:5", 
@@ -2429,6 +2699,24 @@
         "subjects": "Hacking, Programming, Ruby, Web, Web-Development, Big Data, Javascript, Ruby, Python,Self-Directed", 
         "tracking_groups": [], 
         "website": "http://www.hackership.org/"
+    }, 
+    "Hackeryou": {
+        "average_salary": "N/A", 
+        "class_ratio": "1 to 10", 
+        "cost": "$$", 
+        "hiring_rate": "No data", 
+        "locations": "Toronto", 
+        "name": "Hackeryou", 
+        "num_alumni": "N/A", 
+        "num_locations": 7, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 10, 
+        "su_rating": 5.0, 
+        "subjects": " HTML, CSS, Responsive Design, JavaScript, jQuery, APIs, WordPress, Ruby on Rails, Design Theory, Photoshop, Illustrator, InDesign", 
+        "tracking_groups": [], 
+        "website": "http://hackeryou.com/"
     }, 
     "Hackschool": {
         "average_salary": "N/A", 
@@ -2579,6 +2867,24 @@
         "tracking_groups": [], 
         "website": "http://learn.impekable.com/"
     }, 
+    "Ine, Inc": {
+        "average_salary": 95000, 
+        "class_ratio": "1 to 15 ", 
+        "cost": null, 
+        "hiring_rate": 85.0, 
+        "locations": null, 
+        "name": "Ine, Inc", 
+        "num_alumni": 3600, 
+        "scholarships": "$500", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "CCIE, CCNP, CCNA, Vagrant, Openflow, SDN, VMware, Firewalls, Network+, Security+, Cloud+, JunOS, Cisco Certifications, CompTIA certifications, switches, routing, protocols", 
+        "tracking_groups": [], 
+        "website": "www.ine.com"
+    }, 
     "Inside Sales Bootcamp": {
         "average_salary": 75, 
         "class_ratio": "1:7", 
@@ -2705,6 +3011,24 @@
         "tracking_groups": [], 
         "website": "http://jaaga.in/study/"
     }, 
+    "Jademy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "Bucharest", 
+        "name": "Jademy", 
+        "num_alumni": "N/A", 
+        "num_locations": 9, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "https://www.jademy.ro/"
+    }, 
     "Koru": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -2807,6 +3131,43 @@
         "tracking_groups": [], 
         "website": "http://www.lewagon.org/"
     }, 
+    "Learn": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:9", 
+        "cost": null, 
+        "hiring_rate": 85.0, 
+        "locations": "San Diego", 
+        "name": "Learn", 
+        "num_alumni": 45, 
+        "num_locations": 9, 
+        "scholarships": "Diversity Scholarships...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Ruby onRails, JavaScript, HTML & CSS, Git & Source control, Github, Code Reviews & Collaboration, API & Application Connections ", 
+        "tracking_groups": [], 
+        "website": "http://learn.notch8.com/?utm_source=switchup&utm_medium=banner&utm_content=click&utm_campaign=perclick"
+    }, 
+    "Learn To Code London": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "London", 
+        "name": "Learn To Code London", 
+        "num_alumni": "N/A", 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "http://www.learn-to-code-london.co.uk/"
+    }, 
     "Learningfuze": {
         "average_salary": "N/A", 
         "class_ratio": "5 to 1", 
@@ -2904,6 +3265,51 @@
         "subjects": "Ruby, JavaScript, Ruby on Rails, HTML, CSS, jQuery, SQL, PostgreSQL, Git and Heroku, Softwire Design, Agile and Lean", 
         "tracking_groups": [], 
         "website": "http://www.makersacademy.com"
+    }, 
+    "Makersquare": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:5", 
+        "cost": "$$", 
+        "hiring_rate": 96.0, 
+        "locations": [
+            "Austin", 
+            "San Francisco", 
+            "Los Angeles", 
+            "NYC"
+        ], 
+        "name": "Makersquare", 
+        "num_alumni": 500, 
+        "num_locations": 4, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 25, 
+        "su_rating": 4.7, 
+        "subjects": "JavaScript", 
+        "tracking_groups": [], 
+        "website": "http://makersquare.com"
+    }, 
+    "Makeschool": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:6", 
+        "cost": "$$$$", 
+        "hiring_rate": "No data", 
+        "locations": [
+            "NYC", 
+            "San Francisco"
+        ], 
+        "name": "Makeschool", 
+        "num_alumni": 500, 
+        "num_locations": 2, 
+        "scholarships": "Need-based scholarships", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Objective-C, Swift, iOS, Git, Ruby on Rails, CSS, HTML", 
+        "tracking_groups": [], 
+        "website": "https://www.makeschool.com/"
     }, 
     "Marcademy": {
         "average_salary": "N/A", 
@@ -3211,6 +3617,24 @@
         "subjects": null, 
         "tracking_groups": [], 
         "website": "https://www.operationspark.org"
+    }, 
+    "Orange County Code School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$$$", 
+        "hiring_rate": 100.0, 
+        "locations": "Orange County", 
+        "name": "Orange County Code School", 
+        "num_alumni": "N/A", 
+        "num_locations": 13, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 14, 
+        "su_rating": 5.0, 
+        "subjects": "Full-Stack: Javascript, Node.js, Angular.js, Express.js, MondgoDB, JQuery, Heroku,HTML5, CSS3,  ", 
+        "tracking_groups": [], 
+        "website": "https://www.orangecountycodeschool.com/"
     }, 
     "Origin Code Academy": {
         "average_salary": "N/A", 
@@ -3974,6 +4398,24 @@
         "tracking_groups": [], 
         "website": "http://www.sydneydevcamp.com/"
     }, 
+    "Tag Innovation School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "Milan", 
+        "name": "Tag Innovation School", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "http://talentgarden.org/en/innovationschool/"
+    }, 
     "Talentbuddy": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -3991,6 +4433,42 @@
         "subjects": "JavaScript, Parse, jQuery, HTML, CSS, Ember.js, Express,js, MongoDB, Node.js", 
         "tracking_groups": [], 
         "website": "http://www.talentbuddy.co/"
+    }, 
+    "Tealeaf": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "Online", 
+        "name": "Tealeaf", 
+        "num_alumni": "N/A", 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Ruby", 
+        "tracking_groups": [], 
+        "website": "http://gotealeaf.com"
+    }, 
+    "Tech Bootcamps": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$$", 
+        "hiring_rate": "No data", 
+        "locations": "Boston", 
+        "name": "Tech Bootcamps", 
+        "num_alumni": "N/A", 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "PHP, HTML, CSS, JavaScript, MySQL, jQuery", 
+        "tracking_groups": [], 
+        "website": "http://www.techbootcamps.com/"
     }, 
     "Tech Elevator": {
         "average_salary": "N/A", 
@@ -4120,6 +4598,24 @@
         "tracking_groups": [], 
         "website": "http://thecoded.com/"
     }, 
+    "The Coding Bootcamp At Unc Chapel Hill": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": "Chapel Hill", 
+        "name": "The Coding Bootcamp At Unc Chapel Hill", 
+        "num_alumni": "N/A", 
+        "num_locations": 11, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Git, C#, ASP.Net", 
+        "tracking_groups": [], 
+        "website": "https://codingbootcamp.unc.edu/"
+    }, 
     "The Coding Bootcamp At Ut Austin": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -4196,6 +4692,25 @@
         "subjects": "Full Stack JavaScript, Full Stack Ruby, iOS, HTML/CSS,  Swift, React, Bootcamp Prep", 
         "tracking_groups": [], 
         "website": "http://hubs.ly/H029Yws0"
+    }, 
+    "The Guild Of Software Architects": {
+        "average_salary": "N/A", 
+        "class_ratio": "Each cohort has one dedicated instructor and is limited to 12 apprentices.", 
+        "cost": "$$$", 
+        "hiring_rate": "No data", 
+        "locations": "Dallas", 
+        "name": "The Guild Of Software Architects", 
+        "num_alumni": "N/A", 
+        "num_locations": 6, 
+        "scholarships": "$2000 for women or $50...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "subjects": "Android & iOS mobile development", 
+        "tracking_groups": [], 
+        "website": "http://www.guildsa.org/"
     }, 
     "The Iron Yard": {
         "average_salary": 45000, 
@@ -4317,6 +4832,24 @@
         "tracking_groups": [], 
         "website": "http://www.thinkful.com/"
     }, 
+    "Tradecraft": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:6", 
+        "cost": "$$$", 
+        "hiring_rate": "No data", 
+        "locations": "San Francisco", 
+        "name": "Tradecraft", 
+        "num_alumni": "N/A", 
+        "num_locations": 13, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "subjects": "Business Development, Growth Marketing, Product Design, Engineering", 
+        "tracking_groups": [], 
+        "website": "http://tradecrafted.com/"
+    }, 
     "Treehouse": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -4334,6 +4867,42 @@
         "subjects": "HTML,CSS, Ruby", 
         "tracking_groups": [], 
         "website": "https://teamtreehouse.com/techdegree?cid=7022"
+    }, 
+    "Try Ruby": {
+        "average_salary": "N/A", 
+        "class_ratio": "No data", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Try Ruby", 
+        "num_alumni": "N/A", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 2, 
+        "su_rating": 2.8, 
+        "subjects": "Ruby", 
+        "tracking_groups": [], 
+        "website": "http://www.tryruby.org"
+    }, 
+    "Turing School Of Software And Design": {
+        "average_salary": 78000, 
+        "class_ratio": "1 to 10", 
+        "cost": "$$$$", 
+        "hiring_rate": 94.0, 
+        "locations": "Denver", 
+        "name": "Turing School Of Software And Design", 
+        "num_alumni": 76, 
+        "num_locations": 6, 
+        "scholarships": "Diversity scholarship ...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 6, 
+        "su_rating": 5.0, 
+        "subjects": "Ruby, JavaScript, Ruby on Rails, Sinatra, HTML, CSS", 
+        "tracking_groups": [], 
+        "website": "http://turing.io"
     }, 
     "Turn To Tech": {
         "average_salary": "N/A", 
@@ -4369,6 +4938,25 @@
         "subjects": "HTML, CSS, Ruby, Java, PHP, Everything, iOS, SQL", 
         "tracking_groups": [], 
         "website": "http://www.tutorialspoint.com/"
+    }, 
+    "Ubiqum Code Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:10", 
+        "cost": null, 
+        "hiring_rate": 100.0, 
+        "locations": "Barcelona", 
+        "name": "Ubiqum Code Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 9, 
+        "scholarships": "Excellent academic rec...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 4, 
+        "su_rating": 4.8, 
+        "subjects": "Java, Javascript, Angular JS, Spring Boot, RESTful, JSON, Data Analytics, Language R, HTML, CSS, Firebase", 
+        "tracking_groups": [], 
+        "website": "http://www.ubiqum.com/"
     }, 
     "Uc Berkeley Data Science": {
         "average_salary": "N/A", 
@@ -4466,6 +5054,45 @@
         "tracking_groups": [], 
         "website": "https://www.velocity360.io/"
     }, 
+    "Viking Code School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$$$", 
+        "hiring_rate": "No data", 
+        "locations": null, 
+        "name": "Viking Code School", 
+        "num_alumni": "N/A", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 12, 
+        "su_rating": 4.4, 
+        "subjects": "Ruby, Ruby on Rails, Javascript, HTML, CSS, AJAX", 
+        "tracking_groups": [], 
+        "website": "http://www.vikingcodeschool.com"
+    }, 
+    "Vital Accelerator": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$", 
+        "hiring_rate": "No data", 
+        "locations": [
+            "Madison", 
+            "Milwaukee"
+        ], 
+        "name": "Vital Accelerator", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "scholarships": "$5000 Scholarships", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Network Specialist, Cyber Security, Software Developer, Business Intelligence", 
+        "tracking_groups": [], 
+        "website": "http://vitalaccelerator.com/"
+    }, 
     "We Can Code It": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -4485,6 +5112,25 @@
         "tracking_groups": [], 
         "website": "http://bootcamp.wecancodeit.org/"
     }, 
+    "We Got Coders": {
+        "average_salary": 45000, 
+        "class_ratio": "1 to 5", 
+        "cost": "$$", 
+        "hiring_rate": 100.0, 
+        "locations": "London", 
+        "name": "We Got Coders", 
+        "num_alumni": 10, 
+        "num_locations": 6, 
+        "scholarships": "Graduate Scholarships ...", 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 4, 
+        "su_rating": 5.0, 
+        "subjects": "\u2022\tRuby/ OO Programming  \u2022\tSinatra/ Padrino \u2022\tRuby on Rails \u2022\tDatabases & SQL \u2022\tHTML 5 \u2022\tCSS/ SASS \u2022\tNetworking/ HTTP/ WWW \u2022\tJavaScript/ JQuery/ AJax \u2022\tBackbone. js \u2022\tAgile Web Development \u2022\tTest Driven Development \u2022\tGIT", 
+        "tracking_groups": [], 
+        "website": "http://wegotcoders.com/"
+    }, 
     "Web Dev Camp": {
         "average_salary": 30000, 
         "class_ratio": "1:8", 
@@ -4503,6 +5149,24 @@
         "subjects": "Programming(Client + server), HTML5 , CSS3", 
         "tracking_groups": [], 
         "website": "http://webdev.camp/"
+    }, 
+    "Web Fellowship": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:9", 
+        "cost": null, 
+        "hiring_rate": "No data", 
+        "locations": "Austin", 
+        "name": "Web Fellowship", 
+        "num_alumni": "N/A", 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Front End Dev, Design, HTML, CSS, PHP", 
+        "tracking_groups": [], 
+        "website": "http://webfellowship.org"
     }, 
     "World Tech Academy": {
         "average_salary": "N/A", 
@@ -4593,5 +5257,23 @@
         "subjects": "Java, JavaScript", 
         "tracking_groups": [], 
         "website": "http://www.zipcodewilmington.com/"
+    }, 
+    "Zipfian Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost": "$$$$", 
+        "hiring_rate": 93.0, 
+        "locations": "San Francisco", 
+        "name": "Zipfian Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 13, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "subjects": "Data Science, Data Engineering", 
+        "tracking_groups": [], 
+        "website": "http://www.zipfianacademy.com/"
     }
 }
