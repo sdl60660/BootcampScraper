@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/bin/scrapy", line 7, in <module>
+    from scrapy.cmdline import execute
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/__init__.py", line 34, in <module>
+    from scrapy.spiders import Spider
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/spiders/__init__.py", line 10, in <module>
+    from scrapy.http import Request
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/__init__.py", line 11, in <module>
+    from scrapy.http.request.form import FormRequest
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/request/form.py", line 9, in <module>
+    import lxml.html
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/lxml/html/__init__.py", line 54, in <module>
+    from .. import etree
+  File "src/lxml/apihelpers.pxi", line 626, in init lxml.etree (src/lxml/lxml.etree.c:217028)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/re.py", line 249, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 572, in compile
+    p = sre_parse.parse(p, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_parse.py", line 716, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_parse.py", line 324, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_parse.py", line 529, in _parse
+    item = subpattern[-1:]
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_parse.py", line 143, in __getitem__
+    return SubPattern(self.pattern, self.data[index])
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_parse.py", line 92, in __init__
+    def __init__(self, pattern, data=None):
+KeyboardInterrupt

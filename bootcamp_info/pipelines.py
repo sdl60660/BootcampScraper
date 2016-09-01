@@ -86,6 +86,14 @@ class TrackingGroupTags(object):
         return item
                    
 
+class EmptyChecker(object):
+    
+    def process_item(self, item, spider):
+        if len(item['name']) == 0:
+            raise DropItem("No name value!")
+        else:
+            return item
+
 
 
 

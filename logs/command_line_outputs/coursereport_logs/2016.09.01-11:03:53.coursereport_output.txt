@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/bin/scrapy", line 7, in <module>
+    from scrapy.cmdline import execute
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/cmdline.py", line 6, in <module>
+    import pkg_resources
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/pkg_resources/__init__.py", line 25, in <module>
+    import zipfile
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/zipfile.py", line 4, in <module>
+    import struct, os, time, sys, shutil
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py", line 11, in <module>
+    import fnmatch
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/fnmatch.py", line 11, in <module>
+    """
+KeyboardInterrupt

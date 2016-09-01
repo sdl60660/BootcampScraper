@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/bin/scrapy", line 11, in <module>
+    sys.exit(execute())
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/cmdline.py", line 141, in execute
+    cmd.crawler_process = CrawlerProcess(settings)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/crawler.py", line 238, in __init__
+    super(CrawlerProcess, self).__init__(settings)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/crawler.py", line 129, in __init__
+    self.spider_loader = _get_spider_loader(settings)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/crawler.py", line 325, in _get_spider_loader
+    return loader_cls.from_settings(settings.frozencopy())
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/spiderloader.py", line 33, in from_settings
+    return cls(settings)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/spiderloader.py", line 20, in __init__
+    self._load_all_spiders()
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/spiderloader.py", line 28, in _load_all_spiders
+    for module in walk_modules(name):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/utils/misc.py", line 71, in walk_modules
+    submod = import_module(fullpath)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/Users/samlearner/scrapy_projects/bootcamp_info/bootcamp_info/spiders/bootcampsin.py", line 8, in <module>
+    from bs4 import BeautifulSoup
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/bs4/__init__.py", line 35, in <module>
+    from .builder import builder_registry, ParserRejectedMarkup
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/bs4/builder/__init__.py", line 315, in <module>
+    from . import _htmlparser
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/bs4/builder/_htmlparser.py", line 10, in <module>
+    from HTMLParser import HTMLParser
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/HTMLParser.py", line 1, in <module>
+    """A parser for HTML and XHTML."""
+KeyboardInterrupt

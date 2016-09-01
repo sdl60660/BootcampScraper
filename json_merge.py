@@ -4,19 +4,54 @@ from jsonmerge import Merger
 import sys
 from pprint import pprint
 
-import copy
+#import argparse
 
-#======DICT KEY=======
+#======DICT KEY (for traditional merge)=======
 # 1: BOOTCAMPSIN
 # 2: SWITCHUP
 # 3: COURSEREPORT
+
+#THE ARGPARSE MODULE WOULD BE HELPFUL TO USE IN THE FUTURE, BUT IT'S NOT REALLY NECESSARY FOR THE PURPOSES OF
+#THIS ONE OPTIONAL ARGUMENT
+"""parser = argparse.ArgumentParser(description='Merge JSON files, with later files taking conflict priority.')
+#parser.add_argument('merge files', metavar='files', type=str, nargs='?',
+#                    help='a file to be merged')
+parser.add_argument('--output', dest='accumulate', action='store_true',
+                    help='indicates that last argument is an output file')
+
+args = parser.parse_args()
+
+print args
+if --output == True:
+    output_file = sys.argv[-1]
+    sys.argv = sys.argv[:-1]
+
+"""
+
+#check if the optional output flag was included
+#if so, the last filename is the output file
+output = False
+
+for arg in range(len(sys.argv)):
+    if sys.argv[arg] == '--output':
+        output = True
+        sys.argv.remove('--output')
+        break
+
+if output == True:
+    output_file = sys.argv[-1]
+    file_array = sys.argv[:-1]
+else:
+    output_file = 'output.json'
+    file_array = sys.argv
+
 
 #create an array to store json files from spiders
 json_files = []
 
 #add json files from scraper directory, specified in command line
-for i in range(1, len(sys.argv)):
-    json_files.append(sys.argv[i])
+for i in range(1, len(file_array)):
+    json_files.append(file_array[i])
 
 #create dictionary of numbered keys to bootcamps json files
 bootcamp_data = {}
@@ -32,105 +67,38 @@ num_similar = 0
 
 output_dict = {}
 
-#THIS COULD BE ADJUSTED SO THAT IT WORKS WITH A VARIABLE NUMBER OF SOURCES
-#THAT WAY EVERYTIME I ADD A SPIDER, I DON'T NEED TO COMPLETELY RE-DO THIS
-#FUNCTION. ALSO GOING TO NEED TO TAKE INTO ACCOUNT SPIDERS LIKE ALEXA
+#merge each file included in argument list, with later ones taking conflict priority
+for file in bootcamp_data:
+    try:
+        for x in bootcamp_data[file]:
+            name = str(bootcamp_data[file][x]['name']).title()
+            if name in output_dict:
+                output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
+            else:
+                output_dict[name] = bootcamp_data[file][x]
+    except TypeError:
+        for x in range(len(bootcamp_data[file])):
+            name = str(bootcamp_data[file][x]['name']).title()
+            if name in output_dict:
+                output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
+            else:
+                output_dict[name] = bootcamp_data[file][x]
 
-for x in range(len(bootcamp_data[1])):
-    #bootcamp_data[1][x]['sources'] = ['BootcampsIn',]
-    name = str(bootcamp_data[1][x]['name']).title()
-    output_dict[name] = bootcamp_data[1][x]
-
-for y in range(len(bootcamp_data[2])):
-    name = str(bootcamp_data[2][y]['name']).title()
-    if name in output_dict:
-        #bootcamp_data[2][y]['sources'].append('SwitchUp')
-        #source_store = copy.deepcopy(bootcamp_data[2][y]['sources'])
-        output_dict[name] = merge(output_dict[name], bootcamp_data[2][y])
-        #bootcamp_data[2][y]['sources'] = source_store
-    else:
-        #bootcamp_data[2][y]['sources'] = ['SwitchUp',]
-        output_dict[name] = bootcamp_data[2][y]
-
-counter = 0
-
-for z in bootcamp_data[3]:
-    name = str(bootcamp_data[3][z]['name']).title()
-    if name in output_dict:
-        #bootcamp_data[3][z]['sources'].append('CourseReport')
-        #source_store = copy.deepcopy(bootcamp_data[3][z]['sources'])
-        """if counter < 200:
-            print
-            print "ORIGINAL"
-            print
-            pprint(output_dict[name])
-            print
-            print "COURSE REPORT"
-            print
-            pprint(bootcamp_data[3][z])
-            print"""
-
-        output_dict[name] = merge(output_dict[name], bootcamp_data[3][z])
-        
-        """if counter < 200:
-            print "MERGED"
-            print
-            pprint(output_dict[name])
-            print
-            print "--------------------------------------------"
-            counter += 1
-            print "COUNTER: " + str(counter)"""
-
-        #bootcamp_data[3][z]['sources'] = source_store
-    else:
-        #bootcamp_data[3][z]['sources'] = ['CourseReport',]
-        output_dict[name] = bootcamp_data[3][z]
-
-with open('output.json', 'w') as f:
+#write merge JSON to output file
+with open(output_file, 'w') as f:
     json.dump(output_dict, f, indent=4, sort_keys=True)
 
 
-"""
 print
 print "========================================"
 print "================SUMMARY================="
 print "========================================"
-print"""
 print
-print "Total in BootcampsIn JSON: " + str(len(bootcamp_data[1]))
-print "Total in SwitchUp JSON: " + str(len(bootcamp_data[2]))
-print "Total in CourseReport JSON: " + str(len(bootcamp_data[3]))
+print
+for file in bootcamp_data:
+    print "Total JSON items in file " + str(file) + ": " + str(len(bootcamp_data[file]))
+print
+print "Total in OUTPUT: " + str(len(output_dict))
 print
 """print "Total Similar: " + str(num_similar)
-print
-#pprint(bootcamp_data[1][1]['name'], width=100)
-#print
-#print len(bootcamp_data[1])
-"""
-
-
-
-"""
-result = merge(bootcamp_data[1], bootcamp_data[2])
-
-print
-print
-print "ORIGNAL 1"
-print "---------"
-print
-pprint(bootcamp_data[1])
-print
-print
-print "ORIGNAL 2"
-print "---------"
-print
-pprint(bootcamp_data[2])
-print
-print
-print "  MERGED  "
-print "----------"
-print
-pprint(result, width= 100)
-
-#print bootcamp_data['file1']
 """

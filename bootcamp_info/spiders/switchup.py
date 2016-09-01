@@ -11,7 +11,10 @@ from scrapy.linkextractors import LinkExtractor
 
 from bootcamp_info.items import SwitchupSchool
 
+#GLOBAL COUNTER
+
 class SwitchupSpider(scrapy.Spider):
+    bc_count = 0
     name = "switchup"
     allowed_domains = ["switchup.org"]
     start_urls = (
@@ -41,6 +44,7 @@ class SwitchupSpider(scrapy.Spider):
 
     def parse_contents(self, response):
         item = SwitchupSchool()
+        self.bc_count += 1
 
         #SCHOLARSHIPS, SUBJECTS, HIRING RATE, AVERAGE SALARY, NUMBER OF ALUMNI, CLASS RATIO
 
@@ -120,6 +124,10 @@ class SwitchupSpider(scrapy.Spider):
 
         item['sources'] = ['SwitchUp']
         item['tracking_groups'] = list()
+        
+        #print
+        #print "Bootcamp Count: " + str(self.bc_count)
+        #print
             
         yield item
 

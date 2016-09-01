@@ -1,0 +1,47 @@
+2016-09-01 12:55:24 [scrapy] INFO: Scrapy 1.1.2 started (bot: bootcamp_info)
+2016-09-01 12:55:24 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'bootcamp_info.spiders', 'FEED_URI': 'old_data/switchup/temp_switchup_files/switchup_data1.json', 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['bootcamp_info.spiders'], 'BOT_NAME': 'bootcamp_info', 'FEED_FORMAT': 'json'}
+2016-09-01 12:55:24 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-09-01 12:55:24 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-01 12:55:24 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-01 12:55:24 [scrapy] INFO: Enabled item pipelines:
+['bootcamp_info.pipelines.TrackingGroupTags',
+ 'bootcamp_info.pipelines.EmptyChecker']
+2016-09-01 12:55:24 [scrapy] INFO: Spider opened
+2016-09-01 12:55:24 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 12:55:24 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-01 12:55:30 [scrapy] DEBUG: Crawled (200) <GET https://www.switchup.org/coding-bootcamps-reviews?mobile=false&page=1> (referer: None) ['partial']
+2016-09-01 12:55:32 [scrapy] DEBUG: Crawled (200) <GET https://www.switchup.org/coding-bootcamps-reviews?mobile=false&page=1> (referer: https://www.switchup.org/coding-bootcamps-reviews?mobile=false&page=1) ['partial']
+2016-09-01 12:55:33 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-09-01 12:55:33 [scrapy] INFO: Closing spider (shutdown)
+2016-09-01 12:55:33 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/world-tech-academy> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/fire-bootcamp> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/coding-temple> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/devry-bootcamp> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/coding-bootcamps-reviews?mobile=false&page=2> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/codesmith> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/pdx-code-guild> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+2016-09-01 12:55:33 [scrapy] DEBUG: Retrying <GET https://www.switchup.org/bootcamps/hackeryou> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl23_read', 'ssl handshake failure')]>]
+
+PAGE URL: https://www.switchup.org/coding-bootcamps-reviews?mobile=false&page=2
+
