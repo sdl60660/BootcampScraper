@@ -73,11 +73,14 @@ output_dict = {}
 for file in bootcamp_data:
     try:
         for x in bootcamp_data[file]:
-            name = str(bootcamp_data[file][x]['name']).title()
-            if name in output_dict:
-                output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
-            else:
-                output_dict[name] = bootcamp_data[file][x]
+            try:
+                name = str(bootcamp_data[file][x]['name']).title()
+                if name in output_dict:
+                    output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
+                else:
+                    output_dict[name] = bootcamp_data[file][x]
+            except KeyError:
+                pass
     except TypeError:
         for x in range(len(bootcamp_data[file])):
             name = str(bootcamp_data[file][x]['name']).title()
@@ -89,9 +92,9 @@ for file in bootcamp_data:
 meta_dict = {}
 
 now = datetime.datetime.now()
-meta_dict['date/time'] = str(now)[:-7]
-meta_dict['days_out'] = now.toordinal() - 736212
-meta_dict['num_entries'] = len(output_dict)
+meta_dict['Date/Time'] = str(now)[:-7]
+meta_dict['Days Out'] = now.toordinal() - 736212
+meta_dict['Number of Entries'] = len(output_dict)
 
 meta_dict['Current Market'] = list()
 meta_dict['Potential Market'] = list()
@@ -151,7 +154,7 @@ print "========================================"
 print
 print
 for file in bootcamp_data:
-    print "Total JSON items in file " + str(file) + ": " + str(len(bootcamp_data[file]))
+    print "Total JSON items in file " + str(file_array[file]) + ": " + str(len(bootcamp_data[file]))
 print
 print "Total in OUTPUT: " + str(len(output_dict))
 print

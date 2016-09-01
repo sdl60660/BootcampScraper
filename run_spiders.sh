@@ -85,6 +85,12 @@ output_time=$(date "+%H:%M:%S")
 echo
 echo "$output_time: Scraper finished!"
 
+echo 'META DATA FROM LAST OUTPUT' >>logs/scraper_log.txt
+echo '--------------------------' >>logs/scraper_log.txt
+echo >>logs/scraper_log.txt
+python bootcamp_search.py 'meta' >>logs/scraper_log.txt
+echo >>logs/scraper_log.txt
+
 current_time=$(date "+%Y.%m.%d-%H:%M:%S")
 echo $current_time >>logs/scraper_log.txt
 echo "Scraper finished!" >>logs/scraper_log.txt

@@ -141,6 +141,9 @@ elif len(sys.argv) == 2:
     file = 'current_data/output.json'
     key = str(sys.argv[1]).title()
 
+if key == 'Meta':
+    key = key.lower()
+
 with open(file) as json_data:
     bootcamps = json.load(json_data)
 
