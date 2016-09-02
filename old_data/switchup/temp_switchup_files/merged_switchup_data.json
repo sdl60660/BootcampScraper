@@ -1894,24 +1894,6 @@
         "tracking_groups": [], 
         "website": "http://www.devatory.com"
     }, 
-    "Devcodecamp": {
-        "average_salary": 54000, 
-        "class_ratio": "20:1", 
-        "general_cost": "$$$", 
-        "hiring_rate": "No data", 
-        "locations": "Milwaukee", 
-        "name": "Devcodecamp", 
-        "num_alumni": "N/A", 
-        "num_locations": 9, 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 16, 
-        "su_rating": 4.8, 
-        "subjects": "C#, .Net, Javascript, Python, CSS, HTML, Angular, MongoDB, PHP, jQuery", 
-        "tracking_groups": [], 
-        "website": "http://www.devcodecamp.com/"
-    }, 
     "Developer Bootcamp": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -3903,25 +3885,6 @@
         ], 
         "website": "https://www.redacademy.com/"
     }, 
-    "Redwood Code Academy": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "general_cost": "$$$", 
-        "hiring_rate": "No data", 
-        "locations": "Orange County", 
-        "name": "Redwood Code Academy", 
-        "num_alumni": "N/A", 
-        "num_locations": 13, 
-        "scholarships": "$1000 Veteran Scholars...", 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "subjects": "HTML, CSS, JavaScript (Including AngularJS and Knockout.js), .NET, C# and SQL.", 
-        "tracking_groups": [], 
-        "website": "https://redwoodcodeacademy.com/"
-    }, 
     "Refactoru": {
         "average_salary": 64000, 
         "class_ratio": "1:6", 
@@ -5374,8 +5337,8 @@
             "The Iron Yard"
         ], 
         "Cleveland": [
-            "Tech Elevator", 
-            "Software Craftsmanship Guild"
+            "Software Craftsmanship Guild", 
+            "Tech Elevator"
         ], 
         "Columbus": [
             "Girl Develop It", 
@@ -5383,16 +5346,16 @@
         ], 
         "Current Market": [
             "Girl Develop It", 
-            "Tech Elevator", 
-            "Software Craftsmanship Guild"
+            "Software Craftsmanship Guild", 
+            "Tech Elevator"
         ], 
-        "Date/Time": "2016-09-02 10:08:06", 
+        "Date/Time": "2016-09-02 10:20:46", 
         "Days Out": -3, 
         "Detroit": [
             "Girl Develop It", 
             "The Iron Yard"
         ], 
-        "Number of Entries": 268, 
+        "Number of Entries": 266, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
