@@ -53,7 +53,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Programming C#.NET, Java", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://academy.se/inenglish/"
     }, 
     "Acadgild": {
@@ -130,7 +132,9 @@
         "su_num_reviews": 1, 
         "su_rating": 1.0, 
         "subjects": "Ruby on Rails", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://aitlearning.com"
     }, 
     "Alchemy Lab": {
@@ -148,7 +152,9 @@
         "su_num_reviews": 1, 
         "su_rating": 1.0, 
         "subjects": "HTML, CSS, JavaScript, PHP", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.code-ninja.co/"
     }, 
     "Alphappl": {
@@ -165,7 +171,9 @@
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://alphappl.com/"
     }, 
     "Alt-U": {
@@ -248,7 +256,9 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "iOS", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.appcoda.com/ios-programming-course/"
     }, 
     "Appjamming": {
@@ -265,7 +275,9 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "Application Development", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.appjamming.com/index.html"
     }, 
     "Apprentice Io By Thoughtbot": {
@@ -311,7 +323,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://arkansascodingacademy.com/"
     }, 
     "Astro Code School": {
@@ -328,7 +342,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://astrocodeschool.com/"
     }, 
     "Atlanta Code": {
@@ -554,7 +570,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Wireframing, HTML5, CSS3, SaSS, JavaScript, Angular, React, Express, SQL, NoSQL, MySQL, MongoDB, networks, and Git. ", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.bigskycodeacademy.org/"
     }, 
     "Bitmaker Labs": {
@@ -674,8 +692,8 @@
         "su_rating": 4.6, 
         "subjects": "Intro to Web Development, Intro to iOS Development, UX Design, Visual Design, Digital Marketing, Product Management, Intermediate Web Development, Wed Development Immersive", 
         "tracking_groups": [
-            "Toronto", 
-            "Potential Market"
+            "Potential Market", 
+            "Toronto"
         ], 
         "website": "http://www.brainstation.io/course/toronto/web-development-immersive?utm_source=Switchup&utm_medium=marketing&utm_term=web_development_immersive&utm_campaign=Switchup"
     }, 
@@ -753,7 +771,9 @@
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": ""
     }, 
     "Cincy Code It": {
@@ -920,7 +940,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Angular 2.0, React.js, Riot.js, Electron, Node.js etc", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://codeingenious.com/"
     }, 
     "Code Institute": {
@@ -937,7 +959,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Coding Bootcamps, Web Development, Computer Programming, Full Stack, Python, CSS, HTML, 12 Weeks, ", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.codeinstitute.net/"
     }, 
     "Code Union": {
@@ -1026,7 +1050,9 @@
         "su_num_reviews": 3, 
         "su_rating": 4.5, 
         "subjects": "Web, Javascript, PHP, Ruby, Python, API", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.codecademy.com/"
     }, 
     "Codecamp Charleston": {
@@ -1061,7 +1087,9 @@
         "su_num_reviews": 4, 
         "su_rating": 4.8, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://codeclan.com/"
     }, 
     "Codecore Bootcamp": {
@@ -1241,7 +1269,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "https://codermanual.com/"
     }, 
     "Coder Vox": {
@@ -1443,7 +1473,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "HTML, CSS, Javascript", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://codifyacademy.com/"
     }, 
     "Coding Bootcamp Praha": {
@@ -1460,7 +1492,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.codingbootcamp.cz/en/"
     }, 
     "Coding Dojo": {
@@ -1485,7 +1519,7 @@
         "sources": [
             "SwitchUp"
         ], 
-        "su_num_reviews": 89, 
+        "su_num_reviews": 90, 
         "su_rating": 4.0, 
         "subjects": "Front-End Fundamentals, HTML/CSS, Javascript, Twitter Bootstrap,  jQuery, LESS, PHP, CodeIgniter, MySQL, Ajax,  Angular.JS, MongoDB, Express, Node.JS, Socket.IO, Redis, Postgres,  SQLite, Coffeescript, NGINX, Heroku, Ruby, Rails", 
         "tracking_groups": [], 
@@ -1601,7 +1635,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://datalaus.com/en/"
     }, 
     "Davinci Coders": {
@@ -1695,7 +1731,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://innovationdepot.net/educate"
     }, 
     "Designation": {
@@ -1748,8 +1786,8 @@
         "sources": [
             "SwitchUp"
         ], 
-        "su_num_reviews": 12, 
-        "su_rating": 4.1, 
+        "su_num_reviews": 13, 
+        "su_rating": 3.9, 
         "subjects": "Full stack Javascript ES5/6/7, HTML5, CSS3, Object Orientated Programming, SQL, noSQL databases, pair programming, Agile, Behaviour driven development and test driven development. ", 
         "tracking_groups": [], 
         "website": "http://devacademy.co.nz/"
@@ -2225,7 +2263,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "https://www.firststepcoding.com/"
     }, 
     "Founders And Coders": {
@@ -2280,7 +2320,9 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.fullstack360.com/"
     }, 
     "Fullstack Academy": {
@@ -2365,6 +2407,24 @@
         "tracking_groups": [], 
         "website": "http://www.geekskool.com/"
     }, 
+    "Geekuni": {
+        "average_salary": 60000, 
+        "class_ratio": "1:20", 
+        "general_cost": "$", 
+        "hiring_rate": 95.0, 
+        "locations": "Online", 
+        "name": "Geekuni", 
+        "num_alumni": 10, 
+        "num_locations": 6, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": "Perl,Dancer2,jQuery", 
+        "tracking_groups": [], 
+        "website": "https://geekuni.com/"
+    }, 
     "Geekwise Academy": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -2379,7 +2439,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": ".NET Programming, JavaScript, HTML5, CSS", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://geekwiseacademy.com/"
     }, 
     "General Assembly": {
@@ -2486,12 +2548,12 @@
         "su_rating": null, 
         "subjects": "HTML/CSS, JavaScript, GIT/Github, web concepts, PHP/MySQL, Angular.JS., Web Accessibility", 
         "tracking_groups": [
-            "Detroit", 
             "Potential Market", 
+            "Detroit", 
             "Buffalo", 
             "Cincinnati", 
-            "Columbus", 
             "Current Market", 
+            "Columbus", 
             "Pittsburgh"
         ], 
         "website": "https://www.girldevelopit.com/"
@@ -2510,7 +2572,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "https://girlswhocode.com/"
     }, 
     "Go-Live Labs": {
@@ -2527,7 +2591,9 @@
         "su_num_reviews": 2, 
         "su_rating": 1.5, 
         "subjects": "JavaScript, HTML5, CSS, jQuery, AngularJS", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.golivelabs.io/"
     }, 
     "Grace Hopper Academy": {
@@ -2657,7 +2723,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://hackerforge.io"
     }, 
     "Hackership": {
@@ -2714,7 +2782,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://hackschool.com.mx/"
     }, 
     "Hacktiv8": {
@@ -2731,7 +2801,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": ""
     }, 
     "Helio Training Bootcamp": {
@@ -2807,7 +2879,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Ruby on Rails", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.hungryacademy.com"
     }, 
     "Ikompass": {
@@ -2824,7 +2898,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "PMP. ITIL, PgMP, Android Development, PMI", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.ikompass.com/"
     }, 
     "Impekable Design Workshop": {
@@ -2864,7 +2940,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "CCIE, CCNP, CCNA, Vagrant, Openflow, SDN, VMware, Firewalls, Network+, Security+, Cloud+, JunOS, Cisco Certifications, CompTIA certifications, switches, routing, protocols", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "www.ine.com"
     }, 
     "Inside Sales Bootcamp": {
@@ -3206,8 +3284,8 @@
         "su_rating": 4.6, 
         "subjects": "Ruby on Rails, JavaScript, Node, Angular.js, Objective-C, Xcode, Swift, Sinatra, Ruby, HTML, CSS", 
         "tracking_groups": [
-            "Toronto", 
-            "Potential Market"
+            "Potential Market", 
+            "Toronto"
         ], 
         "website": "https://www.lighthouselabs.ca"
     }, 
@@ -3350,7 +3428,7 @@
         "sources": [
             "SwitchUp"
         ], 
-        "su_num_reviews": 17, 
+        "su_num_reviews": 18, 
         "su_rating": 4.6, 
         "subjects": "Data Science, Python, Data Visualization, JavaScript, D3, NLP, Naive Bayes, Hadoop, Spark, Machine Learning, Online Training", 
         "tracking_groups": [], 
@@ -3412,7 +3490,9 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://montanacodeschool.com/"
     }, 
     "Mums In Technology": {
@@ -3465,7 +3545,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.nationofcode.com"
     }, 
     "New York Code And Design Academy": {
@@ -3544,7 +3626,9 @@
         "su_num_reviews": 1, 
         "su_rating": 3.5, 
         "subjects": "iOS", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://nsscreencast.com/"
     }, 
     "Omaha Code School": {
@@ -3579,7 +3663,9 @@
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
         "subjects": "Ruby on Rails", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "https://onemonth.com/?mbsy=bFwH7&campaignid=15165"
     }, 
     "Operation Spark": {
@@ -3705,7 +3791,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.port.academy/"
     }, 
     "Portland Code School": {
@@ -3810,8 +3898,8 @@
         "su_rating": null, 
         "subjects": null, 
         "tracking_groups": [
-            "Toronto", 
-            "Potential Market"
+            "Potential Market", 
+            "Toronto"
         ], 
         "website": "https://www.redacademy.com/"
     }, 
@@ -3852,6 +3940,24 @@
         "tracking_groups": [], 
         "website": "http://www.refactoru.com/?switchup "
     }, 
+    "Rithm School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "general_cost": "$$$$", 
+        "hiring_rate": "No data", 
+        "locations": "San Francisco", 
+        "name": "Rithm School", 
+        "num_alumni": "N/A", 
+        "num_locations": 13, 
+        "sources": [
+            "SwitchUp"
+        ], 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "subjects": null, 
+        "tracking_groups": [], 
+        "website": "https://www.rithmschool.com/"
+    }, 
     "Rmotr Com": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -3867,7 +3973,9 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "Python, javascript, React", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "https://rmotr.com"
     }, 
     "Rocket U": {
@@ -3902,7 +4010,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "HTML, CSS, JavaScript, PHP, MySQL", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://phxrockit.com/"
     }, 
     "Rsquare Edge": {
@@ -3920,7 +4030,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Data Integrity, Visualization, Reporting & Analysis, Predictive Modeling, Testing, Surveys, Databases Technologies, Machine Learning, Language & Tools, Project Management, Business Strategy, Communications, Case Studies, Industry Speakers", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://rsquareedge.com/"
     }, 
     "Ruby On The Beach": {
@@ -3938,7 +4050,9 @@
         "su_num_reviews": 5, 
         "su_rating": 4.4, 
         "subjects": "Ruby on Rails, Ruby, dev basics, Postgresql", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.rubyonthebeach.com"
     }, 
     "Rutgers Coding Bootcamp": {
@@ -4033,23 +4147,6 @@
         "subjects": "HTML, CSS, Ruby, Rails,  jQuery", 
         "tracking_groups": [], 
         "website": "http://www.schoolofdevs.com/"
-    }, 
-    "Secureset Academy": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "general_cost": "$", 
-        "hiring_rate": "No data", 
-        "locations": null, 
-        "name": "Secureset Academy", 
-        "num_alumni": "N/A", 
-        "sources": [
-            "SwitchUp"
-        ], 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "subjects": null, 
-        "tracking_groups": [], 
-        "website": "https://www.secureset.com/academy/"
     }, 
     "Seedpaths": {
         "average_salary": 30000, 
@@ -4226,8 +4323,8 @@
         "su_rating": 4.8, 
         "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
         "tracking_groups": [
-            "Cleveland", 
-            "Current Market"
+            "Current Market", 
+            "Cleveland"
         ], 
         "website": "http://www.swcguild.com"
     }, 
@@ -4471,8 +4568,8 @@
         "su_rating": 5.0, 
         "subjects": "Full Stack Web Development - Java or .NET, C#, CSS, HTML, Javascript, SQL, VB", 
         "tracking_groups": [
-            "Cleveland", 
             "Current Market", 
+            "Cleveland", 
             "Columbus"
         ], 
         "website": "http://www.techelevator.com"
@@ -4519,7 +4616,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.telegraphacademy.com/"
     }, 
     "The App Academy Nl": {
@@ -4688,7 +4787,7 @@
         "sources": [
             "SwitchUp"
         ], 
-        "su_num_reviews": 3, 
+        "su_num_reviews": 4, 
         "su_rating": 5.0, 
         "subjects": "Android & iOS mobile development", 
         "tracking_groups": [], 
@@ -4732,8 +4831,8 @@
         "subjects": "Ruby on Rails, Ruby, HTML, CSS, Git, JavaScript, Objective-C, iOS, XCode5, Swift", 
         "tracking_groups": [
             "Top Camp", 
-            "Detroit", 
             "Potential Market", 
+            "Detroit", 
             "Cincinnati"
         ], 
         "website": "https://www.theironyard.com/?utm_source=SwitchUp&utm_medium=Banner&utm_campaign=Global"
@@ -4793,7 +4892,9 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://thinkacademy.io/"
     }, 
     "Thinkful": {
@@ -4864,7 +4965,9 @@
         "su_num_reviews": 2, 
         "su_rating": 2.8, 
         "subjects": "Ruby", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.tryruby.org"
     }, 
     "Turing School Of Software And Design": {
@@ -4918,7 +5021,9 @@
         "su_num_reviews": 2, 
         "su_rating": 4.0, 
         "subjects": "HTML, CSS, Ruby, Java, PHP, Everything, iOS, SQL", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.tutorialspoint.com/"
     }, 
     "Ubiqum Code Academy": {
@@ -5050,7 +5155,9 @@
         "su_num_reviews": 12, 
         "su_rating": 4.4, 
         "subjects": "Ruby, Ruby on Rails, Javascript, HTML, CSS, AJAX", 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "ERROR HERE"
+        ], 
         "website": "http://www.vikingcodeschool.com"
     }, 
     "Vital Accelerator": {
@@ -5271,25 +5378,28 @@
             "Software Craftsmanship Guild"
         ], 
         "Columbus": [
-            "Tech Elevator", 
-            "Girl Develop It"
+            "Girl Develop It", 
+            "Tech Elevator"
         ], 
         "Current Market": [
-            "Tech Elevator", 
             "Girl Develop It", 
+            "Tech Elevator", 
             "Software Craftsmanship Guild"
         ], 
+        "Date/Time": "2016-09-02 10:08:06", 
+        "Days Out": -3, 
         "Detroit": [
             "Girl Develop It", 
             "The Iron Yard"
         ], 
+        "Number of Entries": 268, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
             "Brainstation", 
-            "Lighthouse Labs", 
             "Girl Develop It", 
+            "Lighthouse Labs", 
             "Red Academy", 
             "The Iron Yard"
         ], 
@@ -5298,8 +5408,6 @@
             "Lighthouse Labs", 
             "Red Academy"
         ], 
-        "date/time": "2016-09-01 16:33:27", 
-        "days_out": -4, 
         "locations": {
             " Guadalajara": 1, 
             "Akron": 1, 
@@ -5414,7 +5522,6 @@
             "West Palm Beach": 1, 
             "Wilmington": 2
         }, 
-        "num_entries": 267, 
         "technologies": {}
     }
 }

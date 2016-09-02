@@ -38,7 +38,7 @@ python json_merge.py "${switchup_array[@]}" --output old_data/switchup/temp_swit
 #merge today's full switchup JSON with yesterday's. This way if only 265/272 are caught, the rest can be filled in with
 #old values. Over time, this should keep everything that's not up-to-date as of today at least only a day or two old.
 touch current_data/switchup_data.json
-python json_merge.py old_data/switchup/temp_switchup_files/merged_switchup_data.json old_data/switchup/temp_switchup_files/switchup_data.json --output current_data/switchup_data.json
+python json_merge.py old_data/switchup/temp_switchup_files/switchup_data.json old_data/switchup/temp_switchup_files/merged_switchup_data.json --output current_data/switchup_data.json
 
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: SwitchUp Spider Finished..."

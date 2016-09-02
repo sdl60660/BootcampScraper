@@ -226,16 +226,18 @@ class CourseReportSpider(scrapy.Spider):
 #=========================================================================================================#
 #============================================IN PROGRESS BELOW============================================#
 #=========================================================================================================#   
-        """try:
+        try:
             fb_url = str(Selector(response).xpath('//*[@class="facebook"]//@href').extract()[0])
-            if fb_url[-1] == '/':
+            """if fb_url[-1] == '/':
                 fb_url = fb_url + 'likes'
             else:
                 fb_url = fb_url + '/likes'
             request = scrapy.Request(fb_url, callback=self.facebook_reporter, meta={'item': item}) #meta={'facebook':item}
-            yield request
+            yield request"""
+            item['facebook'] = fb_url
         except IndexError:
-            item['facebook'] = 'N/A'"""
+            #item['facebook'] = 'N/A'
+            pass
         
         try:
             twitter_url = str(Selector(response).xpath('//*[@class="twitter"]//@href').extract()[0])

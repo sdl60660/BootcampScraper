@@ -115,7 +115,7 @@ for name in output_dict:
         try:
             meta_dict[output_dict[name]['tracking_groups'][group]].append(output_dict[name]['name'])
         except KeyError:
-            pass
+            print "Tracking Group: " + str(output_dict[name]['tracking_groups'][group]) + " not counted for Bootcamp: " + str(output_dict[name]['name'])
     try:
         for tech in output_dict[name]['technologies']:
             if tech in tech_dict:
@@ -146,6 +146,12 @@ output_dict['meta'] = meta_dict
 with open(output_file, 'w') as f:
     json.dump(output_dict, f, indent=4, sort_keys=True)
 
+file_print_array = []
+for f, file in enumerate(file_array):
+    temp = ((file_array[f].split('/'))[-1])
+    temp = ' '.join(((temp.split('.'))[0]).split('_'))
+    file_print_array.append(temp.title())
+
 
 print
 print "========================================"
@@ -154,7 +160,7 @@ print "========================================"
 print
 print
 for file in bootcamp_data:
-    print "Total JSON items in file " + str(file_array[file]) + ": " + str(len(bootcamp_data[file]))
+    print "Total JSON items in " + str(file_print_array[file]) + ": " + str(len(bootcamp_data[file]))
 print
 print "Total in OUTPUT: " + str(len(output_dict))
 print

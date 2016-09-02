@@ -69,8 +69,23 @@ class TrackingGroupTags(object):
 #=========================================================================================================#
 #============================================IN PROGRESS BELOW============================================#
 #=========================================================================================================#
-
         try:
+            for location in item['locations']:
+                if location.lower() in current_markets:
+                    if 'Current Market' not in item['tracking_groups']:
+                        item['tracking_groups'].append('Current Market')
+                    if location.title() not in item['tracking_groups']:
+                        item['tracking_groups'].append(location.title())
+                elif location.lower() in potential_markets:
+                    if 'Potential Market' not in item['tracking_groups']:
+                        item['tracking_groups'].append('Potential Market')
+                    if location.title() not in item['tracking_groups']:
+                        item['tracking_groups'].append(location.title())
+        except TypeError:
+            item['tracking_groups'].append('ERROR HERE')
+
+
+        """try:
             for loc in item['locations']:
                 for city in current_markets:
                     if city.title() == loc.title():
@@ -86,7 +101,7 @@ class TrackingGroupTags(object):
                             item['tracking_groups'].append('Potential Market')
 
         except TypeError:
-            pass
+            pass"""
         
 #=========================================================================================================#
 #============================================IN PROGRESS ABOVE============================================#
