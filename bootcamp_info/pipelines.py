@@ -82,7 +82,7 @@ class TrackingGroupTags(object):
                     if location.title() not in item['tracking_groups']:
                         item['tracking_groups'].append(location.title())
         except TypeError:
-            item['tracking_groups'].append('ERROR HERE')
+            pass
 
 
         """try:

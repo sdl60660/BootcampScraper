@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
+import datetime
+
 from scrapy import Spider
 from scrapy.selector import Selector
 from scrapy.http import HtmlResponse, Response
@@ -84,8 +86,11 @@ class BootcampsinSpider(scrapy.Spider):
         except TypeError:
             pass
 
-        item['sources'] = ['BootcampsIn']
+        item['top_source'] = ['BootcampsIn']
         item['tracking_groups'] = list()
+
+        today = datetime.date.today()
+        item['last_updated'] = today
 
         yield item
 

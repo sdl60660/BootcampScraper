@@ -79,6 +79,10 @@ for file in bootcamp_data:
                     output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
                 else:
                     output_dict[name] = bootcamp_data[file][x]
+
+                for group in bootcamp_data[file][x]['tracking_groups']:
+                    if group not in output_dict[name]['tracking_groups']:
+                        output_dict[name]['tracking_groups'].append(group)
             except KeyError:
                 pass
     except TypeError:
@@ -88,6 +92,10 @@ for file in bootcamp_data:
                 output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
             else:
                 output_dict[name] = bootcamp_data[file][x]
+
+            for group in bootcamp_data[file][x]['tracking_groups']:
+                    if group not in output_dict[name]['tracking_groups']:
+                        output_dict[name]['tracking_groups'].append(group)
 
 meta_dict = {}
 

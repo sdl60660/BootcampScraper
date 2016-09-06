@@ -2,6 +2,8 @@
 import scrapy
 from bs4 import BeautifulSoup
 
+import datetime
+
 from scrapy import Spider
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.selector import Selector
@@ -122,12 +124,11 @@ class SwitchupSpider(scrapy.Spider):
         except TypeError:
             pass
 
-        item['sources'] = ['SwitchUp']
+        item['top_source'] = ['SwitchUp']
         item['tracking_groups'] = list()
-        
-        #print
-        #print "Bootcamp Count: " + str(self.bc_count)
-        #print
+
+        today = datetime.date.today()
+        item['last_updated'] = today
             
         yield item
 

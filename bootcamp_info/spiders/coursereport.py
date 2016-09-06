@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import time
+import datetime
 
 import scrapy
 
@@ -283,8 +283,11 @@ class CourseReportSpider(scrapy.Spider):
         except (KeyError, TypeError):
             pass
         
-        item['sources'] = ['CourseReport']
+        item['top_source'] = ['CourseReport']
         item['tracking_groups'] = list()
+
+        today = datetime.date.today()
+        item['last_updated'] = today
 
         yield item
 

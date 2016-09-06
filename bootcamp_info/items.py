@@ -40,11 +40,13 @@ class CourseReportSchool(Item):
     twitter = Field()
     linkedin = Field()
 
-    sources = Field()
+    top_source = Field()
 
     num_locations = Field()
     num_courses = Field()
     tracking_groups = Field()
+
+    last_updated = Field()
 
     #about = Field()
     #reviews = Field()
@@ -81,10 +83,12 @@ class BootcampsInSchool(Item):
     address_city = Field()
     address_country = Field()
 
-    sources = Field()
+    top_source = Field()
 
     num_locations = Field()
     tracking_groups = Field()
+
+    last_updated = Field()
 
     #about = Field()
     #url = Field()
@@ -113,9 +117,11 @@ class SwitchupSchool(Item):
     num_locations = Field()
     tracking_groups = Field()
 
-    courses = Field()
+    top_source = Field()
 
     page = Field()
+
+    last_updated = Field()
 
     #tracks = Field() #figure out a way to get this field to include description, subjects, location, cost, start dates,
     #class size, length and commitment (which are shown on the page)
