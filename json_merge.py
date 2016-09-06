@@ -123,7 +123,8 @@ for name in output_dict:
         try:
             meta_dict[output_dict[name]['tracking_groups'][group]].append(output_dict[name]['name'])
         except KeyError:
-            print "Tracking Group: " + str(output_dict[name]['tracking_groups'][group]) + " not counted for Bootcamp: " + str(output_dict[name]['name'])
+            pass
+            #print "Tracking Group: " + str(output_dict[name]['tracking_groups'][group]) + " not counted for Bootcamp: " + str(output_dict[name]['name'])
     try:
         for tech in output_dict[name]['technologies']:
             if tech in tech_dict:
