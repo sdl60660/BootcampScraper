@@ -6,29 +6,10 @@ from pprint import pprint
 
 import datetime
 
-#import argparse
-
 #======DICT KEY (for traditional merge)=======
 # 1: BOOTCAMPSIN
 # 2: SWITCHUP
 # 3: COURSEREPORT
-
-#THE ARGPARSE MODULE WOULD BE HELPFUL TO USE IN THE FUTURE, BUT IT'S NOT REALLY NECESSARY FOR THE PURPOSES OF
-#THIS ONE OPTIONAL ARGUMENT
-"""parser = argparse.ArgumentParser(description='Merge JSON files, with later files taking conflict priority.')
-#parser.add_argument('merge files', metavar='files', type=str, nargs='?',
-#                    help='a file to be merged')
-parser.add_argument('--output', dest='accumulate', action='store_true',
-                    help='indicates that last argument is an output file')
-
-args = parser.parse_args()
-
-print args
-if --output == True:
-    output_file = sys.argv[-1]
-    sys.argv = sys.argv[:-1]
-
-"""
 
 #check if the optional output flag was included
 #if so, the last filename is the output file
@@ -76,26 +57,42 @@ for file in bootcamp_data:
             try:
                 name = str(bootcamp_data[file][x]['name']).title()
                 if name in output_dict:
+                    temp_item = output_dict[name]
                     output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
+
+                    #for group in bootcamp_data[file][x]['tracking_groups']:
+                    #    if group not in temp_item['tracking_groups']:
+                    #        output_dict[name]['tracking_groups'].append(group)
+                    """try:
+                        for course in bootcamp_data[file][x]['courses'].keys():
+                            if course in temp_item['courses'].keys():
+                                output_dict[name]['courses'][course] = merge(temp_item['courses'][course], bootcamp_data[file][x]['courses'][course])
+                    except KeyError:
+                        pass"""
                 else:
                     output_dict[name] = bootcamp_data[file][x]
-
-                for group in bootcamp_data[file][x]['tracking_groups']:
-                    if group not in output_dict[name]['tracking_groups']:
-                        output_dict[name]['tracking_groups'].append(group)
             except KeyError:
                 pass
+
     except TypeError:
         for x in range(len(bootcamp_data[file])):
             name = str(bootcamp_data[file][x]['name']).title()
             if name in output_dict:
+                temp_item = output_dict[name]
                 output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
+
+                #for group in bootcamp_data[file][x]['tracking_groups']:
+                #    if group not in temp_item['tracking_groups']:
+                #        output_dict[name]['tracking_groups'].append(group)
+
+                """try:
+                    for course in bootcamp_data[file][x]['courses'].keys():
+                        if course in temp_item['courses'].keys():
+                            output_dict[name]['courses'][course] = merge(temp_item['courses'][course], bootcamp_data[file][x]['courses'][course])
+                except KeyError:
+                    pass"""
             else:
                 output_dict[name] = bootcamp_data[file][x]
-
-            for group in bootcamp_data[file][x]['tracking_groups']:
-                    if group not in output_dict[name]['tracking_groups']:
-                        output_dict[name]['tracking_groups'].append(group)
 
 meta_dict = {}
 

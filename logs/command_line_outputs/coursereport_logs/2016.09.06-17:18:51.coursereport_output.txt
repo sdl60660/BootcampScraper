@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/bin/scrapy", line 7, in <module>
+    from scrapy.cmdline import execute
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/__init__.py", line 34, in <module>
+    from scrapy.spiders import Spider
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/spiders/__init__.py", line 10, in <module>
+    from scrapy.http import Request
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/__init__.py", line 15, in <module>
+    from scrapy.http.response.html import HtmlResponse
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/response/html.py", line 8, in <module>
+    from scrapy.http.response.text import TextResponse
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/response/text.py", line 11, in <module>
+    from w3lib.encoding import html_to_unicode, resolve_encoding, \
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/w3lib/encoding.py", line 44, in <module>
+    _BODY_ENCODING_STR_RE = re.compile(_BODY_ENCODING_PATTERN, re.I)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/re.py", line 249, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 576, in compile
+    code = _code(p, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 561, in _code
+    _compile(code, p.data, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 151, in _compile
+    _compile(code, av[1], flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 192, in _compile
+    _compile(code, av, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 151, in _compile
+    _compile(code, av[1], flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 192, in _compile
+    _compile(code, av, flags)
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/sre_compile.py", line 151, in _compile
+    _compile(code, av[1], flags)
+KeyboardInterrupt

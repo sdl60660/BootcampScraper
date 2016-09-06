@@ -41,7 +41,10 @@ def type1_category_lookup(category, data):
     if category == 'technologies':
         for item in val_sort_dict:
             if len(item) > 1 or item == 'R' or item == 'C':
-                print str(item) + ": " + str(temp_dict[item])
+                try:
+                    print str(item) + ": " + str(temp_dict[item])
+                except UnicodeEncodeError:
+                    pass
         print
         print "-------------------"
         print

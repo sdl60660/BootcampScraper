@@ -125,6 +125,7 @@ class SwitchupSpider(scrapy.Spider):
             for x in range(len(Selector(response).xpath('//a[@class="course-listing"]/text()').extract())):
                 course = {}
                 name = Selector(response).xpath('//h3[@class="course-name"]/text()').extract()[x]
+                name = ''.join([i if ord(i) < 128 else ' ' for i in name])
                 course['Title'] = name
 
                 info_index +=1
@@ -149,12 +150,22 @@ class SwitchupSpider(scrapy.Spider):
                                 course[index_tuples[info_index][0]] = None
                             else:
                                 course[index_tuples[info_index][0]] = size
+                        #COMMITMENT WILL END UP AS AN INT THAT REPRESENTS HOURS/WEEK
+                        elif index_tuples[info_index][0] == 'Commitment':
+                            try:
+                                size = int(index_tuples[info_index][1][:-18])
+                                if size == 0:
+                                    course['Hours/Week'] = None
+                                else:
+                                    course['Hours/Week'] = size
+                            except IndexError:
+                                course['Hours/Week'] = index_tuples[info_index][1]    
                         elif index_tuples[info_index][0] == 'Start Date':
                             date = index_tuples[info_index][1]
                             if date != 'Rolling Dates' and date != 'N/A':
                                 date = date.replace(' 0', ' ')
                                 date_object = datetime.datetime.strptime(date, "%B %d, %Y").date()
-                                course[index_tuples[info_index][0]] = date_object
+                                course[index_tuples[info_index][0]] = str(date_object)
                             else:
                                 course[index_tuples[info_index][0]] = date
                         else:
@@ -164,7 +175,8 @@ class SwitchupSpider(scrapy.Spider):
                 except IndexError:
                     pass
 
-                courses[name] = course
+                key = name.title()
+                courses[key] = course
 
         item['courses'] = courses
         item['technologies'] = technologies
@@ -219,7 +231,7 @@ class SwitchupSpider(scrapy.Spider):
         item['tracking_groups'] = list()
 
         today = datetime.date.today()
-        item['last_updated'] = today
+        item['last_updated'] = str(today)
             
         yield item
 

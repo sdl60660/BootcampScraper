@@ -2461,7 +2461,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 408, 
+            "followers": 409, 
             "handle": "@bigskyacademy", 
             "tweets": 184
         }, 
@@ -2656,11 +2656,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Digital Marketing", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 5634, 
@@ -3189,12 +3189,12 @@
             "Toronto"
         ], 
         "tracks": [
-            "Product Management", 
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Digital Marketing", 
+            "Product Management", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 6886, 
@@ -3611,7 +3611,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4835, 
+            "followers": 4833, 
             "handle": "@careerfoundry", 
             "tweets": 7090
         }, 
@@ -3777,9 +3777,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4130, 
+            "followers": 4131, 
             "handle": "@ClaimAcademySTL", 
-            "tweets": 533
+            "tweets": 528
         }, 
         "visas": "No", 
         "website": "http://claimacademystl.com/"
@@ -4298,11 +4298,11 @@
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 3177, 
+            "followers": 3178, 
             "handle": "@codefellows", 
             "tweets": 3604
         }, 
@@ -5832,22 +5832,22 @@
         "num_locations": 2, 
         "technologies": [
             "AngularJS", 
-            "Front End", 
-            "JavaScript", 
-            "iOS", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "Rails", 
-            "SEO", 
-            "jQuery", 
-            "Design", 
-            "Product Management", 
-            "Ruby", 
-            "User Experience Design", 
             "CSS", 
-            "Wordpress", 
+            "Design", 
+            "Front End", 
+            "Git", 
+            "HTML", 
+            "iOS", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
             "Node.js", 
+            "Product Management", 
+            "Rails", 
+            "Ruby", 
+            "SEO", 
+            "User Experience Design", 
+            "Wordpress", 
             "Android", 
             "React.js"
         ], 
@@ -6732,24 +6732,24 @@
         "num_courses": 4, 
         "num_locations": 9, 
         "technologies": [
-            "Swift", 
-            "MySQL", 
-            "AngularJS", 
-            "Python", 
-            "Front End", 
-            "JavaScript", 
-            "iOS", 
-            "MongoDB", 
-            "HTML", 
             "PHP", 
-            "Rails", 
-            "SQL", 
-            "jQuery", 
+            "MySQL", 
             "Ruby", 
-            "Mobile", 
+            "Rails", 
+            "MongoDB", 
+            "AngularJS", 
             "Node.js", 
-            "Git", 
-            "CSS"
+            "Python", 
+            "Swift", 
+            "iOS", 
+            "Front End", 
+            "jQuery", 
+            "Mobile", 
+            "HTML", 
+            "JavaScript", 
+            "SQL", 
+            "CSS", 
+            "Git"
         ], 
         "top_source": [
             "CourseReport"
@@ -7377,9 +7377,9 @@
             "Toronto"
         ], 
         "tracks": [
+            "Data Science", 
             "Other", 
-            "Product Management", 
-            "Data Science"
+            "Product Management"
         ], 
         "twitter": {
             "followers": 3403, 
@@ -7675,10 +7675,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 1644, 
@@ -8370,7 +8370,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9677, 
+            "followers": 9678, 
             "handle": "@devbootcamp", 
             "tweets": 9397
         }, 
@@ -9324,7 +9324,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 835, 
+            "followers": 834, 
             "handle": "@EcoTechVisions", 
             "tweets": 1457
         }, 
@@ -10607,8 +10607,8 @@
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 1079, 
@@ -10897,7 +10897,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6761, 
+            "followers": 6762, 
             "handle": "@FlatironSchool", 
             "tweets": 4290
         }, 
@@ -11001,7 +11001,7 @@
         "twitter": {
             "followers": 1859, 
             "handle": "@founderscoders", 
-            "tweets": 1143
+            "tweets": 1142
         }, 
         "visas": "No", 
         "website": "http://foundersandcoders.org/"
@@ -11169,7 +11169,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8827, 
+            "followers": 8826, 
             "handle": "@fullstack", 
             "tweets": 895
         }, 
@@ -13124,7 +13124,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8607, 
+            "followers": 8606, 
             "handle": "@hackeryou", 
             "tweets": 3342
         }, 
@@ -15775,17 +15775,17 @@
             "Sinatra", 
             "Ruby", 
             "CSS", 
-            "Cocoa", 
             "Git", 
-            "Product Management", 
+            "Cocoa", 
             "Objective-C", 
+            "Product Management", 
             "JavaScript", 
-            "Rails", 
             "MongoDB", 
-            "Express.js", 
+            "Rails", 
+            "SQL", 
             "jQuery", 
-            "Node.js", 
-            "SQL"
+            "Express.js", 
+            "Node.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -15796,8 +15796,8 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 4535, 
@@ -16053,7 +16053,7 @@
         "twitter": {
             "followers": 8693, 
             "handle": "@makersacademy", 
-            "tweets": 7432
+            "tweets": 7431
         }, 
         "visas": "No", 
         "website": "http://www.makersacademy.com/"
@@ -18477,7 +18477,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1190, 
+            "followers": 1192, 
             "handle": "@RefactorU", 
             "tweets": 3187
         }, 
@@ -19147,7 +19147,7 @@
         "twitter": {
             "followers": 261, 
             "handle": "@SecureSetHQ", 
-            "tweets": 355
+            "tweets": 354
         }, 
         "visas": "No", 
         "website": "https://www.secureset.com"
@@ -20990,7 +20990,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4618, 
+            "followers": 4617, 
             "handle": "@TechTalentSouth", 
             "tweets": 6799
         }, 
@@ -21104,7 +21104,7 @@
         "twitter": {
             "followers": 815, 
             "handle": "@telegraph_edu", 
-            "tweets": 1016
+            "tweets": 1015
         }, 
         "visas": "No", 
         "website": "http://www.telegraphacademy.com/"
@@ -22606,7 +22606,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1582, 
+            "followers": 1581, 
             "handle": "@TurnToTech", 
             "tweets": 1084
         }, 
@@ -23009,9 +23009,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Mobile Development"
         ], 
         "twitter": {
             "followers": 152, 
@@ -23680,7 +23680,7 @@
         "twitter": {
             "followers": 2296, 
             "handle": "@Worldtechmaker", 
-            "tweets": 2494
+            "tweets": 2493
         }, 
         "visas": "Yes", 
         "website": "http://worldtechmakers.com/"
@@ -23877,7 +23877,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7011, 
+            "followers": 7010, 
             "handle": "@zipcodewilm", 
             "tweets": 2956
         }, 

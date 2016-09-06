@@ -177,12 +177,13 @@ class CourseReportSpider(scrapy.Spider):
                     
                     try:
                         time_xpath = course_array_xpath + '//*[@class="hours-week-number"]/text()'
-                        course['Commitment'] = int(Selector(response).xpath(time_xpath).extract()[y])
+                        course['Hours/Week'] = int(Selector(response).xpath(time_xpath).extract()[y])
                     except IndexError:
-                        course['Commitment'] = None
+                        course['Hours/Week'] = None
 
                     #course['about'] = 
-                    courses[title] = course
+                    key = title.title()
+                    courses[key] = course
                     location_course_list.append(title)
                 
                 location_courses[campus_location] = location_course_list
@@ -287,7 +288,7 @@ class CourseReportSpider(scrapy.Spider):
         item['tracking_groups'] = list()
 
         today = datetime.date.today()
-        item['last_updated'] = today
+        item['last_updated'] = str(today)
 
         yield item
 

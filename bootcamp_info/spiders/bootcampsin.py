@@ -90,7 +90,7 @@ class BootcampsinSpider(scrapy.Spider):
         item['tracking_groups'] = list()
 
         today = datetime.date.today()
-        item['last_updated'] = today
+        item['last_updated'] = str(today)
 
         yield item
 

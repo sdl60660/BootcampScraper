@@ -23,7 +23,7 @@ echo "$output_time: BootcampsIn Spider Finished..."
 #SWITCHUP SPIDER
 
 switchup_array=()
-for i in `seq 1 5`;
+for i in `seq 1 2`;
 do
 	index=($i - 1)
 	switchup_array[$index]="old_data/switchup/temp_switchup_files/switchup_data$i.json"
