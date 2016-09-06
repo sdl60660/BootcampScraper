@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 
 import datetime
 
+import timestring
+
 from scrapy import Spider
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.selector import Selector
@@ -82,6 +84,95 @@ class SwitchupSpider(scrapy.Spider):
 
         item['su_rating'] = self.type_converter((Selector(response).xpath('//*[@id="first-bootcamp-section"]/div/div/p/span[1]/span/text()').extract()), float) #DONE
         item['su_num_reviews'] = self.type_converter((Selector(response).xpath('//*[@id="first-bootcamp-section"]/div/div/p/span[2]/text()').extract()), int) #DONE
+
+
+        #=========================================#
+        #=================COURSES=================#
+        #=========================================#
+        courses = {}
+        technologies = []
+
+#=========================================================================================================#
+#============================================IN PROGRESS BELOW============================================#
+#=========================================================================================================#  
+
+
+        if len(Selector(response).xpath('//h3[@class="course-name"]').extract()) > 0:
+            
+            course_info_headings = Selector(response).xpath('//table[@class="course-info"]/tbody/tr/th/text()').extract()
+            course_info = Selector(response).xpath('//table[@class="course-info"]/tbody/tr/td/text()').extract()
+
+            course_info_tags = Selector(response).xpath('//table[@class="course-info"]/tbody/tr/td').extract()
+
+            if len(course_info) != len(course_info_tags):
+                target_index = 0
+                for table_item in course_info_tags:
+                    target_index += 1
+                    try:
+                        if len(str(table_item)) == 9:
+                            course_info.insert(target_index, 'N/A')
+                    except UnicodeEncodeError:
+                        pass
+
+
+            index_tuples = []
+
+            for h, heading in enumerate(course_info_headings):
+                index_tuples.append((heading, course_info[h]))
+
+            info_index = 0
+
+            for x in range(len(Selector(response).xpath('//a[@class="course-listing"]/text()').extract())):
+                course = {}
+                name = Selector(response).xpath('//h3[@class="course-name"]/text()').extract()[x]
+                course['Title'] = name
+
+                info_index +=1
+
+                try:
+                    while index_tuples[info_index][0] != 'Description' and info_index < len(index_tuples):
+                        if index_tuples[info_index][0] == 'Subjects':
+                            subjects = index_tuples[info_index][1].split(', ')
+                            course[index_tuples[info_index][0]] = subjects
+                            for tech in subjects:
+                                if tech not in technologies:
+                                    technologies.append(tech)
+                        elif index_tuples[info_index][0] == 'Location':
+                            locations = index_tuples[info_index][1].split(', ')
+                            course[index_tuples[info_index][0]] = locations
+                        elif index_tuples[info_index][0] == 'Cost':
+                            cost = int(''.join((str(index_tuples[info_index][1])[1:-3]).split(',')))
+                            course[index_tuples[info_index][0]] = cost
+                        elif index_tuples[info_index][0] == 'Class Size':
+                            size = int(str(index_tuples[info_index][1])[:-9])
+                            if size == 0:
+                                course[index_tuples[info_index][0]] = None
+                            else:
+                                course[index_tuples[info_index][0]] = size
+                        elif index_tuples[info_index][0] == 'Start Date':
+                            date = index_tuples[info_index][1]
+                            if date != 'Rolling Dates' and date != 'N/A':
+                                date = date.replace(' 0', ' ')
+                                date_object = datetime.datetime.strptime(date, "%B %d, %Y").date()
+                                course[index_tuples[info_index][0]] = date_object
+                            else:
+                                course[index_tuples[info_index][0]] = date
+                        else:
+                            course[index_tuples[info_index][0]] = index_tuples[info_index][1]
+
+                        info_index += 1
+                except IndexError:
+                    pass
+
+                courses[name] = course
+
+        item['courses'] = courses
+        item['technologies'] = technologies
+
+
+#=========================================================================================================#
+#============================================IN PROGRESS ABOVE============================================#
+#=========================================================================================================#   
 
         for key, value in item.iteritems():
             try:

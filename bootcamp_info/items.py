@@ -112,10 +112,11 @@ class SwitchupSchool(Item):
     su_rating = Field()
     su_num_reviews = Field()
 
-    sources = Field()
-
     num_locations = Field()
     tracking_groups = Field()
+
+    courses = Field()
+    technologies = Field()
 
     top_source = Field()
 

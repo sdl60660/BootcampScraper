@@ -101,7 +101,7 @@ meta_dict = {}
 
 now = datetime.datetime.now()
 meta_dict['Date/Time'] = str(now)[:-7]
-meta_dict['Days Out'] = now.toordinal() - 736212
+meta_dict['Days Out'] = now.toordinal() - 736219
 meta_dict['Number of Entries'] = len(output_dict)
 
 meta_dict['Current Market'] = list()
@@ -114,6 +114,8 @@ meta_dict['Cincinnati'] = list()
 meta_dict['Buffalo'] = list()
 meta_dict['Detroit'] = list()
 meta_dict['Toronto'] = list()
+
+meta_dict['Active'] = False
 
 tech_dict = {}
 loc_dict = {}

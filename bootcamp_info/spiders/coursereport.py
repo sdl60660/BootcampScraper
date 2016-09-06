@@ -133,53 +133,53 @@ class CourseReportSpider(scrapy.Spider):
 
                     title_xpath = course_array_xpath + '//*[@id="course-listing"]//h4/text()'
                     title = Selector(response).xpath(title_xpath).extract()[y]
-                    course['title'] = title
+                    course['Title'] = title
 
-                    course['location'] = campus_location
+                    course['Location'] = campus_location
 
                     cost_xpath = course_array_xpath + '//*[@class="price"]/span/text()'
                     cost = Selector(response).xpath(cost_xpath).extract()
                     try:
-                        course['cost'] = int(''.join(cost[y].split(',')))
+                        course['Cost'] = int(''.join(cost[y].split(',')))
                     except IndexError:
-                        course['cost'] = None
+                        course['Cost'] = None
                     
                     topic_xpath = course_array_xpath + '[' + str(y + 1) + ']//*[@class="focus"]/a/text()'
                     topics = Selector(response).xpath(topic_xpath).extract()
                     for topic in topics:
                         if topic not in technologies:
                             technologies.append(topic)
-                    course['topics'] = topics
+                    course['Subjects'] = topics
 
                     type_xpath = course_array_xpath + '//*[@class="type"]/text()'
                     onsite_index = y*2
                     partfull_index = (y*2) + 1
                     
                     try:
-                        course['onsite'] = Selector(response).xpath(type_xpath).extract()[onsite_index]
+                        course['Onsite'] = Selector(response).xpath(type_xpath).extract()[onsite_index]
                     except IndexError:
-                        course['onsite'] = None
+                        course['Onsite'] = None
 
                     try:
-                        course['part_or_full'] = Selector(response).xpath(type_xpath).extract()[partfull_index]
+                        course['Part Or Full'] = Selector(response).xpath(type_xpath).extract()[partfull_index]
                     except IndexError:
-                        course['onsite'] = None
+                        course['Part Or Full'] = None
 
                     check = course_array_xpath + '//*[@id="newyorkcity"]//*[@id="courses"]//*[@class="dl-horizontal"]/dt/text()'
                     try:
                         if Selector(response).xpath(check).extract()[3] == 'Minimum Skill Level':
                             skill_xpath = course_array_xpath + '//*[@class="dl-horizontal"]/dd/text()'
-                            course['min_skill'] = Selector(response).xpath(skill_xpath).extract()[(3 + 5*y)]
+                            course['Minimum Skill'] = Selector(response).xpath(skill_xpath).extract()[(3 + 5*y)]
                         else:
-                            course['min_skill'] = None
+                            course['Minimum Skill'] = None
                     except IndexError:
-                        course['min_skill'] = None
+                        course['Minimum Skill'] = None
                     
                     try:
                         time_xpath = course_array_xpath + '//*[@class="hours-week-number"]/text()'
-                        course['weekly_time'] = int(Selector(response).xpath(time_xpath).extract()[y])
+                        course['Commitment'] = int(Selector(response).xpath(time_xpath).extract()[y])
                     except IndexError:
-                        course['weekly_time'] = None
+                        course['Commitment'] = None
 
                     #course['about'] = 
                     courses[title] = course
