@@ -211,9 +211,11 @@ class SwitchupSpider(scrapy.Spider):
                 if len(value) == 1:
                     item[key] = value[0]
 
-        if not isinstance(item['locations'], list):
+        if type(item['locations']) == unicode:
             try:
-                list(item['locations'])
+                temp = []
+                temp.append(item['locations'])
+                item['locations'] = temp
             except TypeError:
                 pass
 

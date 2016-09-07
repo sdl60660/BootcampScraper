@@ -74,9 +74,10 @@ class BootcampsinSpider(scrapy.Spider):
         
         item = self.item_parsers(item)
 
-        if not isinstance(item['locations'], list):
-            if not type(item['locations']) == None:
-                list(item['locations'])
+        if type(item['locations']) == unicode:
+            temp = []
+            temp.append(item['locations'])
+            item['locations'] = temp
 
         try:
             num_loc = 0

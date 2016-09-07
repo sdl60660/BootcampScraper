@@ -266,11 +266,10 @@ class CourseReportSpider(scrapy.Spider):
                 if len(value) == 1:
                     item[key] = value[0]
 
-        if not isinstance(item['locations'], list):
-            try:
-                list(item['locations'])
-            except TypeError:
-                pass
+        if type(item['locations']) == unicode:
+            temp = []
+            temp.append(item['locations'])
+            item['locations'] = temp
 
         try:
             if isinstance(item['locations'], list):
