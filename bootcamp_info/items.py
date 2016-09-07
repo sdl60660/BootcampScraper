@@ -28,13 +28,15 @@ class CourseReportSchool(Item):
     email = Field()
 
     courses = Field()
-    technologies = Field()
     location_courses_dict = Field()
     scholarships = Field()
     acceptance_rate = Field()
     employment_rates = Field() #[30 days, 60 days, 90 days, 120 days, after 120 days]
     matriculation_stats = Field() #[Accepted, Enrolled, Graduated, Job Seeking]
     average_salary = Field()
+
+    technologies = Field()
+    cr_technologies = Field()
 
     facebook = Field()
     twitter = Field()
@@ -117,6 +119,7 @@ class SwitchupSchool(Item):
 
     courses = Field()
     technologies = Field()
+    su_technologies = Field()
 
     top_source = Field()
 

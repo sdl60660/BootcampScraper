@@ -94,6 +94,30 @@ for file in bootcamp_data:
             else:
                 output_dict[name] = bootcamp_data[file][x]
 
+#MERGE TECHNOLOGIES FROM DIFFERENT REPORTING SOURCES AND REPLACE TECHNOLOGIES LIST FOR EACH BOOTCAMP
+for name in output_dict:
+    new_technologies = []
+    try:
+        for tech in output_dict[name]['su_technologies']:
+            if tech not in new_technologies:
+                new_technologies.append(tech)
+    except (KeyError, TypeError):
+        pass
+
+    try:
+        for tech in output_dict[name]['cr_technologies']:
+            if tech not in new_technologies:
+                new_technologies.append(tech)
+    except (KeyError, TypeError):
+        pass
+
+    try:
+        output_dict[name]['technologies'] = new_technologies
+    except (KeyError, TypeError):
+        pass
+
+
+#STORE META DATA ON THE OUTPUT JSON
 meta_dict = {}
 
 now = datetime.datetime.now()

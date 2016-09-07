@@ -190,6 +190,7 @@ class CourseReportSpider(scrapy.Spider):
 
             item['courses'] = courses
             item['technologies'] = technologies
+            item['cr_technologies'] = technologies
 
         #######################################################
         #=======EMPLOYMENT, MATRICULATION, SCHOLARSHIPS========

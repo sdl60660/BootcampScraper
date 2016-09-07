@@ -180,6 +180,7 @@ class SwitchupSpider(scrapy.Spider):
 
         item['courses'] = courses
         item['technologies'] = technologies
+        item['su_technologies'] = technologies
 
 
 #=========================================================================================================#
