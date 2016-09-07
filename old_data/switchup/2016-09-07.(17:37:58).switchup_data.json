@@ -6146,12 +6146,10 @@
         "general_cost": "$$", 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-07", 
-        "locations": [
-            "Chicago"
-        ], 
+        "locations": "Chicago", 
         "name": "Devatory", 
         "num_alumni": "N/A", 
-        "num_locations": 1, 
+        "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": null, 
@@ -6254,9 +6252,7 @@
         "top_source": [
             "SwitchUp"
         ], 
-        "tracking_groups": [
-            "Java/.NET"
-        ], 
+        "tracking_groups": [], 
         "website": "http://www.devcodecamp.com/"
     }, 
     "Developer Bootcamp": {
@@ -11382,12 +11378,10 @@
         "general_cost": "$", 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-07", 
-        "locations": [
-            "Omaha"
-        ], 
+        "locations": "Omaha", 
         "name": "Midwest Hacker School", 
         "num_alumni": "N/A", 
-        "num_locations": 1, 
+        "num_locations": 5, 
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": "Ruby on Rails", 
@@ -17666,7 +17660,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-07 18:01:35", 
+        "Date/Time": "2016-09-07 17:40:49", 
         "Days Out": -5, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17739,7 +17733,7 @@
             "Charleston": 2, 
             "Charlotte": 5, 
             "Chelmsford": 1, 
-            "Chicago": 20, 
+            "Chicago": 19, 
             "Cincinnati": 3, 
             "Cleveland": 5, 
             "Columbus": 2, 
@@ -17793,7 +17787,7 @@
             "New Orleans": 2, 
             "Newark": 1, 
             "Oakland": 1, 
-            "Omaha": 2, 
+            "Omaha": 1, 
             "Online": 30, 
             "Orange County": 4, 
             "Orlando": 1, 

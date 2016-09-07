@@ -35,6 +35,15 @@ class BootcampInfoPipeline(object):
         else:
             return item
 
+class CaughtDuplicateNames(object):
+    #FOUND SO FAR: Software Guild
+
+    def process_item(self, item, spider):
+        if item['name'] == 'Software  Guild' or item['name'] == 'Software Craftsmanship Guild':
+            item['name'] = 'Software Guild'
+        
+        return item
+
 class DuplicatesPipeline(object):
 
     def __init__(self):
@@ -49,7 +58,6 @@ class DuplicatesPipeline(object):
             return item
 
 
-
 class TrackingGroupTags(object):
     
     def process_item(self, item, spider):
@@ -58,6 +66,7 @@ class TrackingGroupTags(object):
         top_camps = ['hack reactor', 'the iron yard', 'general assembly', 'ironhack', 'dev bootcamp']
         current_markets = ['cleveland', 'columbus']
         potential_markets = ['cincinnati', 'pittsburgh', 'detroit', 'buffalo', 'toronto']
+        java_and_net = ['Claim Academy', 'Coder Camps', 'Coder Foundry', 'Code Ninja', 'Coding Temple', 'Devcodecamp', 'Epicodus', 'Fire Bootcamp', 'Grand Circus', 'Sabio', 'Skill Distillery', 'Software Guild', 'The Iron Yard', 'The Tech Academy']
         #add list of top Java/.NET, check for thse while iterating through camp names (first loop)
         #general tag for all Java/.NET
 
@@ -65,10 +74,10 @@ class TrackingGroupTags(object):
             if item['name'].title() == camp.title():
                 item['tracking_groups'].append('Top Camp')
 
+        for camp in java_and_net:
+            if item['name'].title() == camp.title():
+                item['tracking_groups'].append('Java/.NET')
 
-#=========================================================================================================#
-#============================================IN PROGRESS BELOW============================================#
-#=========================================================================================================#
         try:
             for location in item['locations']:
                 if location.lower() in current_markets:
@@ -83,10 +92,6 @@ class TrackingGroupTags(object):
                         item['tracking_groups'].append(location.title())
         except TypeError:
             pass
-        
-#=========================================================================================================#
-#============================================IN PROGRESS ABOVE============================================#
-#=========================================================================================================#
 
         return item
                    

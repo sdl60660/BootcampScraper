@@ -1278,7 +1278,7 @@
         "twitter": {
             "followers": 2532, 
             "handle": "@adaacademy", 
-            "tweets": 2157
+            "tweets": 2156
         }, 
         "visas": "No", 
         "website": "http://adadevelopersacademy.org/"
@@ -5584,7 +5584,7 @@
         "twitter": {
             "followers": 2256, 
             "handle": "@C4QNYC", 
-            "tweets": 2337
+            "tweets": 2336
         }, 
         "visas": "No", 
         "website": "http://www.c4q.nyc/accesscode"
@@ -5963,7 +5963,7 @@
         "twitter": {
             "followers": 1178, 
             "handle": "@CentriqTraining", 
-            "tweets": 3827
+            "tweets": 3826
         }, 
         "visas": "No", 
         "website": "http://centriq.com/career/techsmart-kc-program/"
@@ -8868,7 +8868,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1651, 
+            "followers": 1652, 
             "handle": "@CodeCoreYVR", 
             "tweets": 1766
         }, 
@@ -12638,9 +12638,9 @@
             "Toronto"
         ], 
         "tracks": [
-            "Data Science", 
             "Other", 
-            "Product Management"
+            "Product Management", 
+            "Data Science"
         ], 
         "twitter": {
             "followers": 3405, 
@@ -14429,7 +14429,7 @@
         "twitter": {
             "followers": 2379, 
             "handle": "@iowajpec", 
-            "tweets": 3660
+            "tweets": 3659
         }, 
         "visas": "No", 
         "website": "http://www.iowajpec.org/entrepreneur-support/deviowa/"
@@ -15539,17 +15539,17 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "Ruby", 
-                    "Rails", 
+                    "MySQL", 
                     "JavaScript", 
                     "HTML", 
-                    "CSS", 
                     "Git", 
-                    "jQuery", 
-                    "MySQL", 
-                    "React.js", 
+                    "Rails", 
+                    "SQL", 
                     "Sinatra", 
-                    "SQL"
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js"
                 ], 
                 "Title": "Immersive Full-Stack Rails Development"
             }, 
@@ -15620,11 +15620,11 @@
             "Express.js", 
             "React.js", 
             "Node.js", 
-            "Ruby", 
-            "Rails", 
             "MySQL", 
-            "Sinatra", 
+            "Rails", 
             "SQL", 
+            "Sinatra", 
+            "Ruby", 
             "User Experience Design"
         ], 
         "deposit": "25%", 
@@ -15687,11 +15687,11 @@
             "Express.js", 
             "React.js", 
             "Node.js", 
-            "Ruby", 
-            "Rails", 
             "MySQL", 
-            "Sinatra", 
+            "Rails", 
             "SQL", 
+            "Sinatra", 
+            "Ruby", 
             "User Experience Design"
         ], 
         "time_per_week": "40 hours", 
@@ -15700,10 +15700,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "UX Design", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 404, 
@@ -16624,25 +16624,25 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "Swift", 
-                    "MySQL", 
-                    "AngularJS", 
-                    "Python", 
-                    "Front End", 
                     "JavaScript", 
-                    "iOS", 
-                    "MongoDB", 
-                    "HTML", 
-                    "Git", 
-                    "Xcode", 
                     "jQuery", 
-                    "Objective-C", 
-                    "Design", 
-                    "Mobile", 
-                    "User Experience Design", 
+                    "MySQL", 
+                    "MongoDB", 
+                    "AngularJS", 
+                    "Node.js", 
+                    "HTML", 
                     "CSS", 
+                    "Swift", 
+                    "Xcode", 
+                    "iOS", 
+                    "Mobile", 
                     "Express.js", 
-                    "Node.js"
+                    "Front End", 
+                    "Git", 
+                    "Objective-C", 
+                    "User Experience Design", 
+                    "Design", 
+                    "Python"
                 ], 
                 "Title": "16 Week Immersive Bootcamp + UX Design Elective"
             }
@@ -16650,25 +16650,25 @@
         "cr_num_reviews": 23, 
         "cr_rating": 4.8, 
         "cr_technologies": [
-            "Swift", 
-            "MySQL", 
-            "AngularJS", 
-            "Python", 
-            "Front End", 
             "JavaScript", 
-            "iOS", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "Xcode", 
             "jQuery", 
-            "Objective-C", 
-            "Design", 
-            "Mobile", 
-            "User Experience Design", 
-            "CSS", 
-            "Express.js", 
+            "MySQL", 
+            "MongoDB", 
+            "AngularJS", 
             "Node.js", 
+            "HTML", 
+            "CSS", 
+            "Swift", 
+            "Xcode", 
+            "iOS", 
+            "Mobile", 
+            "Express.js", 
+            "Front End", 
+            "Git", 
+            "Objective-C", 
+            "User Experience Design", 
+            "Design", 
+            "Python", 
             "SQL"
         ], 
         "email": "hello@digitalcrafts.com", 
@@ -16721,17 +16721,17 @@
             "Node.js", 
             "Python", 
             "UX", 
-            "Swift", 
-            "Front End", 
             "JavaScript", 
-            "iOS", 
             "MongoDB", 
+            "Swift", 
             "Xcode", 
-            "Objective-C", 
-            "Design", 
+            "iOS", 
             "Mobile", 
-            "User Experience Design", 
             "Express.js", 
+            "Front End", 
+            "Objective-C", 
+            "User Experience Design", 
+            "Design", 
             "SQL"
         ], 
         "top_source": [
@@ -16739,9 +16739,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 570, 
@@ -21420,9 +21420,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
+            "Other", 
             "Digital Marketing", 
-            "Other"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 299, 
@@ -25656,7 +25656,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7911, 
+            "followers": 7910, 
             "handle": "@Launch_Code", 
             "tweets": 3326
         }, 
@@ -29396,7 +29396,7 @@
         "twitter": {
             "followers": 38700, 
             "handle": "@NorthwesternU", 
-            "tweets": 9902
+            "tweets": 9901
         }, 
         "visas": "No", 
         "website": "https://codingbootcamp.northwestern.edu/"
@@ -29640,7 +29640,7 @@
         "twitter": {
             "followers": 15700, 
             "handle": "@NYCDataSci", 
-            "tweets": 2052
+            "tweets": 2051
         }, 
         "visas": "Yes", 
         "website": "http://nycdatascience.com/"
@@ -29736,7 +29736,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1705, 
+            "followers": 1706, 
             "handle": "@OmahaCodeSchool", 
             "tweets": 597
         }, 
@@ -31198,7 +31198,7 @@
         "twitter": {
             "followers": 1602, 
             "handle": "@RedAcademy", 
-            "tweets": 1457
+            "tweets": 1456
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -31758,7 +31758,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 36, 
+            "followers": 35, 
             "handle": "@rithmschool", 
             "tweets": 25
         }, 
@@ -31862,7 +31862,7 @@
         "twitter": {
             "followers": 1052, 
             "handle": "@rmotr_com", 
-            "tweets": 312
+            "tweets": 311
         }, 
         "visas": "No", 
         "website": "https://rmotr.com/"
@@ -32427,17 +32427,17 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Other", 
             "Product Management", 
-            "UX Design"
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 2227, 
             "handle": "@WeSabio", 
-            "tweets": 9467
+            "tweets": 9465
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -34462,11 +34462,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
-            "Data Science"
+            "Data Science", 
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 8977, 
+            "followers": 8973, 
             "handle": "@Springboard", 
             "tweets": 1963
         }, 
@@ -35416,12 +35416,12 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Other", 
+            "Front-End Web Development", 
+            "Data Science", 
             "Digital Marketing", 
             "UX Design", 
-            "Front-End Web Development", 
-            "Other", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 17300, 
@@ -35718,8 +35718,8 @@
         "tracks": [
             "Front-End Web Development", 
             "Data Science", 
-            "Digital Marketing", 
-            "UX Design"
+            "UX Design", 
+            "Digital Marketing"
         ], 
         "twitter": {
             "followers": 2282, 
@@ -37922,10 +37922,10 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "UX Design", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15000, 
@@ -39406,7 +39406,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1578, 
+            "followers": 1579, 
             "handle": "@TurnToTech", 
             "tweets": 1085
         }, 
@@ -40016,9 +40016,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Mobile Development", 
             "Front-End Web Development", 
-            "Mobile Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 8620, 
@@ -41898,7 +41898,7 @@
             "Boole Institute", 
             "Girl Develop It"
         ], 
-        "Date/Time": "2016-09-07 18:06:23", 
+        "Date/Time": "2016-09-07 17:57:23", 
         "Days Out": -5, 
         "Detroit": [
             "Grand Circus", 
