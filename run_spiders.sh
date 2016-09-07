@@ -12,7 +12,7 @@ echo >>logs/scraper_log.txt
 #mkdir old_data/switchup/temp_switchup_files
 rm old_data/switchup/temp_switchup_files/*
 mv current_data/switchup_data.json old_data/switchup/temp_switchup_files/switchup_data.json
-rm current_data/*
+rm current_data/bootcampsin_data.json current_data/switchup_data.json current_data/coursereport_data.json
 
 #BOOTCAMPSIN SPIDER
 scrapy crawl bootcampsin -o current_data/bootcampsin_data.json -t json &>logs/command_line_outputs/bootcampsin_logs/$current_time.bootcampsin_output.txt
@@ -71,6 +71,15 @@ echo "$output_time: Files Archived..."
 #ARCHIVE FULL OUTPUT
 mv output.json current_data
 cp current_data/output.json old_data/full_outputs/$current_time.output.json
+
+#PULL OUT TRACKING GROUP INFO
+rm current_data/tracking_groups/*
+python tgroup_sort.py current_data/output.json
+
+cp current_data/tracking_groups/current_markets.json old_data/tracking_groups/current_markets/$current_time.current_markets.json
+cp current_data/tracking_groups/potential_markets.json old_data/tracking_groups/potential_markets/$current_time.potential_markets.json
+cp current_data/tracking_groups/top_camps.json old_data/tracking_groups/top_camps/$current_time.top_camps.json
+#cp current_data/tracking_groups/java_and_NET.json old_data/tracking_groups/top_camps/$current_time.java_and_NET.json
 
 
 #ADD SOMETHING HERE THAT RUNS THE SEARCH FUNCTION WITH A BLANK OUTPUT

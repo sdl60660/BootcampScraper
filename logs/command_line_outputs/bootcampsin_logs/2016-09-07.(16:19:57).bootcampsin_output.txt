@@ -1,0 +1,49 @@
+2016-09-07 16:19:59 [scrapy] INFO: Scrapy 1.1.2 started (bot: bootcamp_info)
+2016-09-07 16:19:59 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'bootcamp_info.spiders', 'FEED_URI': 'current_data/bootcampsin_data.json', 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['bootcamp_info.spiders'], 'BOT_NAME': 'bootcamp_info', 'FEED_FORMAT': 'json'}
+2016-09-07 16:20:00 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-09-07 16:20:00 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-07 16:20:00 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-07 16:20:00 [scrapy] INFO: Enabled item pipelines:
+['bootcamp_info.pipelines.TrackingGroupTags',
+ 'bootcamp_info.pipelines.EmptyChecker']
+2016-09-07 16:20:00 [scrapy] INFO: Spider opened
+2016-09-07 16:20:00 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-07 16:20:00 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-07 16:20:01 [scrapy] DEBUG: Crawled (200) <GET http://www.bootcamps.in/> (referer: None)
+2016-09-07 16:20:02 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/denver/devry-bootcamp/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/denver/devry-bootcamp/>
+2016-09-07 16:20:03 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/san-francisco/galvanize/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/san-francisco/galvanize/>
+2016-09-07 16:20:03 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/kansas-city/disruption-institute/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/kansas-city/disruption-institute/>
+2016-09-07 16:20:04 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/seattle/code-fellows/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/seattle/code-fellows/>
+2016-09-07 16:20:05 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/san-francisco/general-assembly/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/san-francisco/general-assembly/>
+2016-09-07 16:20:05 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/canberra/polycademy/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/canberra/polycademy/>
+2016-09-07 16:20:05 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/chicago/starter-league/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/chicago/starter-league/>
+2016-09-07 16:20:05 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/new-york/hacker-school/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/new-york/hacker-school/>
+2016-09-07 16:20:05 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/denver/davinci-coders/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/denver/davinci-coders/>
+2016-09-07 16:20:05 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/washington-dc/hungry-academy/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/washington-dc/hungry-academy/>
+2016-09-07 16:20:06 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/modiin/10x-org-il/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/modiin/10x-org-il/>
+2016-09-07 16:20:06 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/toronto/bitmaker-labs/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/toronto/bitmaker-labs/>
+2016-09-07 16:20:06 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/sydney/sydney-dev-camp/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/sydney/sydney-dev-camp/>
+2016-09-07 16:20:06 [scrapy] DEBUG: Redirecting (301) to <GET http://www.bootcamps.in/toronto/hackeryou/> from <GET http://www.bootcamps.in/http://www.bootcamps.in/toronto/hackeryou/>
+2016-09-07 16:20:07 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-09-07 16:20:07 [scrapy] INFO: Closing spider (shutdown)
+2016-09-07 16:20:07 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown

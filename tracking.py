@@ -23,7 +23,7 @@ def find_file(pattern, path):
 def generate_filename(date):
     date_input = str(date) + '.*'
     print date_input
-    filename = find_file(date_input,'old_data/full_outputs/')[0]
+    filename = find_file(date_input,'old_data/full_outputs/')[-1]
     return filename
 
 def load_date_data(today_ordinal, ordinal_back):
@@ -32,6 +32,7 @@ def load_date_data(today_ordinal, ordinal_back):
     with open(filename, 'rb') as current_data:
         data = json.load(current_data)
     return data
+
 
 today = date.today()
 today_ordinal = today.toordinal()
@@ -50,12 +51,14 @@ except IndexError:
     print "No data in file for this date yesterday."
     pass
 
+
 #OPEN FILE FROM ONE WEEK AGO (TAKE TODAY'S ORDINAL DATE, SUBTRACT 7, FIND DATE, USE TO FIND FILE)
 try:
     data_last_week = load_date_data(today_ordinal, 7)
 except IndexError:
     print "No data in file for this date last week."
     pass
+
 
 #OPEN FILE FROM ONE MONTH AGO (ROUND TO NEAREST WEEKDAY*)
 last_month = date.today() + relativedelta(months=-1)
@@ -69,6 +72,7 @@ try:
 except IndexError:
     print "No data in file for this date last month."
     pass
+
 
 #OPEN FILE FROM ONE YEAR AGO (ROUND TO NEAREST WEEKDAY*)
 last_year = date.today() + relativedelta(years=-1)
@@ -86,9 +90,7 @@ except IndexError:
 #*GET RID OF THIS PART IF YOU EVER END UP RUNNING THIS ON WEEKEND DAYS
 
 
-
-
-class Trackers():
+class Trackers:
 
     def tracked_location_moves():
         pass
@@ -108,4 +110,10 @@ class Trackers():
 
     def location_trends():
         pass
+
+
+
+
+
+
 

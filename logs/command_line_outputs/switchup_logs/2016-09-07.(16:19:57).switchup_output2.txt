@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/bin/scrapy", line 7, in <module>
+    from scrapy.cmdline import execute
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/__init__.py", line 34, in <module>
+    from scrapy.spiders import Spider
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/spiders/__init__.py", line 10, in <module>
+    from scrapy.http import Request
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/__init__.py", line 11, in <module>
+    from scrapy.http.request.form import FormRequest
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/http/request/form.py", line 14, in <module>
+    from scrapy.utils.response import get_base_url
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/utils/response.py", line 7, in <module>
+    import webbrowser
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/webbrowser.py", line 6, in <module>
+    import shlex
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shlex.py", line 2, in <module>
+    """A lexical analyzer class for simple shell-like syntaxes."""
+KeyboardInterrupt
