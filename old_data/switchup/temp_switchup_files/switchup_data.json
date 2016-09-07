@@ -15,8 +15,9 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -63,6 +64,19 @@
         "scholarships": "20% discount on early ...", 
         "su_num_reviews": 2, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MySQL", 
+            "PHP", 
+            "UX", 
+            "Wordpress"
+        ], 
         "subjects": "PHP, Wordpress, HTML5, CSS3, JavaScript, jQuery, API's, Responsive design, Design theory.", 
         "technologies": [
             "Algorithms", 
@@ -95,8 +109,9 @@
         "num_alumni": 60, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Programming C#.NET, Java", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -116,8 +131,9 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Android", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -165,6 +181,15 @@
         "scholarships": "Diversity in Tech Scho...", 
         "su_num_reviews": 24, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "Ruby on Rails", 
+            "SQL"
+        ], 
         "subjects": "Ruby, Rails, SQL, JavaScript, AngularJS, HTML, CSS, Git", 
         "technologies": [
             "AngularJS", 
@@ -213,6 +238,12 @@
         "scholarships": "Scholarships are avail...", 
         "su_num_reviews": 5, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Ruby on Rails"
+        ], 
         "subjects": " Ruby on Rails, JavaScript, HTML, CSS", 
         "technologies": [
             "CSS", 
@@ -238,8 +269,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 1, 
         "su_rating": 1.0, 
+        "su_technologies": null, 
         "subjects": "Ruby on Rails", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -259,8 +291,9 @@
         "scholarships": "$500 Veteran, Unemploy...", 
         "su_num_reviews": 1, 
         "su_rating": 1.0, 
+        "su_technologies": null, 
         "subjects": "HTML, CSS, JavaScript, PHP", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -279,8 +312,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -300,8 +334,9 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -324,8 +359,9 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": " Ruby, Ruby on Rails, Python, Django, PHP, Laravel, MEAN Stack, DevOps, & Mobile Development: Android, iOS", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -428,6 +464,19 @@
         "num_locations": 8, 
         "su_num_reviews": 61, 
         "su_rating": 4.6, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Design Principles", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "UX", 
+            "Node.js"
+        ], 
         "subjects": "Ruby, Rails, JavaScript, React.js, Flux, CSS, HTML, SQL, Advanced Algorithims", 
         "technologies": [
             "Algorithms", 
@@ -460,8 +509,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "iOS", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -481,7 +531,7 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "Application Development", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -512,8 +562,9 @@
         "num_locations": 10, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "web design, graphic design, web development, iOS development", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -532,8 +583,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -552,8 +604,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -573,8 +626,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -649,16 +703,7 @@
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
         "subjects": "HTML, CSS, Bootstrap, JavaScript, PHP", 
-        "technologies": [
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "Javascript", 
-            "jQuery", 
-            "Node.js", 
-            "AngularJS", 
-            "Express"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -696,6 +741,13 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery"
+        ], 
         "subjects": null, 
         "technologies": [
             "AngularJS", 
@@ -747,6 +799,18 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "Wordpress"
+        ], 
         "subjects": "Javascript, React, Express, Node, MongoDB, Git, Github, HTML, CSS, Bootstrap", 
         "technologies": [
             "Algorithms", 
@@ -780,8 +844,9 @@
         "scholarships": "$400 Veteran, Ethnic M...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Server Administration, Networking, Virtualization, Web Servers, Linux, Databases, Storage, Log management", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -834,13 +899,7 @@
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
         "subjects": "html, css, javascript,UX design", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "Javascript", 
-            "jQuery", 
-            "UX"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -862,7 +921,7 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": ".NET", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -883,8 +942,9 @@
         "scholarships": "Veterans, Women, Under...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Java", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -941,6 +1001,14 @@
         "num_locations": 2, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Ruby on Rails", 
+            "SQL", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery"
+        ], 
         "subjects": "Ruby, Ruby on Rails, SQL", 
         "technologies": [
             "Ruby on Rails", 
@@ -970,8 +1038,9 @@
         "scholarships": "No", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Ruby on Rails, Javascript, HTML, CSS, MEAN Stack", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -1111,13 +1180,7 @@
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "subjects": "iOS, Swift, Ruby, Python, Android, HTML5, Cocoa", 
-        "technologies": [
-            "iOS", 
-            "Swift", 
-            "Ruby on Rails", 
-            "Cocoa", 
-            "Android"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -1136,8 +1199,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Wireframing, HTML5, CSS3, SaSS, JavaScript, Angular, React, Express, SQL, NoSQL, MySQL, MongoDB, networks, and Git. ", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -1250,6 +1314,21 @@
         "scholarships": "$500 Grace Hopper Scho...", 
         "su_num_reviews": 24, 
         "su_rating": 4.1, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby on Rails", 
+            "Design Principles", 
+            "Photoshop", 
+            "UX", 
+            "iOS", 
+            "Objective-C", 
+            "Swift", 
+            "Ruby", 
+            "Digital Marketing"
+        ], 
         "subjects": "Ruby on Rails, Javascript, HTML, CSS, iOS, UX, Design, Digital Marketing", 
         "technologies": [
             "CSS", 
@@ -1376,24 +1455,7 @@
         "su_num_reviews": 69, 
         "su_rating": 4.7, 
         "subjects": "Ruby on Rails, HTML, Javascript, iOS, Android, Objective C, Swift, UX Design, CSS, AngularJS", 
-        "technologies": [
-            "Git", 
-            "Javascript", 
-            "jQuery", 
-            "Ruby on Rails", 
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "Android", 
-            "Java", 
-            "Illustrator", 
-            "Photoshop", 
-            "UX", 
-            "Wordpress", 
-            "AngularJS", 
-            "CSS", 
-            "HTML"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -1413,8 +1475,9 @@
         "num_locations": 12, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -1548,6 +1611,15 @@
         "scholarships": "Payment plans availabl...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "UX", 
+            "Digital Marketing", 
+            "HTML", 
+            "Android", 
+            "Game Design", 
+            "Design Principles", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Android, iOS, Ruby, PHP, Javascript, CSS, SEO, Dreamweaver, HTML, WordPress, Google Analytics, Responsive Website Development, Web Design", 
         "technologies": [
             "UX", 
@@ -1733,27 +1805,7 @@
         "su_num_reviews": 31, 
         "su_rating": 4.6, 
         "subjects": "Intro to Web Development, Intro to iOS Development, UX Design, Visual Design, Digital Marketing, Product Management, Intermediate Web Development, Wed Development Immersive", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "Javascript", 
-            "Objective-C", 
-            "Swift", 
-            "AngularJS", 
-            "Git", 
-            "jQuery", 
-            "Node.js", 
-            "Python", 
-            "SQL", 
-            "Business", 
-            "Digital Marketing", 
-            "SEO", 
-            "Design Principles", 
-            "Illustrator", 
-            "Photoshop", 
-            "UX", 
-            "Product Mgmt"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -1862,6 +1914,19 @@
         "scholarships": "Enter \"Switchup\" in yo...", 
         "su_num_reviews": 15, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "Algorithms", 
+            "Business", 
+            "Django", 
+            "Javascript", 
+            "Python", 
+            "CSS", 
+            "HTML", 
+            "NYC", 
+            "Data Science", 
+            "Data Structures", 
+            "Hadoop"
+        ], 
         "subjects": "Python Fullstack, FinTech, Data Sciences/Big Data, MedTech, Javascript", 
         "technologies": [
             "Algorithms", 
@@ -1918,6 +1983,13 @@
         "scholarships": "Minority and female in...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "Ruby", 
+            "Sinatra"
+        ], 
         "subjects": "Ruby on Rails, HTML, SQL, CSS", 
         "technologies": [
             "Algorithms", 
@@ -1973,6 +2045,12 @@
         "scholarships": "Enter code \"switchup\" ...", 
         "su_num_reviews": 29, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "UX", 
+            "CSS", 
+            "HTML", 
+            "Ruby on Rails"
+        ], 
         "subjects": "HTML, CSS, Ruby, Rails, User Experience Design, User Interface Design, UX, UI, Careers", 
         "technologies": [
             "UX", 
@@ -1999,7 +2077,7 @@
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2019,8 +2097,9 @@
         "num_locations": 10, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2040,8 +2119,9 @@
         "num_locations": 11, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "iOS, Android", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2086,6 +2166,18 @@
         "scholarships": "Defered Tuition an opt...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "CoffeeScript", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Sinatra"
+        ], 
         "subjects": "Ruby, Rails, HTML, CSS, Javascript, Agile, Git", 
         "technologies": [
             "Algorithms", 
@@ -2118,8 +2210,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "JavaScript, C#, .Net, Microsoft, HTML, CSS, SQL, Data, Mobile, Xamarin, Angular, Bootstrap, Mongo, Node, MEAN", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2245,17 +2338,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "HTML, CSS, JavaScript", 
-        "technologies": [
-            "Digital Marketing", 
-            "Android", 
-            "Java", 
-            "Game Design", 
-            "CSS", 
-            "HTML", 
-            "Javascript", 
-            "Photoshop", 
-            "Ruby on Rails"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2324,6 +2407,16 @@
         "num_locations": 11, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "MongoDB", 
+            "Node.js"
+        ], 
         "subjects": "Full Stack Web Development, Angularjs and Angular 2, React.js, Node.js, Javascript,  C#.net, Python, MongoDB, Wordpress, Bootstrap", 
         "technologies": [
             "Algorithms", 
@@ -2606,6 +2699,28 @@
         "scholarships": "Diversity Scholarships...", 
         "su_num_reviews": 31, 
         "su_rating": 4.4, 
+        "su_technologies": [
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Algorithms", 
+            "Javascript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            "Design Principles", 
+            "MongoDB", 
+            "Node.js", 
+            "Django", 
+            "Python", 
+            "Data Structures", 
+            "Java", 
+            "Express", 
+            "Cocoa", 
+            "iOS", 
+            "Swift", 
+            "SQL"
+        ], 
         "subjects": "Python, Full-Stack JavaScript, iOS Development", 
         "technologies": [
             "CSS", 
@@ -2648,8 +2763,9 @@
         "num_locations": 10, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2668,8 +2784,9 @@
         "num_alumni": 15, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Angular 2.0, React.js, Riot.js, Electron, Node.js etc", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2689,7 +2806,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Coding Bootcamps, Web Development, Computer Programming, Full Stack, Python, CSS, HTML, 12 Weeks, ", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2772,6 +2889,17 @@
         "num_locations": 13, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Algorithms", 
+            "Data Structures", 
+            "Data Science", 
+            "MySQL"
+        ], 
         "subjects": "Ruby, JavaScript, HTML, CSS, SQL", 
         "technologies": [
             "CSS", 
@@ -2803,8 +2931,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2852,6 +2981,11 @@
         "num_locations": 6, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Javascript", 
+            "CSS", 
+            "HTML"
+        ], 
         "subjects": "HTML & CSS, Javascript, jQuery, Python, Ruby, PHP", 
         "technologies": [
             "Javascript", 
@@ -2878,7 +3012,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -2897,8 +3031,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 3, 
         "su_rating": 4.5, 
+        "su_technologies": null, 
         "subjects": "Web, Javascript, PHP, Ruby, Python, API", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3190,6 +3325,25 @@
         "num_locations": 10, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "AngularJS", 
+            "iOS", 
+            "MongoDB", 
+            "C++", 
+            "CSS", 
+            "jQuery", 
+            "MySQL", 
+            "PHP", 
+            "Javascript", 
+            "HTML", 
+            "Node.js", 
+            "Python", 
+            "Wordpress", 
+            "Charleston", 
+            "Clojure", 
+            "Data Science", 
+            "Scala"
+        ], 
         "subjects": "Web Basics, JavaScript, MySQL, PHP 101, and Ruby 101", 
         "technologies": [
             "AngularJS", 
@@ -3229,7 +3383,7 @@
         "su_num_reviews": 4, 
         "su_rating": 4.8, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3293,6 +3447,21 @@
         "scholarships": "$500 Scholarship for  ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Ruby", 
+            "Sinatra", 
+            "SQL", 
+            "Algorithms", 
+            "CoffeeScript", 
+            "Git", 
+            "Javascript", 
+            "jQuery", 
+            "Linux", 
+            "PostgreSQL", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby, CSS, HTML, Javascript, React.js, Rails, Web Development, jQuery", 
         "technologies": [
             "CSS", 
@@ -3327,7 +3496,7 @@
                 "Location": [
                     "Boulder"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Algorithms", 
                     "Algorithms", 
@@ -3382,7 +3551,7 @@
                 "Location": [
                     "Boulder"
                 ], 
-                "Start Date": "2016-09-26", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Illustrator", 
                     "Photoshop", 
@@ -3401,6 +3570,21 @@
         "scholarships": "Please contact us at i...", 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "SQL", 
+            "Node.js", 
+            "Illustrator", 
+            "Photoshop", 
+            "UX"
+        ], 
         "subjects": "Full Stack Web Development, HTML, CSS, Bootstrap, JavaScript, Angular.js, Node.js, MongoDB, UI/UX, UX Design, User Experience Design, Git, SQL, jQuery, AWS", 
         "technologies": [
             "Algorithms", 
@@ -3462,6 +3646,14 @@
         "scholarships": "Third Party Full Schol...", 
         "su_num_reviews": 13, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Django", 
+            "HTML", 
+            "Javascript", 
+            "Python"
+        ], 
         "subjects": "Python, Django, HTML5, CSS3, JavaScript, and AngularJS.", 
         "technologies": [
             "AngularJS", 
@@ -3517,6 +3709,20 @@
         "scholarships": "$500 Scholarships - Ve...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            ".NET", 
+            "SQL"
+        ], 
         "subjects": "JavaScript, AngularJS, HTML, CSS, Bootstrap, LESS, ASP.NET, C#, SQL", 
         "technologies": [
             "Algorithms", 
@@ -3551,8 +3757,9 @@
         "num_locations": 11, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "HTML5, CSS3, Javascript, Ruby, PHP, Python", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3657,21 +3864,7 @@
         "su_num_reviews": 30, 
         "su_rating": 4.0, 
         "subjects": "Full Stack JavaScript, Full Stack .NET, Full Stack Java, Coding From Scratch", 
-        "technologies": [
-            "Java", 
-            "AngularJS", 
-            "C#", 
-            "Javascript", 
-            ".NET", 
-            "Algorithms", 
-            "Express", 
-            "Git", 
-            "MongoDB", 
-            "Node.js", 
-            "CSS", 
-            "HTML", 
-            "jQuery"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3712,8 +3905,22 @@
         "num_locations": 6, 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
+        "su_technologies": "Rolling Dates", 
         "subjects": "Application Development, Beginner", 
-        "technologies": "Rolling Dates", 
+        "technologies": [
+            "R", 
+            "o", 
+            "l", 
+            "i", 
+            "n", 
+            "g", 
+            " ", 
+            "D", 
+            "a", 
+            "t", 
+            "e", 
+            "s"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3780,6 +3987,17 @@
         "num_locations": 2, 
         "su_num_reviews": 28, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            ".NET", 
+            "SQL"
+        ], 
         "subjects": ".NET, Javascript, HTML5, CSS3, AngularJS, C#, MVC", 
         "technologies": [
             "Algorithms", 
@@ -3810,8 +4028,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3852,6 +4071,14 @@
         "scholarships": "$500 scholarships - ad...", 
         "su_num_reviews": 9, 
         "su_rating": 4.8, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "PHP"
+        ], 
         "subjects": "PHP, HTML, CSS, JavaScript, jQuery", 
         "technologies": [
             "Algorithms", 
@@ -3890,8 +4117,12 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "PHP", 
         "subjects": "PHP, MySQL, CSS3, HTML5, GIT", 
-        "technologies": "PHP", 
+        "technologies": [
+            "P", 
+            "H"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3926,8 +4157,21 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "Ruby, Rails", 
-        "technologies": "Ruby on Rails", 
+        "technologies": [
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3948,7 +4192,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "iOS, Android, Ruby on Rails", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4032,6 +4276,13 @@
         "scholarships": "$500 for Minorities & ...", 
         "su_num_reviews": 2, 
         "su_rating": 4.0, 
+        "su_technologies": [
+            "C#", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "SQL"
+        ], 
         "subjects": "Java, C#, HTML, JavaScript", 
         "technologies": [
             "C#", 
@@ -4086,6 +4337,10 @@
         "num_locations": 6, 
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Javascript", 
+            "iOS"
+        ], 
         "subjects": "Ruby, Javascript, HTML, CSS, IOS", 
         "technologies": [
             "Javascript", 
@@ -4131,6 +4386,14 @@
         "scholarships": "Codesmith Scholarship:...", 
         "su_num_reviews": 13, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "Express", 
+            "Javascript", 
+            "MongoDB", 
+            "Node.js", 
+            "SQL"
+        ], 
         "subjects": "JavaScript, MongoDB, Express, Angular, React, Node, SQL Databases, Distributed Systems, Mobile Engineering With React Native, DevOps", 
         "technologies": [
             "AngularJS", 
@@ -4159,8 +4422,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4199,6 +4463,12 @@
         "scholarships": "$5,000 off the Full St...", 
         "su_num_reviews": 18, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "Javascript", 
+            "Linux", 
+            "MySQL", 
+            "PHP"
+        ], 
         "subjects": " Linux, Apache, MySQL, PHP, JavaScript", 
         "technologies": [
             "Javascript", 
@@ -4260,6 +4530,28 @@
         "scholarships": "Bring your friends to ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "CSS", 
+            "Cyber Security", 
+            "Data Science", 
+            "Data Structures", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Linux", 
+            "Mobile", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "Phonegap", 
+            "PostgreSQL", 
+            "SQL", 
+            "UX"
+        ], 
         "subjects": "JavaScript, Full Stack, Node JS, Express, Koa, Angular, React, Meteor, Polymer, HTML, CSS", 
         "technologies": [
             "Algorithms", 
@@ -4301,8 +4593,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "HTML, CSS, Javascript", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4322,7 +4615,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4410,6 +4703,27 @@
         "scholarships": "Up to $2000 in scholar...", 
         "su_num_reviews": 90, 
         "su_rating": 4.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CoffeeScript", 
+            "CSS", 
+            "Design Principles", 
+            "Express", 
+            "Git", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "PHP", 
+            "PostgreSQL", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Algorithms", 
+            "Entrepreneurship", 
+            "HTML", 
+            "Mobile", 
+            "MySQL"
+        ], 
         "subjects": "Front-End Fundamentals, HTML/CSS, Javascript, Twitter Bootstrap,  jQuery, LESS, PHP, CodeIgniter, MySQL, Ajax,  Angular.JS, MongoDB, Express, Node.JS, Socket.IO, Redis, Postgres,  SQLite, Coffeescript, NGINX, Heroku, Ruby, Rails", 
         "technologies": [
             "AngularJS", 
@@ -4470,6 +4784,12 @@
         "scholarships": "Yes", 
         "su_num_reviews": 22, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "AngularJS", 
+            "HTML", 
+            "Mobile", 
+            "Node.js"
+        ], 
         "subjects": "HTML, Nodejs, Angularjs, Mobile", 
         "technologies": [
             "AngularJS", 
@@ -4512,6 +4832,13 @@
         "scholarships": "$500 Course Report Sch...", 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "jQuery", 
+            ".NET"
+        ], 
         "subjects": ".Net, Ruby, CSS, HTML, JavaScript, C#, jQuery", 
         "technologies": [
             "C#", 
@@ -4539,8 +4866,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Ruby, Rails, iOS, HTML, CSS, JavaScript", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4581,6 +4909,15 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Business", 
+            "Data Structures", 
+            "Entrepreneurship", 
+            "Git", 
+            "iOS", 
+            "Objective-C", 
+            "Swift"
+        ], 
         "subjects": "Swift, iOS Development, Xcode, Objective-C, iPhone apps, Design, App Design", 
         "technologies": [
             "Business", 
@@ -4637,6 +4974,18 @@
         "scholarships": "Tuition Assitance Avai...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "AngularJS", 
+            "Digital Marketing", 
+            "Express", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "SEO", 
+            "UX"
+        ], 
         "subjects": "Full Stack Web Development: HTML/CSS, mySql, Javascript, PHP", 
         "technologies": [
             "AngularJS", 
@@ -4668,8 +5017,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4691,7 +5041,7 @@
         "su_num_reviews": 6, 
         "su_rating": 4.2, 
         "subjects": "Ruby on Rails, JavaScript, Video Game Dev (C#), iOS Dev (Swift/Objective-C)", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4711,8 +5061,9 @@
         "num_locations": 8, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "Web Development", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4763,6 +5114,19 @@
         "scholarships": "Full tuition from W.K....", 
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Entrepreneurship", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MySQL", 
+            "PHP", 
+            "UX"
+        ], 
         "subjects": "Web Development & PHP Programming Bootcamp", 
         "technologies": [
             "AngularJS", 
@@ -4814,8 +5178,16 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Android", 
         "subjects": "Android, Java", 
-        "technologies": "Android", 
+        "technologies": [
+            "A", 
+            "n", 
+            "d", 
+            "r", 
+            "o", 
+            "i"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4834,8 +5206,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4879,6 +5252,17 @@
         "scholarships": "90% Veteran Scholarship", 
         "su_num_reviews": 29, 
         "su_rating": 4.8, 
+        "su_technologies": [
+            "Android", 
+            "CSS", 
+            "Design Principles", 
+            "HTML", 
+            "Illustrator", 
+            "iOS", 
+            "Javascript", 
+            "Photoshop", 
+            "UX"
+        ], 
         "subjects": "web design, html, css, javascript, ux, ixd, ui, design", 
         "technologies": [
             "Android", 
@@ -4955,6 +5339,12 @@
         "num_locations": 6, 
         "su_num_reviews": 36, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "Design Principles", 
+            "UX", 
+            "Illustrator", 
+            "Photoshop"
+        ], 
         "subjects": "Design, UI Design, UX Design, Visual Design, Web Design", 
         "technologies": [
             "Design Principles", 
@@ -5000,6 +5390,12 @@
         "scholarships": "Te Uru Rangi (Maori in...", 
         "su_num_reviews": 14, 
         "su_rating": 3.9, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            ".NET", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Full stack Javascript ES5/6/7, HTML5, CSS3, Object Orientated Programming, SQL, noSQL databases, pair programming, Agile, Behaviour driven development and test driven development. ", 
         "technologies": [
             "CSS", 
@@ -5058,6 +5454,17 @@
         "scholarships": "$500 for veterans, wom...", 
         "su_num_reviews": 26, 
         "su_rating": 3.8, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Sinatra", 
+            "SQL"
+        ], 
         "subjects": "JavaScript, common JavaScript libraries, Ruby,  Ruby on Rails,  SQL, HTML and CSS", 
         "technologies": [
             "Algorithms", 
@@ -5140,6 +5547,19 @@
         "num_locations": 8, 
         "su_num_reviews": 21, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "PostgreSQL"
+        ], 
         "subjects": " JavaScript, HTML, CSS, AngularJS, Node.js, Backbone.js, JQuery, D3", 
         "technologies": [
             "AngularJS", 
@@ -5258,25 +5678,7 @@
         "su_num_reviews": 28, 
         "su_rating": 4.2, 
         "subjects": "Web Development (Javascript, jQuery, Angular, MongoDB, Node, etc), iOS Development (Xcode, Objective-C, Swift), UX Design (research, prototyping, interaction, visual, motion) ", 
-        "technologies": [
-            "Algorithms", 
-            "AngularJS", 
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "Javascript", 
-            "jQuery", 
-            "MongoDB", 
-            "MySQL", 
-            "Node.js", 
-            "SQL", 
-            "Data Structures", 
-            "Design Principles", 
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "UX"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -5313,6 +5715,11 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript"
+        ], 
         "subjects": " JavaScript, HTML, CSS", 
         "technologies": [
             "CSS", 
@@ -5338,8 +5745,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "C#, HTML, CSS, Javascript, .NET", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -5401,6 +5809,21 @@
         "num_locations": 9, 
         "su_num_reviews": 16, 
         "su_rating": 4.8, 
+        "su_technologies": [
+            "CSS", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "SEO", 
+            "UX", 
+            "Algorithms", 
+            "C#", 
+            "Data Structures", 
+            ".NET", 
+            "SQL"
+        ], 
         "subjects": "C#, .Net, Javascript, Python, CSS, HTML, Angular, MongoDB, PHP, jQuery", 
         "technologies": [
             "CSS", 
@@ -5713,6 +6136,37 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "HTML", 
+            "SharePoint \u200b ", 
+            "SQL Programming", 
+            "SQL Server Administration", 
+            "SQL Business Intelligence", 
+            "C++", 
+            "Java", 
+            "Linux", 
+            "UNIX", 
+            ".NET", 
+            "Windows Server", 
+            "Web Services", 
+            "AngularJS", 
+            "CSS", 
+            "Javascript", 
+            "jQuery", 
+            "Perl", 
+            "PHP", 
+            "Spring MVC", 
+            "Android", 
+            "iOS", 
+            "Objective-C", 
+            "Swift", 
+            "ASP.NET ", 
+            "ASP.NET MVC", 
+            "C#", 
+            "VB.NET", 
+            "WCF", 
+            "WPF"
+        ], 
         "subjects": "Java, Mobile App Development, .NET, SharePoint, SQL, UNIX/Linux, Web Development, Windows System Administration", 
         "technologies": [
             "HTML", 
@@ -5807,6 +6261,18 @@
         "num_locations": 2, 
         "su_num_reviews": 4, 
         "su_rating": 3.8, 
+        "su_technologies": [
+            "Algorithms", 
+            "Cocoa", 
+            "Javascript", 
+            "Objective-C", 
+            "Swift", 
+            "CoffeeScript", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby on Rails, iOS, Front End", 
         "technologies": [
             "Algorithms", 
@@ -5853,15 +6319,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "JavaScript, HTML, CSS, AngularJS, Node.js, MongoDB", 
-        "technologies": [
-            "AngularJS", 
-            "HTML", 
-            "Javascript", 
-            "MongoDB", 
-            "Node.js", 
-            "September 30", 
-            "2016"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -5930,6 +6388,28 @@
         "scholarships": "10% Off for Veterans &...", 
         "su_num_reviews": 12, 
         "su_rating": 4.1, 
+        "su_technologies": [
+            "Algorithms", 
+            "Clojure", 
+            "Data Science", 
+            "Data Structures", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "MongoDB", 
+            "Node.js", 
+            "PostgreSQL", 
+            "SEO", 
+            "SQL", 
+            "CoffeeScript", 
+            "CSS", 
+            "Javascript", 
+            "jQuery", 
+            "Linux", 
+            "MySQL", 
+            "Ruby", 
+            "Ruby on Rails"
+        ], 
         "subjects": "HTML/CSS, Javascript, ES6, Ruby, Rails, Haskell, Clojure", 
         "technologies": [
             "Algorithms", 
@@ -5997,6 +6477,18 @@
         "scholarships": "Zero tuition until you...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "Data Structures", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails"
+        ], 
         "subjects": "JavaScript, Jquery, Meteor, MongoDB, Ruby, Rails, APIs", 
         "technologies": [
             "Algorithms", 
@@ -6030,8 +6522,9 @@
         "scholarships": "20% off", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Ruby, CSS, HTML, Javascript, iOS, Digital Marketing, Social Media Marketing, Video, Post-Production", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6052,7 +6545,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6124,6 +6617,20 @@
         "scholarships": "Up to $2,000 Scholarsh...", 
         "su_num_reviews": 19, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "CSS", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MySQL", 
+            "Node.js", 
+            "Python", 
+            "UX"
+        ], 
         "subjects": "Full-Stack Development including Javascript, NodeJS, AngularJS, Python, HTML, CSS, and MySQL. Electives include Swift, iOS, UX, and Ionic.", 
         "technologies": [
             "Algorithms", 
@@ -6159,7 +6666,7 @@
         "su_num_reviews": 3, 
         "su_rating": 4.0, 
         "subjects": "Ruby on Rails", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6194,8 +6701,16 @@
         "num_locations": 5, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Python", 
         "subjects": "Python", 
-        "technologies": "Python", 
+        "technologies": [
+            "P", 
+            "y", 
+            "t", 
+            "h", 
+            "o", 
+            "n"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6215,8 +6730,9 @@
         "num_locations": 11, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6365,6 +6881,20 @@
         "num_locations": 2, 
         "su_num_reviews": 11, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Django", 
+            "Python", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Git", 
+            "Java", 
+            ".NET", 
+            "C#", 
+            "iOS", 
+            "Swift", 
+            "Android"
+        ], 
         "subjects": "iOS, Android, Java, JavaScript, .NET, Ruby on Rails, Big Data, Intro to Coding, Security, Unity, Programming Fundamentals,  Python", 
         "technologies": [
             "Django", 
@@ -6447,6 +6977,23 @@
         "num_locations": 8, 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Entrepreneurship", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "MongoDB", 
+            "Node.js", 
+            "PostgreSQL", 
+            "Product Mgmt", 
+            "UX", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
+        ], 
         "subjects": "Node.js, Javascript", 
         "technologies": [
             "AngularJS", 
@@ -6670,22 +7217,7 @@
         "su_num_reviews": 91, 
         "su_rating": 4.9, 
         "subjects": "Intro to Programming, Ruby, PHP, Java, C#, JavaScript, Rails, Drupal, Android, .NET, CSS, Design", 
-        "technologies": [
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "Javascript", 
-            "jQuery", 
-            "Android", 
-            "Drupal", 
-            ".NET", 
-            "Design Principles", 
-            "Ruby", 
-            "PHP", 
-            "Java", 
-            "C#", 
-            "Ruby on Rails"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6705,8 +7237,9 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6742,8 +7275,17 @@
         "scholarships": "Available - must apply", 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
+        "su_technologies": "Chicago", 
         "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
-        "technologies": "Chicago", 
+        "technologies": [
+            "C", 
+            "h", 
+            "i", 
+            "c", 
+            "a", 
+            "g", 
+            "o"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6825,13 +7367,7 @@
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
         "subjects": "ASP.NET MVC5, HTML5, CSS, jQuery, JavaScript, Git", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "Javascript", 
-            "jQuery", 
-            ".NET"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6850,8 +7386,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6889,6 +7426,11 @@
         "scholarships": "100% scholarship for a...", 
         "su_num_reviews": 41, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Javascript", 
+            "Node.js", 
+            "UX"
+        ], 
         "subjects": "JavaScript, Node.js, React", 
         "technologies": [
             "Javascript", 
@@ -6915,8 +7457,9 @@
         "scholarships": "We are free for everyone", 
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "JavaScript, Node, HTML5, MongoDB, Angular, React, Express, Databases, Agile, CSS, Design, Web Development, User Experience, Full Stack, Front End", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6935,8 +7478,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -6977,6 +7521,14 @@
         "scholarships": "$1000 Ada Lovelace Sch...", 
         "su_num_reviews": 23, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "AngularJS", 
+            "Express", 
+            "Javascript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js"
+        ], 
         "subjects": "AngularJS, Node.js, JavaScript, MongoDB, HTML5, CSS3 Express.js, jQuery, CTO Program", 
         "technologies": [
             "AngularJS", 
@@ -7035,8 +7587,18 @@
         "scholarships": "Limited scholarships, ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Gainesville", 
         "subjects": "HTML5, CSS3, MongoDB, ExpressJS, AngularJS, NodeJS, API, Agile, Scrum, PM, iPhone Swift, iOS SDK, Android", 
-        "technologies": "Gainesville", 
+        "technologies": [
+            "G", 
+            "a", 
+            "i", 
+            "n", 
+            "e", 
+            "s", 
+            "v", 
+            "l"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7115,6 +7677,13 @@
         "scholarships": "Yes, Partial Scholarsh...", 
         "su_num_reviews": 26, 
         "su_rating": 4.6, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Ruby on Rails", 
+            "Data Science"
+        ], 
         "subjects": "HTML, CSS, Ruby on Rails, Javascript, Data Science", 
         "technologies": [
             "CSS", 
@@ -7142,8 +7711,9 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7193,12 +7763,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Perl,Dancer2,jQuery", 
-        "technologies": [
-            "CSS", 
-            "jQuery", 
-            "Perl", 
-            "Algorithms"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7217,8 +7782,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": ".NET Programming, JavaScript, HTML5, CSS", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7519,6 +8085,31 @@
         "scholarships": "General Assembly's Opp...", 
         "su_num_reviews": 68, 
         "su_rating": 3.9, 
+        "su_technologies": [
+            "UX", 
+            "Data Science", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Javascript", 
+            "CSS", 
+            "HTML", 
+            "Digital Marketing", 
+            "SEO", 
+            "Mobile", 
+            "Product Mgmt", 
+            "Atlanta", 
+            "Austin", 
+            "Boston", 
+            "Chicago", 
+            "London", 
+            "Los Angeles", 
+            "Melbourne", 
+            "NYC", 
+            "San Francisco", 
+            "Seattle", 
+            "Sydney", 
+            "Washington"
+        ], 
         "subjects": "Web Development (Full-stack: Javascript, Ruby, Rails), Web Design, UI/UX Design, Product Management, Digital Marketing, Analytics, Front-end (HTML, CSS, Javascript), Back-end (Ruby, Ruby on Rails), Data Science", 
         "technologies": [
             "UX", 
@@ -7618,8 +8209,9 @@
         "num_locations": 51, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "HTML/CSS, JavaScript, GIT/Github, web concepts, PHP/MySQL, Angular.JS., Web Accessibility", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7646,8 +8238,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7666,8 +8259,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 2, 
         "su_rating": 1.5, 
+        "su_technologies": null, 
         "subjects": "JavaScript, HTML5, CSS, jQuery, AngularJS", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7687,8 +8281,9 @@
         "num_locations": 3, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "HTML5, CSS3, MEAN Stack (MongoDB, ExpressJS, AngularJS, Node.js)", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7803,6 +8398,16 @@
         "scholarships": "$1,000 Automatic Schol...", 
         "su_num_reviews": 12, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "AngularJS", 
+            "Javascript", 
+            "jQuery", 
+            "Git", 
+            "Java", 
+            "MySQL"
+        ], 
         "subjects": "Java, .NET, Javascript, HTML, CSS", 
         "technologies": [
             "CSS", 
@@ -7858,6 +8463,18 @@
         "scholarships": "$5000 HKD Women Schola...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby On Rails, AngularJS, HTML, CSS, Javascript, postgreSQL, git.", 
         "technologies": [
             "Algorithms", 
@@ -7905,8 +8522,19 @@
         "num_locations": 13, 
         "su_num_reviews": 34, 
         "su_rating": 4.9, 
+        "su_technologies": "Javascript", 
         "subjects": "Algorithims, AngularJS, CoffeeScript, CSS, Data Structures, Express, Git, HTML, JavaScript, jQuery, MongoDB, MySQL, Node.js, SQL", 
-        "technologies": "Javascript", 
+        "technologies": [
+            "J", 
+            "a", 
+            "v", 
+            "s", 
+            "c", 
+            "r", 
+            "i", 
+            "p", 
+            "t"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7950,6 +8578,15 @@
         "scholarships": "Full list of scholarsh...", 
         "su_num_reviews": 22, 
         "su_rating": 4.4, 
+        "su_technologies": [
+            "CSS", 
+            "Django", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "Python", 
+            "SQL"
+        ], 
         "subjects": "Python, JavaScript, HTML, Git, Django, SQL, CSS", 
         "technologies": [
             "CSS", 
@@ -7979,8 +8616,9 @@
         "num_locations": 13, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Javascript, HTML, CSS, JQuery, SQL, NoSQL, Node.js, Angular.js, Phonegap, Parse, AWS, Heroku", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -7999,8 +8637,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8011,6 +8650,86 @@
         "average_salary": "N/A", 
         "class_ratio": "1:5", 
         "courses": {
+            "\"Silicon Beach\"   Costa Rica": {
+                "Class Size": 30, 
+                "Cost": 4450, 
+                "Hours/Week": 40, 
+                "Length": "9 weeks", 
+                "Location": [
+                    "San Jose"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Android", 
+                    "AngularJS", 
+                    "C#", 
+                    "C++", 
+                    "Clojure", 
+                    "CoffeeScript", 
+                    "CSS", 
+                    "Data Science", 
+                    "Data Structures", 
+                    "Django", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "iOS", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Mobile", 
+                    "MongoDB", 
+                    ".NET", 
+                    "Node.js", 
+                    "Objective-C", 
+                    "PostgreSQL", 
+                    "Python", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "Scala", 
+                    "SQL", 
+                    "Swift"
+                ], 
+                "Title": "\"Silicon Beach\"   Costa Rica"
+            }, 
+            "\"Summer In The City\"   Batch-3, Berlin": {
+                "Class Size": null, 
+                "Cost": 2450, 
+                "Hours/Week": 36, 
+                "Length": "9 weeks", 
+                "Location": [
+                    "Berlin"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Algorithms", 
+                    "Android", 
+                    "AngularJS", 
+                    "C++", 
+                    "Clojure", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Git", 
+                    "HTML", 
+                    "iOS", 
+                    "Java", 
+                    "Javascript", 
+                    "MongoDB", 
+                    "Node.js", 
+                    "Objective-C", 
+                    "PostgreSQL", 
+                    "Python", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "Scala", 
+                    "SQL", 
+                    "Swift", 
+                    "Swift"
+                ], 
+                "Title": "\"Summer in the City\"   Batch-3, Berlin"
+            }, 
             "Silicon Beach Costa Rica": {
                 "Class Size": 30, 
                 "Cost": 4450, 
@@ -8105,6 +8824,38 @@
         "scholarships": "Diversity and Technolo...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "Android", 
+            "AngularJS", 
+            "C#", 
+            "C++", 
+            "Clojure", 
+            "CoffeeScript", 
+            "CSS", 
+            "Data Science", 
+            "Data Structures", 
+            "Django", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "iOS", 
+            "Java", 
+            "Javascript", 
+            "jQuery", 
+            "Mobile", 
+            "MongoDB", 
+            ".NET", 
+            "Node.js", 
+            "Objective-C", 
+            "PostgreSQL", 
+            "Python", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Scala", 
+            "SQL", 
+            "Swift"
+        ], 
         "subjects": "Hacking, Programming, Ruby, Web, Web-Development, Big Data, Javascript, Ruby, Python,Self-Directed", 
         "technologies": [
             "Algorithms", 
@@ -8234,6 +8985,14 @@
         "num_locations": 7, 
         "su_num_reviews": 10, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Wordpress", 
+            "Ruby on Rails"
+        ], 
         "subjects": " HTML, CSS, Responsive Design, JavaScript, jQuery, APIs, WordPress, Ruby on Rails, Design Theory, Photoshop, Illustrator, InDesign", 
         "technologies": [
             "CSS", 
@@ -8261,8 +9020,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8281,8 +9041,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8347,17 +9108,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "JavaScript, HTTP/IP/DNS, HTML/CSS, JQuery, Angular, React, Node JS, Ruby on Rails, MongoDB, MySQL, Career Services", 
-        "technologies": [
-            "AngularJS", 
-            "CSS", 
-            "HTML", 
-            "Javascript", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "MySQL", 
-            "Ruby on Rails"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8377,8 +9128,9 @@
         "num_locations": 13, 
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "Algorithms, iOS, Ruby, Python, PHP, databases, HTML, CSS, Javascript, C, Devops, Deep Learning, Security, Artificial Intelligence, Bash, Linux, Windows, Mac, Shell, IoT", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8429,6 +9181,18 @@
         "num_locations": 3, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Data Structures", 
+            "Entrepreneurship", 
+            "Express", 
+            "HTML", 
+            "Javascript", 
+            "MongoDB", 
+            "Node.js", 
+            "SQL"
+        ], 
         "subjects": "Full-stack Javascript, Node.js, Express.js, React.js, React Native, MongoDB, SQL, CSS, HTML, jQuery, Object Oriented Programming, Data Structures, Algorithms, MVC architecture, APIs", 
         "technologies": [
             "Algorithms", 
@@ -8460,8 +9224,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Ruby on Rails", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8480,8 +9245,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "PMP. ITIL, PgMP, Android Development, PMI", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8531,8 +9297,12 @@
         "scholarships": "Sign up through Switch...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "UX", 
         "subjects": "UX UI Mobile App Design", 
-        "technologies": "UX", 
+        "technologies": [
+            "U", 
+            "X"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8552,8 +9322,9 @@
         "scholarships": "$500", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "CCIE, CCNP, CCNA, Vagrant, Openflow, SDN, VMware, Firewalls, Network+, Security+, Cloud+, JunOS, Cisco Certifications, CompTIA certifications, switches, routing, protocols", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8593,8 +9364,19 @@
         "scholarships": "Need-based", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Data Science", 
         "subjects": "Data Science", 
-        "technologies": "Data Science", 
+        "technologies": [
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8615,8 +9397,9 @@
         "scholarships": "Veterans, Women, Under...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Java, Android", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8681,6 +9464,16 @@
         "scholarships": "1000$ Scholarship for ...", 
         "su_num_reviews": 50, 
         "su_rating": 4.9, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Ruby on Rails", 
+            "Sinatra", 
+            "Cocoa", 
+            "iOS", 
+            "Objective-C"
+        ], 
         "subjects": "Ruby on Rails, JavaScript, HTML, CSS, Sinatra", 
         "technologies": [
             "CSS", 
@@ -8713,8 +9506,9 @@
         "num_locations": 3, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8755,6 +9549,15 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Android", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "Python", 
+            "SQL"
+        ], 
         "subjects": "HTML, CSS, JavaScript, Python, SQL, Android, Git, Unix", 
         "technologies": [
             "Android", 
@@ -8784,8 +9587,9 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8825,7 +9629,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Excel, SQL", 
-        "technologies": "SQL", 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8883,6 +9687,20 @@
         "scholarships": "$500 - Veteran, female...", 
         "su_num_reviews": 23, 
         "su_rating": 4.4, 
+        "su_technologies": [
+            "Rolling Dates", 
+            "Algorithms", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Sinatra", 
+            "SQL"
+        ], 
         "subjects": "JavaScript, Ruby, HTML, CSS, SQL, Git, Front-end, Backend ", 
         "technologies": [
             "Rolling Dates", 
@@ -8925,8 +9743,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "MEAN stack", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8996,6 +9815,17 @@
         "num_locations": 14, 
         "su_num_reviews": 63, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "PostgreSQL", 
+            "Ruby on Rails", 
+            "SQL", 
+            "UX"
+        ], 
         "subjects": "ruby, ruby on Rails, HTML/CSS, Javascript ", 
         "technologies": [
             "CSS", 
@@ -9066,13 +9896,7 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "Ruby onRails, JavaScript, HTML & CSS, Git & Source control, Github, Code Reviews & Collaboration, API & Application Connections ", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "Javascript", 
-            "Ruby", 
-            "Ruby on Rails"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9092,8 +9916,9 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9152,6 +9977,17 @@
         "scholarships": "$600 discount for woma...", 
         "su_num_reviews": 10, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Data Science", 
+            "Javascript", 
+            "Linux", 
+            "MySQL", 
+            "PHP", 
+            "SQL", 
+            "UX"
+        ], 
         "subjects": "HTML5/CSS3, JavaScript/jQuery, PHP/MySQL, MVC ,Git/GitHub, Frameworks", 
         "technologies": [
             "CSS", 
@@ -9183,8 +10019,9 @@
         "num_locations": 13, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9281,18 +10118,7 @@
         "su_num_reviews": 38, 
         "su_rating": 4.6, 
         "subjects": "Ruby on Rails, JavaScript, Node, Angular.js, Objective-C, Xcode, Swift, Sinatra, Ruby, HTML, CSS", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "Ruby", 
-            "iOS", 
-            "Javascript", 
-            "Objective-C", 
-            "Swift", 
-            "Node.js", 
-            "Ruby on Rails", 
-            "Cocoa"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9350,6 +10176,12 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "C#", 
+            "Javascript", 
+            ".NET", 
+            "SQL"
+        ], 
         "subjects": "Web", 
         "technologies": [
             "C#", 
@@ -9401,6 +10233,18 @@
         "scholarships": "\u00a3500 discount for women", 
         "su_num_reviews": 37, 
         "su_rating": 4.6, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Node.js", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL"
+        ], 
         "subjects": "Ruby, JavaScript, Ruby on Rails, HTML, CSS, jQuery, SQL, PostgreSQL, Git and Heroku, Softwire Design, Agile and Lean", 
         "technologies": [
             "AngularJS", 
@@ -9484,6 +10328,20 @@
         "num_locations": 4, 
         "su_num_reviews": 25, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "Data Structures", 
+            "Javascript", 
+            "Algorithms", 
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "PostgreSQL", 
+            "SQL"
+        ], 
         "subjects": "JavaScript", 
         "technologies": [
             "Data Structures", 
@@ -9563,6 +10421,16 @@
         "scholarships": "Need-based scholarships", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Git", 
+            "iOS", 
+            "Objective-C", 
+            "Swift", 
+            "CSS", 
+            "HTML", 
+            "Ruby on Rails", 
+            "UX"
+        ], 
         "subjects": "Objective-C, Swift, iOS, Git, Ruby on Rails, CSS, HTML", 
         "technologies": [
             "Git", 
@@ -9593,8 +10461,9 @@
         "num_locations": 13, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Military to Marketing", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9633,8 +10502,22 @@
         "num_locations": 3, 
         "su_num_reviews": 10, 
         "su_rating": 4.6, 
+        "su_technologies": "Digital Marketing", 
         "subjects": "Digital Marketing", 
-        "technologies": "Digital Marketing", 
+        "technologies": [
+            "D", 
+            "i", 
+            "g", 
+            "t", 
+            "a", 
+            "l", 
+            " ", 
+            "M", 
+            "r", 
+            "k", 
+            "e", 
+            "n"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9760,6 +10643,11 @@
         "scholarships": "$3,000 scholarships fo...", 
         "su_num_reviews": 18, 
         "su_rating": 4.6, 
+        "su_technologies": [
+            "Data Science", 
+            "Javascript", 
+            "Python"
+        ], 
         "subjects": "Data Science, Python, Data Visualization, JavaScript, D3, NLP, Naive Bayes, Hadoop, Spark, Machine Learning, Online Training", 
         "technologies": [
             "Data Science", 
@@ -9800,8 +10688,21 @@
         "num_locations": 5, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "PHP, HTML, CSS, Javascript, JQuery, Node.js, MySQL, MongoDB, Java", 
-        "technologies": "Ruby on Rails", 
+        "technologies": [
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9878,6 +10779,12 @@
         "scholarships": "$2500 Diversity and Ve...", 
         "su_num_reviews": 7, 
         "su_rating": 3.9, 
+        "su_technologies": [
+            "iOS", 
+            "Mobile", 
+            "Objective-C", 
+            "Swift"
+        ], 
         "subjects": "iOS, Swift, Objective-C, WatchKit, HealthKit, Mobile, Android", 
         "technologies": [
             "iOS", 
@@ -9905,7 +10812,7 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9925,8 +10832,9 @@
         "num_locations": 6, 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "HTML, CSS, Javascript, Data Science, Github, UX, Python", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -9963,6 +10871,11 @@
         "num_locations": 9, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Javascript", 
+            "Node.js", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby, JavaScript, Node.js", 
         "technologies": [
             "Javascript", 
@@ -9987,8 +10900,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10153,19 +11067,7 @@
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
         "subjects": "HTML, Ruby on Rails, CSS, JavaScript, jQuery, Data Structures", 
-        "technologies": [
-            "AngularJS", 
-            "Javascript", 
-            "Node.js", 
-            "Objective-C", 
-            "CSS", 
-            "Data Structures", 
-            "HTML", 
-            "jQuery", 
-            "Ruby on Rails", 
-            "Illustrator", 
-            "UX"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10236,6 +11138,22 @@
         "scholarships": "Malaysian Financial Su...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "Entrepreneurship", 
+            "Git", 
+            "iOS", 
+            "Mobile", 
+            "Objective-C", 
+            "SQL", 
+            "Swift", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails"
+        ], 
         "subjects": "iOS mobile development bootcamp, iOS, mobile, Objective-C, swift, XCODE, Mobile design, SDKS, App distribution, Ruby, Ruby-on-Rails, Sinatra, Javascript, HTML, CSS, SQL, Full-Stack Web Development, App Development, Web Development, Coding", 
         "technologies": [
             "Algorithms", 
@@ -10272,8 +11190,9 @@
         "num_locations": 7, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10292,8 +11211,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 1, 
         "su_rating": 3.5, 
+        "su_technologies": null, 
         "subjects": "iOS", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10336,16 +11256,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Ruby, JavaScript, HTML, CSS, Sinatra, Ruby on Rails, CoffeeScript, PostgreSQL", 
-        "technologies": [
-            "CoffeeScript", 
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "Javascript", 
-            "Ruby on Rails", 
-            "Sinatra", 
-            "SQL"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10364,8 +11275,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
+        "su_technologies": null, 
         "subjects": "Ruby on Rails", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10385,8 +11297,9 @@
         "num_locations": 11, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10429,6 +11342,18 @@
         "num_locations": 13, 
         "su_num_reviews": 14, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js"
+        ], 
         "subjects": "Full-Stack: Javascript, Node.js, Angular.js, Express.js, MondgoDB, JQuery, Heroku,HTML5, CSS3,  ", 
         "technologies": [
             "AngularJS", 
@@ -10461,8 +11386,9 @@
         "num_locations": 9, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10526,6 +11452,16 @@
         "scholarships": "Some scholarships are ...", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "Django", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Python", 
+            "SQL"
+        ], 
         "subjects": " Python, Django, JavaScriprt, SQL, HTML, CSS, Git, ", 
         "technologies": [
             "CSS", 
@@ -10576,6 +11512,14 @@
         "num_locations": 12, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "jQuery", 
+            "MySQL", 
+            "Node.js", 
+            "Ruby on Rails"
+        ], 
         "subjects": "HTML, CSS, Sass, Javascript, jQuery, Angular.js, PHP ", 
         "technologies": [
             "CSS", 
@@ -10620,6 +11564,10 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Javascript", 
+            "PHP"
+        ], 
         "subjects": "PHP, CodeIgniter, JavaScript", 
         "technologies": [
             "Javascript", 
@@ -10643,8 +11591,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10694,6 +11643,11 @@
         "num_locations": 8, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Ruby on Rails", 
+            "Javascript", 
+            "Node.js"
+        ], 
         "subjects": "Node.js, JavaScript", 
         "technologies": [
             "Ruby on Rails", 
@@ -10765,6 +11719,17 @@
         "scholarships": "$1,000 for women, $500...", 
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Express", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Node.js"
+        ], 
         "subjects": "HTML, CSS, Javascript, jQuery, Angular, Node, Express", 
         "technologies": [
             "AngularJS", 
@@ -10863,8 +11828,21 @@
         "num_locations": 9, 
         "su_num_reviews": 82, 
         "su_rating": 4.9, 
+        "su_technologies": "Product Mgmt", 
         "subjects": "Product Management", 
-        "technologies": "Product Mgmt", 
+        "technologies": [
+            "P", 
+            "r", 
+            "o", 
+            "d", 
+            "u", 
+            "c", 
+            "t", 
+            " ", 
+            "M", 
+            "g", 
+            "m"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10899,8 +11877,21 @@
         "num_locations": 3, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Product Mgmt", 
         "subjects": "Software Development Lifecycle, Developing Feature Test Plans, Regression Testing Strategies, Client-Server Relationship, Charles, JIRA, Digesting External Feedback", 
-        "technologies": "Product Mgmt", 
+        "technologies": [
+            "P", 
+            "r", 
+            "o", 
+            "d", 
+            "u", 
+            "c", 
+            "t", 
+            " ", 
+            "M", 
+            "g", 
+            "m"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10924,7 +11915,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -10971,6 +11962,17 @@
         "scholarships": "$1000 Veteran Scholars...", 
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "ASP.NET MVC", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            ".NET", 
+            "SQL"
+        ], 
         "subjects": "HTML, CSS, JavaScript (Including AngularJS and Knockout.js), .NET, C# and SQL.", 
         "technologies": [
             "AngularJS", 
@@ -11017,8 +12019,12 @@
         "num_locations": 7, 
         "su_num_reviews": 23, 
         "su_rating": 4.4, 
+        "su_technologies": "CSS", 
         "subjects": " JavaScript,Node.js, Bootstrap, CSS3, Git, Grunt, HTML5, jade, Jasmine, jQuery, JSON, MongoDB, ", 
-        "technologies": "CSS", 
+        "technologies": [
+            "C", 
+            "S"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11058,6 +12064,12 @@
         "scholarships": "$5000 Rithm Diversity ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "Data Structures", 
+            "Javascript", 
+            "Python"
+        ], 
         "subjects": "JavaScript, Python, ReactJS ", 
         "technologies": [
             "Algorithms", 
@@ -11103,6 +12115,12 @@
         "num_locations": 13, 
         "su_num_reviews": 18, 
         "su_rating": 3.4, 
+        "su_technologies": [
+            "AngularJS", 
+            "Django", 
+            "Javascript", 
+            "Python"
+        ], 
         "subjects": "Python, Django,  Angular.JS,  Javascript", 
         "technologies": [
             "AngularJS", 
@@ -11143,6 +12161,13 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "MySQL", 
+            "PHP"
+        ], 
         "subjects": "HTML, CSS, JavaScript, PHP, MySQL", 
         "technologies": [
             "CSS", 
@@ -11170,8 +12195,9 @@
         "scholarships": "Women in Machine Learn...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Data Integrity, Visualization, Reporting & Analysis, Predictive Modeling, Testing, Surveys, Databases Technologies, Machine Learning, Language & Tools, Project Management, Business Strategy, Communications, Case Studies, Industry Speakers", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11202,8 +12228,21 @@
         "scholarships": "indonesian nationals m...", 
         "su_num_reviews": 5, 
         "su_rating": 4.4, 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "Ruby on Rails, Ruby, dev basics, Postgresql", 
-        "technologies": "Ruby on Rails", 
+        "technologies": [
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11226,8 +12265,9 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11278,6 +12318,12 @@
         "num_locations": 11, 
         "su_num_reviews": 10, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "iOS"
+        ], 
         "subjects": "JavaScript, HTML, CSS, iOS", 
         "technologies": [
             "CSS", 
@@ -11304,8 +12350,9 @@
         "num_locations": 9, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11325,8 +12372,9 @@
         "num_locations": 11, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11364,6 +12412,12 @@
         "num_locations": 11, 
         "su_num_reviews": 5, 
         "su_rating": 1.2, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "jQuery", 
+            "Ruby on Rails"
+        ], 
         "subjects": "HTML, CSS, Ruby, Rails,  jQuery", 
         "technologies": [
             "CSS", 
@@ -11415,6 +12469,15 @@
         "scholarships": "Partnerships with area...", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            ".NET", 
+            "SQL"
+        ], 
         "subjects": ".NET, C#, JavaScript, SQL, HTML, CSS, jQuery plus professional development", 
         "technologies": [
             "C#", 
@@ -11459,8 +12522,13 @@
         "num_locations": 3, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
+        "su_technologies": "NYC", 
         "subjects": "Design", 
-        "technologies": "NYC", 
+        "technologies": [
+            "N", 
+            "Y", 
+            "C"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11506,6 +12574,17 @@
         "scholarships": "Women Coders Scholarship", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Mobile", 
+            "PHP", 
+            "UX", 
+            "Wordpress"
+        ], 
         "subjects": "Web Development, Webmaking, HTMl, CSS, Javascript, PHP, UX, UI", 
         "technologies": [
             "CSS", 
@@ -11551,6 +12630,10 @@
         "num_locations": 5, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Mobile", 
+            "Python"
+        ], 
         "subjects": null, 
         "technologies": [
             "Mobile", 
@@ -11597,6 +12680,15 @@
         "scholarships": "Scholarships are avail...", 
         "su_num_reviews": 5, 
         "su_rating": 4.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Java", 
+            "Node.js", 
+            "SQL"
+        ], 
         "subjects": "Java Programming, JavaScript, HTML5, CSS3, Linux, SQL, Spring", 
         "technologies": [
             "AngularJS", 
@@ -11661,6 +12753,13 @@
         "num_locations": 6, 
         "su_num_reviews": 60, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby on Rails"
+        ], 
         "subjects": "HTML, CSS, Ruby, JavaScript, jQuery, User Experience Design", 
         "technologies": [
             "CSS", 
@@ -11699,8 +12798,22 @@
         "num_locations": 9, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Rolling Dates", 
         "subjects": "HTML5, CSS, Javascript, AngularJS, NodeJS", 
-        "technologies": "Rolling Dates", 
+        "technologies": [
+            "R", 
+            "o", 
+            "l", 
+            "i", 
+            "n", 
+            "g", 
+            " ", 
+            "D", 
+            "a", 
+            "t", 
+            "e", 
+            "s"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11792,6 +12905,13 @@
         "num_locations": 11, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Ruby on Rails", 
+            "Android", 
+            "iOS", 
+            "Java", 
+            "SEO"
+        ], 
         "subjects": "Ruby on Rails, iOS, Android, SEO", 
         "technologies": [
             "Ruby on Rails", 
@@ -11862,6 +12982,18 @@
         "num_locations": 5, 
         "su_num_reviews": 24, 
         "su_rating": 4.8, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
+        ], 
         "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
         "technologies": [
             "AngularJS", 
@@ -11898,8 +13030,9 @@
         "scholarships": "Veterans, Women, Under...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Java (Basic), Software Testing", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11919,8 +13052,9 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -11992,6 +13126,27 @@
         "scholarships": "Partial Scholarships A...", 
         "su_num_reviews": 10, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "Design Principles", 
+            "Digital Marketing", 
+            "Entrepreneurship", 
+            "HTML", 
+            "Illustrator", 
+            "Javascript", 
+            "Mobile", 
+            "Photoshop", 
+            "Product Mgmt", 
+            "Ruby on Rails", 
+            "Sales", 
+            "UX", 
+            "Algorithms", 
+            "Data Structures", 
+            "Git", 
+            "jQuery", 
+            "MySQL", 
+            "PostgreSQL"
+        ], 
         "subjects": " Programming, Design, Product Development, Entrepreneurship, Visual Design, JavaScript, User Experience", 
         "technologies": [
             "CSS", 
@@ -12049,7 +13204,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Entrepreneurship, Lean Startup", 
-        "technologies": "Entrepreneurship", 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -12225,22 +13380,7 @@
         "su_num_reviews": 117, 
         "su_rating": 4.9, 
         "subjects": "Web Design, Web Development, Digital Marketing, Sales & Account Management", 
-        "technologies": [
-            "Ruby on Rails", 
-            "CSS", 
-            "Design Principles", 
-            "HTML", 
-            "UX", 
-            "Javascript", 
-            "jQuery", 
-            "Business", 
-            "Entrepreneurship", 
-            "Sales", 
-            "Digital Marketing", 
-            "Git", 
-            "MongoDB", 
-            "SEO"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -12306,6 +13446,14 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Illustrator", 
+            "Photoshop", 
+            "Ruby on Rails"
+        ], 
         "subjects": "HTML, CSS, JavaScript, Ruby on Rails, iOS, Data Visualisation", 
         "technologies": [
             "CSS", 
@@ -12349,8 +13497,14 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": ".NET", 
         "subjects": ".NET", 
-        "technologies": ".NET", 
+        "technologies": [
+            ".", 
+            "N", 
+            "E", 
+            "T"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -12387,6 +13541,11 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Javascript", 
+            "Mobile", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby, Rails, JavaScript, Mobile", 
         "technologies": [
             "Javascript", 
@@ -12413,7 +13572,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -12467,6 +13626,15 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Express", 
+            "MongoDB", 
+            "Node.js"
+        ], 
         "subjects": "JavaScript, Parse, jQuery, HTML, CSS, Ember.js, Express,js, MongoDB, Node.js", 
         "technologies": [
             "CSS", 
@@ -12527,8 +13695,21 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "Ruby", 
-        "technologies": "Ruby on Rails", 
+        "technologies": [
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -12568,6 +13749,14 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MySQL", 
+            "PHP"
+        ], 
         "subjects": "PHP, HTML, CSS, JavaScript, MySQL, jQuery", 
         "technologies": [
             "CSS", 
@@ -12710,6 +13899,15 @@
         "num_locations": 2, 
         "su_num_reviews": 13, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "SQL", 
+            "Java"
+        ], 
         "subjects": "Full Stack Web Development - Java or .NET, C#, CSS, HTML, Javascript, SQL, VB", 
         "technologies": [
             "C#", 
@@ -12889,6 +14087,20 @@
         "scholarships": "Female Scholarships, R...", 
         "su_num_reviews": 77, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "CSS", 
+            "Entrepreneurship", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby on Rails", 
+            "Design Principles", 
+            "Algorithms", 
+            "Business", 
+            "Digital Marketing", 
+            "Swift", 
+            "UX"
+        ], 
         "subjects": "Ruby on Rails, Domain Modeling, HTTP and \"RESTful\" Design, HTML/CSS, Javascript and AJAX", 
         "technologies": [
             "CSS", 
@@ -12922,8 +14134,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -12988,6 +14201,15 @@
         "num_locations": 3, 
         "su_num_reviews": 2, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "Cocoa", 
+            "Git", 
+            "iOS", 
+            "Mobile", 
+            "Product Mgmt", 
+            "Swift", 
+            "UX"
+        ], 
         "subjects": "iOS app development", 
         "technologies": [
             "Cocoa", 
@@ -13003,6 +14225,28 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.theappacademy.eu"
+    }, 
+    "The Code Path": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-06", 
+        "locations": "San Francisco", 
+        "name": "The Code Path", 
+        "num_alumni": "N/A", 
+        "num_locations": 13, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Android, Mobile", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://thecodepath.com/androidbootcamp"
     }, 
     "The Coded": {
         "average_salary": "N/A", 
@@ -13034,6 +14278,11 @@
         "num_locations": 3, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "Phonegap", 
+            "PHP", 
+            "Ruby on Rails"
+        ], 
         "subjects": " PHP, Ruby, PhoneGap", 
         "technologies": [
             "Phonegap", 
@@ -13060,7 +14309,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Git, C#, ASP.Net", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13091,10 +14340,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": null, 
-        "technologies": [
-            "October 18", 
-            "2016"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13114,8 +14360,9 @@
         "num_locations": 3, 
         "su_num_reviews": 11, 
         "su_rating": 4.9, 
+        "su_technologies": null, 
         "subjects": "Data Science", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13136,8 +14383,9 @@
         "scholarships": "Free 2-Week Introducti...", 
         "su_num_reviews": 17, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": "Web Development using Ruby, Rails, Javascript, HTML, CSS", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13204,6 +14452,18 @@
         "scholarships": "Scholarships available...", 
         "su_num_reviews": 15, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Node.js"
+        ], 
         "subjects": "Full Stack JavaScript, Full Stack Ruby, iOS, HTML/CSS,  Swift, React, Bootcamp Prep", 
         "technologies": [
             "AngularJS", 
@@ -13270,6 +14530,13 @@
         "scholarships": "$2000 for women or $50...", 
         "su_num_reviews": 5, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Android", 
+            "Git", 
+            "Java", 
+            "iOS", 
+            "Swift"
+        ], 
         "subjects": "Android & iOS mobile development", 
         "technologies": [
             "Android", 
@@ -13388,6 +14655,19 @@
         "scholarships": "$1000 Diversity Schola...", 
         "su_num_reviews": 24, 
         "su_rating": 3.7, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Javascript", 
+            "UX", 
+            "Git", 
+            "iOS", 
+            "Mobile", 
+            "Objective-C", 
+            "Swift"
+        ], 
         "subjects": "Ruby on Rails, Ruby, HTML, CSS, Git, JavaScript, Objective-C, iOS, XCode5, Swift", 
         "technologies": [
             "CSS", 
@@ -13427,8 +14707,9 @@
         "scholarships": "Up to $7000 in Need-Ba...", 
         "su_num_reviews": 3, 
         "su_rating": 4.0, 
+        "su_technologies": null, 
         "subjects": "Ruby on Rails, Python, Javascript", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13482,8 +14763,26 @@
         "num_alumni": 120, 
         "num_locations": 2, 
         "scholarships": "Scholarship offered to...", 
-        "su_num_reviews": 60, 
-        "su_rating": 5.0, 
+        "su_num_reviews": 61, 
+        "su_rating": 4.9, 
+        "su_technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Mgmt", 
+            "Python", 
+            "SQL", 
+            "Wordpress"
+        ], 
         "subjects": "C#, Python, HTML5, CSS3, ASP.NET, JavaScript, SQL, .NET, Data Structures, Algorithms, Design Principles, jQuery, mobile development, PHP", 
         "technologies": [
             "Algorithms", 
@@ -13521,8 +14820,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13687,6 +14987,27 @@
         "num_locations": 6, 
         "su_num_reviews": 117, 
         "su_rating": 4.5, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "Git", 
+            "Design Principles", 
+            "Python", 
+            "SQL", 
+            "Ruby on Rails", 
+            "Cocoa", 
+            "Swift", 
+            "AngularJS", 
+            "Ruby", 
+            "Android", 
+            "Data Science", 
+            "UX"
+        ], 
         "subjects": "HTML/CSS, JavaScript, Ruby on Rails, NodeJS, AngularJS, Swift, Python, UX/UI Design, Data Science", 
         "technologies": [
             "Algorithms", 
@@ -13797,6 +15118,27 @@
         "num_locations": 13, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "Express", 
+            "HTML", 
+            "iOS", 
+            "Javascript", 
+            "Mobile", 
+            "Node.js", 
+            "Objective-C", 
+            "Python", 
+            "Swift", 
+            "Design Principles", 
+            "UX", 
+            "Digital Marketing", 
+            "SEO", 
+            "SQL", 
+            "Business", 
+            "Entrepreneurship", 
+            "Sales"
+        ], 
         "subjects": "Business Development, Growth Marketing, Product Design, Engineering", 
         "technologies": [
             "Algorithms", 
@@ -13865,6 +15207,10 @@
         "num_locations": 6, 
         "su_num_reviews": 8, 
         "su_rating": 4.3, 
+        "su_technologies": [
+            "HTML", 
+            "Python"
+        ], 
         "subjects": "HTML,CSS, Ruby", 
         "technologies": [
             "HTML", 
@@ -13888,8 +15234,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 2, 
         "su_rating": 2.8, 
+        "su_technologies": null, 
         "subjects": "Ruby", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13956,6 +15303,10 @@
         "scholarships": "Diversity scholarship ...", 
         "su_num_reviews": 6, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Javascript", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby, JavaScript, Ruby on Rails, Sinatra, HTML, CSS", 
         "technologies": [
             "Javascript", 
@@ -13980,8 +15331,9 @@
         "num_locations": 3, 
         "su_num_reviews": 3, 
         "su_rating": 4.0, 
+        "su_technologies": null, 
         "subjects": "iOS and Android", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14001,7 +15353,7 @@
         "su_num_reviews": 2, 
         "su_rating": 4.0, 
         "subjects": "HTML, CSS, Ruby, Java, PHP, Everything, iOS, SQL", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14094,6 +15446,17 @@
         "scholarships": "Excellent academic rec...", 
         "su_num_reviews": 4, 
         "su_rating": 4.8, 
+        "su_technologies": [
+            "Ruby on Rails", 
+            "AngularJS", 
+            "Java", 
+            "Javascript", 
+            "CSS", 
+            "HTML", 
+            "Algorithms", 
+            "Data Science", 
+            "Mobile"
+        ], 
         "subjects": "Java, Javascript, Angular JS, Spring Boot, RESTful, JSON, Data Analytics, Language R, HTML, CSS, Firebase", 
         "technologies": [
             "Ruby on Rails", 
@@ -14137,6 +15500,11 @@
         "num_locations": 8, 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Data Science", 
+            "Data Structures", 
+            "Python"
+        ], 
         "subjects": "Data Science, Statistics, Business Analytics", 
         "technologies": [
             "Data Science", 
@@ -14189,6 +15557,10 @@
         "num_locations": 6, 
         "su_num_reviews": 3, 
         "su_rating": 3.4, 
+        "su_technologies": [
+            "Python", 
+            "Java"
+        ], 
         "subjects": "HTML & CSS, Javascript, Java, Python", 
         "technologies": [
             "Python", 
@@ -14236,6 +15608,18 @@
         "num_locations": 6, 
         "su_num_reviews": 1, 
         "su_rating": 4.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "Data Science", 
+            "Digital Marketing", 
+            "Entrepreneurship", 
+            "iOS", 
+            "Javascript", 
+            "Python", 
+            "SEO"
+        ], 
         "subjects": "HTML & CSS, Javascript, jQuery, Python, Ruby, PHP", 
         "technologies": [
             "AngularJS", 
@@ -14333,6 +15717,19 @@
         "scholarships": "10-30%", 
         "su_num_reviews": 16, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Express", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "iOS", 
+            "Mobile", 
+            "Swift"
+        ], 
         "subjects": "JavaScript, Angular, Node.js,  iOS, HTML, CC, jQuery, MongoDB, Express, SQL, ", 
         "technologies": [
             "AngularJS", 
@@ -14432,6 +15829,18 @@
         "scholarships": "$1,000 scholarship for...", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "Express", 
+            "HTML", 
+            "Javascript", 
+            "MongoDB", 
+            "Node.js", 
+            "Git", 
+            "iOS", 
+            "Mobile", 
+            "Web Services"
+        ], 
         "subjects": "Node JS, React, React Native, AWS, Docker Containers", 
         "technologies": [
             "CSS", 
@@ -14463,8 +15872,9 @@
         "num_alumni": "N/A", 
         "su_num_reviews": 12, 
         "su_rating": 4.4, 
+        "su_technologies": null, 
         "subjects": "Ruby, Ruby on Rails, Javascript, HTML, CSS, AJAX", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14524,17 +15934,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Network Specialist, Cyber Security, Software Developer, Business Intelligence", 
-        "technologies": [
-            "Algorithms", 
-            "CSS", 
-            "HTML", 
-            "Java", 
-            "Javascript", 
-            "jQuery", 
-            ".NET", 
-            "Python", 
-            "Ruby"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14591,6 +15991,15 @@
         "scholarships": "You will automatically...", 
         "su_num_reviews": 4, 
         "su_rating": 4.7, 
+        "su_technologies": [
+            "C++", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "AngularJS", 
+            "C#"
+        ], 
         "subjects": "Web Development, Windows .NET development, Databases / SQL, Object oriented design and Model-View-Controller design patterns", 
         "technologies": [
             "C++", 
@@ -14711,6 +16120,26 @@
         "scholarships": "Graduate Scholarships ...", 
         "su_num_reviews": 5, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "Algorithms", 
+            "Clojure", 
+            "CSS", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Linux", 
+            "MongoDB", 
+            "MySQL", 
+            "Photoshop", 
+            "PostgreSQL", 
+            "Ruby on Rails", 
+            "SEO", 
+            "Sinatra", 
+            "SQL", 
+            "AngularJS"
+        ], 
         "subjects": "\u2022\tRuby/ OO Programming  \u2022\tSinatra/ Padrino \u2022\tRuby on Rails \u2022\tDatabases & SQL \u2022\tHTML 5 \u2022\tCSS/ SASS \u2022\tNetworking/ HTTP/ WWW \u2022\tJavaScript/ JQuery/ AJax \u2022\tBackbone. js \u2022\tAgile Web Development \u2022\tTest Driven Development \u2022\tGIT", 
         "technologies": [
             "Algorithms", 
@@ -14771,6 +16200,13 @@
         "scholarships": "Diversity scholarships...", 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "Ruby", 
+            "Ruby on Rails"
+        ], 
         "subjects": "Programming(Client + server), HTML5 , CSS3", 
         "technologies": [
             "CSS", 
@@ -14798,8 +16234,9 @@
         "num_locations": 6, 
         "su_num_reviews": null, 
         "su_rating": null, 
+        "su_technologies": null, 
         "subjects": "Front End Dev, Design, HTML, CSS, PHP", 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14819,8 +16256,9 @@
         "num_locations": 5, 
         "su_num_reviews": 11, 
         "su_rating": 5.0, 
+        "su_technologies": null, 
         "subjects": null, 
-        "technologies": null, 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14881,18 +16319,7 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "subjects": "Latin America's First Coding Bootcamp", 
-        "technologies": [
-            "Android", 
-            "CSS", 
-            "Entrepreneurship", 
-            "Git", 
-            "HTML", 
-            "iOS", 
-            "Javascript", 
-            "Mobile", 
-            "Ruby on Rails", 
-            "UX"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14967,6 +16394,18 @@
         "scholarships": "Payment Plans Availabl...", 
         "su_num_reviews": 64, 
         "su_rating": 5.0, 
+        "su_technologies": [
+            "iOS", 
+            "Objective-C", 
+            "Swift", 
+            "Node.js", 
+            "CSS", 
+            "HTML", 
+            "Javascript", 
+            "jQuery", 
+            "Ruby", 
+            "Ruby on Rails"
+        ], 
         "subjects": " Ruby, Ruby on Rails, HTML, CSS, JavaScript, jQuery, Node.js, Objective-C, Swift, Rails", 
         "technologies": [
             "iOS", 
@@ -15024,13 +16463,7 @@
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "subjects": "Java, JavaScript", 
-        "technologies": [
-            "Data Structures", 
-            "Design Principles", 
-            "Git", 
-            "Java", 
-            "Javascript"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -15079,8 +16512,19 @@
         "num_locations": 13, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
+        "su_technologies": "Data Science", 
         "subjects": "Data Science, Data Engineering", 
-        "technologies": "Data Science", 
+        "technologies": [
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -15109,13 +16553,13 @@
             "Tech Elevator", 
             "Girl Develop It"
         ], 
-        "Date/Time": "2016-09-06 17:24:58", 
+        "Date/Time": "2016-09-06 22:34:03", 
         "Days Out": -6, 
         "Detroit": [
             "Girl Develop It", 
             "The Iron Yard"
         ], 
-        "Number of Entries": 264, 
+        "Number of Entries": 265, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
@@ -15246,90 +16690,86 @@
             "Wilmington": 2
         }, 
         "technologies": {
-            ".NET": 19, 
-            "2016": 2, 
+            ".NET": 15, 
             "ASP.NET ": 1, 
             "ASP.NET MVC": 2, 
-            "Algorithms": 40, 
-            "Android": 14, 
-            "AngularJS": 47, 
+            "Algorithms": 36, 
+            "Android": 9, 
+            "AngularJS": 39, 
             "Atlanta": 1, 
             "Austin": 1, 
             "Boston": 1, 
-            "Business": 6, 
+            "Business": 4, 
             "C": 3, 
-            "C#": 17, 
+            "C#": 15, 
             "C++": 4, 
-            "CSS": 104, 
+            "CSS": 86, 
             "Charleston": 1, 
             "Chicago": 1, 
             "Clojure": 4, 
-            "Cocoa": 7, 
-            "CoffeeScript": 7, 
+            "Cocoa": 5, 
+            "CoffeeScript": 6, 
             "Cyber Security": 1, 
             "Data Science": 14, 
-            "Data Structures": 24, 
-            "Design Principles": 23, 
-            "Digital Marketing": 11, 
+            "Data Structures": 21, 
+            "Design Principles": 18, 
+            "Digital Marketing": 8, 
             "Django": 8, 
-            "Drupal": 1, 
-            "Entrepreneurship": 12, 
-            "Express": 21, 
-            "Game Design": 2, 
-            "Git": 54, 
-            "HTML": 111, 
+            "Entrepreneurship": 10, 
+            "Express": 19, 
+            "Game Design": 1, 
+            "Git": 44, 
+            "HTML": 93, 
             "Hadoop": 1, 
-            "Illustrator": 8, 
-            "Java": 19, 
-            "Javascript": 116, 
+            "Illustrator": 5, 
+            "Java": 13, 
+            "Javascript": 97, 
             "Linux": 7, 
             "London": 1, 
             "Los Angeles": 1, 
             "Melbourne": 1, 
-            "Mobile": 19, 
-            "MongoDB": 28, 
-            "MySQL": 23, 
+            "Mobile": 18, 
+            "MongoDB": 23, 
+            "MySQL": 21, 
             "NYC": 2, 
-            "Node.js": 42, 
-            "Objective-C": 17, 
-            "October 18": 1, 
-            "PHP": 15, 
-            "Perl": 2, 
+            "Node.js": 34, 
+            "Objective-C": 12, 
+            "PHP": 14, 
+            "Perl": 1, 
             "Phonegap": 2, 
-            "Photoshop": 10, 
+            "Photoshop": 7, 
             "PostgreSQL": 16, 
-            "Product Mgmt": 6, 
-            "Python": 23, 
-            "R": 10, 
+            "Product Mgmt": 5, 
+            "Python": 21, 
+            "R": 6, 
             "Rolling Dates": 1, 
-            "Ruby": 23, 
-            "Ruby on Rails": 57, 
-            "SEO": 10, 
-            "SQL": 41, 
+            "Ruby": 19, 
+            "Ruby on Rails": 46, 
+            "SEO": 8, 
+            "SQL": 38, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
-            "Sales": 3, 
+            "Sales": 2, 
             "San Francisco": 1, 
             "Scala": 2, 
             "Seattle": 1, 
-            "September 30": 1, 
             "SharePoint \u200b ": 1, 
-            "Sinatra": 8, 
+            "Sinatra": 7, 
             "Spring MVC": 1, 
-            "Swift": 23, 
+            "Swift": 18, 
             "Sydney": 1, 
             "UNIX": 1, 
-            "UX": 33, 
+            "UX": 26, 
             "VB.NET": 1, 
             "WCF": 1, 
             "WPF": 1, 
             "Washington": 1, 
             "Web Services": 2, 
             "Windows Server": 1, 
-            "Wordpress": 7, 
-            "iOS": 28, 
-            "jQuery": 68
+            "Wordpress": 6, 
+            "iOS": 23, 
+            "jQuery": 55
         }
     }
 }
