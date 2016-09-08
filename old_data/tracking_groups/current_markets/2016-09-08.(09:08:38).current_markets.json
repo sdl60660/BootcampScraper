@@ -150,6 +150,96 @@
         ], 
         "website": "https://www.girldevelopit.com/"
     }, 
+    "Software Craftsmanship Guild": {
+        "average_salary": 55000, 
+        "class_ratio": "1 to 12", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Hours/Week": 60, 
+                "Length": "12 weeks", 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Hours/Week": 60, 
+                "Length": "12 weeks", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-07", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "Software Craftsmanship Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 24, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Cleveland"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
     "Tech Elevator": {
         "accreditation": "Tech Elevator is licensed under the Ohio State Board of Career Colleges and Schools. ", 
         "average_salary": "N/A", 
@@ -384,7 +474,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 475, 
+            "followers": 474, 
             "handle": "@Tech_Elevator", 
             "tweets": 1191
         }, 
@@ -536,7 +626,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1514, 
+            "followers": 1512, 
             "handle": "@WeCanCodeIT", 
             "tweets": 1547
         }, 

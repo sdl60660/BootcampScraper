@@ -12,13 +12,13 @@ echo >>logs/scraper_log.txt
 #mkdir old_data/switchup/temp_switchup_files
 rm old_data/switchup/temp_switchup_files/*
 mv current_data/switchup_data.json old_data/switchup/temp_switchup_files/switchup_data.json
-rm current_data/bootcampsin_data.json current_data/coursereport_data.json current_data/output.json
+rm current_data/coursereport_data.json current_data/output.json
 
 #BOOTCAMPSIN SPIDER
-scrapy crawl bootcampsin -o current_data/bootcampsin_data.json -t json &>logs/command_line_outputs/bootcampsin_logs/$current_time.bootcampsin_output.txt
-echo
-output_time=$(date "+%H:%M:%S")
-echo "$output_time: BootcampsIn Spider Finished..."
+#scrapy crawl bootcampsin -o current_data/bootcampsin_data.json -t json &>logs/command_line_outputs/bootcampsin_logs/$current_time.bootcampsin_output.txt
+#echo
+#output_time=$(date "+%H:%M:%S")
+#echo "$output_time: BootcampsIn Spider Finished..."
 
 #SWITCHUP SPIDER
 
@@ -34,11 +34,11 @@ echo $switchup_array
 
 #rm old_data/switchup/temp_switchup_files/merged_switchup_data.json
 touch old_data/switchup/temp_switchup_files/merged_switchup_data.json
-python json_merge.py "${switchup_array[@]}" --output old_data/switchup/temp_switchup_files/merged_switchup_data.json
+python helper_functions/json_merge.py "${switchup_array[@]}" --output old_data/switchup/temp_switchup_files/merged_switchup_data.json
 #merge today's full switchup JSON with yesterday's. This way if only 265/272 are caught, the rest can be filled in with
 #old values. Over time, this should keep everything that's not up-to-date as of today at least only a day or two old.
 touch current_data/switchup_data.json
-python json_merge.py old_data/switchup/temp_switchup_files/switchup_data.json old_data/switchup/temp_switchup_files/merged_switchup_data.json --output current_data/switchup_data.json
+python helper_functions/json_merge.py old_data/switchup/temp_switchup_files/switchup_data.json old_data/switchup/temp_switchup_files/merged_switchup_data.json --output current_data/switchup_data.json
 
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: SwitchUp Spider Finished..."
@@ -49,19 +49,20 @@ scrapy crawl coursereport -o current_data/coursereport_data.json -t json &>logs/
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: CourseReport Spider Finished..."
 
-python cr_clean.py current_data/coursereport_data.json
+python helper_functions/cr_clean.py current_data/coursereport_data.json
 rm current_data/coursereport_data.json
 mv clean_coursereport_data.json current_data/coursereport_data.json
 
 echo
 
 #MERGE JSONS
-python json_merge.py current_data/bootcampsin_data.json current_data/switchup_data.json current_data/coursereport_data.json
+#python helper_functions/json_merge.py current_data/bootcampsin_data.json current_data/switchup_data.json current_data/coursereport_data.json
+python helper_functions/json_merge.py current_data/switchup_data.json current_data/coursereport_data.json
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: Merge Finished..."
 
 #ARCHIVE CURRENT DATA
-cp current_data/bootcampsin_data.json old_data/bootcampsin/$current_time.bootcampsin_data.json
+#cp current_data/bootcampsin_data.json old_data/bootcampsin/$current_time.bootcampsin_data.json
 cp current_data/switchup_data.json old_data/switchup/$current_time.switchup_data.json
 cp current_data/coursereport_data.json old_data/coursereport/$current_time.coursereport_data.json
 
@@ -74,7 +75,7 @@ cp current_data/output.json old_data/full_outputs/$current_time.output.json
 
 #PULL OUT TRACKING GROUP INFO
 rm current_data/tracking_groups/*
-python tgroup_sort.py current_data/output.json
+python helper_functions/tgroup_sort.py current_data/output.json
 
 cp current_data/tracking_groups/current_markets.json old_data/tracking_groups/current_markets/$current_time.current_markets.json
 cp current_data/tracking_groups/potential_markets.json old_data/tracking_groups/potential_markets/$current_time.potential_markets.json
@@ -100,6 +101,10 @@ echo 'META DATA FROM LAST OUTPUT' >>logs/scraper_log.txt
 echo '--------------------------' >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
 python bootcamp_search.py 'meta' >>logs/scraper_log.txt
+echo >>logs/scraper_log.txt
+
+echo 'WARNING: These possible duplicates were found:' >>logs/scraper_log.txt
+python helper_functions/possible_duplicate_search.py current_data/output.json >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
 
 current_time=$(date "+%Y-%m-%d.(%H:%M:%S)")

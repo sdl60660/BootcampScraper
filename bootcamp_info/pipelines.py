@@ -36,11 +36,42 @@ class BootcampInfoPipeline(object):
             return item
 
 class CaughtDuplicateNames(object):
-    #FOUND SO FAR: Software Guild
+    #FOUND SO FAR: Software Guild, HackSchool, Coder's Lab, Northwestern Coding Bootcamp, Gainesville Dev Academy
+    #Helio Training Boocamp, Beach Coders Academy, Make School, Velocity 360, Ada Developers Academy, Founders & Coders
 
     def process_item(self, item, spider):
-        if item['name'] == 'Software  Guild' or item['name'] == 'Software Craftsmanship Guild':
+        if item['name'].title() == 'Software  Guild' or item['name'].title() == 'Software Craftsmanship Guild':
             item['name'] = 'Software Guild'
+
+        if item['name'].title() == 'Hack School' or item['name'].title() == 'Hackschool':
+            item['name'] = 'HackSchool'
+
+        if item['name'].title() == "Coder'S Lab":
+            item['name'] = 'Coders Lab'
+
+        if item['name'].title() == 'Northwestern Coding Boot Camp':
+            item['name'] = 'Northwestern Coding Bootcamp'
+
+        if item['name'].title() == 'Gainsville Dev Academy':
+            item['name'] = 'Gainesville Dev Academy'
+
+        if item['name'].title() == 'Helio Training':
+            item['name'] = 'Helio Training Bootcamp'
+
+        if item['name'].title() == 'Beach Coders':
+            item['name'] = 'Beach Coders Academy'
+
+        if item['name'].title() == 'Makeschool':
+            item['name'] = 'Make School'
+
+        if item['name'].title() == 'Velocity':
+            item['name'] = 'Velocity 360'
+
+        if item['name'].title() == 'Ada':
+            item['name'] = 'Ada Developers Academy'
+
+        if item['name'].title() == 'Founders And Coders':
+            item['name'] = 'Founders & Coders'
         
         return item
 

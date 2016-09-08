@@ -894,7 +894,7 @@
         "tracking_groups": [], 
         "website": "http://base10academy.com"
     }, 
-    "Beach Coders Academy": {
+    "Beach Coders": {
         "average_salary": 65000, 
         "class_ratio": "1:5", 
         "courses": {
@@ -936,7 +936,7 @@
         "locations": [
             "Los Angeles"
         ], 
-        "name": "Beach Coders Academy", 
+        "name": "Beach Coders", 
         "num_alumni": 100, 
         "num_locations": 1, 
         "su_num_reviews": 2, 
@@ -7897,7 +7897,7 @@
         "tracking_groups": [], 
         "website": "https://www.firststepcoding.com/"
     }, 
-    "Founders & Coders": {
+    "Founders And Coders": {
         "average_salary": "N/A", 
         "class_ratio": "1:4", 
         "courses": {
@@ -7924,7 +7924,7 @@
         "locations": [
             "London"
         ], 
-        "name": "Founders & Coders", 
+        "name": "Founders And Coders", 
         "num_alumni": 80, 
         "num_locations": 1, 
         "scholarships": "100% scholarship for a...", 
@@ -8052,7 +8052,7 @@
         "tracking_groups": [], 
         "website": "http://www.fullstackacademy.com/"
     }, 
-    "Gainesville Dev Academy": {
+    "Gainsville Dev Academy": {
         "average_salary": 50000, 
         "class_ratio": "1:15", 
         "courses": {
@@ -8091,7 +8091,7 @@
         "locations": [
             "Gainesville"
         ], 
-        "name": "Gainesville Dev Academy", 
+        "name": "Gainsville Dev Academy", 
         "num_alumni": 35, 
         "num_locations": 1, 
         "scholarships": "Limited scholarships, ...", 
@@ -9270,6 +9270,86 @@
                     "Swift"
                 ], 
                 "Title": "\"Summer in the City\"   Batch-3, Berlin"
+            }, 
+            "Silicon Beach Costa Rica": {
+                "Class Size": 30, 
+                "Cost": 4450, 
+                "Hours/Week": 40, 
+                "Length": "9 weeks", 
+                "Location": [
+                    "San Jose"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Android", 
+                    "AngularJS", 
+                    "C#", 
+                    "C++", 
+                    "Clojure", 
+                    "CoffeeScript", 
+                    "CSS", 
+                    "Data Science", 
+                    "Data Structures", 
+                    "Django", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "iOS", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Mobile", 
+                    "MongoDB", 
+                    ".NET", 
+                    "Node.js", 
+                    "Objective-C", 
+                    "PostgreSQL", 
+                    "Python", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "Scala", 
+                    "SQL", 
+                    "Swift"
+                ], 
+                "Title": "Silicon Beach Costa Rica"
+            }, 
+            "Summer In The City Batch-3, Berlin": {
+                "Class Size": null, 
+                "Cost": 2450, 
+                "Hours/Week": 36, 
+                "Length": "9 weeks", 
+                "Location": [
+                    "Berlin"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Algorithms", 
+                    "Android", 
+                    "AngularJS", 
+                    "C++", 
+                    "Clojure", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Git", 
+                    "HTML", 
+                    "iOS", 
+                    "Java", 
+                    "Javascript", 
+                    "MongoDB", 
+                    "Node.js", 
+                    "Objective-C", 
+                    "PostgreSQL", 
+                    "Python", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "Scala", 
+                    "SQL", 
+                    "Swift", 
+                    "Swift"
+                ], 
+                "Title": "Summer in the City Batch-3, Berlin"
             }
         }, 
         "general_cost": "$", 
@@ -9482,7 +9562,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": null, 
-        "name": "HackSchool", 
+        "name": "Hackschool", 
         "num_alumni": "N/A", 
         "su_num_reviews": null, 
         "su_rating": null, 
@@ -10811,91 +10891,6 @@
         "tracking_groups": [], 
         "website": "http://www.logicroom.co/"
     }, 
-    "Make School": {
-        "average_salary": "N/A", 
-        "class_ratio": "1:6", 
-        "courses": {
-            "Gap Year": {
-                "Class Size": 50, 
-                "Cost": 30000, 
-                "Hours/Week": 40, 
-                "Length": "48 weeks", 
-                "Location": [
-                    "San Francisco"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "Git", 
-                    "HTML", 
-                    "iOS", 
-                    "Objective-C", 
-                    "Ruby on Rails", 
-                    "Swift", 
-                    "UX"
-                ], 
-                "Title": "Gap Year"
-            }, 
-            "Summer Academy": {
-                "Class Size": 250, 
-                "Cost": 6000, 
-                "Hours/Week": 40, 
-                "Length": "8 weeks", 
-                "Location": [
-                    "NYC", 
-                    "San Francisco", 
-                    "San Francisco"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Git", 
-                    "iOS", 
-                    "Objective-C", 
-                    "Swift"
-                ], 
-                "Title": "Summer Academy"
-            }
-        }, 
-        "general_cost": "$$$$", 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "NYC", 
-            "San Francisco"
-        ], 
-        "name": "Make School", 
-        "num_alumni": 500, 
-        "num_locations": 2, 
-        "scholarships": "Need-based scholarships", 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "su_technologies": [
-            "Git", 
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "CSS", 
-            "HTML", 
-            "Ruby on Rails", 
-            "UX"
-        ], 
-        "subjects": "Objective-C, Swift, iOS, Git, Ruby on Rails, CSS, HTML", 
-        "technologies": [
-            "Git", 
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "CSS", 
-            "HTML", 
-            "Ruby on Rails", 
-            "UX"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "https://www.makeschool.com/"
-    }, 
     "Makers Academy": {
         "average_salary": 30000, 
         "class_ratio": "1:10", 
@@ -11065,6 +11060,91 @@
         ], 
         "tracking_groups": [], 
         "website": "http://makersquare.com"
+    }, 
+    "Makeschool": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:6", 
+        "courses": {
+            "Gap Year": {
+                "Class Size": 50, 
+                "Cost": 30000, 
+                "Hours/Week": 40, 
+                "Length": "48 weeks", 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Git", 
+                    "HTML", 
+                    "iOS", 
+                    "Objective-C", 
+                    "Ruby on Rails", 
+                    "Swift", 
+                    "UX"
+                ], 
+                "Title": "Gap Year"
+            }, 
+            "Summer Academy": {
+                "Class Size": 250, 
+                "Cost": 6000, 
+                "Hours/Week": 40, 
+                "Length": "8 weeks", 
+                "Location": [
+                    "NYC", 
+                    "San Francisco", 
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Git", 
+                    "iOS", 
+                    "Objective-C", 
+                    "Swift"
+                ], 
+                "Title": "Summer Academy"
+            }
+        }, 
+        "general_cost": "$$$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "NYC", 
+            "San Francisco"
+        ], 
+        "name": "Makeschool", 
+        "num_alumni": 500, 
+        "num_locations": 2, 
+        "scholarships": "Need-based scholarships", 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Git", 
+            "iOS", 
+            "Objective-C", 
+            "Swift", 
+            "CSS", 
+            "HTML", 
+            "Ruby on Rails", 
+            "UX"
+        ], 
+        "subjects": "Objective-C, Swift, iOS, Git, Ruby on Rails, CSS, HTML", 
+        "technologies": [
+            "Git", 
+            "iOS", 
+            "Objective-C", 
+            "Swift", 
+            "CSS", 
+            "HTML", 
+            "Ruby on Rails", 
+            "UX"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://www.makeschool.com/"
     }, 
     "Marcademy": {
         "average_salary": "N/A", 
@@ -13671,6 +13751,96 @@
         ], 
         "tracking_groups": [], 
         "website": "http://smartfactory.com/"
+    }, 
+    "Software Craftsmanship Guild": {
+        "average_salary": 55000, 
+        "class_ratio": "1 to 12", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Hours/Week": 60, 
+                "Length": "12 weeks", 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Hours/Week": 60, 
+                "Length": "12 weeks", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-07", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "Software Craftsmanship Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 24, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Javascript", 
+            ".NET", 
+            "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Cleveland"
+        ], 
+        "website": "http://www.swcguild.com"
     }, 
     "Software Guild": {
         "average_salary": 55000, 
@@ -17479,8 +17649,9 @@
         ], 
         "Cleveland": [
             "Software Guild", 
-            "Tech Elevator", 
             "We Can Code It", 
+            "Software Craftsmanship Guild", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
         "Columbus": [
@@ -17489,12 +17660,13 @@
         ], 
         "Current Market": [
             "Software Guild", 
-            "Tech Elevator", 
             "We Can Code It", 
+            "Software Craftsmanship Guild", 
+            "Tech Elevator", 
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 10:30:40", 
+        "Date/Time": "2016-09-08 09:15:14", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17505,19 +17677,19 @@
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 268, 
+        "Number of Entries": 269, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
             "Brainstation", 
-            "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Become A Developer Bootcamp ( Net)", 
+            "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
-            "Cincy Code It", 
+            "Intensive Android Bootcamp", 
+            "Become A Developer Bootcamp ( Net)", 
             "Become A Developer Bootcamp (Java)", 
             "Software Tester Bootcamp", 
             "Girl Develop It", 
@@ -17533,7 +17705,7 @@
         ], 
         "locations": {
             " Guadalajara": 1, 
-            "Akron": 1, 
+            "Akron": 2, 
             "Albuquerque": 3, 
             "Allendale": 1, 
             "Amsterdam": 2, 
@@ -17569,7 +17741,7 @@
             "Chelmsford": 1, 
             "Chicago": 20, 
             "Cincinnati": 3, 
-            "Cleveland": 4, 
+            "Cleveland": 5, 
             "Columbus": 2, 
             "Copenhagen": 1, 
             "Cork": 1, 
@@ -17603,7 +17775,7 @@
             "Lisbon": 1, 
             "London": 14, 
             "Los Angeles": 15, 
-            "Louisville": 2, 
+            "Louisville": 3, 
             "Madison": 1, 
             "Madrid": 2, 
             "Medellin": 1, 
@@ -17612,7 +17784,7 @@
             "Miami": 5, 
             "Milan": 1, 
             "Milwaukee": 3, 
-            "Minneapolis": 5, 
+            "Minneapolis": 6, 
             "Montreal": 1, 
             "NYC": 25, 
             "Nairobi": 1, 
@@ -17622,7 +17794,7 @@
             "Newark": 1, 
             "Oakland": 1, 
             "Omaha": 2, 
-            "Online": 29, 
+            "Online": 30, 
             "Orange County": 4, 
             "Orlando": 1, 
             "Ottowa": 1, 
@@ -17664,13 +17836,13 @@
             "Woodside": 1
         }, 
         "technologies": {
-            ".NET": 19, 
+            ".NET": 20, 
             "2016": 2, 
             "ASP.NET ": 1, 
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
             "Android": 14, 
-            "AngularJS": 48, 
+            "AngularJS": 49, 
             "Atlanta": 1, 
             "Austin": 1, 
             "Boston": 1, 
@@ -17678,7 +17850,7 @@
             "C": 3, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 104, 
+            "CSS": 105, 
             "Charleston": 1, 
             "Chicago": 1, 
             "Clojure": 4, 
@@ -17686,7 +17858,7 @@
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
             "Data Science": 14, 
-            "Data Structures": 24, 
+            "Data Structures": 25, 
             "Design Principles": 23, 
             "Digital Marketing": 11, 
             "Django": 8, 
@@ -17695,18 +17867,18 @@
             "Express": 22, 
             "Game Design": 2, 
             "Git": 54, 
-            "HTML": 111, 
+            "HTML": 112, 
             "Hadoop": 1, 
             "Illustrator": 8, 
-            "Java": 19, 
-            "Javascript": 117, 
+            "Java": 20, 
+            "Javascript": 118, 
             "Linux": 7, 
             "London": 1, 
             "Los Angeles": 1, 
             "Melbourne": 1, 
             "Mobile": 19, 
             "MongoDB": 29, 
-            "MySQL": 23, 
+            "MySQL": 24, 
             "NYC": 2, 
             "Node.js": 43, 
             "Objective-C": 17, 
@@ -17723,7 +17895,7 @@
             "Ruby": 23, 
             "Ruby on Rails": 57, 
             "SEO": 10, 
-            "SQL": 41, 
+            "SQL": 42, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
@@ -17747,7 +17919,7 @@
             "Windows Server": 1, 
             "Wordpress": 7, 
             "iOS": 28, 
-            "jQuery": 68
+            "jQuery": 69
         }
     }
 }
