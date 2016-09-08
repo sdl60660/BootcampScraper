@@ -117,4 +117,7 @@ echo
 echo "Done!"
 echo
 
+osascript -e 'display notification "Bootcamp scraper has finished!" with title "Bootcamp Scraper"'
+
+
 
