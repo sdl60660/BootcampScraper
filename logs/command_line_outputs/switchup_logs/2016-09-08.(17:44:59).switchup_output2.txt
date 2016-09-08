@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site.py", line 67, in <module>
+    import os
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/os.py", line 400, in <module>
+    import UserDict
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/UserDict.py", line 83, in <module>
+    import _abcoll
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/_abcoll.py", line 365, in <module>
+    class Mapping(Sized, Iterable, Container):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/abc.py", line 90, in __new__
+    for name, value in namespace.items()
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/abc.py", line 91, in <genexpr>
+    if getattr(value, "__isabstractmethod__", False))
+KeyboardInterrupt

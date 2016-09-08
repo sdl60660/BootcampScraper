@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/bin/scrapy", line 7, in <module>
+    from scrapy.cmdline import execute
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/__init__.py", line 27, in <module>
+    from . import _monkeypatches
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/scrapy/_monkeypatches.py", line 20, in <module>
+    import twisted.persisted.styles  # NOQA
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/twisted/__init__.py", line 55, in <module>
+    _checkRequirements()
+  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site-packages/twisted/__init__.py", line 42, in _checkRequirements
+    raise ImportError(required + ".")
+ImportError: Twisted requires zope.interface 3.6.0 or later.

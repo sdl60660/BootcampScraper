@@ -23,7 +23,7 @@ rm current_data/coursereport_data.json current_data/output.json
 #SWITCHUP SPIDER
 
 switchup_array=()
-for i in `seq 1 5`;
+for i in `seq 1 2`;
 do
 	index=($i - 1)
 	switchup_array[$index]="old_data/switchup/temp_switchup_files/switchup_data$i.json"
@@ -37,8 +37,21 @@ touch old_data/switchup/temp_switchup_files/merged_switchup_data.json
 python helper_functions/json_merge.py "${switchup_array[@]}" --output old_data/switchup/temp_switchup_files/merged_switchup_data.json
 #merge today's full switchup JSON with yesterday's. This way if only 265/272 are caught, the rest can be filled in with
 #old values. Over time, this should keep everything that's not up-to-date as of today at least only a day or two old.
-touch current_data/switchup_data.json
 python helper_functions/json_merge.py old_data/switchup/temp_switchup_files/switchup_data.json old_data/switchup/temp_switchup_files/merged_switchup_data.json --output current_data/switchup_data.json
+
+#If anything in this process fails for any reason and there is no switchup_data file left in current_data, we need to move
+#the old one back so that the full script is repeatable without having to move around swtichup_data files
+if [ -s current_data/switchup_data.json ]
+then
+	:
+else
+	mv old_data/switchup/temp_switchup_files/switchup_data.json current_data/switchup_data.json
+	echo >>logs/scraper_log.txt
+	echo "WARNING: THERE WAS AN ERROR WITH THE SWITCHUP DATA MERGE, MOVING OLD SWITCHUP FILE BACK TO 'CURRENT_DATA'" >>logs/scraper_log.txt
+	echo
+	echo "WARNING: THERE WAS AN ERROR WITH THE SWITCHUP DATA MERGE, MOVING OLD SWITCHUP FILE BACK TO 'CURRENT_DATA'"
+fi
+
 
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: SwitchUp Spider Finished..."
