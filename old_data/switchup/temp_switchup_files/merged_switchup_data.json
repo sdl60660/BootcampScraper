@@ -32,7 +32,7 @@
                 "Class Size": 10, 
                 "Cost": 5950, 
                 "Hours/Week": 25, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Miami"
                 ], 
@@ -155,7 +155,7 @@
                 "Class Size": 17, 
                 "Cost": 12500, 
                 "Hours/Week": 21, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "Chicago", 
                     "NYC", 
@@ -221,7 +221,7 @@
                 "Class Size": 24, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "52 weeks", 
+                "Length": 52, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -387,7 +387,7 @@
                 "Class Size": 15, 
                 "Cost": 1999, 
                 "Hours/Week": 10, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Austin", 
                     "Chicago", 
@@ -412,7 +412,7 @@
                 "Class Size": 40, 
                 "Cost": 16000, 
                 "Hours/Week": 80, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC", 
                     "San Francisco"
@@ -437,7 +437,7 @@
                 "Class Size": 20, 
                 "Cost": 15000, 
                 "Hours/Week": 20, 
-                "Length": "32 weeks", 
+                "Length": 32, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -657,7 +657,7 @@
                 "Class Size": 10, 
                 "Cost": 2490, 
                 "Hours/Week": 15, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Austin"
                 ], 
@@ -676,7 +676,7 @@
                 "Class Size": 15, 
                 "Cost": 2490, 
                 "Hours/Week": 15, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Austin"
                 ], 
@@ -693,7 +693,7 @@
                 "Class Size": 20, 
                 "Cost": 2490, 
                 "Hours/Week": 15, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Austin"
                 ], 
@@ -752,7 +752,7 @@
             "Web Developer Bootcamp": {
                 "Cost": 9500, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Lexington"
                 ], 
@@ -807,7 +807,7 @@
                 "Class Size": 12, 
                 "Cost": 6000, 
                 "Hours/Week": 50, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -902,7 +902,7 @@
                 "Class Size": 10, 
                 "Cost": 1777, 
                 "Hours/Week": 15, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -919,7 +919,7 @@
                 "Class Size": 10, 
                 "Cost": 1997, 
                 "Hours/Week": 15, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -1026,7 +1026,7 @@
                 "Class Size": 15, 
                 "Cost": 3400, 
                 "Hours/Week": 12, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Washington"
                 ], 
@@ -1042,7 +1042,7 @@
                 "Class Size": 15, 
                 "Cost": 3000, 
                 "Hours/Week": 12, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Washington"
                 ], 
@@ -1123,7 +1123,7 @@
             "Advanced Android": {
                 "Cost": 3800, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -1137,7 +1137,7 @@
                 "Class Size": null, 
                 "Cost": 4200, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Atlanta"
                 ], 
@@ -1152,7 +1152,7 @@
                 "Class Size": null, 
                 "Cost": 4200, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Atlanta"
                 ], 
@@ -1166,7 +1166,7 @@
                 "Class Size": null, 
                 "Cost": 5200, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Atlanta", 
                     "San Francisco"
@@ -1182,7 +1182,7 @@
                 "Class Size": null, 
                 "Cost": 3700, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Atlanta"
                 ], 
@@ -1195,7 +1195,7 @@
             "Ios Fast Track With Swift": {
                 "Cost": 4500, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -1209,7 +1209,7 @@
             "Ios With Swift For The Enterprise": {
                 "Cost": 5800, 
                 "Hours/Week": 56, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -1224,7 +1224,7 @@
                 "Class Size": null, 
                 "Cost": 3700, 
                 "Hours/Week": null, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Atlanta"
                 ], 
@@ -1297,7 +1297,7 @@
             "Ad Optimization": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1310,7 +1310,7 @@
             "Front-End Web Development": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1326,7 +1326,7 @@
             "Introduction To Rails": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1340,7 +1340,7 @@
             "Mobile Development (Immersive)": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1355,7 +1355,7 @@
             "User Experience Design": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1370,7 +1370,7 @@
             "Web Development (Immersive)": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1445,7 +1445,7 @@
             "Android Development": {
                 "Class Size": 1, 
                 "Hours/Week": 25, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Android", 
@@ -1457,7 +1457,7 @@
             "Frontend Web Development": {
                 "Class Size": 1, 
                 "Hours/Week": 25, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "AngularJS", 
@@ -1471,7 +1471,7 @@
             "Ios Development": {
                 "Class Size": 1, 
                 "Hours/Week": 25, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Git", 
@@ -1485,7 +1485,7 @@
                 "Class Size": 1, 
                 "Cost": 4999, 
                 "Hours/Week": 25, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "San Francisco", 
                     "San Francisco"
@@ -1502,7 +1502,7 @@
             "Ux Design": {
                 "Class Size": 1, 
                 "Hours/Week": 25, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Illustrator", 
@@ -1515,7 +1515,7 @@
             "Web Developer Track": {
                 "Class Size": 1, 
                 "Hours/Week": 25, 
-                "Length": "36 weeks", 
+                "Length": 36, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "AngularJS", 
@@ -1615,7 +1615,7 @@
             "Evening Web Development Course": {
                 "Cost": 3200, 
                 "Hours/Week": 15, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Boise"
                 ], 
@@ -1671,7 +1671,7 @@
                 "Class Size": 10, 
                 "Cost": 1399, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1685,7 +1685,7 @@
                 "Class Size": 10, 
                 "Cost": 1099, 
                 "Hours/Week": 12, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1699,7 +1699,7 @@
                 "Class Size": 20, 
                 "Cost": 279, 
                 "Hours/Week": 8, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1713,7 +1713,7 @@
                 "Class Size": 20, 
                 "Cost": 625, 
                 "Hours/Week": 16, 
-                "Length": "2 weeks", 
+                "Length": 2, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1727,7 +1727,7 @@
                 "Class Size": 10, 
                 "Cost": 1199, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1741,7 +1741,7 @@
                 "Class Size": 10, 
                 "Cost": 1249, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1755,7 +1755,7 @@
                 "Class Size": 10, 
                 "Cost": 1299, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1769,7 +1769,7 @@
                 "Class Size": 10, 
                 "Cost": 1099, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1825,7 +1825,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1841,7 +1841,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1857,7 +1857,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -1874,7 +1874,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -1890,7 +1890,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1905,7 +1905,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -1921,7 +1921,7 @@
                 "Class Size": 20, 
                 "Cost": 8000, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1938,7 +1938,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1953,7 +1953,7 @@
                 "Class Size": 30, 
                 "Cost": 8000, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -2045,7 +2045,7 @@
                 "Class Size": 10, 
                 "Cost": 10000, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC"
                 ], 
@@ -2063,7 +2063,7 @@
                 "Class Size": 10, 
                 "Cost": 10000, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC"
                 ], 
@@ -2081,7 +2081,7 @@
             "Part-Time Data Sciences Bootcamp": {
                 "Cost": 10000, 
                 "Hours/Week": 25, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "NYC"
                 ], 
@@ -2098,7 +2098,7 @@
             "Part-Time Fintech Bootcamp": {
                 "Cost": 10000, 
                 "Hours/Week": 25, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "NYC"
                 ], 
@@ -2115,7 +2115,7 @@
             "Part-Time Full Stack Python Bootcamp": {
                 "Cost": 10000, 
                 "Hours/Week": 25, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "N/A"
                 ], 
@@ -2179,7 +2179,7 @@
                 "Class Size": 8, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Bali"
                 ], 
@@ -2236,7 +2236,7 @@
                 "Class Size": null, 
                 "Cost": 680, 
                 "Hours/Week": 10, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Online"
                 ], 
@@ -2249,7 +2249,7 @@
             "Web Development": {
                 "Class Size": null, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
@@ -2370,7 +2370,7 @@
                 "Class Size": 6, 
                 "Cost": 15000, 
                 "Hours/Week": 40, 
-                "Length": "39 weeks", 
+                "Length": 39, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2465,7 +2465,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2479,7 +2479,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 3, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2493,7 +2493,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 3, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2509,7 +2509,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 4, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2524,7 +2524,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 6, 
-                "Length": "11 weeks", 
+                "Length": 11, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2538,7 +2538,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 4, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2553,7 +2553,7 @@
                 "Class Size": 16, 
                 "Cost": 2000, 
                 "Hours/Week": 4, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -2614,7 +2614,7 @@
                 "Class Size": 20, 
                 "Cost": 0, 
                 "Hours/Week": 32, 
-                "Length": "2 weeks", 
+                "Length": 2, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -2628,7 +2628,7 @@
                 "Class Size": 15, 
                 "Cost": 0, 
                 "Hours/Week": 23, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -2705,7 +2705,7 @@
                 "Class Size": 50, 
                 "Cost": 99, 
                 "Hours/Week": 12, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Portland"
                 ], 
@@ -2721,7 +2721,7 @@
                 "Class Size": 50, 
                 "Cost": 99, 
                 "Hours/Week": 12, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2737,7 +2737,7 @@
                 "Class Size": 40, 
                 "Cost": 3500, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Portland"
                 ], 
@@ -2754,7 +2754,7 @@
                 "Class Size": 40, 
                 "Cost": 3500, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2772,7 +2772,7 @@
                 "Class Size": 40, 
                 "Cost": 3500, 
                 "Hours/Week": 20, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Portland"
                 ], 
@@ -2789,7 +2789,7 @@
                 "Class Size": 40, 
                 "Cost": 3500, 
                 "Hours/Week": 20, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2806,7 +2806,7 @@
                 "Class Size": 30, 
                 "Cost": 4500, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Portland"
                 ], 
@@ -2826,7 +2826,7 @@
                 "Class Size": 40, 
                 "Cost": 4500, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2845,7 +2845,7 @@
                 "Class Size": 40, 
                 "Cost": 4500, 
                 "Hours/Week": 20, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2864,7 +2864,7 @@
                 "Class Size": 30, 
                 "Cost": 12000, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2882,7 +2882,7 @@
                 "Class Size": 30, 
                 "Cost": 12000, 
                 "Hours/Week": 20, 
-                "Length": "20 weeks", 
+                "Length": 20, 
                 "Location": [
                     "Portland"
                 ], 
@@ -2901,7 +2901,7 @@
                 "Class Size": 30, 
                 "Cost": 12000, 
                 "Hours/Week": 20, 
-                "Length": "20 weeks", 
+                "Length": 20, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2920,7 +2920,7 @@
                 "Class Size": 30, 
                 "Cost": 12000, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -2935,7 +2935,7 @@
                 "Class Size": 30, 
                 "Cost": 12000, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Seattle"
                 ], 
@@ -3087,7 +3087,7 @@
                 "Class Size": null, 
                 "Cost": 3000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -3105,7 +3105,7 @@
                 "Class Size": null, 
                 "Cost": 3000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -3119,7 +3119,7 @@
                 "Class Size": null, 
                 "Cost": 1500, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -3134,7 +3134,7 @@
                 "Class Size": null, 
                 "Cost": 3000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -3217,7 +3217,7 @@
             "Html & Css ": {
                 "Cost": 0, 
                 "Hours/Week": 7, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -3231,7 +3231,7 @@
             "Javascript": {
                 "Cost": 0, 
                 "Hours/Week": 10, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -3323,7 +3323,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3337,7 +3337,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3352,7 +3352,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3366,7 +3366,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "N/A"
                 ], 
@@ -3380,7 +3380,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3394,7 +3394,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3408,7 +3408,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3422,7 +3422,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3436,7 +3436,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3450,7 +3450,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3464,7 +3464,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3478,7 +3478,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3492,7 +3492,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3506,7 +3506,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3520,7 +3520,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3534,7 +3534,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3549,7 +3549,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3566,7 +3566,7 @@
                 "Class Size": null, 
                 "Cost": 125, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3580,7 +3580,7 @@
                 "Class Size": null, 
                 "Cost": 250, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Charleston"
                 ], 
@@ -3676,7 +3676,7 @@
                 "Class Size": 20, 
                 "Cost": 7600, 
                 "Hours/Week": 60, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Vancouver"
                 ], 
@@ -3700,7 +3700,7 @@
                 "Class Size": 20, 
                 "Cost": 750, 
                 "Hours/Week": 20, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Vancouver"
                 ], 
@@ -3772,7 +3772,7 @@
                 "Class Size": 20, 
                 "Cost": 9500, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -3804,7 +3804,7 @@
                 "Class Size": 20, 
                 "Cost": 9500, 
                 "Hours/Week": 20, 
-                "Length": "20 weeks", 
+                "Length": 20, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -3827,7 +3827,7 @@
                 "Class Size": 20, 
                 "Cost": 9500, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -3897,7 +3897,7 @@
                 "Class Size": 12, 
                 "Cost": 6500, 
                 "Hours/Week": 40, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Honolulu", 
                     "San Francisco"
@@ -3959,7 +3959,7 @@
                 "Class Size": 10, 
                 "Cost": 9900, 
                 "Hours/Week": 40, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -4060,7 +4060,7 @@
                 "Class Size": 10, 
                 "Cost": 3000, 
                 "Hours/Week": 50, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Online"
                 ], 
@@ -4077,7 +4077,7 @@
                 "Class Size": 10, 
                 "Cost": 14220, 
                 "Hours/Week": 80, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Chicago", 
                     "Houston", 
@@ -4098,7 +4098,7 @@
                 "Class Size": 10, 
                 "Cost": 14220, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Dallas"
                 ], 
@@ -4112,7 +4112,7 @@
                 "Class Size": 10, 
                 "Cost": 14220, 
                 "Hours/Week": 80, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Houston", 
                     "Online", 
@@ -4195,7 +4195,7 @@
             "Application Development": {
                 "Class Size": null, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "N/A", 
                 "Subjects": [
                     "Rolling Dates"
@@ -4205,7 +4205,7 @@
             "Beginner": {
                 "Class Size": null, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "N/A", 
                 "Subjects": [
                     "Rolling Dates"
@@ -4254,7 +4254,7 @@
                 "Class Size": 15, 
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "Greensboro"
                 ], 
@@ -4276,7 +4276,7 @@
                 "Class Size": 15, 
                 "Cost": 9900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Charlotte", 
                     "Greensboro"
@@ -4366,7 +4366,7 @@
                 "Class Size": null, 
                 "Cost": 9980, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Austin"
                 ], 
@@ -4462,7 +4462,7 @@
                 "Class Size": null, 
                 "Cost": 10200, 
                 "Hours/Week": null, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Warsaw"
                 ], 
@@ -4549,7 +4549,7 @@
                 "Class Size": 15, 
                 "Cost": 8000, 
                 "Hours/Week": 40, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "Online"
                 ], 
@@ -4567,7 +4567,7 @@
                 "Class Size": 1, 
                 "Cost": 15000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Online"
                 ], 
@@ -4585,7 +4585,7 @@
                 "Class Size": 30, 
                 "Cost": 199, 
                 "Hours/Week": 4, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Online"
                 ], 
@@ -4636,7 +4636,7 @@
             "Javascript Best Practices ": {
                 "Cost": 0, 
                 "Hours/Week": 1, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -4649,7 +4649,7 @@
             "Try Ios": {
                 "Cost": 0, 
                 "Hours/Week": 10, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -4694,7 +4694,7 @@
                 "Class Size": 20, 
                 "Cost": 0, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -4777,7 +4777,7 @@
                 "Class Size": 12, 
                 "Cost": 9875, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Antonio"
                 ], 
@@ -4830,7 +4830,7 @@
                 "Class Size": 20, 
                 "Cost": 9800, 
                 "Hours/Week": 66, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -4971,7 +4971,7 @@
         "courses": {
             "Online Bootcamp": {
                 "Hours/Week": 25, 
-                "Length": "20 weeks", 
+                "Length": 20, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "AngularJS", 
@@ -4995,7 +4995,7 @@
                 "Class Size": 25, 
                 "Cost": 13995, 
                 "Hours/Week": 65, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Chicago", 
                     "Dallas", 
@@ -5103,7 +5103,7 @@
                 "Class Size": 10, 
                 "Cost": 0, 
                 "Hours/Week": 72, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Woodside"
                 ], 
@@ -5155,7 +5155,7 @@
             "C# Asp.Net 12 Week Course": {
                 "Class Size": 12, 
                 "Hours/Week": 30, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "C#", 
@@ -5234,7 +5234,7 @@
                 "Class Size": 8, 
                 "Cost": 9000, 
                 "Hours/Week": 20, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Atlanta"
                 ], 
@@ -5294,7 +5294,7 @@
             "Learn Mean (Full Stack Web Development)": {
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Las Cruses"
                 ], 
@@ -5436,7 +5436,7 @@
                 "Class Size": 15, 
                 "Cost": 5995, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Albuquerque"
                 ], 
@@ -5515,7 +5515,7 @@
                 "Class Size": null, 
                 "Cost": 197, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Online"
                 ], 
@@ -5583,7 +5583,7 @@
                 "Class Size": 12, 
                 "Cost": 11800, 
                 "Hours/Week": 70, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -5650,7 +5650,7 @@
             "Design 101": {
                 "Cost": 299, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Online"
                 ], 
@@ -5666,7 +5666,7 @@
             "Ux Research & Strategy": {
                 "Cost": 299, 
                 "Hours/Week": 10, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Online"
                 ], 
@@ -5680,7 +5680,7 @@
             "Ux: Interaction Design": {
                 "Cost": 299, 
                 "Hours/Week": 10, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Online"
                 ], 
@@ -5730,7 +5730,7 @@
                 "Class Size": null, 
                 "Cost": 11000, 
                 "Hours/Week": null, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Wellington"
                 ], 
@@ -5783,7 +5783,7 @@
                 "Class Size": 18, 
                 "Cost": 13950, 
                 "Hours/Week": 80, 
-                "Length": "19 weeks", 
+                "Length": 19, 
                 "Location": [
                     "Chicago", 
                     "NYC", 
@@ -5859,7 +5859,7 @@
                 "Class Size": 20, 
                 "Cost": 10500, 
                 "Hours/Week": 66, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Honolulu"
                 ], 
@@ -5883,7 +5883,7 @@
                 "Class Size": 20, 
                 "Cost": 10500, 
                 "Hours/Week": 19, 
-                "Length": "26 weeks", 
+                "Length": 26, 
                 "Location": [
                     "Honolulu"
                 ], 
@@ -5955,7 +5955,7 @@
             "Ios Development \"After Hours\"": {
                 "Cost": 4500, 
                 "Hours/Week": 25, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Provo", 
                     "Salt Lake City"
@@ -5974,7 +5974,7 @@
             "Ios Development \"Immersive\"": {
                 "Cost": 10500, 
                 "Hours/Week": 60, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Salt Lake City"
                 ], 
@@ -5993,7 +5993,7 @@
                 "Class Size": 20, 
                 "Cost": 4500, 
                 "Hours/Week": 20, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Dallas", 
                     "Salt Lake City"
@@ -6013,7 +6013,7 @@
             "Web Development \"Immersive\"": {
                 "Cost": 10500, 
                 "Hours/Week": 60, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Provo"
                 ], 
@@ -6098,7 +6098,7 @@
                 "Class Size": 20, 
                 "Cost": 0, 
                 "Hours/Week": 50, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Iowa City"
                 ], 
@@ -6170,7 +6170,7 @@
             "Software Development": {
                 "Cost": 14987, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Milwaukee"
                 ], 
@@ -6267,7 +6267,7 @@
                 "Class Size": null, 
                 "Cost": 4090, 
                 "Hours/Week": 40, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6286,7 +6286,7 @@
             "Linux System Administrator Bootcamp": {
                 "Cost": 4090, 
                 "Hours/Week": 40, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6305,7 +6305,7 @@
             "Master Java Developer Bootcamp": {
                 "Cost": 6690, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6325,7 +6325,7 @@
             "Master Sql Server Developer Bootcamp": {
                 "Cost": 7790, 
                 "Hours/Week": 40, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6346,7 +6346,7 @@
             "Master System Administrator Bootcamp": {
                 "Cost": 8890, 
                 "Hours/Week": 40, 
-                "Length": "7 weeks", 
+                "Length": 7, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6367,7 +6367,7 @@
             "Microsoft .Net Developer Bootcamp": {
                 "Cost": 7790, 
                 "Hours/Week": 40, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6392,7 +6392,7 @@
             "Mobile Application Developer Bootcamp": {
                 "Cost": 5490, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6413,7 +6413,7 @@
             "Sharepoint Deployment Specialist Bootcamp": {
                 "Cost": 4090, 
                 "Hours/Week": 40, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6432,7 +6432,7 @@
             "Sql Server Administrator Bootcamp": {
                 "Cost": 3590, 
                 "Hours/Week": 40, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6451,7 +6451,7 @@
             "Sql Server Business Intelligence Developer Bootcamp": {
                 "Cost": 5490, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6471,7 +6471,7 @@
             "Unix Software Developer Bootcamp": {
                 "Cost": 5490, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6492,7 +6492,7 @@
             "Web Developer Bootcamp": {
                 "Cost": 6690, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6517,7 +6517,7 @@
             "Windows System Administrator Bootcamp": {
                 "Cost": 5490, 
                 "Hours/Week": 40, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Chelmsford", 
                     "Chicago", 
@@ -6626,7 +6626,7 @@
                 "Class Size": 18, 
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "11 weeks", 
+                "Length": 11, 
                 "Location": [
                     "Las Vegas", 
                     "Salt Lake City"
@@ -6645,7 +6645,7 @@
                 "Class Size": 18, 
                 "Cost": 8500, 
                 "Hours/Week": 40, 
-                "Length": "11 weeks", 
+                "Length": 11, 
                 "Location": [
                     "Las Vegas", 
                     "Salt Lake City"
@@ -6712,7 +6712,7 @@
             "Full-Stack Web Development Bootcamp": {
                 "Class Size": 25, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Start Date": "N/A", 
                 "Subjects": [
                     "September 30", 
@@ -6877,7 +6877,7 @@
                 "Class Size": 20, 
                 "Cost": 3950, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Allendale"
                 ], 
@@ -6996,7 +6996,7 @@
             "16 Week Immersive Bootcamp": {
                 "Cost": 12950, 
                 "Hours/Week": 50, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Atlanta", 
                     "Houston"
@@ -7020,7 +7020,7 @@
             "16 Week Immersive Bootcamp + User Experience Elective": {
                 "Cost": 13950, 
                 "Hours/Week": 50, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Atlanta"
                 ], 
@@ -7121,7 +7121,7 @@
                 "Class Size": null, 
                 "Cost": 7000, 
                 "Hours/Week": null, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Provo"
                 ], 
@@ -7191,7 +7191,7 @@
                 "Class Size": 20, 
                 "Cost": 2500, 
                 "Hours/Week": 70, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Honolulu", 
                     "Indianapolis"
@@ -7207,7 +7207,7 @@
                 "Class Size": 20, 
                 "Cost": 2500, 
                 "Hours/Week": 9, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7221,7 +7221,7 @@
                 "Class Size": 20, 
                 "Cost": 400, 
                 "Hours/Week": 16, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7237,7 +7237,7 @@
                 "Class Size": 20, 
                 "Cost": 2500, 
                 "Hours/Week": 50, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7251,7 +7251,7 @@
                 "Class Size": 20, 
                 "Cost": 11500, 
                 "Hours/Week": 50, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7269,7 +7269,7 @@
                 "Class Size": 20, 
                 "Cost": 2500, 
                 "Hours/Week": 50, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7284,7 +7284,7 @@
                 "Class Size": 20, 
                 "Cost": 11500, 
                 "Hours/Week": 50, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7301,7 +7301,7 @@
                 "Class Size": 20, 
                 "Cost": 2500, 
                 "Hours/Week": 70, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Indianapolis"
                 ], 
@@ -7368,7 +7368,7 @@
                 "Class Size": 10, 
                 "Cost": 2000, 
                 "Hours/Week": 40, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Brussels"
                 ], 
@@ -7390,7 +7390,7 @@
                 "Class Size": 10, 
                 "Cost": 2000, 
                 "Hours/Week": 40, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Brussels"
                 ], 
@@ -7472,7 +7472,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland", 
                     "Seattle"
@@ -7487,7 +7487,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland"
                 ], 
@@ -7501,7 +7501,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland", 
                     "Seattle"
@@ -7516,7 +7516,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland"
                 ], 
@@ -7530,7 +7530,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland"
                 ], 
@@ -7544,7 +7544,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Philadelphia", 
                     "Portland"
@@ -7559,7 +7559,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Philadelphia", 
                     "Portland", 
@@ -7579,7 +7579,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland"
                 ], 
@@ -7593,7 +7593,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Philadelphia", 
                     "Portland", 
@@ -7609,7 +7609,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Philadelphia", 
                     "Portland"
@@ -7624,7 +7624,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland"
                 ], 
@@ -7638,7 +7638,7 @@
                 "Class Size": 30, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Portland"
                 ], 
@@ -7735,7 +7735,7 @@
                 "Class Size": 16, 
                 "Cost": 10000, 
                 "Hours/Week": 18, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "N/A"
                 ], 
@@ -7783,7 +7783,7 @@
                 "Class Size": null, 
                 "Cost": 5000, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Melbourne", 
                     "Sydney", 
@@ -7802,7 +7802,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Sydney", 
                     "Washington"
@@ -7820,7 +7820,7 @@
                 "Class Size": null, 
                 "Cost": 6000, 
                 "Hours/Week": null, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Sydney"
                 ], 
@@ -7901,7 +7901,7 @@
                 "Class Size": 16, 
                 "Cost": 0, 
                 "Hours/Week": 50, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "London"
                 ], 
@@ -7997,7 +7997,7 @@
                 "Class Size": 20, 
                 "Cost": 12500, 
                 "Hours/Week": 50, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "NYC"
                 ], 
@@ -8056,7 +8056,7 @@
                 "Class Size": 15, 
                 "Cost": 7000, 
                 "Hours/Week": 30, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "N/A"
                 ], 
@@ -8070,7 +8070,7 @@
                 "Class Size": 15, 
                 "Cost": 7000, 
                 "Hours/Week": 30, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "N/A"
                 ], 
@@ -8119,7 +8119,7 @@
                 "Class Size": 25, 
                 "Cost": 16000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Denver", 
                     "San Francisco", 
@@ -8135,7 +8135,7 @@
                 "Class Size": 26, 
                 "Cost": 21000, 
                 "Hours/Week": 40, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "Boulder", 
                     "Denver", 
@@ -8155,7 +8155,7 @@
             "Galvanizeu": {
                 "Cost": 48000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -8320,7 +8320,7 @@
                 "Class Size": 20, 
                 "Cost": 3500, 
                 "Hours/Week": 6, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "N/A"
                 ], 
@@ -8345,7 +8345,7 @@
                 "Class Size": 25, 
                 "Cost": 3500, 
                 "Hours/Week": 6, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8371,7 +8371,7 @@
                 "Class Size": 20, 
                 "Cost": 4000, 
                 "Hours/Week": 6, 
-                "Length": "11 weeks", 
+                "Length": 11, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8394,7 +8394,7 @@
                 "Class Size": 25, 
                 "Cost": 3500, 
                 "Hours/Week": 6, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8421,7 +8421,7 @@
                 "Class Size": 20, 
                 "Cost": 3500, 
                 "Hours/Week": 6, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8448,7 +8448,7 @@
                 "Class Size": 25, 
                 "Cost": 4750, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8473,7 +8473,7 @@
                 "Class Size": 20, 
                 "Cost": 3250, 
                 "Hours/Week": 6, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8497,7 +8497,7 @@
             "Product Management Immersive": {
                 "Class Size": 20, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Product Mgmt"
@@ -8508,7 +8508,7 @@
                 "Class Size": 25, 
                 "Cost": 9500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8533,7 +8533,7 @@
                 "Class Size": 20, 
                 "Cost": 2800, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "N/A"
                 ], 
@@ -8558,7 +8558,7 @@
                 "Class Size": 20, 
                 "Cost": 11500, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Atlanta", 
                     "Austin", 
@@ -8820,7 +8820,7 @@
             "Front-End Bootcamp": {
                 "Cost": 7500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -8837,7 +8837,7 @@
             "Front-End Bootcamp (Javascript)": {
                 "Cost": 7500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -8854,7 +8854,7 @@
             "Front-End Bootcamp (Part-Time)": {
                 "Cost": 7500, 
                 "Hours/Week": 20, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -8871,7 +8871,7 @@
             "Intro To Web Development Part 1: Html + Css": {
                 "Cost": 495, 
                 "Hours/Week": 4, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -8885,7 +8885,7 @@
             "Intro To Web Development Part 2: Javascript + Jquery": {
                 "Cost": 1495, 
                 "Hours/Week": 4, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -8899,7 +8899,7 @@
             "Java Bootcamp": {
                 "Cost": 7500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -8962,7 +8962,7 @@
                 "Class Size": 10, 
                 "Cost": 10000, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Hong Kong"
                 ], 
@@ -9033,7 +9033,7 @@
                 "Class Size": 32, 
                 "Cost": 17780, 
                 "Hours/Week": 80, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -9084,7 +9084,7 @@
                 "Class Size": null, 
                 "Cost": 16570, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -9191,7 +9191,7 @@
                 "Class Size": 30, 
                 "Cost": 4450, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "San Jose"
                 ], 
@@ -9234,7 +9234,7 @@
                 "Class Size": null, 
                 "Cost": 2450, 
                 "Hours/Week": 36, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Berlin"
                 ], 
@@ -9360,7 +9360,7 @@
                 "Class Size": 25, 
                 "Cost": 7000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -9378,7 +9378,7 @@
                 "Class Size": 30, 
                 "Cost": 1600, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -9392,7 +9392,7 @@
                 "Class Size": 30, 
                 "Cost": 2300, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -9407,7 +9407,7 @@
                 "Class Size": 30, 
                 "Cost": 1400, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -9422,7 +9422,7 @@
                 "Class Size": 30, 
                 "Cost": 2300, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -9520,7 +9520,7 @@
                 "Class Size": 15, 
                 "Cost": 7000, 
                 "Hours/Week": 40, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Salt Lake City"
                 ], 
@@ -9542,7 +9542,7 @@
                 "Class Size": 15, 
                 "Cost": 4500, 
                 "Hours/Week": 20, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Salt Lake City"
                 ], 
@@ -9632,7 +9632,7 @@
                 "Class Size": 35, 
                 "Cost": 13000, 
                 "Hours/Week": 60, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Boston", 
                     "Philadelphia", 
@@ -9760,7 +9760,7 @@
             "The 8 Week Evening Intensive": {
                 "Cost": 4600, 
                 "Hours/Week": 8, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Silicon Valley"
                 ], 
@@ -9826,7 +9826,7 @@
                 "Class Size": 15, 
                 "Cost": 4250, 
                 "Hours/Week": 5, 
-                "Length": "7 weeks", 
+                "Length": 7, 
                 "Location": [
                     "Denver"
                 ], 
@@ -9840,7 +9840,7 @@
                 "Class Size": 15, 
                 "Cost": 4250, 
                 "Hours/Week": 5, 
-                "Length": "7 weeks", 
+                "Length": 7, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -9889,7 +9889,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "NYC", 
                     "Silicon Valley"
@@ -9969,7 +9969,7 @@
                 "Class Size": 20, 
                 "Cost": 10000, 
                 "Hours/Week": 55, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Barcelona", 
                     "Madrid", 
@@ -9988,7 +9988,7 @@
                 "Class Size": 20, 
                 "Cost": 10000, 
                 "Hours/Week": 55, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Barcelona", 
                     "Madrid", 
@@ -10080,7 +10080,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Bangalore"
                 ], 
@@ -10165,7 +10165,7 @@
                 "Class Size": null, 
                 "Cost": 2749, 
                 "Hours/Week": null, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "San Francisco", 
                     "Seattle"
@@ -10210,7 +10210,7 @@
                 "Class Size": 40, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Boston"
                 ], 
@@ -10232,7 +10232,7 @@
             }, 
             "Online Intensive": {
                 "Hours/Week": 20, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Start Date": "N/A", 
                 "Subjects": [
                     "Rolling Dates"
@@ -10324,7 +10324,7 @@
                 "Class Size": 20, 
                 "Cost": 0, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Amsterdam", 
                     "Barcelona", 
@@ -10416,7 +10416,7 @@
                 "Class Size": 20, 
                 "Cost": 11000, 
                 "Hours/Week": 40, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "San Diego"
                 ], 
@@ -10434,7 +10434,7 @@
                 "Class Size": 20, 
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "San Diego"
                 ], 
@@ -10514,7 +10514,7 @@
                 "Class Size": 10, 
                 "Cost": 195, 
                 "Hours/Week": 7, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -10529,7 +10529,7 @@
                 "Class Size": 20, 
                 "Cost": 10000, 
                 "Hours/Week": 70, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -10621,7 +10621,7 @@
                 "Class Size": 20, 
                 "Cost": 1500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -10638,7 +10638,7 @@
                 "Class Size": 20, 
                 "Cost": 1500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -10656,7 +10656,7 @@
                 "Class Size": 20, 
                 "Cost": 9000, 
                 "Hours/Week": 80, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -10674,7 +10674,7 @@
                 "Class Size": 20, 
                 "Cost": 9000, 
                 "Hours/Week": 80, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -10744,7 +10744,7 @@
                 "Class Size": 10, 
                 "Cost": 5000, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "London"
                 ], 
@@ -10761,7 +10761,7 @@
                 "Class Size": 10, 
                 "Cost": 2000, 
                 "Hours/Week": 20, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "London"
                 ], 
@@ -10813,7 +10813,7 @@
                 "Class Size": 50, 
                 "Cost": 30000, 
                 "Hours/Week": 40, 
-                "Length": "48 weeks", 
+                "Length": 48, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -10834,7 +10834,7 @@
                 "Class Size": 250, 
                 "Cost": 6000, 
                 "Hours/Week": 40, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "NYC", 
                     "San Francisco", 
@@ -10898,7 +10898,7 @@
                 "Class Size": 25, 
                 "Cost": 11675, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "London"
                 ], 
@@ -10969,7 +10969,7 @@
                 "Class Size": 15, 
                 "Cost": 750, 
                 "Hours/Week": 16, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Austin", 
                     "Los Angeles", 
@@ -10986,7 +10986,7 @@
                 "Class Size": 20, 
                 "Cost": 16920, 
                 "Hours/Week": 66, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Austin", 
                     "Los Angeles", 
@@ -11091,7 +11091,7 @@
             "Digital Marketing Course": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Provo", 
                     "Salt Lake City"
@@ -11146,7 +11146,7 @@
                 "Class Size": 20, 
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "NYC"
                 ], 
@@ -11160,7 +11160,7 @@
                 "Class Size": 15, 
                 "Cost": 0, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -11174,7 +11174,7 @@
                 "Class Size": 22, 
                 "Cost": 15500, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC", 
                     "San Francisco"
@@ -11189,7 +11189,7 @@
                 "Class Size": 15, 
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "NYC"
                 ], 
@@ -11204,7 +11204,7 @@
             "Explore Data Science: Online Training": {
                 "Cost": 99, 
                 "Hours/Week": 5, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Online"
                 ], 
@@ -11218,7 +11218,7 @@
                 "Class Size": 15, 
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "NYC"
                 ], 
@@ -11232,7 +11232,7 @@
                 "Class Size": 15, 
                 "Cost": 0, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -11282,7 +11282,7 @@
                 "Class Size": null, 
                 "Cost": 5000, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Omaha"
                 ], 
@@ -11333,7 +11333,7 @@
                 "Class Size": 15, 
                 "Cost": 9000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -11350,7 +11350,7 @@
                 "Class Size": null, 
                 "Cost": 5000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Online"
                 ], 
@@ -11367,7 +11367,7 @@
                 "Class Size": 15, 
                 "Cost": 11000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -11468,7 +11468,7 @@
                 "Class Size": 24, 
                 "Cost": 10500, 
                 "Hours/Week": 40, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Location": [
                     "Nashville"
                 ], 
@@ -11538,7 +11538,7 @@
                 "Class Size": null, 
                 "Cost": 2000, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11555,7 +11555,7 @@
                 "Class Size": 20, 
                 "Cost": 2000, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11573,7 +11573,7 @@
                 "Class Size": 20, 
                 "Cost": 4000, 
                 "Hours/Week": 3, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11589,7 +11589,7 @@
                 "Class Size": 20, 
                 "Cost": 2000, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11605,7 +11605,7 @@
                 "Class Size": 20, 
                 "Cost": 5000, 
                 "Hours/Week": 35, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11623,7 +11623,7 @@
                 "Class Size": 20, 
                 "Cost": 2000, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11639,7 +11639,7 @@
                 "Class Size": 20, 
                 "Cost": 3500, 
                 "Hours/Week": 6, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11658,7 +11658,7 @@
                 "Class Size": 20, 
                 "Cost": 10000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Los Angeles", 
                     "NYC"
@@ -11728,7 +11728,7 @@
                 "Class Size": 25, 
                 "Cost": 2250, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Kuala Lumpur", 
                     "San Francisco", 
@@ -11752,7 +11752,7 @@
                 "Class Size": 20, 
                 "Cost": 2530, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Kuala Lumpur"
                 ], 
@@ -11876,7 +11876,7 @@
                 "Class Size": 16, 
                 "Cost": 7500, 
                 "Hours/Week": 70, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Omaha"
                 ], 
@@ -11984,7 +11984,7 @@
             "12 Week Full-Stack Immersive Code Bootcamp": {
                 "Cost": 15000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -12078,7 +12078,7 @@
                 "Class Size": 22, 
                 "Cost": 3300, 
                 "Hours/Week": 20, 
-                "Length": "16 weeks", 
+                "Length": 16, 
                 "Location": [
                     "Portland"
                 ], 
@@ -12099,7 +12099,7 @@
                 "Class Size": 22, 
                 "Cost": 3300, 
                 "Hours/Week": 35, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Portland"
                 ], 
@@ -12164,7 +12164,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
+                "Length": 5, 
                 "Location": [
                     "Philadelphia"
                 ], 
@@ -12222,7 +12222,7 @@
                 "Class Size": 15, 
                 "Cost": 4899, 
                 "Hours/Week": 21, 
-                "Length": "11 weeks", 
+                "Length": 11, 
                 "Location": [
                     "Sydney"
                 ], 
@@ -12289,7 +12289,7 @@
                 "Class Size": 20, 
                 "Cost": 6000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Portland"
                 ], 
@@ -12304,7 +12304,7 @@
                 "Class Size": null, 
                 "Cost": 3500, 
                 "Hours/Week": 7, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Portland"
                 ], 
@@ -12351,7 +12351,7 @@
                 "Class Size": 20, 
                 "Cost": 12500, 
                 "Hours/Week": 60, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -12373,7 +12373,7 @@
                 "Class Size": 20, 
                 "Cost": 12500, 
                 "Hours/Week": 60, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -12441,7 +12441,7 @@
                 "Class Size": 12, 
                 "Cost": 3500, 
                 "Hours/Week": 5, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -12455,7 +12455,7 @@
                 "Class Size": 12, 
                 "Cost": 3500, 
                 "Hours/Week": 5, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "NYC"
                 ], 
@@ -12469,7 +12469,7 @@
                 "Class Size": 12, 
                 "Cost": 3500, 
                 "Hours/Week": 5, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -12483,7 +12483,7 @@
                 "Class Size": 12, 
                 "Cost": 3500, 
                 "Hours/Week": 5, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Silicon Valley"
                 ], 
@@ -12542,7 +12542,7 @@
                 "Class Size": 10, 
                 "Cost": 7995, 
                 "Hours/Week": 12, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "NYC"
                 ], 
@@ -12621,7 +12621,7 @@
                 "Class Size": 18, 
                 "Cost": 12500, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -12689,7 +12689,7 @@
                 "Class Size": 24, 
                 "Cost": 13500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -12731,7 +12731,7 @@
                 "Class Size": 8, 
                 "Cost": 24000, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -12807,7 +12807,7 @@
                 "Class Size": 20, 
                 "Cost": 12500, 
                 "Hours/Week": 48, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco", 
                     "San Francisco"
@@ -12859,7 +12859,7 @@
             "Full Stack Web Development ": {
                 "Class Size": 20, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
@@ -12929,7 +12929,7 @@
             "Ruby Newbie / Casually Impressive - January 2015": {
                 "Class Size": 10, 
                 "Hours/Week": 70, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Ruby on Rails"
@@ -13000,7 +13000,7 @@
                 "Class Size": null, 
                 "Cost": 13000, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -13016,7 +13016,7 @@
                 "Class Size": null, 
                 "Cost": 3000, 
                 "Hours/Week": null, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -13113,7 +13113,7 @@
                 "Class Size": null, 
                 "Cost": 10500, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Los Angeles"
                 ], 
@@ -13165,7 +13165,7 @@
                 "Class Size": 25, 
                 "Cost": 6000, 
                 "Hours/Week": 60, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Denver"
                 ], 
@@ -13228,7 +13228,7 @@
                 "Class Size": null, 
                 "Cost": 12950, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "N/A"
                 ], 
@@ -13383,7 +13383,7 @@
                 "Class Size": 20, 
                 "Cost": 16000, 
                 "Hours/Week": 45, 
-                "Length": "19 weeks", 
+                "Length": 19, 
                 "Location": [
                     "Denver"
                 ], 
@@ -13447,7 +13447,7 @@
                 "Class Size": null, 
                 "Cost": 399, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -13463,7 +13463,7 @@
                 "Class Size": null, 
                 "Cost": 399, 
                 "Hours/Week": null, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -13517,7 +13517,7 @@
             "Web Development 9 Weeks Bootcamp With Javascript": {
                 "Class Size": 10, 
                 "Hours/Week": 45, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Start Date": "N/A", 
                 "Subjects": [
                     "Rolling Dates"
@@ -13566,7 +13566,7 @@
                 "Class Size": null, 
                 "Cost": 1500, 
                 "Hours/Week": null, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -13581,7 +13581,7 @@
                 "Class Size": null, 
                 "Cost": 1500, 
                 "Hours/Week": null, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -13595,7 +13595,7 @@
                 "Class Size": null, 
                 "Cost": 1500, 
                 "Hours/Week": null, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -13609,7 +13609,7 @@
                 "Class Size": null, 
                 "Cost": 1500, 
                 "Hours/Week": null, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -13623,7 +13623,7 @@
                 "Class Size": null, 
                 "Cost": 399, 
                 "Hours/Week": null, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Minneapolis"
                 ], 
@@ -13666,97 +13666,6 @@
         "tracking_groups": [], 
         "website": "http://smartfactory.com/"
     }, 
-    "Software Guild": {
-        "average_salary": 55000, 
-        "class_ratio": "1 to 12", 
-        "courses": {
-            ".Net Web Developer Bootcamp": {
-                "Class Size": 16, 
-                "Cost": 10000, 
-                "Hours/Week": 60, 
-                "Length": "12 weeks", 
-                "Location": [
-                    "Akron"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Data Structures", 
-                    "HTML", 
-                    "Javascript", 
-                    ".NET", 
-                    "SQL"
-                ], 
-                "Title": ".NET Web Developer Bootcamp"
-            }, 
-            "Java Web Developer Bootcamp": {
-                "Class Size": 16, 
-                "Hours/Week": 60, 
-                "Length": "12 weeks", 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "Data Structures", 
-                    "HTML", 
-                    "Java", 
-                    "Javascript", 
-                    "jQuery", 
-                    "MySQL"
-                ], 
-                "Title": "Java Web Developer Bootcamp"
-            }
-        }, 
-        "general_cost": "$$", 
-        "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Akron", 
-            "Louisville", 
-            "Minneapolis", 
-            "Cleveland", 
-            "Online"
-        ], 
-        "name": "Software Guild", 
-        "num_alumni": "N/A", 
-        "num_locations": 5, 
-        "su_num_reviews": 24, 
-        "su_rating": 4.8, 
-        "su_technologies": [
-            "AngularJS", 
-            "CSS", 
-            "Data Structures", 
-            "HTML", 
-            "JavaScript", 
-            ".NET", 
-            "SQL", 
-            "Java", 
-            "jQuery", 
-            "MySQL"
-        ], 
-        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
-        "technologies": [
-            "AngularJS", 
-            "CSS", 
-            "Data Structures", 
-            "HTML", 
-            "JavaScript", 
-            ".NET", 
-            "SQL", 
-            "Java", 
-            "jQuery", 
-            "MySQL"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [
-            "Java/.NET", 
-            "Current Market", 
-            "Cleveland"
-        ], 
-        "website": "http://www.swcguild.com"
-    }, 
     "Software Tester Bootcamp": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -13785,6 +13694,30 @@
         ], 
         "website": "http://www.grandcircus.co"
     }, 
+    "Spiced Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Berlin"
+        ], 
+        "name": "Spiced Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://spiced-academy.com/"
+    }, 
     "Starter League": {
         "average_salary": 70000, 
         "class_ratio": "1 to 12", 
@@ -13793,7 +13726,7 @@
                 "Class Size": 25, 
                 "Cost": 36000, 
                 "Hours/Week": 60, 
-                "Length": "27 weeks", 
+                "Length": 27, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -13819,7 +13752,7 @@
                 "Class Size": 25, 
                 "Cost": 8000, 
                 "Hours/Week": 40, 
-                "Length": "11 weeks", 
+                "Length": 11, 
                 "Location": [
                     "Chicago"
                 ], 
@@ -13909,7 +13842,7 @@
                 "Class Size": 30, 
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "13 weeks", 
+                "Length": 13, 
                 "Location": [
                     "Provo"
                 ], 
@@ -13959,7 +13892,7 @@
                 "Class Size": 40, 
                 "Cost": 7500, 
                 "Hours/Week": 60, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Berlin", 
                     "Boston", 
@@ -13979,7 +13912,7 @@
                 "Class Size": 40, 
                 "Cost": 7500, 
                 "Hours/Week": 60, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Berlin", 
                     "Boston", 
@@ -14020,7 +13953,7 @@
                 "Class Size": 40, 
                 "Cost": 7500, 
                 "Hours/Week": 60, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Berlin", 
                     "Boston", 
@@ -14040,7 +13973,7 @@
                 "Class Size": 10, 
                 "Cost": 1000, 
                 "Hours/Week": 2, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Boston", 
                     "Chicago", 
@@ -14056,7 +13989,7 @@
                 "Class Size": 10, 
                 "Cost": 1000, 
                 "Hours/Week": 2, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Boston", 
                     "Chicago", 
@@ -14073,7 +14006,7 @@
                 "Class Size": 10, 
                 "Cost": 750, 
                 "Hours/Week": 2, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Boston", 
                     "Chicago", 
@@ -14090,7 +14023,7 @@
                 "Class Size": 10, 
                 "Cost": 1000, 
                 "Hours/Week": 2, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Boston", 
                     "Chicago", 
@@ -14166,7 +14099,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "London"
                 ], 
@@ -14182,7 +14115,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "London"
                 ], 
@@ -14196,7 +14129,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "London"
                 ], 
@@ -14250,7 +14183,7 @@
                 "Class Size": null, 
                 "Cost": 6200, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "London"
                 ], 
@@ -14294,7 +14227,7 @@
                 "Class Size": null, 
                 "Cost": 9000, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Sydney"
                 ], 
@@ -14367,7 +14300,7 @@
                 "Class Size": 1, 
                 "Cost": 4500, 
                 "Hours/Week": 15, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -14384,7 +14317,7 @@
                 "Class Size": 1, 
                 "Cost": 4500, 
                 "Hours/Week": 15, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -14440,7 +14373,7 @@
             "Build Production Quality Applications": {
                 "Class Size": null, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Ruby on Rails"
@@ -14450,7 +14383,7 @@
             "Introduction To Ruby And Web Development": {
                 "Class Size": null, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Ruby on Rails"
@@ -14460,7 +14393,7 @@
             "Rapid Prototyping With Ruby On Rails": {
                 "Class Size": null, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Ruby on Rails"
@@ -14508,7 +14441,7 @@
                 "Class Size": 20, 
                 "Cost": 5900, 
                 "Hours/Week": 40, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Boston"
                 ], 
@@ -14565,7 +14498,7 @@
             ".Net Bootcamp - Fall '16 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -14583,7 +14516,7 @@
             ".Net Bootcamp - Spring '17 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Akron", 
                     "Cleveland"
@@ -14602,7 +14535,7 @@
             "Java Bootcamp - Fall '16 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -14619,7 +14552,7 @@
             "Java Bootcamp - Spring '17 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -14636,7 +14569,7 @@
             "Java/.Net Bootcamp - Fall '16 Columbus": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Akron", 
                     "Columbus"
@@ -14655,7 +14588,7 @@
             "Java/.Net Bootcamp - Spring '17 Columbus": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland", 
                     "Columbus"
@@ -14721,7 +14654,7 @@
             "Full-Time Code Immersion Program": {
                 "Cost": 6750, 
                 "Hours/Week": 20, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Asheville", 
                     "Atlanta", 
@@ -14745,7 +14678,7 @@
             "Intro To Website Design & Creation": {
                 "Cost": 2250, 
                 "Hours/Week": 8, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Atlanta", 
                     "Charlotte", 
@@ -14765,7 +14698,7 @@
             "Ios Development": {
                 "Cost": 3250, 
                 "Hours/Week": 10, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Atlanta", 
                     "Charlotte", 
@@ -14782,7 +14715,7 @@
             "Javascript 101": {
                 "Cost": 1850, 
                 "Hours/Week": 5, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Atlanta", 
                     "Charlotte"
@@ -14797,7 +14730,7 @@
             "Next Level Rails": {
                 "Cost": 3200, 
                 "Hours/Week": 8, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Atlanta", 
                     "Charlotte", 
@@ -14815,7 +14748,7 @@
             "Part-Time Code Immersion Program": {
                 "Cost": 4750, 
                 "Hours/Week": 10, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Asheville", 
                     "Atlanta", 
@@ -14839,7 +14772,7 @@
             "Startup Primer": {
                 "Cost": 3250, 
                 "Hours/Week": 9, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Charlotte"
                 ], 
@@ -14937,7 +14870,7 @@
                 "Class Size": 12, 
                 "Cost": 12500, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Amsterdam"
                 ], 
@@ -14957,7 +14890,7 @@
                 "Class Size": 20, 
                 "Cost": 12500, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Cork"
                 ], 
@@ -15044,7 +14977,7 @@
                 "Class Size": null, 
                 "Cost": 2450, 
                 "Hours/Week": 6, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "NYC"
                 ], 
@@ -15220,7 +15153,7 @@
                 "Class Size": 30, 
                 "Cost": 15000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC"
                 ], 
@@ -15291,7 +15224,7 @@
                 "Class Size": 12, 
                 "Cost": 11900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Dallas"
                 ], 
@@ -15307,7 +15240,7 @@
                 "Class Size": 12, 
                 "Cost": 11900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Dallas"
                 ], 
@@ -15360,7 +15293,7 @@
             "Back End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Greenville"
                 ], 
@@ -15376,7 +15309,7 @@
             "Front End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Charleston", 
                     "Cincinnati", 
@@ -15395,11 +15328,11 @@
             "Mobile Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
-                    "Charleston"
+                    "Houston"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "2016-09-26", 
                 "Subjects": [
                     "Git", 
                     "iOS", 
@@ -15413,7 +15346,7 @@
             "Ui Design": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Raleigh"
                 ], 
@@ -15521,6 +15454,96 @@
         "tracking_groups": [], 
         "website": "http://www.recurse.com/"
     }, 
+    "The Software Guild": {
+        "average_salary": 55000, 
+        "class_ratio": "1 to 12", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "The Software Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 24, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Cleveland"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
     "The Tech Academy": {
         "average_salary": 60000, 
         "class_ratio": "1:20", 
@@ -15529,7 +15552,7 @@
                 "Class Size": 150, 
                 "Cost": 6980, 
                 "Hours/Week": 40, 
-                "Length": "15 weeks", 
+                "Length": 15, 
                 "Location": [
                     "Online", 
                     "Portland"
@@ -15643,7 +15666,7 @@
             "Android Programming In Java": {
                 "Cost": 1500, 
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -15655,7 +15678,7 @@
             }, 
             "Backend Development In Node.Js": {
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Node.js"
@@ -15665,7 +15688,7 @@
             "Data Science In Python": {
                 "Cost": 1500, 
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -15678,7 +15701,7 @@
             }, 
             "Flexible Web Development Bootcamp": {
                 "Hours/Week": 20, 
-                "Length": "24 weeks", 
+                "Length": 24, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Algorithms", 
@@ -15693,7 +15716,7 @@
             }, 
             "Frontend Web Development": {
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
@@ -15708,7 +15731,7 @@
             "Full Time Web Development Bootcamp": {
                 "Class Size": 15, 
                 "Hours/Week": 50, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
@@ -15721,7 +15744,7 @@
             }, 
             "Intermediate Frontend In Angularjs": {
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "AngularJS"
@@ -15730,7 +15753,7 @@
             }, 
             "Intro To Python & Web Development": {
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Python", 
@@ -15740,7 +15763,7 @@
             }, 
             "Ios Programming In Swift": {
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Cocoa", 
@@ -15776,7 +15799,7 @@
             }, 
             "Web Development In Ruby On Rails": {
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Git", 
@@ -15852,7 +15875,7 @@
             "Business Development & Sales": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -15867,7 +15890,7 @@
             "Engineering": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -15890,7 +15913,7 @@
             "Growth": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -15906,7 +15929,7 @@
             "Product Design": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -15985,7 +16008,7 @@
             "Html": {
                 "Cost": 25, 
                 "Hours/Week": 1, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -15998,7 +16021,7 @@
             "Python": {
                 "Cost": 25, 
                 "Hours/Week": 20, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -16064,7 +16087,7 @@
                 "Class Size": 24, 
                 "Cost": 17500, 
                 "Hours/Week": 60, 
-                "Length": "28 weeks", 
+                "Length": 28, 
                 "Location": [
                     "Denver"
                 ], 
@@ -16079,7 +16102,7 @@
                 "Class Size": 24, 
                 "Cost": 17500, 
                 "Hours/Week": 60, 
-                "Length": "28 weeks", 
+                "Length": 28, 
                 "Location": [
                     "Denver"
                 ], 
@@ -16094,7 +16117,7 @@
                 "Class Size": 24, 
                 "Cost": 17500, 
                 "Hours/Week": 60, 
-                "Length": "28 weeks", 
+                "Length": 28, 
                 "Location": [
                     "Denver"
                 ], 
@@ -16185,7 +16208,7 @@
             "Agile Development Ruby On Rails": {
                 "Cost": 6000, 
                 "Hours/Week": 35, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -16198,7 +16221,7 @@
             "Data Analytics": {
                 "Cost": 4500, 
                 "Hours/Week": 35, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -16213,7 +16236,7 @@
                 "Class Size": 15, 
                 "Cost": 4500, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -16228,7 +16251,7 @@
             "Full Stack Java": {
                 "Cost": 6000, 
                 "Hours/Week": 35, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -16243,7 +16266,7 @@
             "Mobile Applications Development": {
                 "Cost": 4500, 
                 "Hours/Week": 35, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Barcelona"
                 ], 
@@ -16301,7 +16324,7 @@
         "courses": {
             "Data Science": {
                 "Hours/Week": 40, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Data Science", 
@@ -16346,7 +16369,7 @@
             "Intro To Computer Science": {
                 "Cost": 199, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online"
                 ], 
@@ -16359,7 +16382,7 @@
             "Intro To Java Programming": {
                 "Cost": 199, 
                 "Hours/Week": 6, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Online"
                 ], 
@@ -16403,7 +16426,7 @@
             "Everything": {
                 "Cost": 99, 
                 "Hours/Week": 6, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online"
                 ], 
@@ -16473,7 +16496,7 @@
                 "Class Size": 21, 
                 "Cost": 5100, 
                 "Hours/Week": 9, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online", 
                     "Provo"
@@ -16492,7 +16515,7 @@
                 "Class Size": 21, 
                 "Cost": 14, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Online", 
                     "Provo", 
@@ -16515,7 +16538,7 @@
                 "Class Size": 10, 
                 "Cost": 1000, 
                 "Hours/Week": 60, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Online", 
                     "Provo"
@@ -16584,7 +16607,7 @@
                 "Class Size": 8, 
                 "Cost": 8, 
                 "Hours/Week": 10, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC"
                 ], 
@@ -16607,7 +16630,7 @@
                 "Class Size": 10, 
                 "Cost": 12500, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "NYC"
                 ], 
@@ -16629,7 +16652,7 @@
                 "Class Size": 10, 
                 "Cost": 2000, 
                 "Hours/Week": 6, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "NYC"
                 ], 
@@ -16797,7 +16820,7 @@
             "Coding Bootcamp": {
                 "Cost": 10000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -16814,7 +16837,7 @@
             "Women-Only Coding Bootcamp": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -16878,7 +16901,7 @@
                 "Class Size": 8, 
                 "Cost": 7000, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "London"
                 ], 
@@ -16908,7 +16931,7 @@
                 "Class Size": 8, 
                 "Cost": 0, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "London"
                 ], 
@@ -16937,7 +16960,7 @@
                 "Class Size": 8, 
                 "Cost": 7000, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "London"
                 ], 
@@ -17031,7 +17054,7 @@
                 "Class Size": 10, 
                 "Cost": 8400, 
                 "Hours/Week": 51, 
-                "Length": "8 weeks", 
+                "Length": 8, 
                 "Location": [
                     "Antskog"
                 ], 
@@ -17134,7 +17157,7 @@
             "Web Development - 8 Locations": {
                 "Cost": 3500, 
                 "Hours/Week": 20, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Bogota", 
                     "Buenos Aires", 
@@ -17219,7 +17242,7 @@
                 "Class Size": 10, 
                 "Cost": 4000, 
                 "Hours/Week": 15, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Miami"
                 ], 
@@ -17235,7 +17258,7 @@
                 "Class Size": 10, 
                 "Cost": 3000, 
                 "Hours/Week": 15, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Miami"
                 ], 
@@ -17249,7 +17272,7 @@
                 "Class Size": 20, 
                 "Cost": 10000, 
                 "Hours/Week": 56, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Fort Lauderdale", 
                     "Miami"
@@ -17318,7 +17341,7 @@
                 "Class Size": 30, 
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Newark", 
                     "Wilmington"
@@ -17376,7 +17399,7 @@
                 "Class Size": 25, 
                 "Cost": 16000, 
                 "Hours/Week": 70, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -17390,7 +17413,7 @@
                 "Class Size": 25, 
                 "Cost": 16000, 
                 "Hours/Week": 70, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "San Francisco"
                 ], 
@@ -17437,54 +17460,54 @@
             "Girl Develop It"
         ], 
         "Cincinnati": [
-            "Girl Develop It", 
             "Cincy Code It", 
+            "Girl Develop It", 
             "The Iron Yard"
         ], 
         "Cleveland": [
-            "Software Guild", 
-            "We Can Code It", 
             "Tech Elevator", 
+            "We Can Code It", 
+            "The Software Guild", 
             "Acadgild"
         ], 
         "Columbus": [
-            "Girl Develop It", 
-            "Tech Elevator"
+            "Tech Elevator", 
+            "Girl Develop It"
         ], 
         "Current Market": [
-            "Software Guild", 
-            "Girl Develop It", 
-            "We Can Code It", 
             "Tech Elevator", 
+            "We Can Code It", 
+            "The Software Guild", 
+            "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 13:21:09", 
+        "Date/Time": "2016-09-08 13:54:22", 
         "Days Out": -4, 
         "Detroit": [
-            "Girl Develop It", 
+            "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
+            "Girl Develop It", 
             "Become A Developer Bootcamp (Java)", 
-            "Intensive Android Bootcamp", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 267, 
+        "Number of Entries": 268, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
             "Brainstation", 
+            "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Girl Develop It", 
+            "Become A Developer Bootcamp ( Net)", 
+            "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
-            "Cincy Code It", 
-            "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
+            "Girl Develop It", 
             "Become A Developer Bootcamp (Java)", 
-            "Intensive Android Bootcamp", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
@@ -17513,7 +17536,7 @@
             "Beirut": 1, 
             "Belo Horizonte": 1, 
             "Berkeley": 1, 
-            "Berlin": 1, 
+            "Berlin": 2, 
             "Bogota": 1, 
             "Boise": 2, 
             "Bordeaux": 1, 

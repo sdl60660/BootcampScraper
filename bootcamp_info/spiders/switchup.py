@@ -139,7 +139,9 @@ class SwitchupSpider(scrapy.Spider):
                                 if tech not in technologies:
                                     technologies.append(tech)
                         elif index_tuples[info_index][0] == 'Location':
-                            locations = list(index_tuples[info_index][1].split(', '))
+                            locations = index_tuples[info_index][1].split(', ')
+                            if type(locations) == str or type(locations) == unicode:
+                                locations = [locations]
                             course[index_tuples[info_index][0]] = locations
                         elif index_tuples[info_index][0] == 'Cost':
                             cost = int(''.join((str(index_tuples[info_index][1])[1:-3]).split(',')))

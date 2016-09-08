@@ -135,7 +135,7 @@ class CourseReportSpider(scrapy.Spider):
                     title = Selector(response).xpath(title_xpath).extract()[y]
                     course['Title'] = title
 
-                    course['Location'] = list(campus_location)
+                    course['Location'] = [campus_location]
 
                     cost_xpath = course_array_xpath + '//*[@class="price"]/span/text()'
                     cost = Selector(response).xpath(cost_xpath).extract()
