@@ -341,7 +341,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "PHP", 
@@ -355,12 +355,13 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "PHP", 
             "UX", 
             "Wordpress", 
+            "JavaScript", 
             "Design", 
             "User Experience Design"
         ], 
@@ -562,7 +563,7 @@
         "twitter": {
             "followers": 595, 
             "handle": "@academypgh", 
-            "tweets": 1242
+            "tweets": 1241
         }, 
         "visas": "Temporary housing is available for students upon enquiry.", 
         "website": "http://www.academypgh.com/"
@@ -1169,7 +1170,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "SQL"
         ], 
@@ -1179,9 +1180,10 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "SQL", 
+            "JavaScript", 
             "Rails", 
             "Ruby"
         ], 
@@ -1269,15 +1271,16 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails"
         ], 
         "subjects": " Ruby on Rails, JavaScript, HTML, CSS", 
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
+            "JavaScript", 
             "Git", 
             "Rails", 
             "Ruby"
@@ -1288,9 +1291,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2536, 
+            "followers": 2535, 
             "handle": "@adaacademy", 
-            "tweets": 2159
+            "tweets": 2157
         }, 
         "visas": "No", 
         "website": "http://adadevelopersacademy.org/"
@@ -1854,7 +1857,7 @@
             "CSS", 
             "Design Principles", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
@@ -1868,7 +1871,7 @@
             "CSS", 
             "Design Principles", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
@@ -1876,6 +1879,7 @@
             "UX", 
             "Node.js", 
             "Front End", 
+            "JavaScript", 
             "Rails", 
             "Design", 
             "User Experience Design", 
@@ -2445,24 +2449,26 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Node.js", 
             "AngularJS", 
-            "Express.js"
+            "Express"
         ], 
         "subjects": "HTML, CSS, Bootstrap, JavaScript, PHP", 
         "technologies": [
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Node.js", 
             "AngularJS", 
-            "Express.js", 
+            "Express", 
             "Front End", 
-            "Design"
+            "Design", 
+            "JavaScript", 
+            "Express.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -2517,7 +2523,7 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery"
         ], 
         "subjects": null, 
@@ -2525,7 +2531,7 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery"
         ], 
         "top_source": [
@@ -2657,10 +2663,10 @@
         "su_technologies": [
             "Algorithms", 
             "CSS", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -2670,14 +2676,15 @@
         "technologies": [
             "Algorithms", 
             "CSS", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
             "Wordpress", 
+            "JavaScript", 
             "React.js"
         ], 
         "top_source": [
@@ -2954,7 +2961,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "UX"
         ], 
@@ -2962,9 +2969,10 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "UX", 
+            "JavaScript", 
             "User Experience Design"
         ], 
         "top_source": [
@@ -3095,7 +3103,7 @@
             "SQL", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery"
         ], 
         "subjects": "Ruby, Ruby on Rails, SQL", 
@@ -3104,7 +3112,7 @@
             "SQL", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery"
         ], 
         "top_source": [
@@ -3201,9 +3209,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5541, 
+            "followers": 5540, 
             "handle": "@betamore", 
-            "tweets": 4564
+            "tweets": 4563
         }, 
         "visas": "No", 
         "website": "http://www.betamore.com/academy/"
@@ -3531,7 +3539,7 @@
         "twitter": {
             "followers": 11700, 
             "handle": "@bignerdranch", 
-            "tweets": 9905
+            "tweets": 9904
         }, 
         "visas": "No", 
         "website": "http://www.bignerdranch.com/"
@@ -3941,7 +3949,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
             "Design Principles", 
@@ -3957,7 +3965,7 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
             "Design Principles", 
@@ -3970,6 +3978,7 @@
             "Digital Marketing", 
             "User Experience Design", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "Mobile", 
             "Rails", 
@@ -3991,7 +4000,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5640, 
+            "followers": 5639, 
             "handle": "@BitmakerHQ", 
             "tweets": 8568
         }, 
@@ -4246,7 +4255,7 @@
         "su_rating": 4.7, 
         "su_technologies": [
             "Git", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
             "iOS", 
@@ -4265,7 +4274,7 @@
         "subjects": "Ruby on Rails, HTML, Javascript, iOS, Android, Objective C, Swift, UX Design, CSS, AngularJS", 
         "technologies": [
             "Git", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
             "iOS", 
@@ -4280,6 +4289,7 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
+            "JavaScript", 
             "Rails", 
             "SQL", 
             "Ruby", 
@@ -4429,18 +4439,19 @@
         "su_rating": 5.0, 
         "su_technologies": [
             "AngularJS", 
-            "Express.js", 
-            "JavaScript", 
+            "Express", 
+            "Javascript", 
             "MongoDB", 
             "Node.js"
         ], 
         "subjects": "MEAN full stack Javascript: MongoDB, ExpressJS, AngularJS, NodeJS", 
         "technologies": [
             "AngularJS", 
-            "Express.js", 
-            "JavaScript", 
+            "Express", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
+            "JavaScript", 
             ".NET", 
             "HTML", 
             "Git", 
@@ -4455,9 +4466,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 629, 
@@ -4929,7 +4940,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Objective-C", 
             "Swift", 
             "AngularJS", 
@@ -4945,13 +4956,13 @@
             "Illustrator", 
             "Photoshop", 
             "UX", 
-            "Product Management"
+            "Product Mgmt"
         ], 
         "subjects": "Intro to Web Development, Intro to iOS Development, UX Design, Visual Design, Digital Marketing, Product Management, Intermediate Web Development, Wed Development Immersive", 
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Objective-C", 
             "Swift", 
             "AngularJS", 
@@ -4967,12 +4978,14 @@
             "Illustrator", 
             "Photoshop", 
             "UX", 
-            "Product Management", 
+            "Product Mgmt", 
             "Design", 
             "User Experience Design", 
             "Cocoa", 
             "Xcode", 
             "Mobile", 
+            "JavaScript", 
+            "Product Management", 
             "iOS"
         ], 
         "top_source": [
@@ -4991,7 +5004,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6892, 
+            "followers": 6891, 
             "handle": "@BrainStation", 
             "tweets": 7121
         }, 
@@ -5234,7 +5247,7 @@
             "Algorithms", 
             "Business", 
             "Django", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "CSS", 
             "HTML", 
@@ -5248,7 +5261,7 @@
             "Algorithms", 
             "Business", 
             "Django", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "CSS", 
             "HTML", 
@@ -5256,6 +5269,7 @@
             "Data Science", 
             "Data Structures", 
             "Hadoop", 
+            "JavaScript", 
             "Front End"
         ], 
         "top_source": [
@@ -5263,10 +5277,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Data Science", 
             "Other", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Data Science", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 583, 
@@ -5376,7 +5390,7 @@
         "twitter": {
             "followers": 2255, 
             "handle": "@C4QNYC", 
-            "tweets": 2338
+            "tweets": 2337
         }, 
         "visas": "No", 
         "website": "http://www.c4q.nyc/accesscode"
@@ -5633,9 +5647,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Mobile Development"
         ], 
         "twitter": {
             "followers": 4875, 
@@ -5858,7 +5872,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4118, 
+            "followers": 4119, 
             "handle": "@ClaimAcademySTL", 
             "tweets": 528
         }, 
@@ -6017,7 +6031,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
@@ -6030,11 +6044,12 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
             "Sinatra", 
+            "JavaScript", 
             "Rails"
         ], 
         "top_source": [
@@ -6333,7 +6348,7 @@
             "Game Design", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Photoshop", 
             "Ruby on Rails"
         ], 
@@ -6345,12 +6360,13 @@
             "Game Design", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Photoshop", 
             "Ruby on Rails", 
             "Design", 
             "Rails", 
             "Ruby", 
+            "JavaScript", 
             "iOS"
         ], 
         "top_source": [
@@ -6480,10 +6496,10 @@
         "su_technologies": [
             "Algorithms", 
             "AngularJS", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js"
         ], 
@@ -6491,10 +6507,10 @@
         "technologies": [
             "Algorithms", 
             "AngularJS", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js"
         ], 
@@ -6979,7 +6995,7 @@
             "Git", 
             "HTML", 
             "Algorithms", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "AngularJS", 
@@ -6990,7 +7006,7 @@
             "Python", 
             "Data Structures", 
             "Java", 
-            "Express.js", 
+            "Express", 
             "Cocoa", 
             "iOS", 
             "Swift", 
@@ -7002,7 +7018,7 @@
             "Git", 
             "HTML", 
             "Algorithms", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "AngularJS", 
@@ -7013,12 +7029,13 @@
             "Python", 
             "Data Structures", 
             "Java", 
-            "Express.js", 
+            "Express", 
             "Cocoa", 
             "iOS", 
             "Swift", 
             "SQL", 
             "Front End", 
+            "JavaScript", 
             "Xcode", 
             "Objective-C"
         ], 
@@ -7689,7 +7706,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "SQL", 
             "Algorithms", 
@@ -7701,13 +7718,14 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "SQL", 
             "Algorithms", 
             "Data Structures", 
             "Data Science", 
             "MySQL", 
+            "JavaScript", 
             "Ruby", 
             "Rails"
         ], 
@@ -7792,13 +7810,13 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "CSS", 
             "HTML"
         ], 
         "subjects": "HTML & CSS, Javascript, jQuery, Python, Ruby, PHP", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "CSS", 
             "HTML"
         ], 
@@ -8262,7 +8280,7 @@
             "jQuery", 
             "MySQL", 
             "PHP", 
-            "JavaScript", 
+            "Javascript", 
             "HTML", 
             "Node.js", 
             "Python", 
@@ -8282,7 +8300,7 @@
             "jQuery", 
             "MySQL", 
             "PHP", 
-            "JavaScript", 
+            "Javascript", 
             "HTML", 
             "Node.js", 
             "Python", 
@@ -8292,6 +8310,7 @@
             "Data Science", 
             "Scala", 
             "SQL", 
+            "JavaScript", 
             "User Experience Design", 
             "Ruby"
         ], 
@@ -8539,7 +8558,7 @@
             "Algorithms", 
             "CoffeeScript", 
             "Git", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "PostgreSQL", 
@@ -8555,7 +8574,7 @@
             "Algorithms", 
             "CoffeeScript", 
             "Git", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "PostgreSQL", 
@@ -8565,6 +8584,7 @@
             "Objective-C", 
             "MySQL", 
             "Front End", 
+            "JavaScript", 
             "Rails", 
             "Design", 
             "User Experience Design", 
@@ -8582,7 +8602,7 @@
         "twitter": {
             "followers": 1650, 
             "handle": "@CodeCoreYVR", 
-            "tweets": 1768
+            "tweets": 1767
         }, 
         "visas": "No", 
         "website": "http://codecore.ca/"
@@ -8764,7 +8784,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "SQL", 
@@ -8780,7 +8800,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "SQL", 
@@ -8789,6 +8809,7 @@
             "Photoshop", 
             "UX", 
             "MySQL", 
+            "JavaScript", 
             "React.js", 
             "Front End", 
             "Design", 
@@ -8800,8 +8821,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 894, 
@@ -8899,7 +8920,7 @@
             "CSS", 
             "Django", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Python"
         ], 
         "subjects": "Python, Django, HTML5, CSS3, JavaScript, and AngularJS.", 
@@ -8908,7 +8929,7 @@
             "CSS", 
             "Django", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "Rails", 
             "Node.js"
@@ -9204,7 +9225,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL"
@@ -9219,12 +9240,13 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL", 
             "Data Science", 
             "Front End", 
+            "JavaScript", 
             "MongoDB", 
             "ASP.NET", 
             "React.js", 
@@ -9512,10 +9534,10 @@
             "Java", 
             "AngularJS", 
             "C#", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "Algorithms", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "MongoDB", 
             "Node.js", 
@@ -9528,16 +9550,17 @@
             "Java", 
             "AngularJS", 
             "C#", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "Algorithms", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "MongoDB", 
             "Node.js", 
             "CSS", 
             "HTML", 
             "jQuery", 
+            "JavaScript", 
             "Swift", 
             "iOS", 
             "Xcode", 
@@ -9850,7 +9873,7 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL"
@@ -9862,11 +9885,12 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL", 
             "Front End", 
+            "JavaScript", 
             "ASP.NET"
         ], 
         "top_source": [
@@ -9878,7 +9902,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 860, 
+            "followers": 859, 
             "handle": "@CoderFoundry", 
             "tweets": 429
         }, 
@@ -9954,7 +9978,7 @@
             "Algorithms", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PHP"
         ], 
@@ -9963,7 +9987,7 @@
             "Algorithms", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PHP"
         ], 
@@ -10320,7 +10344,7 @@
         "su_technologies": [
             "C#", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "SQL"
         ], 
@@ -10328,7 +10352,7 @@
         "technologies": [
             "C#", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "SQL", 
             "Java"
@@ -10389,12 +10413,12 @@
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "iOS"
         ], 
         "subjects": "Ruby, Javascript, HTML, CSS, IOS", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "iOS"
         ], 
         "top_source": [
@@ -10475,8 +10499,8 @@
         "su_rating": 5.0, 
         "su_technologies": [
             "AngularJS", 
-            "Express.js", 
-            "JavaScript", 
+            "Express", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "SQL"
@@ -10484,11 +10508,12 @@
         "subjects": "JavaScript, MongoDB, Express, Angular, React, Node, SQL Databases, Distributed Systems, Mobile Engineering With React Native, DevOps", 
         "technologies": [
             "AngularJS", 
-            "Express.js", 
-            "JavaScript", 
+            "Express", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "SQL", 
+            "JavaScript", 
             "HTML", 
             "CSS", 
             "React.js"
@@ -10636,17 +10661,18 @@
         "su_num_reviews": 18, 
         "su_rating": 4.7, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Linux", 
             "MySQL", 
             "PHP"
         ], 
         "subjects": " Linux, Apache, MySQL, PHP, JavaScript", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Linux", 
             "MySQL", 
             "PHP", 
+            "JavaScript", 
             "jQuery", 
             "Ruby"
         ], 
@@ -10754,10 +10780,10 @@
             "Cyber Security", 
             "Data Science", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "Mobile", 
@@ -10777,10 +10803,10 @@
             "Cyber Security", 
             "Data Science", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "Mobile", 
@@ -10792,6 +10818,8 @@
             "SQL", 
             "UX", 
             "Front End", 
+            "JavaScript", 
+            "Express.js", 
             "React.js"
         ], 
         "top_source": [
@@ -11278,9 +11306,9 @@
             "CoffeeScript", 
             "CSS", 
             "Design Principles", 
-            "Express.js", 
+            "Express", 
             "Git", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -11300,9 +11328,9 @@
             "CoffeeScript", 
             "CSS", 
             "Design Principles", 
-            "Express.js", 
+            "Express", 
             "Git", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -11318,6 +11346,7 @@
             "Swift", 
             "Python", 
             "Front End", 
+            "JavaScript", 
             "iOS", 
             "Rails", 
             "Ruby"
@@ -11507,19 +11536,19 @@
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "CSS", 
-                    "Design", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
-                    "jQuery", 
                     ".NET", 
-                    "Objective-C", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
                     "SQL", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": "ASP.NET MVC BOOTCAMP"
             }, 
@@ -11545,18 +11574,18 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Design", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
                     "MySQL", 
-                    "Node.js", 
-                    "React.js", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
                     "SQL", 
-                    "User Experience Design"
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
                 ], 
                 "Title": "Part-Time MEAN.JS - Full-Stack JavaScript"
             }
@@ -11564,22 +11593,22 @@
         "cr_num_reviews": 8, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "AngularJS", 
-            "CSS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
-            "ASP.NET", 
-            "C#", 
-            "jQuery", 
+            "CSS", 
+            "React.js", 
+            "Node.js", 
             ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "jQuery", 
             "Objective-C"
         ], 
         "email": "info@codingtemple.com", 
@@ -11614,16 +11643,16 @@
             "HTML", 
             "jQuery", 
             ".NET", 
-            "AngularJS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
+            "React.js", 
+            "Node.js", 
             "ASP.NET", 
             "Objective-C"
         ], 
@@ -11922,9 +11951,9 @@
         "su_technologies": [
             "AngularJS", 
             "Digital Marketing", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -11935,18 +11964,20 @@
         "technologies": [
             "AngularJS", 
             "Digital Marketing", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
             "SEO", 
             "UX", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "Design", 
-            "User Experience Design"
+            "User Experience Design", 
+            "Express.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -12395,7 +12426,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 4959, 
+            "followers": 4958, 
             "handle": "@dataScienceRet", 
             "tweets": 2047
         }, 
@@ -12806,7 +12837,7 @@
             "Design Principles", 
             "Entrepreneurship", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "PHP", 
@@ -12820,12 +12851,13 @@
             "Design Principles", 
             "Entrepreneurship", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "PHP", 
             "UX", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "Design", 
             "User Experience Design"
@@ -13240,7 +13272,7 @@
             "HTML", 
             "Illustrator", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Photoshop", 
             "UX"
         ], 
@@ -13252,7 +13284,7 @@
             "HTML", 
             "Illustrator", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Photoshop", 
             "UX", 
             "Front End", 
@@ -13550,7 +13582,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby", 
             "Ruby on Rails", 
             "Sinatra", 
@@ -13562,11 +13594,12 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby", 
             "Ruby on Rails", 
             "Sinatra", 
             "SQL", 
+            "JavaScript", 
             "Rails"
         ], 
         "top_source": [
@@ -13655,7 +13688,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "MySQL", 
@@ -13669,7 +13702,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "MySQL", 
@@ -13785,7 +13818,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "MySQL", 
@@ -13805,7 +13838,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "MySQL", 
@@ -13887,12 +13920,13 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript"
+            "Javascript"
         ], 
         "subjects": " JavaScript, HTML, CSS", 
         "technologies": [
             "CSS", 
             "HTML", 
+            "Javascript", 
             "JavaScript"
         ], 
         "top_source": [
@@ -13903,7 +13937,7 @@
         "twitter": {
             "followers": 2382, 
             "handle": "@iowajpec", 
-            "tweets": 3662
+            "tweets": 3661
         }, 
         "visas": "No", 
         "website": "http://www.iowajpec.org/entrepreneur-support/deviowa/"
@@ -14143,7 +14177,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "SEO", 
             "UX", 
@@ -14159,7 +14193,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "SEO", 
             "UX", 
@@ -14170,6 +14204,7 @@
             "SQL", 
             "AngularJS", 
             "Python", 
+            "JavaScript", 
             "Front End", 
             "Design", 
             "User Experience Design"
@@ -14186,9 +14221,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1052, 
+            "followers": 1053, 
             "handle": "@devcodecamp", 
-            "tweets": 750
+            "tweets": 749
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -14485,7 +14520,7 @@
         "su_rating": null, 
         "su_technologies": [
             "HTML", 
-            "SharePoint", 
+            "SharePoint \u200b ", 
             "SQL Programming", 
             "SQL Server Administration", 
             "SQL Business Intelligence", 
@@ -14498,7 +14533,7 @@
             "Web Services", 
             "AngularJS", 
             "CSS", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Perl", 
             "PHP", 
@@ -14507,7 +14542,7 @@
             "iOS", 
             "Objective-C", 
             "Swift", 
-            "ASP.NET", 
+            "ASP.NET ", 
             "ASP.NET MVC", 
             "C#", 
             "VB.NET", 
@@ -14517,7 +14552,7 @@
         "subjects": "Java, Mobile App Development, .NET, SharePoint, SQL, UNIX/Linux, Web Development, Windows System Administration", 
         "technologies": [
             "HTML", 
-            "SharePoint", 
+            "SharePoint \u200b ", 
             "SQL Programming", 
             "SQL Server Administration", 
             "SQL Business Intelligence", 
@@ -14530,7 +14565,7 @@
             "Web Services", 
             "AngularJS", 
             "CSS", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Perl", 
             "PHP", 
@@ -14539,7 +14574,7 @@
             "iOS", 
             "Objective-C", 
             "Swift", 
-            "ASP.NET", 
+            "ASP.NET ", 
             "ASP.NET MVC", 
             "C#", 
             "VB.NET", 
@@ -14940,14 +14975,14 @@
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 7521, 
             "handle": "@DevMtn", 
-            "tweets": 1834
+            "tweets": 1833
         }, 
         "visas": "No", 
         "website": "http://devmounta.in/"
@@ -15095,7 +15130,7 @@
         "su_technologies": [
             "Algorithms", 
             "Cocoa", 
-            "JavaScript", 
+            "Javascript", 
             "Objective-C", 
             "Swift", 
             "CoffeeScript", 
@@ -15108,7 +15143,7 @@
         "technologies": [
             "Algorithms", 
             "Cocoa", 
-            "JavaScript", 
+            "Javascript", 
             "Objective-C", 
             "Swift", 
             "CoffeeScript", 
@@ -15117,6 +15152,7 @@
             "HTML", 
             "Ruby on Rails", 
             "Front End", 
+            "JavaScript", 
             "MongoDB", 
             "jQuery", 
             "Express.js", 
@@ -15134,10 +15170,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "UX Design", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 405, 
@@ -15212,7 +15248,7 @@
         "su_technologies": [
             "AngularJS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js"
         ], 
@@ -15220,9 +15256,10 @@
         "technologies": [
             "AngularJS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
+            "JavaScript", 
             "CSS"
         ], 
         "top_source": [
@@ -15406,7 +15443,7 @@
             "Clojure", 
             "Data Science", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
             "MongoDB", 
@@ -15416,7 +15453,7 @@
             "SQL", 
             "CoffeeScript", 
             "CSS", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "MySQL", 
@@ -15429,7 +15466,7 @@
             "Clojure", 
             "Data Science", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
             "MongoDB", 
@@ -15439,13 +15476,14 @@
             "SQL", 
             "CoffeeScript", 
             "CSS", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "MySQL", 
             "Ruby", 
             "Ruby on Rails", 
             "Front End", 
+            "JavaScript", 
             "Rails", 
             "User Experience Design", 
             "React.js", 
@@ -15453,7 +15491,8 @@
             "Python", 
             "Go", 
             "Sales", 
-            "Growth Hacking"
+            "Growth Hacking", 
+            "Express.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -15517,7 +15556,7 @@
             "Data Structures", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "PostgreSQL", 
@@ -15530,7 +15569,7 @@
             "Data Structures", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "PostgreSQL", 
@@ -15674,7 +15713,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 832, 
+            "followers": 831, 
             "handle": "@EcoTechVisions", 
             "tweets": 1457
         }, 
@@ -15758,7 +15797,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 931, 
+            "followers": 932, 
             "handle": "@_digitalhouse", 
             "tweets": 545
         }, 
@@ -16086,10 +16125,10 @@
             "Algorithms", 
             "AngularJS", 
             "CSS", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "Node.js", 
@@ -16101,10 +16140,10 @@
             "Algorithms", 
             "AngularJS", 
             "CSS", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "Node.js", 
@@ -16112,6 +16151,7 @@
             "UX", 
             "Swift", 
             "Front End", 
+            "JavaScript", 
             "iOS", 
             "MongoDB", 
             "Xcode", 
@@ -16119,6 +16159,7 @@
             "Design", 
             "Mobile", 
             "User Experience Design", 
+            "Express.js", 
             "SQL"
         ], 
         "top_source": [
@@ -17011,7 +17052,7 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Git", 
             "Java", 
             ".NET", 
@@ -17026,7 +17067,7 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Git", 
             "Java", 
             ".NET", 
@@ -17161,14 +17202,14 @@
             "AngularJS", 
             "CSS", 
             "Entrepreneurship", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "PostgreSQL", 
-            "Product Management", 
+            "Product Mgmt", 
             "UX", 
             "Java", 
             "jQuery", 
@@ -17179,18 +17220,20 @@
             "AngularJS", 
             "CSS", 
             "Entrepreneurship", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "PostgreSQL", 
-            "Product Management", 
+            "Product Mgmt", 
             "UX", 
             "Java", 
             "jQuery", 
-            "MySQL"
+            "MySQL", 
+            "JavaScript", 
+            "Express.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -17532,7 +17575,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Android", 
             "Drupal", 
@@ -17549,7 +17592,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Android", 
             "Drupal", 
@@ -17562,6 +17605,7 @@
             "Ruby on Rails", 
             "SQL", 
             "Front End", 
+            "JavaScript", 
             "Design", 
             "Mobile", 
             "Rails", 
@@ -17854,7 +17898,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET"
         ], 
@@ -17862,9 +17906,10 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
-            ".NET"
+            ".NET", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -18035,7 +18080,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6771, 
+            "followers": 6770, 
             "handle": "@FlatironSchool", 
             "tweets": 4295
         }, 
@@ -18167,15 +18212,16 @@
         "su_num_reviews": 41, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Node.js", 
             "UX"
         ], 
         "subjects": "JavaScript, Node.js, React", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Node.js", 
             "UX", 
+            "JavaScript", 
             "Product Management", 
             "User Experience Design"
         ], 
@@ -18439,8 +18485,8 @@
         "su_rating": 4.9, 
         "su_technologies": [
             "AngularJS", 
-            "Express.js", 
-            "JavaScript", 
+            "Express", 
+            "Javascript", 
             "MongoDB", 
             "MySQL", 
             "Node.js"
@@ -18448,13 +18494,15 @@
         "subjects": "AngularJS, Node.js, JavaScript, MongoDB, HTML5, CSS3 Express.js, jQuery, CTO Program", 
         "technologies": [
             "AngularJS", 
-            "Express.js", 
-            "JavaScript", 
+            "Express", 
+            "Javascript", 
             "MongoDB", 
             "MySQL", 
             "Node.js", 
+            "JavaScript", 
             "HTML", 
             "CSS", 
+            "Express.js", 
             "jQuery"
         ], 
         "top_source": [
@@ -18466,7 +18514,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8876, 
+            "followers": 8875, 
             "handle": "@fullstack", 
             "tweets": 896
         }, 
@@ -18730,7 +18778,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "Data Science"
         ], 
@@ -18738,10 +18786,11 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "Data Science", 
             "AngularJS", 
+            "JavaScript", 
             "SQL", 
             "Express.js", 
             "Node.js", 
@@ -18760,7 +18809,7 @@
         "twitter": {
             "followers": 16600, 
             "handle": "@galvanize", 
-            "tweets": 6691
+            "tweets": 6693
         }, 
         "visas": "No", 
         "website": "http://www.galvanize.com/courses/"
@@ -19838,13 +19887,13 @@
             "Data Science", 
             "Ruby", 
             "Ruby on Rails", 
-            "JavaScript", 
+            "Javascript", 
             "CSS", 
             "HTML", 
             "Digital Marketing", 
             "SEO", 
             "Mobile", 
-            "Product Management", 
+            "Product Mgmt", 
             "Atlanta", 
             "Austin", 
             "Boston", 
@@ -19864,13 +19913,13 @@
             "Data Science", 
             "Ruby", 
             "Ruby on Rails", 
-            "JavaScript", 
+            "Javascript", 
             "CSS", 
             "HTML", 
             "Digital Marketing", 
             "SEO", 
             "Mobile", 
-            "Product Management", 
+            "Product Mgmt", 
             "Atlanta", 
             "Austin", 
             "Boston", 
@@ -19885,10 +19934,12 @@
             "Washington", 
             "User Experience Design", 
             "AngularJS", 
+            "JavaScript", 
             "MongoDB", 
             "Rails", 
             "jQuery", 
             "Node.js", 
+            "Product Management", 
             "Git", 
             "Java", 
             "Android", 
@@ -20175,7 +20226,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 5895, 
+            "followers": 5893, 
             "handle": "@hopperacademy", 
             "tweets": 319
         }, 
@@ -20388,7 +20439,7 @@
             "CSS", 
             "HTML", 
             "AngularJS", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Git", 
             "Java", 
@@ -20399,11 +20450,12 @@
             "CSS", 
             "HTML", 
             "AngularJS", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Git", 
             "Java", 
             "MySQL", 
+            "JavaScript", 
             "Node.js", 
             ".NET", 
             "C#", 
@@ -20695,7 +20747,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PostgreSQL", 
             "Ruby", 
@@ -20708,11 +20760,12 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PostgreSQL", 
             "Ruby", 
             "Ruby on Rails", 
+            "JavaScript", 
             "Rails", 
             "Node.js"
         ], 
@@ -20827,7 +20880,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7336, 
+            "followers": 7337, 
             "handle": "@HackReactor", 
             "tweets": 2709
         }, 
@@ -20907,7 +20960,7 @@
             "Django", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "SQL"
         ], 
@@ -20917,9 +20970,10 @@
             "Django", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
-            "SQL"
+            "SQL", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -21218,12 +21272,12 @@
             "Data Science", 
             "Data Structures", 
             "Django", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
             "iOS", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Mobile", 
             "MongoDB", 
@@ -21251,12 +21305,12 @@
             "Data Science", 
             "Data Structures", 
             "Django", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
             "iOS", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Mobile", 
             "MongoDB", 
@@ -21596,7 +21650,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Wordpress", 
             "Ruby on Rails"
@@ -21605,10 +21659,11 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Wordpress", 
             "Ruby on Rails", 
+            "JavaScript", 
             "Front End", 
             "Git", 
             "PHP", 
@@ -21627,7 +21682,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8623, 
+            "followers": 8624, 
             "handle": "@hackeryou", 
             "tweets": 3349
         }, 
@@ -21872,7 +21927,7 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -21884,12 +21939,13 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
             "MySQL", 
             "Ruby on Rails", 
+            "JavaScript", 
             "React.js", 
             "Front End", 
             "Ruby"
@@ -22174,9 +22230,9 @@
             "CSS", 
             "Data Structures", 
             "Entrepreneurship", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "SQL"
@@ -22187,17 +22243,19 @@
             "CSS", 
             "Data Structures", 
             "Entrepreneurship", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "SQL", 
+            "JavaScript", 
             "jQuery", 
             "React.js", 
             "Front End", 
             "Git", 
-            "Growth Hacking"
+            "Growth Hacking", 
+            "Express.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -22594,7 +22652,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 60, 
+            "followers": 59, 
             "handle": "@IncepSchool", 
             "tweets": 98
         }, 
@@ -22716,7 +22774,7 @@
         "tracking_groups": [], 
         "tracks": "Other", 
         "twitter": {
-            "followers": 650, 
+            "followers": 649, 
             "handle": "@Careerbootcamps", 
             "tweets": 389
         }, 
@@ -22892,7 +22950,7 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 275, 
+            "followers": 274, 
             "handle": "@instituteofcode", 
             "tweets": 98
         }, 
@@ -23074,9 +23132,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1706, 
+            "followers": 1705, 
             "handle": "@InterfaceSchool", 
-            "tweets": 3731
+            "tweets": 3730
         }, 
         "visas": "No", 
         "website": "https://interfaceschool.com/"
@@ -23370,7 +23428,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "Sinatra", 
             "Cocoa", 
@@ -23381,7 +23439,7 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "Sinatra", 
             "Cocoa", 
@@ -23390,6 +23448,7 @@
             "Swift", 
             "Xcode", 
             "Mobile", 
+            "JavaScript", 
             "Rails", 
             "Ruby", 
             "Front End", 
@@ -23721,7 +23780,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "SQL"
         ], 
@@ -23731,9 +23790,10 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
-            "SQL"
+            "SQL", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -23871,7 +23931,7 @@
         "twitter": {
             "followers": 7, 
             "handle": "@k2datascience", 
-            "tweets": 38
+            "tweets": 37
         }, 
         "visas": "No", 
         "website": "http://www.k2datascience.com/"
@@ -23963,7 +24023,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 1180, 
+            "followers": 1179, 
             "handle": "@JoinKoru", 
             "tweets": 1673
         }, 
@@ -24162,7 +24222,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PostgreSQL", 
             "Ruby", 
@@ -24176,7 +24236,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PostgreSQL", 
             "Ruby", 
@@ -24209,18 +24269,18 @@
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Ruby", 
                     "CSS", 
                     "Express.js", 
-                    "Front End", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
-                    "MongoDB", 
-                    "Node.js", 
-                    "Rails", 
-                    "Ruby", 
-                    "Sinatra", 
-                    "SQL"
+                    "Node.js"
                 ], 
                 "Title": "Full Stack Software Engineering Program"
             }, 
@@ -24232,19 +24292,19 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Ruby", 
                     "CSS", 
                     "Express.js", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
-                    "MongoDB", 
-                    "Node.js", 
-                    "Rails", 
-                    "Ruby", 
-                    "Sinatra", 
-                    "SQL"
+                    "Node.js"
                 ], 
                 "Title": "The Capstone Mentoring Program"
             }
@@ -24252,19 +24312,19 @@
         "cr_num_reviews": 9, 
         "cr_rating": 5.0, 
         "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "Rails", 
+            "SQL", 
+            "Sinatra", 
+            "jQuery", 
+            "Ruby", 
             "CSS", 
             "Express.js", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "Rails", 
-            "Ruby", 
-            "Sinatra", 
-            "SQL"
+            "Node.js"
         ], 
         "email": "hello@launchschool.com", 
         "facebook": "https://www.facebook.com/launchschoolonline", 
@@ -24279,19 +24339,19 @@
         "num_courses": 2, 
         "num_locations": 1, 
         "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "Rails", 
+            "SQL", 
+            "Sinatra", 
+            "jQuery", 
+            "Ruby", 
             "CSS", 
             "Express.js", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "Rails", 
-            "Ruby", 
-            "Sinatra", 
-            "SQL"
+            "Node.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -24373,7 +24433,7 @@
         "twitter": {
             "followers": 7915, 
             "handle": "@Launch_Code", 
-            "tweets": 3327
+            "tweets": 3326
         }, 
         "visas": "No", 
         "website": "https://www.launchcode.org"
@@ -24508,7 +24568,7 @@
             "CSS", 
             "Data Structures", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PostgreSQL", 
             "Ruby on Rails", 
@@ -24520,12 +24580,13 @@
             "CSS", 
             "Data Structures", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "PostgreSQL", 
             "Ruby on Rails", 
             "SQL", 
             "UX", 
+            "JavaScript", 
             "Git", 
             "Rails", 
             "Ruby", 
@@ -24544,7 +24605,7 @@
         "twitter": {
             "followers": 4945, 
             "handle": "@Lewagonparis", 
-            "tweets": 4328
+            "tweets": 4327
         }, 
         "visas": "No", 
         "website": "http://www.lewagon.org/en"
@@ -24605,7 +24666,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby", 
             "Ruby on Rails"
         ], 
@@ -24613,7 +24674,7 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby", 
             "Ruby on Rails"
         ], 
@@ -25017,7 +25078,7 @@
             "CSS", 
             "HTML", 
             "Data Science", 
-            "JavaScript", 
+            "Javascript", 
             "Linux", 
             "MySQL", 
             "PHP", 
@@ -25029,7 +25090,7 @@
             "CSS", 
             "HTML", 
             "Data Science", 
-            "JavaScript", 
+            "Javascript", 
             "Linux", 
             "MySQL", 
             "PHP", 
@@ -25037,6 +25098,7 @@
             "UX", 
             "AngularJS", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "jQuery", 
             "User Experience Design"
@@ -25228,7 +25290,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2150, 
+            "followers": 2151, 
             "handle": "@learntechlabs", 
             "tweets": 1039
         }, 
@@ -25495,7 +25557,7 @@
             "HTML", 
             "Ruby", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Objective-C", 
             "Swift", 
             "Node.js", 
@@ -25508,7 +25570,7 @@
             "HTML", 
             "Ruby", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Objective-C", 
             "Swift", 
             "Node.js", 
@@ -25522,6 +25584,7 @@
             "Sinatra", 
             "Git", 
             "Product Management", 
+            "JavaScript", 
             "MongoDB", 
             "Rails", 
             "SQL", 
@@ -25600,14 +25663,14 @@
         "su_rating": null, 
         "su_technologies": [
             "C#", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "SQL"
         ], 
         "subjects": "Web", 
         "technologies": [
             "C#", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "SQL"
         ], 
@@ -25963,7 +26026,7 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Node.js", 
             "PostgreSQL", 
@@ -25976,7 +26039,7 @@
             "AngularJS", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Node.js", 
             "PostgreSQL", 
@@ -25984,6 +26047,7 @@
             "Ruby on Rails", 
             "SQL", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "Rails", 
             "Sinatra"
@@ -25994,7 +26058,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8703, 
+            "followers": 8702, 
             "handle": "@makersacademy", 
             "tweets": 7438
         }, 
@@ -26107,7 +26171,7 @@
         "su_rating": 4.7, 
         "su_technologies": [
             "Data Structures", 
-            "JavaScript", 
+            "Javascript", 
             "Algorithms", 
             "AngularJS", 
             "CSS", 
@@ -26122,7 +26186,7 @@
         "subjects": "JavaScript", 
         "technologies": [
             "Data Structures", 
-            "JavaScript", 
+            "Javascript", 
             "Algorithms", 
             "AngularJS", 
             "CSS", 
@@ -26134,6 +26198,7 @@
             "PostgreSQL", 
             "SQL", 
             "Front End", 
+            "JavaScript", 
             "Express.js", 
             "React.js"
         ], 
@@ -26598,18 +26663,19 @@
         "su_rating": 4.6, 
         "su_technologies": [
             "Data Science", 
-            "JavaScript", 
+            "Javascript", 
             "Python"
         ], 
         "subjects": "Data Science, Python, Data Visualization, JavaScript, D3, NLP, Naive Bayes, Hadoop, Spark, Machine Learning, Online Training", 
         "technologies": [
             "Data Science", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "MongoDB", 
             "Git", 
             "Hadoop", 
             "Spark", 
+            "JavaScript", 
             "HTML", 
             "CSS"
         ], 
@@ -27202,15 +27268,16 @@
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Node.js", 
             "Ruby on Rails"
         ], 
         "subjects": "Ruby, JavaScript, Node.js", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Node.js", 
             "Ruby on Rails", 
+            "JavaScript", 
             ".NET", 
             "C#", 
             "Python", 
@@ -27541,7 +27608,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1472, 
+            "followers": 1471, 
             "handle": "@NYCodeDesign", 
             "tweets": 1471
         }, 
@@ -27707,7 +27774,7 @@
         "su_rating": 5.0, 
         "su_technologies": [
             "AngularJS", 
-            "JavaScript", 
+            "Javascript", 
             "Node.js", 
             "Objective-C", 
             "CSS", 
@@ -27721,7 +27788,7 @@
         "subjects": "HTML, Ruby on Rails, CSS, JavaScript, jQuery, Data Structures", 
         "technologies": [
             "AngularJS", 
-            "JavaScript", 
+            "Javascript", 
             "Node.js", 
             "Objective-C", 
             "CSS", 
@@ -27817,7 +27884,7 @@
             "Swift", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "PostgreSQL", 
             "Ruby", 
             "Ruby on Rails"
@@ -27834,7 +27901,7 @@
             "Swift", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "PostgreSQL", 
             "Ruby", 
             "Ruby on Rails"
@@ -28208,7 +28275,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "Sinatra", 
             "SQL"
@@ -28219,7 +28286,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails", 
             "Sinatra", 
             "SQL", 
@@ -28461,10 +28528,10 @@
             "AngularJS", 
             "CSS", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js"
@@ -28474,13 +28541,14 @@
             "AngularJS", 
             "CSS", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
-            "Node.js"
+            "Node.js", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -28634,7 +28702,7 @@
         "twitter": {
             "followers": 714, 
             "handle": "@PBCodeSchool", 
-            "tweets": 1302
+            "tweets": 1301
         }, 
         "visas": "No", 
         "website": "http://www.palmbeachcodeschool.com/#home"
@@ -28792,7 +28860,7 @@
             "Django", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Python", 
             "SQL"
@@ -28803,7 +28871,7 @@
             "Django", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Python", 
             "SQL", 
@@ -28984,12 +29052,12 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "PHP"
         ], 
         "subjects": "PHP, CodeIgniter, JavaScript", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "PHP"
         ], 
         "top_source": [
@@ -29141,13 +29209,13 @@
         "su_rating": null, 
         "su_technologies": [
             "Ruby on Rails", 
-            "JavaScript", 
+            "Javascript", 
             "Node.js"
         ], 
         "subjects": "Node.js, JavaScript", 
         "technologies": [
             "Ruby on Rails", 
-            "JavaScript", 
+            "Javascript", 
             "Node.js"
         ], 
         "top_source": [
@@ -29251,10 +29319,10 @@
             "AngularJS", 
             "CSS", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Node.js"
         ], 
@@ -29263,12 +29331,13 @@
             "AngularJS", 
             "CSS", 
             "Data Structures", 
-            "Express.js", 
+            "Express", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
-            "Node.js"
+            "Node.js", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -29677,7 +29746,7 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL"
@@ -29689,7 +29758,7 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL"
@@ -30145,16 +30214,17 @@
         "su_technologies": [
             "Algorithms", 
             "Data Structures", 
-            "JavaScript", 
+            "Javascript", 
             "Python"
         ], 
         "subjects": "JavaScript, Python, ReactJS ", 
         "technologies": [
             "Algorithms", 
             "Data Structures", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "Front End", 
+            "JavaScript", 
             "SQL", 
             "React.js"
         ], 
@@ -30313,14 +30383,14 @@
         "su_technologies": [
             "AngularJS", 
             "Django", 
-            "JavaScript", 
+            "Javascript", 
             "Python"
         ], 
         "subjects": "Python, Django,  Angular.JS,  Javascript", 
         "technologies": [
             "AngularJS", 
             "Django", 
-            "JavaScript", 
+            "Javascript", 
             "Python"
         ], 
         "top_source": [
@@ -30359,7 +30429,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MySQL", 
             "PHP"
         ], 
@@ -30367,7 +30437,7 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MySQL", 
             "PHP"
         ], 
@@ -30827,7 +30897,7 @@
         "twitter": {
             "followers": 2227, 
             "handle": "@WeSabio", 
-            "tweets": 9474
+            "tweets": 9473
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -30881,14 +30951,14 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "iOS"
         ], 
         "subjects": "JavaScript, HTML, CSS, iOS", 
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "iOS"
         ], 
         "top_source": [
@@ -31147,7 +31217,7 @@
         "twitter": {
             "followers": 612, 
             "handle": "@S2DS_School", 
-            "tweets": 1361
+            "tweets": 1360
         }, 
         "visas": "No", 
         "website": "http://www.s2ds.org/"
@@ -31261,7 +31331,7 @@
         "tracking_groups": [], 
         "tracks": "Other", 
         "twitter": {
-            "followers": 265, 
+            "followers": 264, 
             "handle": "@SecureSetHQ", 
             "tweets": 356
         }, 
@@ -31310,7 +31380,7 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL"
@@ -31320,7 +31390,7 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "SQL"
@@ -31536,7 +31606,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Mobile", 
             "PHP", 
@@ -31548,7 +31618,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Mobile", 
             "PHP", 
@@ -31715,7 +31785,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9559, 
+            "followers": 9558, 
             "handle": "@simplonco", 
             "tweets": 9573
         }, 
@@ -31942,7 +32012,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails"
         ], 
@@ -31950,9 +32020,10 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
+            "JavaScript", 
             "User Experience Design", 
             "Design", 
             "Mobile", 
@@ -31967,10 +32038,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
             "Digital Marketing", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 14700, 
@@ -32405,7 +32476,7 @@
             "CSS", 
             "Data Structures", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "SQL", 
             "Java", 
@@ -32418,13 +32489,14 @@
             "CSS", 
             "Data Structures", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "SQL", 
             "Java", 
             "jQuery", 
             "MySQL", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "C#", 
             "ASP.NET"
@@ -32627,11 +32699,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Data Science", 
-            "UX Design"
+            "UX Design", 
+            "Data Science"
         ], 
         "twitter": {
-            "followers": 9023, 
+            "followers": 9024, 
             "handle": "@Springboard", 
             "tweets": 1963
         }, 
@@ -32951,10 +33023,10 @@
             "Entrepreneurship", 
             "HTML", 
             "Illustrator", 
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Photoshop", 
-            "Product Management", 
+            "Product Mgmt", 
             "Ruby on Rails", 
             "Sales", 
             "UX", 
@@ -32973,10 +33045,10 @@
             "Entrepreneurship", 
             "HTML", 
             "Illustrator", 
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Photoshop", 
-            "Product Management", 
+            "Product Mgmt", 
             "Ruby on Rails", 
             "Sales", 
             "UX", 
@@ -32986,7 +33058,9 @@
             "jQuery", 
             "MySQL", 
             "PostgreSQL", 
+            "JavaScript", 
             "User Experience Design", 
+            "Product Management", 
             "Ruby", 
             "Rails", 
             "AngularJS", 
@@ -33000,9 +33074,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15800, 
@@ -33459,7 +33533,7 @@
             "Design Principles", 
             "HTML", 
             "UX", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Business", 
             "Entrepreneurship", 
@@ -33476,7 +33550,7 @@
             "Design Principles", 
             "HTML", 
             "UX", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Business", 
             "Entrepreneurship", 
@@ -33485,6 +33559,7 @@
             "Git", 
             "MongoDB", 
             "SEO", 
+            "JavaScript", 
             "Rails", 
             "Xcode", 
             "Mobile", 
@@ -33583,7 +33658,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Illustrator", 
             "Photoshop", 
             "Ruby on Rails"
@@ -33592,7 +33667,7 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Illustrator", 
             "Photoshop", 
             "Ruby on Rails"
@@ -33688,13 +33763,13 @@
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Ruby on Rails"
         ], 
         "subjects": "Ruby, Rails, JavaScript, Mobile", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Ruby on Rails"
         ], 
@@ -33896,9 +33971,9 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
-            "Express.js", 
+            "Express", 
             "MongoDB", 
             "Node.js"
         ], 
@@ -33906,12 +33981,13 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
-            "Express.js", 
+            "Express", 
             "MongoDB", 
             "Node.js", 
-            "AngularJS"
+            "AngularJS", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -34034,7 +34110,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "PHP"
@@ -34043,7 +34119,7 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MySQL", 
             "PHP"
@@ -34345,7 +34421,7 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "SQL", 
             "Java"
@@ -34355,10 +34431,11 @@
             "C#", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "SQL", 
             "Java", 
+            "JavaScript", 
             "jQuery", 
             "MySQL"
         ], 
@@ -34374,7 +34451,7 @@
         "twitter": {
             "followers": 474, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1192
+            "tweets": 1191
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -34645,7 +34722,7 @@
             "CSS", 
             "Entrepreneurship", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
             "Design Principles", 
@@ -34660,7 +34737,7 @@
             "CSS", 
             "Entrepreneurship", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby on Rails", 
             "Design Principles", 
@@ -34669,6 +34746,7 @@
             "Digital Marketing", 
             "Swift", 
             "UX", 
+            "JavaScript", 
             "Rails", 
             "Ruby", 
             "Data Science", 
@@ -34925,7 +35003,7 @@
             "Git", 
             "iOS", 
             "Mobile", 
-            "Product Management", 
+            "Product Mgmt", 
             "Swift", 
             "UX"
         ], 
@@ -34935,7 +35013,7 @@
             "Git", 
             "iOS", 
             "Mobile", 
-            "Product Management", 
+            "Product Mgmt", 
             "Swift", 
             "UX", 
             "Xcode", 
@@ -35366,7 +35444,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2718, 
+            "followers": 2717, 
             "handle": "@thedatainc", 
             "tweets": 607
         }, 
@@ -35579,7 +35657,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
@@ -35592,7 +35670,7 @@
             "CSS", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
@@ -35918,7 +35996,7 @@
             "HTML", 
             "Ruby", 
             "Ruby on Rails", 
-            "JavaScript", 
+            "Javascript", 
             "UX", 
             "Git", 
             "iOS", 
@@ -35932,7 +36010,7 @@
             "HTML", 
             "Ruby", 
             "Ruby on Rails", 
-            "JavaScript", 
+            "Javascript", 
             "UX", 
             "Git", 
             "iOS", 
@@ -35940,6 +36018,7 @@
             "Objective-C", 
             "Swift", 
             "Rails", 
+            "JavaScript", 
             "Xcode", 
             "jQuery", 
             "Python", 
@@ -36104,12 +36183,12 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Mobile", 
             ".NET", 
             "PHP", 
-            "Product Management", 
+            "Product Mgmt", 
             "Python", 
             "SQL", 
             "Wordpress"
@@ -36123,17 +36202,18 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Mobile", 
             ".NET", 
             "PHP", 
-            "Product Management", 
+            "Product Mgmt", 
             "Python", 
             "SQL", 
             "Wordpress", 
             "MySQL", 
             "AngularJS", 
+            "JavaScript", 
             "ASP.NET", 
             "Node.js"
         ], 
@@ -36541,7 +36621,7 @@
             "Algorithms", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -36563,7 +36643,7 @@
             "Algorithms", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -36583,6 +36663,7 @@
             "Xcode", 
             "Mobile", 
             "User Experience Design", 
+            "JavaScript", 
             "Rails", 
             "Front End", 
             "Design", 
@@ -36602,7 +36683,7 @@
         "twitter": {
             "followers": 6408, 
             "handle": "@thinkful", 
-            "tweets": 2049
+            "tweets": 2048
         }, 
         "visas": "No", 
         "website": "https://www.thinkful.com/a/coursereport"
@@ -36813,10 +36894,10 @@
         "su_technologies": [
             "Algorithms", 
             "AngularJS", 
-            "Express.js", 
+            "Express", 
             "HTML", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Node.js", 
             "Objective-C", 
@@ -36835,10 +36916,10 @@
         "technologies": [
             "Algorithms", 
             "AngularJS", 
-            "Express.js", 
+            "Express", 
             "HTML", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Node.js", 
             "Objective-C", 
@@ -37250,12 +37331,12 @@
         "su_num_reviews": 6, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails"
         ], 
         "subjects": "Ruby, JavaScript, Ruby on Rails, Sinatra, HTML, CSS", 
         "technologies": [
-            "JavaScript", 
+            "Javascript", 
             "Ruby on Rails"
         ], 
         "top_source": [
@@ -37536,7 +37617,7 @@
             "Ruby on Rails", 
             "AngularJS", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "CSS", 
             "HTML", 
             "Algorithms", 
@@ -37548,7 +37629,7 @@
             "Ruby on Rails", 
             "AngularJS", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "CSS", 
             "HTML", 
             "Algorithms", 
@@ -37556,6 +37637,7 @@
             "Mobile", 
             "Rails", 
             "Ruby", 
+            "JavaScript", 
             "R", 
             "Android"
         ], 
@@ -37807,7 +37889,7 @@
             "Digital Marketing", 
             "Entrepreneurship", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "SEO"
         ], 
@@ -37820,7 +37902,7 @@
             "Digital Marketing", 
             "Entrepreneurship", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Python", 
             "SEO"
         ], 
@@ -37941,9 +38023,9 @@
         "su_technologies": [
             "AngularJS", 
             "CSS", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
@@ -37955,17 +38037,19 @@
         "technologies": [
             "AngularJS", 
             "CSS", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "MongoDB", 
             "Node.js", 
             "iOS", 
             "Mobile", 
             "Swift", 
+            "JavaScript", 
             "Git", 
             "User Experience Design", 
+            "Express.js", 
             "Design", 
             "Front End", 
             "PHP", 
@@ -37977,14 +38061,14 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Mobile Development"
         ], 
         "twitter": {
-            "followers": 8607, 
+            "followers": 8615, 
             "handle": "@VSCHOOLHQ", 
-            "tweets": 571
+            "tweets": 568
         }, 
         "visas": "No", 
         "website": "http://vschool.io/en/"
@@ -38143,9 +38227,9 @@
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "Git", 
@@ -38156,9 +38240,9 @@
         "subjects": "Node JS, React, React Native, AWS, Docker Containers", 
         "technologies": [
             "CSS", 
-            "Express.js", 
+            "Express", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "MongoDB", 
             "Node.js", 
             "Git", 
@@ -38167,7 +38251,9 @@
             "Web Services", 
             "MySQL", 
             "Front End", 
-            "React.js"
+            "Express.js", 
+            "React.js", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -38294,7 +38380,7 @@
         "twitter": {
             "followers": 27800, 
             "handle": "@vikingeducation", 
-            "tweets": 1454
+            "tweets": 1453
         }, 
         "visas": "No", 
         "website": "http://www.vikingcodeschool.com/"
@@ -38429,7 +38515,7 @@
             "CSS", 
             "HTML", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "Python", 
@@ -38441,13 +38527,14 @@
             "CSS", 
             "HTML", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             ".NET", 
             "Python", 
             "Ruby", 
             "Data Science", 
-            "SQL"
+            "SQL", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -38581,7 +38668,7 @@
             "C++", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "AngularJS", 
             "C#"
@@ -38591,10 +38678,11 @@
             "C++", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             ".NET", 
             "AngularJS", 
             "C#", 
+            "JavaScript", 
             "jQuery", 
             "Git", 
             "SQL", 
@@ -38772,7 +38860,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "MongoDB", 
@@ -38793,7 +38881,7 @@
             "Design Principles", 
             "Git", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Linux", 
             "MongoDB", 
@@ -38806,7 +38894,8 @@
             "SQL", 
             "AngularJS", 
             "Rails", 
-            "Ruby"
+            "Ruby", 
+            "JavaScript"
         ], 
         "top_source": [
             "CourseReport"
@@ -38919,7 +39008,7 @@
         "su_technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby", 
             "Ruby on Rails"
         ], 
@@ -38927,10 +39016,11 @@
         "technologies": [
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "Ruby", 
             "Ruby on Rails", 
             "Front End", 
+            "JavaScript", 
             "Git", 
             "Rails", 
             "jQuery", 
@@ -39247,7 +39337,7 @@
             "Git", 
             "HTML", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Ruby on Rails", 
             "UX"
@@ -39260,7 +39350,7 @@
             "Git", 
             "HTML", 
             "iOS", 
-            "JavaScript", 
+            "Javascript", 
             "Mobile", 
             "Ruby on Rails", 
             "UX", 
@@ -39272,6 +39362,7 @@
             "Design", 
             "Product Management", 
             "User Experience Design", 
+            "JavaScript", 
             "Rails", 
             "Ruby", 
             "MySQL", 
@@ -39292,7 +39383,7 @@
         "twitter": {
             "followers": 2298, 
             "handle": "@Worldtechmaker", 
-            "tweets": 2506
+            "tweets": 2505
         }, 
         "visas": "Yes", 
         "website": "http://worldtechmakers.com/"
@@ -39417,7 +39508,7 @@
             "Node.js", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails"
@@ -39430,10 +39521,11 @@
             "Node.js", 
             "CSS", 
             "HTML", 
-            "JavaScript", 
+            "Javascript", 
             "jQuery", 
             "Ruby", 
             "Ruby on Rails", 
+            "JavaScript", 
             "Rails", 
             "R"
         ], 
@@ -39590,7 +39682,7 @@
             "Design Principles", 
             "Git", 
             "Java", 
-            "JavaScript"
+            "Javascript"
         ], 
         "subjects": "Java, JavaScript", 
         "technologies": [
@@ -39598,8 +39690,9 @@
             "Design Principles", 
             "Git", 
             "Java", 
-            "JavaScript", 
+            "Javascript", 
             "AngularJS", 
+            "JavaScript", 
             "HTML", 
             "CSS"
         ], 
@@ -39609,7 +39702,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7061, 
+            "followers": 7060, 
             "handle": "@zipcodewilm", 
             "tweets": 2965
         }, 
@@ -39769,7 +39862,7 @@
             "Girl Develop It", 
             "Boole Institute"
         ], 
-        "Date/Time": "2016-09-08 12:23:10", 
+        "Date/Time": "2016-09-08 11:50:20", 
         "Days Out": -4, 
         "Detroit": [
             "Grand Circus", 
@@ -40001,7 +40094,8 @@
         }, 
         "technologies": {
             ".NET": 39, 
-            "ASP.NET": 16, 
+            "ASP.NET": 15, 
+            "ASP.NET ": 1, 
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
             "Android": 35, 
@@ -40024,7 +40118,8 @@
             "Drupal": 1, 
             "Entrepreneurship": 12, 
             "Excel": 7, 
-            "Express.js": 49, 
+            "Express": 22, 
+            "Express.js": 37, 
             "Front End": 85, 
             "Game Design": 2, 
             "Game Development": 6, 
@@ -40035,7 +40130,8 @@
             "Hadoop": 17, 
             "Illustrator": 8, 
             "Java": 47, 
-            "JavaScript": 234, 
+            "JavaScript": 197, 
+            "Javascript": 117, 
             "Linux": 7, 
             "Mobile": 51, 
             "MongoDB": 71, 
@@ -40048,7 +40144,8 @@
             "Phonegap": 2, 
             "Photoshop": 10, 
             "PostgreSQL": 16, 
-            "Product Management": 27, 
+            "Product Management": 24, 
+            "Product Mgmt": 6, 
             "Python": 62, 
             "R": 23, 
             "Rails": 78, 
@@ -40062,7 +40159,7 @@
             "SQL Server Administration": 1, 
             "Sales": 9, 
             "Scala": 2, 
-            "SharePoint": 1, 
+            "SharePoint \u200b ": 1, 
             "Sinatra": 21, 
             "Spark": 9, 
             "Spring MVC": 1, 

@@ -75,6 +75,32 @@ class CaughtDuplicateNames(object):
         
         return item
 
+class TechnologyListingFixes(object):
+
+    def process_item(self, item, spider):
+        caught_issues = ['2016', 'September 30', 'Rolling Dates', 'October 18']
+        fields = ['technologies', 'cr_technologies', 'su_technologies']
+
+        for field in fields:
+            try:
+                for i, tech in enumerate(item[field]):
+                    if tech == 'Javascript':
+                        item[field][i] = 'JavaScript'
+                    if tech == 'Express':
+                        item[field][i] = 'Express.js'
+                    if tech == 'Product Mgmt':
+                        item[field][i] = 'Product Management'
+                    if tech[0:10] == 'SharePoint':
+                        item[field][i] = 'SharePoint'
+                    if tech[-1] == ' ':
+                        item[field][i] = tech[:-1]
+                    if tech in caught_issues:
+                        item[field].remove(tech)
+            except (KeyError, TypeError):
+                continue
+
+        return item
+
 class DuplicatesPipeline(object):
 
     def __init__(self):

@@ -21,6 +21,7 @@ NEWSPIDER_MODULE = 'bootcamp_info.spiders'
 ITEM_PIPELINES = {  #'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
                     #'bootcamp_info.pipelines.DuplicatesPipeline': 10,
                     'bootcamp_info.pipelines.CaughtDuplicateNames': 15,
+                    'bootcamp_info.pipelines.TechnologyListingFixes': 17,
                     'bootcamp_info.pipelines.TrackingGroupTags': 20,
                     'bootcamp_info.pipelines.EmptyChecker': 30,
                     #'scrapy.pipelines.images.ImagesPipeline': 100,
