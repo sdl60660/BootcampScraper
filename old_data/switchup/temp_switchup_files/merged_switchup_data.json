@@ -3058,27 +3058,6 @@
         "tracking_groups": [], 
         "website": "http://codeingenious.com/"
     }, 
-    "Code Institute": {
-        "average_salary": 30, 
-        "class_ratio": "1:10 ", 
-        "courses": {}, 
-        "general_cost": null, 
-        "hiring_rate": 94.0, 
-        "last_updated": "2016-09-08", 
-        "locations": null, 
-        "name": "Code Institute", 
-        "num_alumni": 40, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": "Coding Bootcamps, Web Development, Computer Programming, Full Stack, Python, CSS, HTML, 12 Weeks, ", 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://www.codeinstitute.net/"
-    }, 
     "Code Union": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -6090,55 +6069,6 @@
         "tracking_groups": [], 
         "website": "https://devmounta.in/?utm_source=switchup&utm_medium=display&utm_campaign=Switchup"
     }, 
-    "Dev/Iowa Bootcamp": {
-        "average_salary": "N/A", 
-        "class_ratio": "No data", 
-        "courses": {
-            "Fullstack Development Course": {
-                "Class Size": 20, 
-                "Cost": 0, 
-                "Hours/Week": 50, 
-                "Length": 8, 
-                "Location": [
-                    "Iowa City"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "HTML", 
-                    "Javascript"
-                ], 
-                "Title": "Fullstack Development Course"
-            }
-        }, 
-        "general_cost": "$", 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Iowa City"
-        ], 
-        "name": "Dev/Iowa Bootcamp", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": [
-            "CSS", 
-            "HTML", 
-            "JavaScript"
-        ], 
-        "subjects": " JavaScript, HTML, CSS", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "JavaScript"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://www.iowajpec.org/entrepreneur-support/deviowa/"
-    }, 
     "Devatory": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -6964,30 +6894,6 @@
         ], 
         "tracking_groups": [], 
         "website": "www.digitalprofessionalinstitute.com"
-    }, 
-    "Digital Unicorn": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": null, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "London"
-        ], 
-        "name": "Digital Unicorn", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "https://digitalunicorn.co.uk/"
     }, 
     "Digitalcrafts": {
         "average_salary": "N/A", 
@@ -11059,6 +10965,27 @@
         ], 
         "tracking_groups": [], 
         "website": "http://makersquare.com"
+    }, 
+    "Manifest Agility Boot Camp": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": "$$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": null, 
+        "name": "Manifest Agility Boot Camp", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://manifestcorp.com/manifest-agility-bootcamp/"
     }, 
     "Marcademy": {
         "average_salary": "N/A", 
@@ -16857,11 +16784,12 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "Cleveland"
+            "Cleveland", 
+            "Columbus"
         ], 
         "name": "We Can Code It", 
         "num_alumni": "N/A", 
-        "num_locations": 1, 
+        "num_locations": 2, 
         "scholarships": "You will automatically...", 
         "su_num_reviews": 4, 
         "su_rating": 4.7, 
@@ -16889,7 +16817,8 @@
         ], 
         "tracking_groups": [
             "Current Market", 
-            "Cleveland"
+            "Cleveland", 
+            "Columbus"
         ], 
         "website": "http://bootcamp.wecancodeit.org/"
     }, 
@@ -17466,33 +17395,34 @@
         ], 
         "Cleveland": [
             "Tech Elevator", 
-            "We Can Code It", 
             "The Software Guild", 
+            "We Can Code It", 
             "Acadgild"
         ], 
         "Columbus": [
             "Tech Elevator", 
+            "We Can Code It", 
             "Girl Develop It"
         ], 
         "Current Market": [
             "Tech Elevator", 
-            "We Can Code It", 
             "The Software Guild", 
+            "We Can Code It", 
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 13:54:22", 
+        "Date/Time": "2016-09-08 14:22:43", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
+            "Become A Developer Bootcamp (Java)", 
             "Software Tester Bootcamp", 
             "Girl Develop It", 
-            "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 268, 
+        "Number of Entries": 266, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
@@ -17500,14 +17430,14 @@
             "Brainstation", 
             "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Become A Developer Bootcamp ( Net)", 
             "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
+            "Become A Developer Bootcamp ( Net)", 
+            "Become A Developer Bootcamp (Java)", 
             "Software Tester Bootcamp", 
             "Girl Develop It", 
-            "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
@@ -17557,7 +17487,7 @@
             "Chicago": 20, 
             "Cincinnati": 3, 
             "Cleveland": 4, 
-            "Columbus": 2, 
+            "Columbus": 3, 
             "Copenhagen": 1, 
             "Cork": 1, 
             "Costa Rica": 1, 
@@ -17576,7 +17506,6 @@
             "Honolulu": 3, 
             "Houston": 5, 
             "Indianapolis": 3, 
-            "Iowa City": 1, 
             "Jersey City": 1, 
             "Kansas City": 3, 
             "Kuala Lumpur": 1, 
@@ -17588,7 +17517,7 @@
             "Lexington": 1, 
             "Lille": 1, 
             "Lisbon": 1, 
-            "London": 14, 
+            "London": 13, 
             "Los Angeles": 15, 
             "Louisville": 2, 
             "Madison": 1, 
@@ -17661,7 +17590,7 @@
             "C": 3, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 104, 
+            "CSS": 103, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
@@ -17676,11 +17605,11 @@
             "Express.js": 22, 
             "Game Design": 2, 
             "Git": 54, 
-            "HTML": 111, 
+            "HTML": 110, 
             "Hadoop": 1, 
             "Illustrator": 8, 
             "Java": 19, 
-            "JavaScript": 117, 
+            "JavaScript": 116, 
             "Linux": 7, 
             "Mobile": 19, 
             "MongoDB": 29, 

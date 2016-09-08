@@ -1671,7 +1671,7 @@
                 "Class Size": 10, 
                 "Cost": 1399, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1685,7 +1685,7 @@
                 "Class Size": 10, 
                 "Cost": 1099, 
                 "Hours/Week": 12, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1699,7 +1699,7 @@
                 "Class Size": 20, 
                 "Cost": 279, 
                 "Hours/Week": 8, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1713,7 +1713,7 @@
                 "Class Size": 20, 
                 "Cost": 625, 
                 "Hours/Week": 16, 
-                "Length": "2 weeks", 
+                "Length": 2, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1727,7 +1727,7 @@
                 "Class Size": 10, 
                 "Cost": 1199, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1741,7 +1741,7 @@
                 "Class Size": 10, 
                 "Cost": 1249, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1755,7 +1755,7 @@
                 "Class Size": 10, 
                 "Cost": 1299, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -1769,7 +1769,7 @@
                 "Class Size": 10, 
                 "Cost": 1099, 
                 "Hours/Week": 40, 
-                "Length": "1 weeks", 
+                "Length": 1, 
                 "Location": [
                     "Boulder"
                 ], 
@@ -7783,7 +7783,7 @@
                 "Class Size": null, 
                 "Cost": 5000, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Melbourne", 
                     "Sydney", 
@@ -7802,7 +7802,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Sydney", 
                     "Washington"
@@ -7820,7 +7820,7 @@
                 "Class Size": null, 
                 "Cost": 6000, 
                 "Hours/Week": null, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Sydney"
                 ], 
@@ -10514,7 +10514,7 @@
                 "Class Size": 10, 
                 "Cost": 195, 
                 "Hours/Week": 7, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -10529,7 +10529,7 @@
                 "Class Size": 20, 
                 "Cost": 10000, 
                 "Hours/Week": 70, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Orange County"
                 ], 
@@ -17574,7 +17574,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 13:39:51", 
+        "Date/Time": "2016-09-08 13:54:23", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 

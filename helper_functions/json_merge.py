@@ -159,16 +159,15 @@ for name in output_dict:
     except (KeyError, TypeError):
         pass
 
-    #caught_issues = ['2016', 'September 30', 'Rolling Dates', 'October 18']
     try:
         for tech in output_dict[name]['technologies']:
-            
+
             if tech in tech_dict:
                 tech_dict[tech] += 1
             else:
-                if len(tech) > 1 or tech == 'R' or tech == 'C':
-                    if tech not in loc_dict:
-                        tech_dict[tech] = 1
+                #if len(tech) > 1 or tech == 'R' or tech == 'C':
+                if tech not in loc_dict:
+                    tech_dict[tech] = 1
     except (KeyError, TypeError):
         pass
 

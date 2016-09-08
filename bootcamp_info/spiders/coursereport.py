@@ -146,6 +146,8 @@ class CourseReportSpider(scrapy.Spider):
                     
                     topic_xpath = course_array_xpath + '[' + str(y + 1) + ']//*[@class="focus"]/a/text()'
                     topics = Selector(response).xpath(topic_xpath).extract()
+                    if type(topics) == str or type(topics) == unicode:
+                        topics = [topics]
                     for topic in topics:
                         if topic not in technologies:
                             technologies.append(topic)
@@ -354,28 +356,29 @@ class CourseReportSpider(scrapy.Spider):
         handle = '@' + str(handle)
         twitter['handle'] = handle
 
-        tweets = Selector(response).xpath('//a[@data-nav="tweets"]//*[@class="ProfileNav-value"]/text()').extract()[0]
-        
         try:
-            tweets = int(''.join(tweets.split(',')))
-        except ValueError:
-            if tweets[-1] == 'K':
-                tweets = (tweets[:-1]).split('.')
-                if len(tweets) > 1:
-                    tweets = int(1000*int(tweets[0]))+(100*int(tweets[1]))
-                else:
-                    tweets = int(1000*int(tweets[0]))
-            elif tweets[-1] == 'M':
-                tweets = (tweets[:-1]).split('.')
-                if len(tweets) > 1:
-                    tweets = int(1000000*int(tweets[0]))+(100000*int(tweets[1]))
-                else:
-                    tweets = int(1000000*int(tweets[0]))
+            tweets = Selector(response).xpath('//a[@data-nav="tweets"]//*[@class="ProfileNav-value"]/text()').extract()[0]
+            try:
+                tweets = int(''.join(tweets.split(',')))
+            except ValueError:
+                if tweets[-1] == 'K':
+                    tweets = (tweets[:-1]).split('.')
+                    if len(tweets) > 1:
+                        tweets = int(1000*int(tweets[0]))+(100*int(tweets[1]))
+                    else:
+                        tweets = int(1000*int(tweets[0]))
+                elif tweets[-1] == 'M':
+                    tweets = (tweets[:-1]).split('.')
+                    if len(tweets) > 1:
+                        tweets = int(1000000*int(tweets[0]))+(100000*int(tweets[1]))
+                    else:
+                        tweets = int(1000000*int(tweets[0]))
 
-            else:
-                pass
-
-        twitter['tweets'] = tweets
+                else:
+                    pass
+            twitter['tweets'] = tweets
+        except IndexError:
+            pass
 
         followers = Selector(response).xpath('//a[@data-nav="followers"]//*[@class="ProfileNav-value"]/text()').extract()[0]
         try:

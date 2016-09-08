@@ -134,6 +134,8 @@ class SwitchupSpider(scrapy.Spider):
                     while index_tuples[info_index][0] != 'Description' and info_index < len(index_tuples):
                         if index_tuples[info_index][0] == 'Subjects':
                             subjects = index_tuples[info_index][1].split(', ')
+                            if type(subjects) == str or type(subjects) == unicode:
+                                subjects = [subjects]
                             course[index_tuples[info_index][0]] = subjects
                             for tech in subjects:
                                 if tech not in technologies:
