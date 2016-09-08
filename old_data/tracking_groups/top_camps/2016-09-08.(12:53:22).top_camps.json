@@ -44,7 +44,7 @@
         "cr_technologies": [
             "JavaScript", 
             "HTML", 
-            "Ruby on Rails", 
+            "Rails", 
             "SQL", 
             "Sinatra", 
             "Ruby", 
@@ -94,7 +94,8 @@
             "Ruby", 
             "Ruby on Rails", 
             "Sinatra", 
-            "SQL"
+            "SQL", 
+            "Rails"
         ], 
         "top_source": [
             "CourseReport"
@@ -1235,7 +1236,7 @@
             "JavaScript", 
             "MongoDB", 
             "HTML", 
-            "Ruby on Rails", 
+            "Rails", 
             "jQuery", 
             "Ruby", 
             "CSS", 
@@ -1345,6 +1346,7 @@
             "User Experience Design", 
             "AngularJS", 
             "MongoDB", 
+            "Rails", 
             "jQuery", 
             "Node.js", 
             "Git", 
@@ -1371,14 +1373,14 @@
             "Top Camp"
         ], 
         "tracks": [
-            "Other", 
+            "Data Science", 
+            "Full-Stack Web Development", 
             "Product Management", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Data Science", 
-            "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 100000, 
@@ -1690,7 +1692,7 @@
             "Mobile", 
             "JavaScript", 
             "HTML", 
-            "Ruby on Rails", 
+            "Rails", 
             "Ruby", 
             "CSS", 
             "Front End", 
@@ -1744,6 +1746,7 @@
             "Swift", 
             "Xcode", 
             "Mobile", 
+            "Rails", 
             "Ruby", 
             "Front End", 
             "PHP", 
@@ -1767,7 +1770,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8659, 
+            "followers": 8658, 
             "handle": "@ironhack", 
             "tweets": 3357
         }, 
@@ -1922,7 +1925,7 @@
         "cr_rating": 3.4, 
         "cr_technologies": [
             "HTML", 
-            "Ruby on Rails", 
+            "Rails", 
             "Ruby", 
             "CSS", 
             "JavaScript", 
@@ -2003,6 +2006,7 @@
             "Mobile", 
             "Objective-C", 
             "Swift", 
+            "Rails", 
             "Xcode", 
             "jQuery", 
             "Python", 

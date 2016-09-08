@@ -86,6 +86,8 @@ class TechnologyListingFixes(object):
                 for i, tech in enumerate(item[field]):
                     if tech == 'Javascript':
                         item[field][i] = 'JavaScript'
+                    if tech == 'Rails':
+                        item[field][i] = 'Ruby on Rails'
                     if tech == 'Express':
                         item[field][i] = 'Express.js'
                     if tech == 'Product Mgmt':
@@ -98,6 +100,61 @@ class TechnologyListingFixes(object):
                         item[field].remove(tech)
             except (KeyError, TypeError):
                 continue
+
+        try:
+            for c, course in enumerate(item['courses']):
+                for i, tech in enumerate(course['Subjects']):
+                    if tech == 'Javascript':
+                        item['courses'][i] = 'JavaScript'
+                    if tech == 'Rails':
+                        item['courses'][i] = 'Ruby on Rails'
+                    if tech == 'Express':
+                        item['courses'][i] = 'Express.js'
+                    if tech == 'Product Mgmt':
+                        item['courses'][i] = 'Product Management'
+                    if tech[0:10] == 'SharePoint':
+                        item['courses'][i] = 'SharePoint'
+                    if tech[-1] == ' ':
+                        item['courses'][i] = tech[:-1]
+                    if tech in caught_issues:
+                        item['courses'].remove(tech)
+        except (KeyError, TypeError):
+            pass
+
+        return item
+
+class LocationFixes(object):
+
+    def process_item(self, item, spider):
+        #caught_issues = []
+        #fields = ['technologies', 'cr_technologies', 'su_technologies']
+
+        try:
+            for l, loc in enumerate(item['locations']):
+                if loc == 'NYC':
+                    item['locations'][l] = 'New York City'
+                if loc == 'St.Louis':
+                    item['locations'][l] = 'St. Louis'
+                if loc == 'Pheonix':
+                    item['locations'][l] = 'Phoenix'
+                if loc == 'Ottowa':
+                    item['locations'][l] = 'Ottawa'
+        except (KeyError, TypeError):
+            pass
+
+        try:
+            for c, course in enumerate(item['courses']):
+                for l, loc in enumerate(course['Location']):
+                    if loc == 'NYC':
+                        course['Location'][l] = 'New York City'
+                    if loc == 'St.Louis':
+                        course['Location'][l] = 'St. Louis'
+                    if loc == 'Pheonix':
+                        course['Location'][l] = 'Phoenix'
+                    if loc == 'Ottowa':
+                        course['Location'][l] = 'Ottawa'
+        except (KeyError, TypeError):
+            pass
 
         return item
 

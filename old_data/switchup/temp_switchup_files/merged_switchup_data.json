@@ -180,7 +180,7 @@
         "locations": [
             "Chicago", 
             "San Francisco", 
-            "NYC"
+            "New York City"
         ], 
         "name": "Actualize", 
         "num_alumni": "N/A", 
@@ -462,7 +462,7 @@
         "last_updated": "2016-09-08", 
         "locations": [
             "San Francisco", 
-            "NYC", 
+            "New York City", 
             "Austin", 
             "Chicago", 
             "Los Angeles", 
@@ -562,7 +562,7 @@
             "Boston", 
             "Denver", 
             "London", 
-            "NYC", 
+            "New York City", 
             "Portland", 
             "Raleigh", 
             "San Francisco", 
@@ -2130,7 +2130,7 @@
         "hiring_rate": 98.0, 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Byte Academy", 
         "num_alumni": "N/A", 
@@ -3294,6 +3294,27 @@
         "tracking_groups": [], 
         "website": "http://www.codea.mx"
     }, 
+    "Codecademy": {
+        "average_salary": "N/A", 
+        "class_ratio": "No data", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": null, 
+        "name": "Codecademy", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": 3, 
+        "su_rating": 4.5, 
+        "su_technologies": null, 
+        "subjects": "Web, Javascript, PHP, Ruby, Python, API", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.codecademy.com/"
+    }, 
     "Codecamp Charleston": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -4224,6 +4245,97 @@
         ], 
         "tracking_groups": [], 
         "website": "http://coderfactory.co/"
+    }, 
+    "Coder Foundry": {
+        "average_salary": 75000, 
+        "class_ratio": "1:7", 
+        "courses": {
+            "Full-Stack Immersive Course ": {
+                "Class Size": 15, 
+                "Cost": 13900, 
+                "Hours/Week": 40, 
+                "Length": "18 weeks", 
+                "Location": [
+                    "Greensboro"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Full-Stack Immersive Course "
+            }, 
+            "Full-Stack Immersive Course (Accelerated)": {
+                "Class Size": 15, 
+                "Cost": 9900, 
+                "Hours/Week": 40, 
+                "Length": "12 weeks", 
+                "Location": [
+                    "Charlotte", 
+                    "Greensboro"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Full-Stack Immersive Course (Accelerated)"
+            }
+        }, 
+        "general_cost": "$$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Greensboro", 
+            "Charlotte"
+        ], 
+        "name": "Coder Foundry", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "su_num_reviews": 28, 
+        "su_rating": 4.9, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": ".NET, Javascript, HTML5, CSS3, AngularJS, C#, MVC", 
+        "technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "website": "http://www.coderfoundry.com/apply?utm_source=switchup&utm_medium=reviewsite&utm_campaign=switchreview"
     }, 
     "Coder Manual": {
         "average_salary": "N/A", 
@@ -5699,7 +5811,7 @@
         "locations": [
             "Chicago", 
             "San Francisco", 
-            "NYC", 
+            "New York City", 
             "San Diego"
         ], 
         "name": "Dev Bootcamp", 
@@ -6853,6 +6965,30 @@
         "tracking_groups": [], 
         "website": "www.digitalprofessionalinstitute.com"
     }, 
+    "Digital Unicorn": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "London"
+        ], 
+        "name": "Digital Unicorn", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://digitalunicorn.co.uk/"
+    }, 
     "Digitalcrafts": {
         "average_salary": "N/A", 
         "class_ratio": "1:8", 
@@ -7881,7 +8017,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Fullstack Academy", 
         "num_alumni": "N/A", 
@@ -8451,7 +8587,7 @@
         "locations": [
             "Madrid", 
             "San Francisco", 
-            "NYC", 
+            "New York City", 
             "Boston", 
             "Los Angeles", 
             "Atlanta", 
@@ -8552,7 +8688,7 @@
             "Atlanta", 
             "Boise", 
             "Chicago", 
-            "Pheonix", 
+            "Phoenix", 
             "West Palm Beach", 
             "Indianapolis", 
             "Louisville", 
@@ -8562,19 +8698,19 @@
             "Detroit", 
             "Minneapolis", 
             "Kansas City", 
-            "St.Louis", 
+            "St. Louis", 
             "Camden", 
             "Albuquerque", 
             "Rochester", 
             "Buffalo", 
-            "NYC", 
+            "New York City", 
             "Charlotte", 
             "Raleigh", 
             "Cincinnati", 
             "Columbus", 
             "Providence", 
             "Dayton", 
-            "Ottowa", 
+            "Ottawa", 
             "Portland", 
             "Salt Lake City", 
             "Provo", 
@@ -8661,7 +8797,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Grace Hopper Academy", 
         "num_alumni": "N/A", 
@@ -9770,7 +9906,7 @@
         "last_updated": "2016-09-08", 
         "locations": [
             "Silicon Valley", 
-            "NYC"
+            "New York City"
         ], 
         "name": "Insight Data Science", 
         "num_alumni": 130, 
@@ -9920,7 +10056,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Ivy Data Science", 
         "num_alumni": "N/A", 
@@ -10718,7 +10854,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC", 
+            "New York City", 
             "San Francisco"
         ], 
         "name": "Make School", 
@@ -10882,7 +11018,7 @@
             "Austin", 
             "San Francisco", 
             "Los Angeles", 
-            "NYC"
+            "New York City"
         ], 
         "name": "Makersquare", 
         "num_alumni": 500, 
@@ -11111,7 +11247,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC", 
+            "New York City", 
             "San Francisco", 
             "Online"
         ], 
@@ -11544,7 +11680,7 @@
         "last_updated": "2016-09-08", 
         "locations": [
             "Los Angeles", 
-            "NYC"
+            "New York City"
         ], 
         "name": "New York Code And Design Academy", 
         "num_alumni": "N/A", 
@@ -12364,7 +12500,7 @@
         "locations": [
             "San Francisco", 
             "Silicon Valley", 
-            "NYC", 
+            "New York City", 
             "Los Angeles", 
             "Online", 
             "Seattle", 
@@ -12421,7 +12557,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Qa Camp", 
         "num_alumni": "N/A", 
@@ -13107,7 +13243,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Shillington School", 
         "num_alumni": "N/A", 
@@ -13649,30 +13785,6 @@
         ], 
         "website": "http://www.grandcircus.co"
     }, 
-    "Spiced Academy": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": null, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Berlin"
-        ], 
-        "name": "Spiced Academy", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://spiced-academy.com/"
-    }, 
     "Starter League": {
         "average_salary": 70000, 
         "class_ratio": "1 to 12", 
@@ -14000,7 +14112,7 @@
         "last_updated": "2016-09-08", 
         "locations": [
             "Boston", 
-            "NYC"
+            "New York City"
         ], 
         "name": "Startup Institute", 
         "num_alumni": 1200, 
@@ -14949,7 +15061,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "The Coded", 
         "num_alumni": "N/A", 
@@ -15039,7 +15151,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "The Data Incubator", 
         "num_alumni": 200, 
@@ -15131,7 +15243,7 @@
         "hiring_rate": 98.0, 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC", 
+            "New York City", 
             "Online"
         ], 
         "name": "The Flatiron School", 
@@ -15392,7 +15504,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "The Recurse Center, Aka Hacker School", 
         "num_alumni": "N/A", 
@@ -16029,7 +16141,7 @@
         "hiring_rate": "No data", 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Turn To Tech", 
         "num_alumni": "N/A", 
@@ -16537,7 +16649,7 @@
         "hiring_rate": 0.0, 
         "last_updated": "2016-09-08", 
         "locations": [
-            "NYC"
+            "New York City"
         ], 
         "name": "Velocity 360", 
         "num_alumni": "N/A", 
@@ -17331,48 +17443,48 @@
         ], 
         "Cleveland": [
             "Software Guild", 
-            "Tech Elevator", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
         "Columbus": [
-            "Tech Elevator", 
-            "Girl Develop It"
+            "Girl Develop It", 
+            "Tech Elevator"
         ], 
         "Current Market": [
             "Software Guild", 
-            "Tech Elevator", 
             "Girl Develop It", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 12:18:03", 
+        "Date/Time": "2016-09-08 13:21:09", 
         "Days Out": -4, 
         "Detroit": [
-            "Intensive Android Bootcamp", 
-            "Become A Developer Bootcamp ( Net)", 
             "Girl Develop It", 
+            "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
             "Become A Developer Bootcamp (Java)", 
+            "Intensive Android Bootcamp", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 265, 
+        "Number of Entries": 267, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
             "Brainstation", 
-            "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Become A Developer Bootcamp ( Net)", 
             "Girl Develop It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
             "Cincy Code It", 
+            "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
             "Become A Developer Bootcamp (Java)", 
+            "Intensive Android Bootcamp", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
@@ -17401,7 +17513,7 @@
             "Beirut": 1, 
             "Belo Horizonte": 1, 
             "Berkeley": 1, 
-            "Berlin": 2, 
+            "Berlin": 1, 
             "Bogota": 1, 
             "Boise": 2, 
             "Bordeaux": 1, 
@@ -17417,7 +17529,7 @@
             "Central Virginia": 1, 
             "Chapel Hill": 1, 
             "Charleston": 2, 
-            "Charlotte": 4, 
+            "Charlotte": 5, 
             "Chelmsford": 1, 
             "Chicago": 20, 
             "Cincinnati": 3, 
@@ -17434,6 +17546,7 @@
             "Fort Collins": 2, 
             "Fort Lauderdale": 1, 
             "Gainesville": 2, 
+            "Greensboro": 1, 
             "Greenville": 1, 
             "Ho Chi Minh": 1, 
             "Hong Kong": 2, 
@@ -17452,7 +17565,7 @@
             "Lexington": 1, 
             "Lille": 1, 
             "Lisbon": 1, 
-            "London": 13, 
+            "London": 14, 
             "Los Angeles": 15, 
             "Louisville": 2, 
             "Madison": 1, 
@@ -17465,21 +17578,21 @@
             "Milwaukee": 3, 
             "Minneapolis": 5, 
             "Montreal": 1, 
-            "NYC": 25, 
             "Nairobi": 1, 
             "Nantes": 1, 
             "Nashville": 3, 
             "New Orleans": 2, 
+            "New York City": 25, 
             "Newark": 1, 
             "Oakland": 1, 
             "Omaha": 2, 
             "Online": 29, 
             "Orange County": 4, 
             "Orlando": 1, 
-            "Ottowa": 1, 
+            "Ottawa": 1, 
             "Paris": 3, 
-            "Pheonix": 1, 
             "Philadelphia": 6, 
+            "Phoenix": 1, 
             "Pittsburgh": 1, 
             "Portland": 8, 
             "Providence": 2, 
@@ -17499,7 +17612,7 @@
             "Silicon Valley": 5, 
             "Singapore": 1, 
             "Somerset": 1, 
-            "St.Louis": 1, 
+            "St. Louis": 1, 
             "Stockholm": 1, 
             "Sydney": 5, 
             "S\u00e3o Paulo": 2, 
@@ -17515,17 +17628,17 @@
             "Woodside": 1
         }, 
         "technologies": {
-            ".NET": 18, 
+            ".NET": 19, 
             "ASP.NET": 1, 
             "ASP.NET MVC": 2, 
-            "Algorithms": 39, 
+            "Algorithms": 40, 
             "Android": 14, 
-            "AngularJS": 47, 
+            "AngularJS": 48, 
             "Business": 6, 
             "C": 3, 
-            "C#": 16, 
+            "C#": 17, 
             "C++": 4, 
-            "CSS": 103, 
+            "CSS": 104, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
@@ -17540,15 +17653,16 @@
             "Express.js": 22, 
             "Game Design": 2, 
             "Git": 54, 
-            "HTML": 110, 
+            "HTML": 111, 
             "Hadoop": 1, 
             "Illustrator": 8, 
             "Java": 19, 
-            "JavaScript": 116, 
+            "JavaScript": 117, 
             "Linux": 7, 
             "Mobile": 19, 
             "MongoDB": 29, 
             "MySQL": 23, 
+            "NYC": 2, 
             "Node.js": 43, 
             "Objective-C": 17, 
             "PHP": 15, 
@@ -17562,7 +17676,7 @@
             "Ruby": 23, 
             "Ruby on Rails": 57, 
             "SEO": 10, 
-            "SQL": 40, 
+            "SQL": 41, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
@@ -17581,7 +17695,7 @@
             "Windows Server": 1, 
             "Wordpress": 7, 
             "iOS": 28, 
-            "jQuery": 67
+            "jQuery": 68
         }
     }
 }
