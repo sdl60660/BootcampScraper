@@ -2146,7 +2146,6 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "NYC", 
             "Data Science", 
             "Data Structures", 
             "Hadoop"
@@ -2160,7 +2159,6 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "NYC", 
             "Data Science", 
             "Data Structures", 
             "Hadoop"
@@ -5532,20 +5530,60 @@
         "website": "http://deltaprogram.us/"
     }, 
     "Depot/U": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": "$$$", 
-        "hiring_rate": "No data", 
+        "average_salary": 55000, 
+        "class_ratio": "1:10", 
+        "courses": {
+            "Full Stack Development": {
+                "Class Size": 20, 
+                "Cost": 8000, 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "2017-02-20", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Express", 
+                    "HTML", 
+                    "Javascript", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js"
+                ], 
+                "Title": "Full Stack Development"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 82.0, 
         "last_updated": "2016-09-08", 
         "locations": null, 
         "name": "Depot/U", 
-        "num_alumni": "N/A", 
+        "num_alumni": 67, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Express.js", 
+            "HTML", 
+            "JavaScript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js"
+        ], 
+        "subjects": "HTML, CSS, JavaScript, TypeScript, MongoDB, AngularJS, NodeJS, jQuery, SQL", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Express.js", 
+            "HTML", 
+            "JavaScript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8590,7 +8628,6 @@
             "London", 
             "Los Angeles", 
             "Melbourne", 
-            "NYC", 
             "San Francisco", 
             "Seattle", 
             "Sydney", 
@@ -8616,7 +8653,6 @@
             "London", 
             "Los Angeles", 
             "Melbourne", 
-            "NYC", 
             "San Francisco", 
             "Seattle", 
             "Sydney", 
@@ -13183,13 +13219,9 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [
-            "NYC"
-        ], 
+        "su_technologies": [], 
         "subjects": "Design", 
-        "technologies": [
-            "NYC"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -17475,7 +17507,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 15:46:53", 
+        "Date/Time": "2016-09-08 16:18:48", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17650,11 +17682,11 @@
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
             "Android": 15, 
-            "AngularJS": 49, 
+            "AngularJS": 50, 
             "Business": 6, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 106, 
+            "CSS": 107, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
@@ -17666,20 +17698,19 @@
             "Django": 8, 
             "Drupal": 1, 
             "Entrepreneurship": 13, 
-            "Express.js": 22, 
+            "Express.js": 23, 
             "Game Design": 2, 
             "Git": 54, 
-            "HTML": 112, 
+            "HTML": 113, 
             "Hadoop": 1, 
             "Illustrator": 8, 
             "Java": 20, 
-            "JavaScript": 119, 
+            "JavaScript": 120, 
             "Linux": 7, 
             "Mobile": 19, 
-            "MongoDB": 29, 
-            "MySQL": 24, 
-            "NYC": 3, 
-            "Node.js": 43, 
+            "MongoDB": 30, 
+            "MySQL": 25, 
+            "Node.js": 44, 
             "Objective-C": 17, 
             "PHP": 16, 
             "Perl": 2, 

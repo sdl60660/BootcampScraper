@@ -17267,6 +17267,19 @@
         "average_salary": 50000, 
         "class_ratio": "1:4", 
         "courses": {
+            "Data Science For Programmers": {
+                "Cost": 200, 
+                "Hours/Week": 1, 
+                "Length": 0, 
+                "Location": [
+                    "Miami"
+                ], 
+                "Start Date": "2016-10-29", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Data Science for Programmers"
+            }, 
             "Ios Part-Time": {
                 "Class Size": 10, 
                 "Cost": 4000, 
@@ -17299,14 +17312,14 @@
             }, 
             "Web Development Bootcamp": {
                 "Class Size": 20, 
-                "Cost": 10000, 
+                "Cost": 11500, 
                 "Hours/Week": 56, 
-                "Length": 9, 
+                "Length": 10, 
                 "Location": [
                     "Fort Lauderdale", 
                     "Miami"
                 ], 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-03", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -17319,23 +17332,20 @@
             }
         }, 
         "general_cost": "$$", 
-        "hiring_rate": 92.0, 
+        "hiring_rate": 96.0, 
         "last_updated": "2016-09-08", 
         "locations": [
             "Miami", 
             "Fort Lauderdale"
         ], 
         "name": "Wyncode", 
-        "num_alumni": 50, 
+        "num_alumni": 300, 
         "num_locations": 2, 
         "scholarships": "Payment Plans Availabl...", 
         "su_num_reviews": 64, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "Node.js", 
+            "Data Science", 
             "CSS", 
             "HTML", 
             "JavaScript", 
@@ -17345,10 +17355,7 @@
         ], 
         "subjects": " Ruby, Ruby on Rails, HTML, CSS, JavaScript, jQuery, Node.js, Objective-C, Swift, Rails", 
         "technologies": [
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "Node.js", 
+            "Data Science", 
             "CSS", 
             "HTML", 
             "JavaScript", 
@@ -17507,7 +17514,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 16:18:48", 
+        "Date/Time": "2016-09-08 17:10:13", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17691,7 +17698,7 @@
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
-            "Data Science": 16, 
+            "Data Science": 17, 
             "Data Structures": 25, 
             "Design Principles": 23, 
             "Digital Marketing": 12, 
@@ -17710,8 +17717,8 @@
             "Mobile": 19, 
             "MongoDB": 30, 
             "MySQL": 25, 
-            "Node.js": 44, 
-            "Objective-C": 17, 
+            "Node.js": 43, 
+            "Objective-C": 16, 
             "PHP": 16, 
             "Perl": 2, 
             "Phonegap": 2, 
@@ -17731,7 +17738,7 @@
             "SharePoint": 1, 
             "Sinatra": 8, 
             "Spring MVC": 1, 
-            "Swift": 23, 
+            "Swift": 22, 
             "UNIX": 1, 
             "UX": 34, 
             "VB.NET": 1, 
@@ -17740,7 +17747,7 @@
             "Web Services": 2, 
             "Windows Server": 1, 
             "Wordpress": 7, 
-            "iOS": 28, 
+            "iOS": 27, 
             "jQuery": 69
         }
     }

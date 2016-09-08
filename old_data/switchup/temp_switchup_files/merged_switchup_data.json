@@ -3268,30 +3268,6 @@
         "tracking_groups": [], 
         "website": "http://www.codecademy.com/"
     }, 
-    "Codeacamp": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": null, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Mexico City"
-        ], 
-        "name": "Codeacamp", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://www.codea.mx"
-    }, 
     "Codecademy": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -8814,147 +8790,6 @@
         "tracking_groups": [], 
         "website": "http://gracehopper.com/?utm_source=SwitchUp&utm_medium=banner&utm_campaign=november_promo"
     }, 
-    "Grand Circus": {
-        "average_salary": "N/A", 
-        "class_ratio": "1:8", 
-        "courses": {
-            "Front-End Bootcamp": {
-                "Cost": 7500, 
-                "Hours/Week": 50, 
-                "Length": 10, 
-                "Location": [
-                    "Detroit"
-                ], 
-                "Start Date": "2016-10-24", 
-                "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery"
-                ], 
-                "Title": "Front-end Bootcamp"
-            }, 
-            "Front-End Bootcamp (Javascript)": {
-                "Cost": 7500, 
-                "Hours/Week": 50, 
-                "Length": 10, 
-                "Location": [
-                    "Detroit"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery"
-                ], 
-                "Title": "Front-end Bootcamp (JavaScript)"
-            }, 
-            "Front-End Bootcamp (Part-Time)": {
-                "Cost": 7500, 
-                "Hours/Week": 20, 
-                "Length": 14, 
-                "Location": [
-                    "Detroit"
-                ], 
-                "Start Date": "2016-10-03", 
-                "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery"
-                ], 
-                "Title": "Front-end Bootcamp (Part-time)"
-            }, 
-            "Intro To Web Development Part 1: Html + Css": {
-                "Cost": 495, 
-                "Hours/Week": 4, 
-                "Length": 3, 
-                "Location": [
-                    "Detroit"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "HTML"
-                ], 
-                "Title": "Intro to Web Development Part 1: HTML + CSS"
-            }, 
-            "Intro To Web Development Part 2: Javascript + Jquery": {
-                "Cost": 1495, 
-                "Hours/Week": 4, 
-                "Length": 6, 
-                "Location": [
-                    "Detroit"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Javascript", 
-                    "jQuery"
-                ], 
-                "Title": "Intro to Web Development Part 2: JavaScript + jQuery"
-            }, 
-            "Java Bootcamp": {
-                "Cost": 7500, 
-                "Hours/Week": 50, 
-                "Length": 10, 
-                "Location": [
-                    "Detroit"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Java", 
-                    "MySQL"
-                ], 
-                "Title": "Java Bootcamp"
-            }
-        }, 
-        "general_cost": "$$", 
-        "hiring_rate": 92.0, 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Detroit"
-        ], 
-        "name": "Grand Circus", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "scholarships": "$1,000 Automatic Schol...", 
-        "su_num_reviews": 12, 
-        "su_rating": 5.0, 
-        "su_technologies": [
-            "CSS", 
-            "HTML", 
-            "AngularJS", 
-            "JavaScript", 
-            "jQuery", 
-            "Git", 
-            "Java", 
-            "MySQL"
-        ], 
-        "subjects": "Java, .NET, Javascript, HTML, CSS", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "AngularJS", 
-            "JavaScript", 
-            "jQuery", 
-            "Git", 
-            "Java", 
-            "MySQL"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [
-            "Java/.NET", 
-            "Potential Market", 
-            "Detroit"
-        ], 
-        "website": "http://www.grandcircus.co/"
-    }, 
     "Hack Pacific": {
         "average_salary": "N/A", 
         "class_ratio": "1:5", 
@@ -9485,6 +9320,27 @@
         ], 
         "tracking_groups": [], 
         "website": "http://hackschool.com.mx/"
+    }, 
+    "Hacktiv8": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": null, 
+        "name": "Hacktiv8", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": ""
     }, 
     "Helio Training Bootcamp": {
         "average_salary": "N/A", 
@@ -11794,30 +11650,6 @@
         "tracking_groups": [], 
         "website": "http://www.nextacademy.com/"
     }, 
-    "Northwestern Coding Bootcamp": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": null, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Chicago"
-        ], 
-        "name": "Northwestern Coding Bootcamp", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "https://codingbootcamp.northwestern.edu/"
-    }, 
     "Ns Screencasts": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -12040,92 +11872,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://origincodeacademy.com"
-    }, 
-    "Pdx Code Guild": {
-        "average_salary": 40, 
-        "class_ratio": "1 to 12", 
-        "courses": {
-            "Python-Based Junior Developer Bootcamp - Evening": {
-                "Class Size": 22, 
-                "Cost": 3300, 
-                "Hours/Week": 20, 
-                "Length": 16, 
-                "Location": [
-                    "Portland"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "Django", 
-                    "Git", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery", 
-                    "Python", 
-                    "SQL"
-                ], 
-                "Title": "Python-Based Junior Developer Bootcamp - Evening"
-            }, 
-            "Python-Based Junior Developer Bootcamp- Full Time": {
-                "Class Size": 22, 
-                "Cost": 3300, 
-                "Hours/Week": 35, 
-                "Length": 12, 
-                "Location": [
-                    "Portland"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "Django", 
-                    "Git", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery", 
-                    "Python", 
-                    "SQL"
-                ], 
-                "Title": "Python-Based Junior Developer Bootcamp- Full time"
-            }
-        }, 
-        "general_cost": "$", 
-        "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Portland"
-        ], 
-        "name": "Pdx Code Guild", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "scholarships": "Some scholarships are ...", 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "su_technologies": [
-            "CSS", 
-            "Django", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "Python", 
-            "SQL"
-        ], 
-        "subjects": " Python, Django, JavaScriprt, SQL, HTML, CSS, Git, ", 
-        "technologies": [
-            "CSS", 
-            "Django", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "Python", 
-            "SQL"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://pdxcodeguild.com"
     }, 
     "Philly Dev Camp": {
         "average_salary": "N/A", 
@@ -14288,6 +14034,65 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.talentbuddy.co/"
+    }, 
+    "Tealeaf": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "Build Production Quality Applications": {
+                "Class Size": null, 
+                "Hours/Week": null, 
+                "Length": 8, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Build Production Quality Applications"
+            }, 
+            "Introduction To Ruby And Web Development": {
+                "Class Size": null, 
+                "Hours/Week": null, 
+                "Length": 4, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Introduction to Ruby and Web Development"
+            }, 
+            "Rapid Prototyping With Ruby On Rails": {
+                "Class Size": null, 
+                "Hours/Week": null, 
+                "Length": 4, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Rapid Prototyping with Ruby on Rails"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Online"
+        ], 
+        "name": "Tealeaf", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
+        "subjects": "Ruby", 
+        "technologies": [
+            "Ruby on Rails"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://gotealeaf.com"
     }, 
     "Tech Bootcamps": {
         "average_salary": "N/A", 
@@ -17096,46 +16901,29 @@
         "average_salary": 50000, 
         "class_ratio": "1:4", 
         "courses": {
-            "Ios Part-Time": {
-                "Class Size": 10, 
-                "Cost": 4000, 
-                "Hours/Week": 15, 
-                "Length": 6, 
+            "Data Science For Programmers": {
+                "Cost": 200, 
+                "Hours/Week": 1, 
+                "Length": 0, 
                 "Location": [
                     "Miami"
                 ], 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-29", 
                 "Subjects": [
-                    "iOS", 
-                    "Objective-C", 
-                    "Swift"
+                    "Data Science"
                 ], 
-                "Title": "iOS Part-Time"
-            }, 
-            "Node.Js Part-Time": {
-                "Class Size": 10, 
-                "Cost": 3000, 
-                "Hours/Week": 15, 
-                "Length": 6, 
-                "Location": [
-                    "Miami"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Node.js"
-                ], 
-                "Title": "Node.js Part-Time"
+                "Title": "Data Science for Programmers"
             }, 
             "Web Development Bootcamp": {
                 "Class Size": 20, 
-                "Cost": 10000, 
+                "Cost": 11500, 
                 "Hours/Week": 56, 
-                "Length": 9, 
+                "Length": 10, 
                 "Location": [
                     "Fort Lauderdale", 
                     "Miami"
                 ], 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-03", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -17148,23 +16936,20 @@
             }
         }, 
         "general_cost": "$$", 
-        "hiring_rate": 92.0, 
+        "hiring_rate": 96.0, 
         "last_updated": "2016-09-08", 
         "locations": [
             "Miami", 
             "Fort Lauderdale"
         ], 
         "name": "Wyncode", 
-        "num_alumni": 50, 
+        "num_alumni": 300, 
         "num_locations": 2, 
         "scholarships": "Payment Plans Availabl...", 
         "su_num_reviews": 64, 
         "su_rating": 5.0, 
         "su_technologies": [
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "Node.js", 
+            "Data Science", 
             "CSS", 
             "HTML", 
             "JavaScript", 
@@ -17174,10 +16959,7 @@
         ], 
         "subjects": " Ruby, Ruby on Rails, HTML, CSS, JavaScript, jQuery, Node.js, Objective-C, Swift, Rails", 
         "technologies": [
-            "iOS", 
-            "Objective-C", 
-            "Swift", 
-            "Node.js", 
+            "Data Science", 
             "CSS", 
             "HTML", 
             "JavaScript", 
@@ -17317,35 +17099,34 @@
             "The Iron Yard"
         ], 
         "Cleveland": [
-            "The Software Guild", 
             "We Can Code It", 
+            "The Software Guild", 
             "Tech Elevator", 
             "Acadgild"
         ], 
         "Columbus": [
+            "Girl Develop It", 
             "We Can Code It", 
-            "Tech Elevator", 
-            "Girl Develop It"
+            "Tech Elevator"
         ], 
         "Current Market": [
-            "The Software Guild", 
-            "We Can Code It", 
-            "Tech Elevator", 
             "Girl Develop It", 
+            "We Can Code It", 
+            "The Software Guild", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 16:18:47", 
+        "Date/Time": "2016-09-08 17:10:11", 
         "Days Out": -4, 
         "Detroit": [
+            "Girl Develop It", 
             "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
-            "Girl Develop It", 
             "Become A Developer Bootcamp (Java)", 
-            "The Iron Yard", 
-            "Grand Circus"
+            "The Iron Yard"
         ], 
-        "Number of Entries": 267, 
+        "Number of Entries": 265, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
@@ -17354,15 +17135,14 @@
             "Hackeryou", 
             "Cincy Code It", 
             "Lighthouse Labs", 
+            "Girl Develop It", 
             "Red Academy", 
             "Bitmaker Labs", 
             "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
-            "Girl Develop It", 
             "Become A Developer Bootcamp (Java)", 
-            "The Iron Yard", 
-            "Grand Circus"
+            "The Iron Yard"
         ], 
         "Toronto": [
             "Brainstation", 
@@ -17407,7 +17187,7 @@
             "Charleston": 2, 
             "Charlotte": 5, 
             "Chelmsford": 1, 
-            "Chicago": 20, 
+            "Chicago": 19, 
             "Cincinnati": 3, 
             "Cleveland": 4, 
             "Columbus": 3, 
@@ -17417,7 +17197,7 @@
             "Dallas": 11, 
             "Dayton": 1, 
             "Denver": 8, 
-            "Detroit": 7, 
+            "Detroit": 6, 
             "Fayetteville": 1, 
             "Fort Collins": 2, 
             "Fort Lauderdale": 1, 
@@ -17448,7 +17228,7 @@
             "Madrid": 2, 
             "Medellin": 1, 
             "Melbourne": 2, 
-            "Mexico City": 2, 
+            "Mexico City": 1, 
             "Miami": 5, 
             "Milan": 1, 
             "Milwaukee": 3, 
@@ -17462,7 +17242,7 @@
             "Newark": 1, 
             "Oakland": 1, 
             "Omaha": 2, 
-            "Online": 28, 
+            "Online": 29, 
             "Orange County": 4, 
             "Orlando": 1, 
             "Ottawa": 1, 
@@ -17470,7 +17250,7 @@
             "Philadelphia": 6, 
             "Phoenix": 1, 
             "Pittsburgh": 1, 
-            "Portland": 8, 
+            "Portland": 7, 
             "Providence": 2, 
             "Provo": 7, 
             "Raleigh": 5, 
@@ -17509,47 +17289,47 @@
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
             "Android": 15, 
-            "AngularJS": 49, 
+            "AngularJS": 48, 
             "Business": 6, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 106, 
+            "CSS": 104, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
-            "Data Science": 16, 
+            "Data Science": 17, 
             "Data Structures": 24, 
             "Design Principles": 23, 
             "Digital Marketing": 12, 
-            "Django": 8, 
+            "Django": 7, 
             "Drupal": 1, 
             "Entrepreneurship": 13, 
             "Express.js": 23, 
             "Game Design": 2, 
-            "Git": 54, 
-            "HTML": 112, 
+            "Git": 52, 
+            "HTML": 110, 
             "Hadoop": 1, 
             "Illustrator": 8, 
-            "Java": 19, 
-            "JavaScript": 119, 
+            "Java": 18, 
+            "JavaScript": 117, 
             "Linux": 7, 
             "Mobile": 19, 
             "MongoDB": 30, 
-            "MySQL": 24, 
-            "Node.js": 44, 
-            "Objective-C": 17, 
+            "MySQL": 23, 
+            "Node.js": 43, 
+            "Objective-C": 16, 
             "PHP": 16, 
             "Perl": 2, 
             "Phonegap": 2, 
             "Photoshop": 10, 
             "PostgreSQL": 16, 
             "Product Management": 8, 
-            "Python": 24, 
+            "Python": 23, 
             "Ruby": 23, 
-            "Ruby on Rails": 60, 
+            "Ruby on Rails": 61, 
             "SEO": 10, 
-            "SQL": 42, 
+            "SQL": 41, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
@@ -17558,7 +17338,7 @@
             "SharePoint": 1, 
             "Sinatra": 8, 
             "Spring MVC": 1, 
-            "Swift": 23, 
+            "Swift": 22, 
             "UNIX": 1, 
             "UX": 34, 
             "VB.NET": 1, 
@@ -17567,8 +17347,8 @@
             "Web Services": 2, 
             "Windows Server": 1, 
             "Wordpress": 7, 
-            "iOS": 28, 
-            "jQuery": 68
+            "iOS": 27, 
+            "jQuery": 66
         }
     }
 }

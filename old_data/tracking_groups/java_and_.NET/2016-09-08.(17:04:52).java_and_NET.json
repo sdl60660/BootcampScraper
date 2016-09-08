@@ -27,7 +27,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4115, 
+            "followers": 4114, 
             "handle": "@ClaimAcademySTL", 
             "tweets": 528
         }, 
@@ -931,9 +931,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1056, 
+            "followers": 1062, 
             "handle": "@devcodecamp", 
-            "tweets": 753
+            "tweets": 755
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -1287,8 +1287,8 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 1081, 
@@ -1725,17 +1725,17 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "HTML", 
-                    "CSS", 
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "Design", 
-                    "Excel", 
                     "Front End", 
-                    "Git", 
                     ".NET", 
-                    "User Experience Design"
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "Excel", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": " Intro to Web Development at Antioch University"
             }, 
@@ -1749,23 +1749,23 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "HTML", 
-                    "CSS", 
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "Design", 
-                    "Excel", 
                     "Front End", 
-                    "Git", 
-                    "Growth Hacking", 
                     "JavaScript", 
-                    "jQuery", 
-                    "Mobile", 
                     ".NET", 
-                    "Sales", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
                     "SEO", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Excel", 
+                    "Design", 
+                    "Sales", 
+                    "Mobile", 
+                    "Growth Hacking", 
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": "Full Stack Web Development at Antioch University"
             }, 
@@ -1780,22 +1780,22 @@
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "CSS", 
-                    "Design", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
-                    "jQuery", 
                     ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
                     "SEO", 
                     "SQL", 
-                    "User Experience Design", 
+                    "jQuery", 
                     "Excel", 
+                    "Design", 
+                    "Product Management", 
                     "Growth Hacking", 
-                    "Product Management"
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": "Full Stack Weekday Training (12 Weeks)"
             }, 
@@ -1834,23 +1834,23 @@
         "cr_num_reviews": 59, 
         "cr_rating": 4.9, 
         "cr_technologies": [
-            "HTML", 
-            "CSS", 
             "AngularJS", 
-            "ASP.NET", 
-            "C#", 
-            "Design", 
-            "Excel", 
             "Front End", 
-            "Git", 
-            "Growth Hacking", 
             "JavaScript", 
-            "jQuery", 
-            "Mobile", 
             ".NET", 
-            "Sales", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
             "SEO", 
+            "jQuery", 
+            "Excel", 
+            "Design", 
+            "Sales", 
+            "Mobile", 
+            "Growth Hacking", 
             "User Experience Design", 
+            "CSS", 
             "SQL", 
             "Product Management", 
             "Digital Marketing", 
@@ -1891,23 +1891,23 @@
             "$1500 Jill H. Mays Women in Tech Scholarship"
         ], 
         "technologies": [
-            "HTML", 
-            "CSS", 
             "AngularJS", 
-            "ASP.NET", 
-            "C#", 
-            "Design", 
-            "Excel", 
             "Front End", 
-            "Git", 
-            "Growth Hacking", 
             "JavaScript", 
-            "jQuery", 
-            "Mobile", 
             ".NET", 
-            "Sales", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
             "SEO", 
+            "jQuery", 
+            "Excel", 
+            "Design", 
+            "Sales", 
+            "Mobile", 
+            "Growth Hacking", 
             "User Experience Design", 
+            "CSS", 
             "SQL", 
             "Product Management", 
             "Digital Marketing", 
@@ -1924,12 +1924,12 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Other", 
             "Product Management", 
-            "UX Design"
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 2227, 
@@ -2199,7 +2199,9 @@
         ], 
         "tracking_groups": [
             "Java/.NET", 
-            "Java/.NET"
+            "Java/.NET", 
+            "Current Market", 
+            "Cleveland"
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
