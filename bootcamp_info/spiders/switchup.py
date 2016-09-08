@@ -144,9 +144,6 @@ class SwitchupSpider(scrapy.Spider):
                         elif index_tuples[info_index][0] == 'Cost':
                             cost = int(''.join((str(index_tuples[info_index][1])[1:-3]).split(',')))
                             course[index_tuples[info_index][0]] = cost
-                        elif index_tuples[info_index][0] == 'Length':
-                            length = int(str(index_tuples[info_index][1])[:-6])
-                            course[index_tuples[info_index][0]] = length
                         elif index_tuples[info_index][0] == 'Class Size':
                             size = int(str(index_tuples[info_index][1])[:-9])
                             if size == 0:
