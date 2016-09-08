@@ -85,14 +85,6 @@ cp current_data/tracking_groups/java_and_NET.json old_data/tracking_groups/Java_
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: Tracking Group Data Files Sorted..."
 
-#ADD SOMETHING HERE THAT RUNS THE SEARCH FUNCTION WITH A BLANK OUTPUT
-#IN SEARCH FUNCTION, ADD OPTION SO THAT BLANK INPUT OUTPUTS JUST A SET OF
-#STATS, NOT ANY BOOTCAMP STATS IN PARTICULAR
-
-#ADD THIS RESULT TO THE SCRAPER_LOG
-#KEEP STATS VERY BASIC (i.e. number of bootcamps in output.json), IT'S A
-#LOG, NOT WHAT YOU'LL USE TO TRACK CHANGES
-
 output_time=$(date "+%H:%M:%S")
 echo
 echo "$output_time: Scraper finished!"
