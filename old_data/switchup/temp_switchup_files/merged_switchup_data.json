@@ -1817,226 +1817,6 @@
         "tracking_groups": [], 
         "website": "http://www.boulderdigitalarts.com"
     }, 
-    "Brainstation": {
-        "average_salary": "N/A", 
-        "class_ratio": "1:8", 
-        "courses": {
-            "Digital Marketing": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Business", 
-                    "Digital Marketing", 
-                    "SEO"
-                ], 
-                "Title": "Digital Marketing"
-            }, 
-            "Intermediate Web Development": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Git", 
-                    "Javascript", 
-                    "jQuery"
-                ], 
-                "Title": "Intermediate Web Development"
-            }, 
-            "Intro To Web Development": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto", 
-                    "Vancouver"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "HTML", 
-                    "Javascript"
-                ], 
-                "Title": "Intro to Web Development"
-            }, 
-            "Ios Development": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto", 
-                    "Vancouver"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Objective-C", 
-                    "Swift"
-                ], 
-                "Title": "iOS Development"
-            }, 
-            "Product Management": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Business", 
-                    "Product Mgmt"
-                ], 
-                "Title": "Product Management"
-            }, 
-            "User Experience Design": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto", 
-                    "Vancouver"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Design Principles", 
-                    "UX"
-                ], 
-                "Title": "User Experience Design"
-            }, 
-            "User Experience Design Immersive": {
-                "Class Size": 20, 
-                "Cost": 8000, 
-                "Hours/Week": 40, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Design Principles", 
-                    "Illustrator", 
-                    "Photoshop", 
-                    "UX"
-                ], 
-                "Title": "User Experience Design Immersive"
-            }, 
-            "Visual Design": {
-                "Class Size": 30, 
-                "Cost": 2200, 
-                "Hours/Week": 3, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Design Principles", 
-                    "Photoshop"
-                ], 
-                "Title": "Visual Design"
-            }, 
-            "Web Development Immersive": {
-                "Class Size": 30, 
-                "Cost": 8000, 
-                "Hours/Week": 40, 
-                "Length": 10, 
-                "Location": [
-                    "Toronto"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Git", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery", 
-                    "Node.js", 
-                    "Python", 
-                    "SQL"
-                ], 
-                "Title": "Web Development Immersive"
-            }
-        }, 
-        "general_cost": "$", 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Toronto", 
-            "Vancouver"
-        ], 
-        "name": "Brainstation", 
-        "num_alumni": 600, 
-        "num_locations": 2, 
-        "scholarships": "BrainStation Merit Sch...", 
-        "su_num_reviews": 31, 
-        "su_rating": 4.6, 
-        "su_technologies": [
-            "CSS", 
-            "HTML", 
-            "JavaScript", 
-            "Objective-C", 
-            "Swift", 
-            "AngularJS", 
-            "Git", 
-            "jQuery", 
-            "Node.js", 
-            "Python", 
-            "SQL", 
-            "Business", 
-            "Digital Marketing", 
-            "SEO", 
-            "Design Principles", 
-            "Illustrator", 
-            "Photoshop", 
-            "UX", 
-            "Product Management"
-        ], 
-        "subjects": "Intro to Web Development, Intro to iOS Development, UX Design, Visual Design, Digital Marketing, Product Management, Intermediate Web Development, Wed Development Immersive", 
-        "technologies": [
-            "CSS", 
-            "HTML", 
-            "JavaScript", 
-            "Objective-C", 
-            "Swift", 
-            "AngularJS", 
-            "Git", 
-            "jQuery", 
-            "Node.js", 
-            "Python", 
-            "SQL", 
-            "Business", 
-            "Digital Marketing", 
-            "SEO", 
-            "Design Principles", 
-            "Illustrator", 
-            "Photoshop", 
-            "UX", 
-            "Product Management"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [
-            "Potential Market", 
-            "Toronto"
-        ], 
-        "website": "http://www.brainstation.io/course/toronto/web-development-immersive?utm_source=Switchup&utm_medium=marketing&utm_term=web_development_immersive&utm_campaign=Switchup"
-    }, 
     "Byte Academy": {
         "average_salary": "N/A", 
         "class_ratio": "1:4", 
@@ -3057,6 +2837,27 @@
         ], 
         "tracking_groups": [], 
         "website": "http://codeingenious.com/"
+    }, 
+    "Code Institute": {
+        "average_salary": 30, 
+        "class_ratio": "1:10 ", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": 94.0, 
+        "last_updated": "2016-09-08", 
+        "locations": null, 
+        "name": "Code Institute", 
+        "num_alumni": 40, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps, Web Development, Computer Programming, Full Stack, Python, CSS, HTML, 12 Weeks, ", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.codeinstitute.net/"
     }, 
     "Code Union": {
         "average_salary": "N/A", 
@@ -4203,22 +4004,9 @@
         "num_locations": 1, 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
-        "su_technologies": "Rolling Dates", 
+        "su_technologies": [], 
         "subjects": "Application Development, Beginner", 
-        "technologies": [
-            "R", 
-            "o", 
-            "l", 
-            "i", 
-            "n", 
-            "g", 
-            " ", 
-            "D", 
-            "a", 
-            "t", 
-            "e", 
-            "s"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4421,11 +4209,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "PHP", 
+        "su_technologies": [
+            "PHP"
+        ], 
         "subjects": "PHP, MySQL, CSS3, HTML5, GIT", 
         "technologies": [
-            "P", 
-            "H"
+            "PHP"
         ], 
         "top_source": [
             "SwitchUp"
@@ -4463,20 +4252,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby, Rails", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -5517,15 +5298,12 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Android", 
+        "su_technologies": [
+            "Android"
+        ], 
         "subjects": "Android, Java", 
         "technologies": [
-            "A", 
-            "n", 
-            "d", 
-            "r", 
-            "o", 
-            "i"
+            "Android"
         ], 
         "top_source": [
             "SwitchUp"
@@ -6068,6 +5846,55 @@
         ], 
         "tracking_groups": [], 
         "website": "https://devmounta.in/?utm_source=switchup&utm_medium=display&utm_campaign=Switchup"
+    }, 
+    "Dev/Iowa Bootcamp": {
+        "average_salary": "N/A", 
+        "class_ratio": "No data", 
+        "courses": {
+            "Fullstack Development Course": {
+                "Class Size": 20, 
+                "Cost": 0, 
+                "Hours/Week": 50, 
+                "Length": 8, 
+                "Location": [
+                    "Iowa City"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ], 
+                "Title": "Fullstack Development Course"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Iowa City"
+        ], 
+        "name": "Dev/Iowa Bootcamp", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript"
+        ], 
+        "subjects": " JavaScript, HTML, CSS", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.iowajpec.org/entrepreneur-support/deviowa/"
     }, 
     "Devatory": {
         "average_salary": "N/A", 
@@ -6895,6 +6722,30 @@
         "tracking_groups": [], 
         "website": "www.digitalprofessionalinstitute.com"
     }, 
+    "Digital Unicorn": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "London"
+        ], 
+        "name": "Digital Unicorn", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://digitalunicorn.co.uk/"
+    }, 
     "Digitalcrafts": {
         "average_salary": "N/A", 
         "class_ratio": "1:8", 
@@ -7049,15 +6900,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Python", 
+        "su_technologies": [
+            "Python"
+        ], 
         "subjects": "Python", 
         "technologies": [
-            "P", 
-            "y", 
-            "t", 
-            "h", 
-            "o", 
-            "n"
+            "Python"
         ], 
         "top_source": [
             "SwitchUp"
@@ -7664,16 +7512,12 @@
         "scholarships": "Available - must apply", 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": "Chicago", 
+        "su_technologies": [
+            "Chicago"
+        ], 
         "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
         "technologies": [
-            "C", 
-            "h", 
-            "i", 
-            "c", 
-            "a", 
-            "g", 
-            "o"
+            "Chicago"
         ], 
         "top_source": [
             "SwitchUp"
@@ -7999,17 +7843,12 @@
         "scholarships": "Limited scholarships, ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Gainesville", 
+        "su_technologies": [
+            "Gainesville"
+        ], 
         "subjects": "HTML5, CSS3, MongoDB, ExpressJS, AngularJS, NodeJS, API, Agile, Scrum, PM, iPhone Swift, iOS SDK, Android", 
         "technologies": [
-            "G", 
-            "a", 
-            "i", 
-            "n", 
-            "e", 
-            "s", 
-            "v", 
-            "l"
+            "Gainesville"
         ], 
         "top_source": [
             "SwitchUp"
@@ -8961,18 +8800,12 @@
         "num_locations": 1, 
         "su_num_reviews": 34, 
         "su_rating": 4.9, 
-        "su_technologies": "Javascript", 
+        "su_technologies": [
+            "JavaScript"
+        ], 
         "subjects": "Algorithims, AngularJS, CoffeeScript, CSS, Data Structures, Express, Git, HTML, JavaScript, jQuery, MongoDB, MySQL, Node.js, SQL", 
         "technologies": [
-            "J", 
-            "a", 
-            "v", 
-            "s", 
-            "c", 
-            "r", 
-            "i", 
-            "p", 
-            "t"
+            "JavaScript"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9690,11 +9523,12 @@
         "scholarships": "Sign up through Switch...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "UX", 
+        "su_technologies": [
+            "UX"
+        ], 
         "subjects": "UX UI Mobile App Design", 
         "technologies": [
-            "U", 
-            "X"
+            "UX"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9770,16 +9604,14 @@
         "num_alumni": 50, 
         "num_locations": 4, 
         "scholarships": "Academic Scholarships ...", 
-        "su_num_reviews": 28, 
+        "su_num_reviews": 29, 
         "su_rating": 4.8, 
-        "su_technologies": "Sales", 
+        "su_technologies": [
+            "Sales"
+        ], 
         "subjects": "Sales, Marketing, Career Development", 
         "technologies": [
-            "S", 
-            "a", 
-            "l", 
-            "e", 
-            "s"
+            "Sales"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9820,18 +9652,12 @@
         "scholarships": "Need-based", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Data Science", 
+        "su_technologies": [
+            "Data Science"
+        ], 
         "subjects": "Data Science", 
         "technologies": [
-            "D", 
-            "a", 
-            "t", 
-            " ", 
-            "S", 
-            "c", 
-            "i", 
-            "e", 
-            "n"
+            "Data Science"
         ], 
         "top_source": [
             "SwitchUp"
@@ -10095,12 +9921,12 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "SQL", 
+        "su_technologies": [
+            "SQL"
+        ], 
         "subjects": "Excel, SQL", 
         "technologies": [
-            "S", 
-            "Q", 
-            "L"
+            "SQL"
         ], 
         "top_source": [
             "SwitchUp"
@@ -11043,21 +10869,12 @@
         "num_locations": 3, 
         "su_num_reviews": 10, 
         "su_rating": 4.6, 
-        "su_technologies": "Digital Marketing", 
+        "su_technologies": [
+            "Digital Marketing"
+        ], 
         "subjects": "Digital Marketing", 
         "technologies": [
-            "D", 
-            "i", 
-            "g", 
-            "t", 
-            "a", 
-            "l", 
-            " ", 
-            "M", 
-            "r", 
-            "k", 
-            "e", 
-            "n"
+            "Digital Marketing"
         ], 
         "top_source": [
             "SwitchUp"
@@ -11231,20 +11048,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "PHP, HTML, CSS, Javascript, JQuery, Node.js, MySQL, MongoDB, Java", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12440,20 +12249,12 @@
         "num_locations": 9, 
         "su_num_reviews": 83, 
         "su_rating": 4.9, 
-        "su_technologies": "Product Mgmt", 
+        "su_technologies": [
+            "Product Management"
+        ], 
         "subjects": "Product Management", 
         "technologies": [
-            "P", 
-            "r", 
-            "o", 
-            "d", 
-            "u", 
-            "c", 
-            "t", 
-            " ", 
-            "M", 
-            "g", 
-            "m"
+            "Product Management"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12491,20 +12292,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Product Mgmt", 
+        "su_technologies": [
+            "Product Management"
+        ], 
         "subjects": "Software Development Lifecycle, Developing Feature Test Plans, Regression Testing Strategies, Client-Server Relationship, Charles, JIRA, Digesting External Feedback", 
         "technologies": [
-            "P", 
-            "r", 
-            "o", 
-            "d", 
-            "u", 
-            "c", 
-            "t", 
-            " ", 
-            "M", 
-            "g", 
-            "m"
+            "Product Management"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12638,11 +12431,12 @@
         "num_locations": 1, 
         "su_num_reviews": 23, 
         "su_rating": 4.4, 
-        "su_technologies": "CSS", 
+        "su_technologies": [
+            "CSS"
+        ], 
         "subjects": " JavaScript,Node.js, Bootstrap, CSS3, Git, Grunt, HTML5, jade, Jasmine, jQuery, JSON, MongoDB, ", 
         "technologies": [
-            "C", 
-            "S"
+            "CSS"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12873,20 +12667,12 @@
         "scholarships": "indonesian nationals m...", 
         "su_num_reviews": 5, 
         "su_rating": 4.4, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby on Rails, Ruby, dev basics, Postgresql", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -13177,12 +12963,12 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": "NYC", 
+        "su_technologies": [
+            "NYC"
+        ], 
         "subjects": "Design", 
         "technologies": [
-            "N", 
-            "Y", 
-            "C"
+            "NYC"
         ], 
         "top_source": [
             "SwitchUp"
@@ -13463,22 +13249,9 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Rolling Dates", 
+        "su_technologies": [], 
         "subjects": "HTML5, CSS, Javascript, AngularJS, NodeJS", 
-        "technologies": [
-            "R", 
-            "o", 
-            "l", 
-            "i", 
-            "n", 
-            "g", 
-            " ", 
-            "D", 
-            "a", 
-            "t", 
-            "e", 
-            "s"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13791,19 +13564,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Entrepreneurship", 
+        "su_technologies": [
+            "Entrepreneurship"
+        ], 
         "subjects": "Entrepreneurship, Lean Startup", 
         "technologies": [
-            "E", 
-            "n", 
-            "t", 
-            "r", 
-            "e", 
-            "p", 
-            "u", 
-            "s", 
-            "h", 
-            "i"
+            "Entrepreneurship"
         ], 
         "top_source": [
             "SwitchUp"
@@ -14132,13 +13898,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": ".NET", 
+        "su_technologies": [
+            ".NET"
+        ], 
         "subjects": ".NET", 
         "technologies": [
-            ".", 
-            "N", 
-            "E", 
-            "T"
+            ".NET"
         ], 
         "top_source": [
             "SwitchUp"
@@ -14339,20 +14104,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -17364,18 +17121,12 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": "Data Science", 
+        "su_technologies": [
+            "Data Science"
+        ], 
         "subjects": "Data Science, Data Engineering", 
         "technologies": [
-            "D", 
-            "a", 
-            "t", 
-            " ", 
-            "S", 
-            "c", 
-            "i", 
-            "e", 
-            "n"
+            "Data Science"
         ], 
         "top_source": [
             "SwitchUp"
@@ -17395,8 +17146,8 @@
         ], 
         "Cleveland": [
             "Tech Elevator", 
-            "The Software Guild", 
             "We Can Code It", 
+            "The Software Guild", 
             "Acadgild"
         ], 
         "Columbus": [
@@ -17406,43 +17157,41 @@
         ], 
         "Current Market": [
             "Tech Elevator", 
-            "The Software Guild", 
             "We Can Code It", 
+            "The Software Guild", 
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 14:22:43", 
+        "Date/Time": "2016-09-08 15:46:52", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
-            "Become A Developer Bootcamp (Java)", 
             "Software Tester Bootcamp", 
             "Girl Develop It", 
+            "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 266, 
+        "Number of Entries": 268, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
-            "Brainstation", 
-            "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
+            "Cincy Code It", 
+            "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
-            "Become A Developer Bootcamp (Java)", 
             "Software Tester Bootcamp", 
             "Girl Develop It", 
+            "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
         "Toronto": [
-            "Brainstation", 
             "Hackeryou", 
             "Lighthouse Labs", 
             "Red Academy", 
@@ -17506,6 +17255,7 @@
             "Honolulu": 3, 
             "Houston": 5, 
             "Indianapolis": 3, 
+            "Iowa City": 1, 
             "Jersey City": 1, 
             "Kansas City": 3, 
             "Kuala Lumpur": 1, 
@@ -17517,7 +17267,7 @@
             "Lexington": 1, 
             "Lille": 1, 
             "Lisbon": 1, 
-            "London": 13, 
+            "London": 14, 
             "Los Angeles": 15, 
             "Louisville": 2, 
             "Madison": 1, 
@@ -17569,8 +17319,8 @@
             "Sydney": 5, 
             "S\u00e3o Paulo": 2, 
             "Tampa": 2, 
-            "Toronto": 5, 
-            "Vancouver": 4, 
+            "Toronto": 4, 
+            "Vancouver": 3, 
             "Warsaw": 1, 
             "Washington": 6, 
             "Washington DC": 2, 
@@ -17580,64 +17330,62 @@
             "Woodside": 1
         }, 
         "technologies": {
-            ".NET": 19, 
+            ".NET": 20, 
             "ASP.NET": 1, 
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
-            "Android": 14, 
-            "AngularJS": 48, 
-            "Business": 6, 
-            "C": 3, 
+            "Android": 15, 
+            "AngularJS": 47, 
+            "Business": 5, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 103, 
+            "CSS": 104, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
-            "Data Science": 14, 
+            "Data Science": 16, 
             "Data Structures": 24, 
-            "Design Principles": 23, 
+            "Design Principles": 22, 
             "Digital Marketing": 11, 
             "Django": 8, 
             "Drupal": 1, 
-            "Entrepreneurship": 12, 
+            "Entrepreneurship": 13, 
             "Express.js": 22, 
             "Game Design": 2, 
-            "Git": 54, 
+            "Git": 53, 
             "HTML": 110, 
             "Hadoop": 1, 
-            "Illustrator": 8, 
+            "Illustrator": 7, 
             "Java": 19, 
-            "JavaScript": 116, 
+            "JavaScript": 117, 
             "Linux": 7, 
             "Mobile": 19, 
             "MongoDB": 29, 
             "MySQL": 23, 
-            "NYC": 2, 
-            "Node.js": 43, 
-            "Objective-C": 17, 
-            "PHP": 15, 
+            "NYC": 3, 
+            "Node.js": 42, 
+            "Objective-C": 16, 
+            "PHP": 16, 
             "Perl": 2, 
             "Phonegap": 2, 
-            "Photoshop": 10, 
+            "Photoshop": 9, 
             "PostgreSQL": 16, 
-            "Product Management": 6, 
+            "Product Management": 7, 
             "Python": 23, 
-            "R": 6, 
             "Ruby": 23, 
-            "Ruby on Rails": 57, 
-            "SEO": 10, 
+            "Ruby on Rails": 61, 
+            "SEO": 9, 
             "SQL": 41, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
-            "Sales": 3, 
+            "Sales": 4, 
             "Scala": 2, 
             "SharePoint": 1, 
             "Sinatra": 8, 
             "Spring MVC": 1, 
-            "Swift": 23, 
+            "Swift": 22, 
             "UNIX": 1, 
             "UX": 33, 
             "VB.NET": 1, 
@@ -17647,7 +17395,7 @@
             "Windows Server": 1, 
             "Wordpress": 7, 
             "iOS": 28, 
-            "jQuery": 68
+            "jQuery": 67
         }
     }
 }

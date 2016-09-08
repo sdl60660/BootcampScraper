@@ -1076,15 +1076,15 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Data Science", 
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "Digital Marketing", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
-            "followers": 851, 
+            "followers": 852, 
             "handle": "@acadgild", 
             "tweets": 2265
         }, 
@@ -1587,7 +1587,7 @@
         "tracking_groups": [], 
         "tracks": "UX Design", 
         "twitter": {
-            "followers": 1448, 
+            "followers": 1449, 
             "handle": "@agitraining", 
             "tweets": 528
         }, 
@@ -3695,7 +3695,7 @@
         "twitter": {
             "followers": 11700, 
             "handle": "@bignerdranch", 
-            "tweets": 9907
+            "tweets": 9905
         }, 
         "visas": "No", 
         "website": "http://www.bignerdranch.com/"
@@ -4170,7 +4170,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5639, 
+            "followers": 5640, 
             "handle": "@BitmakerHQ", 
             "tweets": 8568
         }, 
@@ -4656,7 +4656,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 630, 
+            "followers": 629, 
             "handle": "@BoiseCodeWorks", 
             "tweets": 694
         }, 
@@ -5497,10 +5497,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Data Science", 
             "Other", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Data Science", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 582, 
@@ -5884,12 +5884,12 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Mobile Development", 
             "UX Design", 
-            "Mobile Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4877, 
+            "followers": 4878, 
             "handle": "@careerfoundry", 
             "tweets": 7103
         }, 
@@ -5970,7 +5970,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1174, 
+            "followers": 1175, 
             "handle": "@CentriqTraining", 
             "tweets": 3828
         }, 
@@ -6142,9 +6142,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Sales"
-        ], 
+        "cr_technologies": "Sales", 
         "email": "hello@closer.academy", 
         "facebook": "https://www.facebook.com/closeracademy", 
         "housing": null, 
@@ -6158,7 +6156,11 @@
         "num_courses": 1, 
         "num_locations": 1, 
         "technologies": [
-            "Sales"
+            "S", 
+            "a", 
+            "l", 
+            "e", 
+            "s"
         ], 
         "top_source": [
             "CourseReport"
@@ -7553,7 +7555,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1613, 
+            "followers": 1614, 
             "handle": "@CodersInstitute", 
             "tweets": 3101
         }, 
@@ -8715,7 +8717,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2291, 
+            "followers": 2290, 
             "handle": "@CodeClanScot", 
             "tweets": 955
         }, 
@@ -10049,9 +10051,21 @@
         "num_locations": 2, 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
-        "su_technologies": [], 
+        "su_technologies": "Rolling Dates", 
         "subjects": "Application Development, Beginner", 
         "technologies": [
+            "R", 
+            "o", 
+            "l", 
+            "i", 
+            "n", 
+            "g", 
+            " ", 
+            "D", 
+            "a", 
+            "t", 
+            "e", 
+            "s", 
             "AngularJS", 
             "Front End", 
             "JavaScript", 
@@ -10371,9 +10385,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "PHP"
-        ], 
+        "cr_technologies": "PHP", 
         "email": "getinvolved@coderoute.co.uk", 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
@@ -10390,12 +10402,11 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "PHP"
-        ], 
+        "su_technologies": "PHP", 
         "subjects": "PHP, MySQL, CSS3, HTML5, GIT", 
         "technologies": [
-            "PHP"
+            "P", 
+            "H"
         ], 
         "top_source": [
             "CourseReport"
@@ -10468,12 +10479,20 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Ruby on Rails"
-        ], 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "Ruby, Rails", 
         "technologies": [
-            "Ruby on Rails", 
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s", 
             "JavaScript", 
             "HTML", 
             "jQuery", 
@@ -10911,9 +10930,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Java"
-        ], 
+        "cr_technologies": "Java", 
         "email": "team@codeU.us", 
         "general_cost": null, 
         "hiring_rate": "No data", 
@@ -10933,7 +10950,9 @@
         "su_technologies": null, 
         "subjects": null, 
         "technologies": [
-            "Java"
+            "J", 
+            "a", 
+            "v"
         ], 
         "top_source": [
             "CourseReport"
@@ -11914,19 +11933,19 @@
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "CSS", 
-                    "Design", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
-                    "jQuery", 
                     ".NET", 
-                    "Objective-C", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
                     "SQL", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": "ASP.NET MVC BOOTCAMP"
             }, 
@@ -11954,18 +11973,18 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Design", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
                     "MySQL", 
-                    "Node.js", 
-                    "React.js", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
                     "SQL", 
-                    "User Experience Design"
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
                 ], 
                 "Title": "Part-Time MEAN.JS - Full-Stack JavaScript"
             }
@@ -11973,22 +11992,22 @@
         "cr_num_reviews": 8, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "AngularJS", 
-            "CSS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
-            "ASP.NET", 
-            "C#", 
-            "jQuery", 
+            "CSS", 
+            "React.js", 
+            "Node.js", 
             ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "jQuery", 
             "Objective-C"
         ], 
         "email": "info@codingtemple.com", 
@@ -12023,16 +12042,16 @@
             "HTML", 
             "jQuery", 
             ".NET", 
-            "AngularJS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
+            "React.js", 
+            "Node.js", 
             "ASP.NET", 
             "Objective-C"
         ], 
@@ -13351,13 +13370,17 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Android"
-        ], 
+        "su_technologies": "Android", 
         "subjects": "Android, Java", 
         "technologies": [
-            "Android", 
-            "Java"
+            "A", 
+            "n", 
+            "d", 
+            "r", 
+            "o", 
+            "i", 
+            "Java", 
+            "Android"
         ], 
         "top_source": [
             "CourseReport"
@@ -13581,7 +13604,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 6178, 
+            "followers": 6179, 
             "handle": "@DesafioLatam", 
             "tweets": 1226
         }, 
@@ -13741,8 +13764,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 16400, 
@@ -13964,7 +13987,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1266, 
+            "followers": 1268, 
             "handle": "@DevAcademyNZ", 
             "tweets": 1222
         }, 
@@ -14065,9 +14088,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9691, 
+            "followers": 9690, 
             "handle": "@devbootcamp", 
-            "tweets": 9418
+            "tweets": 9417
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -15460,7 +15483,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7522, 
+            "followers": 7523, 
             "handle": "@DevMtn", 
             "tweets": 1834
         }, 
@@ -16673,9 +16696,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 574, 
@@ -16878,12 +16901,15 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Python"
-        ], 
+        "su_technologies": "Python", 
         "subjects": "Python", 
         "technologies": [
-            "Python"
+            "P", 
+            "y", 
+            "t", 
+            "h", 
+            "o", 
+            "n"
         ], 
         "top_source": [
             "SwitchUp"
@@ -18353,12 +18379,16 @@
         "scholarships": "$500 Evolve Security Academy Scholarship", 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [
-            "Chicago"
-        ], 
+        "su_technologies": "Chicago", 
         "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
         "technologies": [
-            "Chicago"
+            "C", 
+            "h", 
+            "i", 
+            "c", 
+            "a", 
+            "g", 
+            "o"
         ], 
         "top_source": [
             "CourseReport"
@@ -18684,7 +18714,7 @@
         "twitter": {
             "followers": 6775, 
             "handle": "@FlatironSchool", 
-            "tweets": 4298
+            "tweets": 4297
         }, 
         "visas": "No", 
         "website": "http://flatironschool.com/"
@@ -19219,12 +19249,17 @@
         "scholarships": "Limited scholarships, ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Gainesville"
-        ], 
+        "su_technologies": "Gainesville", 
         "subjects": "HTML5, CSS3, MongoDB, ExpressJS, AngularJS, NodeJS, API, Agile, Scrum, PM, iPhone Swift, iOS SDK, Android", 
         "technologies": [
-            "Gainesville", 
+            "G", 
+            "a", 
+            "i", 
+            "n", 
+            "e", 
+            "s", 
+            "v", 
+            "l", 
             "AngularJS", 
             "JavaScript", 
             "HTML", 
@@ -21594,11 +21629,18 @@
         "num_locations": 2, 
         "su_num_reviews": 34, 
         "su_rating": 4.9, 
-        "su_technologies": [
-            "JavaScript"
-        ], 
+        "su_technologies": "Javascript", 
         "subjects": "Algorithims, AngularJS, CoffeeScript, CSS, Data Structures, Express, Git, HTML, JavaScript, jQuery, MongoDB, MySQL, Node.js, SQL", 
         "technologies": [
+            "J", 
+            "a", 
+            "v", 
+            "s", 
+            "c", 
+            "r", 
+            "i", 
+            "p", 
+            "t", 
             "JavaScript", 
             "HTML", 
             "CSS"
@@ -22442,7 +22484,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8628, 
+            "followers": 8627, 
             "handle": "@hackeryou", 
             "tweets": 3350
         }, 
@@ -23340,12 +23382,11 @@
         "scholarships": "Sign up through Switch...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "UX"
-        ], 
+        "su_technologies": "UX", 
         "subjects": "UX UI Mobile App Design", 
         "technologies": [
-            "UX"
+            "U", 
+            "X"
         ], 
         "top_source": [
             "SwitchUp"
@@ -23513,9 +23554,7 @@
         }, 
         "cr_num_reviews": 10, 
         "cr_rating": 4.7, 
-        "cr_technologies": [
-            "Digital Marketing"
-        ], 
+        "cr_technologies": "Digital Marketing", 
         "email": null, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
@@ -23536,13 +23575,23 @@
         "scholarships": "Academic Scholarships ...", 
         "su_num_reviews": 29, 
         "su_rating": 4.8, 
-        "su_technologies": [
-            "Sales"
-        ], 
+        "su_technologies": "Sales", 
         "subjects": "Sales, Marketing, Career Development", 
         "technologies": [
-            "Sales", 
-            "Digital Marketing"
+            "S", 
+            "a", 
+            "l", 
+            "e", 
+            "s", 
+            "D", 
+            "i", 
+            "g", 
+            "t", 
+            " ", 
+            "M", 
+            "r", 
+            "k", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -23550,9 +23599,9 @@
         "tracking_groups": [], 
         "tracks": "Other", 
         "twitter": {
-            "followers": 654, 
+            "followers": 652, 
             "handle": "@Careerbootcamps", 
-            "tweets": 390
+            "tweets": 389
         }, 
         "visas": "No", 
         "website": "http://insidesalesbootcamp.com/"
@@ -23591,9 +23640,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Data Science"
-        ], 
+        "cr_technologies": "Data Science", 
         "email": "info@insightdatascience.com", 
         "facebook": "https://www.facebook.com/InsightDataScience", 
         "housing": null, 
@@ -23608,7 +23655,15 @@
         "num_courses": 2, 
         "num_locations": 2, 
         "technologies": [
-            "Data Science"
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -23656,12 +23711,18 @@
         "scholarships": "Need-based", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Data Science"
-        ], 
+        "su_technologies": "Data Science", 
         "subjects": "Data Science", 
         "technologies": [
-            "Data Science"
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
         ], 
         "top_source": [
             "SwitchUp"
@@ -24034,7 +24095,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1120, 
+            "followers": 1122, 
             "handle": "@invasivecode", 
             "tweets": 9693
         }, 
@@ -24812,13 +24873,14 @@
         "num_locations": 3, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "SQL"
-        ], 
+        "su_technologies": "SQL", 
         "subjects": "Excel, SQL", 
         "technologies": [
-            "SQL", 
+            "S", 
+            "Q", 
+            "L", 
             "Digital Marketing", 
+            "SQL", 
             "Excel", 
             "Product Management", 
             "Sales"
@@ -25607,9 +25669,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Java"
-        ], 
+        "cr_technologies": "Java", 
         "email": "charlotte@learn-to-code-london.co.uk", 
         "facebook": "https://www.facebook.com/learntocodelondon", 
         "general_cost": null, 
@@ -25630,7 +25690,9 @@
         "su_technologies": null, 
         "subjects": null, 
         "technologies": [
-            "Java"
+            "J", 
+            "a", 
+            "v"
         ], 
         "top_source": [
             "CourseReport"
@@ -25952,9 +26014,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 152, 
+            "followers": 151, 
             "handle": "@LearningFuze", 
-            "tweets": 327
+            "tweets": 326
         }, 
         "visas": "No", 
         "website": "http://learningfuze.com/"
@@ -26468,7 +26530,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4535, 
+            "followers": 4536, 
             "handle": "@lighthouse_labs", 
             "tweets": 6699
         }, 
@@ -27280,11 +27342,21 @@
         "num_locations": 2, 
         "su_num_reviews": 10, 
         "su_rating": 4.6, 
-        "su_technologies": [
-            "Digital Marketing"
-        ], 
+        "su_technologies": "Digital Marketing", 
         "subjects": "Digital Marketing", 
         "technologies": [
+            "D", 
+            "i", 
+            "g", 
+            "t", 
+            "a", 
+            "l", 
+            " ", 
+            "M", 
+            "r", 
+            "k", 
+            "e", 
+            "n", 
             "Digital Marketing", 
             "SEO", 
             "Growth Hacking"
@@ -27589,9 +27661,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2718, 
+            "followers": 2719, 
             "handle": "@thisismetis", 
-            "tweets": 4199
+            "tweets": 4198
         }, 
         "visas": [
             "Metis has partnerships with ", 
@@ -27620,9 +27692,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Data Science"
-        ], 
+        "cr_technologies": "Data Science", 
         "email": "ds3@microsoft.com", 
         "housing": null, 
         "job_assistance": "No", 
@@ -27635,7 +27705,15 @@
         "num_courses": 1, 
         "num_locations": 1, 
         "technologies": [
-            "Data Science"
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -27692,11 +27770,20 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Ruby on Rails"
-        ], 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "PHP, HTML, CSS, Javascript, JQuery, Node.js, MySQL, MongoDB, Java", 
         "technologies": [
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s", 
             "Ruby on Rails", 
             "Ruby"
         ], 
@@ -28535,9 +28622,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "UX Design", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 1473, 
@@ -29662,7 +29749,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 713, 
+            "followers": 712, 
             "handle": "@PBCodeSchool", 
             "tweets": 1302
         }, 
@@ -30433,13 +30520,22 @@
         "num_locations": 5, 
         "su_num_reviews": 83, 
         "su_rating": 4.9, 
-        "su_technologies": [
-            "Product Management"
-        ], 
+        "su_technologies": "Product Mgmt", 
         "subjects": "Product Management", 
         "technologies": [
-            "Product Management", 
+            "P", 
+            "r", 
+            "o", 
+            "d", 
+            "u", 
+            "c", 
+            "t", 
+            " ", 
+            "M", 
+            "g", 
+            "m", 
             "Digital Marketing", 
+            "Product Management", 
             "User Experience Design"
         ], 
         "top_source": [
@@ -30484,12 +30580,20 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Product Management"
-        ], 
+        "su_technologies": "Product Mgmt", 
         "subjects": "Software Development Lifecycle, Developing Feature Test Plans, Regression Testing Strategies, Client-Server Relationship, Charles, JIRA, Digesting External Feedback", 
         "technologies": [
-            "Product Management"
+            "P", 
+            "r", 
+            "o", 
+            "d", 
+            "u", 
+            "c", 
+            "t", 
+            " ", 
+            "M", 
+            "g", 
+            "m"
         ], 
         "top_source": [
             "SwitchUp"
@@ -31128,13 +31232,13 @@
         "num_locations": 2, 
         "su_num_reviews": 23, 
         "su_rating": 4.4, 
-        "su_technologies": [
-            "CSS"
-        ], 
+        "su_technologies": "CSS", 
         "subjects": " JavaScript,Node.js, Bootstrap, CSS3, Git, Grunt, HTML5, jade, Jasmine, jQuery, JSON, MongoDB, ", 
         "technologies": [
-            "CSS", 
+            "C", 
+            "S", 
             "HTML", 
+            "CSS", 
             "Node.js", 
             "JavaScript", 
             "jQuery", 
@@ -31588,11 +31692,20 @@
         "scholarships": "indonesian nationals m...", 
         "su_num_reviews": 5, 
         "su_rating": 4.4, 
-        "su_technologies": [
-            "Ruby on Rails"
-        ], 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "Ruby on Rails, Ruby, dev basics, Postgresql", 
         "technologies": [
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s", 
             "Ruby on Rails", 
             "Ruby", 
             "JavaScript"
@@ -32215,9 +32328,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Data Science"
-        ], 
+        "cr_technologies": "Data Science", 
         "email": "info@s2ds.org", 
         "facebook": "https://www.facebook.com/s2ds.school", 
         "housing": "Provided.\u00a0", 
@@ -32231,7 +32342,15 @@
         "num_courses": 1, 
         "num_locations": 1, 
         "technologies": [
-            "Data Science"
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -32239,7 +32358,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 613, 
+            "followers": 612, 
             "handle": "@S2DS_School", 
             "tweets": 1363
         }, 
@@ -32552,9 +32671,7 @@
         }, 
         "cr_num_reviews": 7, 
         "cr_rating": 4.3, 
-        "cr_technologies": [
-            "Design"
-        ], 
+        "cr_technologies": "Design", 
         "email": "newyork@shillingtonschool.com", 
         "facebook": "https://www.facebook.com/Shillington.FB", 
         "general_cost": "$$$", 
@@ -32572,13 +32689,18 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [
-            "NYC"
-        ], 
+        "su_technologies": "NYC", 
         "subjects": "Design", 
         "technologies": [
-            "NYC", 
-            "Design"
+            "N", 
+            "Y", 
+            "C", 
+            "D", 
+            "e", 
+            "s", 
+            "i", 
+            "g", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -33166,9 +33288,21 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [], 
+        "su_technologies": "Rolling Dates", 
         "subjects": "HTML5, CSS, Javascript, AngularJS, NodeJS", 
         "technologies": [
+            "R", 
+            "o", 
+            "l", 
+            "i", 
+            "n", 
+            "g", 
+            " ", 
+            "D", 
+            "a", 
+            "t", 
+            "e", 
+            "s", 
             "JavaScript", 
             "HTML", 
             "jQuery", 
@@ -33385,7 +33519,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 145, 
+            "followers": 146, 
             "handle": "@SoftStack", 
             "tweets": 116
         }, 
@@ -33755,7 +33889,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 9033, 
+            "followers": 9034, 
             "handle": "@Springboard", 
             "tweets": 1963
         }, 
@@ -33782,9 +33916,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Ruby on Rails"
-        ], 
+        "cr_technologies": "Rails", 
         "email": "codecamp@squareup.com", 
         "housing": null, 
         "job_assistance": "No", 
@@ -33797,7 +33929,11 @@
         "num_courses": 1, 
         "num_locations": 1, 
         "technologies": [
-            "Ruby on Rails"
+            "R", 
+            "a", 
+            "i", 
+            "l", 
+            "s"
         ], 
         "top_source": [
             "CourseReport"
@@ -34215,12 +34351,19 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Entrepreneurship"
-        ], 
+        "su_technologies": "Entrepreneurship", 
         "subjects": "Entrepreneurship, Lean Startup", 
         "technologies": [
-            "Entrepreneurship", 
+            "E", 
+            "n", 
+            "t", 
+            "r", 
+            "e", 
+            "p", 
+            "u", 
+            "s", 
+            "h", 
+            "i", 
             "Digital Marketing", 
             "Product Management", 
             "Sales", 
@@ -34786,12 +34929,13 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            ".NET"
-        ], 
+        "su_technologies": ".NET", 
         "subjects": ".NET", 
         "technologies": [
-            ".NET"
+            ".", 
+            "N", 
+            "E", 
+            "T"
         ], 
         "top_source": [
             "SwitchUp"
@@ -35135,12 +35279,20 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [
-            "Ruby on Rails"
-        ], 
+        "su_technologies": "Ruby on Rails", 
         "subjects": "Ruby", 
         "technologies": [
-            "Ruby on Rails"
+            "R", 
+            "u", 
+            "b", 
+            "y", 
+            " ", 
+            "o", 
+            "n", 
+            "a", 
+            "i", 
+            "l", 
+            "s"
         ], 
         "top_source": [
             "SwitchUp"
@@ -35338,10 +35490,10 @@
                 "Title": ".NET Bootcamp - Spring '17 Cleveland"
             }, 
             ".Net Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 12000, 
                 "Hours/Week": 40, 
                 "Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -35392,16 +35544,15 @@
                 "Title": "Java Bootcamp - Spring '17 Cleveland"
             }, 
             "Java Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 12000, 
                 "Hours/Week": 40, 
                 "Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "MySQL", 
                     "JavaScript", 
                     "HTML", 
                     "Java", 
@@ -35449,6 +35600,28 @@
                     "SQL"
                 ], 
                 "Title": "Java/.NET Bootcamp - Spring '17 Columbus"
+            }, 
+            "Java/.Net Coding Bootcamp": {
+                "Cost": null, 
+                "Hours/Week": 40, 
+                "Location": [
+                    "Columbus"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ], 
+                "Title": "Java/.NET Coding Bootcamp"
             }
         }, 
         "cr_num_reviews": 15, 
@@ -35478,7 +35651,7 @@
         ], 
         "name": "Tech Elevator", 
         "num_alumni": "N/A", 
-        "num_courses": 2, 
+        "num_courses": 3, 
         "num_locations": 2, 
         "su_num_reviews": 13, 
         "su_rating": 5.0, 
@@ -36503,9 +36676,7 @@
         }, 
         "cr_num_reviews": 13, 
         "cr_rating": 4.5, 
-        "cr_technologies": [
-            "Data Science"
-        ], 
+        "cr_technologies": "Data Science", 
         "email": null, 
         "facebook": "https://www.facebook.com/dataincubator/", 
         "general_cost": null, 
@@ -36528,7 +36699,15 @@
         "su_technologies": null, 
         "subjects": "Data Science", 
         "technologies": [
-            "Data Science"
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -36536,9 +36715,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2721, 
+            "followers": 2720, 
             "handle": "@thedatainc", 
-            "tweets": 610
+            "tweets": 608
         }, 
         "visas": "No", 
         "website": "http://www.thedataincubator.com/"
@@ -36683,7 +36862,7 @@
         "twitter": {
             "followers": 4006, 
             "handle": "@FirehoseProject", 
-            "tweets": 509
+            "tweets": 508
         }, 
         "visas": "No", 
         "website": "http://www.thefirehoseproject.com/"
@@ -37895,11 +38074,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Data Science", 
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "Data Science", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 6409, 
@@ -37998,7 +38177,7 @@
             "Mobile Development"
         ], 
         "twitter": {
-            "followers": 321, 
+            "followers": 323, 
             "handle": "@ThoughtKite", 
             "tweets": 185
         }, 
@@ -39831,7 +40010,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 508, 
+            "followers": 507, 
             "handle": "@NewHorizonsWI", 
             "tweets": 2344
         }, 
@@ -40398,7 +40577,7 @@
         "twitter": {
             "followers": 1935, 
             "handle": "@wethinkcode", 
-            "tweets": 976
+            "tweets": 975
         }, 
         "visas": "No", 
         "website": "http://www.wethinkcode.co.za/"
@@ -41109,9 +41288,7 @@
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
-        "cr_technologies": [
-            "Data Science"
-        ], 
+        "cr_technologies": "Data Science", 
         "email": "hello@zipfianacademy.com", 
         "facebook": "https://www.facebook.com/zipfianacademy", 
         "general_cost": "$$$$", 
@@ -41129,12 +41306,18 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [
-            "Data Science"
-        ], 
+        "su_technologies": "Data Science", 
         "subjects": "Data Science, Data Engineering", 
         "technologies": [
-            "Data Science"
+            "D", 
+            "a", 
+            "t", 
+            " ", 
+            "S", 
+            "c", 
+            "i", 
+            "e", 
+            "n"
         ], 
         "top_source": [
             "CourseReport"
@@ -41176,7 +41359,7 @@
             "The Software Guild", 
             "Boole Institute"
         ], 
-        "Date/Time": "2016-09-08 15:52:05", 
+        "Date/Time": "2016-09-08 15:31:14", 
         "Days Out": -4, 
         "Detroit": [
             "Grand Circus", 
@@ -41403,13 +41586,17 @@
             "Zurich": 1
         }, 
         "technologies": {
-            ".NET": 41, 
+            " ": 16, 
+            ".": 1, 
+            ".NET": 40, 
+            "A": 1, 
             "ASP.NET": 16, 
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
             "Android": 35, 
             "AngularJS": 98, 
             "Business": 6, 
+            "C": 3, 
             "C#": 39, 
             "C++": 4, 
             "CSS": 224, 
@@ -41417,60 +41604,73 @@
             "Cocoa": 12, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
-            "Data Science": 44, 
+            "D": 11, 
+            "Data Science": 38, 
             "Data Structures": 25, 
-            "Design": 47, 
+            "Design": 46, 
             "Design Principles": 23, 
-            "Digital Marketing": 28, 
+            "Digital Marketing": 27, 
             "Django": 19, 
             "Drupal": 1, 
-            "Entrepreneurship": 13, 
+            "E": 2, 
+            "Entrepreneurship": 12, 
             "Excel": 7, 
             "Express.js": 49, 
             "Front End": 85, 
+            "G": 1, 
             "Game Design": 2, 
             "Game Development": 6, 
             "Git": 143, 
             "Go": 4, 
             "Growth Hacking": 15, 
+            "H": 1, 
             "HTML": 229, 
             "Hadoop": 17, 
             "Illustrator": 8, 
-            "Java": 50, 
+            "J": 3, 
+            "Java": 48, 
             "JavaScript": 235, 
+            "L": 1, 
             "Linux": 7, 
+            "M": 4, 
             "Mobile": 51, 
             "MongoDB": 71, 
             "MySQL": 75, 
-            "NYC": 3, 
+            "N": 2, 
+            "NYC": 2, 
             "NoLang": 1, 
             "Node.js": 95, 
             "Objective-C": 40, 
-            "PHP": 43, 
+            "P": 4, 
+            "PHP": 42, 
             "Perl": 2, 
             "Phonegap": 2, 
             "Photoshop": 10, 
             "PostgreSQL": 16, 
-            "Product Management": 28, 
-            "Python": 63, 
-            "R": 16, 
+            "Product Management": 27, 
+            "Python": 62, 
+            "Q": 1, 
+            "R": 23, 
             "React.js": 37, 
             "Ruby": 87, 
-            "Ruby on Rails": 101, 
+            "Ruby on Rails": 98, 
+            "S": 10, 
             "SEO": 28, 
             "SQL": 120, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
-            "Sales": 11, 
+            "Sales": 9, 
             "Scala": 2, 
             "SharePoint": 1, 
             "Sinatra": 21, 
             "Spark": 9, 
             "Spring MVC": 1, 
             "Swift": 50, 
+            "T": 1, 
+            "U": 1, 
             "UNIX": 1, 
-            "UX": 34, 
+            "UX": 33, 
             "User Experience Design": 60, 
             "VB.NET": 1, 
             "WCF": 1, 
@@ -41478,9 +41678,31 @@
             "Web Services": 2, 
             "Windows Server": 1, 
             "Wordpress": 18, 
+            "X": 1, 
             "Xcode": 24, 
+            "Y": 1, 
+            "a": 21, 
+            "b": 4, 
+            "c": 10, 
+            "d": 3, 
+            "e": 14, 
+            "g": 8, 
+            "h": 3, 
+            "i": 21, 
             "iOS": 61, 
-            "jQuery": 148
+            "jQuery": 148, 
+            "k": 2, 
+            "l": 11, 
+            "m": 2, 
+            "n": 19, 
+            "o": 11, 
+            "p": 2, 
+            "r": 7, 
+            "s": 13, 
+            "t": 15, 
+            "u": 7, 
+            "v": 4, 
+            "y": 5
         }
     }
 }

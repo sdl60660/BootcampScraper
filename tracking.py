@@ -89,7 +89,6 @@ except IndexError:
 
 #*GET RID OF THIS PART IF YOU EVER END UP RUNNING THIS ON WEEKEND DAYS
 
-
 class Trackers:
 
     def tracked_location_moves():

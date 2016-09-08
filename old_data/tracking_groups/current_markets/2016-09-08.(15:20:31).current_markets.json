@@ -195,10 +195,10 @@
                 "Title": ".NET Bootcamp - Spring '17 Cleveland"
             }, 
             ".Net Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 12000, 
                 "Hours/Week": 40, 
                 "Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -249,16 +249,15 @@
                 "Title": "Java Bootcamp - Spring '17 Cleveland"
             }, 
             "Java Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 12000, 
                 "Hours/Week": 40, 
                 "Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "MySQL", 
                     "JavaScript", 
                     "HTML", 
                     "Java", 
@@ -306,6 +305,28 @@
                     "SQL"
                 ], 
                 "Title": "Java/.NET Bootcamp - Spring '17 Columbus"
+            }, 
+            "Java/.Net Coding Bootcamp": {
+                "Cost": null, 
+                "Hours/Week": 40, 
+                "Location": [
+                    "Columbus"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ], 
+                "Title": "Java/.NET Coding Bootcamp"
             }
         }, 
         "cr_num_reviews": 15, 
@@ -335,7 +356,7 @@
         ], 
         "name": "Tech Elevator", 
         "num_alumni": "N/A", 
-        "num_courses": 2, 
+        "num_courses": 3, 
         "num_locations": 2, 
         "su_num_reviews": 13, 
         "su_rating": 5.0, 

@@ -216,7 +216,8 @@ class SwitchupSpider(scrapy.Spider):
                 if not value:
                     item[key] = None
                 if len(value) == 1:
-                    item[key] = value[0]
+                    if key != 'technologies' and key != 'su_technologies':
+                        item[key] = value[0]
 
         if type(item['locations']) == unicode:
             try:

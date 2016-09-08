@@ -78,7 +78,7 @@ class CaughtDuplicateNames(object):
 class TechnologyListingFixes(object):
 
     def process_item(self, item, spider):
-        caught_issues = ['2016', 'September 30', 'Rolling Dates', 'October 18']
+        caught_issues = ['2016', 'September 30', 'Rolling Dates', 'October 18', 'NYC']
         fields = ['technologies', 'cr_technologies', 'su_technologies']
 
         for field in fields:
