@@ -27,7 +27,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4118, 
+            "followers": 4115, 
             "handle": "@ClaimAcademySTL", 
             "tweets": 528
         }, 
@@ -40,7 +40,9 @@
             "Full Immersion": {
                 "Cost": 15500, 
                 "Hours/Week": 40, 
-                "Location": "Branson", 
+                "Location": [
+                    "Branson"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -81,7 +83,9 @@
             "Ramp (Part-Time)": {
                 "Cost": 999, 
                 "Hours/Week": 15, 
-                "Location": "Panama City", 
+                "Location": [
+                    "Panama City"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -135,7 +139,7 @@
             "C#", 
             "Java", 
             "R", 
-            "Rails", 
+            "Ruby on Rails", 
             "Django", 
             "SQL", 
             "Sinatra", 
@@ -190,7 +194,7 @@
             "C#", 
             "Java", 
             "R", 
-            "Rails", 
+            "Ruby on Rails", 
             "Django", 
             "SQL", 
             "Sinatra", 
@@ -214,7 +218,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 166, 
+            "followers": 167, 
             "handle": "@codeninjaUS", 
             "tweets": 213
         }, 
@@ -230,7 +234,7 @@
                 "Class Size": 10, 
                 "Cost": 3000, 
                 "Hours/Week": 50, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Online"
                 ], 
@@ -247,7 +251,7 @@
                 "Class Size": 10, 
                 "Cost": 14220, 
                 "Hours/Week": 80, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Chicago", 
                     "Houston", 
@@ -267,7 +271,9 @@
             "Full Stack .Net + Javascript": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Online", 
+                "Location": [
+                    "Online"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -286,7 +292,7 @@
                 "Class Size": 10, 
                 "Cost": 14220, 
                 "Hours/Week": 60, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Dallas"
                 ], 
@@ -300,7 +306,7 @@
                 "Class Size": 10, 
                 "Cost": 14220, 
                 "Hours/Week": 80, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Houston", 
                     "Online", 
@@ -322,7 +328,9 @@
             "Ios Mobile Development Immersive": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "San Francisco", 
+                "Location": [
+                    "San Francisco"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -437,7 +445,9 @@
             "Full Stack Accelerated": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Charlotte", 
+                "Location": [
+                    "Charlotte"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -458,7 +468,9 @@
             "Full Stack Immersive": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Greensboro", 
+                "Location": [
+                    "Greensboro"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -479,7 +491,7 @@
                 "Class Size": 15, 
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "18 weeks", 
+                "Length": 18, 
                 "Location": [
                     "Greensboro"
                 ], 
@@ -501,7 +513,7 @@
                 "Class Size": 15, 
                 "Cost": 9900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Charlotte", 
                     "Greensboro"
@@ -600,32 +612,34 @@
             "Asp.Net Mvc Bootcamp": {
                 "Cost": 10000, 
                 "Hours/Week": 40, 
-                "Location": "Chicago", 
+                "Location": [
+                    "Chicago"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "CSS", 
-                    "Design", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
-                    "jQuery", 
                     ".NET", 
-                    "Objective-C", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
                     "SQL", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": "ASP.NET MVC BOOTCAMP"
             }, 
             "C# Asp.Net 12 Week Course": {
                 "Class Size": 12, 
                 "Hours/Week": 30, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "C#", 
@@ -639,23 +653,25 @@
             "Part-Time Mean.Js - Full-Stack Javascript": {
                 "Cost": 7000, 
                 "Hours/Week": 24, 
-                "Location": "Chicago", 
+                "Location": [
+                    "Chicago"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Design", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
                     "MySQL", 
-                    "Node.js", 
-                    "React.js", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
                     "SQL", 
-                    "User Experience Design"
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
                 ], 
                 "Title": "Part-Time MEAN.JS - Full-Stack JavaScript"
             }
@@ -663,22 +679,22 @@
         "cr_num_reviews": 8, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "AngularJS", 
-            "CSS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
-            "ASP.NET", 
-            "C#", 
-            "jQuery", 
+            "CSS", 
+            "React.js", 
+            "Node.js", 
             ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "jQuery", 
             "Objective-C"
         ], 
         "email": "info@codingtemple.com", 
@@ -713,16 +729,16 @@
             "HTML", 
             "jQuery", 
             ".NET", 
-            "AngularJS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
+            "React.js", 
+            "Node.js", 
             "ASP.NET", 
             "Objective-C"
         ], 
@@ -735,7 +751,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 186, 
+            "followers": 187, 
             "handle": "@coding_temple", 
             "tweets": 50
         }, 
@@ -750,7 +766,9 @@
             "Full Time Software Development": {
                 "Cost": 14987, 
                 "Hours/Week": 50, 
-                "Location": "Milwaukee", 
+                "Location": [
+                    "Milwaukee"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -769,7 +787,9 @@
             "Full Time Web Development": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Milwaukee", 
+                "Location": [
+                    "Milwaukee"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -789,7 +809,7 @@
             "Software Development": {
                 "Cost": 14987, 
                 "Hours/Week": 50, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Milwaukee"
                 ], 
@@ -911,9 +931,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1052, 
+            "followers": 1056, 
             "handle": "@devcodecamp", 
-            "tweets": 750
+            "tweets": 753
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -927,8 +947,10 @@
                 "Class Size": 30, 
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
-                "Location": "Seattle", 
+                "Length": 5, 
+                "Location": [
+                    "Seattle"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -942,8 +964,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
-                "Location": "Portland", 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -959,8 +983,10 @@
                 "Class Size": 30, 
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
-                "Location": "Seattle", 
+                "Length": 5, 
+                "Location": [
+                    "Seattle"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -975,8 +1001,10 @@
                 "Class Size": 30, 
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
-                "Location": "Portland", 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -990,8 +1018,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
-                "Location": "Portland", 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1006,8 +1036,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
-                "Location": "Philadelphia", 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1019,8 +1051,10 @@
                 "Class Size": 30, 
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
-                "Location": "Philadelphia", 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1037,7 +1071,9 @@
             "Intro To Programming (Evening)": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Portland", 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1053,7 +1089,9 @@
             "Intro To Programming (Full-Time)": {
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Location": "Portland", 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1071,8 +1109,10 @@
                 "Class Size": 30, 
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
-                "Location": "Portland", 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1087,8 +1127,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
-                "Location": "Philadelphia", 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1104,8 +1146,10 @@
                 "Class Size": 30, 
                 "Cost": 975, 
                 "Hours/Week": 40, 
-                "Length": "5 weeks", 
-                "Location": "Philadelphia", 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1120,8 +1164,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
-                "Location": "Portland", 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1135,8 +1181,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "5 weeks", 
-                "Location": "Portland", 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1166,7 +1214,7 @@
             "Design", 
             "Mobile", 
             "Android", 
-            "Rails", 
+            "Ruby on Rails", 
             "AngularJS", 
             "Ruby", 
             "MySQL"
@@ -1227,7 +1275,6 @@
             "Front End", 
             "Design", 
             "Mobile", 
-            "Rails", 
             "AngularJS", 
             "MySQL"
         ], 
@@ -1259,7 +1306,9 @@
             "Asp .Net Bootcamp": {
                 "Cost": 12000, 
                 "Hours/Week": null, 
-                "Location": "San Francisco", 
+                "Location": [
+                    "San Francisco"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1275,7 +1324,7 @@
                 "Class Size": null, 
                 "Cost": 5000, 
                 "Hours/Week": null, 
-                "Length": "4 weeks", 
+                "Length": 4, 
                 "Location": [
                     "Melbourne", 
                     "Sydney", 
@@ -1294,7 +1343,7 @@
                 "Class Size": null, 
                 "Cost": 0, 
                 "Hours/Week": null, 
-                "Length": "0 weeks", 
+                "Length": 0, 
                 "Location": [
                     "Sydney", 
                     "Washington"
@@ -1311,7 +1360,9 @@
             "Firebootcamp Ultra": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Sydney", 
+                "Location": [
+                    "Sydney"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1327,7 +1378,7 @@
                 "Class Size": null, 
                 "Cost": 6000, 
                 "Hours/Week": null, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Sydney"
                 ], 
@@ -1404,7 +1455,9 @@
             ".Net (C#) Bootcamp": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1423,8 +1476,10 @@
             "Front-End Bootcamp": {
                 "Cost": 7500, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
-                "Location": "Detroit", 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1442,7 +1497,7 @@
             "Front-End Bootcamp (Javascript)": {
                 "Cost": 7500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1459,7 +1514,7 @@
             "Front-End Bootcamp (Part-Time)": {
                 "Cost": 7500, 
                 "Hours/Week": 20, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1476,7 +1531,9 @@
             "Front-End Part-Time Bootcamp": {
                 "Cost": 6000, 
                 "Hours/Week": 17, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1493,7 +1550,7 @@
             "Intro To Web Development Part 1: Html + Css": {
                 "Cost": 495, 
                 "Hours/Week": 4, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1507,7 +1564,7 @@
             "Intro To Web Development Part 2: Javascript + Jquery": {
                 "Cost": 1495, 
                 "Hours/Week": 4, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1521,7 +1578,9 @@
             "Intro To Web Development: Html + Css": {
                 "Cost": 495, 
                 "Hours/Week": 6, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1534,7 +1593,9 @@
             "Intro To Web Development: Javascript + Jquery": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1549,8 +1610,10 @@
             "Java Bootcamp": {
                 "Cost": 7500, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
-                "Location": "Detroit", 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1640,9 +1703,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5104, 
+            "followers": 5106, 
             "handle": "@GrandCircusCo", 
-            "tweets": 5896
+            "tweets": 5898
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -1655,85 +1718,93 @@
             " Intro To Web Development At Antioch University": {
                 "Cost": 14450, 
                 "Hours/Week": 40, 
-                "Location": "Los Angeles", 
+                "Location": [
+                    "Los Angeles"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "Front End", 
-                    ".NET", 
                     "HTML", 
-                    "Git", 
-                    "C#", 
+                    "CSS", 
+                    "AngularJS", 
                     "ASP.NET", 
-                    "Excel", 
+                    "C#", 
                     "Design", 
-                    "User Experience Design", 
-                    "CSS"
+                    "Excel", 
+                    "Front End", 
+                    "Git", 
+                    ".NET", 
+                    "User Experience Design"
                 ], 
                 "Title": " Intro to Web Development at Antioch University"
             }, 
             "Full Stack Web Development At Antioch University": {
                 "Cost": 14500, 
                 "Hours/Week": 40, 
-                "Location": "Los Angeles", 
+                "Location": [
+                    "Los Angeles"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "Front End", 
-                    "JavaScript", 
-                    ".NET", 
                     "HTML", 
-                    "Git", 
-                    "C#", 
+                    "CSS", 
+                    "AngularJS", 
                     "ASP.NET", 
-                    "SEO", 
-                    "jQuery", 
-                    "Excel", 
+                    "C#", 
                     "Design", 
-                    "Sales", 
-                    "Mobile", 
+                    "Excel", 
+                    "Front End", 
+                    "Git", 
                     "Growth Hacking", 
-                    "User Experience Design", 
-                    "CSS"
+                    "JavaScript", 
+                    "jQuery", 
+                    "Mobile", 
+                    ".NET", 
+                    "Sales", 
+                    "SEO", 
+                    "User Experience Design"
                 ], 
                 "Title": "Full Stack Web Development at Antioch University"
             }, 
             "Full Stack Weekday Training (12 Weeks)": {
                 "Cost": 14500, 
                 "Hours/Week": 40, 
-                "Location": "Orange County", 
+                "Location": [
+                    "Orange County"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "Front End", 
-                    "JavaScript", 
-                    ".NET", 
-                    "HTML", 
-                    "Git", 
-                    "C#", 
                     "ASP.NET", 
+                    "C#", 
+                    "CSS", 
+                    "Design", 
+                    "Front End", 
+                    "Git", 
+                    "HTML", 
+                    "JavaScript", 
+                    "jQuery", 
+                    ".NET", 
                     "SEO", 
                     "SQL", 
-                    "jQuery", 
-                    "Excel", 
-                    "Design", 
-                    "Product Management", 
-                    "Growth Hacking", 
                     "User Experience Design", 
-                    "CSS"
+                    "Excel", 
+                    "Growth Hacking", 
+                    "Product Management"
                 ], 
                 "Title": "Full Stack Weekday Training (12 Weeks)"
             }, 
             "Mean Stack": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Los Angeles", 
+                "Location": [
+                    "Los Angeles"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1763,23 +1834,23 @@
         "cr_num_reviews": 59, 
         "cr_rating": 4.9, 
         "cr_technologies": [
-            "AngularJS", 
-            "Front End", 
-            "JavaScript", 
-            ".NET", 
             "HTML", 
-            "Git", 
-            "C#", 
-            "ASP.NET", 
-            "SEO", 
-            "jQuery", 
-            "Excel", 
-            "Design", 
-            "Sales", 
-            "Mobile", 
-            "Growth Hacking", 
-            "User Experience Design", 
             "CSS", 
+            "AngularJS", 
+            "ASP.NET", 
+            "C#", 
+            "Design", 
+            "Excel", 
+            "Front End", 
+            "Git", 
+            "Growth Hacking", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "Sales", 
+            "SEO", 
+            "User Experience Design", 
             "SQL", 
             "Product Management", 
             "Digital Marketing", 
@@ -1820,23 +1891,23 @@
             "$1500 Jill H. Mays Women in Tech Scholarship"
         ], 
         "technologies": [
-            "AngularJS", 
-            "Front End", 
-            "JavaScript", 
-            ".NET", 
             "HTML", 
-            "Git", 
-            "C#", 
-            "ASP.NET", 
-            "SEO", 
-            "jQuery", 
-            "Excel", 
-            "Design", 
-            "Sales", 
-            "Mobile", 
-            "Growth Hacking", 
-            "User Experience Design", 
             "CSS", 
+            "AngularJS", 
+            "ASP.NET", 
+            "C#", 
+            "Design", 
+            "Excel", 
+            "Front End", 
+            "Git", 
+            "Growth Hacking", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "Sales", 
+            "SEO", 
+            "User Experience Design", 
             "SQL", 
             "Product Management", 
             "Digital Marketing", 
@@ -1853,17 +1924,17 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Other", 
-            "Product Management", 
+            "Full-Stack Web Development", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Other", 
+            "Product Management", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 2227, 
             "handle": "@WeSabio", 
-            "tweets": 9474
+            "tweets": 9478
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -1876,7 +1947,9 @@
             "Java Bootcamp": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Denver", 
+                "Location": [
+                    "Denver"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1891,7 +1964,7 @@
                 "Class Size": 20, 
                 "Cost": 16000, 
                 "Hours/Week": 45, 
-                "Length": "19 weeks", 
+                "Length": 19, 
                 "Location": [
                     "Denver"
                 ], 
@@ -1996,7 +2069,9 @@
             ".Net/C#": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Online", 
+                "Location": [
+                    "Online"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2018,7 +2093,9 @@
             "Java": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Online", 
+                "Location": [
+                    "Online"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2128,7 +2205,7 @@
         "twitter": {
             "followers": 633, 
             "handle": "@softwareguild", 
-            "tweets": 721
+            "tweets": 723
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -2141,8 +2218,10 @@
             "Back End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "San Antonio", 
+                "Length": 12, 
+                "Location": [
+                    "San Antonio"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2162,7 +2241,9 @@
             "Back-End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Location": "Greenville", 
+                "Location": [
+                    "Greenville"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2177,8 +2258,10 @@
             "Front End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "San Antonio", 
+                "Length": 12, 
+                "Location": [
+                    "San Antonio"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2193,12 +2276,14 @@
             "Mobile Engineering": {
                 "Cost": 12000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "Orlando", 
+                "Length": 12, 
+                "Location": [
+                    "Orlando"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-09-12", 
+                "Start Date": "2016-09-26", 
                 "Subjects": [
                     "Swift", 
                     "iOS", 
@@ -2212,8 +2297,10 @@
             "Ui Design": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "Austin", 
+                "Length": 12, 
+                "Location": [
+                    "Austin"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2231,7 +2318,7 @@
         "cr_rating": 3.4, 
         "cr_technologies": [
             "HTML", 
-            "Rails", 
+            "Ruby on Rails", 
             "Ruby", 
             "CSS", 
             "JavaScript", 
@@ -2312,7 +2399,6 @@
             "Mobile", 
             "Objective-C", 
             "Swift", 
-            "Rails", 
             "Xcode", 
             "jQuery", 
             "Python", 
@@ -2357,7 +2443,7 @@
                 "Class Size": 150, 
                 "Cost": 6980, 
                 "Hours/Week": 40, 
-                "Length": "15 weeks", 
+                "Length": 15, 
                 "Location": [
                     "Online", 
                     "Portland"
@@ -2387,7 +2473,9 @@
             "Software Developer Bootcamp": {
                 "Cost": 6980, 
                 "Hours/Week": 40, 
-                "Location": "Portland", 
+                "Location": [
+                    "Portland"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2497,7 +2585,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1714, 
+            "followers": 1713, 
             "handle": "@TheTechAcad", 
             "tweets": 290
         }, 

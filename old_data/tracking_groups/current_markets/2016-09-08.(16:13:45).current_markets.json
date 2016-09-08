@@ -6,15 +6,7 @@
                 "Cost": null, 
                 "Hours/Week": null, 
                 "Location": [
-                    "C", 
-                    "l", 
-                    "e", 
-                    "v", 
-                    "e", 
-                    "l", 
-                    "a", 
-                    "n", 
-                    "d"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
@@ -168,7 +160,7 @@
             ".Net Bootcamp - Fall '16 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -186,7 +178,7 @@
             ".Net Bootcamp - Spring '17 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Akron", 
                     "Cleveland"
@@ -203,18 +195,10 @@
                 "Title": ".NET Bootcamp - Spring '17 Cleveland"
             }, 
             ".Net Coding Bootcamp": {
-                "Cost": 12000, 
+                "Cost": null, 
                 "Hours/Week": 40, 
                 "Location": [
-                    "C", 
-                    "l", 
-                    "e", 
-                    "v", 
-                    "e", 
-                    "l", 
-                    "a", 
-                    "n", 
-                    "d"
+                    "Columbus"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -233,7 +217,7 @@
             "Java Bootcamp - Fall '16 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -250,7 +234,7 @@
             "Java Bootcamp - Spring '17 Cleveland": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -265,23 +249,16 @@
                 "Title": "Java Bootcamp - Spring '17 Cleveland"
             }, 
             "Java Coding Bootcamp": {
-                "Cost": 12000, 
+                "Cost": null, 
                 "Hours/Week": 40, 
                 "Location": [
-                    "C", 
-                    "l", 
-                    "e", 
-                    "v", 
-                    "e", 
-                    "l", 
-                    "a", 
-                    "n", 
-                    "d"
+                    "Columbus"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
+                    "MySQL", 
                     "JavaScript", 
                     "HTML", 
                     "Java", 
@@ -294,7 +271,7 @@
             "Java/.Net Bootcamp - Fall '16 Columbus": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Akron", 
                     "Columbus"
@@ -313,7 +290,7 @@
             "Java/.Net Bootcamp - Spring '17 Columbus": {
                 "Cost": 12000, 
                 "Hours/Week": 60, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Cleveland", 
                     "Columbus"
@@ -329,35 +306,6 @@
                     "SQL"
                 ], 
                 "Title": "Java/.NET Bootcamp - Spring '17 Columbus"
-            }, 
-            "Java/.Net Coding Bootcamp": {
-                "Cost": null, 
-                "Hours/Week": 40, 
-                "Location": [
-                    "C", 
-                    "o", 
-                    "l", 
-                    "u", 
-                    "m", 
-                    "b", 
-                    "u", 
-                    "s"
-                ], 
-                "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
-                "Subjects": [
-                    "MySQL", 
-                    "JavaScript", 
-                    ".NET", 
-                    "HTML", 
-                    "C#", 
-                    "Java", 
-                    "SQL", 
-                    "jQuery", 
-                    "CSS"
-                ], 
-                "Title": "Java/.NET Coding Bootcamp"
             }
         }, 
         "cr_num_reviews": 15, 
@@ -377,7 +325,7 @@
         "facebook": "https://www.facebook.com/techelevator/", 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "housing": "Yes. Housing and program bundling options available. Fully furnished apartments nearby classes.", 
+        "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
         "last_updated": "2016-09-08", 
@@ -387,7 +335,7 @@
         ], 
         "name": "Tech Elevator", 
         "num_alumni": "N/A", 
-        "num_courses": 3, 
+        "num_courses": 2, 
         "num_locations": 2, 
         "su_num_reviews": 13, 
         "su_rating": 5.0, 
@@ -429,6 +377,96 @@
         "visas": "No", 
         "website": "http://www.techelevator.com/"
     }, 
+    "The Software Guild": {
+        "average_salary": 55000, 
+        "class_ratio": "1 to 12", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "The Software Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 24, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Cleveland"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
     "We Can Code It": {
         "accreditation": "We Can Code IT is Registered by the Ohio State Board of Career Colleges and Schools. Registration No. 15-03-2064T", 
         "average_salary": "N/A", 
@@ -437,7 +475,7 @@
             "Coding Bootcamp": {
                 "Cost": 10000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -455,15 +493,7 @@
                 "Cost": null, 
                 "Hours/Week": null, 
                 "Location": [
-                    "C", 
-                    "l", 
-                    "e", 
-                    "v", 
-                    "e", 
-                    "l", 
-                    "a", 
-                    "n", 
-                    "d"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
@@ -483,15 +513,7 @@
                 "Cost": null, 
                 "Hours/Week": null, 
                 "Location": [
-                    "C", 
-                    "l", 
-                    "e", 
-                    "v", 
-                    "e", 
-                    "l", 
-                    "a", 
-                    "n", 
-                    "d"
+                    "Cleveland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
@@ -513,7 +535,7 @@
             "Women-Only Coding Bootcamp": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Cleveland"
                 ], 
@@ -593,7 +615,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1515, 
+            "followers": 1513, 
             "handle": "@WeCanCodeIT", 
             "tweets": 1547
         }, 

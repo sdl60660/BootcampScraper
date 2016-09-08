@@ -4224,22 +4224,9 @@
         "num_locations": 1, 
         "su_num_reviews": 4, 
         "su_rating": 5.0, 
-        "su_technologies": "Rolling Dates", 
+        "su_technologies": [], 
         "subjects": "Application Development, Beginner", 
-        "technologies": [
-            "R", 
-            "o", 
-            "l", 
-            "i", 
-            "n", 
-            "g", 
-            " ", 
-            "D", 
-            "a", 
-            "t", 
-            "e", 
-            "s"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -4442,11 +4429,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "PHP", 
+        "su_technologies": [
+            "PHP"
+        ], 
         "subjects": "PHP, MySQL, CSS3, HTML5, GIT", 
         "technologies": [
-            "P", 
-            "H"
+            "PHP"
         ], 
         "top_source": [
             "SwitchUp"
@@ -4484,20 +4472,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby, Rails", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -5538,15 +5518,12 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Android", 
+        "su_technologies": [
+            "Android"
+        ], 
         "subjects": "Android, Java", 
         "technologies": [
-            "A", 
-            "n", 
-            "d", 
-            "r", 
-            "o", 
-            "i"
+            "Android"
         ], 
         "top_source": [
             "SwitchUp"
@@ -7143,15 +7120,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Python", 
+        "su_technologies": [
+            "Python"
+        ], 
         "subjects": "Python", 
         "technologies": [
-            "P", 
-            "y", 
-            "t", 
-            "h", 
-            "o", 
-            "n"
+            "Python"
         ], 
         "top_source": [
             "SwitchUp"
@@ -7758,16 +7732,12 @@
         "scholarships": "Available - must apply", 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": "Chicago", 
+        "su_technologies": [
+            "Chicago"
+        ], 
         "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
         "technologies": [
-            "C", 
-            "h", 
-            "i", 
-            "c", 
-            "a", 
-            "g", 
-            "o"
+            "Chicago"
         ], 
         "top_source": [
             "SwitchUp"
@@ -8093,17 +8063,12 @@
         "scholarships": "Limited scholarships, ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Gainesville", 
+        "su_technologies": [
+            "Gainesville"
+        ], 
         "subjects": "HTML5, CSS3, MongoDB, ExpressJS, AngularJS, NodeJS, API, Agile, Scrum, PM, iPhone Swift, iOS SDK, Android", 
         "technologies": [
-            "G", 
-            "a", 
-            "i", 
-            "n", 
-            "e", 
-            "s", 
-            "v", 
-            "l"
+            "Gainesville"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9055,18 +9020,12 @@
         "num_locations": 1, 
         "su_num_reviews": 34, 
         "su_rating": 4.9, 
-        "su_technologies": "Javascript", 
+        "su_technologies": [
+            "JavaScript"
+        ], 
         "subjects": "Algorithims, AngularJS, CoffeeScript, CSS, Data Structures, Express, Git, HTML, JavaScript, jQuery, MongoDB, MySQL, Node.js, SQL", 
         "technologies": [
-            "J", 
-            "a", 
-            "v", 
-            "s", 
-            "c", 
-            "r", 
-            "i", 
-            "p", 
-            "t"
+            "JavaScript"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9784,11 +9743,12 @@
         "scholarships": "Sign up through Switch...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "UX", 
+        "su_technologies": [
+            "UX"
+        ], 
         "subjects": "UX UI Mobile App Design", 
         "technologies": [
-            "U", 
-            "X"
+            "UX"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9866,14 +9826,12 @@
         "scholarships": "Academic Scholarships ...", 
         "su_num_reviews": 29, 
         "su_rating": 4.8, 
-        "su_technologies": "Sales", 
+        "su_technologies": [
+            "Sales"
+        ], 
         "subjects": "Sales, Marketing, Career Development", 
         "technologies": [
-            "S", 
-            "a", 
-            "l", 
-            "e", 
-            "s"
+            "Sales"
         ], 
         "top_source": [
             "SwitchUp"
@@ -9914,18 +9872,12 @@
         "scholarships": "Need-based", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Data Science", 
+        "su_technologies": [
+            "Data Science"
+        ], 
         "subjects": "Data Science", 
         "technologies": [
-            "D", 
-            "a", 
-            "t", 
-            " ", 
-            "S", 
-            "c", 
-            "i", 
-            "e", 
-            "n"
+            "Data Science"
         ], 
         "top_source": [
             "SwitchUp"
@@ -10189,12 +10141,12 @@
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "SQL", 
+        "su_technologies": [
+            "SQL"
+        ], 
         "subjects": "Excel, SQL", 
         "technologies": [
-            "S", 
-            "Q", 
-            "L"
+            "SQL"
         ], 
         "top_source": [
             "SwitchUp"
@@ -11137,21 +11089,12 @@
         "num_locations": 3, 
         "su_num_reviews": 10, 
         "su_rating": 4.6, 
-        "su_technologies": "Digital Marketing", 
+        "su_technologies": [
+            "Digital Marketing"
+        ], 
         "subjects": "Digital Marketing", 
         "technologies": [
-            "D", 
-            "i", 
-            "g", 
-            "t", 
-            "a", 
-            "l", 
-            " ", 
-            "M", 
-            "r", 
-            "k", 
-            "e", 
-            "n"
+            "Digital Marketing"
         ], 
         "top_source": [
             "SwitchUp"
@@ -11325,20 +11268,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "PHP, HTML, CSS, Javascript, JQuery, Node.js, MySQL, MongoDB, Java", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12534,20 +12469,12 @@
         "num_locations": 9, 
         "su_num_reviews": 83, 
         "su_rating": 4.9, 
-        "su_technologies": "Product Mgmt", 
+        "su_technologies": [
+            "Product Management"
+        ], 
         "subjects": "Product Management", 
         "technologies": [
-            "P", 
-            "r", 
-            "o", 
-            "d", 
-            "u", 
-            "c", 
-            "t", 
-            " ", 
-            "M", 
-            "g", 
-            "m"
+            "Product Management"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12585,20 +12512,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Product Mgmt", 
+        "su_technologies": [
+            "Product Management"
+        ], 
         "subjects": "Software Development Lifecycle, Developing Feature Test Plans, Regression Testing Strategies, Client-Server Relationship, Charles, JIRA, Digesting External Feedback", 
         "technologies": [
-            "P", 
-            "r", 
-            "o", 
-            "d", 
-            "u", 
-            "c", 
-            "t", 
-            " ", 
-            "M", 
-            "g", 
-            "m"
+            "Product Management"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12732,11 +12651,12 @@
         "num_locations": 1, 
         "su_num_reviews": 23, 
         "su_rating": 4.4, 
-        "su_technologies": "CSS", 
+        "su_technologies": [
+            "CSS"
+        ], 
         "subjects": " JavaScript,Node.js, Bootstrap, CSS3, Git, Grunt, HTML5, jade, Jasmine, jQuery, JSON, MongoDB, ", 
         "technologies": [
-            "C", 
-            "S"
+            "CSS"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12967,20 +12887,12 @@
         "scholarships": "indonesian nationals m...", 
         "su_num_reviews": 5, 
         "su_rating": 4.4, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby on Rails, Ruby, dev basics, Postgresql", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -13271,12 +13183,12 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": "NYC", 
+        "su_technologies": [
+            "NYC"
+        ], 
         "subjects": "Design", 
         "technologies": [
-            "N", 
-            "Y", 
-            "C"
+            "NYC"
         ], 
         "top_source": [
             "SwitchUp"
@@ -13557,22 +13469,9 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Rolling Dates", 
+        "su_technologies": [], 
         "subjects": "HTML5, CSS, Javascript, AngularJS, NodeJS", 
-        "technologies": [
-            "R", 
-            "o", 
-            "l", 
-            "i", 
-            "n", 
-            "g", 
-            " ", 
-            "D", 
-            "a", 
-            "t", 
-            "e", 
-            "s"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -13976,19 +13875,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Entrepreneurship", 
+        "su_technologies": [
+            "Entrepreneurship"
+        ], 
         "subjects": "Entrepreneurship, Lean Startup", 
         "technologies": [
-            "E", 
-            "n", 
-            "t", 
-            "r", 
-            "e", 
-            "p", 
-            "u", 
-            "s", 
-            "h", 
-            "i"
+            "Entrepreneurship"
         ], 
         "top_source": [
             "SwitchUp"
@@ -14317,13 +14209,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": ".NET", 
+        "su_technologies": [
+            ".NET"
+        ], 
         "subjects": ".NET", 
         "technologies": [
-            ".", 
-            "N", 
-            "E", 
-            "T"
+            ".NET"
         ], 
         "top_source": [
             "SwitchUp"
@@ -14524,20 +14415,12 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": "Ruby on Rails", 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
         "subjects": "Ruby", 
         "technologies": [
-            "R", 
-            "u", 
-            "b", 
-            "y", 
-            " ", 
-            "o", 
-            "n", 
-            "a", 
-            "i", 
-            "l", 
-            "s"
+            "Ruby on Rails"
         ], 
         "top_source": [
             "SwitchUp"
@@ -17549,18 +17432,12 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": "Data Science", 
+        "su_technologies": [
+            "Data Science"
+        ], 
         "subjects": "Data Science, Data Engineering", 
         "technologies": [
-            "D", 
-            "a", 
-            "t", 
-            " ", 
-            "S", 
-            "c", 
-            "i", 
-            "e", 
-            "n"
+            "Data Science"
         ], 
         "top_source": [
             "SwitchUp"
@@ -17598,7 +17475,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 15:26:15", 
+        "Date/Time": "2016-09-08 15:46:53", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17768,112 +17645,72 @@
             "Woodside": 1
         }, 
         "technologies": {
-            " ": 11, 
-            ".": 1, 
-            ".NET": 20, 
-            "A": 1, 
+            ".NET": 21, 
             "ASP.NET": 1, 
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
-            "Android": 14, 
+            "Android": 15, 
             "AngularJS": 49, 
             "Business": 6, 
-            "C": 3, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 105, 
+            "CSS": 106, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
-            "D": 5, 
-            "Data Science": 14, 
+            "Data Science": 16, 
             "Data Structures": 25, 
             "Design Principles": 23, 
-            "Digital Marketing": 11, 
+            "Digital Marketing": 12, 
             "Django": 8, 
             "Drupal": 1, 
-            "E": 2, 
-            "Entrepreneurship": 12, 
+            "Entrepreneurship": 13, 
             "Express.js": 22, 
-            "G": 1, 
             "Game Design": 2, 
             "Git": 54, 
-            "H": 1, 
             "HTML": 112, 
             "Hadoop": 1, 
             "Illustrator": 8, 
-            "J": 1, 
             "Java": 20, 
-            "JavaScript": 118, 
-            "L": 1, 
+            "JavaScript": 119, 
             "Linux": 7, 
-            "M": 3, 
             "Mobile": 19, 
             "MongoDB": 29, 
             "MySQL": 24, 
-            "N": 2, 
-            "NYC": 2, 
+            "NYC": 3, 
             "Node.js": 43, 
             "Objective-C": 17, 
-            "P": 4, 
-            "PHP": 15, 
+            "PHP": 16, 
             "Perl": 2, 
             "Phonegap": 2, 
             "Photoshop": 10, 
             "PostgreSQL": 16, 
-            "Product Management": 6, 
-            "Python": 23, 
-            "Q": 1, 
-            "R": 6, 
+            "Product Management": 8, 
+            "Python": 24, 
             "Ruby": 23, 
-            "Ruby on Rails": 57, 
-            "S": 5, 
+            "Ruby on Rails": 61, 
             "SEO": 10, 
-            "SQL": 42, 
+            "SQL": 43, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
-            "Sales": 3, 
+            "Sales": 4, 
             "Scala": 2, 
             "SharePoint": 1, 
             "Sinatra": 8, 
             "Spring MVC": 1, 
             "Swift": 23, 
-            "T": 1, 
-            "U": 1, 
             "UNIX": 1, 
-            "UX": 33, 
+            "UX": 34, 
             "VB.NET": 1, 
             "WCF": 1, 
             "WPF": 1, 
             "Web Services": 2, 
             "Windows Server": 1, 
             "Wordpress": 7, 
-            "X": 1, 
-            "Y": 1, 
-            "a": 13, 
-            "b": 4, 
-            "c": 6, 
-            "d": 3, 
-            "e": 8, 
-            "g": 6, 
-            "h": 3, 
-            "i": 14, 
             "iOS": 28, 
-            "jQuery": 69, 
-            "k": 1, 
-            "l": 9, 
-            "m": 2, 
-            "n": 13, 
-            "o": 11, 
-            "p": 2, 
-            "r": 6, 
-            "s": 10, 
-            "t": 10, 
-            "u": 7, 
-            "v": 2, 
-            "y": 5
+            "jQuery": 69
         }
     }
 }

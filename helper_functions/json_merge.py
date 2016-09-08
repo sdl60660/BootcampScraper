@@ -6,11 +6,6 @@ from pprint import pprint
 
 import datetime
 
-#======DICT KEY (for traditional merge)=======
-# 1: BOOTCAMPSIN
-# 2: SWITCHUP
-# 3: COURSEREPORT
-
 #check if the optional output flag was included
 #if so, the last filename is the output file
 output = False
@@ -60,9 +55,9 @@ for file in bootcamp_data:
                     temp_item = output_dict[name]
                     output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
 
-                    #for group in bootcamp_data[file][x]['tracking_groups']:
-                    #    if group not in temp_item['tracking_groups']:
-                    #        output_dict[name]['tracking_groups'].append(group)
+                    for group in bootcamp_data[file][x]['tracking_groups']:
+                        if group not in temp_item['tracking_groups']:
+                            output_dict[name]['tracking_groups'].append(group)
                     """try:
                         for course in bootcamp_data[file][x]['courses'].keys():
                             if course in temp_item['courses'].keys():

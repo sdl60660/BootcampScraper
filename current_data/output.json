@@ -1663,7 +1663,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1221, 
+            "followers": 1222, 
             "handle": "@Andela_Nigeria", 
             "tweets": 713
         }, 
@@ -1987,7 +1987,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4604, 
+            "followers": 4605, 
             "handle": "@appacademyio", 
             "tweets": 387
         }, 
@@ -4536,7 +4536,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 71, 
+            "followers": 70, 
             "handle": "@blurstatecode", 
             "tweets": 63
         }, 
@@ -4656,9 +4656,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 630, 
+            "followers": 631, 
             "handle": "@BoiseCodeWorks", 
-            "tweets": 694
+            "tweets": 695
         }, 
         "visas": "No", 
         "website": "https://boisecodeworks.com/"
@@ -5209,7 +5209,7 @@
             "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 6891, 
+            "followers": 6892, 
             "handle": "@BrainStation", 
             "tweets": 7122
         }, 
@@ -5472,7 +5472,6 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "NYC", 
             "Data Science", 
             "Data Structures", 
             "Hadoop"
@@ -5486,7 +5485,6 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "NYC", 
             "Data Science", 
             "Data Structures", 
             "Hadoop", 
@@ -5497,13 +5495,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Data Science", 
             "Other", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Data Science", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 582, 
+            "followers": 583, 
             "handle": "@ByteAcademyCo", 
             "tweets": 2109
         }, 
@@ -5884,9 +5882,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Mobile Development", 
             "UX Design", 
-            "Mobile Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 4877, 
@@ -7370,7 +7368,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1833, 
+            "followers": 1834, 
             "handle": "@CodeFeverMiami", 
             "tweets": 3075
         }, 
@@ -7462,7 +7460,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2429, 
+            "followers": 2430, 
             "handle": "@codeforprogress", 
             "tweets": 848
         }, 
@@ -9147,8 +9145,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 894, 
@@ -11914,19 +11912,19 @@
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "ASP.NET", 
-                    "C#", 
-                    "CSS", 
-                    "Design", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
-                    "jQuery", 
                     ".NET", 
-                    "Objective-C", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
                     "SQL", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
                 ], 
                 "Title": "ASP.NET MVC BOOTCAMP"
             }, 
@@ -11954,18 +11952,18 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Design", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
                     "MySQL", 
-                    "Node.js", 
-                    "React.js", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
                     "SQL", 
-                    "User Experience Design"
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
                 ], 
                 "Title": "Part-Time MEAN.JS - Full-Stack JavaScript"
             }
@@ -11973,22 +11971,22 @@
         "cr_num_reviews": 8, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "AngularJS", 
-            "CSS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
-            "ASP.NET", 
-            "C#", 
-            "jQuery", 
+            "CSS", 
+            "React.js", 
+            "Node.js", 
             ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "jQuery", 
             "Objective-C"
         ], 
         "email": "info@codingtemple.com", 
@@ -12023,16 +12021,16 @@
             "HTML", 
             "jQuery", 
             ".NET", 
-            "AngularJS", 
-            "Design", 
-            "Front End", 
-            "Git", 
-            "JavaScript", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
             "SQL", 
+            "Design", 
             "User Experience Design", 
+            "React.js", 
+            "Node.js", 
             "ASP.NET", 
             "Objective-C"
         ], 
@@ -13297,7 +13295,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1071, 
+            "followers": 1072, 
             "handle": "@DeepDiveCoding", 
             "tweets": 1412
         }, 
@@ -13374,12 +13372,12 @@
     }, 
     "Depot/U": {
         "accreditation": "None", 
-        "average_salary": "N/A", 
-        "class_ratio": null, 
+        "average_salary": 55000, 
+        "class_ratio": "1:10", 
         "courses": {
             "Front End Development": {
-                "Cost": 8000, 
-                "Hours/Week": null, 
+                "Cost": null, 
+                "Hours/Week": 40, 
                 "Location": [
                     "Mobile"
                 ], 
@@ -13400,14 +13398,17 @@
                 "Title": "Front End Development"
             }, 
             "Full Stack Development": {
+                "Class Size": 20, 
                 "Cost": null, 
                 "Hours/Week": null, 
+                "Length": 10, 
                 "Location": [
                     "Birmingham"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
+                "Start Date": "2017-02-20", 
                 "Subjects": [
                     "AngularJS", 
                     "Front End", 
@@ -13422,14 +13423,14 @@
                 "Title": "Full Stack Development"
             }, 
             "High School Game Programming": {
-                "Cost": null, 
-                "Hours/Week": null, 
+                "Cost": 8000, 
+                "Hours/Week": 40, 
                 "Location": [
                     "Birmingham"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -13459,8 +13460,8 @@
         ], 
         "email": "code@depotu.io", 
         "facebook": "https://www.facebook.com/DepotU", 
-        "general_cost": "$$$", 
-        "hiring_rate": "No data", 
+        "general_cost": "$$", 
+        "hiring_rate": 82.0, 
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
@@ -13470,27 +13471,37 @@
             "Mobile"
         ], 
         "name": "Depot/U", 
-        "num_alumni": "N/A", 
+        "num_alumni": 67, 
         "num_courses": 3, 
         "num_locations": 2, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [
-            "JavaScript", 
-            "HTML", 
-            "jQuery", 
-            "CSS", 
-            "Game Development", 
+        "su_technologies": [
             "AngularJS", 
+            "CSS", 
+            "Express.js", 
+            "HTML", 
+            "JavaScript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js"
+        ], 
+        "subjects": "HTML, CSS, JavaScript, TypeScript, MongoDB, AngularJS, NodeJS, jQuery, SQL", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Express.js", 
+            "HTML", 
+            "JavaScript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "jQuery", 
+            "Game Development", 
             "Front End", 
             "Git", 
             "Mobile", 
-            "Node.js", 
-            "MongoDB", 
-            "SQL", 
-            "Express.js"
+            "SQL"
         ], 
         "top_source": [
             "CourseReport"
@@ -13741,8 +13752,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 16400, 
@@ -14067,7 +14078,7 @@
         "twitter": {
             "followers": 9691, 
             "handle": "@devbootcamp", 
-            "tweets": 9418
+            "tweets": 9419
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -14392,7 +14403,7 @@
         "twitter": {
             "followers": 2382, 
             "handle": "@iowajpec", 
-            "tweets": 3662
+            "tweets": 3663
         }, 
         "visas": "No", 
         "website": "http://www.iowajpec.org/entrepreneur-support/deviowa/"
@@ -14681,9 +14692,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1055, 
+            "followers": 1056, 
             "handle": "@devcodecamp", 
-            "tweets": 752
+            "tweets": 753
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -15660,7 +15671,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 404, 
+            "followers": 403, 
             "handle": "@DevPointLabs", 
             "tweets": 1410
         }, 
@@ -16145,7 +16156,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 302, 
+            "followers": 301, 
             "handle": "@DevStream_io", 
             "tweets": 443
         }, 
@@ -16205,7 +16216,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 833, 
+            "followers": 834, 
             "handle": "@EcoTechVisions", 
             "tweets": 1458
         }, 
@@ -16673,9 +16684,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 574, 
@@ -16968,7 +16979,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 449, 
+            "followers": 448, 
             "handle": "@EnergyHouseDigi", 
             "tweets": 233
         }, 
@@ -18682,7 +18693,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6775, 
+            "followers": 6772, 
             "handle": "@FlatironSchool", 
             "tweets": 4298
         }, 
@@ -19131,7 +19142,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8877, 
+            "followers": 8878, 
             "handle": "@fullstack", 
             "tweets": 896
         }, 
@@ -19432,7 +19443,7 @@
         "twitter": {
             "followers": 16600, 
             "handle": "@galvanize", 
-            "tweets": 6699
+            "tweets": 6701
         }, 
         "visas": "No", 
         "website": "http://www.galvanize.com/courses/"
@@ -19677,7 +19688,7 @@
         "twitter": {
             "followers": 1042, 
             "handle": "@GeekwiseAcademy", 
-            "tweets": 906
+            "tweets": 907
         }, 
         "visas": "No", 
         "website": "http://geekwiseacademy.com"
@@ -20614,7 +20625,6 @@
             "London", 
             "Los Angeles", 
             "Melbourne", 
-            "NYC", 
             "San Francisco", 
             "Seattle", 
             "Sydney", 
@@ -20640,7 +20650,6 @@
             "London", 
             "Los Angeles", 
             "Melbourne", 
-            "NYC", 
             "San Francisco", 
             "Seattle", 
             "Sydney", 
@@ -20868,7 +20877,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 684, 
+            "followers": 683, 
             "handle": "@GoCodeNow", 
             "tweets": 434
         }, 
@@ -20940,7 +20949,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 5898, 
+            "followers": 5899, 
             "handle": "@hopperacademy", 
             "tweets": 319
         }, 
@@ -21203,7 +21212,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5105, 
+            "followers": 5106, 
             "handle": "@GrandCircusCo", 
             "tweets": 5898
         }, 
@@ -21614,7 +21623,7 @@
         "twitter": {
             "followers": 7341, 
             "handle": "@HackReactor", 
-            "tweets": 2712
+            "tweets": 2713
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -22076,7 +22085,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 553, 
+            "followers": 554, 
             "handle": "@hacker_ship", 
             "tweets": 851
         }, 
@@ -24339,7 +24348,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 482, 
+            "followers": 481, 
             "handle": "@ITechallenge", 
             "tweets": 645
         }, 
@@ -25252,7 +25261,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7915, 
+            "followers": 7916, 
             "handle": "@Launch_Code", 
             "tweets": 3327
         }, 
@@ -27589,7 +27598,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 2718, 
+            "followers": 2719, 
             "handle": "@thisismetis", 
             "tweets": 4199
         }, 
@@ -27913,7 +27922,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1510, 
+            "followers": 1511, 
             "handle": "@monroe_college", 
             "tweets": 2173
         }, 
@@ -28535,9 +28544,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "UX Design", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 1473, 
@@ -28934,7 +28943,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 38700, 
+            "followers": 38800, 
             "handle": "@NorthwesternU", 
             "tweets": 9906
         }, 
@@ -29397,7 +29406,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 750, 
+            "followers": 751, 
             "handle": "@OperationSpark", 
             "tweets": 1048
         }, 
@@ -29514,9 +29523,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 538, 
+            "followers": 537, 
             "handle": "@OCCSDEV", 
-            "tweets": 436
+            "tweets": 437
         }, 
         "visas": "No", 
         "website": "https://www.orangecountycodeschool.com/"
@@ -29596,7 +29605,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 403, 
+            "followers": 402, 
             "handle": "@OriginCodeAcad", 
             "tweets": 148
         }, 
@@ -29662,7 +29671,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 713, 
+            "followers": 712, 
             "handle": "@PBCodeSchool", 
             "tweets": 1302
         }, 
@@ -31354,7 +31363,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1052, 
+            "followers": 1053, 
             "handle": "@rmotr_com", 
             "tweets": 312
         }, 
@@ -31712,17 +31721,17 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "Front End", 
-                    ".NET", 
                     "HTML", 
-                    "Git", 
-                    "C#", 
+                    "CSS", 
+                    "AngularJS", 
                     "ASP.NET", 
-                    "Excel", 
+                    "C#", 
                     "Design", 
-                    "User Experience Design", 
-                    "CSS"
+                    "Excel", 
+                    "Front End", 
+                    "Git", 
+                    ".NET", 
+                    "User Experience Design"
                 ], 
                 "Title": " Intro to Web Development at Antioch University"
             }, 
@@ -31736,23 +31745,23 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "Front End", 
-                    "JavaScript", 
-                    ".NET", 
                     "HTML", 
-                    "Git", 
-                    "C#", 
+                    "CSS", 
+                    "AngularJS", 
                     "ASP.NET", 
-                    "SEO", 
-                    "jQuery", 
-                    "Excel", 
+                    "C#", 
                     "Design", 
-                    "Sales", 
-                    "Mobile", 
+                    "Excel", 
+                    "Front End", 
+                    "Git", 
                     "Growth Hacking", 
-                    "User Experience Design", 
-                    "CSS"
+                    "JavaScript", 
+                    "jQuery", 
+                    "Mobile", 
+                    ".NET", 
+                    "Sales", 
+                    "SEO", 
+                    "User Experience Design"
                 ], 
                 "Title": "Full Stack Web Development at Antioch University"
             }, 
@@ -31767,22 +31776,22 @@
                 "Part Or Full": "Full Time", 
                 "Subjects": [
                     "AngularJS", 
-                    "Front End", 
-                    "JavaScript", 
-                    ".NET", 
-                    "HTML", 
-                    "Git", 
-                    "C#", 
                     "ASP.NET", 
+                    "C#", 
+                    "CSS", 
+                    "Design", 
+                    "Front End", 
+                    "Git", 
+                    "HTML", 
+                    "JavaScript", 
+                    "jQuery", 
+                    ".NET", 
                     "SEO", 
                     "SQL", 
-                    "jQuery", 
-                    "Excel", 
-                    "Design", 
-                    "Product Management", 
-                    "Growth Hacking", 
                     "User Experience Design", 
-                    "CSS"
+                    "Excel", 
+                    "Growth Hacking", 
+                    "Product Management"
                 ], 
                 "Title": "Full Stack Weekday Training (12 Weeks)"
             }, 
@@ -31821,23 +31830,23 @@
         "cr_num_reviews": 59, 
         "cr_rating": 4.9, 
         "cr_technologies": [
-            "AngularJS", 
-            "Front End", 
-            "JavaScript", 
-            ".NET", 
             "HTML", 
-            "Git", 
-            "C#", 
-            "ASP.NET", 
-            "SEO", 
-            "jQuery", 
-            "Excel", 
-            "Design", 
-            "Sales", 
-            "Mobile", 
-            "Growth Hacking", 
-            "User Experience Design", 
             "CSS", 
+            "AngularJS", 
+            "ASP.NET", 
+            "C#", 
+            "Design", 
+            "Excel", 
+            "Front End", 
+            "Git", 
+            "Growth Hacking", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "Sales", 
+            "SEO", 
+            "User Experience Design", 
             "SQL", 
             "Product Management", 
             "Digital Marketing", 
@@ -31878,23 +31887,23 @@
             "$1500 Jill H. Mays Women in Tech Scholarship"
         ], 
         "technologies": [
-            "AngularJS", 
-            "Front End", 
-            "JavaScript", 
-            ".NET", 
             "HTML", 
-            "Git", 
-            "C#", 
-            "ASP.NET", 
-            "SEO", 
-            "jQuery", 
-            "Excel", 
-            "Design", 
-            "Sales", 
-            "Mobile", 
-            "Growth Hacking", 
-            "User Experience Design", 
             "CSS", 
+            "AngularJS", 
+            "ASP.NET", 
+            "C#", 
+            "Design", 
+            "Excel", 
+            "Front End", 
+            "Git", 
+            "Growth Hacking", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "Sales", 
+            "SEO", 
+            "User Experience Design", 
             "SQL", 
             "Product Management", 
             "Digital Marketing", 
@@ -31911,17 +31920,17 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Other", 
-            "Product Management", 
+            "Full-Stack Web Development", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Other", 
+            "Product Management", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 2227, 
             "handle": "@WeSabio", 
-            "tweets": 9476
+            "tweets": 9478
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -32241,7 +32250,7 @@
         "twitter": {
             "followers": 613, 
             "handle": "@S2DS_School", 
-            "tweets": 1363
+            "tweets": 1364
         }, 
         "visas": "No", 
         "website": "http://www.s2ds.org/"
@@ -32361,7 +32370,7 @@
         "twitter": {
             "followers": 265, 
             "handle": "@SecureSetHQ", 
-            "tweets": 356
+            "tweets": 358
         }, 
         "visas": "No", 
         "website": "https://www.secureset.com"
@@ -32572,12 +32581,9 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [
-            "NYC"
-        ], 
+        "su_technologies": [], 
         "subjects": "Design", 
         "technologies": [
-            "NYC", 
             "Design"
         ], 
         "top_source": [
@@ -32591,7 +32597,7 @@
         "twitter": {
             "followers": 6567, 
             "handle": "@Shillington_", 
-            "tweets": 7733
+            "tweets": 7734
         }, 
         "visas": "Yes", 
         "website": "http://shillingtonschool.com/"
@@ -33556,7 +33562,7 @@
         "twitter": {
             "followers": 633, 
             "handle": "@softwareguild", 
-            "tweets": 722
+            "tweets": 723
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -33755,7 +33761,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 9033, 
+            "followers": 9031, 
             "handle": "@Springboard", 
             "tweets": 1963
         }, 
@@ -34141,9 +34147,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 15800, 
@@ -37895,11 +37901,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Data Science", 
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "Data Science", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 6409, 
@@ -38185,7 +38191,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 3451, 
+            "followers": 3452, 
             "handle": "@Tradecraft", 
             "tweets": 532
         }, 
@@ -38727,7 +38733,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1578, 
+            "followers": 1579, 
             "handle": "@TurnToTech", 
             "tweets": 1087
         }, 
@@ -39335,7 +39341,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8606, 
+            "followers": 8603, 
             "handle": "@VSCHOOLHQ", 
             "tweets": 578
         }, 
@@ -39986,7 +39992,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1515, 
+            "followers": 1513, 
             "handle": "@WeCanCodeIT", 
             "tweets": 1547
         }, 
@@ -40196,7 +40202,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 736, 
+            "followers": 735, 
             "handle": "@wegotcoders", 
             "tweets": 1529
         }, 
@@ -40684,7 +40690,7 @@
         "twitter": {
             "followers": 2297, 
             "handle": "@Worldtechmaker", 
-            "tweets": 2508
+            "tweets": 2509
         }, 
         "visas": "Yes", 
         "website": "http://worldtechmakers.com/"
@@ -41176,7 +41182,7 @@
             "The Software Guild", 
             "Boole Institute"
         ], 
-        "Date/Time": "2016-09-08 15:52:05", 
+        "Date/Time": "2016-09-08 16:23:51", 
         "Days Out": -4, 
         "Detroit": [
             "Grand Circus", 
@@ -41441,8 +41447,7 @@
             "Linux": 7, 
             "Mobile": 51, 
             "MongoDB": 71, 
-            "MySQL": 75, 
-            "NYC": 3, 
+            "MySQL": 76, 
             "NoLang": 1, 
             "Node.js": 95, 
             "Objective-C": 40, 

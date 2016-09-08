@@ -1817,6 +1817,226 @@
         "tracking_groups": [], 
         "website": "http://www.boulderdigitalarts.com"
     }, 
+    "Brainstation": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:8", 
+        "courses": {
+            "Digital Marketing": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Digital Marketing", 
+                    "SEO"
+                ], 
+                "Title": "Digital Marketing"
+            }, 
+            "Intermediate Web Development": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Git", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Intermediate Web Development"
+            }, 
+            "Intro To Web Development": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto", 
+                    "Vancouver"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ], 
+                "Title": "Intro to Web Development"
+            }, 
+            "Ios Development": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto", 
+                    "Vancouver"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Objective-C", 
+                    "Swift"
+                ], 
+                "Title": "iOS Development"
+            }, 
+            "Product Management": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Product Mgmt"
+                ], 
+                "Title": "Product Management"
+            }, 
+            "User Experience Design": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto", 
+                    "Vancouver"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Design Principles", 
+                    "UX"
+                ], 
+                "Title": "User Experience Design"
+            }, 
+            "User Experience Design Immersive": {
+                "Class Size": 20, 
+                "Cost": 8000, 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Design Principles", 
+                    "Illustrator", 
+                    "Photoshop", 
+                    "UX"
+                ], 
+                "Title": "User Experience Design Immersive"
+            }, 
+            "Visual Design": {
+                "Class Size": 30, 
+                "Cost": 2200, 
+                "Hours/Week": 3, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Design Principles", 
+                    "Photoshop"
+                ], 
+                "Title": "Visual Design"
+            }, 
+            "Web Development Immersive": {
+                "Class Size": 30, 
+                "Cost": 8000, 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Node.js", 
+                    "Python", 
+                    "SQL"
+                ], 
+                "Title": "Web Development Immersive"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-08", 
+        "locations": [
+            "Toronto", 
+            "Vancouver"
+        ], 
+        "name": "Brainstation", 
+        "num_alumni": 600, 
+        "num_locations": 2, 
+        "scholarships": "BrainStation Merit Sch...", 
+        "su_num_reviews": 31, 
+        "su_rating": 4.6, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Objective-C", 
+            "Swift", 
+            "AngularJS", 
+            "Git", 
+            "jQuery", 
+            "Node.js", 
+            "Python", 
+            "SQL", 
+            "Business", 
+            "Digital Marketing", 
+            "SEO", 
+            "Design Principles", 
+            "Illustrator", 
+            "Photoshop", 
+            "UX", 
+            "Product Management"
+        ], 
+        "subjects": "Intro to Web Development, Intro to iOS Development, UX Design, Visual Design, Digital Marketing, Product Management, Intermediate Web Development, Wed Development Immersive", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Objective-C", 
+            "Swift", 
+            "AngularJS", 
+            "Git", 
+            "jQuery", 
+            "Node.js", 
+            "Python", 
+            "SQL", 
+            "Business", 
+            "Digital Marketing", 
+            "SEO", 
+            "Design Principles", 
+            "Illustrator", 
+            "Photoshop", 
+            "UX", 
+            "Product Management"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Toronto"
+        ], 
+        "website": "http://www.brainstation.io/course/toronto/web-development-immersive?utm_source=Switchup&utm_medium=marketing&utm_term=web_development_immersive&utm_campaign=Switchup"
+    }, 
     "Byte Academy": {
         "average_salary": "N/A", 
         "class_ratio": "1:4", 
@@ -1926,7 +2146,6 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "NYC", 
             "Data Science", 
             "Data Structures", 
             "Hadoop"
@@ -1940,7 +2159,6 @@
             "Python", 
             "CSS", 
             "HTML", 
-            "NYC", 
             "Data Science", 
             "Data Structures", 
             "Hadoop"
@@ -5312,20 +5530,60 @@
         "website": "http://deltaprogram.us/"
     }, 
     "Depot/U": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": "$$$", 
-        "hiring_rate": "No data", 
+        "average_salary": 55000, 
+        "class_ratio": "1:10", 
+        "courses": {
+            "Full Stack Development": {
+                "Class Size": 20, 
+                "Cost": 8000, 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "2017-02-20", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Express", 
+                    "HTML", 
+                    "Javascript", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js"
+                ], 
+                "Title": "Full Stack Development"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 82.0, 
         "last_updated": "2016-09-08", 
         "locations": null, 
         "name": "Depot/U", 
-        "num_alumni": "N/A", 
+        "num_alumni": 67, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Express.js", 
+            "HTML", 
+            "JavaScript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js"
+        ], 
+        "subjects": "HTML, CSS, JavaScript, TypeScript, MongoDB, AngularJS, NodeJS, jQuery, SQL", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Express.js", 
+            "HTML", 
+            "JavaScript", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8370,7 +8628,6 @@
             "London", 
             "Los Angeles", 
             "Melbourne", 
-            "NYC", 
             "San Francisco", 
             "Seattle", 
             "Sydney", 
@@ -8396,7 +8653,6 @@
             "London", 
             "Los Angeles", 
             "Melbourne", 
-            "NYC", 
             "San Francisco", 
             "Seattle", 
             "Sydney", 
@@ -9229,27 +9485,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://hackschool.com.mx/"
-    }, 
-    "Hacktiv8": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": null, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": null, 
-        "name": "Hacktiv8", 
-        "num_alumni": "N/A", 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": ""
     }, 
     "Helio Training Bootcamp": {
         "average_salary": "N/A", 
@@ -12963,13 +13198,9 @@
         "num_locations": 1, 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [
-            "NYC"
-        ], 
+        "su_technologies": [], 
         "subjects": "Design", 
-        "technologies": [
-            "NYC"
-        ], 
+        "technologies": [], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -14057,65 +14288,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.talentbuddy.co/"
-    }, 
-    "Tealeaf": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "courses": {
-            "Build Production Quality Applications": {
-                "Class Size": null, 
-                "Hours/Week": null, 
-                "Length": 8, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Ruby on Rails"
-                ], 
-                "Title": "Build Production Quality Applications"
-            }, 
-            "Introduction To Ruby And Web Development": {
-                "Class Size": null, 
-                "Hours/Week": null, 
-                "Length": 4, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Ruby on Rails"
-                ], 
-                "Title": "Introduction to Ruby and Web Development"
-            }, 
-            "Rapid Prototyping With Ruby On Rails": {
-                "Class Size": null, 
-                "Hours/Week": null, 
-                "Length": 4, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Ruby on Rails"
-                ], 
-                "Title": "Rapid Prototyping with Ruby on Rails"
-            }
-        }, 
-        "general_cost": "$", 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Online"
-        ], 
-        "name": "Tealeaf", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": [
-            "Ruby on Rails"
-        ], 
-        "subjects": "Ruby", 
-        "technologies": [
-            "Ruby on Rails"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://gotealeaf.com"
     }, 
     "Tech Bootcamps": {
         "average_salary": "N/A", 
@@ -17145,24 +17317,24 @@
             "The Iron Yard"
         ], 
         "Cleveland": [
-            "Tech Elevator", 
-            "We Can Code It", 
             "The Software Guild", 
+            "We Can Code It", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
         "Columbus": [
-            "Tech Elevator", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Girl Develop It"
         ], 
         "Current Market": [
-            "Tech Elevator", 
-            "We Can Code It", 
             "The Software Guild", 
+            "We Can Code It", 
+            "Tech Elevator", 
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 15:46:52", 
+        "Date/Time": "2016-09-08 16:18:47", 
         "Days Out": -4, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17173,16 +17345,17 @@
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 268, 
+        "Number of Entries": 267, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
+            "Brainstation", 
             "Hackeryou", 
+            "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
-            "Cincy Code It", 
             "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
@@ -17192,6 +17365,7 @@
             "Grand Circus"
         ], 
         "Toronto": [
+            "Brainstation", 
             "Hackeryou", 
             "Lighthouse Labs", 
             "Red Academy", 
@@ -17288,7 +17462,7 @@
             "Newark": 1, 
             "Oakland": 1, 
             "Omaha": 2, 
-            "Online": 29, 
+            "Online": 28, 
             "Orange County": 4, 
             "Orlando": 1, 
             "Ottawa": 1, 
@@ -17319,8 +17493,8 @@
             "Sydney": 5, 
             "S\u00e3o Paulo": 2, 
             "Tampa": 2, 
-            "Toronto": 4, 
-            "Vancouver": 3, 
+            "Toronto": 5, 
+            "Vancouver": 4, 
             "Warsaw": 1, 
             "Washington": 6, 
             "Washington DC": 2, 
@@ -17335,48 +17509,47 @@
             "ASP.NET MVC": 2, 
             "Algorithms": 40, 
             "Android": 15, 
-            "AngularJS": 47, 
-            "Business": 5, 
+            "AngularJS": 49, 
+            "Business": 6, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 104, 
+            "CSS": 106, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
             "Data Science": 16, 
             "Data Structures": 24, 
-            "Design Principles": 22, 
-            "Digital Marketing": 11, 
+            "Design Principles": 23, 
+            "Digital Marketing": 12, 
             "Django": 8, 
             "Drupal": 1, 
             "Entrepreneurship": 13, 
-            "Express.js": 22, 
+            "Express.js": 23, 
             "Game Design": 2, 
-            "Git": 53, 
-            "HTML": 110, 
+            "Git": 54, 
+            "HTML": 112, 
             "Hadoop": 1, 
-            "Illustrator": 7, 
+            "Illustrator": 8, 
             "Java": 19, 
-            "JavaScript": 117, 
+            "JavaScript": 119, 
             "Linux": 7, 
             "Mobile": 19, 
-            "MongoDB": 29, 
-            "MySQL": 23, 
-            "NYC": 3, 
-            "Node.js": 42, 
-            "Objective-C": 16, 
+            "MongoDB": 30, 
+            "MySQL": 24, 
+            "Node.js": 44, 
+            "Objective-C": 17, 
             "PHP": 16, 
             "Perl": 2, 
             "Phonegap": 2, 
-            "Photoshop": 9, 
+            "Photoshop": 10, 
             "PostgreSQL": 16, 
-            "Product Management": 7, 
-            "Python": 23, 
+            "Product Management": 8, 
+            "Python": 24, 
             "Ruby": 23, 
-            "Ruby on Rails": 61, 
-            "SEO": 9, 
-            "SQL": 41, 
+            "Ruby on Rails": 60, 
+            "SEO": 10, 
+            "SQL": 42, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
@@ -17385,9 +17558,9 @@
             "SharePoint": 1, 
             "Sinatra": 8, 
             "Spring MVC": 1, 
-            "Swift": 22, 
+            "Swift": 23, 
             "UNIX": 1, 
-            "UX": 33, 
+            "UX": 34, 
             "VB.NET": 1, 
             "WCF": 1, 
             "WPF": 1, 
@@ -17395,7 +17568,7 @@
             "Windows Server": 1, 
             "Wordpress": 7, 
             "iOS": 28, 
-            "jQuery": 67
+            "jQuery": 68
         }
     }
 }

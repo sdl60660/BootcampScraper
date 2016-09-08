@@ -5,7 +5,9 @@
             "Code Bootcamp": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Pittsburgh", 
+                "Location": [
+                    "Pittsburgh"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -31,7 +33,7 @@
             "HTML", 
             "Git", 
             "C#", 
-            "Rails", 
+            "Ruby on Rails", 
             "SQL", 
             "Ruby", 
             "CSS"
@@ -54,7 +56,7 @@
             "HTML", 
             "Git", 
             "C#", 
-            "Rails", 
+            "Ruby on Rails", 
             "SQL", 
             "Ruby", 
             "CSS"
@@ -142,7 +144,7 @@
             "Ad Optimization": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -155,7 +157,9 @@
             "Front End Web Development": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -172,7 +176,7 @@
             "Front-End Web Development": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -188,7 +192,7 @@
             "Introduction To Rails": {
                 "Cost": 2500, 
                 "Hours/Week": 6, 
-                "Length": "12 weeks", 
+                "Length": 12, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -202,7 +206,9 @@
             "Ios Mobile Development": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -217,7 +223,7 @@
             "Mobile Development (Immersive)": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -232,8 +238,10 @@
             "User Experience Design": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "Toronto", 
+                "Length": 12, 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -246,7 +254,9 @@
             "Web Development": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -266,7 +276,7 @@
             "Web Development (Immersive)": {
                 "Cost": 9000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -296,7 +306,7 @@
             "iOS", 
             "Objective-C", 
             "Mobile", 
-            "Rails", 
+            "Ruby on Rails", 
             "SQL", 
             "Sinatra", 
             "Ruby"
@@ -353,7 +363,6 @@
             "Front End", 
             "Git", 
             "Mobile", 
-            "Rails", 
             "SQL", 
             "Sinatra"
         ], 
@@ -372,7 +381,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5640, 
+            "followers": 5639, 
             "handle": "@BitmakerHQ", 
             "tweets": 8568
         }, 
@@ -388,8 +397,10 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
-                "Location": "Vancouver", 
+                "Length": 10, 
+                "Location": [
+                    "Vancouver"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -403,8 +414,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
-                "Location": "San Jose", 
+                "Length": 10, 
+                "Location": [
+                    "San Jose"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -422,7 +435,9 @@
             "Intermediate Web Development ": {
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -439,7 +454,9 @@
             "Intro To Ios Development": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "San Jose", 
+                "Location": [
+                    "San Jose"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -456,8 +473,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
-                "Location": "San Jose", 
+                "Length": 10, 
+                "Location": [
+                    "San Jose"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -475,7 +494,7 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Toronto", 
                     "Vancouver"
@@ -491,8 +510,10 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
-                "Location": "New York City", 
+                "Length": 10, 
+                "Location": [
+                    "New York City"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -506,8 +527,10 @@
                 "Class Size": 30, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
-                "Location": "San Jose", 
+                "Length": 10, 
+                "Location": [
+                    "San Jose"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -522,8 +545,10 @@
                 "Class Size": 20, 
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
-                "Location": "Toronto", 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -539,8 +564,10 @@
                 "Class Size": 30, 
                 "Cost": 2200, 
                 "Hours/Week": 3, 
-                "Length": "10 weeks", 
-                "Location": "Vancouver", 
+                "Length": 10, 
+                "Location": [
+                    "Vancouver"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -555,8 +582,10 @@
                 "Class Size": 30, 
                 "Cost": 8000, 
                 "Hours/Week": null, 
-                "Length": "10 weeks", 
-                "Location": "Toronto", 
+                "Length": 10, 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -672,17 +701,17 @@
             "Toronto"
         ], 
         "tracks": [
-            "Product Management", 
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Digital Marketing", 
+            "Product Management", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 6892, 
             "handle": "@BrainStation", 
-            "tweets": 7121
+            "tweets": 7122
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -695,7 +724,9 @@
             ".Net Developer Bootcamp": {
                 "Cost": 12500, 
                 "Hours/Week": 35, 
-                "Location": "Cincinnati", 
+                "Location": [
+                    "Cincinnati"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -715,7 +746,9 @@
             "Java Developer Bootcamp": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Cincinnati", 
+                "Location": [
+                    "Cincinnati"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -799,7 +832,9 @@
             "Data Science And Data Engineering | Austin": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Austin", 
+                "Location": [
+                    "Austin"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -813,7 +848,9 @@
             "Data Science And Data Engineering | Barcelona": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Barcelona", 
+                "Location": [
+                    "Barcelona"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -829,7 +866,9 @@
             "Data Science And Data Engineering | Chicago": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Chicago", 
+                "Location": [
+                    "Chicago"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -845,7 +884,9 @@
             "Data Science And Data Engineering | New York": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "New York City", 
+                "Location": [
+                    "New York City"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -861,7 +902,9 @@
             "Data Science And Data Engineering | Seattle": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Seattle", 
+                "Location": [
+                    "Seattle"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -877,7 +920,9 @@
             "Data Science And Data Engineering | Singapore": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Singapore", 
+                "Location": [
+                    "Singapore"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -891,7 +936,9 @@
             "Data Science And Data Engineering | Toronto": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -907,7 +954,9 @@
             "Data Science And Data Engineering | Washington": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Washington", 
+                "Location": [
+                    "Washington"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -999,7 +1048,7 @@
             "Atlanta", 
             "Boise", 
             "Chicago", 
-            "Pheonix", 
+            "Phoenix", 
             "West Palm Beach", 
             "Indianapolis", 
             "Louisville", 
@@ -1009,19 +1058,19 @@
             "Detroit", 
             "Minneapolis", 
             "Kansas City", 
-            "St.Louis", 
+            "St. Louis", 
             "Camden", 
             "Albuquerque", 
             "Rochester", 
             "Buffalo", 
-            "NYC", 
+            "New York City", 
             "Charlotte", 
             "Raleigh", 
             "Cincinnati", 
             "Columbus", 
             "Providence", 
             "Dayton", 
-            "Ottowa", 
+            "Ottawa", 
             "Portland", 
             "Salt Lake City", 
             "Provo", 
@@ -1066,7 +1115,9 @@
             ".Net (C#) Bootcamp": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1085,8 +1136,10 @@
             "Front-End Bootcamp": {
                 "Cost": 7500, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
-                "Location": "Detroit", 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1104,7 +1157,7 @@
             "Front-End Bootcamp (Javascript)": {
                 "Cost": 7500, 
                 "Hours/Week": 50, 
-                "Length": "10 weeks", 
+                "Length": 10, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1121,7 +1174,7 @@
             "Front-End Bootcamp (Part-Time)": {
                 "Cost": 7500, 
                 "Hours/Week": 20, 
-                "Length": "14 weeks", 
+                "Length": 14, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1138,7 +1191,9 @@
             "Front-End Part-Time Bootcamp": {
                 "Cost": 6000, 
                 "Hours/Week": 17, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1155,7 +1210,7 @@
             "Intro To Web Development Part 1: Html + Css": {
                 "Cost": 495, 
                 "Hours/Week": 4, 
-                "Length": "3 weeks", 
+                "Length": 3, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1169,7 +1224,7 @@
             "Intro To Web Development Part 2: Javascript + Jquery": {
                 "Cost": 1495, 
                 "Hours/Week": 4, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Detroit"
                 ], 
@@ -1183,7 +1238,9 @@
             "Intro To Web Development: Html + Css": {
                 "Cost": 495, 
                 "Hours/Week": 6, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1196,7 +1253,9 @@
             "Intro To Web Development: Javascript + Jquery": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Detroit", 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1211,8 +1270,10 @@
             "Java Bootcamp": {
                 "Cost": 7500, 
                 "Hours/Week": 40, 
-                "Length": "10 weeks", 
-                "Location": "Detroit", 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1302,9 +1363,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5104, 
+            "followers": 5106, 
             "handle": "@GrandCircusCo", 
-            "tweets": 5896
+            "tweets": 5898
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -1317,7 +1378,9 @@
             "Advanced Javascript & Jquery": {
                 "Cost": 7500, 
                 "Hours/Week": 40, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1332,7 +1395,9 @@
             "Advanced Ux Design": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1345,7 +1410,9 @@
             "Advanced Web Development": {
                 "Cost": 1400, 
                 "Hours/Week": 6, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1358,7 +1425,9 @@
             "Front End Web Development Immersive": {
                 "Cost": 2300, 
                 "Hours/Week": 6, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1378,7 +1447,7 @@
                 "Class Size": 25, 
                 "Cost": 7000, 
                 "Hours/Week": 40, 
-                "Length": "9 weeks", 
+                "Length": 9, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1395,7 +1464,9 @@
             "Intro To Javascript And Jquery": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1410,7 +1481,9 @@
             "Intro To Ux Design": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1423,7 +1496,9 @@
             "Intro To Web Development": {
                 "Cost": 1400, 
                 "Hours/Week": 6, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1437,7 +1512,7 @@
                 "Class Size": 30, 
                 "Cost": 1600, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1451,7 +1526,7 @@
                 "Class Size": 30, 
                 "Cost": 2300, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1466,7 +1541,7 @@
                 "Class Size": 30, 
                 "Cost": 1400, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1481,7 +1556,7 @@
                 "Class Size": 30, 
                 "Cost": 2300, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
+                "Length": 6, 
                 "Location": [
                     "Toronto"
                 ], 
@@ -1557,9 +1632,9 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8623, 
+            "followers": 8628, 
             "handle": "@hackeryou", 
-            "tweets": 3349
+            "tweets": 3350
         }, 
         "visas": "No", 
         "website": "http://hackeryou.com/"
@@ -1598,7 +1673,9 @@
             "Digital Skills For Beginners (Part-Time)": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1672,8 +1749,10 @@
                 "Class Size": 20, 
                 "Cost": 1500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
-                "Location": "Toronto", 
+                "Length": 6, 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1692,8 +1771,10 @@
                 "Class Size": 20, 
                 "Cost": 1500, 
                 "Hours/Week": 6, 
-                "Length": "6 weeks", 
-                "Location": "London", 
+                "Length": 6, 
+                "Location": [
+                    "London"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1712,8 +1793,10 @@
                 "Class Size": 20, 
                 "Cost": 9000, 
                 "Hours/Week": null, 
-                "Length": "8 weeks", 
-                "Location": "Toronto", 
+                "Length": 8, 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1737,8 +1820,10 @@
                 "Class Size": 20, 
                 "Cost": 8000, 
                 "Hours/Week": 60, 
-                "Length": "8 weeks", 
-                "Location": "London", 
+                "Length": 8, 
+                "Location": [
+                    "London"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1781,7 +1866,7 @@
             "Product Management", 
             "JavaScript", 
             "MongoDB", 
-            "Rails", 
+            "Ruby on Rails", 
             "SQL", 
             "jQuery", 
             "Express.js", 
@@ -1857,7 +1942,6 @@
             "Git", 
             "Product Management", 
             "MongoDB", 
-            "Rails", 
             "SQL", 
             "jQuery", 
             "Express.js"
@@ -1875,9 +1959,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4537, 
+            "followers": 4535, 
             "handle": "@lighthouse_labs", 
-            "tweets": 6698
+            "tweets": 6699
         }, 
         "visas": "No", 
         "website": "http://www.lighthouselabs.ca/"
@@ -1890,7 +1974,9 @@
             "Digital Marketing Professional": {
                 "Cost": 7500, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1902,7 +1988,9 @@
             "Full-Stack Developer Professional": {
                 "Cost": 13500, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1918,7 +2006,9 @@
             "Ux Designer Professional": {
                 "Cost": 7500, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1987,9 +2077,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1613, 
+            "followers": 1614, 
             "handle": "@RedAcademy", 
-            "tweets": 1458
+            "tweets": 1459
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -2030,8 +2120,10 @@
             "Back End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "San Antonio", 
+                "Length": 12, 
+                "Location": [
+                    "San Antonio"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2051,7 +2143,9 @@
             "Back-End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Location": "Greenville", 
+                "Location": [
+                    "Greenville"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2066,8 +2160,10 @@
             "Front End Engineering": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "San Antonio", 
+                "Length": 12, 
+                "Location": [
+                    "San Antonio"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2082,12 +2178,14 @@
             "Mobile Engineering": {
                 "Cost": 12000, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "Orlando", 
+                "Length": 12, 
+                "Location": [
+                    "Orlando"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-09-12", 
+                "Start Date": "2016-09-26", 
                 "Subjects": [
                     "Swift", 
                     "iOS", 
@@ -2101,8 +2199,10 @@
             "Ui Design": {
                 "Cost": 13900, 
                 "Hours/Week": 40, 
-                "Length": "12 weeks", 
-                "Location": "Austin", 
+                "Length": 12, 
+                "Location": [
+                    "Austin"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2120,7 +2220,7 @@
         "cr_rating": 3.4, 
         "cr_technologies": [
             "HTML", 
-            "Rails", 
+            "Ruby on Rails", 
             "Ruby", 
             "CSS", 
             "JavaScript", 
@@ -2201,7 +2301,6 @@
             "Mobile", 
             "Objective-C", 
             "Swift", 
-            "Rails", 
             "Xcode", 
             "jQuery", 
             "Python", 
@@ -2243,7 +2342,9 @@
             "Digital Product Design": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2256,7 +2357,9 @@
             "Digital Product Growth": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2269,7 +2372,9 @@
             "Mobile App Development: Ios": {
                 "Cost": null, 
                 "Hours/Week": null, 
-                "Location": "Toronto", 
+                "Location": [
+                    "Toronto"
+                ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2320,7 +2425,7 @@
             "Mobile Development"
         ], 
         "twitter": {
-            "followers": 323, 
+            "followers": 321, 
             "handle": "@ThoughtKite", 
             "tweets": 185
         }, 
