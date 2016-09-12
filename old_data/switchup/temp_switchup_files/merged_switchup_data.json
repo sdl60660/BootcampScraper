@@ -5,7 +5,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Paris", 
             "Silicon Valley"
@@ -56,7 +56,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Miami"
         ], 
@@ -105,7 +105,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Academy", 
         "num_alumni": 60, 
@@ -126,7 +126,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Cleveland"
         ], 
@@ -176,7 +176,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -237,7 +237,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Seattle"
         ], 
@@ -272,7 +272,7 @@
         "courses": {}, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Ait Learning", 
         "num_alumni": "N/A", 
@@ -293,7 +293,7 @@
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Alchemy Lab", 
         "num_alumni": "N/A", 
@@ -315,7 +315,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Alphappl", 
         "num_alumni": "N/A", 
@@ -336,7 +336,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Dallas"
         ], 
@@ -360,7 +360,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Nairobi", 
             "Lagos"
@@ -379,13 +379,142 @@
         "tracking_groups": [], 
         "website": "https://andela.com/"
     }, 
+    "App Academy": {
+        "average_salary": 105000, 
+        "class_ratio": "8:1", 
+        "courses": {
+            "Bootcamp Prep": {
+                "Class Size": 15, 
+                "Cost": 1999, 
+                "Hours/Week": 10, 
+                "Length": 4, 
+                "Location": [
+                    "Austin", 
+                    "Chicago", 
+                    "Los Angeles", 
+                    "NYC", 
+                    "Online", 
+                    "Philadelphia", 
+                    "San Francisco", 
+                    "Seattle"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Node.js"
+                ], 
+                "Title": "Bootcamp Prep"
+            }, 
+            "Full-Stack Web Development (Full-Time)": {
+                "Class Size": 40, 
+                "Cost": 16000, 
+                "Hours/Week": 80, 
+                "Length": 12, 
+                "Location": [
+                    "NYC", 
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Algorithms", 
+                    "CSS", 
+                    "Design Principles", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "SQL", 
+                    "UX"
+                ], 
+                "Title": "Full-Stack Web Development (Full-Time)"
+            }, 
+            "Full-Stack Web Development (Part-Time)": {
+                "Class Size": 20, 
+                "Cost": 15000, 
+                "Hours/Week": 20, 
+                "Length": 32, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "2016-10-03", 
+                "Subjects": [
+                    "Algorithms", 
+                    "CSS", 
+                    "Design Principles", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "SQL", 
+                    "UX"
+                ], 
+                "Title": "Full-Stack Web Development (Part-Time)"
+            }
+        }, 
+        "general_cost": "$$$", 
+        "hiring_rate": 98.0, 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "San Francisco", 
+            "New York City", 
+            "Austin", 
+            "Chicago", 
+            "Los Angeles", 
+            "Online", 
+            "Philadelphia", 
+            "Seattle"
+        ], 
+        "name": "App Academy", 
+        "num_alumni": 1300, 
+        "num_locations": 8, 
+        "su_num_reviews": 61, 
+        "su_rating": 4.6, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Design Principles", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "UX", 
+            "Node.js"
+        ], 
+        "subjects": "Ruby, Rails, JavaScript, React.js, Flux, CSS, HTML, SQL, Advanced Algorithims", 
+        "technologies": [
+            "Algorithms", 
+            "CSS", 
+            "Design Principles", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "UX", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.appacademy.io/"
+    }, 
     "App Coda": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "App Coda", 
         "num_alumni": "N/A", 
@@ -406,7 +535,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Appjamming", 
         "num_alumni": "N/A", 
@@ -427,7 +556,7 @@
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin", 
             "Boston", 
@@ -460,7 +589,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Arkansas Coding Academy", 
         "num_alumni": "N/A", 
@@ -481,7 +610,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Astro Code School", 
         "num_alumni": "N/A", 
@@ -502,7 +631,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Atlanta"
         ], 
@@ -580,14 +709,14 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin"
         ], 
         "name": "Austin Coding Academy", 
         "num_alumni": 250, 
         "num_locations": 1, 
-        "su_num_reviews": 2, 
+        "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -640,7 +769,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Lexington"
         ], 
@@ -700,7 +829,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Barcelona"
         ], 
@@ -746,7 +875,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Charlotte"
         ], 
@@ -803,7 +932,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -839,7 +968,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Detroit"
         ], 
@@ -867,7 +996,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Detroit"
         ], 
@@ -929,7 +1058,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 70.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Washington", 
             "Baltimore"
@@ -961,6 +1090,31 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.betamore.com/academy"
+    }, 
+    "Big D Code": {
+        "average_salary": 100000, 
+        "class_ratio": "1:10", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": 50.0, 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Dallas"
+        ], 
+        "name": "Big D Code", 
+        "num_alumni": 1, 
+        "num_locations": 1, 
+        "scholarships": "No", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Ruby on Rails, Javascript, HTML, CSS, MEAN Stack", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "www.bigdcode.com"
     }, 
     "Big Nerd Ranch": {
         "average_salary": "N/A", 
@@ -1083,7 +1237,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco", 
             "Atlanta"
@@ -1114,6 +1268,27 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.bignerdranch.com"
+    }, 
+    "Big Sky Code Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": null, 
+        "name": "Big Sky Code Academy", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Wireframing, HTML5, CSS3, SaSS, JavaScript, Angular, React, Express, SQL, NoSQL, MySQL, MongoDB, networks, and Git. ", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.bigskycodeacademy.org/"
     }, 
     "Bitmaker Labs": {
         "average_salary": "N/A", 
@@ -1213,7 +1388,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 92.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Toronto"
         ], 
@@ -1355,7 +1530,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online", 
             "San Francisco"
@@ -1409,29 +1584,60 @@
         "tracking_groups": [], 
         "website": "https://www.bloc.io/?utm_campaign=affiliate&utm_source=switchup&utm_medium=site&utm_term=profile-pg"
     }, 
-    "Blur State": {
+    "Boisecodeworks": {
         "average_salary": "N/A", 
         "class_ratio": null, 
-        "courses": {}, 
-        "general_cost": null, 
+        "courses": {
+            "Evening Web Development Course": {
+                "Cost": 3200, 
+                "Hours/Week": 15, 
+                "Length": 12, 
+                "Location": [
+                    "Boise"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Express", 
+                    "Javascript", 
+                    "MongoDB", 
+                    "Node.js"
+                ], 
+                "Title": "Evening Web Development Course"
+            }
+        }, 
+        "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
-            "Fayetteville"
+            "Boise"
         ], 
-        "name": "Blur State", 
+        "name": "Boisecodeworks", 
         "num_alumni": "N/A", 
         "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
+        "scholarships": "Discounts for women re...", 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "Express.js", 
+            "JavaScript", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "subjects": "MEAN full stack Javascript: MongoDB, ExpressJS, AngularJS, NodeJS", 
+        "technologies": [
+            "AngularJS", 
+            "Express.js", 
+            "JavaScript", 
+            "MongoDB", 
+            "Node.js"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
         "tracking_groups": [], 
-        "website": "http://www.blurstate.com/"
+        "website": "https://www.boisecodeworks.com/"
     }, 
     "Boulder Digital Arts": {
         "average_salary": "N/A", 
@@ -1552,7 +1758,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Boulder"
         ], 
@@ -1744,7 +1950,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Toronto", 
             "Vancouver"
@@ -1898,7 +2104,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 98.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -1939,13 +2145,70 @@
         "tracking_groups": [], 
         "website": "http://www.byteacademy.co/"
     }, 
+    "Camp Code Away": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:4", 
+        "courses": {
+            "Immersion Camp In Bali": {
+                "Class Size": 8, 
+                "Cost": 0, 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Bali"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "CSS", 
+                    "HTML", 
+                    "Ruby", 
+                    "Sinatra"
+                ], 
+                "Title": "Immersion Camp in Bali"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Bali", 
+            "Costa Rica"
+        ], 
+        "name": "Camp Code Away", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "scholarships": "Minority and female in...", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "Ruby", 
+            "Sinatra"
+        ], 
+        "subjects": "Ruby on Rails, HTML, SQL, CSS", 
+        "technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "Ruby", 
+            "Sinatra"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://campcodeaway.com/"
+    }, 
     "Centriq Training": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Centriq Training", 
         "num_alumni": "N/A", 
@@ -1966,7 +2229,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Cincinnati"
         ], 
@@ -1993,7 +2256,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Gainesville"
         ], 
@@ -2041,7 +2304,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Seattle"
         ], 
@@ -2088,7 +2351,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Atlanta"
         ], 
@@ -2217,7 +2480,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -2310,7 +2573,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -2599,7 +2862,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Seattle", 
             "Portland", 
@@ -2668,7 +2931,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Washington"
         ], 
@@ -2692,7 +2955,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Code Ingenious", 
         "num_alumni": 15, 
@@ -2713,7 +2976,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": 94.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Code Institute", 
         "num_alumni": 40, 
@@ -2797,7 +3060,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -2841,7 +3104,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -2893,7 +3156,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -2925,7 +3188,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Mexico City"
         ], 
@@ -2949,7 +3212,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Codecademy", 
         "num_alumni": "N/A", 
@@ -3242,7 +3505,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Charleston"
         ], 
@@ -3302,7 +3565,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Codeclan", 
         "num_alumni": "N/A", 
@@ -3366,7 +3629,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Vancouver"
         ], 
@@ -3491,7 +3754,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Boulder"
         ], 
@@ -3565,7 +3828,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Kuwait City", 
             "Honolulu", 
@@ -3632,7 +3895,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Orange County"
         ], 
@@ -3683,7 +3946,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -3783,7 +4046,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Houston", 
             "San Francisco", 
@@ -3864,14 +4127,14 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Sydney"
         ], 
         "name": "Coder Factory Academy", 
         "num_alumni": "N/A", 
         "num_locations": 1, 
-        "su_num_reviews": 4, 
+        "su_num_reviews": 5, 
         "su_rating": 5.0, 
         "su_technologies": [], 
         "subjects": "Application Development, Beginner", 
@@ -3932,7 +4195,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Greensboro", 
             "Charlotte"
@@ -3973,6 +4236,27 @@
         ], 
         "website": "http://www.coderfoundry.com/apply?utm_source=switchup&utm_medium=reviewsite&utm_campaign=switchreview"
     }, 
+    "Coder Manual": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": null, 
+        "name": "Coder Manual", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://codermanual.com/"
+    }, 
     "Coder Vox": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -3999,7 +4283,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin"
         ], 
@@ -4048,7 +4332,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -4091,7 +4375,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Warsaw"
         ], 
@@ -4119,7 +4403,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Ho Chi Minh"
         ], 
@@ -4141,21 +4425,9 @@
         "average_salary": "N/A", 
         "class_ratio": "1:1 - 1:15", 
         "courses": {
-            "Free C# Demo Lesson": {
-                "Cost": 0, 
-                "Hours/Week": 1, 
-                "Location": [
-                    "Online"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "C#"
-                ], 
-                "Title": "FREE C# Demo Lesson"
-            }, 
             "Group Course": {
                 "Class Size": 15, 
-                "Cost": 8000, 
+                "Cost": 7000, 
                 "Hours/Week": 40, 
                 "Length": 24, 
                 "Location": [
@@ -4189,24 +4461,25 @@
                 ], 
                 "Title": "Intense Coder Private Course"
             }, 
-            "Introduction To C# Group Course": {
+            "Introduction To C# Programming Course": {
                 "Class Size": 30, 
-                "Cost": 199, 
-                "Hours/Week": 4, 
+                "Cost": 499, 
+                "Hours/Week": 5, 
                 "Length": 4, 
                 "Location": [
                     "Online"
                 ], 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
-                    "C#"
+                    "C#", 
+                    ".NET"
                 ], 
-                "Title": "Introduction to C# Group Course"
+                "Title": "Introduction to C# Programming Course"
             }
         }, 
-        "general_cost": null, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -4218,14 +4491,16 @@
         "su_rating": 4.0, 
         "su_technologies": [
             "C#", 
+            ".NET", 
             "HTML", 
             "JavaScript", 
             "jQuery", 
             "SQL"
         ], 
-        "subjects": "Java, C#, HTML, JavaScript", 
+        "subjects": "C#, .NET, SQL, jQuery, JavaScript, HTML, Object-Oriented Programming", 
         "technologies": [
             "C#", 
+            ".NET", 
             "HTML", 
             "JavaScript", 
             "jQuery", 
@@ -4270,7 +4545,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -4320,7 +4595,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -4359,7 +4634,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Atlanta"
         ], 
@@ -4401,7 +4676,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Antonio"
         ], 
@@ -4466,32 +4741,51 @@
                     "UX"
                 ], 
                 "Title": "Full Stack Software Engineering"
+            }, 
+            "Intro To Programming": {
+                "Class Size": 20, 
+                "Cost": 0, 
+                "Hours/Week": 20, 
+                "Length": 4, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Intro to programming"
             }
         }, 
-        "general_cost": "$$", 
+        "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
-            "Barcelona"
+            "Barcelona", 
+            "Online"
         ], 
         "name": "Codeworks", 
         "num_alumni": "N/A", 
-        "num_locations": 1, 
+        "num_locations": 2, 
         "scholarships": "Bring your friends to ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": [
-            "Algorithms", 
-            "AngularJS", 
             "CSS", 
-            "Cyber Security", 
-            "Data Science", 
-            "Data Structures", 
-            "Express.js", 
             "Git", 
             "HTML", 
             "JavaScript", 
             "jQuery", 
+            "Algorithms", 
+            "AngularJS", 
+            "Cyber Security", 
+            "Data Science", 
+            "Data Structures", 
+            "Express.js", 
             "Linux", 
             "Mobile", 
             "MongoDB", 
@@ -4504,17 +4798,17 @@
         ], 
         "subjects": "JavaScript, Full Stack, Node JS, Express, Koa, Angular, React, Meteor, Polymer, HTML, CSS", 
         "technologies": [
-            "Algorithms", 
-            "AngularJS", 
             "CSS", 
-            "Cyber Security", 
-            "Data Science", 
-            "Data Structures", 
-            "Express.js", 
             "Git", 
             "HTML", 
             "JavaScript", 
             "jQuery", 
+            "Algorithms", 
+            "AngularJS", 
+            "Cyber Security", 
+            "Data Science", 
+            "Data Structures", 
+            "Express.js", 
             "Linux", 
             "Mobile", 
             "MongoDB", 
@@ -4537,7 +4831,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Codify Academy", 
         "num_alumni": "N/A", 
@@ -4558,7 +4852,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Coding Bootcamp Praha", 
         "num_alumni": "N/A", 
@@ -4637,7 +4931,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 92.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Seattle", 
             "San Francisco", 
@@ -4725,9 +5019,9 @@
                 "Title": "Web Development"
             }
         }, 
-        "general_cost": "$$$", 
+        "general_cost": "$", 
         "hiring_rate": 97.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Woodside"
         ], 
@@ -4735,8 +5029,8 @@
         "num_alumni": 52, 
         "num_locations": 1, 
         "scholarships": "Yes", 
-        "su_num_reviews": 22, 
-        "su_rating": 4.5, 
+        "su_num_reviews": 23, 
+        "su_rating": 4.4, 
         "su_technologies": [
             "AngularJS", 
             "HTML", 
@@ -4777,7 +5071,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -4816,7 +5110,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Raleigh"
         ], 
@@ -4861,7 +5155,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Atlanta"
         ], 
@@ -4924,7 +5218,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Albuquerque", 
             "Las Cruses"
@@ -4972,7 +5266,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Data Application Lab", 
         "num_alumni": "N/A", 
@@ -4987,13 +5281,38 @@
         "tracking_groups": [], 
         "website": "http://datalaus.com/en/"
     }, 
+    "Davinci Coders": {
+        "average_salary": 65, 
+        "class_ratio": "2 : 12", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": 75.0, 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Boulder"
+        ], 
+        "name": "Davinci Coders", 
+        "num_alumni": 120, 
+        "num_locations": 1, 
+        "scholarships": "$200 off", 
+        "su_num_reviews": 6, 
+        "su_rating": 4.2, 
+        "su_technologies": null, 
+        "subjects": "Ruby on Rails, JavaScript, Video Game Dev (C#), iOS Dev (Swift/Objective-C)", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.davincicoders.com/"
+    }, 
     "Decode Mtl": {
         "average_salary": "N/A", 
         "class_ratio": "1:10", 
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Montreal"
         ], 
@@ -5047,7 +5366,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Albuquerque"
         ], 
@@ -5111,7 +5430,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin", 
             "Online"
@@ -5138,13 +5457,32 @@
         "average_salary": 55000, 
         "class_ratio": "1:10", 
         "courses": {
+            "Front End Development ": {
+                "Class Size": 20, 
+                "Cost": 8000, 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Location": [
+                    "Birmingham"
+                ], 
+                "Start Date": "2017-02-20", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front End Development "
+            }, 
             "Full Stack Development": {
                 "Class Size": 20, 
                 "Cost": 8000, 
                 "Hours/Week": 40, 
                 "Length": 10, 
                 "Location": [
-                    "Online"
+                    "Birmingham"
                 ], 
                 "Start Date": "2017-02-20", 
                 "Subjects": [
@@ -5162,29 +5500,33 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 82.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Depot/U", 
         "num_alumni": 67, 
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": [
+            "Algorithms", 
             "AngularJS", 
             "CSS", 
-            "Express.js", 
             "HTML", 
             "JavaScript", 
+            "jQuery", 
+            "Express.js", 
             "MongoDB", 
             "MySQL", 
             "Node.js"
         ], 
         "subjects": "HTML, CSS, JavaScript, TypeScript, MongoDB, AngularJS, NodeJS, jQuery, SQL", 
         "technologies": [
+            "Algorithms", 
             "AngularJS", 
             "CSS", 
-            "Express.js", 
             "HTML", 
             "JavaScript", 
+            "jQuery", 
+            "Express.js", 
             "MongoDB", 
             "MySQL", 
             "Node.js"
@@ -5224,7 +5566,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -5314,7 +5656,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -5366,7 +5708,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Wellington"
         ], 
@@ -5427,7 +5769,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -5524,17 +5866,17 @@
                 "Title": "Dev League - Part Time"
             }
         }, 
-        "general_cost": "$$", 
+        "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Honolulu"
         ], 
         "name": "Dev League", 
         "num_alumni": 62, 
         "num_locations": 1, 
-        "su_num_reviews": 21, 
-        "su_rating": 4.9, 
+        "su_num_reviews": 22, 
+        "su_rating": 4.8, 
         "su_technologies": [
             "AngularJS", 
             "CSS", 
@@ -5654,7 +5996,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 93.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Salt Lake City", 
             "Provo", 
@@ -5733,7 +6075,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Iowa City"
         ], 
@@ -5765,7 +6107,7 @@
         "courses": {}, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -5831,7 +6173,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Milwaukee"
         ], 
@@ -6155,7 +6497,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chelmsford", 
             "Dallas", 
@@ -6284,7 +6626,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 87.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Salt Lake City", 
             "Las Vegas"
@@ -6343,7 +6685,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Denver"
         ], 
@@ -6428,7 +6770,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -6519,7 +6861,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Allendale"
         ], 
@@ -6566,7 +6908,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -6591,7 +6933,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -6621,7 +6963,7 @@
                     "Atlanta", 
                     "Houston"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Algorithms", 
                     "AngularJS", 
@@ -6644,7 +6986,7 @@
                 "Location": [
                     "Atlanta"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Algorithms", 
                     "AngularJS", 
@@ -6663,7 +7005,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Atlanta", 
             "Houston"
@@ -6715,7 +7057,7 @@
         "courses": {}, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Kansas City"
         ], 
@@ -6754,7 +7096,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Provo"
         ], 
@@ -6782,7 +7124,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -6932,7 +7274,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Indianapolis", 
             "Honolulu"
@@ -7031,7 +7373,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Brussels"
         ], 
@@ -7268,7 +7610,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 94.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Portland", 
             "Philadelphia", 
@@ -7326,7 +7668,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Dallas"
         ], 
@@ -7365,7 +7707,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -7450,7 +7792,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Melbourne", 
             "San Francisco", 
@@ -7491,7 +7833,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "First Step Coding", 
         "num_alumni": "N/A", 
@@ -7529,7 +7871,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -7562,7 +7904,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -7587,7 +7929,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Fullstack 360", 
         "num_alumni": "N/A", 
@@ -7628,7 +7970,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -7696,7 +8038,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 75.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Gainesville"
         ], 
@@ -7776,7 +8118,7 @@
         }, 
         "general_cost": "$$$$", 
         "hiring_rate": 96.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Denver", 
             "San Francisco", 
@@ -7818,7 +8160,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Bangalore"
         ], 
@@ -7871,7 +8213,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -7905,7 +8247,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Geekwise Academy", 
         "num_alumni": "N/A", 
@@ -8191,7 +8533,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Madrid", 
             "San Francisco", 
@@ -8277,7 +8619,7 @@
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Boston", 
             "Los Angeles", 
@@ -8359,7 +8701,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Girls Who Code", 
         "num_alumni": "N/A", 
@@ -8380,7 +8722,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Go-Live Labs", 
         "num_alumni": "N/A", 
@@ -8401,7 +8743,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -8519,7 +8861,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 92.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Detroit"
         ], 
@@ -8590,7 +8932,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Hong Kong"
         ], 
@@ -8652,7 +8994,7 @@
         }, 
         "general_cost": "$$$$", 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -8676,75 +9018,13 @@
         ], 
         "website": "http://www.hackreactor.com"
     }, 
-    "Hackbright Academy": {
-        "average_salary": 89000, 
-        "class_ratio": "1:4", 
-        "courses": {
-            "Software Engineering Fellowship": {
-                "Class Size": null, 
-                "Cost": 16570, 
-                "Hours/Week": 40, 
-                "Length": 12, 
-                "Location": [
-                    "San Francisco"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "Django", 
-                    "Git", 
-                    "HTML", 
-                    "Javascript", 
-                    "Python", 
-                    "SQL"
-                ], 
-                "Title": "Software Engineering Fellowship"
-            }
-        }, 
-        "general_cost": "$$$$", 
-        "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "San Francisco"
-        ], 
-        "name": "Hackbright Academy", 
-        "num_alumni": 300, 
-        "num_locations": 1, 
-        "scholarships": "Full list of scholarsh...", 
-        "su_num_reviews": 22, 
-        "su_rating": 4.4, 
-        "su_technologies": [
-            "CSS", 
-            "Django", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "Python", 
-            "SQL"
-        ], 
-        "subjects": "Python, JavaScript, HTML, Git, Django, SQL, CSS", 
-        "technologies": [
-            "CSS", 
-            "Django", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "Python", 
-            "SQL"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "https://hackbrightacademy.com/courses/fellowship/?utm_campaign=Fellowship%20Push&utm_medium=Display%20Ad&utm_source=SwitchUp%20Ads"
-    }, 
     "Hacker: Coding Academy": {
         "average_salary": "N/A", 
         "class_ratio": "1 to 8", 
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -8768,7 +9048,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Hackerforge", 
         "num_alumni": "N/A", 
@@ -8870,7 +9150,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Berlin", 
             "San Jose"
@@ -9035,7 +9315,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Toronto"
         ], 
@@ -9070,13 +9350,34 @@
         ], 
         "website": "http://hackeryou.com/"
     }, 
+    "Hackschool": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": null, 
+        "name": "HackSchool", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://hackschool.com.mx/"
+    }, 
     "Hacktiv8": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Hacktiv8", 
         "num_alumni": "N/A", 
@@ -9140,7 +9441,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Salt Lake City"
         ], 
@@ -9185,7 +9486,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -9236,7 +9537,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Philadelphia", 
             "San Francisco", 
@@ -9284,7 +9585,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Hungry Academy", 
         "num_alumni": "N/A", 
@@ -9305,7 +9606,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Ikompass", 
         "num_alumni": "N/A", 
@@ -9320,13 +9621,69 @@
         "tracking_groups": [], 
         "website": "http://www.ikompass.com/"
     }, 
+    "Impekable Design Workshop": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:8", 
+        "courses": {
+            "The 40 Hour Intensive": {
+                "Cost": 4600, 
+                "Hours/Week": 45, 
+                "Location": [
+                    "Silicon Valley"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "UX"
+                ], 
+                "Title": "The 40 Hour Intensive"
+            }, 
+            "The 8 Week Evening Intensive": {
+                "Cost": 4600, 
+                "Hours/Week": 8, 
+                "Length": 8, 
+                "Location": [
+                    "Silicon Valley"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "UX"
+                ], 
+                "Title": "The 8 Week Evening Intensive"
+            }
+        }, 
+        "general_cost": null, 
+        "hiring_rate": 0.0, 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "San Jose", 
+            "Silicon Valley"
+        ], 
+        "name": "Impekable Design Workshop", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "scholarships": "Sign up through Switch...", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "UX"
+        ], 
+        "subjects": "UX UI Mobile App Design", 
+        "technologies": [
+            "UX"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://learn.impekable.com/"
+    }, 
     "Ine, Inc": {
         "average_salary": 95000, 
         "class_ratio": "1 to 15 ", 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": 85.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Ine, Inc", 
         "num_alumni": 3600, 
@@ -9341,6 +9698,67 @@
         ], 
         "tracking_groups": [], 
         "website": "www.ine.com"
+    }, 
+    "Inside Sales Bootcamp": {
+        "average_salary": 75, 
+        "class_ratio": "1:7", 
+        "courses": {
+            "May Bootcamp (Denver) ": {
+                "Class Size": 15, 
+                "Cost": 4250, 
+                "Hours/Week": 5, 
+                "Length": 7, 
+                "Location": [
+                    "Denver"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Sales"
+                ], 
+                "Title": "May Bootcamp (Denver) "
+            }, 
+            "May Bootcamp (Sf)": {
+                "Class Size": 15, 
+                "Cost": 4250, 
+                "Hours/Week": 5, 
+                "Length": 7, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Sales"
+                ], 
+                "Title": "May Bootcamp (SF)"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Boulder", 
+            "Denver", 
+            "Seattle", 
+            "San Francisco"
+        ], 
+        "name": "Inside Sales Bootcamp", 
+        "num_alumni": 50, 
+        "num_locations": 4, 
+        "scholarships": "Academic Scholarships ...", 
+        "su_num_reviews": 30, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "Sales"
+        ], 
+        "subjects": "Sales, Marketing, Career Development", 
+        "technologies": [
+            "Sales"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://insidesalesbootcamp.com/"
     }, 
     "Insight Data Science": {
         "average_salary": "N/A", 
@@ -9364,7 +9782,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Silicon Valley", 
             "New York City"
@@ -9394,7 +9812,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Detroit"
         ], 
@@ -9462,7 +9880,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 92.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Madrid", 
             "Barcelona", 
@@ -9509,7 +9927,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -9554,7 +9972,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Bangalore"
         ], 
@@ -9594,7 +10012,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Bucharest"
         ], 
@@ -9634,7 +10052,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco", 
             "Seattle"
@@ -9697,7 +10115,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Boston", 
             "Philadelphia"
@@ -9747,7 +10165,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Saint Louis", 
             "Kansas City", 
@@ -9812,7 +10230,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Paris", 
             "Amsterdam", 
@@ -9832,7 +10250,7 @@
         "name": "Le Wagon", 
         "num_alumni": 680, 
         "num_locations": 14, 
-        "su_num_reviews": 63, 
+        "su_num_reviews": 64, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -9906,7 +10324,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 85.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Diego"
         ], 
@@ -9943,7 +10361,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -10005,7 +10423,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 93.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Orange County"
         ], 
@@ -10050,7 +10468,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -10147,7 +10565,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Vancouver", 
             "Toronto"
@@ -10232,7 +10650,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -10307,7 +10725,7 @@
         }, 
         "general_cost": "$$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City", 
             "San Francisco"
@@ -10375,7 +10793,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -10468,7 +10886,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 96.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin", 
             "San Francisco", 
@@ -10515,13 +10933,34 @@
         "tracking_groups": [], 
         "website": "http://makersquare.com"
     }, 
+    "Manifest Agility Boot Camp": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": "$$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": null, 
+        "name": "Manifest Agility Boot Camp", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://manifestcorp.com/manifest-agility-bootcamp/"
+    }, 
     "Marcademy": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -10551,7 +10990,7 @@
                     "Provo", 
                     "Salt Lake City"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Digital Marketing"
                 ], 
@@ -10560,7 +10999,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Provo", 
             "Salt Lake City", 
@@ -10583,6 +11022,185 @@
         ], 
         "tracking_groups": [], 
         "website": "https://marketcampus.com"
+    }, 
+    "Metis": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:11, plus TA support", 
+        "courses": {
+            "Big Data Processing With Apache Spark Nyc": {
+                "Class Size": 20, 
+                "Cost": 2500, 
+                "Hours/Week": 6, 
+                "Length": 6, 
+                "Location": [
+                    "NYC"
+                ], 
+                "Start Date": "2016-11-02", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Big Data Processing with Apache Spark NYC"
+            }, 
+            "Big Data Processing With Apache Spark Sf": {
+                "Class Size": 15, 
+                "Cost": 0, 
+                "Hours/Week": 6, 
+                "Length": 6, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "2016-10-25", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Big Data Processing with Apache Spark SF"
+            }, 
+            "Data Science Bootcamp": {
+                "Class Size": 22, 
+                "Cost": 15500, 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "NYC", 
+                    "San Francisco"
+                ], 
+                "Start Date": "2016-09-19", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Data Science Bootcamp"
+            }, 
+            "Data Visualization With D3.Js": {
+                "Class Size": 15, 
+                "Cost": 2500, 
+                "Hours/Week": 6, 
+                "Length": 6, 
+                "Location": [
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Data Science", 
+                    "Javascript", 
+                    "Python"
+                ], 
+                "Title": "Data Visualization with D3.js"
+            }, 
+            "Explore Data Science: Online Training": {
+                "Cost": 99, 
+                "Hours/Week": 5, 
+                "Length": 8, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Explore Data Science: Online Training"
+            }, 
+            "Intro To Data Science Nyc ": {
+                "Class Size": 15, 
+                "Cost": 2500, 
+                "Hours/Week": 6, 
+                "Length": 6, 
+                "Location": [
+                    "NYC"
+                ], 
+                "Start Date": "2016-11-01", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Intro to Data Science NYC "
+            }, 
+            "Intro To Data Science Sf": {
+                "Class Size": 15, 
+                "Cost": 0, 
+                "Hours/Week": 6, 
+                "Length": 6, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Data Science"
+                ], 
+                "Title": "Intro to Data Science SF"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "New York City", 
+            "San Francisco", 
+            "Online"
+        ], 
+        "name": "Metis", 
+        "num_alumni": 169, 
+        "num_locations": 3, 
+        "scholarships": "$3,000 scholarships fo...", 
+        "su_num_reviews": 18, 
+        "su_rating": 4.6, 
+        "su_technologies": [
+            "Data Science", 
+            "JavaScript", 
+            "Python"
+        ], 
+        "subjects": "Data Science, Python, Data Visualization, JavaScript, D3, NLP, Naive Bayes, Hadoop, Spark, Machine Learning, Online Training", 
+        "technologies": [
+            "Data Science", 
+            "JavaScript", 
+            "Python"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.thisismetis.com"
+    }, 
+    "Midwest Hacker School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "Hacker School": {
+                "Class Size": null, 
+                "Cost": 5000, 
+                "Hours/Week": null, 
+                "Length": 4, 
+                "Location": [
+                    "Omaha"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Hacker School"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Omaha"
+        ], 
+        "name": "Midwest Hacker School", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Ruby on Rails"
+        ], 
+        "subjects": "PHP, HTML, CSS, Javascript, JQuery, Node.js, MySQL, MongoDB, Java", 
+        "technologies": [
+            "Ruby on Rails"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://midwesthackerschool.com/"
     }, 
     "Mobile Makers Academy": {
         "average_salary": "N/A", 
@@ -10642,7 +11260,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -10673,13 +11291,35 @@
         "tracking_groups": [], 
         "website": "http://mobilemakers.co"
     }, 
+    "Montana Code School": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:5", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": null, 
+        "name": "Montana Code School", 
+        "num_alumni": "N/A", 
+        "scholarships": "A number of scholarshi...", 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "su_technologies": null, 
+        "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://montanacodeschool.com/"
+    }, 
     "Mums In Technology": {
         "average_salary": "N/A", 
         "class_ratio": "1:5", 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -10720,7 +11360,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Nashville"
         ], 
@@ -10752,7 +11392,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Nation Of Code", 
         "num_alumni": "N/A", 
@@ -10766,6 +11406,196 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.nationofcode.com"
+    }, 
+    "New York Code And Design Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "Angularjs 101": {
+                "Class Size": null, 
+                "Cost": 2000, 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Javascript", 
+                    "Node.js"
+                ], 
+                "Title": "AngularJS 101"
+            }, 
+            "Front End 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front End 101"
+            }, 
+            "Ios Development 101": {
+                "Class Size": 20, 
+                "Cost": 4000, 
+                "Hours/Week": 3, 
+                "Length": 12, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript", 
+                    "Objective-C"
+                ], 
+                "Title": "iOS Development 101"
+            }, 
+            "Ruby On Rails 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Ruby on Rails 101"
+            }, 
+            "Summer Code Camp": {
+                "Class Size": 20, 
+                "Cost": 5000, 
+                "Hours/Week": 35, 
+                "Length": 4, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Summer Code Camp"
+            }, 
+            "Ux/Ui Design 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Illustrator", 
+                    "UX"
+                ], 
+                "Title": "UX/UI Design 101"
+            }, 
+            "Web Development 101": {
+                "Class Size": 20, 
+                "Cost": 3500, 
+                "Hours/Week": 6, 
+                "Length": 16, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby on Rails", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Web Development 101"
+            }, 
+            "Web Development Intensive": {
+                "Class Size": 20, 
+                "Cost": 10000, 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Web Development Intensive"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Los Angeles", 
+            "New York City"
+        ], 
+        "name": "New York Code And Design Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 2, 
+        "su_num_reviews": 2, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "Node.js", 
+            "Objective-C", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "jQuery", 
+            "Ruby on Rails", 
+            "Illustrator", 
+            "UX"
+        ], 
+        "subjects": "HTML, Ruby on Rails, CSS, JavaScript, jQuery, Data Structures", 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "Node.js", 
+            "Objective-C", 
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "jQuery", 
+            "Ruby on Rails", 
+            "Illustrator", 
+            "UX"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://nycda.com/"
     }, 
     "Next Academy": {
         "average_salary": "N/A", 
@@ -10819,7 +11649,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco", 
             "Singapore", 
@@ -10876,7 +11706,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -10900,7 +11730,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Ns Screencasts", 
         "num_alumni": "N/A", 
@@ -10943,7 +11773,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Omaha"
         ], 
@@ -10979,13 +11809,34 @@
         "tracking_groups": [], 
         "website": "http://omahacodeschool.com/"
     }, 
+    "One Month Rails": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": null, 
+        "name": "One Month Rails", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": 1, 
+        "su_rating": 4.0, 
+        "su_technologies": null, 
+        "subjects": "Ruby on Rails", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://onemonth.com/?mbsy=bFwH7&campaignid=15165"
+    }, 
     "Operation Spark": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New Orleans"
         ], 
@@ -11003,13 +11854,82 @@
         "tracking_groups": [], 
         "website": "https://www.operationspark.org"
     }, 
+    "Orange County Code School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "12 Week Full-Stack Immersive Code Bootcamp": {
+                "Cost": 15000, 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Orange County"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MongoDB", 
+                    "Node.js"
+                ], 
+                "Title": "12 Week Full-Stack Immersive Code Bootcamp"
+            }
+        }, 
+        "general_cost": "$$$", 
+        "hiring_rate": 100.0, 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Orange County"
+        ], 
+        "name": "Orange County Code School", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": 15, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "subjects": "Full-Stack: Javascript, Node.js, Angular.js, Express.js, MondgoDB, JQuery, Heroku,HTML5, CSS3,  ", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://www.orangecountycodeschool.com/"
+    }, 
     "Origin Code Academy": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Diego"
         ], 
@@ -11076,7 +11996,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Portland"
         ], 
@@ -11139,7 +12059,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Philadelphia"
         ], 
@@ -11193,7 +12113,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Sydney"
         ], 
@@ -11223,7 +12143,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Port Academy", 
         "num_alumni": "N/A", 
@@ -11237,6 +12157,68 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.port.academy/"
+    }, 
+    "Portland Code School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "Javascript Immersion Program": {
+                "Class Size": 20, 
+                "Cost": 6000, 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript", 
+                    "Node.js"
+                ], 
+                "Title": "JavaScript Immersion Program"
+            }, 
+            "Ruby On Rails Development Bootcamp": {
+                "Class Size": null, 
+                "Cost": 3500, 
+                "Hours/Week": 7, 
+                "Length": 3, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Ruby on Rails Development Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Portland"
+        ], 
+        "name": "Portland Code School", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Ruby on Rails", 
+            "JavaScript", 
+            "Node.js"
+        ], 
+        "subjects": "Node.js, JavaScript", 
+        "technologies": [
+            "Ruby on Rails", 
+            "JavaScript", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://portlandcodeschool.com"
     }, 
     "Prime Digital Academy": {
         "average_salary": "N/A", 
@@ -11289,7 +12271,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Minneapolis"
         ], 
@@ -11328,13 +12310,149 @@
         "tracking_groups": [], 
         "website": "http://primeacademy.io"
     }, 
+    "Product School": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:12", 
+        "courses": {
+            "Product School Los Angeles - Product Management": {
+                "Class Size": 12, 
+                "Cost": 3500, 
+                "Hours/Week": 5, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles"
+                ], 
+                "Start Date": "2016-11-29", 
+                "Subjects": [
+                    "Product Mgmt"
+                ], 
+                "Title": "PRODUCT SCHOOL Los Angeles - Product Management"
+            }, 
+            "Product School Nyc - Product Management": {
+                "Class Size": 12, 
+                "Cost": 3500, 
+                "Hours/Week": 5, 
+                "Length": 8, 
+                "Location": [
+                    "NYC"
+                ], 
+                "Start Date": "2016-10-15", 
+                "Subjects": [
+                    "Product Mgmt"
+                ], 
+                "Title": "PRODUCT SCHOOL NYC - Product Management"
+            }, 
+            "Product School San Francisco - Product Management": {
+                "Class Size": 12, 
+                "Cost": 3500, 
+                "Hours/Week": 5, 
+                "Length": 8, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Product Mgmt"
+                ], 
+                "Title": "PRODUCT SCHOOL San Francisco - Product Management"
+            }, 
+            "Product School Silicon Valley - Product Management": {
+                "Class Size": 12, 
+                "Cost": 3500, 
+                "Hours/Week": 5, 
+                "Length": 8, 
+                "Location": [
+                    "Silicon Valley"
+                ], 
+                "Start Date": "2016-10-15", 
+                "Subjects": [
+                    "Product Mgmt"
+                ], 
+                "Title": "PRODUCT SCHOOL Silicon Valley - Product Management"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "San Francisco", 
+            "Silicon Valley", 
+            "New York City", 
+            "Los Angeles", 
+            "Online", 
+            "Seattle", 
+            "Austin", 
+            "Boston", 
+            "Chicago"
+        ], 
+        "name": "Product School", 
+        "num_alumni": 550, 
+        "num_locations": 9, 
+        "su_num_reviews": 88, 
+        "su_rating": 4.9, 
+        "su_technologies": [
+            "Product Management"
+        ], 
+        "subjects": "Product Management", 
+        "technologies": [
+            "Product Management"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://www.productschool.com/?utm_source=switchup&utm_medium=website_link"
+    }, 
+    "Qa Camp": {
+        "average_salary": 65000, 
+        "class_ratio": "1:10", 
+        "courses": {
+            "Qa Basic Training": {
+                "Class Size": 10, 
+                "Cost": 7995, 
+                "Hours/Week": 12, 
+                "Length": 4, 
+                "Location": [
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Product Mgmt"
+                ], 
+                "Title": "QA Basic Training"
+            }
+        }, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "New York City"
+        ], 
+        "name": "Qa Camp", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Product Management"
+        ], 
+        "subjects": "Software Development Lifecycle, Developing Feature Test Plans, Regression Testing Strategies, Client-Server Relationship, Charles, JIRA, Digesting External Feedback", 
+        "technologies": [
+            "Product Management"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://qacamp.co/"
+    }, 
     "Red Academy": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Vancouver", 
             "Toronto"
@@ -11385,7 +12503,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Orange County"
         ], 
@@ -11445,7 +12563,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 96.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Boulder"
         ], 
@@ -11467,13 +12585,67 @@
         "tracking_groups": [], 
         "website": "http://www.refactoru.com/?switchup "
     }, 
+    "Rithm School": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:4", 
+        "courses": {
+            "Web Development Program": {
+                "Class Size": 8, 
+                "Cost": 24000, 
+                "Hours/Week": 50, 
+                "Length": 12, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "2017-10-10", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Algorithms", 
+                    "Data Structures", 
+                    "Javascript", 
+                    "Python"
+                ], 
+                "Title": "Web Development Program"
+            }
+        }, 
+        "general_cost": "$$$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "San Francisco"
+        ], 
+        "name": "Rithm School", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "$5000 Rithm Diversity ...", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "Data Structures", 
+            "JavaScript", 
+            "Python"
+        ], 
+        "subjects": "JavaScript, Python, ReactJS ", 
+        "technologies": [
+            "Algorithms", 
+            "Data Structures", 
+            "JavaScript", 
+            "Python"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://www.rithmschool.com/"
+    }, 
     "Rmotr Com": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Rmotr Com", 
         "num_alumni": "N/A", 
@@ -11514,7 +12686,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -11563,7 +12735,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Rockit Bootcamp", 
         "num_alumni": "N/A", 
@@ -11596,7 +12768,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Rsquare Edge", 
         "num_alumni": "N/A", 
@@ -11629,7 +12801,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Ruby On The Beach", 
         "num_alumni": 8, 
@@ -11655,7 +12827,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Somerset", 
             "Jersey City"
@@ -11711,7 +12883,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -11745,7 +12917,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Nashville"
         ], 
@@ -11769,7 +12941,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Antonio"
         ], 
@@ -11811,7 +12983,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles"
         ], 
@@ -11866,7 +13038,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 84.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Denver", 
             "Boulder"
@@ -11923,7 +13095,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -11969,7 +13141,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Los Angeles", 
             "Atlanta"
@@ -12029,7 +13201,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Paris"
         ], 
@@ -12080,7 +13252,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Denver"
         ], 
@@ -12158,7 +13330,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -12205,7 +13377,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Barcelona"
         ], 
@@ -12223,13 +13395,212 @@
         "tracking_groups": [], 
         "website": "http://www.skylabcoders.com/"
     }, 
+    "Smart Factory": {
+        "average_salary": "N/A", 
+        "class_ratio": "1 to 7", 
+        "courses": {
+            "Intro To Android": {
+                "Class Size": null, 
+                "Cost": 1500, 
+                "Hours/Week": null, 
+                "Length": 6, 
+                "Location": [
+                    "Minneapolis"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Android", 
+                    "Java"
+                ], 
+                "Title": "Intro to Android"
+            }, 
+            "Intro To Ios": {
+                "Class Size": null, 
+                "Cost": 1500, 
+                "Hours/Week": null, 
+                "Length": 6, 
+                "Location": [
+                    "Minneapolis"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "iOS"
+                ], 
+                "Title": "Intro to iOS"
+            }, 
+            "Intro To Ruby On Rails": {
+                "Class Size": null, 
+                "Cost": 1500, 
+                "Hours/Week": null, 
+                "Length": 6, 
+                "Location": [
+                    "Minneapolis"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Intro to Ruby on Rails"
+            }, 
+            "Mobile App Design": {
+                "Class Size": null, 
+                "Cost": 1500, 
+                "Hours/Week": null, 
+                "Length": 6, 
+                "Location": [
+                    "Minneapolis"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Android"
+                ], 
+                "Title": "Mobile App Design"
+            }, 
+            "Seo And Social": {
+                "Class Size": null, 
+                "Cost": 399, 
+                "Hours/Week": null, 
+                "Length": 6, 
+                "Location": [
+                    "Minneapolis"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "SEO"
+                ], 
+                "Title": "SEO and Social"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Minneapolis"
+        ], 
+        "name": "Smart Factory", 
+        "num_alumni": 70, 
+        "num_locations": 1, 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Ruby on Rails", 
+            "Android", 
+            "iOS", 
+            "Java", 
+            "SEO"
+        ], 
+        "subjects": "Ruby on Rails, iOS, Android, SEO", 
+        "technologies": [
+            "Ruby on Rails", 
+            "Android", 
+            "iOS", 
+            "Java", 
+            "SEO"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://smartfactory.com/"
+    }, 
+    "Software Guild": {
+        "average_salary": 55000, 
+        "class_ratio": "1 to 12", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "Software Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 24, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Current Market", 
+            "Cleveland"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
     "Software Tester Bootcamp": {
         "average_salary": "N/A", 
         "class_ratio": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Detroit"
         ], 
@@ -12257,7 +13628,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Berlin"
         ], 
@@ -12332,7 +13703,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Chicago"
         ], 
@@ -12412,7 +13783,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Provo"
         ], 
@@ -12592,7 +13963,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 92.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Boston", 
             "New York City"
@@ -12641,6 +14012,90 @@
         "tracking_groups": [], 
         "website": "http://curriculum.startupinstitute.com/program-guide-switchup/?utm_source=gbl_switchup_ad_011416&utm_medium=affiliate&utm_campaign=switchup"
     }, 
+    "Steer": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:7", 
+        "courses": {
+            "Htmll, Css & Javascript": {
+                "Class Size": null, 
+                "Cost": 0, 
+                "Hours/Week": null, 
+                "Length": 1, 
+                "Location": [
+                    "London"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ], 
+                "Title": "HTMlL, CSS & Javascript"
+            }, 
+            "Ruby On Rails": {
+                "Class Size": null, 
+                "Cost": 0, 
+                "Hours/Week": null, 
+                "Length": 1, 
+                "Location": [
+                    "London"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Ruby on Rails"
+            }, 
+            "User Experience & Web Design": {
+                "Class Size": null, 
+                "Cost": 0, 
+                "Hours/Week": null, 
+                "Length": 1, 
+                "Location": [
+                    "London"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Illustrator", 
+                    "Photoshop"
+                ], 
+                "Title": "User Experience & Web Design"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "London"
+        ], 
+        "name": "Steer", 
+        "num_alumni": 400, 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Illustrator", 
+            "Photoshop", 
+            "Ruby on Rails"
+        ], 
+        "subjects": "HTML, CSS, JavaScript, Ruby on Rails, iOS, Data Visualisation", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Illustrator", 
+            "Photoshop", 
+            "Ruby on Rails"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://www.steer.me/"
+    }, 
     "Supacoderz": {
         "average_salary": "N/A", 
         "class_ratio": "No data", 
@@ -12662,7 +14117,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -12707,7 +14162,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Sydney"
         ], 
@@ -12739,7 +14194,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Milan"
         ], 
@@ -12756,6 +14211,80 @@
         ], 
         "tracking_groups": [], 
         "website": "http://talentgarden.org/en/innovationschool/"
+    }, 
+    "Talentbuddy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "Front-End Web Development": {
+                "Class Size": 1, 
+                "Cost": 4500, 
+                "Hours/Week": 15, 
+                "Length": 12, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front-End Web Development"
+            }, 
+            "Full-Stack Web Development": {
+                "Class Size": 1, 
+                "Cost": 4500, 
+                "Hours/Week": 15, 
+                "Length": 12, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Express", 
+                    "MongoDB", 
+                    "Node.js"
+                ], 
+                "Title": "Full-Stack Web Development"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Online"
+        ], 
+        "name": "Talentbuddy", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Express.js", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "subjects": "JavaScript, Parse, jQuery, HTML, CSS, Ember.js, Express,js, MongoDB, Node.js", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Express.js", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.talentbuddy.co/"
     }, 
     "Tealeaf": {
         "average_salary": "N/A", 
@@ -12794,7 +14323,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -12815,6 +14344,64 @@
         ], 
         "tracking_groups": [], 
         "website": "http://gotealeaf.com"
+    }, 
+    "Tech Bootcamps": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {
+            "Drupal Development Bootcamp": {
+                "Class Size": 20, 
+                "Cost": 5900, 
+                "Hours/Week": 40, 
+                "Length": 8, 
+                "Location": [
+                    "Boston"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL", 
+                    "PHP"
+                ], 
+                "Title": "Drupal Development Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Boston"
+        ], 
+        "name": "Tech Bootcamps", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "PHP"
+        ], 
+        "subjects": "PHP, HTML, CSS, JavaScript, MySQL, jQuery", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "PHP"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.techbootcamps.com/"
     }, 
     "Tech Elevator": {
         "average_salary": "N/A", 
@@ -12899,7 +14486,7 @@
                     "Akron", 
                     "Columbus"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -12933,7 +14520,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -13114,7 +14701,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Raleigh-Durham", 
             "Charlotte", 
@@ -13172,7 +14759,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Telegraph Academy", 
         "num_alumni": "N/A", 
@@ -13232,17 +14819,15 @@
                 "Title": "iOS Bootcamp Cork"
             }
         }, 
-        "general_cost": "$", 
+        "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
-            "Amsterdam", 
-            "London", 
-            "Cork"
+            "Amsterdam"
         ], 
         "name": "The App Academy Nl", 
         "num_alumni": 60, 
-        "num_locations": 3, 
+        "num_locations": 1, 
         "su_num_reviews": 2, 
         "su_rating": 4.5, 
         "su_technologies": [
@@ -13254,7 +14839,7 @@
             "Swift", 
             "UX"
         ], 
-        "subjects": "iOS app development", 
+        "subjects": "iOS, Swift, Android, UX, Scrum, design", 
         "technologies": [
             "Cocoa", 
             "Git", 
@@ -13276,7 +14861,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -13317,7 +14902,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -13343,6 +14928,30 @@
         "tracking_groups": [], 
         "website": "http://thecoded.com/"
     }, 
+    "The Coding Bootcamp At Unc Chapel Hill": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "courses": {}, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "Chapel Hill"
+        ], 
+        "name": "The Coding Bootcamp At Unc Chapel Hill", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Git, C#, ASP.Net", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://codingbootcamp.unc.edu/"
+    }, 
     "The Coding Bootcamp At Ut Austin": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -13359,7 +14968,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin"
         ], 
@@ -13377,13 +14986,37 @@
         "tracking_groups": [], 
         "website": "https://www.codingbootcamputaustin.com/"
     }, 
+    "The Data Incubator": {
+        "average_salary": 100000, 
+        "class_ratio": "1:15", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "New York City"
+        ], 
+        "name": "The Data Incubator", 
+        "num_alumni": 200, 
+        "num_locations": 1, 
+        "su_num_reviews": 11, 
+        "su_rating": 4.9, 
+        "su_technologies": null, 
+        "subjects": "Data Science", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.thedataincubator.com/"
+    }, 
     "The Firehose Project": {
         "average_salary": "N/A", 
         "class_ratio": "1:1", 
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -13451,7 +15084,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 98.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City", 
             "Online"
@@ -13460,7 +15093,7 @@
         "num_alumni": 700, 
         "num_locations": 2, 
         "scholarships": "Scholarships available...", 
-        "su_num_reviews": 15, 
+        "su_num_reviews": 16, 
         "su_rating": 4.7, 
         "su_technologies": [
             "AngularJS", 
@@ -13532,7 +15165,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Dallas"
         ], 
@@ -13574,7 +15207,7 @@
                 "Location": [
                     "Greenville"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -13594,7 +15227,7 @@
                     "Raleigh-Durham", 
                     "Salt Lake City"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -13639,7 +15272,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Greenville", 
             "Charleston", 
@@ -13712,7 +15345,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -13730,96 +15363,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.recurse.com/"
-    }, 
-    "The Software Guild": {
-        "average_salary": 55000, 
-        "class_ratio": "1 to 12", 
-        "courses": {
-            ".Net Web Developer Bootcamp": {
-                "Class Size": 16, 
-                "Cost": 10000, 
-                "Hours/Week": 60, 
-                "Length": 12, 
-                "Location": [
-                    "Akron"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "AngularJS", 
-                    "CSS", 
-                    "Data Structures", 
-                    "HTML", 
-                    "Javascript", 
-                    ".NET", 
-                    "SQL"
-                ], 
-                "Title": ".NET Web Developer Bootcamp"
-            }, 
-            "Java Web Developer Bootcamp": {
-                "Class Size": 16, 
-                "Hours/Week": 60, 
-                "Length": 12, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "CSS", 
-                    "Data Structures", 
-                    "HTML", 
-                    "Java", 
-                    "Javascript", 
-                    "jQuery", 
-                    "MySQL"
-                ], 
-                "Title": "Java Web Developer Bootcamp"
-            }
-        }, 
-        "general_cost": "$$", 
-        "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
-        "locations": [
-            "Akron", 
-            "Louisville", 
-            "Minneapolis", 
-            "Cleveland", 
-            "Online"
-        ], 
-        "name": "The Software Guild", 
-        "num_alumni": "N/A", 
-        "num_locations": 5, 
-        "su_num_reviews": 24, 
-        "su_rating": 4.8, 
-        "su_technologies": [
-            "CSS", 
-            "Data Structures", 
-            "HTML", 
-            "Java", 
-            "JavaScript", 
-            "jQuery", 
-            "MySQL", 
-            "AngularJS", 
-            ".NET", 
-            "SQL"
-        ], 
-        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
-        "technologies": [
-            "CSS", 
-            "Data Structures", 
-            "HTML", 
-            "Java", 
-            "JavaScript", 
-            "jQuery", 
-            "MySQL", 
-            "AngularJS", 
-            ".NET", 
-            "SQL"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [
-            "Current Market", 
-            "Cleveland"
-        ], 
-        "website": "http://www.swcguild.com"
     }, 
     "The Tech Academy": {
         "average_salary": 60000, 
@@ -13859,7 +15402,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 95.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Portland", 
             "Online"
@@ -13868,7 +15411,7 @@
         "num_alumni": 120, 
         "num_locations": 2, 
         "scholarships": "Scholarship offered to...", 
-        "su_num_reviews": 61, 
+        "su_num_reviews": 62, 
         "su_rating": 4.9, 
         "su_technologies": [
             "Algorithms", 
@@ -13921,7 +15464,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Think Academy", 
         "num_alumni": "N/A", 
@@ -13935,6 +15478,139 @@
         ], 
         "tracking_groups": [], 
         "website": "http://thinkacademy.io/"
+    }, 
+    "Tradecraft": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:6", 
+        "courses": {
+            "Business Development & Sales": {
+                "Cost": 12000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Entrepreneurship", 
+                    "Sales"
+                ], 
+                "Title": "Business Development & Sales"
+            }, 
+            "Engineering": {
+                "Cost": 12000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "Express", 
+                    "HTML", 
+                    "iOS", 
+                    "Javascript", 
+                    "Mobile", 
+                    "Node.js", 
+                    "Objective-C", 
+                    "Python", 
+                    "Swift"
+                ], 
+                "Title": "Engineering"
+            }, 
+            "Growth": {
+                "Cost": 12000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Digital Marketing", 
+                    "SEO", 
+                    "SQL"
+                ], 
+                "Title": "Growth"
+            }, 
+            "Product Design": {
+                "Cost": 12000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "San Francisco"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Design Principles", 
+                    "UX"
+                ], 
+                "Title": "Product Design"
+            }
+        }, 
+        "general_cost": "$$$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-12", 
+        "locations": [
+            "San Francisco"
+        ], 
+        "name": "Tradecraft", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "Express.js", 
+            "HTML", 
+            "iOS", 
+            "JavaScript", 
+            "Mobile", 
+            "Node.js", 
+            "Objective-C", 
+            "Python", 
+            "Swift", 
+            "Design Principles", 
+            "UX", 
+            "Digital Marketing", 
+            "SEO", 
+            "SQL", 
+            "Business", 
+            "Entrepreneurship", 
+            "Sales"
+        ], 
+        "subjects": "Business Development, Growth Marketing, Product Design, Engineering", 
+        "technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "Express.js", 
+            "HTML", 
+            "iOS", 
+            "JavaScript", 
+            "Mobile", 
+            "Node.js", 
+            "Objective-C", 
+            "Python", 
+            "Swift", 
+            "Design Principles", 
+            "UX", 
+            "Digital Marketing", 
+            "SEO", 
+            "SQL", 
+            "Business", 
+            "Entrepreneurship", 
+            "Sales"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://tradecrafted.com/"
     }, 
     "Treehouse": {
         "average_salary": "N/A", 
@@ -13969,7 +15645,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -13999,7 +15675,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Try Ruby", 
         "num_alumni": "N/A", 
@@ -14066,7 +15742,7 @@
         }, 
         "general_cost": "$$$$", 
         "hiring_rate": 94.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Denver"
         ], 
@@ -14097,7 +15773,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -14121,7 +15797,7 @@
         "courses": {}, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Tutorials Point", 
         "num_alumni": "N/A", 
@@ -14160,7 +15836,7 @@
                 "Location": [
                     "Barcelona"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Algorithms", 
                     "Data Science"
@@ -14190,7 +15866,7 @@
                 "Location": [
                     "Barcelona"
                 ], 
-                "Start Date": "2016-09-12", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "AngularJS", 
                     "Java", 
@@ -14214,7 +15890,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Barcelona"
         ], 
@@ -14271,7 +15947,7 @@
         }, 
         "general_cost": "$$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Berkeley"
         ], 
@@ -14330,7 +16006,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -14383,7 +16059,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Online"
         ], 
@@ -14489,7 +16165,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Provo", 
             "Salt Lake City", 
@@ -14605,7 +16281,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 0.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "New York City"
         ], 
@@ -14613,7 +16289,7 @@
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "scholarships": "$1,000 scholarship for...", 
-        "su_num_reviews": 1, 
+        "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -14652,7 +16328,7 @@
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": null, 
         "name": "Viking Code School", 
         "num_alumni": "N/A", 
@@ -14708,7 +16384,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Madison", 
             "Milwaukee"
@@ -14790,7 +16466,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -14926,7 +16602,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "London"
         ], 
@@ -14934,7 +16610,7 @@
         "num_alumni": 10, 
         "num_locations": 1, 
         "scholarships": "Graduate Scholarships ...", 
-        "su_num_reviews": 8, 
+        "su_num_reviews": 9, 
         "su_rating": 5.0, 
         "su_technologies": [
             "Algorithms", 
@@ -15008,7 +16684,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Antskog"
         ], 
@@ -15045,7 +16721,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Austin"
         ], 
@@ -15069,7 +16745,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Provo"
         ], 
@@ -15123,7 +16799,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Bogota", 
             "Buenos Aires", 
@@ -15211,7 +16887,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 96.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Miami", 
             "Fort Lauderdale"
@@ -15273,7 +16949,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 100.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "Newark", 
             "Wilmington"
@@ -15340,7 +17016,7 @@
         }, 
         "general_cost": "$$$$", 
         "hiring_rate": 93.0, 
-        "last_updated": "2016-09-08", 
+        "last_updated": "2016-09-12", 
         "locations": [
             "San Francisco"
         ], 
@@ -15363,7 +17039,7 @@
         "website": "http://www.zipfianacademy.com/"
     }, 
     "meta": {
-        "Active": false, 
+        "Active": true, 
         "Buffalo": [
             "Girl Develop It"
         ], 
@@ -15373,8 +17049,8 @@
             "The Iron Yard"
         ], 
         "Cleveland": [
+            "Software Guild", 
             "Tech Elevator", 
-            "The Software Guild", 
             "We Can Code It", 
             "Acadgild"
         ], 
@@ -15384,39 +17060,39 @@
             "Girl Develop It"
         ], 
         "Current Market": [
+            "Software Guild", 
             "Tech Elevator", 
-            "The Software Guild", 
             "We Can Code It", 
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-08 17:50:24", 
-        "Days Out": -4, 
+        "Date/Time": "2016-09-12 12:05:54", 
+        "Days Out": 0, 
         "Detroit": [
             "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
-            "Become A Developer Bootcamp (Java)", 
-            "Software Tester Bootcamp", 
             "Girl Develop It", 
+            "Software Tester Bootcamp", 
+            "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 239, 
+        "Number of Entries": 265, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
             "Brainstation", 
-            "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Become A Developer Bootcamp ( Net)", 
             "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
-            "Become A Developer Bootcamp (Java)", 
-            "Software Tester Bootcamp", 
+            "Intensive Android Bootcamp", 
+            "Become A Developer Bootcamp ( Net)", 
             "Girl Develop It", 
+            "Software Tester Bootcamp", 
+            "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
         ], 
@@ -15437,7 +17113,8 @@
             "Antskog": 1, 
             "Asheville": 1, 
             "Atlanta": 11, 
-            "Austin": 11, 
+            "Austin": 13, 
+            "Bali": 1, 
             "Baltimore": 2, 
             "Bangalore": 2, 
             "Barcelona": 6, 
@@ -15446,10 +17123,10 @@
             "Berkeley": 1, 
             "Berlin": 2, 
             "Bogota": 1, 
-            "Boise": 1, 
+            "Boise": 2, 
             "Bordeaux": 1, 
-            "Boston": 6, 
-            "Boulder": 6, 
+            "Boston": 8, 
+            "Boulder": 8, 
             "Brussels": 2, 
             "Bucharest": 1, 
             "Buenos Aires": 1, 
@@ -15458,20 +17135,20 @@
             "Cambridge": 1, 
             "Camden": 1, 
             "Central Virginia": 1, 
+            "Chapel Hill": 1, 
             "Charleston": 2, 
             "Charlotte": 5, 
             "Chelmsford": 1, 
-            "Chicago": 18, 
+            "Chicago": 20, 
             "Cincinnati": 3, 
             "Cleveland": 4, 
             "Columbus": 3, 
             "Copenhagen": 1, 
-            "Cork": 1, 
-            "Dallas": 10, 
+            "Costa Rica": 1, 
+            "Dallas": 11, 
             "Dayton": 1, 
-            "Denver": 7, 
+            "Denver": 8, 
             "Detroit": 7, 
-            "Fayetteville": 1, 
             "Fort Collins": 2, 
             "Fort Lauderdale": 1, 
             "Gainesville": 2, 
@@ -15495,7 +17172,7 @@
             "Lille": 1, 
             "Lisbon": 1, 
             "London": 13, 
-            "Los Angeles": 12, 
+            "Los Angeles": 15, 
             "Louisville": 2, 
             "Madison": 1, 
             "Madrid": 2, 
@@ -15505,25 +17182,25 @@
             "Miami": 5, 
             "Milan": 1, 
             "Milwaukee": 3, 
-            "Minneapolis": 4, 
+            "Minneapolis": 5, 
             "Montreal": 1, 
             "Nairobi": 1, 
             "Nantes": 1, 
             "Nashville": 3, 
             "New Orleans": 2, 
-            "New York City": 19, 
+            "New York City": 25, 
             "Newark": 1, 
             "Oakland": 1, 
-            "Omaha": 1, 
-            "Online": 23, 
-            "Orange County": 3, 
+            "Omaha": 2, 
+            "Online": 28, 
+            "Orange County": 4, 
             "Orlando": 1, 
             "Ottawa": 1, 
             "Paris": 3, 
-            "Philadelphia": 5, 
+            "Philadelphia": 6, 
             "Phoenix": 1, 
             "Pittsburgh": 1, 
-            "Portland": 7, 
+            "Portland": 8, 
             "Providence": 2, 
             "Provo": 7, 
             "Raleigh": 5, 
@@ -15534,11 +17211,11 @@
             "Salt Lake City": 7, 
             "San Antonio": 4, 
             "San Diego": 4, 
-            "San Francisco": 28, 
-            "San Jose": 4, 
+            "San Francisco": 33, 
+            "San Jose": 5, 
             "Santiago": 1, 
-            "Seattle": 11, 
-            "Silicon Valley": 3, 
+            "Seattle": 14, 
+            "Silicon Valley": 5, 
             "Singapore": 1, 
             "Somerset": 1, 
             "St. Louis": 1, 
@@ -15557,71 +17234,71 @@
             "Woodside": 1
         }, 
         "technologies": {
-            ".NET": 20, 
+            ".NET": 21, 
             "ASP.NET": 1, 
             "ASP.NET MVC": 2, 
-            "Algorithms": 35, 
-            "Android": 13, 
-            "AngularJS": 44, 
-            "Business": 5, 
+            "Algorithms": 40, 
+            "Android": 14, 
+            "AngularJS": 48, 
+            "Business": 6, 
             "C#": 17, 
             "C++": 4, 
-            "CSS": 97, 
+            "CSS": 103, 
             "Clojure": 4, 
             "Cocoa": 6, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
-            "Data Science": 15, 
-            "Data Structures": 21, 
-            "Design Principles": 20, 
-            "Digital Marketing": 11, 
-            "Django": 8, 
+            "Data Science": 16, 
+            "Data Structures": 24, 
+            "Design Principles": 22, 
+            "Digital Marketing": 12, 
+            "Django": 7, 
             "Drupal": 1, 
-            "Entrepreneurship": 12, 
-            "Express.js": 19, 
+            "Entrepreneurship": 13, 
+            "Express.js": 23, 
             "Game Design": 2, 
             "Git": 52, 
-            "HTML": 102, 
+            "HTML": 109, 
             "Hadoop": 1, 
-            "Illustrator": 6, 
-            "Java": 18, 
-            "JavaScript": 107, 
+            "Illustrator": 8, 
+            "Java": 19, 
+            "JavaScript": 117, 
             "Linux": 7, 
-            "Mobile": 18, 
-            "MongoDB": 26, 
-            "MySQL": 23, 
-            "Node.js": 35, 
-            "Objective-C": 14, 
-            "PHP": 15, 
+            "Mobile": 19, 
+            "MongoDB": 29, 
+            "MySQL": 24, 
+            "Node.js": 42, 
+            "Objective-C": 16, 
+            "PHP": 16, 
             "Perl": 2, 
             "Phonegap": 2, 
-            "Photoshop": 9, 
+            "Photoshop": 10, 
             "PostgreSQL": 16, 
-            "Product Management": 6, 
-            "Python": 20, 
-            "Ruby": 20, 
-            "Ruby on Rails": 53, 
-            "SEO": 8, 
-            "SQL": 39, 
+            "Product Management": 8, 
+            "Python": 22, 
+            "Ruby": 22, 
+            "Ruby on Rails": 59, 
+            "SEO": 10, 
+            "SQL": 40, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
-            "Sales": 2, 
+            "Sales": 4, 
             "Scala": 2, 
             "SharePoint": 1, 
-            "Sinatra": 7, 
+            "Sinatra": 8, 
             "Spring MVC": 1, 
-            "Swift": 20, 
+            "Swift": 21, 
             "UNIX": 1, 
-            "UX": 28, 
+            "UX": 32, 
             "VB.NET": 1, 
             "WCF": 1, 
             "WPF": 1, 
             "Web Services": 2, 
             "Windows Server": 1, 
             "Wordpress": 7, 
-            "iOS": 25, 
-            "jQuery": 62
+            "iOS": 27, 
+            "jQuery": 68
         }
     }
 }

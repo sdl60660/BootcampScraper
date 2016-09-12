@@ -37,7 +37,7 @@ ITEM_PIPELINES = {  #'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
 #USER_AGENT = 'bootcamp_info (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-#CHANGED TO 'False' TO ALLOW SCRAPING ON FACEBOOK, TWITTER
+#CHANGING TO FALSE KIND OF A RISKY MOVE, DO AT YOUR OWN RISK, BUT BANS POSSIBLE
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)

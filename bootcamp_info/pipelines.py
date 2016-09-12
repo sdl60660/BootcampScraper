@@ -40,7 +40,7 @@ class CaughtDuplicateNames(object):
     #Helio Training Boocamp, Beach Coders Academy, Make School, Velocity 360, Ada Developers Academy, Founders & Coders
 
     def process_item(self, item, spider):
-        if item['name'].title() == 'Software  Guild' or item['name'].title() == 'Software Craftsmanship Guild':
+        if item['name'].title() == 'Software  Guild' or item['name'].title() == 'Software Craftsmanship Guild' or item['name'].title() == 'The Software Guild':
             item['name'] = 'Software Guild'
 
         if item['name'].title() == 'Hack School' or item['name'].title() == 'Hackschool':

@@ -134,16 +134,7 @@ class SwitchupSchool(Item):
 
 class AlexaPage(Item):
     name = Field()
-    rank = Field()
-
-
-
-
-
-
-
-
-
+    alexa_data = Field()
 
 
 

@@ -45,7 +45,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -93,9 +93,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9714, 
+            "followers": 9691, 
             "handle": "@devbootcamp", 
-            "tweets": 9440
+            "tweets": 9423
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -482,14 +482,14 @@
                 "Title": "Front-End Web Development  (Part-time)"
             }, 
             "Front-End Web Development (Part-Time)": {
-                "Cost": null, 
-                "Hours/Week": null, 
+                "Cost": 5000, 
+                "Hours/Week": 6, 
                 "Location": [
                     "Melbourne"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -542,14 +542,14 @@
                 "Title": "JavaScript Development (10 week part-time)"
             }, 
             "Javascript Development (Part-Time)": {
-                "Cost": null, 
+                "Cost": 3950, 
                 "Hours/Week": null, 
                 "Location": [
                     "Denver"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "JavaScript"
                 ], 
@@ -665,7 +665,7 @@
             }, 
             "Product Management Immersive": {
                 "Class Size": 20, 
-                "Cost": 11500, 
+                "Cost": 13500, 
                 "Hours/Week": 40, 
                 "Length": 10, 
                 "Location": [
@@ -709,7 +709,7 @@
                 "Title": "User Experience Design (Accelerated 1 Week)"
             }, 
             "User Experience Design (Part-Time)": {
-                "Cost": 14500, 
+                "Cost": 3950, 
                 "Hours/Week": null, 
                 "Location": [
                     "Denver"
@@ -723,14 +723,14 @@
                 "Title": "User Experience Design (Part-Time)"
             }, 
             "User Experience Design (Part-Time, One Week)": {
-                "Cost": null, 
-                "Hours/Week": null, 
+                "Cost": 4000, 
+                "Hours/Week": 4, 
                 "Location": [
                     "Melbourne"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
                 "Subjects": [
                     "User Experience Design"
                 ], 
@@ -754,7 +754,7 @@
                 "Title": "User Experience Design Immersive"
             }, 
             "User Experience Design Immersive ": {
-                "Cost": 3950, 
+                "Cost": 13500, 
                 "Hours/Week": null, 
                 "Location": [
                     "Denver"
@@ -947,7 +947,7 @@
                 "Title": "Web Development Immersive - Remote "
             }
         }, 
-        "cr_num_reviews": 118, 
+        "cr_num_reviews": 117, 
         "cr_rating": 4.2, 
         "cr_technologies": [
             "User Experience Design", 
@@ -987,7 +987,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1173,7 +1173,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "San Francisco", 
             "Online"
@@ -1202,9 +1202,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7358, 
+            "followers": 7343, 
             "handle": "@HackReactor", 
-            "tweets": 2719
+            "tweets": 2715
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1234,7 +1234,7 @@
                 "Title": "Front-End Web Development"
             }, 
             "Front-End Web Development ": {
-                "Cost": 2500, 
+                "Cost": 12000, 
                 "Hours/Week": 6, 
                 "Location": [
                     "Miami"
@@ -1330,14 +1330,14 @@
                 "Title": "Web Development Bootcamp"
             }, 
             "Web Development Part-Time": {
-                "Cost": 12000, 
-                "Hours/Week": 40, 
+                "Cost": null, 
+                "Hours/Week": 6, 
                 "Location": [
                     "Miami"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Part Or Full": "Part Time", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1378,7 +1378,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1437,9 +1437,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8739, 
+            "followers": 8671, 
             "handle": "@ironhack", 
-            "tweets": 3369
+            "tweets": 3357
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1459,7 +1459,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-09-12", 
                 "Subjects": [
                     "Python", 
                     "JavaScript", 
@@ -1473,14 +1473,14 @@
                 "Title": "Back End Engineering"
             }, 
             "Back-End Engineering": {
-                "Cost": null, 
-                "Hours/Week": null, 
+                "Cost": 13900, 
+                "Hours/Week": 40, 
                 "Location": [
                     "Greenville"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "HTML", 
                     "Rails", 
@@ -1499,7 +1499,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-09-12", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1549,7 +1549,7 @@
             }
         }, 
         "cr_num_reviews": 48, 
-        "cr_rating": 3.5, 
+        "cr_rating": 3.4, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -1576,7 +1576,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1663,7 +1663,7 @@
         "twitter": {
             "followers": 15100, 
             "handle": "@TheIronYard", 
-            "tweets": 7582
+            "tweets": 7578
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"

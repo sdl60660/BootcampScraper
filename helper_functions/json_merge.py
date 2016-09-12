@@ -144,7 +144,10 @@ meta_dict['Buffalo'] = list()
 meta_dict['Detroit'] = list()
 meta_dict['Toronto'] = list()
 
-meta_dict['Active'] = False
+if meta_dict['Days Out'] < 0:
+    meta_dict['Active'] = False
+else:
+    meta_dict['Active'] = True
 
 tech_dict = {}
 loc_dict = {}

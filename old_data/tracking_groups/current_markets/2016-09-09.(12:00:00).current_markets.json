@@ -398,7 +398,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Online", 
             "Bangalore"
@@ -447,9 +447,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 856, 
+            "followers": 850, 
             "handle": "@acadgild", 
-            "tweets": 2269
+            "tweets": 2265
         }, 
         "visas": "No", 
         "website": "http://acadgild.com/"
@@ -496,7 +496,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Cleveland"
         ], 
@@ -531,7 +531,7 @@
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Boston", 
             "Los Angeles", 
@@ -616,7 +616,7 @@
                 "Class Size": 16, 
                 "Cost": 10000, 
                 "Hours/Week": 60, 
-                "Length": 12, 
+                "Length": "12 weeks", 
                 "Location": [
                     "Akron"
                 ], 
@@ -680,7 +680,7 @@
             "Java Web Developer Bootcamp": {
                 "Class Size": 16, 
                 "Hours/Week": 60, 
-                "Length": 12, 
+                "Length": "12 weeks", 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
@@ -718,7 +718,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -732,29 +732,29 @@
         "su_num_reviews": 24, 
         "su_rating": 4.8, 
         "su_technologies": [
+            "AngularJS", 
             "CSS", 
             "Data Structures", 
             "HTML", 
-            "Java", 
             "JavaScript", 
-            "jQuery", 
-            "MySQL", 
-            "AngularJS", 
             ".NET", 
-            "SQL"
+            "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL"
         ], 
         "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
         "technologies": [
+            "AngularJS", 
             "CSS", 
             "Data Structures", 
             "HTML", 
-            "Java", 
             "JavaScript", 
-            "jQuery", 
-            "MySQL", 
-            "AngularJS", 
             ".NET", 
             "SQL", 
+            "Java", 
+            "jQuery", 
+            "MySQL", 
             "Front End", 
             "Git", 
             "C#", 
@@ -771,9 +771,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 632, 
+            "followers": 633, 
             "handle": "@softwareguild", 
-            "tweets": 731
+            "tweets": 725
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -902,7 +902,7 @@
                     "Akron", 
                     "Columbus"
                 ], 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-09-12", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -954,7 +954,7 @@
         "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -998,7 +998,7 @@
         "twitter": {
             "followers": 476, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1203
+            "tweets": 1195
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -1177,7 +1177,7 @@
                 "Title": "Women-Only Coding Bootcamp"
             }
         }, 
-        "cr_num_reviews": 21, 
+        "cr_num_reviews": 20, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "AngularJS", 
@@ -1198,7 +1198,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-12", 
+        "last_updated": "2016-09-09", 
         "locations": [
             "Cleveland"
         ], 
@@ -1242,9 +1242,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1516, 
+            "followers": 1514, 
             "handle": "@WeCanCodeIT", 
-            "tweets": 1569
+            "tweets": 1549
         }, 
         "visas": "No", 
         "website": "http://bootcamp.wecancodeit.org/"
