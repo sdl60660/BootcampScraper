@@ -9,6 +9,7 @@ from difflib import SequenceMatcher
 tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET']
 tracking_groups_files = ['current_markets.json', 'potential_markets.json', 'top_camps.json', 'java_and_NET.json']
 filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
+warning_list = []
 
 type1list = ['technologies', 'locations', 'job_guarantee', 'job_assistance','job guarantee', 'job assistance', 'housing', 'visas']
 
@@ -115,9 +116,21 @@ def category_print(info, cat, parent_cat=None):
         title = unicode(cat).title() + ' (' + unicode(parent_cat).title() + ')'
     else:
         title = unicode(cat).title()
+
     if type(info[cat]) is list:
         print title + ':'
         pprint(info[cat], indent=4)
+
+    if type(info[cat]) is dict:
+        print title + ':'
+        sort_dict = []
+        for key in info[cat].keys():
+            temp_string = '    ' + unicode(key) + ': ' + unicode(info[cat][key])
+            sort_dict.append(temp_string)
+            sort_dict = sorted(sort_dict, key=lambda x: (len(x), x))
+        for item in sort_dict:
+            print item
+
     else:
         if info[cat] == None:
             print title + ': N/A'
@@ -126,6 +139,39 @@ def category_print(info, cat, parent_cat=None):
     return
 
 def info_print(title, info, categories=None, course_categories=None, secondary_categories=None):
+    empty = True
+    if categories == None and course_categories == None and secondary_categories == None:
+        empty = False
+
+    if categories:
+        for cat in categories:
+            try:
+                x = info[cat]
+                empty = False
+            except KeyError:
+                pass
+
+    if course_categories:
+        for cat in course_categories:
+            try:
+                for c in info['courses']:
+                    x = info['courses'][c][cat]
+                    empty = False
+            except KeyError:
+                pass
+
+    if secondary_categories:
+        for cat in secondary_categories:
+            try:
+                x = info[cat[0]][cat[1]]
+                empty = False
+            except KeyError:
+                pass
+
+    if empty == True:
+        warning_list.append(title)
+        return
+
     string = "INFORMATION FOR BOOTCAMP: " + str(title)
     print
     print "======================================================================"
@@ -139,6 +185,7 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
         for cat in categories:
             try:
                 category_print(info, cat)
+                print
             except KeyError:
                 pass
 
@@ -147,6 +194,7 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
             try:
                 if info[tup[0]] != 'N/A' and info[tup[0]] != None:
                     category_print(info[tup[0]], tup[1], parent_cat=tup[0])
+                print
             except KeyError:
                 pass
 
@@ -320,6 +368,16 @@ for camp in bootcamps:
             info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
     except KeyError:
         info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
+
+if len(warning_list) > 0:
+    print "****************************************************"
+    print
+    print 'WARNING: The following bootcamps matched the filters'
+    print 'but returned no results for the specifed categories:'
+    print
+    print pprint(warning_list, width=52)
+    print
+    print "****************************************************"
 
 
 """
