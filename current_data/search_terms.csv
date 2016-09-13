@@ -5,6 +5,7 @@ Top Camp,Tracking Group
 Closer Academy,Bootcamp
 last_updated,Category
 cr_rating,Category
+twitter,Category
 tweets,twitter
 handle,twitter
 followers,twitter
@@ -25,6 +26,7 @@ technologies,Category
 name,Category
 job_guarantee,Category
 num_courses,Category
+courses,Category
 Onsite,Course Attribute
 Title,Course Attribute
 Subjects,Course Attribute
@@ -102,7 +104,6 @@ Tealeaf,Bootcamp
 HackSchool,Bootcamp
 Monterrey,Location
 Lumenbrite,Bootcamp
-twitter,Category
 Orange County Code School,Bootcamp
 Irvine,Location
 Orange County,Location
@@ -134,11 +135,13 @@ Array School Of Technology And Design,Bootcamp
 Cheyenne,Location
 Startup Institute,Bootcamp
 acceptance_rate,Category
+employment_rates,Category
 60 days,employment_rates
 120+ days,employment_rates
 90 days,employment_rates
 120 days,employment_rates
 30 days,employment_rates
+matriculation_stats,Category
 graduated,matriculation_stats
 accepted,matriculation_stats
 job_seeking,matriculation_stats

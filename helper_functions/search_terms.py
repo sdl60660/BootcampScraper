@@ -29,6 +29,9 @@ for item in bootcamps:
         bootcamp_names.append(bootcamps[item]['name'])
         search_list.append((bootcamps[item]['name'], 'Bootcamp'))
         for key in bootcamps[item].keys():
+            if key not in category_list:
+                category_list.append(key)
+                search_list.append((key, 'Category'))
             if type(bootcamps[item][key]) is dict:
                 if key == 'courses':
                     for course in bootcamps[item][key]:
@@ -41,9 +44,6 @@ for item in bootcamps:
                         if key2 not in second_level_list:
                             second_level_list.append(key2)
                             search_list.append((key2, key))
-            elif key not in category_list:
-                category_list.append(key)
-                search_list.append((key, 'Category'))
 
         try:
             for loc in bootcamps[item]['locations']:
@@ -69,7 +69,7 @@ print "COURSE ATTRIBUTE LIST:", course_attribute_list
 print "TECHNOLOGY LIST:", technology_list
 print "LOCATION LIST:", location_list"""
 
-print "SEARCH LIST:", search_list
+#print "SEARCH LIST:", search_list
 
 if len(sys.argv) == 2:
     output_file = sys.argv[1]

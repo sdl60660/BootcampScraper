@@ -8,6 +8,8 @@ from difflib import SequenceMatcher
 #GLOBAL LISTS
 tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET']
 tracking_groups_files = ['current_markets.json', 'potential_markets.json', 'top_camps.json', 'java_and_NET.json']
+filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
+
 type1list = ['technologies', 'locations', 'job_guarantee', 'job_assistance','job guarantee', 'job assistance', 'housing', 'visas']
 
 
@@ -108,27 +110,60 @@ def return_closest(query, search_set, threshold):
     #print closest
     return closest[0]
 
-def info_print(title, info, categories=None):
+def category_print(info, cat, parent_cat=None):
+    if parent_cat:
+        title = unicode(cat).title() + ' (' + unicode(parent_cat).title() + ')'
+    else:
+        title = unicode(cat).title()
+    if type(info[cat]) is list:
+        print title + ':'
+        pprint(info[cat], indent=4)
+    else:
+        if info[cat] == None:
+            print title + ': N/A'
+        else:
+            print title + ': ' + unicode(info[cat])
+    return
+
+def info_print(title, info, categories=None, course_categories=None, secondary_categories=None):
     string = "INFORMATION FOR BOOTCAMP: " + str(title)
     print
     print "======================================================================"
     print string.center(70)
     print "======================================================================"
     print
-    if categories == None:
+    if categories == None and course_categories == None and secondary_categories == None:
         pprint(info)
-    else:
-        if type(categories) == str:
-            categories = [categories]
+    
+    if categories != None:
         for cat in categories:
             try:
-                if type(info[cat]) is list:
-                    print str(cat).title() + ':'
-                    pprint(info[cat], indent=4)
-                else:
-                    print str(cat).title() + ': ' + str(info[cat])
+                category_print(info, cat)
             except KeyError:
                 pass
+
+    if secondary_categories != None:
+        for tup in secondary_categories:
+            try:
+                if info[tup[0]] != 'N/A' and info[tup[0]] != None:
+                    category_print(info[tup[0]], tup[1], parent_cat=tup[0])
+            except KeyError:
+                pass
+
+    if course_categories != None:
+        try:
+            print
+            print "------------------------------------------------"
+            print "COURSE INFO".center(45)
+            print "------------------------------------------------"
+            for course in info['courses']:
+                print info['courses'][course]['Title']
+                for cat in course_categories:
+                    category_print(info['courses'][course], cat)
+                print
+        except KeyError:
+            pass
+
     print
     return
 
@@ -222,82 +257,74 @@ for camp in bootcamps:
     except KeyError:
         continue
 
+    #*********************FILTERS********************
+
     if len(key_dict['Tracking Group']) > 0:
         if all(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
             continue
 
+    #THIS IS WHERE THE 'AND/OR' METHOD CLEARLY NEEDS TO CHANGE, LOCATION ALSO NEEDS TO BE AND/OR (adjusting any/all),
+    #SO THERE NEEDS TO BE EITHER A DIFFERENT FLAG SYSTEM OR ANOTHER WAY TO INDICATE WHETHER A FILTER SHOULD BE AND/OR
+    #RIGHT NOW, IT'S USING 'ANY', SO IT'S ESSENTIALLY AN 'OR' BY DEFAULT
     try:
-        categories = []
+        if set(key_dict['Location']).issubset(bootcamps[camp]['locations']) == False:
+        #if any(i in bootcamps[camp]['locations'] for i in key_dict['Location']) == False:
+            continue
+    except KeyError:
+        pass
+    except TypeError:
+        continue
+
+    try:
+        #THIS IS 'AND'
+        if set(key_dict['Technology']).issubset(bootcamps[camp]['technologies']) == False:
+        #THIS WOULD BE 'OR'
+        #if any(i in bootcamps[camp]['technologies'] for i in key_dict['Technology']) == False:
+            continue
+    except KeyError:
+        pass
+    except TypeError:
+        continue
+
+
+    #***************DISPLAY CATEGORIES***************
+
+    categories = []
+    course_categories = []
+    secondary_categories = []
+
+    try:
         for cat in key_dict['Category']:
             categories.append(cat)
     except KeyError:
         categories = None
 
     try:
-        if name in key_dict['Bootcamp']:
-            info_print(name, bootcamps[camp], categories)
+        for cat in key_dict['Course Attribute']:
+            course_categories.append(cat)
     except KeyError:
-        info_print(name, bootcamps[camp], categories)
+        course_categories = None
 
-"""
-if len(sys.argv) == 3:
-    file = 'current_data/output.json'
-    key = str(sys.argv[1]).title()
-    key2 = str(sys.argv[2]).title()
-    double_key = True
-elif len(sys.argv) == 2:
-    file = 'current_data/output.json'
-    key = str(sys.argv[1]).title()"""
+    for key in key_dict.keys():
+        if key not in filter_list:
+            parent_category = key
+            for item in key_dict[key]:
+                secondary = item
+                secondary_categories.append((parent_category, secondary))
 
+    if len(secondary_categories) == 0:
+        secondary_categories = None
 
+    try:
+        if name in key_dict['Bootcamp']:
+            info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
+    except KeyError:
+        info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
 
-
-
-"""if tracking_group == True:
-    if len(sys.argv) == 3:
-        
-    elif len(sys.argv) == 2:
-        key = 'meta'"""
 
 """
 if key == 'Meta':
     key = key.lower()
-
-
-error_message = True
-
-print
-print
-print "============================================================"
-print "      INFORMATION FOR BOOTCAMP/CATEGORY: " + key
-print "============================================================"
-print
-
-
-
-try:
-    pprint(bootcamps[key], width=50)
-except KeyError:
-    if key.lower() in type1list:
-        type1_category_lookup(key, bootcamps)
-        error_message = False
-    else:
-        for camp in bootcamps:
-            for category in bootcamps[camp]:
-                if str(key) == str(category).title():
-                    type2_category_lookup(category, bootcamps)
-                    error_message = False
-                #else:
-                #    match = 
-                
-
-                #if double_key == True:
-
-    if error_message == True:
-        print 'Sorry! "' + str(key) + '" was not found. Check for spelling or name variations.'
-
-print
-print
 
 """
 
