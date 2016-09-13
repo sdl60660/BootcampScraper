@@ -24,7 +24,7 @@ for item in tracking_groups:
 
 for item in bootcamps:
     if item == 'meta':
-        pass
+        search_list.append(('meta', 'Meta'))
     else:
         bootcamp_names.append(bootcamps[item]['name'])
         search_list.append((bootcamps[item]['name'], 'Bootcamp'))

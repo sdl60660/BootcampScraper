@@ -276,11 +276,7 @@ key_list = [x for x in key_list if x != -1]
 
 datafile = 'current_data/output.json'
 
-#CHECK THE KEYS FOR A TRACKING GROUP. IF THERE'S A TRACKING GROUP, USE THAT DATAFILE.
-#IF THERE'S MORE THAN ONE TRACKING GROUP AND THE 'OR' FLAG IS TURNED OFF, STILL USE
-#THE FIRST ONE'S DATAFILE, AND JUST NARROW FROM WITHIN IT. IF THE 'OR' FLAG IS TURNED
-#ON, THEN LOAD FROM MAIN FILE AND JUST FILTER WITH TRACKING GROUP TAGS.
-#FOR THE TRACKING GROUP AND THE OTHER KEYS, SORT THEM BY CATEGORY INTO A KEY DICT
+#SORT SEARCH TERMS INTO KEY DICT. IF ONLY ONE TRACKING GROUP AND 'OR' IS ON, USE THAT TRACKING GROUP JSON
 tracking_list = []
 key_dict = {}
 
@@ -298,8 +294,18 @@ for key in key_list:
             key_dict[key[1]].append(key[0])
         else:
             key_dict[key[1]] = [key[0]]
-
 key_dict['Tracking Group'] = tracking_list
+
+
+#IF NO SEARCH TERMS WENT THROUGH, EXIT THE FUNCITON INSTEAD OF PRINTING ALL
+dict_empty = True
+for key in key_dict.keys():
+    if len(key_dict[key]) > 0:
+        dict_empty = False
+if dict_empty == True:
+    print 'No keys were entered or none of the entered keys were found. Aborting...'
+    print
+    sys.exit()
 
 print key_dict
 
@@ -307,6 +313,11 @@ print key_dict
 with open(datafile) as json_data:
     bootcamps = json.load(json_data)
 
+if 'Meta' in key_dict.keys():
+    pprint(bootcamps['meta'])
+    sys.exit()
+
+#LOOP THROUGH BOOTCAMPS, FILTER, DISPLAY SELECTED CATEGORIES
 for camp in bootcamps:
     try:
         name = bootcamps[camp]['name'].title()
@@ -393,13 +404,5 @@ if key == 'Meta':
     key = key.lower()
 
 """
-
-#OPTION FOR INPUTING TRACKING GROUPS: this would be a second input and then the output would contain normal results
-#but filtered so that they come only from this specific tracking group
-
-#OPTION FOR PARSING THROUGH SECOND LEVEL CATEGORIES: this means that for some categories that are lists, like specific locations,
-#or technologies, the output summary should be a list of these objects (i.e. 'Cleveland' or '.NET') followed by the number of bootcamps
-#that fit that description.
-#Essentially, rather than a summary that looks like 'bootcamp_name: value', it should look like 'value: # of bootcamps'
 
 
