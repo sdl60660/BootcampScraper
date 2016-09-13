@@ -2433,9 +2433,63 @@
     }, 
     "Code Career Academy": {
         "average_salary": "N/A", 
-        "class_ratio": null, 
-        "cost_estimate": null, 
-        "courses": {}, 
+        "class_ratio": "10:1", 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Full-Stack Web Development Full-Time": {
+                "Class Size": 10, 
+                "Cost": 14900, 
+                "Hours/Week": 40, 
+                "Length": 18, 
+                "Location": [
+                    "Atlanta"
+                ], 
+                "Start Date": "2016-12-05", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "ASP.NET MVC", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "MongoDB", 
+                    ".NET", 
+                    "Node.js", 
+                    "SQL"
+                ], 
+                "Title": "Full-Stack Web Development Full-Time"
+            }, 
+            "Full-Stack Web Development Part-Time": {
+                "Class Size": 10, 
+                "Cost": 8900, 
+                "Hours/Week": 12, 
+                "Length": 18, 
+                "Location": [
+                    "Atlanta"
+                ], 
+                "Start Date": "2016-12-05", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "ASP.NET MVC", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "Node.js", 
+                    "SQL"
+                ], 
+                "Title": "Full-Stack Web Development Part-Time"
+            }
+        }, 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-13", 
         "locations": [
@@ -2446,9 +2500,39 @@
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": null, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "ASP.NET MVC", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            ".NET", 
+            "Node.js", 
+            "SQL", 
+            "MongoDB"
+        ], 
         "subjects": "JavaScript, C#, .Net, Microsoft, HTML, CSS, SQL, Data, Mobile, Xamarin, Angular, Bootstrap, Mongo, Node, MEAN", 
-        "technologies": [], 
+        "technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "ASP.NET MVC", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            ".NET", 
+            "Node.js", 
+            "SQL", 
+            "MongoDB"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -3848,7 +3932,7 @@
         "num_alumni": 35, 
         "num_locations": 1, 
         "scholarships": "Please contact us at i...", 
-        "su_num_reviews": 6, 
+        "su_num_reviews": 8, 
         "su_rating": 5.0, 
         "su_technologies": [
             "Algorithms", 
@@ -8261,6 +8345,69 @@
         "tracking_groups": [], 
         "website": "http://www.geekskool.com/"
     }, 
+    "Geekuni": {
+        "average_salary": 60000, 
+        "class_ratio": "1:20", 
+        "cost_estimate": "$", 
+        "courses": {
+            "Perl Essentials": {
+                "Class Size": 10, 
+                "Cost": 39, 
+                "Hours/Week": 3, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Perl"
+                ], 
+                "Title": "Perl Essentials"
+            }, 
+            "Web Development": {
+                "Cost": 39, 
+                "Hours/Week": 3, 
+                "Location": [
+                    "Online"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "jQuery", 
+                    "Perl"
+                ], 
+                "Title": "Web Development"
+            }
+        }, 
+        "hiring_rate": 95.0, 
+        "last_updated": "2016-09-13", 
+        "locations": [
+            "Online"
+        ], 
+        "name": "Geekuni", 
+        "num_alumni": 10, 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "jQuery", 
+            "Perl", 
+            "Algorithms"
+        ], 
+        "subjects": "Perl,Dancer2,jQuery", 
+        "technologies": [
+            "CSS", 
+            "jQuery", 
+            "Perl", 
+            "Algorithms"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "https://geekuni.com/"
+    }, 
     "Geekwise Academy": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -10332,7 +10479,7 @@
         "name": "Le Wagon", 
         "num_alumni": 680, 
         "num_locations": 14, 
-        "su_num_reviews": 64, 
+        "su_num_reviews": 65, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -10915,105 +11062,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.makersacademy.com"
-    }, 
-    "Makersquare": {
-        "average_salary": "N/A", 
-        "class_ratio": "1:5", 
-        "cost_estimate": "$$", 
-        "courses": {
-            "Makerprep": {
-                "Class Size": 15, 
-                "Cost": 750, 
-                "Hours/Week": 16, 
-                "Length": 4, 
-                "Location": [
-                    "Austin", 
-                    "Los Angeles", 
-                    "NYC"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Data Structures", 
-                    "Javascript"
-                ], 
-                "Title": "MakerPrep"
-            }, 
-            "Software Engineering (Full-Stack Javascript)": {
-                "Class Size": 20, 
-                "Cost": 16920, 
-                "Hours/Week": 66, 
-                "Length": 12, 
-                "Location": [
-                    "Austin", 
-                    "Los Angeles", 
-                    "NYC", 
-                    "San Francisco"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Algorithms", 
-                    "AngularJS", 
-                    "CSS", 
-                    "Data Structures", 
-                    "Git", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery", 
-                    "MongoDB", 
-                    "Node.js", 
-                    "PostgreSQL", 
-                    "SQL"
-                ], 
-                "Title": "Software Engineering (Full-Stack JavaScript)"
-            }
-        }, 
-        "hiring_rate": 96.0, 
-        "last_updated": "2016-09-13", 
-        "locations": [
-            "Austin", 
-            "San Francisco", 
-            "Los Angeles", 
-            "New York City"
-        ], 
-        "name": "Makersquare", 
-        "num_alumni": 500, 
-        "num_locations": 4, 
-        "su_num_reviews": 25, 
-        "su_rating": 4.7, 
-        "su_technologies": [
-            "Data Structures", 
-            "JavaScript", 
-            "Algorithms", 
-            "AngularJS", 
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "PostgreSQL", 
-            "SQL"
-        ], 
-        "subjects": "JavaScript", 
-        "technologies": [
-            "Data Structures", 
-            "JavaScript", 
-            "Algorithms", 
-            "AngularJS", 
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "PostgreSQL", 
-            "SQL"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://makersquare.com"
     }, 
     "Manifest Agility Boot Camp": {
         "average_salary": "N/A", 
@@ -11806,27 +11854,6 @@
         "tracking_groups": [], 
         "website": "https://codingbootcamp.northwestern.edu/"
     }, 
-    "Ns Screencasts": {
-        "average_salary": "N/A", 
-        "class_ratio": "No data", 
-        "cost_estimate": null, 
-        "courses": {}, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-13", 
-        "locations": null, 
-        "name": "Ns Screencasts", 
-        "num_alumni": "N/A", 
-        "su_num_reviews": 1, 
-        "su_rating": 3.5, 
-        "su_technologies": null, 
-        "subjects": "iOS", 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://nsscreencast.com/"
-    }, 
     "Omaha Code School": {
         "average_salary": "N/A", 
         "class_ratio": "1 to 16", 
@@ -12004,30 +12031,6 @@
         ], 
         "tracking_groups": [], 
         "website": "https://www.orangecountycodeschool.com/"
-    }, 
-    "Origin Code Academy": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "cost_estimate": null, 
-        "courses": {}, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-13", 
-        "locations": [
-            "San Diego"
-        ], 
-        "name": "Origin Code Academy", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": 3, 
-        "su_rating": 5.0, 
-        "su_technologies": null, 
-        "subjects": null, 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://origincodeacademy.com"
     }, 
     "Pdx Code Guild": {
         "average_salary": 40, 
@@ -12593,7 +12596,7 @@
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "scholarships": "$1000 Veteran Scholars...", 
-        "su_num_reviews": 2, 
+        "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "su_technologies": [
             "AngularJS", 
@@ -17238,6 +17241,64 @@
         "tracking_groups": [], 
         "website": "http://www.wyncode.co/"
     }, 
+    "Zip Code Wilmington": {
+        "average_salary": 55000, 
+        "class_ratio": "1:10", 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Java Bootcamp": {
+                "Class Size": 30, 
+                "Cost": 12000, 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Newark", 
+                    "Wilmington"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Data Structures", 
+                    "Design Principles", 
+                    "Git", 
+                    "Java", 
+                    "Javascript"
+                ], 
+                "Title": "Java Bootcamp"
+            }
+        }, 
+        "hiring_rate": 100.0, 
+        "last_updated": "2016-09-13", 
+        "locations": [
+            "Newark", 
+            "Wilmington"
+        ], 
+        "name": "Zip Code Wilmington", 
+        "num_alumni": 16, 
+        "num_locations": 2, 
+        "scholarships": "$10,000 Apprenticeship...", 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "Java", 
+            "JavaScript"
+        ], 
+        "subjects": "Java, JavaScript", 
+        "technologies": [
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "Java", 
+            "JavaScript"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.zipcodewilmington.com/"
+    }, 
     "Zipfian Academy": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -17307,23 +17368,23 @@
         ], 
         "Cleveland": [
             "Software Guild", 
-            "Tech Elevator", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
         "Columbus": [
-            "Tech Elevator", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Girl Develop It"
         ], 
         "Current Market": [
             "Software Guild", 
-            "Tech Elevator", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-13 12:06:58", 
+        "Date/Time": "2016-09-13 18:28:46", 
         "Days Out": 1, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -17334,7 +17395,7 @@
             "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 267, 
+        "Number of Entries": 266, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
@@ -17370,7 +17431,7 @@
             "Antskog": 1, 
             "Asheville": 1, 
             "Atlanta": 11, 
-            "Austin": 13, 
+            "Austin": 12, 
             "Bali": 1, 
             "Baltimore": 2, 
             "Bangalore": 2, 
@@ -17430,7 +17491,7 @@
             "Lille": 1, 
             "Lisbon": 1, 
             "London": 13, 
-            "Los Angeles": 15, 
+            "Los Angeles": 14, 
             "Louisville": 2, 
             "Madison": 1, 
             "Madrid": 2, 
@@ -17446,10 +17507,11 @@
             "Nantes": 1, 
             "Nashville": 3, 
             "New Orleans": 2, 
-            "New York City": 25, 
+            "New York City": 24, 
+            "Newark": 1, 
             "Oakland": 1, 
             "Omaha": 2, 
-            "Online": 29, 
+            "Online": 30, 
             "Orange County": 4, 
             "Orlando": 1, 
             "Ottawa": 1, 
@@ -17467,8 +17529,8 @@
             "Saint Louis": 1, 
             "Salt Lake City": 7, 
             "San Antonio": 4, 
-            "San Diego": 4, 
-            "San Francisco": 33, 
+            "San Diego": 3, 
+            "San Francisco": 32, 
             "San Jose": 5, 
             "Santiago": 1, 
             "Seattle": 14, 
@@ -17487,39 +17549,39 @@
             "Washington DC": 2, 
             "Wellington": 1, 
             "West Palm Beach": 1, 
-            "Wilmington": 1, 
+            "Wilmington": 2, 
             "Woodside": 1
         }, 
         "technologies": {
-            ".NET": 21, 
+            ".NET": 22, 
             "ASP.NET": 1, 
-            "ASP.NET MVC": 2, 
-            "Algorithms": 40, 
+            "ASP.NET MVC": 3, 
+            "Algorithms": 41, 
             "Android": 16, 
             "AngularJS": 48, 
             "Business": 6, 
-            "C#": 17, 
+            "C#": 18, 
             "C++": 4, 
-            "CSS": 105, 
+            "CSS": 106, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 1, 
             "Data Science": 17, 
-            "Data Structures": 23, 
-            "Design Principles": 22, 
+            "Data Structures": 24, 
+            "Design Principles": 23, 
             "Digital Marketing": 12, 
             "Django": 8, 
             "Drupal": 1, 
             "Entrepreneurship": 13, 
-            "Express.js": 23, 
+            "Express.js": 24, 
             "Game Design": 2, 
-            "Git": 53, 
+            "Git": 54, 
             "HTML": 112, 
             "Hadoop": 1, 
             "Illustrator": 8, 
-            "Java": 19, 
-            "JavaScript": 118, 
+            "Java": 20, 
+            "JavaScript": 119, 
             "Linux": 7, 
             "Mobile": 19, 
             "MongoDB": 30, 
@@ -17527,10 +17589,10 @@
             "Node.js": 43, 
             "Objective-C": 16, 
             "PHP": 16, 
-            "Perl": 1, 
+            "Perl": 2, 
             "Phonegap": 2, 
             "Photoshop": 10, 
-            "PostgreSQL": 16, 
+            "PostgreSQL": 15, 
             "Product Management": 8, 
             "Python": 24, 
             "Ruby": 23, 

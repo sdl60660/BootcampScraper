@@ -91,10 +91,10 @@ rm current_data/tracking_groups/*
 python helper_functions/tgroup_sort.py current_data/output.json
 
 #ADD META DATA TO TRACKING GROUP FILES
-python helper_functions/json_merge.py current_data/tracking_groups/current_markets.json current_data/tracking_groups/current_markets.json --output current_data/tracking_groups/current_markets.json
-python helper_functions/json_merge.py current_data/tracking_groups/java_and_NET.json current_data/tracking_groups/java_and_NET.json --output current_data/tracking_groups/java_and_NET.json
-python helper_functions/json_merge.py current_data/tracking_groups/potential_markets.json current_data/tracking_groups/potential_markets.json --output current_data/tracking_groups/potential_markets.json
-python helper_functions/json_merge.py current_data/tracking_groups/top_camps.json current_data/tracking_groups/top_camps.json --output current_data/tracking_groups/top_camps.json
+python helper_functions/json_merge.py current_data/tracking_groups/current_markets.json current_data/tracking_groups/current_markets.json --output current_data/tracking_groups/current_markets.json >/dev/null
+python helper_functions/json_merge.py current_data/tracking_groups/java_and_NET.json current_data/tracking_groups/java_and_NET.json --output current_data/tracking_groups/java_and_NET.json >/dev/null
+python helper_functions/json_merge.py current_data/tracking_groups/potential_markets.json current_data/tracking_groups/potential_markets.json --output current_data/tracking_groups/potential_markets.json >/dev/null
+python helper_functions/json_merge.py current_data/tracking_groups/top_camps.json current_data/tracking_groups/top_camps.json --output current_data/tracking_groups/top_camps.json >/dev/null
 
 #ARCHIVE TRACKING GROUP DATA
 cp current_data/tracking_groups/current_markets.json old_data/tracking_groups/current_markets/$current_time.current_markets.json
@@ -106,6 +106,7 @@ output_time=$(date "+%H:%M:%S")
 echo "$output_time: Tracking Group Data Files Sorted..."
 
 #LOG SEARCH TERMS
+rm current_data/search_terms.csv
 python helper_functions/search_terms.py
 
 output_time=$(date "+%H:%M:%S")
