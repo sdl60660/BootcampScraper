@@ -204,7 +204,7 @@ class CourseReportSpider(scrapy.Spider):
             employment_stats['60 days'] = int(Selector(response).xpath('//*[@class="sixty-days"]/h3/text()').extract()[0][:-1])
             employment_stats['90 days'] = int(Selector(response).xpath('//*[@class="ninety-days"]/h3/text()').extract()[0][:-1])
             employment_stats['120 days'] = int(Selector(response).xpath('//*[@class="one-twenty-days"]/h3/text()').extract()[0][:-1])
-            employment_stats['120+'] = int(Selector(response).xpath('//*[@class="over-one-twenty-days"]/h3/text()').extract()[0][:-1])
+            employment_stats['120+ days'] = int(Selector(response).xpath('//*[@class="over-one-twenty-days"]/h3/text()').extract()[0][:-1])
             item['employment_rates'] = employment_stats
 
             matriculation_info = {}

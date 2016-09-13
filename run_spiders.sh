@@ -90,6 +90,13 @@ cp current_data/output.json old_data/full_outputs/$current_time.output.json
 rm current_data/tracking_groups/*
 python helper_functions/tgroup_sort.py current_data/output.json
 
+#ADD META DATA TO TRACKING GROUP FILES
+python helper_functions/json_merge.py current_data/tracking_groups/current_markets.json current_data/tracking_groups/current_markets.json --output current_data/tracking_groups/current_markets.json
+python helper_functions/json_merge.py current_data/tracking_groups/java_and_NET.json current_data/tracking_groups/java_and_NET.json --output current_data/tracking_groups/java_and_NET.json
+python helper_functions/json_merge.py current_data/tracking_groups/potential_markets.json current_data/tracking_groups/potential_markets.json --output current_data/tracking_groups/potential_markets.json
+python helper_functions/json_merge.py current_data/tracking_groups/top_camps.json current_data/tracking_groups/top_camps.json --output current_data/tracking_groups/top_camps.json
+
+#ARCHIVE TRACKING GROUP DATA
 cp current_data/tracking_groups/current_markets.json old_data/tracking_groups/current_markets/$current_time.current_markets.json
 cp current_data/tracking_groups/potential_markets.json old_data/tracking_groups/potential_markets/$current_time.potential_markets.json
 cp current_data/tracking_groups/top_camps.json old_data/tracking_groups/top_camps/$current_time.top_camps.json
@@ -97,6 +104,9 @@ cp current_data/tracking_groups/java_and_NET.json old_data/tracking_groups/Java_
 
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: Tracking Group Data Files Sorted..."
+
+#LOG SEARCH TERMS
+python helper_functions/search_terms.py
 
 output_time=$(date "+%H:%M:%S")
 echo

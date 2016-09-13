@@ -1,4 +1,4 @@
-3# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # Define your item pipelines here
 #
@@ -40,7 +40,10 @@ class CaughtDuplicateNames(object):
     #Helio Training Boocamp, Beach Coders Academy, Make School, Velocity 360, Ada Developers Academy, Founders & Coders
 
     def process_item(self, item, spider):
-        if item['name'].title() == 'Software  Guild' or item['name'].title() == 'Software Craftsmanship Guild' or item['name'].title() == 'The Software Guild':
+        if item['name'].title() == 'Software  Guild' or item['name'].title() == 'Software Craftsmanship Guild':
+            item['name'] = 'Software Guild'
+
+        if item['name'].title() == 'The Software Guild':
             item['name'] = 'Software Guild'
 
         if item['name'].title() == 'Hack School' or item['name'].title() == 'Hackschool':
@@ -186,7 +189,8 @@ class TrackingGroupTags(object):
 
         for camp in top_camps:
             if item['name'].title() == camp.title():
-                item['tracking_groups'].append('Top Camp')
+                if 'Top Camp' not in item['tracking_groups']:
+                    item['tracking_groups'].append('Top Camp')
 
         for camp in java_and_net:
             if item['name'].title() == camp.title():
