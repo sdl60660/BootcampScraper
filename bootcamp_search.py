@@ -155,10 +155,14 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
         for cat in course_categories:
             try:
                 for c in info['courses']:
-                    x = info['courses'][c][cat]
-                    empty = False
+                    try:
+                        x = info['courses'][c][cat]
+                        empty = False
+                    except KeyError:
+                        pass
             except KeyError:
                 pass
+
 
     if secondary_categories:
         for cat in secondary_categories:
