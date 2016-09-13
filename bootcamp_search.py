@@ -120,17 +120,21 @@ def category_print(info, cat, parent_cat=None):
     if type(info[cat]) is list:
         print title + ':'
         pprint(info[cat], indent=4)
-
-    if type(info[cat]) is dict:
+    elif type(info[cat]) is dict:
         print title + ':'
-        sort_dict = []
-        for key in info[cat].keys():
-            temp_string = '    ' + unicode(key) + ': ' + unicode(info[cat][key])
-            sort_dict.append(temp_string)
-            sort_dict = sorted(sort_dict, key=lambda x: (len(x), x))
-        for item in sort_dict:
-            print item
-
+        if cat == 'courses':
+            for key in info[cat].keys():
+                print '    ' + str(key)
+                pprint(info[cat][key], indent=8)
+                print
+        else:
+            sort_dict = []
+            for key in info[cat].keys():
+                temp_string = '    ' + unicode(key) + ': ' + unicode(info[cat][key])
+                sort_dict.append(temp_string)
+                sort_dict = sorted(sort_dict, key=lambda x: (len(x), x))
+            for item in sort_dict:
+                print item
     else:
         if info[cat] == None:
             print title + ': N/A'
