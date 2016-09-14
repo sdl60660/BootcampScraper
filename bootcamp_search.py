@@ -2,6 +2,7 @@ import json
 import csv
 import sys
 from pprint import pprint
+import operator
 
 from difflib import SequenceMatcher
 
@@ -11,81 +12,19 @@ tracking_groups_files = ['current_markets.json', 'potential_markets.json', 'top_
 filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
 warning_list = []
 
-type1list = ['technologies', 'locations', 'job_guarantee', 'job_assistance','job guarantee', 'job assistance', 'housing', 'visas']
+def dict_print(in_dict, title):
+    print title.title() + ':'
+    tuple_list = []
 
+    for k,v in in_dict.iteritems():
+        tuple_list.append((k, v))
 
-#IF AN INT OR FLOAT, SORT RESULTS BY VALUE; OTHERWISE SORT RESULTS BY BOOTCAMP NAME
-
-#TYPE 1 CATEGORY LOOKUP WILL TAKE A CATEGORY AND OUTPUT A LIST OF "VALUE: # OF BOOTCAMPS THAT FIT VALUE",
-#SORTED BY THE # OF BOOTCAMPS THAT FIT
-#(technologies, locations, job_guarantee, job_assistance, housing, visas)
-def type1_category_lookup(category, data):
-    temp_dict = {}
-    category = category.lower()
-
-    for bootcamp in data:
-        try:
-            if type(bootcamps[bootcamp][category]) != list:
-                if bootcamps[bootcamp][category]:
-                    bootcamps[bootcamp][category] = [bootcamps[bootcamp][category]]
-        except KeyError:
-            pass
-
-        try:
-            for item in bootcamps[bootcamp][category]:
-                if item in temp_dict:
-                    temp_dict[item] += 1
-                else:
-                    temp_dict[item] = 1
-        except (KeyError, TypeError):
-            pass
-
-    val_sort_dict = sorted(temp_dict, key=temp_dict.get, reverse=True)
-    key_sort_dict = sorted(temp_dict, reverse=False)
-
-    if category == 'technologies':
-        for item in val_sort_dict:
-            if len(item) > 1 or item == 'R' or item == 'C':
-                try:
-                    print str(item) + ": " + str(temp_dict[item])
-                except UnicodeEncodeError:
-                    pass
-        print
-        print "-------------------"
-        print
-        for item in key_sort_dict:
-            if len(item) > 1 or item == 'R' or item == 'C':
-                print str(item) + ": " + str(temp_dict[item])
-    
-    else:
-        for item in val_sort_dict:
-            if len(item) > 1:
-                try:
-                    print str(item) + ': ' + str(temp_dict[item])
-                except UnicodeEncodeError:
-                    pass
-        print
-        print "-------------------"
-        print
-        for item in key_sort_dict:
-            if len(item) > 1:
-                try:
-                    print str(item) + ": " + str(temp_dict[item])
-                except UnicodeEncodeError:
-                    pass
-    
+    tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=True)
+    for tup in tuple_list:
+        print_string = str(tup[0])+ ': ' + str(tup[1])
+        pprint(print_string, indent=4)
+    print
     return
-
-
-#=========================================================================================================#
-#============================================IN PROGRESS BELOW============================================#
-#=========================================================================================================#
-
-#TYPE 2 CATEGORY LOOKUP WILL TAKE A CATEGORY AND OUTPUT A LIST OF "BOOTCAMP NAME: NUMERICAL VALUE"
-#SORTED BY VALUE
-#(num_courses, num_locations, cr_num_reviews, cr_rating, twitter:followers)
-def type2_category_lookup(category, data):
-    pass
 
 #VALUE LOOKUP WILL TAKE A VALUE AND CATEGORY AND OUTPUT A LIST OF BOOTCAMPS THAT FIT AND A COUNT
 #SORTED BY NUMBER OF COURSE REPORT REVIEWS (NOT PERFECT, BUT OH WELL)
@@ -235,6 +174,7 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
 #CHECK FOR 'OR' FLAG AND 'SUMMARY' FLAG
 or_flag = False
 summary_flag = False
+list_flag = False
 
 for arg in range(len(sys.argv)):
     if sys.argv[arg] == '--or':
@@ -246,6 +186,12 @@ for arg in range(len(sys.argv)):
     if sys.argv[arg] == '--summary':
         summary_flag = True
         sys.argv.remove('--summary')
+        break
+
+for arg in range(len(sys.argv)):
+    if sys.argv[arg] == '--list':
+        list_flag = True
+        sys.argv.remove('--list')
         break
 
 #OPEN SEARCH TERM FILE FROM CURRENT DATA AND LOAD CSV DATA INTO SEARCH LIST
@@ -317,6 +263,8 @@ if 'Meta' in key_dict.keys():
     pprint(bootcamps['meta'])
     sys.exit()
 
+filtered_camps = []
+
 #LOOP THROUGH BOOTCAMPS, FILTER, DISPLAY SELECTED CATEGORIES
 for camp in bootcamps:
     try:
@@ -353,6 +301,8 @@ for camp in bootcamps:
     except TypeError:
         continue
 
+    filtered_camps.append(camp)
+
 
     #***************DISPLAY CATEGORIES***************
 
@@ -388,6 +338,58 @@ for camp in bootcamps:
     except KeyError:
         info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
 
+
+if list_flag == True:
+    print '==============================================================================================='
+    print
+    print 'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters:'
+    print
+    pprint(filtered_camps)
+    print
+
+if summary_flag == True:
+    print '==============================================================================================='
+    print
+    print 'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(filtered_camps)) + ')'
+    print
+    try:
+        for cat in categories:
+            temp_dict = {}
+            for camp in filtered_camps:
+                camp = bootcamps[camp]
+                try:
+                    if type(camp[cat]) == list:
+                        for item in camp[cat]:
+                            if item in temp_dict:
+                                temp_dict[item] += 1
+                            else:
+                                temp_dict[item] = 1
+                    #NEED TO USE BINS HERE, MIGHT BE WORTH FIGURING OUT LATER
+                    elif type(camp[cat]) == int:
+                        if camp[cat] in temp_dict:
+                            temp_dict[camp[cat]] += 1
+                        else:
+                            temp_dict[camp[cat]] = 1
+                    elif 'Yes' in camp[cat]:
+                        if 'Yes' in temp_dict:
+                            temp_dict['Yes'] += 1
+                        else:
+                            temp_dict['Yes'] = 1
+                    elif 'No' or 'None' in camp[cat]:
+                        if 'No' in temp_dict:
+                            temp_dict['No'] += 1
+                        else:
+                            temp_dict['No'] = 1
+                    else:
+                        pass
+                except (KeyError, TypeError):
+                    pass
+            dict_print(temp_dict, cat)
+    except TypeError:
+        pass
+
+    print
+
 if len(warning_list) > 0:
     print "****************************************************"
     print
@@ -397,12 +399,5 @@ if len(warning_list) > 0:
     print pprint(warning_list, width=52)
     print
     print "****************************************************"
-
-
-"""
-if key == 'Meta':
-    key = key.lower()
-
-"""
 
 

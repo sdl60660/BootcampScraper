@@ -69,6 +69,12 @@ mv clean_coursereport_data.json current_data/coursereport_data.json
 echo
 
 #MERGE JSONS
+python helper_functions/techlist_pipeline_fix.py current_data/coursereport_data.json temp_output.json
+mv temp_output.json current_data/coursereport_data.json
+
+python helper_functions/techlist_pipeline_fix.py current_data/switchup_data.json temp_output.json
+mv temp_output.json current_data/switchup_data.json
+
 #python helper_functions/json_merge.py current_data/bootcampsin_data.json current_data/switchup_data.json current_data/coursereport_data.json
 python helper_functions/json_merge.py current_data/switchup_data.json current_data/coursereport_data.json
 output_time=$(date "+%H:%M:%S")

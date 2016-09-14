@@ -93,9 +93,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9727, 
+            "followers": 9721, 
             "handle": "@devbootcamp", 
-            "tweets": 9472
+            "tweets": 9464
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -788,6 +788,10 @@
                 "Hours/Week": 6, 
                 "Length": 8, 
                 "Location": [
+                    "N/A"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
                     "Atlanta", 
                     "Austin", 
                     "Boston", 
@@ -800,10 +804,6 @@
                     "Seattle", 
                     "Sydney", 
                     "Washington"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "N/A"
                 ], 
                 "Title": "Visual Design "
             }, 
@@ -1025,7 +1025,18 @@
             "Digital Marketing", 
             "SEO", 
             "Mobile", 
-            "Product Management"
+            "Product Management", 
+            "Atlanta", 
+            "Austin", 
+            "Boston", 
+            "Chicago", 
+            "London", 
+            "Los Angeles", 
+            "Melbourne", 
+            "San Francisco", 
+            "Seattle", 
+            "Sydney", 
+            "Washington"
         ], 
         "subjects": "Web Development (Full-stack: Javascript, Ruby, Rails), Web Design, UI/UX Design, Product Management, Digital Marketing, Analytics, Front-end (HTML, CSS, Javascript), Back-end (Ruby, Ruby on Rails), Data Science", 
         "technologies": [
@@ -1040,6 +1051,17 @@
             "SEO", 
             "Mobile", 
             "Product Management", 
+            "Atlanta", 
+            "Austin", 
+            "Boston", 
+            "Chicago", 
+            "London", 
+            "Los Angeles", 
+            "Melbourne", 
+            "San Francisco", 
+            "Seattle", 
+            "Sydney", 
+            "Washington", 
             "User Experience Design", 
             "AngularJS", 
             "MongoDB", 
@@ -1078,7 +1100,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 101000, 
+            "followers": 100000, 
             "handle": "@GA", 
             "tweets": 15800
         }, 
@@ -1180,9 +1202,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7376, 
+            "followers": 7374, 
             "handle": "@HackReactor", 
-            "tweets": 2726
+            "tweets": 2724
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1415,7 +1437,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8761, 
+            "followers": 8755, 
             "handle": "@ironhack", 
             "tweets": 3372
         }, 
@@ -1633,15 +1655,15 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "UX Design", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15100, 
             "handle": "@TheIronYard", 
-            "tweets": 7601
+            "tweets": 7592
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1655,7 +1677,7 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-09-14 18:32:24", 
+        "Date/Time": "2016-09-14 12:21:23", 
         "Days Out": 2, 
         "Detroit": [
             "The Iron Yard"

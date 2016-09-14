@@ -1,0 +1,58 @@
+2016-09-14 18:16:46 [scrapy] INFO: Scrapy 1.1.2 started (bot: bootcamp_info)
+2016-09-14 18:16:46 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'bootcamp_info.spiders', 'FEED_URI': 'current_data/coursereport_data.json', 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['bootcamp_info.spiders'], 'BOT_NAME': 'bootcamp_info', 'FEED_FORMAT': 'json'}
+2016-09-14 18:16:46 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-09-14 18:16:46 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-14 18:16:46 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-14 18:16:46 [scrapy] INFO: Enabled item pipelines:
+['bootcamp_info.pipelines.CaughtDuplicateNames',
+ 'bootcamp_info.pipelines.TechnologyListingFixes',
+ 'bootcamp_info.pipelines.LocationFixes',
+ 'bootcamp_info.pipelines.TrackingGroupTags',
+ 'bootcamp_info.pipelines.EmptyChecker']
+2016-09-14 18:16:46 [scrapy] INFO: Spider opened
+2016-09-14 18:16:46 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-14 18:16:46 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-14 18:17:03 [scrapy] DEBUG: Retrying <GET https://www.coursereport.com/schools?page=1> (failed 1 times): 503 Service Unavailable
+2016-09-14 18:17:20 [scrapy] DEBUG: Retrying <GET https://www.coursereport.com/schools?page=1> (failed 2 times): 503 Service Unavailable
+2016-09-14 18:17:37 [scrapy] DEBUG: Gave up retrying <GET https://www.coursereport.com/schools?page=1> (failed 3 times): 503 Service Unavailable
+2016-09-14 18:17:37 [scrapy] DEBUG: Crawled (503) <GET https://www.coursereport.com/schools?page=1> (referer: None)
+2016-09-14 18:17:37 [scrapy] DEBUG: Ignoring response <503 https://www.coursereport.com/schools?page=1>: HTTP status code is not handled or not allowed
+2016-09-14 18:17:37 [scrapy] INFO: Closing spider (finished)
+2016-09-14 18:17:37 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 696,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 1944,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/503': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 14, 22, 17, 37, 612454),
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2016, 9, 14, 22, 16, 46, 610099)}
+2016-09-14 18:17:37 [scrapy] INFO: Spider closed (finished)

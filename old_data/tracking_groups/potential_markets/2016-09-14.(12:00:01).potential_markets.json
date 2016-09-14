@@ -73,7 +73,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 596, 
+            "followers": 595, 
             "handle": "@academypgh", 
             "tweets": 1250
         }, 
@@ -377,14 +377,14 @@
             "Toronto"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5644, 
+            "followers": 5643, 
             "handle": "@BitmakerHQ", 
             "tweets": 8575
         }, 
@@ -705,17 +705,17 @@
             "Toronto"
         ], 
         "tracks": [
-            "Mobile Development", 
-            "UX Design", 
-            "Full-Stack Web Development", 
-            "Digital Marketing", 
             "Product Management", 
-            "Front-End Web Development"
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6914, 
+            "followers": 6913, 
             "handle": "@BrainStation", 
-            "tweets": 7168
+            "tweets": 7161
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -824,7 +824,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 339, 
+            "followers": 338, 
             "handle": "@MAXCincinnati", 
             "tweets": 3482
         }, 
@@ -1370,9 +1370,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5142, 
+            "followers": 5139, 
             "handle": "@GrandCircusCo", 
-            "tweets": 5970
+            "tweets": 5968
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -1640,9 +1640,9 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8676, 
+            "followers": 8671, 
             "handle": "@hackeryou", 
-            "tweets": 3374
+            "tweets": 3371
         }, 
         "visas": "No", 
         "website": "http://hackeryou.com/"
@@ -1870,17 +1870,17 @@
             "Sinatra", 
             "Ruby", 
             "CSS", 
-            "Cocoa", 
             "Git", 
-            "Product Management", 
+            "Cocoa", 
             "Objective-C", 
+            "Product Management", 
             "JavaScript", 
-            "Ruby on Rails", 
             "MongoDB", 
-            "Express.js", 
+            "Ruby on Rails", 
+            "SQL", 
             "jQuery", 
-            "Node.js", 
-            "SQL"
+            "Express.js", 
+            "Node.js"
         ], 
         "email": "hello@lighthouselabs.ca", 
         "employment_rates": {
@@ -1952,9 +1952,9 @@
             "Git", 
             "Product Management", 
             "MongoDB", 
-            "Express.js", 
+            "SQL", 
             "jQuery", 
-            "SQL"
+            "Express.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -1965,13 +1965,13 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4564, 
+            "followers": 4558, 
             "handle": "@lighthouse_labs", 
-            "tweets": 6733
+            "tweets": 6724
         }, 
         "visas": "No", 
         "website": "http://www.lighthouselabs.ca/"
@@ -2088,9 +2088,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1621, 
+            "followers": 1616, 
             "handle": "@RedAcademy", 
-            "tweets": 1467
+            "tweets": 1465
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -2335,15 +2335,15 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "UX Design", 
-            "Data Science"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15100, 
             "handle": "@TheIronYard", 
-            "tweets": 7601
+            "tweets": 7592
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2461,7 +2461,7 @@
         "Current Market": [
             "Girl Develop It"
         ], 
-        "Date/Time": "2016-09-14 18:32:24", 
+        "Date/Time": "2016-09-14 12:21:23", 
         "Days Out": 2, 
         "Detroit": [
             "Become A Developer Bootcamp (Java)", 

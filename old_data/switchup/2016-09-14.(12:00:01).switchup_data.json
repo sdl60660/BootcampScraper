@@ -58,7 +58,7 @@
         }, 
         "general_cost": null, 
         "hiring_rate": 99.0, 
-        "last_updated": "2016-09-14", 
+        "last_updated": "2016-09-13", 
         "locations": [
             "Miami"
         ], 
@@ -2305,8 +2305,8 @@
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "scholarships": "Enter code \"switchup\" ...", 
-        "su_num_reviews": 30, 
-        "su_rating": 4.4, 
+        "su_num_reviews": 29, 
+        "su_rating": 4.5, 
         "su_technologies": [
             "UX", 
             "CSS", 
@@ -3753,6 +3753,7 @@
             "Node.js", 
             "Python", 
             "Wordpress", 
+            "Charleston", 
             "Clojure", 
             "Data Science", 
             "Scala"
@@ -3772,6 +3773,7 @@
             "Node.js", 
             "Python", 
             "Wordpress", 
+            "Charleston", 
             "Clojure", 
             "Data Science", 
             "Scala"
@@ -8042,9 +8044,13 @@
         "scholarships": "Available - must apply", 
         "su_num_reviews": 3, 
         "su_rating": 5.0, 
-        "su_technologies": [], 
+        "su_technologies": [
+            "Chicago"
+        ], 
         "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
-        "technologies": [], 
+        "technologies": [
+            "Chicago"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8376,9 +8382,13 @@
         "scholarships": "Limited scholarships, ...", 
         "su_num_reviews": null, 
         "su_rating": null, 
-        "su_technologies": [], 
+        "su_technologies": [
+            "Gainesville"
+        ], 
         "subjects": "HTML5, CSS3, MongoDB, ExpressJS, AngularJS, NodeJS, API, Agile, Scrum, PM, iPhone Swift, iOS SDK, Android", 
-        "technologies": [], 
+        "technologies": [
+            "Gainesville"
+        ], 
         "top_source": [
             "SwitchUp"
         ], 
@@ -8814,6 +8824,10 @@
                 "Hours/Week": 6, 
                 "Length": 8, 
                 "Location": [
+                    "N/A"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
                     "Atlanta", 
                     "Austin", 
                     "Boston", 
@@ -8826,10 +8840,6 @@
                     "Seattle", 
                     "Sydney", 
                     "Washington"
-                ], 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "N/A"
                 ], 
                 "Title": "Visual Design "
             }, 
@@ -8896,7 +8906,18 @@
             "Digital Marketing", 
             "SEO", 
             "Mobile", 
-            "Product Management"
+            "Product Management", 
+            "Atlanta", 
+            "Austin", 
+            "Boston", 
+            "Chicago", 
+            "London", 
+            "Los Angeles", 
+            "Melbourne", 
+            "San Francisco", 
+            "Seattle", 
+            "Sydney", 
+            "Washington"
         ], 
         "subjects": "Web Development (Full-stack: Javascript, Ruby, Rails), Web Design, UI/UX Design, Product Management, Digital Marketing, Analytics, Front-end (HTML, CSS, Javascript), Back-end (Ruby, Ruby on Rails), Data Science", 
         "technologies": [
@@ -8910,7 +8931,18 @@
             "Digital Marketing", 
             "SEO", 
             "Mobile", 
-            "Product Management"
+            "Product Management", 
+            "Atlanta", 
+            "Austin", 
+            "Boston", 
+            "Chicago", 
+            "London", 
+            "Los Angeles", 
+            "Melbourne", 
+            "San Francisco", 
+            "Seattle", 
+            "Sydney", 
+            "Washington"
         ], 
         "top_source": [
             "SwitchUp"
@@ -12824,7 +12856,7 @@
         "name": "Product School", 
         "num_alumni": 550, 
         "num_locations": 9, 
-        "su_num_reviews": 89, 
+        "su_num_reviews": 88, 
         "su_rating": 4.9, 
         "su_technologies": [
             "Product Management"
@@ -13548,7 +13580,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-14", 
+        "last_updated": "2016-09-13", 
         "locations": [
             "New York City"
         ], 
@@ -15942,7 +15974,7 @@
         "num_alumni": 120, 
         "num_locations": 2, 
         "scholarships": "Scholarship offered to...", 
-        "su_num_reviews": 64, 
+        "su_num_reviews": 62, 
         "su_rating": 4.9, 
         "su_technologies": [
             "Algorithms", 
@@ -17861,7 +17893,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-14 18:16:44", 
+        "Date/Time": "2016-09-14 12:13:54", 
         "Days Out": 2, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -18029,72 +18061,72 @@
             "Wilmington": 2, 
             "Woodside": 1
         }, 
-        "technologies": [
-            "jQuery", 
-            "Digital Marketing", 
-            "Git", 
-            "Java", 
-            "Web Services", 
-            "Scala", 
-            "Mobile", 
-            ".NET", 
-            "SQL Server Administration", 
-            "Hadoop", 
-            "Perl", 
-            "ASP.NET MVC", 
-            "Data Structures", 
-            "Wordpress", 
-            "MySQL", 
-            "SQL Programming", 
-            "Android", 
-            "Node.js", 
-            "Business", 
-            "C#", 
-            "SharePoint", 
-            "Ruby on Rails", 
-            "Phonegap", 
-            "Entrepreneurship", 
-            "CoffeeScript", 
-            "SQL Business Intelligence", 
-            "HTML", 
-            "Spring MVC", 
-            "AngularJS", 
-            "SEO", 
-            "Cyber Security", 
-            "WPF", 
-            "Ruby", 
-            "Windows Server", 
-            "JavaScript", 
-            "Illustrator", 
-            "Express.js", 
-            "Drupal", 
-            "VB.NET", 
-            "Data Science", 
-            "SQL", 
-            "iOS", 
-            "C++", 
-            "Django", 
-            "Objective-C", 
-            "Game Design", 
-            "Algorithms", 
-            "WCF", 
-            "PostgreSQL", 
-            "Clojure", 
-            "CSS", 
-            "UNIX", 
-            "Photoshop", 
-            "Design Principles", 
-            "UX", 
-            "Sinatra", 
-            "ASP.NET", 
-            "MongoDB", 
-            "Sales", 
-            "Cocoa", 
-            "Python", 
-            "Swift", 
-            "Linux", 
-            "Product Management", 
-            "PHP"
-        ]
+        "technologies": {
+            ".NET": 22, 
+            "ASP.NET": 1, 
+            "ASP.NET MVC": 3, 
+            "Algorithms": 42, 
+            "Android": 16, 
+            "AngularJS": 49, 
+            "Business": 6, 
+            "C#": 18, 
+            "C++": 4, 
+            "CSS": 107, 
+            "Clojure": 4, 
+            "Cocoa": 7, 
+            "CoffeeScript": 7, 
+            "Cyber Security": 1, 
+            "Data Science": 17, 
+            "Data Structures": 25, 
+            "Design Principles": 23, 
+            "Digital Marketing": 12, 
+            "Django": 8, 
+            "Drupal": 1, 
+            "Entrepreneurship": 13, 
+            "Express.js": 24, 
+            "Game Design": 2, 
+            "Git": 55, 
+            "HTML": 113, 
+            "Hadoop": 1, 
+            "Illustrator": 8, 
+            "Java": 20, 
+            "JavaScript": 120, 
+            "Linux": 7, 
+            "Mobile": 19, 
+            "MongoDB": 31, 
+            "MySQL": 24, 
+            "Node.js": 44, 
+            "Objective-C": 16, 
+            "PHP": 16, 
+            "Perl": 2, 
+            "Phonegap": 2, 
+            "Photoshop": 10, 
+            "PostgreSQL": 16, 
+            "Product Management": 8, 
+            "Python": 24, 
+            "Ruby": 23, 
+            "Ruby on Rails": 61, 
+            "SEO": 10, 
+            "SQL": 43, 
+            "SQL Business Intelligence": 1, 
+            "SQL Programming": 1, 
+            "SQL Server Administration": 1, 
+            "Sales": 4, 
+            "Scala": 2, 
+            "SharePoint": 1, 
+            "Sinatra": 8, 
+            "Spring MVC": 1, 
+            "Swift": 23, 
+            "UNIX": 1, 
+            "UX": 34, 
+            "VB.NET": 1, 
+            "WCF": 1, 
+            "WPF": 1, 
+            "Web Services": 3, 
+            "Windows Server": 1, 
+            "Wordpress": 7, 
+            "iOS": 27, 
+            "jQuery": 69
+        }
     }
 }
