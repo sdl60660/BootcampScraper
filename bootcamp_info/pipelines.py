@@ -9,6 +9,7 @@ import scrapy
 from scrapy.exceptions import DropItem
 
 import csv
+from difflib import SequenceMatcher
 
 selected_camps = []
 with open('old_data/selected_camps.csv', 'r') as selected_camp_list:
@@ -185,7 +186,6 @@ class DuplicatesPipeline(object):
 
 
 class TrackingGroupTags(object):
-    
     def process_item(self, item, spider):
 
         #This is completely subject to change, just needed to put in a few to test out the pipeline
@@ -203,6 +203,9 @@ class TrackingGroupTags(object):
 
         for camp in selected_camps:
             if item['name'].title() == camp.title():
+                if 'Selected Camp' not in item['tracking_groups']:
+                    item['tracking_groups'].append('Selected Camp')
+            elif (SequenceMatcher(None, item['name'].lower(), camp.lower()).ratio()) > 0.95:
                 if 'Selected Camp' not in item['tracking_groups']:
                     item['tracking_groups'].append('Selected Camp')
 

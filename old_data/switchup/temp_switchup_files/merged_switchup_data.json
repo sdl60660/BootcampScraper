@@ -608,6 +608,27 @@
         "tracking_groups": [], 
         "website": "http://arkansascodingacademy.com/"
     }, 
+    "Astro Code School": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": null, 
+        "courses": {}, 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-15", 
+        "locations": null, 
+        "name": "Astro Code School", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": null, 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://astrocodeschool.com/"
+    }, 
     "Atlanta Code": {
         "average_salary": "N/A", 
         "class_ratio": null, 
@@ -781,76 +802,6 @@
         ], 
         "tracking_groups": [], 
         "website": "https://www.awesomeincu.com/"
-    }, 
-    "Barcelona Code School": {
-        "average_salary": "N/A", 
-        "class_ratio": "1:6", 
-        "cost_estimate": null, 
-        "courses": {
-            "Javascript Full-Stack Bootcamp": {
-                "Class Size": 12, 
-                "Cost": 6000, 
-                "Hours/Week": 50, 
-                "Length": 8, 
-                "Location": [
-                    "Barcelona"
-                ], 
-                "Start Date": "2016-09-26", 
-                "Subjects": [
-                    "Algorithms", 
-                    "CSS", 
-                    "Express", 
-                    "Git", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery", 
-                    "MongoDB", 
-                    "Node.js", 
-                    "Wordpress"
-                ], 
-                "Title": "JavaScript Full-Stack Bootcamp"
-            }
-        }, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-15", 
-        "locations": [
-            "Barcelona"
-        ], 
-        "name": "Barcelona Code School", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": [
-            "Algorithms", 
-            "CSS", 
-            "Express.js", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "Wordpress"
-        ], 
-        "subjects": "Javascript, React, Express, Node, MongoDB, Git, Github, HTML, CSS, Bootstrap", 
-        "technologies": [
-            "Algorithms", 
-            "CSS", 
-            "Express.js", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
-            "Node.js", 
-            "Wordpress"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://www.barcelonacodeschool.com/"
     }, 
     "Base10 Academy": {
         "average_salary": 65000, 
@@ -1523,7 +1474,7 @@
         "num_alumni": 1000, 
         "num_locations": 2, 
         "scholarships": "Enter Code: \"switchup\"...", 
-        "su_num_reviews": 73, 
+        "su_num_reviews": 75, 
         "su_rating": 4.8, 
         "su_technologies": [
             "Git", 
@@ -5287,7 +5238,9 @@
         "top_source": [
             "SwitchUp"
         ], 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
         "website": "http://craftsmanshipacademy.com/"
     }, 
     "Cribb": {
@@ -6214,7 +6167,9 @@
         "top_source": [
             "SwitchUp"
         ], 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
         "website": "https://devmounta.in/?utm_source=switchup&utm_medium=display&utm_campaign=Switchup"
     }, 
     "Dev/Iowa Bootcamp": {
@@ -7070,7 +7025,7 @@
     "Digital Professional Institute": {
         "average_salary": "N/A", 
         "class_ratio": null, 
-        "cost_estimate": null, 
+        "cost_estimate": "$$$", 
         "courses": {}, 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-15", 
@@ -8412,27 +8367,6 @@
         ], 
         "tracking_groups": [], 
         "website": "https://geekuni.com/"
-    }, 
-    "Geekwise Academy": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "cost_estimate": null, 
-        "courses": {}, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-15", 
-        "locations": null, 
-        "name": "Geekwise Academy", 
-        "num_alumni": "N/A", 
-        "su_num_reviews": null, 
-        "su_rating": null, 
-        "su_technologies": null, 
-        "subjects": ".NET Programming, JavaScript, HTML5, CSS", 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://geekwiseacademy.com/"
     }, 
     "General Assembly": {
         "average_salary": "N/A", 
@@ -11540,28 +11474,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://mobilemakers.co"
-    }, 
-    "Montana Code School": {
-        "average_salary": "N/A", 
-        "class_ratio": "1:5", 
-        "cost_estimate": null, 
-        "courses": {}, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-09-15", 
-        "locations": null, 
-        "name": "Montana Code School", 
-        "num_alumni": "N/A", 
-        "scholarships": "A number of scholarshi...", 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "su_technologies": null, 
-        "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
-        "technologies": [], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://montanacodeschool.com/"
     }, 
     "Mums In Technology": {
         "average_salary": "N/A", 
@@ -16680,6 +16592,9 @@
         "su_num_reviews": 16, 
         "su_rating": 5.0, 
         "su_technologies": [
+            "iOS", 
+            "Mobile", 
+            "Swift", 
             "AngularJS", 
             "CSS", 
             "Express.js", 
@@ -16687,13 +16602,13 @@
             "JavaScript", 
             "jQuery", 
             "MongoDB", 
-            "Node.js", 
-            "iOS", 
-            "Mobile", 
-            "Swift"
+            "Node.js"
         ], 
         "subjects": "JavaScript, Angular, Node.js,  iOS, HTML, CC, jQuery, MongoDB, Express, SQL, ", 
         "technologies": [
+            "iOS", 
+            "Mobile", 
+            "Swift", 
             "AngularJS", 
             "CSS", 
             "Express.js", 
@@ -16701,10 +16616,7 @@
             "JavaScript", 
             "jQuery", 
             "MongoDB", 
-            "Node.js", 
-            "iOS", 
-            "Mobile", 
-            "Swift"
+            "Node.js"
         ], 
         "top_source": [
             "SwitchUp"
@@ -17550,56 +17462,56 @@
             "Girl Develop It"
         ], 
         "Cincinnati": [
-            "Girl Develop It", 
             "Cincy Code It", 
+            "Girl Develop It", 
             "The Iron Yard"
         ], 
         "Cleveland": [
             "Software Guild", 
-            "Tech Elevator", 
             "We Can Code It", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
         "Columbus": [
-            "Tech Elevator", 
+            "We Can Code It", 
             "Girl Develop It", 
-            "We Can Code It"
+            "Tech Elevator"
         ], 
         "Current Market": [
             "Software Guild", 
-            "Tech Elevator", 
-            "Girl Develop It", 
             "We Can Code It", 
+            "Girl Develop It", 
+            "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-15 12:33:38", 
+        "Date/Time": "2016-09-15 15:51:32", 
         "Days Out": 3, 
         "Detroit": [
             "Intensive Android Bootcamp", 
-            "Girl Develop It", 
-            "The Iron Yard", 
             "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
+            "Girl Develop It", 
             "Become A Developer Bootcamp (Java)", 
+            "The Iron Yard", 
             "Grand Circus"
         ], 
-        "Number of Entries": 268, 
+        "Number of Entries": 266, 
         "Pittsburgh": [
             "Girl Develop It"
         ], 
         "Potential Market": [
             "Brainstation", 
-            "Intensive Android Bootcamp", 
             "Hackeryou", 
-            "Girl Develop It", 
-            "Cincy Code It", 
             "Lighthouse Labs", 
             "Red Academy", 
             "Bitmaker Labs", 
-            "The Iron Yard", 
+            "Cincy Code It", 
+            "Intensive Android Bootcamp", 
             "Become A Developer Bootcamp ( Net)", 
             "Software Tester Bootcamp", 
+            "Girl Develop It", 
             "Become A Developer Bootcamp (Java)", 
+            "The Iron Yard", 
             "Grand Circus"
         ], 
         "Toronto": [
@@ -17623,7 +17535,7 @@
             "Bali": 1, 
             "Baltimore": 2, 
             "Bangalore": 2, 
-            "Barcelona": 6, 
+            "Barcelona": 5, 
             "Beirut": 1, 
             "Belo Horizonte": 1, 
             "Berkeley": 1, 
@@ -17744,13 +17656,13 @@
             ".NET": 22, 
             "ASP.NET": 1, 
             "ASP.NET MVC": 3, 
-            "Algorithms": 42, 
+            "Algorithms": 41, 
             "Android": 16, 
             "AngularJS": 49, 
             "Business": 6, 
             "C#": 18, 
             "C++": 4, 
-            "CSS": 107, 
+            "CSS": 106, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
@@ -17762,19 +17674,19 @@
             "Django": 8, 
             "Drupal": 1, 
             "Entrepreneurship": 13, 
-            "Express.js": 24, 
+            "Express.js": 23, 
             "Game Design": 2, 
-            "Git": 55, 
-            "HTML": 113, 
+            "Git": 54, 
+            "HTML": 112, 
             "Hadoop": 1, 
             "Illustrator": 8, 
             "Java": 20, 
-            "JavaScript": 120, 
+            "JavaScript": 119, 
             "Linux": 7, 
             "Mobile": 19, 
-            "MongoDB": 31, 
+            "MongoDB": 30, 
             "MySQL": 24, 
-            "Node.js": 44, 
+            "Node.js": 43, 
             "Objective-C": 16, 
             "PHP": 16, 
             "Perl": 2, 
@@ -17803,9 +17715,9 @@
             "WPF": 1, 
             "Web Services": 3, 
             "Windows Server": 1, 
-            "Wordpress": 7, 
+            "Wordpress": 6, 
             "iOS": 27, 
-            "jQuery": 69
+            "jQuery": 68
         }
     }
 }

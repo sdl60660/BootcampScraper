@@ -9,12 +9,6 @@ import datetime
 
 from difflib import SequenceMatcher
 
-#GLOBAL LISTS
-tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET']
-tracking_groups_files = ['current_markets.json', 'potential_markets.json', 'top_camps.json', 'java_and_NET.json']
-filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
-warning_list = []
-
 def find_file(pattern, path):
     result = []
     for root, dirs, files in os.walk(path):
@@ -267,6 +261,12 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
 #*****======================================MAIN========================================*****
 #============================================================================================
 
+#GLOBAL LISTS
+tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
+tracking_groups_files = find_file('*.json','current_data/tracking_groups')
+filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
+warning_list = []
+
 #COMMAND LINE OPTION PROCESSING
 or_flag = False
 summary_flag = False
@@ -349,7 +349,7 @@ for key in key_list:
     if key[1] == 'Tracking Group':
         tracking_list.append(key[0])
         if or_flag == False and first == True:
-            datafile = 'current_data/tracking_groups/' + str(return_closest(key[0], tracking_groups_files, 0.3))
+            datafile = str(return_closest(key[0], tracking_groups_files, 0.3))
             first = False
         else:
             continue
