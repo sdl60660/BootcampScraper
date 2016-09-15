@@ -101,12 +101,14 @@ python helper_functions/json_merge.py current_data/tracking_groups/current_marke
 python helper_functions/json_merge.py current_data/tracking_groups/java_and_NET.json current_data/tracking_groups/java_and_NET.json --output current_data/tracking_groups/java_and_NET.json >/dev/null
 python helper_functions/json_merge.py current_data/tracking_groups/potential_markets.json current_data/tracking_groups/potential_markets.json --output current_data/tracking_groups/potential_markets.json >/dev/null
 python helper_functions/json_merge.py current_data/tracking_groups/top_camps.json current_data/tracking_groups/top_camps.json --output current_data/tracking_groups/top_camps.json >/dev/null
+python helper_functions/json_merge.py current_data/tracking_groups/selected_camps.json current_data/tracking_groups/selected_camps.json --output current_data/tracking_groups/selected_camps.json >/dev/null
 
 #ARCHIVE TRACKING GROUP DATA
 cp current_data/tracking_groups/current_markets.json old_data/tracking_groups/current_markets/$current_time.current_markets.json
 cp current_data/tracking_groups/potential_markets.json old_data/tracking_groups/potential_markets/$current_time.potential_markets.json
 cp current_data/tracking_groups/top_camps.json old_data/tracking_groups/top_camps/$current_time.top_camps.json
 cp current_data/tracking_groups/java_and_NET.json old_data/tracking_groups/Java_and_.NET/$current_time.java_and_NET.json
+cp current_data/tracking_groups/selected_camps.json old_data/tracking_groups/selected_camps/$current_time.selected_camps.json
 
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: Tracking Group Data Files Sorted..."

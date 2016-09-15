@@ -8,6 +8,15 @@
 import scrapy
 from scrapy.exceptions import DropItem
 
+import csv
+
+selected_camps = []
+with open('old_data/selected_camps.csv', 'r') as selected_camp_list:
+    sc_list = csv.reader(selected_camp_list, delimiter=',')
+    for item in sc_list:
+        selected_camps.append(item)
+selected_camps = selected_camps[0]
+
 class BootcampInfoPipeline(object):    
 
     def process_item(self, item, spider):
@@ -191,6 +200,11 @@ class TrackingGroupTags(object):
             if item['name'].title() == camp.title():
                 if 'Top Camp' not in item['tracking_groups']:
                     item['tracking_groups'].append('Top Camp')
+
+        for camp in selected_camps:
+            if item['name'].title() == camp.title():
+                if 'Selected Camp' not in item['tracking_groups']:
+                    item['tracking_groups'].append('Selected Camp')
 
         for camp in java_and_net:
             if item['name'].title() == camp.title():

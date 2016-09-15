@@ -12,6 +12,7 @@ top_camps = {}
 potential_markets = {}
 current_markets = {}
 java_net = {}
+selected_camp = {}
 
 for item in data:
     try:
@@ -26,6 +27,9 @@ for item in data:
 
         if 'Java/.NET' in data[item]['tracking_groups']:
             java_net[item] = data[item]
+
+        if 'Selected Camp' in data[item]['tracking_groups']:
+            selected_camp[item] = data[item]
     except KeyError:
         pass
 
@@ -40,4 +44,7 @@ with open('current_data/tracking_groups/current_markets.json', 'w') as cm_data:
 
 with open('current_data/tracking_groups/java_and_NET.json', 'w') as jn_data:
     json.dump(java_net, jn_data, indent=4, sort_keys=True)
+
+with open('current_data/tracking_groups/selected_camps.json', 'w') as sc_data:
+    json.dump(selected_camp, sc_data, indent=4, sort_keys=True)
     
