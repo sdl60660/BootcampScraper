@@ -17,7 +17,7 @@ course_attribute_list = []
 location_list = []
 technology_list = []
 search_list = []
-tracking_groups = ['Java/.NET', 'Current Market', 'Potential Market', 'Top Camp']
+tracking_groups = ['Java/.NET', 'Current Market', 'Potential Market', 'Top Camp', 'Selected Camp']
 
 for item in tracking_groups:
     search_list.append((item, 'Tracking Group'))
