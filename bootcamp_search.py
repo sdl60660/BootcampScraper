@@ -29,7 +29,6 @@ def date_to_file(date):
         month = dates[0]
         day = dates[1]
         year = str(datetime.datetime.now().year)
-
     elif len(dates) == 3:
         month = dates[0]
         day = dates[1]
@@ -37,7 +36,7 @@ def date_to_file(date):
         if len(year) == 2:
             year = '20' + year
     else:
-        return -1
+        return 'NO_FILE'
 
     if len(month) == 1:
         month = '0' + month
@@ -45,7 +44,10 @@ def date_to_file(date):
         day = '0' + day
 
     filedate = year + '-' + month + '-' + day + '.*'
-    filename = find_file(filedate,'old_data/full_outputs/')[-1]
+    try:
+        filename = find_file(filedate,'old_data/full_outputs/')[-1]
+    except IndexError:
+        return 'NO_FILE'
     return filename
 
 def dict_print(in_dict, title):
