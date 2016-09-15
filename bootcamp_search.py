@@ -3,6 +3,9 @@ import csv
 import sys
 from pprint import pprint
 import operator
+import os.path
+import os, fnmatch
+import datetime
 
 from difflib import SequenceMatcher
 
@@ -12,26 +15,121 @@ tracking_groups_files = ['current_markets.json', 'potential_markets.json', 'top_
 filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
 warning_list = []
 
+def find_file(pattern, path):
+    result = []
+    for root, dirs, files in os.walk(path):
+        for name in files:
+            if fnmatch.fnmatch(name, pattern):
+                result.append(os.path.join(root, name))
+    return result
+
+def date_to_file(date):
+    dates = date.split('/')
+    if len(dates) == 2:
+        month = dates[0]
+        day = dates[1]
+        year = str(datetime.datetime.now().year)
+
+    elif len(dates) == 3:
+        month = dates[0]
+        day = dates[1]
+        year = dates[2]
+        if len(year) == 2:
+            year = '20' + year
+    else:
+        return -1
+
+    if len(month) == 1:
+        month = '0' + month
+    if len(day) == 1:
+        day = '0' + day
+
+    filedate = year + '-' + month + '-' + day + '.*'
+    filename = find_file(filedate,'old_data/full_outputs/')[-1]
+    return filename
+
 def dict_print(in_dict, title):
     print title.title() + ':'
     tuple_list = []
 
     for k,v in in_dict.iteritems():
         tuple_list.append((k, v))
-
-    tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=True)
+        val_type = type(v)
+ 
+    if val_type == int or val_type == float:
+        tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=True)
+    elif val_type == list:
+        tuple_list = sorted(tuple_list, key=lambda tup: len(tup[1]), reverse=True)
+    else:
+        tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=False)
+    
     for tup in tuple_list:
-        print_string = str(tup[0])+ ': ' + str(tup[1])
+        if val_type == list:
+            print_string = unicode(tup[0])+ ': ' + unicode(len(tup[1]))
+        else:
+            print_string = unicode(tup[0])+ ': ' + unicode(tup[1])
         pprint(print_string, indent=4)
     print
     return
 
-#VALUE LOOKUP WILL TAKE A VALUE AND CATEGORY AND OUTPUT A LIST OF BOOTCAMPS THAT FIT AND A COUNT
-#SORTED BY NUMBER OF COURSE REPORT REVIEWS (NOT PERFECT, BUT OH WELL)
-#(specific technology, specific city, tracking group)
-def value_lookup(value, category, data):
-    pass
+def summary_print(bootcamps, categories, filtered_camps):
+    print '==============================================================================================='
+    print
+    print 'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(filtered_camps)) + ')'
+    print
+    for cat in categories:
+        temp_dict = {}
+        for camp in filtered_camps:
+            camp = bootcamps[camp]
+            try:
+                if type(camp[cat]) == list:
+                    for item in camp[cat]:
+                        if item in temp_dict:
+                            temp_dict[item] += 1
+                        else:
+                            temp_dict[item] = 1
+                #NEED TO USE BINS HERE, MIGHT BE WORTH FIGURING OUT LATER
+                elif type(camp[cat]) == int:
+                    if camp[cat] in temp_dict:
+                        temp_dict[camp[cat]] += 1
+                    else:
+                        temp_dict[camp[cat]] = 1
+                elif 'Yes' in camp[cat] or camp[cat].find('available') != -1 or camp[cat].find('offer') != -1 or camp[cat].find('partnership') != -1:
+                    if 'Yes' in temp_dict:
+                        temp_dict['Yes'] += 1
+                    else:
+                        temp_dict['Yes'] = 1
+                elif 'No' or 'None' in camp[cat]:
+                    if 'No' in temp_dict:
+                        temp_dict['No'] += 1
+                    else:
+                        temp_dict['No'] = 1
+                else:
+                    pass
+            except (KeyError, TypeError):
+                pass
+        dict_print(temp_dict, cat)
+    return
 
+def sort_print(bootcamps, categories, filtered_camps):
+    print '==============================================================================================='
+    print
+    print 'SORT: Sorted list of camps by specified categories'
+    print
+    camp_dict = {}
+    for camp in filtered_camps:
+        camp_dict[camp] = bootcamps[camp]
+    for cat in categories:
+        cat_dict = {}
+        for camp in camp_dict:
+            try:
+                cat_dict[camp] = camp_dict[camp][cat]
+            except (KeyError, TypeError):
+                continue
+        dict_print(cat_dict, cat)
+        print
+
+    return
 
 def return_closest(query, search_set, threshold):
     closest = (None, 0.0)
@@ -162,24 +260,28 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
     print
     return
 
-#=========================================================================================================#
-#============================================IN PROGRESS ABOVE============================================#
-#=========================================================================================================#
 
+#============================================================================================
+#*****======================================MAIN========================================*****
+#============================================================================================
 
-#=========================================================================
-#*****============================MAIN===============================*****
-#=========================================================================
-
-#CHECK FOR 'OR' FLAG AND 'SUMMARY' FLAG
+#COMMAND LINE OPTION PROCESSING
 or_flag = False
 summary_flag = False
 list_flag = False
+sort_flag = False
+custom_file = False
 
 for arg in range(len(sys.argv)):
     if sys.argv[arg] == '--or':
         or_flag = True
         sys.argv.remove('--or')
+        break
+
+for arg in range(len(sys.argv)):
+    if sys.argv[arg] == '--list':
+        list_flag = True
+        sys.argv.remove('--list')
         break
 
 for arg in range(len(sys.argv)):
@@ -189,9 +291,23 @@ for arg in range(len(sys.argv)):
         break
 
 for arg in range(len(sys.argv)):
-    if sys.argv[arg] == '--list':
-        list_flag = True
-        sys.argv.remove('--list')
+    if sys.argv[arg] == '--sort':
+        sort_flag = True
+        sys.argv.remove('--sort')
+        break
+
+for arg in range(len(sys.argv)):
+    if sys.argv[arg] == '--file':
+        custom_file = True
+        sys.argv.remove('--file')
+        datafile = sys.argv[1]
+        sys.argv.remove(sys.argv[1])
+        if len(datafile) < 12:
+            datafile = date_to_file(datafile)
+        if os.path.isfile(datafile) == False:
+            print 'Could not find the specified file, switching to default data file.'
+            print
+            datafile = 'current_data/output.json'
         break
 
 #OPEN SEARCH TERM FILE FROM CURRENT DATA AND LOAD CSV DATA INTO SEARCH LIST
@@ -219,8 +335,8 @@ key_list = [x for x in key_list if x != -1]
 #print
 #print key_list
 #print
-
-datafile = 'current_data/output.json'
+if custom_file == False:
+    datafile = 'current_data/output.json'
 
 #SORT SEARCH TERMS INTO KEY DICT. IF ONLY ONE TRACKING GROUP AND 'OR' IS ON, USE THAT TRACKING GROUP JSON
 tracking_list = []
@@ -275,8 +391,12 @@ for camp in bootcamps:
     #*********************FILTERS********************
 
     if len(key_dict['Tracking Group']) > 0:
-        if all(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
-            continue
+        if or_flag == True:
+            if any(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
+                continue
+        else:
+            if all(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
+                continue
 
     #THIS IS WHERE THE 'AND/OR' METHOD CLEARLY NEEDS TO CHANGE, LOCATION ALSO NEEDS TO BE AND/OR (adjusting any/all),
     #SO THERE NEEDS TO BE EITHER A DIFFERENT FLAG SYSTEM OR ANOTHER WAY TO INDICATE WHETHER A FILTER SHOULD BE AND/OR
@@ -348,47 +468,17 @@ if list_flag == True:
     print
 
 if summary_flag == True:
-    print '==============================================================================================='
-    print
-    print 'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(filtered_camps)) + ')'
-    print
     try:
-        for cat in categories:
-            temp_dict = {}
-            for camp in filtered_camps:
-                camp = bootcamps[camp]
-                try:
-                    if type(camp[cat]) == list:
-                        for item in camp[cat]:
-                            if item in temp_dict:
-                                temp_dict[item] += 1
-                            else:
-                                temp_dict[item] = 1
-                    #NEED TO USE BINS HERE, MIGHT BE WORTH FIGURING OUT LATER
-                    elif type(camp[cat]) == int:
-                        if camp[cat] in temp_dict:
-                            temp_dict[camp[cat]] += 1
-                        else:
-                            temp_dict[camp[cat]] = 1
-                    elif 'Yes' in camp[cat]:
-                        if 'Yes' in temp_dict:
-                            temp_dict['Yes'] += 1
-                        else:
-                            temp_dict['Yes'] = 1
-                    elif 'No' or 'None' in camp[cat]:
-                        if 'No' in temp_dict:
-                            temp_dict['No'] += 1
-                        else:
-                            temp_dict['No'] = 1
-                    else:
-                        pass
-                except (KeyError, TypeError):
-                    pass
-            dict_print(temp_dict, cat)
-    except TypeError:
+        summary_print(bootcamps, categories, filtered_camps)
+    except (TypeError, NameError):
         pass
-
     print
+
+if sort_flag == True:
+    try:
+        sort_print(bootcamps, categories, filtered_camps)
+    except(TypeError, NameError):
+        pass
 
 if len(warning_list) > 0:
     print "****************************************************"
