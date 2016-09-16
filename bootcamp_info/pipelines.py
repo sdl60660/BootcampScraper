@@ -229,7 +229,7 @@ class TrackingGroupTags(object):
             pass
 
         return item
-                   
+
 
 class EmptyChecker(object):
     
