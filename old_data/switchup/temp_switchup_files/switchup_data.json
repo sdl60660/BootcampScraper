@@ -1575,7 +1575,7 @@
         "num_alumni": 1000, 
         "num_locations": 2, 
         "scholarships": "Enter Code: \"switchup\"...", 
-        "su_num_reviews": 73, 
+        "su_num_reviews": 75, 
         "su_rating": 4.8, 
         "su_technologies": [
             "Git", 
@@ -5433,7 +5433,9 @@
         "top_source": [
             "SwitchUp"
         ], 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
         "website": "http://craftsmanshipacademy.com/"
     }, 
     "Cribb": {
@@ -6374,7 +6376,9 @@
         "top_source": [
             "SwitchUp"
         ], 
-        "tracking_groups": [], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
         "website": "https://devmounta.in/?utm_source=switchup&utm_medium=display&utm_campaign=Switchup"
     }, 
     "Dev/Iowa Bootcamp": {
@@ -7238,7 +7242,7 @@
     "Digital Professional Institute": {
         "average_salary": "N/A", 
         "class_ratio": null, 
-        "cost_estimate": null, 
+        "cost_estimate": "$$$", 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
@@ -16992,6 +16996,9 @@
         "su_num_reviews": 16, 
         "su_rating": 5.0, 
         "su_technologies": [
+            "iOS", 
+            "Mobile", 
+            "Swift", 
             "AngularJS", 
             "CSS", 
             "Express.js", 
@@ -16999,13 +17006,13 @@
             "JavaScript", 
             "jQuery", 
             "MongoDB", 
-            "Node.js", 
-            "iOS", 
-            "Mobile", 
-            "Swift"
+            "Node.js"
         ], 
         "subjects": "JavaScript, Angular, Node.js,  iOS, HTML, CC, jQuery, MongoDB, Express, SQL, ", 
         "technologies": [
+            "iOS", 
+            "Mobile", 
+            "Swift", 
             "AngularJS", 
             "CSS", 
             "Express.js", 
@@ -17013,10 +17020,7 @@
             "JavaScript", 
             "jQuery", 
             "MongoDB", 
-            "Node.js", 
-            "iOS", 
-            "Mobile", 
-            "Swift"
+            "Node.js"
         ], 
         "top_source": [
             "SwitchUp"
@@ -17926,7 +17930,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-15 12:33:40", 
+        "Date/Time": "2016-09-15 15:51:34", 
         "Days Out": 3, 
         "Detroit": [
             "Intensive Android Bootcamp", 

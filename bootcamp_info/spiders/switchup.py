@@ -70,12 +70,22 @@ class SwitchupSpider(scrapy.Spider):
         website_buffer = str(Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr/td/a[@class="website-link"]/@onclick').extract()) #DONE
         item['website'] = website_buffer[16:((website_buffer.find('); trackO') - 1))] #DONE
 
-        scholarships = Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr/td/p/text()').extract()
-        if len(scholarships) == 1:
-            item['scholarships'] = scholarships
-        #for x in item['scholarships']:
-        #    if x[0:2] == '\n':
-        #        item['scholarships'].remove(x)
+        table_headers = Selector(response).xpath('//*[@id="bootcamp-summary"]/table/tbody/tr/th/text()').extract()
+        
+        scholarships_present = False
+        for x, header in enumerate(table_headers):
+            if header == 'Scholarships':
+                scholarships_present = True
+                table_index = (x+1)
+
+        if scholarships_present == True:
+            schol_xpath = '//*[@id="bootcamp-summary"]/table/tbody/tr[' + str(table_index) + ']/td/a/@onclick'
+            try:
+                scholarships = Selector(response).xpath(schol_xpath).extract()[0]
+                scholarships = scholarships[(scholarships.find('">') + 2):scholarships.find('<\/p>')].replace("\\", "")
+                item['scholarships'] = scholarships
+            except IndexError:
+                pass
         item['subjects'] = Selector(response).xpath(self.find_table_key('Subject', item_index)).extract()
         item['hiring_rate'] = Selector(response).xpath(self.find_table_key('Hiring %', item_index)).extract()
         item['average_salary'] = self.type_converter((Selector(response).xpath(self.find_table_key('Avg Salary', item_index)).extract()), int)
