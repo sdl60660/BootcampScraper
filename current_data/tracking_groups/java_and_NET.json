@@ -10,7 +10,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "St. Louis"
         ], 
@@ -27,7 +27,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 3144, 
+            "followers": 3127, 
             "handle": "@ClaimAcademySTL", 
             "tweets": 529
         }, 
@@ -39,10 +39,10 @@
         "courses": {
             "Full Immersion": {
                 "Cost": 15500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Branson"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -82,10 +82,10 @@
             }, 
             "Ramp (Part-Time)": {
                 "Cost": 999, 
-                "Hours/Week": 15, 
-                "Location": [
+                "Course Location": [
                     "Panama City"
                 ], 
+                "Hours/Week": 15, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -153,7 +153,7 @@
         "housing": "Yes", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Seattle", 
             "Portland", 
@@ -218,7 +218,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 166, 
+            "followers": 164, 
             "handle": "@codeninjaUS", 
             "tweets": 213
         }, 
@@ -234,6 +234,9 @@
             "Coding From Scratch": {
                 "Class Size": 10, 
                 "Cost": 3000, 
+                "Course Location": [
+                    "Online"
+                ], 
                 "Hours/Week": 50, 
                 "Length": 3, 
                 "Location": [
@@ -251,6 +254,13 @@
             "Full Stack .Net": {
                 "Class Size": 10, 
                 "Cost": 14220, 
+                "Course Location": [
+                    "Chicago", 
+                    "Houston", 
+                    "Online", 
+                    "San Francisco", 
+                    "Seattle"
+                ], 
                 "Hours/Week": 80, 
                 "Length": 9, 
                 "Location": [
@@ -271,10 +281,10 @@
             }, 
             "Full Stack .Net + Javascript": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -292,6 +302,9 @@
             "Full Stack Java": {
                 "Class Size": 10, 
                 "Cost": 14220, 
+                "Course Location": [
+                    "Dallas"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 12, 
                 "Location": [
@@ -306,6 +319,12 @@
             "Full Stack Javascript": {
                 "Class Size": 10, 
                 "Cost": 14220, 
+                "Course Location": [
+                    "Houston", 
+                    "Online", 
+                    "San Francisco", 
+                    "Seattle"
+                ], 
                 "Hours/Week": 80, 
                 "Length": 9, 
                 "Location": [
@@ -328,10 +347,10 @@
             }, 
             "Ios Mobile Development Immersive": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "San Francisco"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -368,7 +387,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Houston", 
             "San Francisco", 
@@ -380,9 +399,9 @@
         "num_alumni": 450, 
         "num_courses": 2, 
         "num_locations": 5, 
-        "scholarships": "$2,500 Inquisitive Min...", 
-        "su_num_reviews": 30, 
-        "su_rating": 4.0, 
+        "scholarships": "$2,500 Inquisitive Minds Scholarship; 100% Heroes Scholarship", 
+        "su_num_reviews": 31, 
+        "su_rating": 3.9, 
         "su_technologies": [
             "Java", 
             "AngularJS", 
@@ -431,7 +450,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 987, 
+            "followers": 994, 
             "handle": "@CoderCamps", 
             "tweets": 786
         }, 
@@ -446,10 +465,10 @@
         "courses": {
             "Full Stack Accelerated": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Charlotte"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -469,10 +488,10 @@
             }, 
             "Full Stack Immersive": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Greensboro"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -492,6 +511,9 @@
             "Full-Stack Immersive Course ": {
                 "Class Size": 15, 
                 "Cost": 13900, 
+                "Course Location": [
+                    "Greensboro"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 18, 
                 "Location": [
@@ -514,6 +536,10 @@
             "Full-Stack Immersive Course (Accelerated)": {
                 "Class Size": 15, 
                 "Cost": 9900, 
+                "Course Location": [
+                    "Charlotte", 
+                    "Greensboro"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
@@ -554,7 +580,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Greensboro", 
             "Charlotte"
@@ -599,9 +625,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 860, 
+            "followers": 862, 
             "handle": "@CoderFoundry", 
-            "tweets": 431
+            "tweets": 432
         }, 
         "visas": "No", 
         "website": "http://www.coderfoundry.com/"
@@ -614,10 +640,10 @@
         "courses": {
             "Asp.Net Mvc Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Chicago"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -655,10 +681,10 @@
             }, 
             "Part-Time Mean.Js - Full-Stack Javascript": {
                 "Cost": 10000, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Chicago"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -707,7 +733,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Chicago"
         ], 
@@ -755,7 +781,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 188, 
+            "followers": 184, 
             "handle": "@coding_temple", 
             "tweets": 50
         }, 
@@ -770,10 +796,10 @@
         "courses": {
             "Full Time Software Development": {
                 "Cost": 14987, 
-                "Hours/Week": 50, 
-                "Location": [
+                "Course Location": [
                     "Milwaukee"
                 ], 
+                "Hours/Week": 50, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -791,10 +817,10 @@
             }, 
             "Full Time Web Development": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Milwaukee"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -813,6 +839,9 @@
             }, 
             "Software Development": {
                 "Cost": 14987, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
                 "Hours/Week": 50, 
                 "Length": 12, 
                 "Location": [
@@ -835,6 +864,9 @@
             }, 
             "Web Development": {
                 "Cost": 9987, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
                 "Hours/Week": 13, 
                 "Location": [
                     "Milwaukee"
@@ -878,7 +910,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Milwaukee"
         ], 
@@ -936,9 +968,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1089, 
+            "followers": 1094, 
             "handle": "@devcodecamp", 
-            "tweets": 795
+            "tweets": 808
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -952,9 +984,13 @@
             ".Net": {
                 "Class Size": 30, 
                 "Cost": 975, 
+                "Course Location": [
+                    "Seattle"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 5, 
                 "Location": [
+                    "Portland", 
                     "Seattle"
                 ], 
                 "Minimum Skill": null, 
@@ -969,6 +1005,9 @@
             "Android": {
                 "Class Size": 30, 
                 "Cost": null, 
+                "Course Location": [
+                    "Portland"
+                ], 
                 "Hours/Week": null, 
                 "Length": 5, 
                 "Location": [
@@ -988,9 +1027,13 @@
             "C#": {
                 "Class Size": 30, 
                 "Cost": 975, 
+                "Course Location": [
+                    "Seattle"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 5, 
                 "Location": [
+                    "Portland", 
                     "Seattle"
                 ], 
                 "Minimum Skill": null, 
@@ -1006,6 +1049,9 @@
             "Css": {
                 "Class Size": 30, 
                 "Cost": 975, 
+                "Course Location": [
+                    "Portland"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 5, 
                 "Location": [
@@ -1023,6 +1069,9 @@
             "Design": {
                 "Class Size": 30, 
                 "Cost": null, 
+                "Course Location": [
+                    "Portland"
+                ], 
                 "Hours/Week": null, 
                 "Length": 5, 
                 "Location": [
@@ -1041,10 +1090,14 @@
             "Drupal": {
                 "Class Size": 30, 
                 "Cost": null, 
+                "Course Location": [
+                    "Philadelphia"
+                ], 
                 "Hours/Week": null, 
                 "Length": 5, 
                 "Location": [
-                    "Philadelphia"
+                    "Philadelphia", 
+                    "Portland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
@@ -1056,10 +1109,15 @@
             "Intro To Programming": {
                 "Class Size": 30, 
                 "Cost": 975, 
+                "Course Location": [
+                    "Philadelphia"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 5, 
                 "Location": [
-                    "Philadelphia"
+                    "Philadelphia", 
+                    "Portland", 
+                    "Seattle"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -1076,10 +1134,10 @@
             }, 
             "Intro To Programming (Evening)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Portland"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1094,10 +1152,10 @@
             }, 
             "Intro To Programming (Full-Time)": {
                 "Cost": 975, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Portland"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1114,6 +1172,9 @@
             "Java": {
                 "Class Size": 30, 
                 "Cost": 975, 
+                "Course Location": [
+                    "Portland"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 5, 
                 "Location": [
@@ -1132,10 +1193,15 @@
             "Javascript": {
                 "Class Size": 30, 
                 "Cost": null, 
+                "Course Location": [
+                    "Philadelphia"
+                ], 
                 "Hours/Week": null, 
                 "Length": 5, 
                 "Location": [
-                    "Philadelphia"
+                    "Philadelphia", 
+                    "Portland", 
+                    "Seattle"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
@@ -1151,10 +1217,14 @@
             "Php": {
                 "Class Size": 30, 
                 "Cost": 975, 
+                "Course Location": [
+                    "Philadelphia"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 5, 
                 "Location": [
-                    "Philadelphia"
+                    "Philadelphia", 
+                    "Portland"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -1169,6 +1239,9 @@
             "Rails": {
                 "Class Size": 30, 
                 "Cost": null, 
+                "Course Location": [
+                    "Portland"
+                ], 
                 "Hours/Week": null, 
                 "Length": 5, 
                 "Location": [
@@ -1186,6 +1259,9 @@
             "Ruby": {
                 "Class Size": 30, 
                 "Cost": null, 
+                "Course Location": [
+                    "Portland"
+                ], 
                 "Hours/Week": null, 
                 "Length": 5, 
                 "Location": [
@@ -1232,7 +1308,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Portland", 
             "Seattle", 
@@ -1298,9 +1374,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1081, 
+            "followers": 1084, 
             "handle": "@epicodus", 
-            "tweets": 953
+            "tweets": 955
         }, 
         "visas": "No", 
         "website": "http://www.epicodus.com/"
@@ -1312,14 +1388,14 @@
         "cost_estimate": "$$", 
         "courses": {
             "Asp .Net Bootcamp": {
-                "Cost": 12000, 
-                "Hours/Week": null, 
-                "Location": [
+                "Cost": null, 
+                "Course Location": [
                     "San Francisco"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     ".NET", 
@@ -1367,10 +1443,10 @@
             }, 
             "Firebootcamp Ultra": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Sydney"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1416,7 +1492,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Sydney", 
             "Brisbane", 
@@ -1463,10 +1539,10 @@
         "courses": {
             ".Net (C#) Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Detroit"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1484,6 +1560,9 @@
             }, 
             "Front-End Bootcamp": {
                 "Cost": 7500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 10, 
                 "Location": [
@@ -1505,6 +1584,9 @@
             }, 
             "Front-End Bootcamp (Javascript)": {
                 "Cost": 7500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
                 "Hours/Week": 50, 
                 "Length": 10, 
                 "Location": [
@@ -1522,6 +1604,9 @@
             }, 
             "Front-End Bootcamp (Part-Time)": {
                 "Cost": 7500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
                 "Hours/Week": 20, 
                 "Length": 14, 
                 "Location": [
@@ -1539,10 +1624,10 @@
             }, 
             "Front-End Part-Time Bootcamp": {
                 "Cost": 6000, 
-                "Hours/Week": 17, 
-                "Location": [
+                "Course Location": [
                     "Detroit"
                 ], 
+                "Hours/Week": 17, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1558,6 +1643,9 @@
             }, 
             "Intro To Web Development Part 1: Html + Css": {
                 "Cost": 495, 
+                "Course Location": [
+                    "Detroit"
+                ], 
                 "Hours/Week": 4, 
                 "Length": 3, 
                 "Location": [
@@ -1572,6 +1660,9 @@
             }, 
             "Intro To Web Development Part 2: Javascript + Jquery": {
                 "Cost": 1495, 
+                "Course Location": [
+                    "Detroit"
+                ], 
                 "Hours/Week": 4, 
                 "Length": 6, 
                 "Location": [
@@ -1586,10 +1677,10 @@
             }, 
             "Intro To Web Development: Html + Css": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Detroit"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1601,10 +1692,10 @@
             }, 
             "Intro To Web Development: Javascript + Jquery": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Detroit"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1618,6 +1709,9 @@
             }, 
             "Java Bootcamp": {
                 "Cost": 7500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 10, 
                 "Location": [
@@ -1636,8 +1730,8 @@
                 "Title": "Java Bootcamp"
             }
         }, 
-        "cr_num_reviews": 7, 
-        "cr_rating": 4.86, 
+        "cr_num_reviews": 8, 
+        "cr_rating": 4.63, 
         "cr_technologies": [
             "AngularJS", 
             "JavaScript", 
@@ -1659,7 +1753,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Detroit"
         ], 
@@ -1667,7 +1761,7 @@
         "num_alumni": "N/A", 
         "num_courses": 6, 
         "num_locations": 1, 
-        "scholarships": "$1,000 Automatic Schol...", 
+        "scholarships": "$1,000 Automatic Scholarship for women, veterans, and underrepresented minorities in tech.", 
         "su_num_reviews": 12, 
         "su_rating": 5.0, 
         "su_technologies": [
@@ -1713,9 +1807,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5142, 
+            "followers": 5149, 
             "handle": "@GrandCircusCo", 
-            "tweets": 5981
+            "tweets": 6029
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -1727,10 +1821,10 @@
         "courses": {
             " Intro To Web Development At Antioch University": {
                 "Cost": 14450, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Los Angeles"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1751,10 +1845,10 @@
             }, 
             "Full Stack Web Development At Antioch University": {
                 "Cost": 14500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Los Angeles"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1781,10 +1875,10 @@
             }, 
             "Full Stack Weekday Training (12 Weeks)": {
                 "Cost": 14500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Orange County"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1811,10 +1905,10 @@
             }, 
             "Mean Stack": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Los Angeles"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1881,7 +1975,7 @@
         "housing": "None", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Los Angeles", 
             "Orange County", 
@@ -1935,17 +2029,17 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Other", 
             "Product Management", 
-            "UX Design"
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2242, 
+            "followers": 2244, 
             "handle": "@WeSabio", 
-            "tweets": 9533
+            "tweets": 9547
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -1958,10 +2052,10 @@
         "courses": {
             "Java Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1975,6 +2069,9 @@
             "Skill Distillery Web Developer With Java / Spring Bootcamp": {
                 "Class Size": 20, 
                 "Cost": 16000, 
+                "Course Location": [
+                    "Denver"
+                ], 
                 "Hours/Week": 45, 
                 "Length": 19, 
                 "Location": [
@@ -2007,7 +2104,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Denver"
         ], 
@@ -2015,7 +2112,7 @@
         "num_alumni": 40000, 
         "num_courses": 1, 
         "num_locations": 1, 
-        "scholarships": "Scholarships are avail...", 
+        "scholarships": "Scholarships are available", 
         "su_num_reviews": 5, 
         "su_rating": 4.0, 
         "su_technologies": [
@@ -2047,7 +2144,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 460, 
+            "followers": 461, 
             "handle": "@SkillDistillery", 
             "tweets": 373
         }, 
@@ -2063,6 +2160,9 @@
             ".Net Web Developer Bootcamp": {
                 "Class Size": 16, 
                 "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 12, 
                 "Location": [
@@ -2082,10 +2182,10 @@
             }, 
             ".Net/C#": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2106,10 +2206,10 @@
             }, 
             "Java": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2166,7 +2266,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -2220,9 +2320,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 634, 
+            "followers": 636, 
             "handle": "@softwareguild", 
-            "tweets": 753
+            "tweets": 758
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -2235,10 +2335,13 @@
         "courses": {
             "Back End Engineering": {
                 "Cost": 13900, 
+                "Course Location": [
+                    "San Antonio"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "San Antonio"
+                    "Greenville"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -2258,10 +2361,10 @@
             }, 
             "Back-End Engineering": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Greenville"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -2275,10 +2378,17 @@
             }, 
             "Front End Engineering": {
                 "Cost": 13900, 
+                "Course Location": [
+                    "San Antonio"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "San Antonio"
+                    "Charleston", 
+                    "Cincinnati", 
+                    "Greenville", 
+                    "Raleigh-Durham", 
+                    "Salt Lake City"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -2293,10 +2403,13 @@
             }, 
             "Mobile Engineering": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Orlando"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "Orlando"
+                    "Houston"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -2314,10 +2427,13 @@
             }, 
             "Ui Design": {
                 "Cost": 13900, 
+                "Course Location": [
+                    "Austin"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "Austin"
+                    "Raleigh"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -2332,8 +2448,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 49, 
-        "cr_rating": 3.55, 
+        "cr_num_reviews": 50, 
+        "cr_rating": 3.58, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -2360,7 +2476,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2388,7 +2504,7 @@
         "num_alumni": 900, 
         "num_courses": 5, 
         "num_locations": 21, 
-        "scholarships": "$1000 Diversity Schola...", 
+        "scholarships": "$1000 Diversity Scholarship available", 
         "su_num_reviews": 24, 
         "su_rating": 3.7, 
         "su_technologies": [
@@ -2447,7 +2563,7 @@
         "twitter": {
             "followers": 15200, 
             "handle": "@TheIronYard", 
-            "tweets": 7607
+            "tweets": 7625
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2461,6 +2577,10 @@
             "Software Developer Boot Camp": {
                 "Class Size": 150, 
                 "Cost": 6980, 
+                "Course Location": [
+                    "Online", 
+                    "Portland"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 15, 
                 "Location": [
@@ -2491,10 +2611,10 @@
             }, 
             "Software Developer Bootcamp": {
                 "Cost": 6980, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Portland"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -2539,7 +2659,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Portland", 
             "Online"
@@ -2548,7 +2668,7 @@
         "num_alumni": 120, 
         "num_courses": 1, 
         "num_locations": 2, 
-        "scholarships": "Scholarship offered to...", 
+        "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
         "su_num_reviews": 66, 
         "su_rating": 4.9, 
         "su_technologies": [
@@ -2605,9 +2725,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1715, 
+            "followers": 1716, 
             "handle": "@TheTechAcad", 
-            "tweets": 311
+            "tweets": 321
         }, 
         "visas": "No", 
         "website": "http://learncodinganywhere.com/"
@@ -2625,8 +2745,8 @@
         "Current Market": [
             "Software Guild"
         ], 
-        "Date/Time": "2016-09-16 12:13:43", 
-        "Days Out": 4, 
+        "Date/Time": "2016-09-20 12:20:00", 
+        "Days Out": 8, 
         "Detroit": [
             "The Iron Yard", 
             "Grand Circus"

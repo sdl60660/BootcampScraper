@@ -29,13 +29,13 @@ job_guarantee,Category
 num_courses,Category
 courses,Category
 Onsite,Course Attribute
-Title,Course Attribute
+Course Location,Course Attribute
 Subjects,Course Attribute
+Title,Course Attribute
 Cost,Course Attribute
-Location,Course Attribute
+Part Or Full,Course Attribute
 Hours/Week,Course Attribute
 Minimum Skill,Course Attribute
-Part Or Full,Course Attribute
 cr_num_reviews,Category
 Los Angeles,Location
 Sales,Technology
@@ -52,6 +52,7 @@ su_rating,Category
 cost_estimate,Category
 Class Size,Course Attribute
 Length,Course Attribute
+Location,Course Attribute
 Start Date,Course Attribute
 su_num_reviews,Category
 Chicago,Location
@@ -65,19 +66,8 @@ JavaScript,Technology
 Ruby on Rails,Technology
 SQL,Technology
 Ruby,Technology
-Galvanize,Bootcamp
-Boulder,Location
-Denver,Location
-Seattle,Location
-Fort Collins,Location
-London,Location
-Austin,Location
-Data Science,Technology
-Express.js,Technology
-Node.js,Technology
-Python,Technology
-Hadoop,Technology
-Sinatra,Technology
+Pen And Paper Coding,Bootcamp
+NoLang,Technology
 Coder Manual,Bootcamp
 Smart Factory,Bootcamp
 Minneapolis,Location
@@ -97,18 +87,23 @@ Madison,Location
 Algorithms,Technology
 jQuery,Technology
 .NET,Technology
+Python,Technology
+Data Science,Technology
 Manifest Agility Boot Camp,Bootcamp
 Learntech Labs,Bootcamp
 MongoDB,Technology
+Node.js,Technology
 Growth Hacking,Technology
 Tealeaf,Bootcamp
 HackSchool,Bootcamp
 Monterrey,Location
 Lumenbrite,Bootcamp
+Austin,Location
 Orange County Code School,Bootcamp
 Irvine,Location
 Orange County,Location
 Data Structures,Technology
+Express.js,Technology
 Simplon,Bootcamp
 Cluj,Location
 Paris,Location
@@ -116,6 +111,7 @@ User Experience Design,Technology
 Omaha Code School,Bootcamp
 Omaha,Location
 CoffeeScript,Technology
+Sinatra,Technology
 Sharptop Co.,Bootcamp
 Lynchburg,Location
 Front End,Technology
@@ -162,11 +158,16 @@ Helio Training Bootcamp,Bootcamp
 Salt Lake City,Location
 React.js,Technology
 Skill Distillery,Bootcamp
+Denver,Location
 Claim Academy,Bootcamp
 St. Louis,Location
 Recurse Center,Bootcamp
-Pen And Paper Coding,Bootcamp
-NoLang,Technology
+Galvanize,Bootcamp
+Boulder,Location
+Seattle,Location
+Fort Collins,Location
+London,Location
+Hadoop,Technology
 Codecamp Charleston,Bootcamp
 Charleston,Location
 C++,Technology
@@ -291,13 +292,9 @@ Grand Circus,Bootcamp
 Detroit,Location
 Eleven Fifty Academy,Bootcamp
 Indianapolis,Location
-Tech Talent South,Bootcamp
-Asheville,Location
-Raleigh,Location
-New Orleans,Location
-Jacksonville,Location
-Phoenix,Location
+Florida Vocational Institute,Bootcamp
 Craftsmanship Academy,Bootcamp
+Raleigh,Location
 Sabio La,Bootcamp
 Academy Pittsburgh,Bootcamp
 Pittsburgh,Location
@@ -357,12 +354,17 @@ Depot/U,Bootcamp
 Birmingham,Location
 Mobile,Location
 Ubiqum Code Academy,Bootcamp
+Web Services,Technology
 Coder Cadre,Bootcamp
 Base10 Academy,Bootcamp
 The Coding Bootcamp At Ut Austin,Bootcamp
 Gainesville Dev Academy,Bootcamp
 Careerfoundry,Bootcamp
-Florida Vocational Institute,Bootcamp
+Tech Talent South,Bootcamp
+Asheville,Location
+New Orleans,Location
+Jacksonville,Location
+Phoenix,Location
 Think Academy,Bootcamp
 Coder Camps,Bootcamp
 Scottsdale,Location
@@ -498,7 +500,6 @@ SQL Server Administration,Technology
 SQL Business Intelligence,Technology
 UNIX,Technology
 Windows Server,Technology
-Web Services,Technology
 Perl,Technology
 Spring MVC,Technology
 VB.NET,Technology
@@ -577,6 +578,7 @@ Xtol.Careers,Bootcamp
 42,Bootcamp
 Girls Who Code,Bootcamp
 Invasivecode,Bootcamp
+Code Astra,Bootcamp
 Thinkful,Bootcamp
 Brainstation,Bootcamp
 Ottawa,Location

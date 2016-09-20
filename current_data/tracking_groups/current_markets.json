@@ -7,10 +7,10 @@
         "courses": {
             "Advance J2Ee": {
                 "Cost": 600, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -21,10 +21,10 @@
             }, 
             "Android Development": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -36,10 +36,10 @@
             }, 
             "Android Programming For Children": {
                 "Cost": 499, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -51,10 +51,10 @@
             }, 
             "Apache Spark": {
                 "Cost": 600, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -65,10 +65,10 @@
             }, 
             "Arduino For Children": {
                 "Cost": 499, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -77,10 +77,10 @@
             }, 
             "Big Data And Hadoop Administration": {
                 "Cost": 600, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -92,10 +92,10 @@
             }, 
             "Big Data And Hadoop Development": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -107,10 +107,10 @@
             }, 
             "Business Analytics With R": {
                 "Cost": 600, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -121,10 +121,10 @@
             }, 
             "Cloud Bundle": {
                 "Cost": 1199, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -135,10 +135,10 @@
             }, 
             "Cloud Computing ": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -147,10 +147,10 @@
             }, 
             "Core Java": {
                 "Cost": 600, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -161,10 +161,10 @@
             }, 
             "Data Science Bundle": {
                 "Cost": 1199, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -177,10 +177,10 @@
             }, 
             "Digital Marketing": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -191,10 +191,10 @@
             }, 
             "Front End Web Development": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -207,10 +207,10 @@
             }, 
             "Frontend Bundle": {
                 "Cost": 1199, 
-                "Hours/Week": 4, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 4, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -224,10 +224,10 @@
             }, 
             "Frontend Web Development Fundamentals ": {
                 "Cost": 600, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -240,10 +240,10 @@
             }, 
             "Full Stack Web Development": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -259,10 +259,10 @@
             }, 
             "Machine Learning With R": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -273,10 +273,10 @@
             }, 
             "Mobile Bundle": {
                 "Cost": 1199, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -289,10 +289,10 @@
             }, 
             "Mongodb": {
                 "Cost": 600, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Full Time", 
@@ -303,10 +303,10 @@
             }, 
             "Node.Js": {
                 "Cost": 600, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -317,10 +317,10 @@
             }, 
             "Python Programming For Children": {
                 "Cost": 499, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -331,10 +331,10 @@
             }, 
             "Raspberry Pi For Childern": {
                 "Cost": 499, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -345,10 +345,10 @@
             }, 
             "Robotics For Children": {
                 "Cost": 499, 
-                "Hours/Week": 3, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": 3, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -357,10 +357,10 @@
             }, 
             "Unity 2D For Children": {
                 "Cost": 499, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
@@ -370,8 +370,8 @@
                 "Title": "Unity 2D for Children"
             }
         }, 
-        "cr_num_reviews": 32, 
-        "cr_rating": 3.83, 
+        "cr_num_reviews": 33, 
+        "cr_rating": 3.87, 
         "cr_technologies": [
             "Git", 
             "Android", 
@@ -399,7 +399,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Online", 
             "Bangalore"
@@ -440,17 +440,17 @@
             "Cleveland"
         ], 
         "tracks": [
-            "Other", 
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Data Science", 
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "Digital Marketing", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
-            "followers": 853, 
+            "followers": 851, 
             "handle": "@acadgild", 
-            "tweets": 2278
+            "tweets": 2281
         }, 
         "visas": "No", 
         "website": "http://acadgild.com/"
@@ -460,10 +460,10 @@
         "courses": {
             "Full Stack Web Development": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Cleveland"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -497,7 +497,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Cleveland"
         ], 
@@ -533,7 +533,7 @@
         "courses": {}, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Boston", 
             "Los Angeles", 
@@ -618,6 +618,9 @@
             ".Net Web Developer Bootcamp": {
                 "Class Size": 16, 
                 "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 12, 
                 "Location": [
@@ -637,10 +640,10 @@
             }, 
             ".Net/C#": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -661,10 +664,10 @@
             }, 
             "Java": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -721,7 +724,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -775,21 +778,24 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 634, 
+            "followers": 636, 
             "handle": "@softwareguild", 
-            "tweets": 753
+            "tweets": 758
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
     }, 
     "Tech Elevator": {
         "accreditation": "Tech Elevator is licensed under the Ohio State Board of Career Colleges and Schools. ", 
-        "average_salary": "N/A", 
+        "average_salary": 60, 
         "class_ratio": "1:12 - 1:15 with dedicated teaching assistants ", 
         "cost_estimate": "$$$", 
         "courses": {
             ".Net Bootcamp - Fall '16 Cleveland": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 14, 
                 "Location": [
@@ -808,6 +814,10 @@
             }, 
             ".Net Bootcamp - Spring '17 Cleveland": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Akron", 
+                    "Cleveland"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 14, 
                 "Location": [
@@ -827,10 +837,10 @@
             }, 
             ".Net Coding Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Columbus"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -847,6 +857,9 @@
             }, 
             "Java Bootcamp - Fall '16 Cleveland": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 14, 
                 "Location": [
@@ -864,6 +877,9 @@
             }, 
             "Java Bootcamp - Spring '17 Cleveland": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 14, 
                 "Location": [
@@ -881,10 +897,10 @@
             }, 
             "Java Coding Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Columbus"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -901,6 +917,10 @@
             }, 
             "Java/.Net Bootcamp - Fall '16 Columbus": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Akron", 
+                    "Columbus"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 14, 
                 "Location": [
@@ -920,6 +940,10 @@
             }, 
             "Java/.Net Bootcamp - Spring '17 Columbus": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland", 
+                    "Columbus"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 14, 
                 "Location": [
@@ -939,7 +963,7 @@
                 "Title": "Java/.NET Bootcamp - Spring '17 Columbus"
             }
         }, 
-        "cr_num_reviews": 16, 
+        "cr_num_reviews": 19, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "JavaScript", 
@@ -955,11 +979,11 @@
         "email": "hello@techelevator.com", 
         "facebook": "https://www.facebook.com/techelevator/", 
         "general_cost": "$$$", 
-        "hiring_rate": "No data", 
+        "hiring_rate": 98.0, 
         "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -968,7 +992,7 @@
         "num_alumni": "N/A", 
         "num_courses": 2, 
         "num_locations": 2, 
-        "su_num_reviews": 14, 
+        "su_num_reviews": 16, 
         "su_rating": 5.0, 
         "su_technologies": [
             "C#", 
@@ -1002,9 +1026,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 472, 
+            "followers": 475, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1223
+            "tweets": 1243
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -1017,6 +1041,9 @@
         "courses": {
             "Coding Bootcamp": {
                 "Cost": 10000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
@@ -1034,10 +1061,10 @@
             }, 
             "Full-Time Coding Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Cleveland"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1054,10 +1081,10 @@
             }, 
             "Part-Time Coding Bootcamp": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Cleveland"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1077,6 +1104,9 @@
             }, 
             "Women-Only Coding Bootcamp": {
                 "Cost": 9000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
@@ -1094,7 +1124,7 @@
                 "Title": "Women-Only Coding Bootcamp"
             }
         }, 
-        "cr_num_reviews": 21, 
+        "cr_num_reviews": 23, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "AngularJS", 
@@ -1112,18 +1142,19 @@
         "facebook": "https://www.facebook.com/wecancodeit", 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "housing": null, 
+        "housing": "\n", 
         "job_assistance": "Yes", 
-        "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2016-09-20", 
         "locations": [
-            "Cleveland"
+            "Cleveland", 
+            "Columbus"
         ], 
         "name": "We Can Code It", 
         "num_alumni": "N/A", 
         "num_courses": 2, 
-        "num_locations": 1, 
-        "scholarships": "You will automatically...", 
+        "num_locations": 2, 
+        "scholarships": "You will automatically receive a diversity focus award in the amount of $1,000 towards a bootcamp session if you meet any of the following conditions:1) You are a woman2) You are African American3) You are Hispanic4) You are Native American5) You earn less than $47,500 USD Annually.", 
         "su_num_reviews": 4, 
         "su_rating": 4.7, 
         "su_technologies": [
@@ -1159,9 +1190,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1516, 
+            "followers": 1517, 
             "handle": "@WeCanCodeIT", 
-            "tweets": 1570
+            "tweets": 1574
         }, 
         "visas": "No", 
         "website": "http://bootcamp.wecancodeit.org/"
@@ -1194,8 +1225,8 @@
             "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-16 12:13:43", 
-        "Days Out": 4, 
+        "Date/Time": "2016-09-20 12:20:00", 
+        "Days Out": 8, 
         "Detroit": [
             "Girl Develop It"
         ], 
@@ -1226,7 +1257,7 @@
             "Chicago": 1, 
             "Cincinnati": 1, 
             "Cleveland": 3, 
-            "Columbus": 2, 
+            "Columbus": 3, 
             "Dallas": 1, 
             "Dayton": 1, 
             "Denver": 1, 

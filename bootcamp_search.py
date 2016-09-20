@@ -464,7 +464,7 @@ for camp in bootcamps:
 if list_flag == True:
     print '==============================================================================================='
     print
-    print 'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters:'
+    print 'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(filtered_camps)) + ')'
     print
     pprint(filtered_camps)
     print

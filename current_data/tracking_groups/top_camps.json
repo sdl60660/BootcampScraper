@@ -8,10 +8,16 @@
             "Web Development": {
                 "Class Size": 18, 
                 "Cost": 13950, 
+                "Course Location": [
+                    "New York City"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 19, 
                 "Location": [
-                    "New York City"
+                    "Chicago", 
+                    "NYC", 
+                    "San Diego", 
+                    "San Francisco"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -28,7 +34,7 @@
                 "Title": "Web Development"
             }
         }, 
-        "cr_num_reviews": 83, 
+        "cr_num_reviews": 84, 
         "cr_rating": 4.33, 
         "cr_technologies": [
             "JavaScript", 
@@ -46,7 +52,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -94,9 +100,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9727, 
+            "followers": 9742, 
             "handle": "@devbootcamp", 
-            "tweets": 9485
+            "tweets": 9508
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -110,6 +116,9 @@
             "Analytics": {
                 "Class Size": 20, 
                 "Cost": 3500, 
+                "Course Location": [
+                    "N/A"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 10, 
                 "Location": [
@@ -133,11 +142,11 @@
                 "Title": "Analytics"
             }, 
             "Android Development Immersive": {
-                "Cost": 13500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Cost": 14500, 
+                "Course Location": [
                     "Chicago"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -150,6 +159,20 @@
             "Back End Web Development": {
                 "Class Size": 25, 
                 "Cost": 3500, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Los Angeles", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 10, 
                 "Location": [
@@ -175,10 +198,10 @@
             }, 
             "Back-End Web Development (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "New York City"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -191,10 +214,10 @@
             }, 
             "Data Analysis Circuit": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -207,10 +230,10 @@
             }, 
             "Data Analytics (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -221,10 +244,10 @@
             }, 
             "Data Analytics (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Chicago"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -236,6 +259,18 @@
             "Data Science": {
                 "Class Size": 20, 
                 "Cost": 4000, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Hong Kong", 
+                    "London", 
+                    "Los Angeles", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Washington"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 11, 
                 "Location": [
@@ -258,10 +293,10 @@
             }, 
             "Data Science (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -273,10 +308,10 @@
             }, 
             "Data Science (Part-Time)": {
                 "Cost": 13500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Chicago"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -287,10 +322,10 @@
             }, 
             "Data Science Immersive": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Chicago"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -303,10 +338,10 @@
             }, 
             "Data Science Immersive (12 Week Full-Time)": {
                 "Cost": 14500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -323,6 +358,20 @@
             "Digital Marketing": {
                 "Class Size": 25, 
                 "Cost": 3500, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Los Angeles", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 10, 
                 "Location": [
@@ -349,10 +398,10 @@
             }, 
             "Digital Marketing  (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "New York City"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -363,10 +412,10 @@
             }, 
             "Digital Marketing (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 4, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 4, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -377,10 +426,10 @@
             }, 
             "Digital Marketing (Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -391,10 +440,10 @@
             }, 
             "Digital Marketing Circuit": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -406,6 +455,20 @@
             "Front End Web Development": {
                 "Class Size": 20, 
                 "Cost": 3500, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Los Angeles", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 10, 
                 "Location": [
@@ -432,10 +495,10 @@
             }, 
             "Front End Web Development (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -450,10 +513,10 @@
             }, 
             "Front End Web Development (Part-Time)": {
                 "Cost": 14500, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -468,10 +531,10 @@
             }, 
             "Front-End Web Development  (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "New York City"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -485,10 +548,10 @@
             }, 
             "Front-End Web Development (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Melbourne"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -499,12 +562,28 @@
                 ], 
                 "Title": "Front-End Web Development (Part-time)"
             }, 
+            "Html, Css, And Web Design Circuit": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "HTML", 
+                    "User Experience Design", 
+                    "CSS"
+                ], 
+                "Title": "HTML, CSS, and Web Design Circuit"
+            }, 
             "Ios Development  (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "New York City"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -517,10 +596,10 @@
             }, 
             "Ios Development Immersive": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "San Francisco"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -529,12 +608,28 @@
                 ], 
                 "Title": "iOS Development Immersive"
             }, 
+            "Javascript Circuit": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ], 
+                "Title": "JavaScript Circuit"
+            }, 
             "Javascript Development (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -545,10 +640,10 @@
             }, 
             "Javascript Development (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -560,6 +655,20 @@
             "Mobile Development": {
                 "Class Size": 25, 
                 "Cost": 4750, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Los Angeles", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 12, 
                 "Location": [
@@ -585,6 +694,20 @@
             "Product Management": {
                 "Class Size": 20, 
                 "Cost": 3250, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Los Angeles", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 10, 
                 "Location": [
@@ -609,10 +732,10 @@
             }, 
             "Product Management (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 4, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 4, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -624,10 +747,10 @@
             }, 
             "Product Management (Accelerated 1 Week)": {
                 "Cost": 3950, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -639,10 +762,10 @@
             }, 
             "Product Management (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Melbourne"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -653,10 +776,10 @@
             }, 
             "Product Management (Part-Time, One Week)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Melbourne"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -668,11 +791,11 @@
             "Product Management Immersive": {
                 "Class Size": 20, 
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Length": 10, 
-                "Location": [
+                "Course Location": [
                     "Sydney"
                 ], 
+                "Hours/Week": null, 
+                "Length": 10, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -684,10 +807,10 @@
             }, 
             "User Experience Design (10 Week Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": 4, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 4, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -698,10 +821,10 @@
             }, 
             "User Experience Design (Accelerated 1 Week)": {
                 "Cost": 3950, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -712,10 +835,10 @@
             }, 
             "User Experience Design (Part-Time)": {
                 "Cost": 3950, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -726,10 +849,10 @@
             }, 
             "User Experience Design (Part-Time, One Week)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Melbourne"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -738,13 +861,41 @@
                 ], 
                 "Title": "User Experience Design (Part-time, One Week)"
             }, 
+            "User Experience Design Circuit": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "User Experience Design"
+                ], 
+                "Title": "User Experience Design Circuit"
+            }, 
             "User Experience Design Immersive": {
                 "Class Size": 25, 
                 "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
                 "Hours/Week": null, 
                 "Length": 10, 
                 "Location": [
-                    "Chicago"
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Los Angeles", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
@@ -757,10 +908,10 @@
             }, 
             "User Experience Design Immersive ": {
                 "Cost": 3950, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -771,10 +922,10 @@
             }, 
             "User Experience Design Immersive (10 Week Full-Time)": {
                 "Cost": 13500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -786,6 +937,9 @@
             "Visual Design ": {
                 "Class Size": 20, 
                 "Cost": 2800, 
+                "Course Location": [
+                    "N/A"
+                ], 
                 "Hours/Week": 6, 
                 "Length": 8, 
                 "Location": [
@@ -810,10 +964,10 @@
             }, 
             "Visual Design (8 Week Part-Time)": {
                 "Cost": 2800, 
-                "Hours/Week": 4, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 4, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -824,10 +978,10 @@
             }, 
             "Visual Design (Part-Time)": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Austin"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -836,33 +990,30 @@
                 ], 
                 "Title": "Visual Design (Part-time)"
             }, 
-            "Web Design Circuit ": {
+            "Web Development Immersive": {
+                "Class Size": 20, 
                 "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
                 "Hours/Week": null, 
+                "Length": 12, 
                 "Location": [
-                    "Online"
+                    "Atlanta", 
+                    "Austin", 
+                    "Boston", 
+                    "Chicago", 
+                    "London", 
+                    "Melbourne", 
+                    "NYC", 
+                    "San Francisco", 
+                    "Seattle", 
+                    "Sydney", 
+                    "Washington"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
-                "Subjects": [
-                    "HTML", 
-                    "User Experience Design", 
-                    "CSS"
-                ], 
-                "Title": "Web Design Circuit "
-            }, 
-            "Web Development Immersive": {
-                "Class Size": 20, 
-                "Cost": 14500, 
-                "Hours/Week": null, 
-                "Length": 12, 
-                "Location": [
-                    "Chicago"
-                ], 
-                "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Front End", 
@@ -876,10 +1027,10 @@
             }, 
             "Web Development Immersive ": {
                 "Cost": 13500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Denver"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -898,10 +1049,10 @@
             }, 
             "Web Development Immersive (12 Week Full-Time)": {
                 "Cost": 13500, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Seattle"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -925,10 +1076,10 @@
             }, 
             "Web Development Immersive - Remote ": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -989,7 +1140,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1010,9 +1161,9 @@
         ], 
         "name": "General Assembly", 
         "num_alumni": "N/A", 
-        "num_courses": 40, 
+        "num_courses": 42, 
         "num_locations": 16, 
-        "scholarships": "General Assembly's Opp...", 
+        "scholarships": "General Assembly's Opportunity Fund offers scholarships for women, veterans, low-income, and other under-represented groups in tech.", 
         "su_num_reviews": 68, 
         "su_rating": 3.9, 
         "su_technologies": [
@@ -1070,14 +1221,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Other", 
+            "Data Science", 
+            "Full-Stack Web Development", 
             "Product Management", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Data Science", 
-            "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 101000, 
@@ -1095,10 +1246,10 @@
         "courses": {
             "Hack Reactor": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "San Francisco"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1111,10 +1262,10 @@
             }, 
             "Hack Reactor Remote": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Online"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1128,6 +1279,9 @@
             "Web Development Bootcamp": {
                 "Class Size": 32, 
                 "Cost": 17780, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
                 "Hours/Week": 80, 
                 "Length": 12, 
                 "Location": [
@@ -1154,7 +1308,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "San Francisco", 
             "Online"
@@ -1183,9 +1337,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7383, 
+            "followers": 7406, 
             "handle": "@HackReactor", 
-            "tweets": 2733
+            "tweets": 2741
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1198,10 +1352,10 @@
         "courses": {
             "Front-End Web Development": {
                 "Cost": null, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Madrid"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1217,10 +1371,10 @@
             }, 
             "Front-End Web Development ": {
                 "Cost": 2500, 
-                "Hours/Week": 6, 
-                "Location": [
+                "Course Location": [
                     "Miami"
                 ], 
+                "Hours/Week": 6, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
@@ -1236,10 +1390,10 @@
             }, 
             "Ios Mobile Bootcamp": {
                 "Cost": 10000, 
-                "Hours/Week": 60, 
-                "Location": [
+                "Course Location": [
                     "Miami"
                 ], 
+                "Hours/Week": 60, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1256,6 +1410,11 @@
             "Mobile Development Bootcamp": {
                 "Class Size": 20, 
                 "Cost": 10000, 
+                "Course Location": [
+                    "Barcelona", 
+                    "Madrid", 
+                    "Miami"
+                ], 
                 "Hours/Week": 55, 
                 "Length": 8, 
                 "Location": [
@@ -1274,10 +1433,10 @@
             }, 
             "Ux/Ui Design": {
                 "Cost": null, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Miami"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1293,9 +1452,14 @@
             "Web Development Bootcamp": {
                 "Class Size": 20, 
                 "Cost": 10000, 
+                "Course Location": [
+                    "Miami"
+                ], 
                 "Hours/Week": 60, 
                 "Length": 8, 
                 "Location": [
+                    "Barcelona", 
+                    "Madrid", 
                     "Miami"
                 ], 
                 "Minimum Skill": null, 
@@ -1313,10 +1477,10 @@
             }, 
             "Web Development Part-Time": {
                 "Cost": 12000, 
-                "Hours/Week": 40, 
-                "Location": [
+                "Course Location": [
                     "Miami"
                 ], 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1360,7 +1524,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1370,7 +1534,7 @@
         "num_alumni": "N/A", 
         "num_courses": 6, 
         "num_locations": 3, 
-        "scholarships": "1000$ Scholarship for ...", 
+        "scholarships": "1000$ Scholarship for Women. Payment plans available on our website", 
         "su_num_reviews": 50, 
         "su_rating": 4.9, 
         "su_technologies": [
@@ -1419,9 +1583,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8776, 
+            "followers": 8814, 
             "handle": "@ironhack", 
-            "tweets": 3375
+            "tweets": 3377
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1434,10 +1598,13 @@
         "courses": {
             "Back End Engineering": {
                 "Cost": 13900, 
+                "Course Location": [
+                    "San Antonio"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "San Antonio"
+                    "Greenville"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -1457,10 +1624,10 @@
             }, 
             "Back-End Engineering": {
                 "Cost": null, 
-                "Hours/Week": null, 
-                "Location": [
+                "Course Location": [
                     "Greenville"
                 ], 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
@@ -1474,10 +1641,17 @@
             }, 
             "Front End Engineering": {
                 "Cost": 13900, 
+                "Course Location": [
+                    "San Antonio"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "San Antonio"
+                    "Charleston", 
+                    "Cincinnati", 
+                    "Greenville", 
+                    "Raleigh-Durham", 
+                    "Salt Lake City"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -1492,10 +1666,13 @@
             }, 
             "Mobile Engineering": {
                 "Cost": 12000, 
+                "Course Location": [
+                    "Orlando"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "Orlando"
+                    "Houston"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -1513,10 +1690,13 @@
             }, 
             "Ui Design": {
                 "Cost": 13900, 
+                "Course Location": [
+                    "Austin"
+                ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
-                    "Austin"
+                    "Raleigh"
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
@@ -1531,8 +1711,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 49, 
-        "cr_rating": 3.55, 
+        "cr_num_reviews": 50, 
+        "cr_rating": 3.58, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -1559,7 +1739,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-16", 
+        "last_updated": "2016-09-20", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1587,7 +1767,7 @@
         "num_alumni": 900, 
         "num_courses": 5, 
         "num_locations": 21, 
-        "scholarships": "$1000 Diversity Schola...", 
+        "scholarships": "$1000 Diversity Scholarship available", 
         "su_num_reviews": 24, 
         "su_rating": 3.7, 
         "su_technologies": [
@@ -1646,7 +1826,7 @@
         "twitter": {
             "followers": 15200, 
             "handle": "@TheIronYard", 
-            "tweets": 7607
+            "tweets": 7625
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1660,8 +1840,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-09-16 12:13:43", 
-        "Days Out": 4, 
+        "Date/Time": "2016-09-20 12:20:01", 
+        "Days Out": 8, 
         "Detroit": [
             "The Iron Yard"
         ], 

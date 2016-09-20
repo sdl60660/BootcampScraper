@@ -102,11 +102,6 @@ class SwitchupSpider(scrapy.Spider):
         courses = {}
         technologies = []
 
-#=========================================================================================================#
-#============================================IN PROGRESS BELOW============================================#
-#=========================================================================================================#  
-
-
         if len(Selector(response).xpath('//h3[@class="course-name"]').extract()) > 0:
             
             course_info_headings = Selector(response).xpath('//table[@class="course-info"]/tbody/tr/th/text()').extract()
@@ -154,7 +149,7 @@ class SwitchupSpider(scrapy.Spider):
                             locations = index_tuples[info_index][1].split(', ')
                             if type(locations) == str or type(locations) == unicode:
                                 locations = [locations]
-                            course[index_tuples[info_index][0]] = locations
+                            course['Course Location'] = locations
                         elif index_tuples[info_index][0] == 'Cost':
                             cost = int(''.join((str(index_tuples[info_index][1])[1:-3]).split(',')))
                             course[index_tuples[info_index][0]] = cost
@@ -198,11 +193,6 @@ class SwitchupSpider(scrapy.Spider):
         item['courses'] = courses
         item['technologies'] = technologies
         item['su_technologies'] = technologies
-
-
-#=========================================================================================================#
-#============================================IN PROGRESS ABOVE============================================#
-#=========================================================================================================#   
 
         for key, value in item.iteritems():
             try:

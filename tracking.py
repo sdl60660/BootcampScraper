@@ -82,7 +82,7 @@ elif last_year.weekday() == 5:
     last_year = last_year + relativedelta(days =-1)
 ly_days_back = (today_ordinal - last_year.toordinal())
 try:
-    load_date_data(today_ordinal, ly_days_back)
+    data_last_year = load_date_data(today_ordinal, ly_days_back)
 except IndexError:
     print "No data in file for this date last year."
     pass
