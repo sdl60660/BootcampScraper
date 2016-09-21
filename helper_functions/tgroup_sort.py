@@ -8,6 +8,8 @@ full_output = sys.argv[1]
 with open(full_output, 'rb') as full_data:
     data = json.load(full_data)
 
+tracking_groups = ['Java/.NET', 'Potential Markets', 'Current Markets', 'Top Camp', 'Selected Camp']
+
 top_camps = {}
 potential_markets = {}
 current_markets = {}

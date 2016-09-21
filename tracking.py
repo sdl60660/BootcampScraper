@@ -1,6 +1,7 @@
 import datetime
 from datetime import date
 from dateutil.relativedelta import relativedelta
+from closest import return_closest
 
 import numpy as np
 #import matplotlib.pyplot as plt
@@ -12,6 +13,8 @@ import jsonmerge
 
 import filecmp
 
+tracking_groups = ['Java/.NET', 'Potential Markets', 'Current Markets', 'Top Camp', 'Selected Camp']
+
 def find_file(pattern, path):
     result = []
     for root, dirs, files in os.walk(path):
@@ -22,13 +25,20 @@ def find_file(pattern, path):
 
 def generate_filename(date):
     date_input = str(date) + '.*'
-    print date_input
     filename = find_file(date_input,'old_data/full_outputs/')[-1]
     return filename
 
 def load_date_data(today_ordinal, ordinal_back):
     target_date = date.fromordinal(today_ordinal - ordinal_back)
-    filename = generate_filename(target_date)
+    if target_date.weekday() == 6:
+        target_date = date.fromordinal(today_ordinal - ordinal_back + 1)
+    elif target_date.weekday() == 5:
+        target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
+    try:
+        filename = generate_filename(target_date)
+    except IndexError:
+        print 'Sorry! No file found for that date. Please enter a new one.'
+        sys.exit()
     with open(filename, 'rb') as current_data:
         data = json.load(current_data)
     return data
@@ -39,40 +49,51 @@ today_ordinal = today.toordinal()
 
 #OPEN CURRENT FILE
 with open('current_data/output.json', 'rb') as current_data:
-    data_today = json.load(current_data)
+    bootcamps = json.load(current_data)
 
-#OPEN FILE FROM YESTERDAY (TAKE TODAY'S ORDINAL DATE, SUBTRACT 1, FIND DATE, USE TO FIND FILE)
-try:
-    if today.weekday() == 0:
-        data_yesterday = load_date_data(today_ordinal, 3)
-    else:
-        data_yesterday = load_date_data(today_ordinal, 1)
-except IndexError:
-    print "No data in file for this date yesterday."
+
+def tracked_camp_changes(days_back, category, tracking_group='ALL'):
+    today = date.today()
+    today_ordinal = today.toordinal()
+
+    new_points = []
+
+    old_data = load_date_data(today_ordinal, days_back)
+
+    for x in bootcamps:
+        camp = bootcamps[x]
+        if x == 'meta':
+            continue
+        if camp[category] == None:
+                continue
+        if tracking_group == 'ALL':
+            pass
+        elif tracking_group not in camp['tracking_groups']:
+            continue
+
+        for item in camp[category]:
+            if item not in old_data[x][category]:
+                new_points.append((item, x))
+    print
+    return new_points
+
+
+def tracking_group_stats():
     pass
 
 
-#OPEN FILE FROM ONE WEEK AGO (TAKE TODAY'S ORDINAL DATE, SUBTRACT 7, FIND DATE, USE TO FIND FILE)
-try:
-    data_last_week = load_date_data(today_ordinal, 7)
-except IndexError:
-    print "No data in file for this date last week."
+def tracking_group_changes():
     pass
 
 
-#OPEN FILE FROM ONE MONTH AGO (ROUND TO NEAREST WEEKDAY*)
-last_month = date.today() + relativedelta(months=-1)
-if last_month.weekday() == 6:
-    last_month = last_month + relativedelta(days=+1)
-elif last_month.weekday() == 5:
-    last_month = last_month + relativedelta(days =-1)
-lm_days_back = (today_ordinal - last_month.toordinal())
-try:
-    data_last_month = load_date_data(today_ordinal, lm_days_back)
-except IndexError:
-    print "No data in file for this date last month."
+def meta_category_trend():
     pass
 
+
+def full_meta_trends():
+    pass
+
+"""
 
 #OPEN FILE FROM ONE YEAR AGO (ROUND TO NEAREST WEEKDAY*)
 last_year = date.today() + relativedelta(years=-1)
@@ -86,30 +107,7 @@ try:
 except IndexError:
     print "No data in file for this date last year."
     pass
-
-#*GET RID OF THIS PART IF YOU EVER END UP RUNNING THIS ON WEEKEND DAYS
-
-class Trackers:
-
-    def tracked_location_moves():
-        pass
-
-
-    def tracking_group_stats():
-        pass
-
-
-    def tracking_group_changes():
-        pass
-
-
-    def technology_trends():
-        pass
-
-
-    def location_trends():
-        pass
-
+"""
 
 
 
