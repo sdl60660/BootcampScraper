@@ -15,10 +15,6 @@ from pprint import pprint
 cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
 
-def plot_changes():
-	import matplotlib.pyplot as plt
-	pass
-
 def print_stats(print_arrays):
 	for print_array in print_arrays:
 		if len(print_array[0]) > 0:

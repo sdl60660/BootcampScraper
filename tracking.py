@@ -5,7 +5,6 @@ from utilities import return_closest, dict_print
 
 from pprint import pprint
 import numpy as np
-#import matplotlib.pyplot as plt
 import os, fnmatch
 import sys
 
@@ -16,6 +15,10 @@ import filecmp
 
 tracking_groups = ['Java/.NET', 'Potential Markets', 'Current Markets', 'Top Camp', 'Selected Camp']
 tracking_group_files = ['current_markets.json', 'java_and_NET.json', 'potential_markets.json', 'selected_camps.json', 'top_camps.json']
+
+def plot_changes():
+    import matplotlib.pyplot as plt
+    pass
 
 def find_file(pattern, path):
     result = []
