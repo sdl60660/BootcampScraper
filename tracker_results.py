@@ -11,8 +11,49 @@ import numpy as np
 
 import sys
 
+from pprint import pprint
+
 cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
+
+def show_changes():
+	pass
+
+def print_stats(print_arrays):
+	for print_array in print_arrays:
+		if len(print_array[0]) > 0:
+			print
+			print str(print_array[1]).upper()
+			print_array = print_array[0]
+			for change in print_array:
+				pprint(change, indent=4)
+	return
+
+def full_print(days_back, cats, group='ALL'):
+	print_arrays = tracking_group_stats(days_back, group)
+	if any(len(x[0]) > 0 for x in print_arrays):
+		print
+		print "Changes"
+		print "-------"
+	print_stats(print_arrays)
+
+	detail_array = []
+	cat_data_list = []
+	for c in cats:
+		change_details = tracked_camp_changes(days_back, c, group)
+		detail_array.append(change_details)
+
+	if any(len(x) > 0 for x in detail_array):
+		print
+		print "Details"
+		print "-------"
+		print
+		for x, c in enumerate(cats):
+			if len(detail_array[x]) > 0:
+				print c.upper()
+				print detail_array[x]
+	return
+
 
 def main():
 	if len(sys.argv) < 2:
@@ -21,38 +62,34 @@ def main():
 
 	days_back = int(sys.argv[1])
 
+	#Populate tracking groups with selections from 
 	tgroups = []
 	for x in range(2, len(sys.argv)):
 		tgroups.append(sys.argv[x])
 
+	#Correct any spelling mistakes in command-line input for tracking groups
 	for i, item in enumerate(tgroups):
 		if item == 'ALL':
 			continue
 		tgroups[i] = return_closest(item, groups)
 
+	#If input was 'ALL', then print info for all tracking groups
 	if sys.argv[2] and sys.argv[2] == 'ALL':
 		tgroups = groups
 
 
-	tracking_group_stats(days_back)
+	#*******************OVERALL CHANGES********************
 
+	full_print(days_back, cats)
 	print
 
-	for c in cats:
-		print c.upper()
-		print tracked_camp_changes(days_back, c)
-		print
+	#****************TRACKING GROUP CHANGES****************
 
 	for group in tgroups:
 		print group.upper().center(35, '-')
-		tracking_group_stats(days_back, group)
-
+		full_print(days_back, cats, group)
 		print
 
-		for c in cats:
-			print c.upper()
-			print tracked_camp_changes(days_back, c, group)
-			print
 
 if __name__ == '__main__':
   main()

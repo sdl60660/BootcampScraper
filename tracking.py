@@ -93,8 +93,6 @@ def tracked_camp_changes(days_back, category, tracking_group='ALL'):
                     new_points.append((item, x, 'Subtraction'))
         except KeyError:
             pass
-
-    print
     return new_points
 
 
@@ -112,6 +110,8 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
 
     current_meta = bootcamps['meta']
     old_meta = old_data['meta']
+
+    print_arrays = []
 
     for x in current_meta:
         cat = current_meta[x]
@@ -132,18 +132,14 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
                     print_array.append((out_str, value))
             print_array = sorted(print_array, key=lambda x: x[1], reverse=True)
             print_array = [item[0] for item in print_array]
-            if len(print_array) > 0:
+            """if len(print_array) > 0:
                 print
                 print str(x).upper()
             for change in print_array:
-                pprint(change, indent=4)
-            #pprint(print_array, indent=4)
+                pprint(change, indent=4)"""
+            print_arrays.append((print_array, x))
                     
-
-    return
-
-
-#REAL def tracking_group_stats HERE
+    return print_arrays
 
 def tracking_group_changes():
     pass
