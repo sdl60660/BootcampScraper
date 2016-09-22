@@ -38,7 +38,7 @@ def generate_filename(date, tracking_group=None):
 def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     target_date = date.fromordinal(today_ordinal - ordinal_back)
     if target_date.weekday() == 6:
-        target_date = date.fromordinal(today_ordinal - ordinal_back + 1)
+        target_date = date.fromordinal(today_ordinal - ordinal_back - 2)
     elif target_date.weekday() == 5:
         target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
     try:
