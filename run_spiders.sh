@@ -131,6 +131,15 @@ echo 'WARNING: These possible duplicates were found:' >>logs/scraper_log.txt
 python helper_functions/possible_duplicate_search.py current_data/output.json >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
 
+#LOG TRACKED CHANGES
+log_date=$(date "+%Y-%m-%d")
+echo "CHANGES FOR $log_date" >>logs/change_log.txt
+python tracker_results.py 1 ALL>>logs/change_log.txt
+echo "====================================">>logs/change_log.txt
+echo >>logs/change_log.txt
+echo "Tracked Changes Logged..."
+
+
 current_time=$(date "+%Y-%m-%d.(%H:%M:%S)")
 echo $current_time >>logs/scraper_log.txt
 echo "Scraper finished!" >>logs/scraper_log.txt

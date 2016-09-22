@@ -56,6 +56,9 @@ class CaughtDuplicateNames(object):
         if item['name'].title() == 'The Software Guild':
             item['name'] = 'Software Guild'
 
+        if item['name'].title() == 'Eleven Fifty Academy':
+            item['name'] = 'Eleven Fifty Coding Academy'
+
         if item['name'].title() == 'Hack School' or item['name'].title() == 'Hackschool':
             item['name'] = 'HackSchool'
 

@@ -1,8 +1,9 @@
 import datetime
 from datetime import date
 from dateutil.relativedelta import relativedelta
-from closest import return_closest
+from utilities import return_closest, dict_print
 
+from pprint import pprint
 import numpy as np
 #import matplotlib.pyplot as plt
 import os, fnmatch
@@ -14,6 +15,7 @@ import jsonmerge
 import filecmp
 
 tracking_groups = ['Java/.NET', 'Potential Markets', 'Current Markets', 'Top Camp', 'Selected Camp']
+tracking_group_files = ['current_markets.json', 'java_and_NET.json', 'potential_markets.json', 'selected_camps.json', 'top_camps.json']
 
 def find_file(pattern, path):
     result = []
@@ -23,19 +25,27 @@ def find_file(pattern, path):
                 result.append(os.path.join(root, name))
     return result
 
-def generate_filename(date):
+def generate_filename(date, tracking_group=None):
     date_input = str(date) + '.*'
-    filename = find_file(date_input,'old_data/full_outputs/')[-1]
+    if tracking_group:
+        file_stub = return_closest(tracking_group, tracking_group_files, 0.4)
+        date_input += file_stub
+        filename = find_file(date_input, 'old_data/tracking_groups/')[-1]
+    else:
+        filename = find_file(date_input,'old_data/full_outputs/')[-1]
     return filename
 
-def load_date_data(today_ordinal, ordinal_back):
+def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     target_date = date.fromordinal(today_ordinal - ordinal_back)
     if target_date.weekday() == 6:
         target_date = date.fromordinal(today_ordinal - ordinal_back + 1)
     elif target_date.weekday() == 5:
         target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
     try:
-        filename = generate_filename(target_date)
+        if tracking_group:
+            filename = generate_filename(target_date, tracking_group)
+        else:
+            filename = generate_filename(target_date)
     except IndexError:
         print 'Sorry! No file found for that date. Please enter a new one.'
         sys.exit()
@@ -53,11 +63,10 @@ with open('current_data/output.json', 'rb') as current_data:
 
 
 def tracked_camp_changes(days_back, category, tracking_group='ALL'):
-    today = date.today()
-    today_ordinal = today.toordinal()
+    #today = date.today()
+    #today_ordinal = today.toordinal()
 
     new_points = []
-
     old_data = load_date_data(today_ordinal, days_back)
 
     for x in bootcamps:
@@ -72,15 +81,69 @@ def tracked_camp_changes(days_back, category, tracking_group='ALL'):
             continue
 
         for item in camp[category]:
-            if item not in old_data[x][category]:
-                new_points.append((item, x))
+            try:
+                if item not in old_data[x][category]:
+                    new_points.append((item, x, 'Addition'))
+            except KeyError:
+                new_points.append((item, x, 'Addition'))
+        
+        try:
+            for item in old_data[x][category]:
+                if item not in camp[category]:
+                    new_points.append((item, x, 'Subtraction'))
+        except KeyError:
+            pass
+
     print
     return new_points
 
 
-def tracking_group_stats():
-    pass
+def tracking_group_stats(days_back, tracking_group='ALL'):
+    with open('current_data/output.json', 'rb') as current_data:
+        bootcamps = json.load(current_data)
+    old_data = load_date_data(today_ordinal, days_back)
 
+    if tracking_group != 'ALL':
+        file_stub = return_closest(tracking_group, tracking_group_files, 0.5)
+        filename = 'current_data/tracking_groups/' + file_stub
+        with open(filename, 'rb') as current_data:
+            bootcamps = json.load(current_data)
+        old_data = load_date_data(today_ordinal, days_back, tracking_group)
+
+    current_meta = bootcamps['meta']
+    old_meta = old_data['meta']
+
+    for x in current_meta:
+        cat = current_meta[x]
+        if type(cat) is list:
+            for item in cat:
+                if item not in old_meta[x]:
+                    print str(x).title() + ': ' + str(item)
+        elif type(cat) is dict:
+            print_array = []
+            for key, value in cat.iteritems():
+                try:
+                    old_val = old_meta[x][key]
+                except KeyError:
+                    old_val = 0
+                if value != old_val:
+                    diff = value - old_val
+                    out_str = str(key) + ': ' + str(value) + ' (%+d)' % diff
+                    print_array.append((out_str, value))
+            print_array = sorted(print_array, key=lambda x: x[1], reverse=True)
+            print_array = [item[0] for item in print_array]
+            if len(print_array) > 0:
+                print
+                print str(x).upper()
+            for change in print_array:
+                pprint(change, indent=4)
+            #pprint(print_array, indent=4)
+                    
+
+    return
+
+
+#REAL def tracking_group_stats HERE
 
 def tracking_group_changes():
     pass
