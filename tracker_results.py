@@ -6,7 +6,6 @@ from tracking import tracking_group_stats
 
 from utilities import return_closest
 
-#import matplotlib.pyplot as plt
 import numpy as np
 
 import sys
@@ -16,7 +15,8 @@ from pprint import pprint
 cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
 
-def show_changes():
+def plot_changes():
+	import matplotlib.pyplot as plt
 	pass
 
 def print_stats(print_arrays):
@@ -27,6 +27,24 @@ def print_stats(print_arrays):
 			print_array = print_array[0]
 			for change in print_array:
 				pprint(change, indent=4)
+	return
+
+def print_details(detail_tuples):
+	tech_array = []
+	for x in detail_tuples:
+		if x[0] not in tech_array:
+			tech_array.append(x[0])
+	for tech in tech_array:
+		camp_array = []
+		for x in detail_tuples:
+			if x[0] == tech:
+				if x[2] == 'Addition':
+					temp_str = str(x[1]) + ' (+)'
+				elif x[2] == 'Subtraction':
+					temp_str = str(x[1]) + ' (-)'
+				camp_array.append(temp_str)
+		print str(tech) + ': ' + str(camp_array)
+
 	return
 
 def full_print(days_back, cats, group='ALL'):
@@ -51,7 +69,8 @@ def full_print(days_back, cats, group='ALL'):
 		for x, c in enumerate(cats):
 			if len(detail_array[x]) > 0:
 				print c.upper()
-				print detail_array[x]
+				print_details(detail_array[x])
+				print
 	return
 
 
@@ -80,6 +99,8 @@ def main():
 
 	#*******************OVERALL CHANGES********************
 
+	print
+	print 'Overall Changes'.upper().center(35, '-')
 	full_print(days_back, cats)
 	print
 
