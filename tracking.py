@@ -16,10 +16,6 @@ import filecmp
 tracking_groups = ['Java/.NET', 'Potential Markets', 'Current Markets', 'Top Camp', 'Selected Camp']
 tracking_group_files = ['current_markets.json', 'java_and_NET.json', 'potential_markets.json', 'selected_camps.json', 'top_camps.json']
 
-def plot_changes():
-    import matplotlib.pyplot as plt
-    pass
-
 def find_file(pattern, path):
     result = []
     for root, dirs, files in os.walk(path):
@@ -40,21 +36,25 @@ def generate_filename(date, tracking_group=None):
 
 def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     target_date = date.fromordinal(today_ordinal - ordinal_back)
+    
     if target_date.weekday() == 6:
-        target_date = date.fromordinal(today_ordinal - ordinal_back - 2)
-    elif target_date.weekday() == 5:
-        target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
-    try:
-        if tracking_group:
+        try:
             filename = generate_filename(target_date, tracking_group)
-        else:
-            filename = generate_filename(target_date)
+            return json.load(open(filename, 'rb'))
+        except IndexError:
+            target_date = date.fromordinal(today_ordinal - ordinal_back - 2)
+    elif target_date.weekday() == 5:
+        try:
+            filename = generate_filename(target_date, tracking_group)
+            return json.load(open(filename, 'rb'))
+        except IndexError:
+            target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
+    try:
+        filename = generate_filename(target_date, tracking_group)
     except IndexError:
-        print 'Sorry! No file found for that date. Please enter a new one.'
-        sys.exit()
-    with open(filename, 'rb') as current_data:
-        data = json.load(current_data)
-    return data
+        #print 'Sorry! No file found for that date. Please enter a new one.'
+        raise NameError('Sorry! No file found for that date. Please enter a new one.')
+    return json.load(open(filename, 'rb'))
 
 
 today = date.today()
@@ -143,6 +143,56 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
             print_arrays.append((print_array, x))
                     
     return print_arrays
+
+"""def plot_changes(days_back, category, start_days_back=0, tracking_group='ALL', max_items=10):
+    import matplotlib.pyplot as plt
+    import heapq
+
+    if start_days_back == 0:
+        today_data = bootcamps
+    else:
+        today_data = load_date_data(today_ordinal, start_days_back, tracking_group)
+
+    #NEED TO ARRANGE THE DATE X AXIS HERE BY TAKING THE START AND END DATES,
+    #COMPARING THEM ORDINALLY TO TODAY AND THEN TRANSLATING THOSE ORDINALS
+    #INTO DATES THAT ARE PUT INTO AN ARRAY
+
+    datasets = [today_data['meta'][category]]
+    for day in range(1, (days_back+1)):
+        datasets.append(load_date_data(today_ordinal, day, tracking_group)['meta'][category])
+
+    if all(type(x) == dict for x in datasets):
+        current = datasets[0]
+        temp_list = []
+        for k, v in current.iteritems():
+            temp_list.append(k, v)
+        temp_list = sorted(temp_list, key=lambda x: x[1])
+        item_list = [x[0] for x in temp_list[:max_items]]
+
+        #THIS SHOULD FILL DATA LIST WITH LISTS FOR PARTICULAR ITEMS (i.e. 'Java' or 'Chicago')
+        #THESE LISTS, AFTER BEING REVERSED AT THE END, SHOULD LIST THE VALUE FOR THAT ITEM AT
+        #A GIVEN DATE, GOING BACK TO THE SPECIFIED NUMBER OF DAYS FROM OLDEST TO MOST CURRENT
+        #THE NUMBER OF ITEM LISTS ('num_list') IN DATA LIST SHOULD BE EQUAL TO 'max_items'
+        data_list = []
+        for item in item_list:
+            num_list = []
+            for s in datasets:
+                num_list.append(s[item])
+            num_list = num_list[::-1]
+            data_list.append((num_list, item))
+
+        for i, ilist in enumerate(data_list):
+
+
+        plt.plot(dates, num_camps)
+
+    elif all(x is list for x in datasets):
+
+    else:
+        pass"""
+
+
+
 
 def tracking_group_changes():
     pass

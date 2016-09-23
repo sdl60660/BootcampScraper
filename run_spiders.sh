@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#IN CASE NOT ALREADY ACTIVATED
+source ~/.virtualenvs/scrapy_venv/bin/activate
+
 echo
 current_time=$(date "+%H:%M:%S")
 echo "$current_time: Scraper started!"

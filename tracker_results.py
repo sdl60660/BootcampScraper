@@ -89,7 +89,7 @@ def main():
 		tgroups[i] = return_closest(item, groups)
 
 	#If input was 'ALL', then print info for all tracking groups
-	if sys.argv[2] and sys.argv[2] == 'ALL':
+	if len(sys.argv) == 3 and sys.argv[-1] == 'ALL':
 		tgroups = groups
 
 
@@ -97,14 +97,24 @@ def main():
 
 	print
 	print 'Overall Changes'.upper().center(35, '-')
-	full_print(days_back, cats)
+	try:
+		full_print(days_back, cats)
+	except NameError:
+		print
+		print 'Could not find file for this date!'
 	print
 
 	#****************TRACKING GROUP CHANGES****************
 
 	for group in tgroups:
 		print group.upper().center(35, '-')
-		full_print(days_back, cats, group)
+		try:
+			full_print(days_back, cats, group)
+		except NameError:
+			print
+			print 'Could not find file for ' + str(group) + ' tracking group!'
+			print
+			continue
 		print
 
 

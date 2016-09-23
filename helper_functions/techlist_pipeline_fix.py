@@ -22,11 +22,11 @@ for camp in data:
         except (KeyError, TypeError):
             pass
         cat[0] = []
-
-data['General Assembly']['courses']['Visual Design ']['Location'] = data['General Assembly']['courses']['Visual Design ']['Subjects']
-data['General Assembly']['courses']['Visual Design ']['Subjects'] = ['N/A']
-
-
+try:
+	data['General Assembly']['courses']['Visual Design ']['Location'] = data['General Assembly']['courses']['Visual Design ']['Subjects']
+	data['General Assembly']['courses']['Visual Design ']['Subjects'] = ['N/A']
+except KeyError:
+	pass
 
 output_file = open(output, 'w')
 json.dump(data, output_file, indent=4, sort_keys=True)
