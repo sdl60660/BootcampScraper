@@ -9,14 +9,17 @@ import sys
 def main():
 	days_back = int(sys.argv[1])
 	max_items = int(sys.argv[2])
-	percentage = bool(sys.argv[3].title())
-	plot_changes(days_back, 'technologies', max_items=max_items, start_item=0, percentage=percentage, interval=2, active_only=False)
+	if sys.argv[3].title() == 'True':
+		percentage = True
+	else:
+		percentage = False
+	plot_changes(days_back, 'potential market', max_items=max_items, start_item=0, percentage=percentage, interval=1, active_only=True)
 
 if __name__ == '__main__':
   main()
 
 
-#1. GET PLOT FOR NUMBER OF CAMPS IN META TRACKING CATEGORIES (OVERALL IN 'POTENTIAL MARKETS' AND EACH POTENTIAL MARKET, FOR EXAMPLE)
+#1. DONE! GET PLOT FOR NUMBER OF CAMPS IN META TRACKING CATEGORIES (OVERALL IN 'POTENTIAL MARKETS' AND EACH POTENTIAL MARKET, FOR EXAMPLE)
 #2. SETUP OPTION FOR PLOTS TO SAVE TO CERTAIN FOLDER IN OLD_DATA
 #2b. OPTION TO EXPORT RAW PLOT DATA TO A LOG FILE
 #3. BUILD OUT OTHER PLOT FUNCTIONS

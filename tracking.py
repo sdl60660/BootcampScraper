@@ -179,20 +179,36 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
     if type(today_data['meta'][category]) != dict and category not in tracking_groups:
         raise ValueError('The selected category cannot be plotted! Please enter another category.')
 
-
     #Initialize the list of datasets with the dataset from today or 'today', as well as
     #the list that holds total # of bootcamps in each dataset
     datasets = [today_data['meta'][category]]
     totals = [today_data['meta']['Number of Entries']]
+
+    subs = False
+    if type(datasets[0]) is list:
+        datasets = []
+        if category == 'Current Market':
+            subcats = ['Current Market', 'Cleveland', 'Columbus']
+        elif category == 'Potential Market':
+            subcats = ['Potential Market', 'Pittsburgh', 'Detroit', 'Cincinnati', 'Buffalo', 'Toronto']
+        else:
+            subcats = [category]
+        datasets.append([today_data['meta'][s_cat] for s_cat in subcats])
+        subs = True
+    else:
+        datasets = [today_data['meta'][category]]
 
     #Fill these x-axis, label, dataset, total bootcamp lists with data from appropriately
     #dated dataset meta data
     for day in range(1, (days_back+1), interval):
         try:
             meta_data = load_date_data(today_ordinal, day, tracking_group)['meta']
-            if meta_data['Active'] == False and active_only==True:
+            if meta_data['Active'] == False and active_only == True:
                 raise NameError('Non-active date for datafile')
-            datasets.append(meta_data[category])
+            if subs == True:
+                datasets.append([meta_data[s_cat] for s_cat in subcats])
+            else:
+                datasets.append(meta_data[category])
             totals.append(meta_data['Number of Entries'])
         #If there's no corresponding dataset for a date, mark it with 'NO DATA'
         except (KeyError, NameError):
@@ -203,41 +219,60 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
     date_labels = date_labels[::-1]
     x_axis = x_axis[::-1]
 
-    #if type(datasets[0]) is list:
-    #    if category is 'Current Market':
-    #        subcats = ['Cleveland', 'Columbus']
-    #    elif category is 'Potential Market':
-    #        subcats = ['Pittsburgh', 'Detroit', 'Cincinnati', 'Buffalo', 'Toronto']
-
-    #Use the most recent dataset to determine the category items in the range start_item:max_items
-    #For example, if start_item=10 and max_items=3, it might fill item list with Java, AngularJS, .NET
-    #If those were the 10th through 12th most popular technologies in the most current dataset
-    current = datasets[0]
-    temp_list = []
-    for k, v in current.iteritems():
-        temp_list.append((k, v))
-    temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
-    item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
-
-    #Fill data_list with a set of lists, one for each of category items identified above
-    #Each of these category item lists contains values for that item for each of the required dates
     data_list = []
-    for item in item_list:
-        num_list = []
-        for i, s in enumerate(datasets):
-            #If a date did not have a corresponding dataset, it was marked 'NO DATA' above,
-            #Fill these with None values
-            #For everything else, fill with the appropriate value or, if percentage is True,
-            #Fill with the percent of total bootcamps in the set that have this category item
-            if s != 'NO DATA':
-                if percentage == True:
-                    num_list.append(100*s[item]/float(totals[i]))
+
+    #**************HERE**************#
+    #This function should combine what's in the list and dict options as much as possible
+    #so that there aren't so many overlapping/wasted lines
+    def fill_data_list():
+        pass
+
+    if type(datasets[0]) is list:
+        for x, item in enumerate(subcats):
+            num_list = []
+            for i, s in enumerate(datasets):
+                if s != 'NO DATA':
+                    if percentage == True:
+                        num_list.append(100*len(s[x])/float(totals[i]))
+                    else:
+                        num_list.append(len(s[x]))
                 else:
-                    num_list.append(s[item])
-            else:
-                num_list.append(None)
-        num_list = num_list[::-1]
-        data_list.append((num_list, item))
+                    num_list.append(None)
+            num_list = num_list[::-1]
+            print num_list
+            data_list.append((num_list, item))
+
+
+
+    elif type(datasets[0]) is dict:
+        #Use the most recent dataset to determine the category items in the range start_item:max_items
+        #For example, if start_item=10 and max_items=3, it might fill item list with Java, AngularJS, .NET
+        #If those were the 10th through 12th most popular technologies in the most current dataset
+        current = datasets[0]
+        temp_list = []
+        for k, v in current.iteritems():
+            temp_list.append((k, v))
+        temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
+        item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
+
+        #Fill data_list with a set of lists, one for each of category items identified above
+        #Each of these category item lists contains values for that item for each of the required dates
+        for item in item_list:
+            num_list = []
+            for i, s in enumerate(datasets):
+                #If a date did not have a corresponding dataset, it was marked 'NO DATA' above,
+                #Fill these with None values
+                #For everything else, fill with the appropriate value or, if percentage is True,
+                #Fill with the percent of total bootcamps in the set that have this category item
+                if s != 'NO DATA':
+                    if percentage == True:
+                        num_list.append(100*s[item]/float(totals[i]))
+                    else:
+                        num_list.append(s[item])
+                else:
+                    num_list.append(None)
+            num_list = num_list[::-1]
+            data_list.append((num_list, item))
 
     #-----------------PLOT THE DATA-----------------#
 
