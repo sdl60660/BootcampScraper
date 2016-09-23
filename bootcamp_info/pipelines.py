@@ -88,6 +88,9 @@ class CaughtDuplicateNames(object):
 
         if item['name'].title() == 'Founders And Coders':
             item['name'] = 'Founders & Coders'
+
+        if item['name'].title() == 'New York Code And Design Academy':
+            item['name'] = 'New York Code + Design Academy'
         
         return item
 

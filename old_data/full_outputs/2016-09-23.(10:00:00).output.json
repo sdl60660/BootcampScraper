@@ -414,7 +414,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 662, 
+            "followers": 661, 
             "handle": "@academia_codigo", 
             "tweets": 1379
         }, 
@@ -583,7 +583,7 @@
         "twitter": {
             "followers": 603, 
             "handle": "@academypgh", 
-            "tweets": 1279
+            "tweets": 1278
         }, 
         "visas": "Temporary housing is available for students upon enquiry.", 
         "website": "http://www.academypgh.com/"
@@ -1539,20 +1539,22 @@
     }, 
     "Alt-U": {
         "average_salary": "N/A", 
-        "class_ratio": "1:10", 
-        "cost_estimate": "$$$", 
+        "class_ratio": null, 
+        "cost_estimate": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-23", 
-        "locations": null, 
+        "locations": [
+            "Dallas"
+        ], 
         "name": "Alt-U", 
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": null, 
-        "subjects": "iOS", 
+        "subjects": null, 
         "technologies": [], 
         "top_source": [
             "SwitchUp"
@@ -1690,7 +1692,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1354, 
+            "followers": 1353, 
             "handle": "@Andela_Nigeria", 
             "tweets": 738
         }, 
@@ -2655,7 +2657,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2372, 
+            "followers": 2371, 
             "handle": "@AustinCoding", 
             "tweets": 699
         }, 
@@ -2880,7 +2882,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 81, 
+            "followers": 82, 
             "handle": "@gk3000", 
             "tweets": 373
         }, 
@@ -3438,9 +3440,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5600, 
+            "followers": 5599, 
             "handle": "@betamore", 
-            "tweets": 4610
+            "tweets": 4609
         }, 
         "visas": "No", 
         "website": "http://www.betamore.com/academy/"
@@ -4626,10 +4628,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Mobile Development", 
-            "Front-End Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 2649, 
@@ -5412,7 +5414,7 @@
         "twitter": {
             "followers": 6952, 
             "handle": "@BrainStation", 
-            "tweets": 7236
+            "tweets": 7235
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -6342,7 +6344,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 3317, 
+            "followers": 3318, 
             "handle": "@ClaimAcademySTL", 
             "tweets": 529
         }, 
@@ -7787,8 +7789,8 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 3213, 
@@ -7929,7 +7931,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2448, 
+            "followers": 2447, 
             "handle": "@codeforprogress", 
             "tweets": 853
         }, 
@@ -8022,9 +8024,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1635, 
+            "followers": 1633, 
             "handle": "@CodersInstitute", 
-            "tweets": 3155
+            "tweets": 3154
         }, 
         "visas": "No", 
         "website": "http://www.codeinstitute.net/"
@@ -9266,7 +9268,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2315, 
+            "followers": 2314, 
             "handle": "@CodeClanScot", 
             "tweets": 1026
         }, 
@@ -9725,7 +9727,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 914, 
+            "followers": 915, 
             "handle": "@CodeCraftSchool", 
             "tweets": 961
         }, 
@@ -11023,7 +11025,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 951, 
+            "followers": 950, 
             "handle": "@codervox", 
             "tweets": 689
         }, 
@@ -11617,7 +11619,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 457, 
+            "followers": 456, 
             "handle": "@codesmithio", 
             "tweets": 435
         }, 
@@ -13142,19 +13144,19 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
-                    "AngularJS", 
-                    "Design", 
                     "Digital Marketing", 
-                    "Express.js", 
+                    "AngularJS", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
-                    "jQuery", 
                     "MongoDB", 
-                    "Node.js", 
+                    "HTML", 
+                    "Git", 
                     "SEO", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Design", 
+                    "User Experience Design", 
+                    "Express.js", 
+                    "Node.js"
                 ], 
                 "Title": "Cultivating Coders Bootcamp"
             }, 
@@ -13187,19 +13189,19 @@
         "cr_num_reviews": 12, 
         "cr_rating": 4.92, 
         "cr_technologies": [
-            "AngularJS", 
-            "Design", 
             "Digital Marketing", 
-            "Express.js", 
+            "AngularJS", 
             "Front End", 
-            "Git", 
-            "HTML", 
             "JavaScript", 
-            "jQuery", 
             "MongoDB", 
-            "Node.js", 
+            "HTML", 
+            "Git", 
             "SEO", 
-            "User Experience Design"
+            "jQuery", 
+            "Design", 
+            "User Experience Design", 
+            "Express.js", 
+            "Node.js"
         ], 
         "email": "info@cultivatingcoders.com", 
         "facebook": "https://www.facebook.com/cultivatingcoders/timeline", 
@@ -13243,9 +13245,9 @@
             "Node.js", 
             "SEO", 
             "UX", 
-            "Design", 
             "Front End", 
             "Git", 
+            "Design", 
             "User Experience Design"
         ], 
         "top_source": [
@@ -14435,8 +14437,8 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 324, 
@@ -15680,7 +15682,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1131, 
+            "followers": 1127, 
             "handle": "@devcodecamp", 
             "tweets": 847
         }, 
@@ -16561,12 +16563,12 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 7506, 
+            "followers": 7505, 
             "handle": "@DevMtn", 
             "tweets": 1850
         }, 
@@ -16953,25 +16955,25 @@
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "CSS", 
-                    "Digital Marketing", 
-                    "Express.js", 
-                    "Go", 
-                    "Growth Hacking", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
-                    "MongoDB", 
                     "MySQL", 
-                    "Node.js", 
+                    "Digital Marketing", 
                     "Python", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
                     "Rails", 
-                    "React.js", 
-                    "Ruby", 
-                    "Sales", 
+                    "Go", 
                     "SEO", 
                     "SQL", 
-                    "Git"
+                    "jQuery", 
+                    "Ruby", 
+                    "Sales", 
+                    "Growth Hacking", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
                 ], 
                 "Title": "Software Enginneer Track"
             }, 
@@ -16985,18 +16987,18 @@
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "CSS", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
+                    "HTML", 
+                    "Git", 
                     "Rails", 
-                    "Ruby", 
-                    "SQL", 
-                    "React.js", 
                     "SEO", 
+                    "SQL", 
+                    "jQuery", 
+                    "Ruby", 
                     "User Experience Design", 
-                    "jQuery"
+                    "CSS", 
+                    "React.js"
                 ], 
                 "Title": "Web Development Track"
             }
@@ -17004,27 +17006,27 @@
         "cr_num_reviews": 17, 
         "cr_rating": 4.46, 
         "cr_technologies": [
-            "CSS", 
             "Front End", 
-            "Git", 
-            "HTML", 
             "JavaScript", 
+            "HTML", 
+            "Git", 
             "Ruby on Rails", 
-            "Ruby", 
-            "SQL", 
-            "React.js", 
             "SEO", 
-            "User Experience Design", 
+            "SQL", 
             "jQuery", 
-            "Digital Marketing", 
-            "Express.js", 
-            "Go", 
-            "Growth Hacking", 
-            "MongoDB", 
+            "Ruby", 
+            "User Experience Design", 
+            "CSS", 
+            "React.js", 
             "MySQL", 
-            "Node.js", 
+            "Digital Marketing", 
             "Python", 
-            "Sales"
+            "MongoDB", 
+            "Go", 
+            "Sales", 
+            "Growth Hacking", 
+            "Express.js", 
+            "Node.js"
         ], 
         "email": "hello@devschool.rocks", 
         "employment_rates": {
@@ -17102,22 +17104,22 @@
             "Ruby", 
             "Ruby on Rails", 
             "Front End", 
-            "React.js", 
             "User Experience Design", 
+            "React.js", 
             "Digital Marketing", 
-            "Go", 
-            "Growth Hacking", 
             "Python", 
-            "Sales"
+            "Go", 
+            "Sales", 
+            "Growth Hacking"
         ], 
         "top_source": [
             "CourseReport"
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Other", 
             "Front-End Web Development", 
-            "Other"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 125, 
@@ -17341,7 +17343,7 @@
         "twitter": {
             "followers": 856, 
             "handle": "@EcoTechVisions", 
-            "tweets": 1470
+            "tweets": 1469
         }, 
         "visas": "No", 
         "website": "http://www.ecotechvisions.org/digitalcitizen/"
@@ -17508,7 +17510,7 @@
         "tracking_groups": [], 
         "tracks": "Digital Marketing", 
         "twitter": {
-            "followers": 1622, 
+            "followers": 1621, 
             "handle": "@ChiDPI", 
             "tweets": 4669
         }, 
@@ -17819,9 +17821,9 @@
             "Selected Camp"
         ], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 592, 
@@ -19672,13 +19674,13 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 6834, 
             "handle": "@FlatironSchool", 
-            "tweets": 4340
+            "tweets": 4339
         }, 
         "visas": "No", 
         "website": "http://flatironschool.com/"
@@ -22805,7 +22807,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7429, 
+            "followers": 7428, 
             "handle": "@HackReactor", 
             "tweets": 2750
         }, 
@@ -24876,7 +24878,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3998, 
+            "followers": 3997, 
             "handle": "@InsightDataSci", 
             "tweets": 254
         }, 
@@ -25541,9 +25543,9 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 8857, 
@@ -26736,9 +26738,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4998, 
+            "followers": 4996, 
             "handle": "@Lewagonparis", 
-            "tweets": 4338
+            "tweets": 4337
         }, 
         "visas": "No", 
         "website": "http://www.lewagon.org/en"
@@ -27277,8 +27279,8 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 153, 
@@ -27812,8 +27814,8 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 4587, 
@@ -28113,7 +28115,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 3652, 
+            "followers": 3651, 
             "handle": "@MakeSchool", 
             "tweets": 1935
         }, 
@@ -29691,9 +29693,6 @@
     }, 
     "New York Code + Design Academy": {
         "accreditation": "None", 
-        "average_salary": "N/A", 
-        "class_ratio": "1:10", 
-        "cost_estimate": "$$", 
         "courses": {
             "4-Week Summer Code Camp (Teens & Adults)": {
                 "Cost": 2250, 
@@ -29794,27 +29793,6 @@
                     "Node.js"
                 ], 
                 "Title": "Part Time Web Development Bootcamp"
-            }, 
-            "Part Time Web Development Intensive": {
-                "Cost": 7500, 
-                "Course Location": [
-                    "Atlanta", 
-                    "NYC", 
-                    "Salt Lake City"
-                ], 
-                "Hours/Week": 10, 
-                "Length": 24, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Algorithms", 
-                    "CSS", 
-                    "Express", 
-                    "HTML", 
-                    "Javascript", 
-                    "jQuery", 
-                    "Node.js"
-                ], 
-                "Title": "Part Time Web Development Intensive"
             }, 
             "Ruby On Rails 101": {
                 "Cost": null, 
@@ -29924,17 +29902,14 @@
                 "Title": "Web Development 100"
             }, 
             "Web Development Intensive": {
-                "Class Size": 15, 
                 "Cost": 10000, 
                 "Course Location": [
                     "Philadelphia"
                 ], 
                 "Hours/Week": 40, 
-                "Length": 12, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "MySQL", 
                     "Front End", 
@@ -29977,7 +29952,6 @@
         ], 
         "email": "info@nycda.com", 
         "facebook": "https://www.facebook.com/TheNewYorkCodeDesignAcademy", 
-        "hiring_rate": "No data", 
         "housing": "NYCDA has a partnership with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
@@ -29994,8 +29968,274 @@
             "Philadelphia"
         ], 
         "name": "New York Code + Design Academy", 
-        "num_alumni": "N/A", 
         "num_courses": 12, 
+        "num_locations": 9, 
+        "technologies": [
+            "MySQL", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js", 
+            "Ruby on Rails", 
+            "Sinatra", 
+            "Design", 
+            "Ruby", 
+            "User Experience Design", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "React.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 1506, 
+            "handle": "@NYCodeDesign", 
+            "tweets": 1479
+        }, 
+        "visas": "No", 
+        "website": "https://nycda.com/"
+    }, 
+    "New York Code And Design Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:10", 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Angularjs 101": {
+                "Class Size": null, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Javascript", 
+                    "Node.js"
+                ], 
+                "Title": "AngularJS 101"
+            }, 
+            "Front End 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front End 101"
+            }, 
+            "Ios Development 101": {
+                "Class Size": 20, 
+                "Cost": 4000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 3, 
+                "Length": 12, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript", 
+                    "Objective-C"
+                ], 
+                "Title": "iOS Development 101"
+            }, 
+            "Part Time Web Development Intensive": {
+                "Cost": 7500, 
+                "Course Location": [
+                    "Atlanta", 
+                    "NYC", 
+                    "Salt Lake City"
+                ], 
+                "Hours/Week": 10, 
+                "Length": 24, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "CSS", 
+                    "Express", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Node.js"
+                ], 
+                "Title": "Part Time Web Development Intensive"
+            }, 
+            "Ruby On Rails 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Ruby on Rails 101"
+            }, 
+            "Summer Code Camp": {
+                "Class Size": 20, 
+                "Cost": 5000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 35, 
+                "Length": 4, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Summer Code Camp"
+            }, 
+            "Ux/Ui Design 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Illustrator", 
+                    "UX"
+                ], 
+                "Title": "UX/UI Design 101"
+            }, 
+            "Web Development 101": {
+                "Class Size": 20, 
+                "Cost": 3500, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 16, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby on Rails", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Web Development 101"
+            }, 
+            "Web Development Intensive": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Atlanta", 
+                    "Austin", 
+                    "NYC", 
+                    "Philadelphia", 
+                    "Raleigh", 
+                    "Salt Lake City", 
+                    "Seattle", 
+                    "Washington DC"
+                ], 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "SQL", 
+                    "Web Services"
+                ], 
+                "Title": "Web Development Intensive"
+            }
+        }, 
+        "general_cost": "$", 
+        "hiring_rate": "No data", 
+        "last_updated": "2016-09-23", 
+        "locations": [
+            "New York City", 
+            "Atlanta", 
+            "Philadelphia", 
+            "Washington DC", 
+            "Raleigh", 
+            "Austin", 
+            "Salt Lake City", 
+            "Seattle", 
+            "Amsterdam"
+        ], 
+        "name": "New York Code And Design Academy", 
+        "num_alumni": "N/A", 
         "num_locations": 9, 
         "su_num_reviews": 2, 
         "su_rating": 5.0, 
@@ -30024,38 +30264,13 @@
             "SQL", 
             "Web Services", 
             "Express.js", 
-            "Node.js", 
-            "MySQL", 
-            "Front End", 
-            "Git", 
-            "Sinatra", 
-            "Design", 
-            "User Experience Design", 
-            "Swift", 
-            "iOS", 
-            "Xcode", 
-            "Mobile", 
-            "React.js"
+            "Node.js"
         ], 
         "top_source": [
-            "CourseReport"
+            "SwitchUp"
         ], 
-        "tracking_groups": [
-            "Selected Camp"
-        ], 
-        "tracks": [
-            "Mobile Development", 
-            "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
-        ], 
-        "twitter": {
-            "followers": 1506, 
-            "handle": "@NYCodeDesign", 
-            "tweets": 1479
-        }, 
-        "visas": "No", 
-        "website": "https://nycda.com/"
+        "tracking_groups": [], 
+        "website": "http://nycda.com/"
     }, 
     "Next Academy": {
         "accreditation": "None", 
@@ -33464,12 +33679,12 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Other", 
-            "Product Management", 
+            "Full-Stack Web Development", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Other", 
+            "Product Management", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 2245, 
@@ -35094,17 +35309,17 @@
         "cr_num_reviews": 45, 
         "cr_rating": 4.8, 
         "cr_technologies": [
-            "C#", 
-            ".NET", 
-            "ASP.NET", 
-            "HTML", 
-            "CSS", 
-            "JavaScript", 
-            "jQuery", 
             "AngularJS", 
             "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
             "Git", 
+            "C#", 
+            "ASP.NET", 
             "SQL", 
+            "jQuery", 
+            "CSS", 
             "MySQL", 
             "Java"
         ], 
@@ -35152,10 +35367,10 @@
             "AngularJS", 
             ".NET", 
             "SQL", 
-            "C#", 
-            "ASP.NET", 
             "Front End", 
-            "Git"
+            "Git", 
+            "C#", 
+            "ASP.NET"
         ], 
         "top_source": [
             "CourseReport"
@@ -36490,7 +36705,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-23", 
+        "last_updated": "2016-09-22", 
         "locations": [
             "London"
         ], 
@@ -37266,9 +37481,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 479, 
+            "followers": 480, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1256
+            "tweets": 1255
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -40043,10 +40258,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
+            "UX Design", 
             "Product Management", 
-            "Digital Marketing", 
-            "UX Design"
+            "Other", 
+            "Digital Marketing"
         ], 
         "twitter": {
             "followers": 3492, 
@@ -42287,9 +42502,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 734, 
+            "followers": 733, 
             "handle": "@wegotcoders", 
-            "tweets": 1542
+            "tweets": 1540
         }, 
         "visas": null, 
         "website": "http://wegotcoders.com"
@@ -42492,7 +42707,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1975, 
+            "followers": 1974, 
             "handle": "@wethinkcode", 
             "tweets": 987
         }, 
@@ -43332,7 +43547,7 @@
             "Girl Develop It", 
             "Boole Institute"
         ], 
-        "Date/Time": "2016-09-23 10:36:36", 
+        "Date/Time": "2016-09-23 10:10:47", 
         "Days Out": 11, 
         "Detroit": [
             "Grand Circus", 
@@ -43343,7 +43558,7 @@
             "Girl Develop It", 
             "Become A Developer Bootcamp ( Net)"
         ], 
-        "Number of Entries": 385, 
+        "Number of Entries": 386, 
         "Pittsburgh": [
             "Academy Pittsburgh", 
             "Girl Develop It"
@@ -43381,13 +43596,13 @@
             "Akron": 1, 
             "Albuquerque": 3, 
             "Allendale": 1, 
-            "Amsterdam": 3, 
+            "Amsterdam": 4, 
             "Ann Arbor": 1, 
             "Appleton": 1, 
             "Asheville": 1, 
             "Athens": 1, 
-            "Atlanta": 12, 
-            "Austin": 17, 
+            "Atlanta": 13, 
+            "Austin": 18, 
             "Bali": 3, 
             "Baltimore": 3, 
             "Bangalore": 4, 
@@ -43432,7 +43647,7 @@
             "Columbus": 3, 
             "Conway": 1, 
             "Copenhagen": 1, 
-            "Dallas": 12, 
+            "Dallas": 13, 
             "Dayton": 1, 
             "Delhi": 1, 
             "Denver": 14, 
@@ -43494,7 +43709,7 @@
             "Nantes": 1, 
             "Nashville": 3, 
             "New Orleans": 2, 
-            "New York City": 41, 
+            "New York City": 42, 
             "Oakland": 3, 
             "Obidos": 1, 
             "Okanagan": 1, 
@@ -43508,7 +43723,7 @@
             "Panama City": 1, 
             "Paris": 3, 
             "Perth": 1, 
-            "Philadelphia": 8, 
+            "Philadelphia": 9, 
             "Phoenix": 2, 
             "Pittsburgh": 2, 
             "Portland": 8, 
@@ -43517,11 +43732,11 @@
             "Providence": 1, 
             "Provo": 8, 
             "Puerto Vallarta": 1, 
-            "Raleigh": 6, 
+            "Raleigh": 7, 
             "Reno": 1, 
             "Rio de Janeiro": 1, 
             "Rochester": 1, 
-            "Salt Lake City": 8, 
+            "Salt Lake City": 9, 
             "San Antonio": 4, 
             "San Diego": 6, 
             "San Francisco": 36, 
@@ -43531,7 +43746,7 @@
             "Santiago": 2, 
             "Sao Paulo": 2, 
             "Scottsdale": 1, 
-            "Seattle": 17, 
+            "Seattle": 18, 
             "Shreveport": 1, 
             "Silicon Valley": 8, 
             "Singapore": 4, 
@@ -43551,7 +43766,7 @@
             "Wales": 1, 
             "Warsaw": 1, 
             "Washington": 11, 
-            "Washington DC": 2, 
+            "Washington DC": 3, 
             "Wellington": 1, 
             "West Palm Beach": 1, 
             "Westwood": 1, 
@@ -43568,7 +43783,7 @@
             "Business": 6, 
             "C#": 38, 
             "C++": 4, 
-            "CSS": 226, 
+            "CSS": 227, 
             "Clojure": 4, 
             "Cocoa": 12, 
             "CoffeeScript": 7, 
@@ -43582,24 +43797,24 @@
             "Drupal": 1, 
             "Entrepreneurship": 14, 
             "Excel": 8, 
-            "Express.js": 50, 
+            "Express.js": 51, 
             "Front End": 88, 
             "Game Design": 2, 
             "Game Development": 6, 
             "Git": 144, 
             "Go": 4, 
             "Growth Hacking": 15, 
-            "HTML": 230, 
+            "HTML": 231, 
             "Hadoop": 17, 
             "Illustrator": 7, 
             "Java": 51, 
-            "JavaScript": 234, 
+            "JavaScript": 235, 
             "Linux": 7, 
             "Mobile": 49, 
             "MongoDB": 73, 
             "MySQL": 75, 
             "NoLang": 1, 
-            "Node.js": 95, 
+            "Node.js": 96, 
             "Objective-C": 38, 
             "PHP": 45, 
             "Perl": 2, 
@@ -43610,10 +43825,10 @@
             "Python": 62, 
             "R": 16, 
             "React.js": 38, 
-            "Ruby": 87, 
-            "Ruby on Rails": 100, 
+            "Ruby": 88, 
+            "Ruby on Rails": 101, 
             "SEO": 29, 
-            "SQL": 120, 
+            "SQL": 121, 
             "SQL Business Intelligence": 1, 
             "SQL Programming": 1, 
             "SQL Server Administration": 1, 
@@ -43635,7 +43850,7 @@
             "Wordpress": 19, 
             "Xcode": 24, 
             "iOS": 60, 
-            "jQuery": 149
+            "jQuery": 150
         }
     }
 }

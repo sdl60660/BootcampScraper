@@ -703,17 +703,17 @@
         "cr_num_reviews": 45, 
         "cr_rating": 4.8, 
         "cr_technologies": [
-            "C#", 
-            ".NET", 
-            "ASP.NET", 
-            "HTML", 
-            "CSS", 
-            "JavaScript", 
-            "jQuery", 
             "AngularJS", 
             "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
             "Git", 
+            "C#", 
+            "ASP.NET", 
             "SQL", 
+            "jQuery", 
+            "CSS", 
             "MySQL", 
             "Java"
         ], 
@@ -761,10 +761,10 @@
             "AngularJS", 
             ".NET", 
             "SQL", 
-            "C#", 
-            "ASP.NET", 
             "Front End", 
-            "Git"
+            "Git", 
+            "C#", 
+            "ASP.NET"
         ], 
         "top_source": [
             "CourseReport"
@@ -1026,9 +1026,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 479, 
+            "followers": 480, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1256
+            "tweets": 1255
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -1266,7 +1266,7 @@
             "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-23 10:36:37", 
+        "Date/Time": "2016-09-23 10:10:48", 
         "Days Out": 11, 
         "Detroit": [
             "Girl Develop It"

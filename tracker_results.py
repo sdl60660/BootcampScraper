@@ -7,9 +7,7 @@ from tracking import tracking_group_stats
 from utilities import return_closest
 
 import numpy as np
-
 import sys
-
 from pprint import pprint
 
 cats = ['locations', 'technologies']

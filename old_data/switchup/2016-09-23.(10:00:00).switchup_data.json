@@ -354,20 +354,22 @@
     }, 
     "Alt-U": {
         "average_salary": "N/A", 
-        "class_ratio": "1:10", 
-        "cost_estimate": "$$$", 
+        "class_ratio": null, 
+        "cost_estimate": null, 
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-23", 
-        "locations": null, 
+        "locations": [
+            "Dallas"
+        ], 
         "name": "Alt-U", 
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "su_num_reviews": null, 
         "su_rating": null, 
         "su_technologies": null, 
-        "subjects": "iOS", 
+        "subjects": null, 
         "technologies": [], 
         "top_source": [
             "SwitchUp"
@@ -8971,7 +8973,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-23", 
+        "last_updated": "2016-09-22", 
         "locations": [
             "Melbourne", 
             "San Francisco", 
@@ -11763,7 +11765,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-23", 
+        "last_updated": "2016-09-22", 
         "locations": [
             "Paris", 
             "Amsterdam", 
@@ -13110,11 +13112,74 @@
         "tracking_groups": [], 
         "website": "http://www.nationofcode.com"
     }, 
-    "New York Code + Design Academy": {
+    "New York Code And Design Academy": {
         "average_salary": "N/A", 
         "class_ratio": "1:10", 
         "cost_estimate": "$$", 
         "courses": {
+            "Angularjs 101": {
+                "Class Size": null, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Javascript", 
+                    "Node.js"
+                ], 
+                "Title": "AngularJS 101"
+            }, 
+            "Front End 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front End 101"
+            }, 
+            "Ios Development 101": {
+                "Class Size": 20, 
+                "Cost": 4000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 3, 
+                "Length": 12, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript", 
+                    "Objective-C"
+                ], 
+                "Title": "iOS Development 101"
+            }, 
             "Part Time Web Development Intensive": {
                 "Cost": 7500, 
                 "Course Location": [
@@ -13136,6 +13201,91 @@
                 ], 
                 "Title": "Part Time Web Development Intensive"
             }, 
+            "Ruby On Rails 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Ruby on Rails 101"
+            }, 
+            "Summer Code Camp": {
+                "Class Size": 20, 
+                "Cost": 5000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 35, 
+                "Length": 4, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Summer Code Camp"
+            }, 
+            "Ux/Ui Design 101": {
+                "Class Size": 20, 
+                "Cost": 2000, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Illustrator", 
+                    "UX"
+                ], 
+                "Title": "UX/UI Design 101"
+            }, 
+            "Web Development 101": {
+                "Class Size": 20, 
+                "Cost": 3500, 
+                "Course Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Hours/Week": 6, 
+                "Length": 16, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby on Rails", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Web Development 101"
+            }, 
             "Web Development Intensive": {
                 "Class Size": 15, 
                 "Cost": 10000, 
@@ -13151,6 +13301,10 @@
                 ], 
                 "Hours/Week": 40, 
                 "Length": 12, 
+                "Location": [
+                    "Los Angeles", 
+                    "NYC"
+                ], 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Algorithms", 
@@ -13166,6 +13320,7 @@
                 "Title": "Web Development Intensive"
             }
         }, 
+        "general_cost": "$", 
         "hiring_rate": "No data", 
         "last_updated": "2016-09-23", 
         "locations": [
@@ -13179,7 +13334,7 @@
             "Seattle", 
             "Amsterdam"
         ], 
-        "name": "New York Code + Design Academy", 
+        "name": "New York Code And Design Academy", 
         "num_alumni": "N/A", 
         "num_locations": 9, 
         "su_num_reviews": 2, 
@@ -13214,9 +13369,7 @@
         "top_source": [
             "SwitchUp"
         ], 
-        "tracking_groups": [
-            "Selected Camp"
-        ], 
+        "tracking_groups": [], 
         "website": "http://nycda.com/"
     }, 
     "Next Academy": {
@@ -14857,7 +15010,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-23", 
+        "last_updated": "2016-09-22", 
         "locations": [
             "New York City"
         ], 
@@ -15999,7 +16152,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": "No data", 
-        "last_updated": "2016-09-23", 
+        "last_updated": "2016-09-22", 
         "locations": [
             "London"
         ], 
@@ -19606,7 +19759,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-09-23 10:31:57", 
+        "Date/Time": "2016-09-23 10:06:04", 
         "Days Out": 11, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -19685,7 +19838,7 @@
             "Columbus": 3, 
             "Copenhagen": 1, 
             "Costa Rica": 1, 
-            "Dallas": 10, 
+            "Dallas": 11, 
             "Dayton": 1, 
             "Denver": 8, 
             "Detroit": 7, 

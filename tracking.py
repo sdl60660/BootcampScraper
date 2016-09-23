@@ -28,6 +28,8 @@ def generate_filename(date, tracking_group=None):
     date_input = str(date) + '.*'
     if tracking_group:
         file_stub = return_closest(tracking_group, tracking_group_files, 0.4)
+        print date_input
+        print file_stub
         date_input += file_stub
         filename = find_file(date_input, 'old_data/tracking_groups/')[-1]
     else:
@@ -144,30 +146,44 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
                     
     return print_arrays
 
-"""def plot_changes(days_back, category, start_days_back=0, tracking_group='ALL', max_items=10):
+def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
+    percentage=False, start_item=0, show_legend=True):
     import matplotlib.pyplot as plt
     import heapq
+    from datetime import date
+    import math
+
+    today = date.today()
+    today_ordinal = today.toordinal()
 
     if start_days_back == 0:
         today_data = bootcamps
     else:
         today_data = load_date_data(today_ordinal, start_days_back, tracking_group)
+        today_ordinal = today_ordinal - start_days_back
 
     #NEED TO ARRANGE THE DATE X AXIS HERE BY TAKING THE START AND END DATES,
     #COMPARING THEM ORDINALLY TO TODAY AND THEN TRANSLATING THOSE ORDINALS
     #INTO DATES THAT ARE PUT INTO AN ARRAY
 
+    date_labels = [str(datetime.date.fromordinal(today_ordinal))]
     datasets = [today_data['meta'][category]]
     for day in range(1, (days_back+1)):
-        datasets.append(load_date_data(today_ordinal, day, tracking_group)['meta'][category])
+        day_date = datetime.date.fromordinal(today_ordinal - day)
+        date_labels.append(str(day_date))
+        try:
+            datasets.append(load_date_data(today_ordinal, day, tracking_group)['meta'][category])
+        except NameError:
+            datasets.append('NO DATA')
+    date_labels = date_labels[::-1]
 
-    if all(type(x) == dict for x in datasets):
+    if all(type(x) == dict or x == 'NO DATA' for x in datasets):
         current = datasets[0]
         temp_list = []
         for k, v in current.iteritems():
-            temp_list.append(k, v)
-        temp_list = sorted(temp_list, key=lambda x: x[1])
-        item_list = [x[0] for x in temp_list[:max_items]]
+            temp_list.append((k, v))
+        temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
+        item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
 
         #THIS SHOULD FILL DATA LIST WITH LISTS FOR PARTICULAR ITEMS (i.e. 'Java' or 'Chicago')
         #THESE LISTS, AFTER BEING REVERSED AT THE END, SHOULD LIST THE VALUE FOR THAT ITEM AT
@@ -177,24 +193,45 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
         for item in item_list:
             num_list = []
             for s in datasets:
-                num_list.append(s[item])
+                if s != 'NO DATA':
+                    num_list.append(s[item])
+                else:
+                    num_list.append(None)
             num_list = num_list[::-1]
             data_list.append((num_list, item))
 
+        fig = plt.figure()
+        ax = plt.subplot(111)
+
+        x_axis = np.arange(days_back + 1)
         for i, ilist in enumerate(data_list):
+            print ilist
+            ax.plot(x_axis, ilist[0], label=ilist[1])
 
+        #plt.legend(legend_list, bbox_to_anchor=(1.2, 1.1))
+        columns = int(math.floor(max_items/2))
+        if show_legend == True:
+            box = ax.get_position()
+            ax.set_position([box.x0, box.y0 + box.height * 0.1,
+                 box.width, box.height * 0.9])
+            ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
+          fancybox=True, shadow=True, ncol=columns)
+            #ax.legend(loc='lower center', ncol=columns, fancybox=True, shadow=True)
+        plt.xticks(x_axis, date_labels, size='small')
+        plt.ylabel('# of Bootcamps', fontsize='medium')
+        plt.xlabel('Date', fontsize='medium')
+        plt.ylim(ymin=0)
+        title = 'Showing Information on ' + str(category).title() + ' for: ' + date_labels[0] + ' to ' + date_labels[-1]
+        fig.suptitle(title, fontsize=15)
+        plt.show()
 
-        plt.plot(dates, num_camps)
-
-    elif all(x is list for x in datasets):
+    #elif all(x is list for x in datasets):
 
     else:
-        pass"""
+        pass
 
 
-
-
-def tracking_group_changes():
+def plot_category():
     pass
 
 
