@@ -13,7 +13,7 @@ import jsonmerge
 
 import filecmp
 
-tracking_groups = ['Java/.NET', 'Potential Markets', 'Current Markets', 'Top Camp', 'Selected Camp']
+tracking_groups = ['Java/.NET', 'Potential Market', 'Current Market', 'Top Camp', 'Selected Camp']
 tracking_group_files = ['current_markets.json', 'java_and_NET.json', 'potential_markets.json', 'selected_camps.json', 'top_camps.json']
 
 def find_file(pattern, path):
@@ -145,31 +145,57 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
     return print_arrays
 
 def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
-    percentage=False, start_item=0, show_legend=True, interval=1):
+    percentage=False, start_item=0, show_legend=True, interval=1, active_only=True):
+    
+    #Import modules
     import matplotlib.pyplot as plt
     import heapq
     from datetime import date
     import math
 
+    #Set today's date for reference
     today = date.today()
     today_ordinal = today.toordinal()
 
+    #Load date data for "today". If start_days_back == 0, this won't actually be today, but
+    #will the data for the last data point
     if start_days_back == 0 and tracking_group==None:
         today_data = bootcamps
     else:
         today_data = load_date_data(today_ordinal, start_days_back, tracking_group)
         today_ordinal = today_ordinal - start_days_back
 
+    #Initialize x-axis values and labels(dates) with the values for today or 'today'
     date_labels = [str(datetime.date.fromordinal(today_ordinal))[5:]]
     x_axis = [int(today_data['meta']['Days Out'])]
+
+    #Find closest meta category for input to allow for slight spelling or syntax mistakes with
+    #input, such as inputing 'Location' instead of 'locations'
+    meta_cat_list = [x for x in today_data['meta'].keys()]
+    category = return_closest(category, meta_cat_list, 0.7)
+
+    #If all of the items in dataset aren't either a dict or a tracking category,
+    #there's going to be an issue, so return with error message
+    if type(today_data['meta'][category]) != dict and category not in tracking_groups:
+        raise ValueError('The selected category cannot be plotted! Please enter another category.')
+
+
+    #Initialize the list of datasets with the dataset from today or 'today', as well as
+    #the list that holds total # of bootcamps in each dataset
     datasets = [today_data['meta'][category]]
     totals = [today_data['meta']['Number of Entries']]
+
+    #Fill these x-axis, label, dataset, total bootcamp lists with data from appropriately
+    #dated dataset meta data
     for day in range(1, (days_back+1), interval):
         try:
             meta_data = load_date_data(today_ordinal, day, tracking_group)['meta']
+            if meta_data['Active'] == False and active_only==True:
+                raise NameError('Non-active date for datafile')
             datasets.append(meta_data[category])
             totals.append(meta_data['Number of Entries'])
-        except NameError:
+        #If there's no corresponding dataset for a date, mark it with 'NO DATA'
+        except (KeyError, NameError):
             datasets.append('NO DATA')
             totals.append('NO DATA')
         date_labels.append(str(meta_data['Date/Time'])[5:10])
@@ -177,9 +203,15 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
     date_labels = date_labels[::-1]
     x_axis = x_axis[::-1]
 
-    if not all(type(x) == dict or x == 'NO DATA' for x in datasets):
-        return
+    #if type(datasets[0]) is list:
+    #    if category is 'Current Market':
+    #        subcats = ['Cleveland', 'Columbus']
+    #    elif category is 'Potential Market':
+    #        subcats = ['Pittsburgh', 'Detroit', 'Cincinnati', 'Buffalo', 'Toronto']
 
+    #Use the most recent dataset to determine the category items in the range start_item:max_items
+    #For example, if start_item=10 and max_items=3, it might fill item list with Java, AngularJS, .NET
+    #If those were the 10th through 12th most popular technologies in the most current dataset
     current = datasets[0]
     temp_list = []
     for k, v in current.iteritems():
@@ -187,10 +219,16 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
     temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
     item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
 
+    #Fill data_list with a set of lists, one for each of category items identified above
+    #Each of these category item lists contains values for that item for each of the required dates
     data_list = []
     for item in item_list:
         num_list = []
         for i, s in enumerate(datasets):
+            #If a date did not have a corresponding dataset, it was marked 'NO DATA' above,
+            #Fill these with None values
+            #For everything else, fill with the appropriate value or, if percentage is True,
+            #Fill with the percent of total bootcamps in the set that have this category item
             if s != 'NO DATA':
                 if percentage == True:
                     num_list.append(100*s[item]/float(totals[i]))
@@ -201,32 +239,39 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
         num_list = num_list[::-1]
         data_list.append((num_list, item))
 
+    #-----------------PLOT THE DATA-----------------#
+
+    #Set up plot
     fig = plt.figure()
     ax = plt.subplot(111)
 
+    #Plot a line for each of the item lists in data_list
     for i, ilist in enumerate(data_list):
         print ilist
         print x_axis
         ax.plot(x_axis, ilist[0], label=ilist[1])
 
-    columns = int(math.floor(max_items/2))
+    #Arrange, position, format the legend if show_legend is True
     if show_legend == True:
+        columns = int(math.floor(max_items/2))
         box = ax.get_position()
         ax.set_position([box.x0, box.y0 + box.height * 0.1,
              box.width, box.height * 0.9])
         ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
             fancybox=True, shadow=True, ncol=columns)
     
+    #Put date labels on the x_axis for each dataset's meta date field
     plt.xticks(x_axis, date_labels, size='small')
     
+    #Set axis labels, adjust based on whether the setting was for raw number or percentage
     if percentage == False:
         plt.ylabel('# of Bootcamps', fontsize='medium')
     else:
         plt.ylabel('% of Bootcamps', fontsize='medium')
-    
     plt.xlabel('Date', fontsize='medium')
     plt.ylim(ymin=0)
     
+    #Set plot title
     if tracking_group == None:
         tgroup_label = ''
     else:
@@ -235,6 +280,8 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
     title = 'Showing Information on ' + str(category).title() + ' for: ' \
      + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
     fig.suptitle(title, fontsize=13)
+
+    #Show plot
     plt.show()
 
     return

@@ -10,7 +10,7 @@ def main():
 	days_back = int(sys.argv[1])
 	max_items = int(sys.argv[2])
 	percentage = bool(sys.argv[3].title())
-	plot_changes(days_back, 'locations', max_items=max_items, start_item=0, percentage=percentage, interval=2)
+	plot_changes(days_back, 'technologies', max_items=max_items, start_item=0, percentage=percentage, interval=2, active_only=False)
 
 if __name__ == '__main__':
   main()
