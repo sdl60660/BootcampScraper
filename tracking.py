@@ -28,8 +28,6 @@ def generate_filename(date, tracking_group=None):
     date_input = str(date) + '.*'
     if tracking_group:
         file_stub = return_closest(tracking_group, tracking_group_files, 0.4)
-        print date_input
-        print file_stub
         date_input += file_stub
         filename = find_file(date_input, 'old_data/tracking_groups/')[-1]
     else:
@@ -147,7 +145,7 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
     return print_arrays
 
 def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
-    percentage=False, start_item=0, show_legend=True):
+    percentage=False, start_item=0, show_legend=True, interval=1):
     import matplotlib.pyplot as plt
     import heapq
     from datetime import date
@@ -156,82 +154,97 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
     today = date.today()
     today_ordinal = today.toordinal()
 
-    if start_days_back == 0:
+    if start_days_back == 0 and tracking_group==None:
         today_data = bootcamps
     else:
         today_data = load_date_data(today_ordinal, start_days_back, tracking_group)
         today_ordinal = today_ordinal - start_days_back
 
-    #NEED TO ARRANGE THE DATE X AXIS HERE BY TAKING THE START AND END DATES,
-    #COMPARING THEM ORDINALLY TO TODAY AND THEN TRANSLATING THOSE ORDINALS
-    #INTO DATES THAT ARE PUT INTO AN ARRAY
-
-    date_labels = [str(datetime.date.fromordinal(today_ordinal))]
+    date_labels = [str(datetime.date.fromordinal(today_ordinal))[5:]]
+    x_axis = [int(today_data['meta']['Days Out'])]
     datasets = [today_data['meta'][category]]
-    for day in range(1, (days_back+1)):
-        day_date = datetime.date.fromordinal(today_ordinal - day)
-        date_labels.append(str(day_date))
+    totals = [today_data['meta']['Number of Entries']]
+    for day in range(1, (days_back+1), interval):
         try:
-            datasets.append(load_date_data(today_ordinal, day, tracking_group)['meta'][category])
+            meta_data = load_date_data(today_ordinal, day, tracking_group)['meta']
+            datasets.append(meta_data[category])
+            totals.append(meta_data['Number of Entries'])
         except NameError:
             datasets.append('NO DATA')
+            totals.append('NO DATA')
+        date_labels.append(str(meta_data['Date/Time'])[5:10])
+        x_axis.append(int(meta_data['Days Out']))
     date_labels = date_labels[::-1]
+    x_axis = x_axis[::-1]
 
-    if all(type(x) == dict or x == 'NO DATA' for x in datasets):
-        current = datasets[0]
-        temp_list = []
-        for k, v in current.iteritems():
-            temp_list.append((k, v))
-        temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
-        item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
+    if not all(type(x) == dict or x == 'NO DATA' for x in datasets):
+        return
 
-        #THIS SHOULD FILL DATA LIST WITH LISTS FOR PARTICULAR ITEMS (i.e. 'Java' or 'Chicago')
-        #THESE LISTS, AFTER BEING REVERSED AT THE END, SHOULD LIST THE VALUE FOR THAT ITEM AT
-        #A GIVEN DATE, GOING BACK TO THE SPECIFIED NUMBER OF DAYS FROM OLDEST TO MOST CURRENT
-        #THE NUMBER OF ITEM LISTS ('num_list') IN DATA LIST SHOULD BE EQUAL TO 'max_items'
-        data_list = []
-        for item in item_list:
-            num_list = []
-            for s in datasets:
-                if s != 'NO DATA':
-                    num_list.append(s[item])
+    current = datasets[0]
+    temp_list = []
+    for k, v in current.iteritems():
+        temp_list.append((k, v))
+    temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
+    item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
+
+    data_list = []
+    for item in item_list:
+        num_list = []
+        for i, s in enumerate(datasets):
+            if s != 'NO DATA':
+                if percentage == True:
+                    num_list.append(100*s[item]/float(totals[i]))
                 else:
-                    num_list.append(None)
-            num_list = num_list[::-1]
-            data_list.append((num_list, item))
+                    num_list.append(s[item])
+            else:
+                num_list.append(None)
+        num_list = num_list[::-1]
+        data_list.append((num_list, item))
 
-        fig = plt.figure()
-        ax = plt.subplot(111)
+    fig = plt.figure()
+    ax = plt.subplot(111)
 
-        x_axis = np.arange(days_back + 1)
-        for i, ilist in enumerate(data_list):
-            print ilist
-            ax.plot(x_axis, ilist[0], label=ilist[1])
+    for i, ilist in enumerate(data_list):
+        print ilist
+        print x_axis
+        ax.plot(x_axis, ilist[0], label=ilist[1])
 
-        #plt.legend(legend_list, bbox_to_anchor=(1.2, 1.1))
-        columns = int(math.floor(max_items/2))
-        if show_legend == True:
-            box = ax.get_position()
-            ax.set_position([box.x0, box.y0 + box.height * 0.1,
-                 box.width, box.height * 0.9])
-            ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
-          fancybox=True, shadow=True, ncol=columns)
-            #ax.legend(loc='lower center', ncol=columns, fancybox=True, shadow=True)
-        plt.xticks(x_axis, date_labels, size='small')
+    columns = int(math.floor(max_items/2))
+    if show_legend == True:
+        box = ax.get_position()
+        ax.set_position([box.x0, box.y0 + box.height * 0.1,
+             box.width, box.height * 0.9])
+        ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
+            fancybox=True, shadow=True, ncol=columns)
+    
+    plt.xticks(x_axis, date_labels, size='small')
+    
+    if percentage == False:
         plt.ylabel('# of Bootcamps', fontsize='medium')
-        plt.xlabel('Date', fontsize='medium')
-        plt.ylim(ymin=0)
-        title = 'Showing Information on ' + str(category).title() + ' for: ' + date_labels[0] + ' to ' + date_labels[-1]
-        fig.suptitle(title, fontsize=15)
-        plt.show()
-
-    #elif all(x is list for x in datasets):
-
     else:
-        pass
+        plt.ylabel('% of Bootcamps', fontsize='medium')
+    
+    plt.xlabel('Date', fontsize='medium')
+    plt.ylim(ymin=0)
+    
+    if tracking_group == None:
+        tgroup_label = ''
+    else:
+        tgroup_label = ' (Tracking Group: ' + str(tracking_group) + ')'
+    
+    title = 'Showing Information on ' + str(category).title() + ' for: ' \
+     + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
+    fig.suptitle(title, fontsize=13)
+    plt.show()
 
+    return
 
+#PLOTS IN BAR OR PIE CHART THE MOST RECENT BREAKDOWN FOR A CATEGORY
 def plot_category():
+    pass
+
+#PLOTS SPECIFIED BOOTCAMPS FOR SPECIFIED CATEGORIES (I.E. NUM_LOCATIONS FOR SPECIFIED BOOTCAMPS OVER TIME)
+def plot_bootcamp_info():
     pass
 
 

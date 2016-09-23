@@ -7,7 +7,19 @@ from utilities import return_closest
 import sys
 
 def main():
-	plot_changes(15, 'technologies', max_items=10, start_item=10, show_legend=False)
+	days_back = int(sys.argv[1])
+	max_items = int(sys.argv[2])
+	percentage = bool(sys.argv[3].title())
+	plot_changes(days_back, 'locations', max_items=max_items, start_item=0, percentage=percentage, interval=2)
 
 if __name__ == '__main__':
   main()
+
+
+#1. GET PLOT FOR NUMBER OF CAMPS IN META TRACKING CATEGORIES (OVERALL IN 'POTENTIAL MARKETS' AND EACH POTENTIAL MARKET, FOR EXAMPLE)
+#2. SETUP OPTION FOR PLOTS TO SAVE TO CERTAIN FOLDER IN OLD_DATA
+#2b. OPTION TO EXPORT RAW PLOT DATA TO A LOG FILE
+#3. BUILD OUT OTHER PLOT FUNCTIONS
+#4. DECIDE WHAT WOULD BE HELPFUL TO PLOT EVERY MONTH (MAYBE EVERY WEEK)
+#5. WRITE A BASH SCRIPT TO RUN THE APPROPRIATE PLOTS FROM GENERATE_PLOT.PY FOR ABOVE
+#6. ADD A MONTHLY OR WEEKLY CRONJOB TO RUN THIS SCRIPT AND STORE PLOTS IN AN OLD_DATA FOLDER OR SEPARATE DATA FOLDER
