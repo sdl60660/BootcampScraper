@@ -145,7 +145,7 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
     return print_arrays
 
 def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
-    percentage=False, start_item=0, show_legend=True, interval=1, active_only=True):
+    percentage=False, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True):
     
     #Import modules
     import matplotlib.pyplot as plt
@@ -296,7 +296,7 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
             fancybox=True, shadow=True, ncol=columns)
     
     #Put date labels on the x_axis for each dataset's meta date field
-    plt.xticks(x_axis, date_labels, size='small')
+    plt.xticks(x_axis, date_labels, fontsize=7)
     
     #Set axis labels, adjust based on whether the setting was for raw number or percentage
     if percentage == False:
@@ -316,8 +316,13 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
      + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
     fig.suptitle(title, fontsize=13)
 
+    if save_plot == True:
+        plot_file_name = 'old_data/trend_charts/' + title[(title.find('Information on ') + 15):]
+        plt.savefig(plot_file_name, bbox_inches='tight')
+
     #Show plot
-    plt.show()
+    if show_plot == True:
+        plt.show()
 
     return
 

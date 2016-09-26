@@ -199,8 +199,6 @@ class TrackingGroupTags(object):
         current_markets = ['cleveland', 'columbus']
         potential_markets = ['cincinnati', 'pittsburgh', 'detroit', 'buffalo', 'toronto']
         java_and_net = ['Claim Academy', 'Coder Camps', 'Coder Foundry', 'Code Ninja', 'Coding Temple', 'Devcodecamp', 'Epicodus', 'Fire Bootcamp', 'Grand Circus', 'Sabio', 'Skill Distillery', 'Software Guild', 'The Iron Yard', 'The Tech Academy']
-        #add list of top Java/.NET, check for thse while iterating through camp names (first loop)
-        #general tag for all Java/.NET
 
         for camp in top_camps:
             if item['name'].title() == camp.title():
