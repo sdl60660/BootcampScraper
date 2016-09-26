@@ -13,14 +13,16 @@ from pprint import pprint
 cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
 
-def print_stats(print_arrays):
-	for print_array in print_arrays:
+def print_stats(print_arrays, max_diff):
+	for print_array, diff in zip(print_arrays, max_diff):
 		if len(print_array[0]) > 0:
 			print
-			print str(print_array[1]).upper()
+			print str(print_array[1]).upper() #<--THIS IS PRINTING A NUMBER, SHOULD BE PRINTING A CATEGORY
 			print_array = print_array[0]
 			for change in print_array:
 				pprint(change, indent=4)
+			print
+			print 'BIGGEST CHANGES: ' + str(diff)
 	return
 
 def print_details(detail_tuples):
@@ -42,12 +44,12 @@ def print_details(detail_tuples):
 	return
 
 def full_print(days_back, cats, group='ALL'):
-	print_arrays = tracking_group_stats(days_back, group)
+	print_arrays, max_diff = tracking_group_stats(days_back, group)
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
 		print "Changes"
 		print "-------"
-	print_stats(print_arrays)
+	print_stats(print_arrays, max_diff)
 
 	detail_array = []
 	cat_data_list = []

@@ -8,6 +8,10 @@ from tracking import plot_changes
 from utilities import return_closest
 
 def main():
+	if len(sys.argv) < 5:
+		print 'USAGE: python generate_plot.py [days_back] [category] [max_items] [percentage_option] [show_plot] (OPTIONAL:) [tracking_group]'
+		sys.exit()
+
 	days_back = int(sys.argv[1])
 	category = sys.argv[2]
 	max_items = int(sys.argv[3])

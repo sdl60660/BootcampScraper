@@ -99,7 +99,7 @@ def tracked_camp_changes(days_back, category, tracking_group='ALL'):
     return new_points
 
 
-def tracking_group_stats(days_back, tracking_group='ALL'):
+def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
     with open('current_data/output.json', 'rb') as current_data:
         bootcamps = json.load(current_data)
     old_data = load_date_data(today_ordinal, days_back)
@@ -115,6 +115,7 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
     old_meta = old_data['meta']
 
     print_arrays = []
+    diff_arrays = []
 
     for x in current_meta:
         cat = current_meta[x]
@@ -123,6 +124,7 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
                 if item not in old_meta[x]:
                     print str(x).title() + ': ' + str(item)
         elif type(cat) is dict:
+            max_diff = [(None, 0) for j in range(highlight_length)]
             print_array = []
             for key, value in cat.iteritems():
                 try:
@@ -131,18 +133,20 @@ def tracking_group_stats(days_back, tracking_group='ALL'):
                     old_val = 0
                 if value != old_val:
                     diff = value - old_val
+                    max_diff = sorted(max_diff, key=lambda x: abs(x[1]), reverse=True)
+                    for i, item in enumerate(max_diff):
+                        if abs(diff) > abs(item[1]):
+                            max_diff.insert(i, (key, diff))
+                            max_diff = max_diff[:-1]
+                            break
                     out_str = str(key) + ': ' + str(value) + ' (%+d)' % diff
                     print_array.append((out_str, value))
-            print_array = sorted(print_array, key=lambda x: x[1], reverse=True)
+            print_array = sorted(print_array, key=lambda y: y[1], reverse=True)
             print_array = [item[0] for item in print_array]
-            """if len(print_array) > 0:
-                print
-                print str(x).upper()
-            for change in print_array:
-                pprint(change, indent=4)"""
             print_arrays.append((print_array, x))
-                    
-    return print_arrays
+            diff_arrays.append(max_diff)
+            
+    return print_arrays, diff_arrays
 
 def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
     percentage=False, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True):
