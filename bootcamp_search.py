@@ -244,235 +244,242 @@ def info_print(title, info, categories=None, course_categories=None, secondary_c
 #*****======================================MAIN========================================*****
 #============================================================================================
 
-#GLOBAL LISTS
-tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
-tracking_groups_files = find_file('*.json','current_data/tracking_groups')
-filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
-warning_list = []
+def main():
+    import os
+    os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
+    #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
+    print os.getcwd()
+    #GLOBAL LISTS
+    tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
+    tracking_groups_files = find_file('*.json','current_data/tracking_groups')
+    filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
+    warning_list = []
 
-#COMMAND LINE OPTION PROCESSING
-or_flag = False
-summary_flag = False
-list_flag = False
-sort_flag = False
-custom_file = False
+    #COMMAND LINE OPTION PROCESSING
+    or_flag = False
+    summary_flag = False
+    list_flag = False
+    sort_flag = False
+    custom_file = False
 
-for arg in range(len(sys.argv)):
-    if sys.argv[arg] == '--or':
-        or_flag = True
-        sys.argv.remove('--or')
-        break
+    for arg in range(len(sys.argv)):
+        if sys.argv[arg] == '--or':
+            or_flag = True
+            sys.argv.remove('--or')
+            break
 
-for arg in range(len(sys.argv)):
-    if sys.argv[arg] == '--list':
-        list_flag = True
-        sys.argv.remove('--list')
-        break
+    for arg in range(len(sys.argv)):
+        if sys.argv[arg] == '--list':
+            list_flag = True
+            sys.argv.remove('--list')
+            break
 
-for arg in range(len(sys.argv)):
-    if sys.argv[arg] == '--summary':
-        summary_flag = True
-        sys.argv.remove('--summary')
-        break
+    for arg in range(len(sys.argv)):
+        if sys.argv[arg] == '--summary':
+            summary_flag = True
+            sys.argv.remove('--summary')
+            break
 
-for arg in range(len(sys.argv)):
-    if sys.argv[arg] == '--sort':
-        sort_flag = True
-        sys.argv.remove('--sort')
-        break
+    for arg in range(len(sys.argv)):
+        if sys.argv[arg] == '--sort':
+            sort_flag = True
+            sys.argv.remove('--sort')
+            break
 
-for arg in range(len(sys.argv)):
-    if sys.argv[arg] == '--file':
-        custom_file = True
-        sys.argv.remove('--file')
-        datafile = sys.argv[1]
-        sys.argv.remove(sys.argv[1])
-        if len(datafile) < 12:
-            datafile = date_to_file(datafile)
-        if os.path.isfile(datafile) == False:
-            print 'Could not find the specified file, switching to default data file.'
-            print
-            datafile = 'current_data/output.json'
-        break
+    for arg in range(len(sys.argv)):
+        if sys.argv[arg] == '--file':
+            custom_file = True
+            sys.argv.remove('--file')
+            datafile = sys.argv[1]
+            sys.argv.remove(sys.argv[1])
+            if len(datafile) < 12:
+                datafile = date_to_file(datafile)
+            if os.path.isfile(datafile) == False:
+                print 'Could not find the specified file, switching to default data file.'
+                print
+                datafile = 'current_data/output.json'
+            break
 
-#OPEN SEARCH TERM FILE FROM CURRENT DATA AND LOAD CSV DATA INTO SEARCH LIST
-#IN THE FORM OF "(term, type)"
-search_list = []
+    #OPEN SEARCH TERM FILE FROM CURRENT DATA AND LOAD CSV DATA INTO SEARCH LIST
+    #IN THE FORM OF "(term, type)"
+    search_list = []
 
-search_term_file = 'current_data/search_terms.csv'
-with open(search_term_file, 'r') as term_csv:
-    search_terms = csv.reader(term_csv)
-    for row in search_terms:
-        search_list.append((row[0], row[1]))
+    search_term_file = 'current_data/search_terms.csv'
+    with open(search_term_file, 'r') as term_csv:
+        search_terms = csv.reader(term_csv)
+        for row in search_terms:
+            search_list.append((row[0], row[1]))
 
-if len(sys.argv) == 2 and sys.argv[1] == 'terms':
-    pprint(search_list)
-    sys.exit()
+    if len(sys.argv) == 2 and sys.argv[1] == 'terms':
+        pprint(search_list)
+        sys.exit()
 
-#MATCH ALL OF THE QUERIES WITH SEARCH TERMS TO GET A LIST OF KEYS
-key_list = []
-for i in range(1, len(sys.argv)):
-    key = return_closest(sys.argv[i], search_list, 0.7)
-    key_list.append(key)
+    #MATCH ALL OF THE QUERIES WITH SEARCH TERMS TO GET A LIST OF KEYS
+    key_list = []
+    for i in range(1, len(sys.argv)):
+        key = return_closest(sys.argv[i], search_list, 0.7)
+        key_list.append(key)
 
-key_list = [x for x in key_list if x != -1]
+    key_list = [x for x in key_list if x != -1]
 
-#print
-#print key_list
-#print
-if custom_file == False:
-    datafile = 'current_data/output.json'
+    #print
+    #print key_list
+    #print
+    if custom_file == False:
+        datafile = 'current_data/output.json'
 
-#SORT SEARCH TERMS INTO KEY DICT. IF ONLY ONE TRACKING GROUP AND 'OR' IS ON, USE THAT TRACKING GROUP JSON
-tracking_list = []
-key_dict = {}
+    #SORT SEARCH TERMS INTO KEY DICT. IF ONLY ONE TRACKING GROUP AND 'OR' IS ON, USE THAT TRACKING GROUP JSON
+    tracking_list = []
+    key_dict = {}
 
-first = True
-for key in key_list:
-    if key[1] == 'Tracking Group':
-        tracking_list.append(key[0])
-        if or_flag == False and first == True:
-            datafile = str(return_closest(key[0], tracking_groups_files, 0.3))
-            first = False
-        else:
-            continue
-    else:
-        if key[1] in key_dict.keys():
-            key_dict[key[1]].append(key[0])
-        else:
-            key_dict[key[1]] = [key[0]]
-key_dict['Tracking Group'] = tracking_list
-
-
-#IF NO SEARCH TERMS WENT THROUGH, EXIT THE FUNCITON INSTEAD OF PRINTING ALL
-dict_empty = True
-for key in key_dict.keys():
-    if len(key_dict[key]) > 0:
-        dict_empty = False
-if dict_empty == True:
-    print 'No keys were entered or none of the entered keys were found. Aborting...'
-    print
-    sys.exit()
-
-print key_dict
-
-#LOAD DATA
-with open(datafile) as json_data:
-    bootcamps = json.load(json_data)
-
-if 'Meta' in key_dict.keys():
-    pprint(bootcamps['meta'])
-    sys.exit()
-
-filtered_camps = []
-
-#LOOP THROUGH BOOTCAMPS, FILTER, DISPLAY SELECTED CATEGORIES
-for camp in bootcamps:
-    try:
-        name = bootcamps[camp]['name'].title()
-    except KeyError:
-        continue
-
-    #*********************FILTERS********************
-
-    if len(key_dict['Tracking Group']) > 0:
-        if or_flag == True:
-            if any(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
+    first = True
+    for key in key_list:
+        if key[1] == 'Tracking Group':
+            tracking_list.append(key[0])
+            if or_flag == False and first == True:
+                datafile = str(return_closest(key[0], tracking_groups_files, 0.3))
+                first = False
+            else:
                 continue
         else:
-            if all(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
-                continue
-
-    #THIS IS WHERE THE 'AND/OR' METHOD CLEARLY NEEDS TO CHANGE, LOCATION ALSO NEEDS TO BE AND/OR (adjusting any/all),
-    #SO THERE NEEDS TO BE EITHER A DIFFERENT FLAG SYSTEM OR ANOTHER WAY TO INDICATE WHETHER A FILTER SHOULD BE AND/OR
-    #RIGHT NOW, IT'S USING 'ANY', SO IT'S ESSENTIALLY AN 'OR' BY DEFAULT
-    try:
-        if set(key_dict['Location']).issubset(bootcamps[camp]['locations']) == False:
-        #if any(i in bootcamps[camp]['locations'] for i in key_dict['Location']) == False:
-            continue
-    except KeyError:
-        pass
-    except TypeError:
-        continue
-
-    try:
-        #THIS IS 'AND'
-        if set(key_dict['Technology']).issubset(bootcamps[camp]['technologies']) == False:
-        #THIS WOULD BE 'OR'
-        #if any(i in bootcamps[camp]['technologies'] for i in key_dict['Technology']) == False:
-            continue
-    except KeyError:
-        pass
-    except TypeError:
-        continue
-
-    filtered_camps.append(camp)
+            if key[1] in key_dict.keys():
+                key_dict[key[1]].append(key[0])
+            else:
+                key_dict[key[1]] = [key[0]]
+    key_dict['Tracking Group'] = tracking_list
 
 
-    #***************DISPLAY CATEGORIES***************
-
-    categories = []
-    course_categories = []
-    secondary_categories = []
-
-    try:
-        for cat in key_dict['Category']:
-            categories.append(cat)
-    except KeyError:
-        categories = None
-
-    try:
-        for cat in key_dict['Course Attribute']:
-            course_categories.append(cat)
-    except KeyError:
-        course_categories = None
-
+    #IF NO SEARCH TERMS WENT THROUGH, EXIT THE FUNCITON INSTEAD OF PRINTING ALL
+    dict_empty = True
     for key in key_dict.keys():
-        if key not in filter_list:
-            parent_category = key
-            for item in key_dict[key]:
-                secondary = item
-                secondary_categories.append((parent_category, secondary))
+        if len(key_dict[key]) > 0:
+            dict_empty = False
+    if dict_empty == True:
+        print 'No keys were entered or none of the entered keys were found. Aborting...'
+        print
+        sys.exit()
 
-    if len(secondary_categories) == 0:
-        secondary_categories = None
+    print key_dict
 
-    try:
-        if name in key_dict['Bootcamp']:
+    #LOAD DATA
+    with open(datafile) as json_data:
+        bootcamps = json.load(json_data)
+
+    if 'Meta' in key_dict.keys():
+        pprint(bootcamps['meta'])
+        sys.exit()
+
+    filtered_camps = []
+
+    #LOOP THROUGH BOOTCAMPS, FILTER, DISPLAY SELECTED CATEGORIES
+    for camp in bootcamps:
+        try:
+            name = bootcamps[camp]['name'].title()
+        except KeyError:
+            continue
+
+        #*********************FILTERS********************
+
+        if len(key_dict['Tracking Group']) > 0:
+            if or_flag == True:
+                if any(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
+                    continue
+            else:
+                if all(i in bootcamps[camp]['tracking_groups'] for i in key_dict['Tracking Group']) == False:
+                    continue
+
+        #THIS IS WHERE THE 'AND/OR' METHOD CLEARLY NEEDS TO CHANGE, LOCATION ALSO NEEDS TO BE AND/OR (adjusting any/all),
+        #SO THERE NEEDS TO BE EITHER A DIFFERENT FLAG SYSTEM OR ANOTHER WAY TO INDICATE WHETHER A FILTER SHOULD BE AND/OR
+        #RIGHT NOW, IT'S USING 'ANY', SO IT'S ESSENTIALLY AN 'OR' BY DEFAULT
+        try:
+            if set(key_dict['Location']).issubset(bootcamps[camp]['locations']) == False:
+            #if any(i in bootcamps[camp]['locations'] for i in key_dict['Location']) == False:
+                continue
+        except KeyError:
+            pass
+        except TypeError:
+            continue
+
+        try:
+            #THIS IS 'AND'
+            if set(key_dict['Technology']).issubset(bootcamps[camp]['technologies']) == False:
+            #THIS WOULD BE 'OR'
+            #if any(i in bootcamps[camp]['technologies'] for i in key_dict['Technology']) == False:
+                continue
+        except KeyError:
+            pass
+        except TypeError:
+            continue
+
+        filtered_camps.append(camp)
+
+
+        #***************DISPLAY CATEGORIES***************
+
+        categories = []
+        course_categories = []
+        secondary_categories = []
+
+        try:
+            for cat in key_dict['Category']:
+                categories.append(cat)
+        except KeyError:
+            categories = None
+
+        try:
+            for cat in key_dict['Course Attribute']:
+                course_categories.append(cat)
+        except KeyError:
+            course_categories = None
+
+        for key in key_dict.keys():
+            if key not in filter_list:
+                parent_category = key
+                for item in key_dict[key]:
+                    secondary = item
+                    secondary_categories.append((parent_category, secondary))
+
+        if len(secondary_categories) == 0:
+            secondary_categories = None
+
+        try:
+            if name in key_dict['Bootcamp']:
+                info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
+        except KeyError:
             info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
-    except KeyError:
-        info_print(name, bootcamps[camp], categories, course_categories, secondary_categories)
 
 
-if list_flag == True:
-    print '==============================================================================================='
-    print
-    print 'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(filtered_camps)) + ')'
-    print
-    pprint(filtered_camps)
-    print
+    if list_flag == True:
+        print '==============================================================================================='
+        print
+        print 'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(filtered_camps)) + ')'
+        print
+        pprint(filtered_camps)
+        print
 
-if summary_flag == True:
-    try:
-        summary_print(bootcamps, categories, filtered_camps)
-    except (TypeError, NameError):
-        pass
-    print
+    if summary_flag == True:
+        try:
+            summary_print(bootcamps, categories, filtered_camps)
+        except (TypeError, NameError):
+            pass
+        print
 
-if sort_flag == True:
-    try:
-        sort_print(bootcamps, categories, filtered_camps)
-    except(TypeError, NameError):
-        pass
+    if sort_flag == True:
+        try:
+            sort_print(bootcamps, categories, filtered_camps)
+        except(TypeError, NameError):
+            pass
 
-if len(warning_list) > 0:
-    print "****************************************************"
-    print
-    print 'WARNING: The following bootcamps matched the filters'
-    print 'but returned no results for the specifed categories:'
-    print
-    print pprint(warning_list, width=52)
-    print
-    print "****************************************************"
+    if len(warning_list) > 0:
+        print "****************************************************"
+        print
+        print 'WARNING: The following bootcamps matched the filters'
+        print 'but returned no results for the specifed categories:'
+        print
+        print pprint(warning_list, width=52)
+        print
+        print "****************************************************"
+    return
 
-
+if __name__ == '__main__':
+  main()
