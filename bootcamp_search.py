@@ -1,13 +1,10 @@
-import json
-import csv
-import sys
+import json, csv, sys, os, fnmatch
 from pprint import pprint
 import operator
 import os.path
-import os, fnmatch
 import datetime
 
-from closest import return_closest
+from utilities import return_closest
 
 def find_file(pattern, path):
     result = []

@@ -131,7 +131,7 @@ class SwitchupSpider(scrapy.Spider):
                 course = {}
                 name = Selector(response).xpath('//h3[@class="course-name"]/text()').extract()[x]
                 name = ''.join([i if ord(i) < 128 else ' ' for i in name])
-                course['Title'] = name
+                course['Course Title'] = name
 
                 info_index +=1
 

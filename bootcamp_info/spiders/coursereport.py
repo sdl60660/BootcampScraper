@@ -133,7 +133,7 @@ class CourseReportSpider(scrapy.Spider):
 
                     title_xpath = course_array_xpath + '//*[@id="course-listing"]//h4/text()'
                     title = Selector(response).xpath(title_xpath).extract()[y]
-                    course['Title'] = title
+                    course['Course Title'] = title
 
                     course['Course Location'] = [campus_location]
 
