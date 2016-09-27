@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site.py", line 703, in <module>
-    main()
-  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site.py", line 670, in main
-    virtual_install_main_packages()
-  File "/Users/samlearner/.virtualenvs/scrapy_venv/lib/python2.7/site.py", line 554, in virtual_install_main_packages
-    sys.real_prefix = f.read().strip()
-KeyboardInterrupt

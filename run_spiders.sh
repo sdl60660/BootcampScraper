@@ -140,7 +140,8 @@ echo "CHANGES FOR $log_date" >>logs/change_log.txt
 python tracker_results.py 1 ALL>>logs/change_log.txt
 echo "====================================">>logs/change_log.txt
 echo >>logs/change_log.txt
-echo "Tracked Changes Logged..."
+output_time=$(date "+%H:%M:%S")
+echo "$output_time: Tracked Changes Logged..."
 
 
 current_time=$(date "+%Y-%m-%d.(%H:%M:%S)")

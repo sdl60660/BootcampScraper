@@ -7,6 +7,9 @@ from tracking import tracking_groups
 from tracking import plot_changes
 from utilities import return_closest
 
+import datetime
+from datetime import date
+
 def main():
 	if len(sys.argv) < 5:
 		print 'USAGE: python generate_plot.py [days_back] [category] [max_items] [percentage_option] [show_plot] (OPTIONAL:) [tracking_group]'
@@ -30,9 +33,20 @@ def main():
 		tgroup = sys.argv[6]
 	else:
 		tgroup = None
+
+	today = date.today()
+	db_date = date.fromordinal(today.toordinal() - days_back)
+
+	print_string = 'Plot information for ' + str(category).title() + ' (Dates: ' + str(db_date) + ' to ' + str(today) + ', Max Items: ' + str(max_items) + ')'
+	if tgroup:
+		print_string = print_string[:-1] + ', Tracking Group: ' + str(tgroup).title() + ')'
+	print print_string
+	print '-------------------------------------------------------'
+	print
 	
 	plot_changes(days_back, category, max_items=max_items, start_item=0, percentage=percentage, interval=1, active_only=True, tracking_group=tgroup, show_plot=show)
 
+	print
 if __name__ == '__main__':
   main()
 

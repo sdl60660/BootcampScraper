@@ -400,3 +400,145 @@ Algorithms: ['Alt-U (+)']
 
 ====================================
 
+CHANGES FOR 2016-09-27
+
+----------OVERALL CHANGES----------
+
+Changes
+-------
+
+LOCATIONS
+'London: 16 (-1)'
+'Dallas: 13 (+1)'
+'Miami: 9 (+1)'
+'Oakland: 4 (+1)'
+
+BIGGEST CHANGES: [(u'Miami', 1), (u'London', -1), (u'Dallas', 1)]
+
+TECHNOLOGIES
+'JavaScript: 237 (+3)'
+'HTML: 232 (+2)'
+'CSS: 228 (+1)'
+'jQuery: 150 (+1)'
+'Git: 147 (+2)'
+'SQL: 122 (+2)'
+'Node.js: 96 (+1)'
+'AngularJS: 96 (+1)'
+'MySQL: 77 (+1)'
+'MongoDB: 77 (+4)'
+'Java: 52 (+1)'
+'Express.js: 52 (+1)'
+'.NET: 41 (+1)'
+'Django: 19 (+1)'
+'ASP.NET: 18 (+1)'
+'R: 18 (+1)'
+
+BIGGEST CHANGES: [(u'MongoDB', 4), (u'JavaScript', 3), (u'Git', 2)]
+
+Details
+-------
+
+LOCATIONS
+Online: ['Rmotr Com (+)', 'Hack Reactor (-)']
+Oakland: ['Learners Guild (+)']
+Okanagan: ['Lighthouse Labs (-)']
+London: ['Lighthouse Labs (-)']
+Miami: ['Blackbelt Coding (+)']
+Dallas: ['Edge Tech Academy (+)']
+
+TECHNOLOGIES
+MongoDB: ['Byte Academy (+)', 'Rmotr Com (+)', 'Learners Guild (+)', 'Edge Tech Academy (+)']
+Git: ['Byte Academy (+)', 'Rmotr Com (+)']
+SQL: ['Byte Academy (+)', 'Rmotr Com (+)']
+MySQL: ['Byte Academy (+)']
+jQuery: ['Byte Academy (+)']
+R: ['Byte Academy (+)']
+Django: ['Rmotr Com (+)']
+HTML: ['Hack Reactor (-)', 'Learners Guild (+)', 'Blackbelt Coding (+)', 'Edge Tech Academy (+)']
+CSS: ['Hack Reactor (-)', 'Learners Guild (+)', 'Blackbelt Coding (+)']
+JavaScript: ['Learners Guild (+)', 'Blackbelt Coding (+)', 'Edge Tech Academy (+)']
+.NET: ['Edge Tech Academy (+)']
+Java: ['Edge Tech Academy (+)']
+ASP.NET: ['Edge Tech Academy (+)']
+AngularJS: ['Edge Tech Academy (+)']
+Express.js: ['Edge Tech Academy (+)']
+Node.js: ['Edge Tech Academy (+)']
+
+
+-------------JAVA/.NET-------------
+
+--------------TOP CAMP-------------
+
+Changes
+-------
+
+LOCATIONS
+'Online: 1 (-1)'
+
+BIGGEST CHANGES: [(u'Online', -1), (None, 0), (None, 0)]
+
+TECHNOLOGIES
+'HTML: 4 (-1)'
+'CSS: 4 (-1)'
+
+BIGGEST CHANGES: [(u'HTML', -1), (u'CSS', -1), (None, 0)]
+
+Details
+-------
+
+LOCATIONS
+Online: ['Hack Reactor (-)']
+
+TECHNOLOGIES
+HTML: ['Hack Reactor (-)']
+CSS: ['Hack Reactor (-)']
+
+
+-----------SELECTED CAMP-----------
+
+Changes
+-------
+
+LOCATIONS
+'Online: 8 (-1)'
+'London: 2 (-1)'
+
+BIGGEST CHANGES: [(u'Online', -1), (u'London', -1), (None, 0)]
+
+TECHNOLOGIES
+'HTML: 50 (-1)'
+'CSS: 50 (-1)'
+'Git: 40 (+1)'
+'jQuery: 37 (+1)'
+'SQL: 36 (+1)'
+'MySQL: 21 (+1)'
+'MongoDB: 20 (+1)'
+'R: 4 (+1)'
+
+BIGGEST CHANGES: [(u'jQuery', 1), (u'Git', 1), (u'MySQL', 1)]
+
+Details
+-------
+
+LOCATIONS
+Online: ['Hack Reactor (-)']
+Okanagan: ['Lighthouse Labs (-)']
+London: ['Lighthouse Labs (-)']
+
+TECHNOLOGIES
+MongoDB: ['Byte Academy (+)']
+Git: ['Byte Academy (+)']
+SQL: ['Byte Academy (+)']
+MySQL: ['Byte Academy (+)']
+jQuery: ['Byte Academy (+)']
+R: ['Byte Academy (+)']
+HTML: ['Hack Reactor (-)']
+CSS: ['Hack Reactor (-)']
+
+
+---------POTENTIAL MARKETS---------
+
+----------CURRENT MARKETS----------
+
+====================================
+

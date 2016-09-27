@@ -52,6 +52,7 @@ def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     try:
         filename = generate_filename(target_date, tracking_group)
     except IndexError:
+        print target_date, tracking_group
         #print 'Sorry! No file found for that date. Please enter a new one.'
         raise NameError('Sorry! No file found for that date. Please enter a new one.')
     return json.load(open(filename, 'rb'))
@@ -87,14 +88,14 @@ def tracked_camp_changes(days_back, category, tracking_group='ALL'):
             try:
                 if item not in old_data[x][category]:
                     new_points.append((item, x, 'Addition'))
-            except KeyError:
+            except (KeyError, TypeError):
                 new_points.append((item, x, 'Addition'))
         
         try:
             for item in old_data[x][category]:
                 if item not in camp[category]:
                     new_points.append((item, x, 'Subtraction'))
-        except KeyError:
+        except (KeyError, TypeError):
             pass
     return new_points
 
@@ -145,7 +146,7 @@ def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
             print_array = [item[0] for item in print_array]
             print_arrays.append((print_array, x))
             diff_arrays.append(max_diff)
-            
+
     return print_arrays, diff_arrays
 
 def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
@@ -337,6 +338,19 @@ def plot_category():
 #PLOTS SPECIFIED BOOTCAMPS FOR SPECIFIED CATEGORIES (I.E. NUM_LOCATIONS FOR SPECIFIED BOOTCAMPS OVER TIME)
 def plot_bootcamp_info():
     pass
+
+
+def new_bootcamps(days_back, start_date=0):
+    if start_date == 0:
+        with open('current_data/output.json', 'rb') as current_data:
+            bootcamps = json.load(current_data)
+    else:
+        pass
+
+    pass
+
+
+
 
 
 def meta_category_trend():
