@@ -29,13 +29,13 @@ job_guarantee,Category
 num_courses,Category
 courses,Category
 Onsite,Course Attribute
+Course Title,Course Attribute
 Course Location,Course Attribute
 Subjects,Course Attribute
-Title,Course Attribute
 Cost,Course Attribute
-Part Or Full,Course Attribute
 Hours/Week,Course Attribute
 Minimum Skill,Course Attribute
+Part Or Full,Course Attribute
 cr_num_reviews,Category
 Los Angeles,Location
 Sales,Technology
@@ -51,6 +51,7 @@ general_cost,Category
 su_rating,Category
 cost_estimate,Category
 Class Size,Course Attribute
+Title,Course Attribute
 Length,Course Attribute
 Location,Course Attribute
 Start Date,Course Attribute
@@ -553,6 +554,7 @@ Beach Coders Academy,Bootcamp
 The Coding Boot Camp At Ucla Extension,Bootcamp
 Westwood,Location
 Founders & Coders,Bootcamp
+Nazareth,Location
 Market Campus,Bootcamp
 Apprentice Io By Thoughtbot,Bootcamp
 Washington DC,Location
@@ -640,6 +642,7 @@ Ucf Coding Boot Camp,Bootcamp
 Sandford,Location
 The Hacking School,Bootcamp
 Edge Tech Academy,Bootcamp
+Hurst,Location
 Shillington School,Bootcamp
 Ruby On The Beach,Bootcamp
 "Pacific Coast, Ecuador",Location

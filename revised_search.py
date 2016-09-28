@@ -1,73 +1,39 @@
 import utilities
 from utilities import return_closest
-import json, sys, os, csv, fnmatch
-import argparse
+import json, sys, os, csv
 from pprint import pprint
 import operator
 import os.path
-import datetime
 
-def find_file(pattern, path):
-    result = []
-    for root, dirs, files in os.walk(path):
-        for name in files:
-            if fnmatch.fnmatch(name, pattern):
-                result.append(os.path.join(root, name))
-    return result
-
-def date_to_file(date):
-    dates = date.split('/')
-    if len(dates) == 2:
-        month = dates[0]
-        day = dates[1]
-        year = str(datetime.datetime.now().year)
-    elif len(dates) == 3:
-        month = dates[0]
-        day = dates[1]
-        year = dates[2]
-        if len(year) == 2:
-            year = '20' + year
-    else:
-        return 'NO_FILE'
-
-    if len(month) == 1:
-        month = '0' + month
-    if len(day) == 1:
-        day = '0' + day
-
-    filedate = year + '-' + month + '-' + day + '.*'
-    try:
-        filename = find_file(filedate,'old_data/full_outputs/')[-1]
-    except IndexError:
-        return 'NO_FILE'
-    return filename
-
-def check_flag(flag, arg_list):
-    boolean = False
-    for arg in range(len(arg_list)):
-        if arg_list[arg] == flag:
-            boolean = True
-            arg_list.remove(flag)
-            break
-    return boolean, arg_list
+class Camp_Info:
+    def __init__(self, category_data, summary=None, camp_list=None, sort=None):
+        self.category_data = category_data
+        self.summary = summary if summary is not None else []
+        self.camp_list = camp_list if camp_list is not None else []
+        self.sort = sort if sort is not None else []
 
 def summary_dict(bootcamps, category):
     temp_dict = {}
-    for camp in bootcamps:
+    warning_list = []
+    for bootcamp in bootcamps:
+        camp = bootcamps[bootcamp]
+        if not camp[category]:
+            warning_list.append(bootcamp)
+            continue
         try:
             key_check = type(camp[category])
             if key_check == list:
-                iter_check = key_check[0]
+                iter_check = camp[category][0]
         except (KeyError, TypeError):
             continue
 
-        if type(camp[category]) == list:
+        if type(camp[category]) is list:
             for item in camp[category]:
                 if item in temp_dict:
                     temp_dict[item] += 1
                 else:
                     temp_dict[item] = 1
-        elif type(camp[category]) == int:
+        elif type(camp[category]) is int:
             if camp[category] in temp_dict:
                 temp_dict[camp[category]] += 1
             else:
@@ -85,7 +51,52 @@ def summary_dict(bootcamps, category):
                 temp_dict['No'] = 1
         else:
             pass
-    return category, temp_dict
+    return category, temp_dict, warning_list
+
+def dict_sort(in_dict, category, full_list=False):
+    tuple_list = []
+
+    for k,v in in_dict.iteritems():
+        tuple_list.append([k, v])
+        val_type = type(v)
+
+    for i, tup in enumerate(tuple_list):
+        try:
+            if tup[1] == 'None' or tup[1].find('No') != -1:
+                tuple_list[i][1] = 'No'
+            elif 'Yes' in tup[1] or tup[1].find('available') != -1 \
+            or tup[1].find('offer') != -1 or tup[1].find('partnership') != -1:
+                tuple_list[i][1] = 'Yes'
+        except AttributeError:
+            pass
+ 
+    if val_type == int or val_type == float:
+        tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=True)
+    elif val_type == list:
+        tuple_list = sorted(tuple_list, key=lambda tup: len(tup[1]), reverse=True)
+    else:
+        tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=False)
+
+    if full_list == False:
+        for i, tup in enumerate(tuple_list):
+            if val_type == list:
+                tuple_list[i][1] = len(tup[1])
+    return tuple_list
+
+def sort_dict(bootcamps, category, full_list=False):
+    warnings = []
+    cat_dict = {}
+    for bootcamp in bootcamps:
+        camp = bootcamps[bootcamp]
+        if not camp[category]:
+            warnings.append(bootcamp)
+            continue
+        try:
+            cat_dict[bootcamp] = camp[category]
+        except (KeyError, TypeError):
+            warnings.append(bootcamp)
+    st_dict = dict_sort(cat_dict, category)
+    return category, st_dict, warnings
 
 def apply_filter(key_filter, data_category, bootcamps, key_dict):
     del_list = []
@@ -102,39 +113,14 @@ def apply_filter(key_filter, data_category, bootcamps, key_dict):
         del bootcamps[camp]
     return bootcamps
 
-def parse_categories():
-    pass
-
 def main(search_keys):
     import os
     #os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
-    
-    return_data = {}
 
     #GLOBAL LISTS
     tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
-    tracking_groups_files = find_file('*.json','current_data/tracking_groups')
     filter_list = ['Tracking Group', 'Location', 'Technology', 'Category', 'Course Attribute', 'Bootcamp']
-    warning_list = []
 
-    #COMMAND LINE OPTION PROCESSING
-    or_flag, search_keys = check_flag('--or', search_keys)
-    summary_flag, search_keys = check_flag('--summary', search_keys)
-    list_flag, search_keys = check_flag('--list', search_keys)
-    sort_flag, search_keys = check_flag('--sort', search_keys)
-    custom_file, search_keys = check_flag('--file', search_keys)
-
-    if custom_file == True:
-        datafile = search_keys[1]
-        search_keys.remove(search_keys[1])
-        if len(datafile) < 12:
-            datafile = date_to_file(datafile)
-        if os.path.isfile(datafile) == False:
-            print 'Could not find the specified file, switching to default data file.'
-            datafile = 'current_data/output.json'
-
-    #OPEN SEARCH TERM FILE FROM CURRENT DATA AND LOAD CSV DATA INTO SEARCH LIST
-    #IN THE FORM OF "(term, type)"
     search_list = []
     cat_list = []
     search_term_file = 'current_data/search_terms.csv'
@@ -162,11 +148,14 @@ def main(search_keys):
         print
         sys.exit()
 
-    if custom_file == False:
-        datafile = 'current_data/output.json'
+    #if custom_file == False:
+    datafile = 'current_data/output.json'
+
+    #LOAD DATA
+    with open(datafile) as json_data:
+        bootcamps = json.load(json_data)
 
     #SORT SEARCH TERMS INTO KEY DICT
-    tracking_list = []
     key_dict = {}
 
     first = True
@@ -177,10 +166,6 @@ def main(search_keys):
             key_dict[key[1]] = [key[0]]
 
     print key_dict
-
-    #LOAD DATA
-    with open(datafile) as json_data:
-        bootcamps = json.load(json_data)
 
     if 'Meta' in key_dict.keys():
         out_data = bootcamps['meta']
@@ -198,17 +183,6 @@ def main(search_keys):
     bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
     bootcamps = apply_filter('Technology', 'technologies', bootcamps, key_dict)
     bootcamps = apply_filter('Location', 'locations', bootcamps, key_dict)
-
-    if list_flag == True and set(['Tracking Group', 'Technology', 'Location']).issuperset(key_dict.keys()):
-        camps = [x for x in bootcamps.keys()]
-        title_string = '\n===============================================================================================\n\n' \
-        'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(camps)) + ')\n\n'
-        return_dict['list'] = (title_string, camps)
-        return title_string, camps
-
-    """if sort_flag == True:
-        title_string = '===============================================================================================\n\n' \
-        'SORT: Sorted list of camps by specified categories\n\n'"""
 
     """Filter selected categories out of keys and secondary keys. Courses will stay in as long as there's a course category
     in the key dict"""
@@ -256,14 +230,41 @@ def main(search_keys):
         for cat in secondary_cats:
             full_cat_title = str(cat[1]) + ' (%s)' % cat[0]
             data.append((full_cat_title, bootcamps[camp][cat[0]][cat[1]]))
-            #print cat.title() + ': ' + str(bootcamps[camp][cat])
-        #print
         cat_data_dict[title] = data
-    #pprint(cat_data_dict)
-    return_data['category_data'] = cat_data_dict
-    return
 
-    #bootcamps = filter(key in bootcamps[camp]['tracking_group'], bootcamps)
+    camps = [x for x in bootcamps.keys()]
+
+    title_string = '===============================================================================================\n\n' \
+    'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(camps)) + ')'
+    summary_item = {}
+    summary_item['title_string'] = title_string
+    summary_item['warning'] = []
+    for cat in select_cats:
+        category, sum_dict, warning_list = summary_dict(bootcamps, cat)
+        summary_item[category] = sum_dict
+        summary_item['warning'].append((cat, warning_list))
+
+    title_string = '\n===============================================================================================\n\n' \
+    'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(camps)) + ')\n\n'
+    list_item = (title_string, camps)
+    #pprint(list_item)
+
+    sort_item = {}
+    title_string = '===============================================================================================\n\n' \
+    'SORT: Sorted list of camps by specified categories\n\n'
+    sort_item['title_string'] = title_string
+    sort_item['warning'] = []
+    for cat in select_cats: #EVENTUALLY NEED TO ADD IN SECONDARY CATS, COURSE ATTRIBUTES AS WELL
+        category, st_dict, warning_list = sort_dict(bootcamps, cat)
+        sort_item[category] = st_dict
+        sort_item['warning'].append((cat, warning_list))
+    
+    return_info = Camp_Info(cat_data_dict, summary_item, list_item, sort_item)
+    # pprint(return_info.summary)
+    # pprint(return_info.camp_list)
+    # pprint(return_info.sort)
+    #pprint(return_info.category_data)
+    return return_info
 
 if __name__ == '__main__':
     main(sys.argv)
