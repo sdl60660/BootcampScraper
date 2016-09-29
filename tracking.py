@@ -391,6 +391,9 @@ def new_bootcamps(days_back, start_date=0):
         reference = load_date_data(start_ordinal, days_back)
     
     new_camps = [x for x in bootcamps if x not in reference]
+    for x, camp in enumerate(new_camps):
+        new_camps[x] = (camp, bootcamps[camp]['locations'])
+
     return new_camps
 
 
