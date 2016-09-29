@@ -52,7 +52,7 @@ def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     try:
         filename = generate_filename(target_date, tracking_group)
     except IndexError:
-        print target_date, tracking_group
+        #print target_date, tracking_group
         #print 'Sorry! No file found for that date. Please enter a new one.'
         raise NameError('Sorry! No file found for that date. Please enter a new one.')
     return json.load(open(filename, 'rb'))
@@ -149,7 +149,7 @@ def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
 
     return print_arrays, diff_arrays
 
-def plot_changes(days_back, category, start_days_back=0, tracking_group=None, max_items=10,
+def plot_changes(days_back, category, start_days_back=0, current_status=False, tracking_group=None, max_items=10,
     percentage=False, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True):
     
     #Import modules
@@ -244,7 +244,7 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
                 else:
                     num_list.append(None)
             num_list = num_list[::-1]
-            print num_list
+            #print num_list
             data_list.append((num_list, item))
 
 
@@ -283,6 +283,44 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
 
     #Set up plot
     fig = plt.figure()
+    
+    if current_status == True:
+        #from mpl_toolkits.mplot3d import Axes3D
+        ax = plt.subplot(111)
+        #ax = plt.subplot(111, projection='3d')
+
+        bar_plot = []
+        bar_labels = []
+        for a, array in enumerate(data_list):
+            bar_plot.append(array[0][-1])
+            bar_labels.append(array[1])
+
+        x_locations = np.arange(len(bar_plot))
+        tick_locations = [(x + 0.25) for x in x_locations]
+
+        #my_colors = 'rgbkymc'
+        my_colors = []
+        for x in range(len(bar_plot)):
+            my_colors.append(np.random.rand(3,1))
+        #my_colors = sorted(my_colors, key=lambda x: x[1])
+
+        """ypos = np.zeros(len(bar_plot))
+        zpos = np.zeros(len(bar_plot))
+        dx = np.ones(len(bar_plot))
+        dy = np.ones(len(bar_plot))
+        ax.bar3d(x_locations, ypos, zpos, dx, dy, bar_plot, color=my_colors, zorder=3)"""
+        ax.bar(x_locations, bar_plot, color=my_colors, zorder=3)
+
+        ax.set_xlabel(category.title())
+        y_label = 'Prevelance Among Selected Bootcamps (%s)' % ('Total' if percentage==False else '%')
+        ax.set_ylabel(y_label)
+
+        ax.grid(zorder=0)
+
+        plt.xticks(tick_locations, bar_labels, rotation=60, fontsize=9)
+        plt.show()
+        return
+
     ax = plt.subplot(111)
 
     #Plot a line for each of the item lists in data_list
@@ -301,7 +339,7 @@ def plot_changes(days_back, category, start_days_back=0, tracking_group=None, ma
             fancybox=True, shadow=True, ncol=columns)
     
     #Put date labels on the x_axis for each dataset's meta date field
-    plt.xticks(x_axis, date_labels, fontsize=7)
+    plt.xticks(x_axis, date_labels, fontsize=8, rotation=60)
     
     #Set axis labels, adjust based on whether the setting was for raw number or percentage
     if percentage == False:
@@ -339,18 +377,21 @@ def plot_category():
 def plot_bootcamp_info():
     pass
 
-
+#TRACK WHEN NEW BOOTCAMPS ARE ADDED TO THE DATA SET
 def new_bootcamps(days_back, start_date=0):
+    today_ordinal = date.today().toordinal()
+
     if start_date == 0:
         with open('current_data/output.json', 'rb') as current_data:
             bootcamps = json.load(current_data)
+        reference = load_date_data(today_ordinal, days_back)
     else:
-        pass
-
-    pass
-
-
-
+        bootcamps = load_date_data(today_ordinal, start_date)
+        start_ordinal = today_ordinal - start_date
+        reference = load_date_data(start_ordinal, days_back)
+    
+    new_camps = [x for x in bootcamps if x not in reference]
+    return new_camps
 
 
 def meta_category_trend():
@@ -359,23 +400,6 @@ def meta_category_trend():
 
 def full_meta_trends():
     pass
-
-"""
-
-#OPEN FILE FROM ONE YEAR AGO (ROUND TO NEAREST WEEKDAY*)
-last_year = date.today() + relativedelta(years=-1)
-if last_year.weekday() == 6:
-    last_year = last_year + relativedelta(days=+1)
-elif last_year.weekday() == 5:
-    last_year = last_year + relativedelta(days =-1)
-ly_days_back = (today_ordinal - last_year.toordinal())
-try:
-    data_last_year = load_date_data(today_ordinal, ly_days_back)
-except IndexError:
-    print "No data in file for this date last year."
-    pass
-"""
-
 
 
 

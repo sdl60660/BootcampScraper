@@ -67,6 +67,7 @@ def main(search_keys):
     summary_flag, search_keys = check_flag('--summary', search_keys)
     list_flag, search_keys = check_flag('--list', search_keys)
     sort_flag, search_keys = check_flag('--sort', search_keys)
+    warnings_flag, search_keys = check_flag('--warnings', search_keys)
     custom_file, search_keys = check_flag('--file', search_keys)
 
     if custom_file == True:
@@ -82,8 +83,35 @@ def main(search_keys):
         datafile = 'current_data/output.json'
 
     result_data = revised_search.main(sys.argv)
-    pprint(result_data.summary)
+    
+    if summary_flag == True:
+        print'\n================================================================================\n' \
+        'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
+        for cat in result_data.summary:
+            if cat != 'warning':
+                pprint(result_data.summary[cat])
+        if warnings_flag == True:
+            print
+            print 'WARNING: THESE CAMPS FIT THE SPECIFIED FILTERS, BUT DID NOT HAVE DATA FOR THE FOLLOWING CATEGORIES'
+            pprint(result_data.summary['warning'])
 
+    if sort_flag == True:
+        print '\n===============================================================================================\n' \
+        'SORT: Sorted list of camps by specified categories\n'
+        for cat in result_data.sort:
+            if cat != 'warning':
+                print cat.title() + ':'
+                pprint(result_data.sort[cat])
+                print
+        if warnings_flag == True:
+            print
+            print 'WARNING: THESE CAMPS FIT THE SPECIFIED FILTERS, BUT DID NOT HAVE DATA FOR THE FOLLOWING CATEGORIES'
+            pprint(result_data.sort['warning'])
+
+    if list_flag == True:
+        print '\n===============================================================================================\n' \
+        'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
+        pprint(result_data.camp_list)
 
 if __name__ == '__main__':
     main(sys.argv)

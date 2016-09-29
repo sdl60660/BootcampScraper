@@ -6,8 +6,9 @@ import operator
 import os.path
 
 class Camp_Info:
-    def __init__(self, category_data, summary=None, camp_list=None, sort=None):
+    def __init__(self, category_data, camps, summary=None, camp_list=None, sort=None):
         self.category_data = category_data
+        self.camps = camps
         self.summary = summary if summary is not None else []
         self.camp_list = camp_list if camp_list is not None else []
         self.sort = sort if sort is not None else []
@@ -53,7 +54,7 @@ def summary_dict(bootcamps, category):
             pass
     return category, temp_dict, warning_list
 
-def dict_sort(in_dict, category, full_list=False):
+def dict_sort(in_dict, full_list=False):
     tuple_list = []
 
     for k,v in in_dict.iteritems():
@@ -86,17 +87,30 @@ def dict_sort(in_dict, category, full_list=False):
 def sort_dict(bootcamps, category, full_list=False):
     warnings = []
     cat_dict = {}
+    secondary_cat = None
+    if type(category) is tuple:
+        out_category = str(category[1]) + ' (%s)' % category[0]
+        secondary_cat = category[1]
+        category = category[0]
+    else:
+        out_category = category
     for bootcamp in bootcamps:
         camp = bootcamps[bootcamp]
         if not camp[category]:
             warnings.append(bootcamp)
             continue
+        if secondary_cat and not camp[category][secondary_cat]:
+            warnings.append(bootcamp)
+            continue
         try:
-            cat_dict[bootcamp] = camp[category]
+            if secondary_cat:
+                cat_dict[bootcamp] = camp[category][secondary_cat]
+            else:
+                cat_dict[bootcamp] = camp[category]
         except (KeyError, TypeError):
             warnings.append(bootcamp)
-    st_dict = dict_sort(cat_dict, category)
-    return category, st_dict, warnings
+    st_dict = dict_sort(cat_dict)
+    return out_category, st_dict, warnings
 
 def apply_filter(key_filter, data_category, bootcamps, key_dict):
     del_list = []
@@ -110,7 +124,10 @@ def apply_filter(key_filter, data_category, bootcamps, key_dict):
             except (KeyError, TypeError):
                 del_list.append(camp)
     for camp in del_list:
-        del bootcamps[camp]
+        try:
+            del bootcamps[camp]
+        except KeyError:
+            pass
     return bootcamps
 
 def main(search_keys):
@@ -165,11 +182,15 @@ def main(search_keys):
         else:
             key_dict[key[1]] = [key[0]]
 
-    print key_dict
+    print 'Filters and Categories in Search: ' + str(key_dict)[1:-1]
+
+    # =============WORK ON SECTION BELOW=============
 
     if 'Meta' in key_dict.keys():
         out_data = bootcamps['meta']
         return out_data
+
+    del bootcamps['meta']
 
     if 'Bootcamp' in key_dict.keys():
         out_data = []
@@ -178,6 +199,8 @@ def main(search_keys):
         for b in out_data:
             pprint(b)
         return out_data
+
+    # =============WORK ON SECTION ABOVE=============
 
     #FILTERS: TRACKING GROUPS, LOCATIONS, TECHNOLOGIES
     bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
@@ -234,36 +257,23 @@ def main(search_keys):
 
     camps = [x for x in bootcamps.keys()]
 
-    title_string = '===============================================================================================\n\n' \
-    'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(camps)) + ')'
     summary_item = {}
-    summary_item['title_string'] = title_string
     summary_item['warning'] = []
     for cat in select_cats:
         category, sum_dict, warning_list = summary_dict(bootcamps, cat)
         summary_item[category] = sum_dict
         summary_item['warning'].append((cat, warning_list))
 
-    title_string = '\n===============================================================================================\n\n' \
-    'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(camps)) + ')\n\n'
-    list_item = (title_string, camps)
-    #pprint(list_item)
+    list_item = camps
 
     sort_item = {}
-    title_string = '===============================================================================================\n\n' \
-    'SORT: Sorted list of camps by specified categories\n\n'
-    sort_item['title_string'] = title_string
     sort_item['warning'] = []
-    for cat in select_cats: #EVENTUALLY NEED TO ADD IN SECONDARY CATS, COURSE ATTRIBUTES AS WELL
+    for cat in (select_cats + secondary_cats): #EVENTUALLY NEED TO ADD IN SECONDARY CATS, COURSE ATTRIBUTES AS WELL
         category, st_dict, warning_list = sort_dict(bootcamps, cat)
         sort_item[category] = st_dict
         sort_item['warning'].append((cat, warning_list))
     
-    return_info = Camp_Info(cat_data_dict, summary_item, list_item, sort_item)
-    # pprint(return_info.summary)
-    # pprint(return_info.camp_list)
-    # pprint(return_info.sort)
-    #pprint(return_info.category_data)
+    return_info = Camp_Info(cat_data_dict, camps, summary_item, list_item, sort_item)
     return return_info
 
 if __name__ == '__main__':

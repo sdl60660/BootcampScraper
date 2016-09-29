@@ -44,7 +44,8 @@ def main():
 	print '-------------------------------------------------------'
 	print
 	
-	plot_changes(days_back, category, max_items=max_items, start_item=0, percentage=percentage, interval=1, active_only=True, tracking_group=tgroup, show_plot=show)
+	plot_changes(days_back, category, max_items=max_items, start_item=0, percentage=percentage, interval=1,
+	 active_only=True, tracking_group=tgroup, show_plot=show, save_plot=False, current_status=True)
 
 	print
 if __name__ == '__main__':

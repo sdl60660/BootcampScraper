@@ -3,7 +3,7 @@ import time
 from slackclient import SlackClient
 import sys
 sys.path.insert(0,'..')
-import bootcamp_search #tracking, tracker_results, generate_plot, utilities
+import search_wrapper #tracking, tracker_results, generate_plot, utilities
 import subprocess
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
@@ -33,7 +33,7 @@ def handle_command(command, channel):
         response = "Sure...write some more code then I can do that!"
     if command.startswith('search'):
         #arg_list = []
-        input_command = 'python bootcamp_search.py ' + command[7:]
+        input_command = 'python search_wrapper.py ' + command[7:]
         print input_command
         response = os.popen(input_command).read()
         #response = bootcamp_search.main(arg_list[0], arg_list[1])
