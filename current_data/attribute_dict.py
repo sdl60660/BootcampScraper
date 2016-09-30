@@ -13,5 +13,5 @@ Out_Dict = {
 }
 
 In_Dict = {	
-	v: k for k,v in Out_Dict.iterms()
+	v: k for k,v in Out_Dict.iteritems()
 }

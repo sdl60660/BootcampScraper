@@ -13,6 +13,7 @@ import revised_search
 from revised_search import main
 from revised_search import Camp_Info
 import slack_output
+from current_data import attribute_dict
 #from slack_output import slack_output
 
 
@@ -63,8 +64,16 @@ def check_flag(flag, arg_list):
 #1. COMPLETE SECTION TO FEED OUT SLACKBOT SEARCH
 #2. ADD PLOTTER OPTION FUNCTIONALITY ON THE WRAPPER END (CALL GENERATE_PLOT FUNCTION AND RETURN PLOT TO SLACK/CONSOLE)
 #3. AND/OR OPTIONS ON WRAPPER END
+#4. ~~~IN PROGRESS~~~ MAP SEARCH TERMS TO JSON TERMS USING ATTRIBUTE DICT
 
 def main(search_keys):
+    print "Need to finish search term translations!!!"
+    sys.exit()
+    #========IN PROGRESS========#
+    for i, term in enumerate(search_keys):
+        if term in attribute_dict.In_Dict.keys():
+            search_keys[i] = attribute_dict.In_Dict[term]
+    #========IN PROGRESS========#
     tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
     tracking_groups_files = find_file('*.json','current_data/tracking_groups')
 

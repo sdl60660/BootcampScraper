@@ -2,6 +2,8 @@ import revised_search
 from revised_search import Camp_Info
 import utilities
 from pprint import pprint
+import sys
+from current_data import attribute_dict
 
 
 """class Camp_Info:
@@ -72,5 +74,5 @@ def slack_output(result_data):
 	print summary_list_string
 
 
-if __name__ == '__main__':
-    main(result_data)
+if __name__ == '__slack_output__':
+    slack_output(result_data)
