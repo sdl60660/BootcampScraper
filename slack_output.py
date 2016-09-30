@@ -25,12 +25,16 @@ class Slack_Output_Strings:
 def slack_output(result_data):
 	return_strings = Slack_Output_Strings()
 
-	camp_list_string = 'LIST: These bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
+	camp_list_string = '==================================================\n' 
+	camp_list_string += 'LIST: These bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
+	camp_list_string += '==================================================\n\n' 
 	for camp in result_data.camp_list:
 		camp_list_string += '            ' + str(camp) + '\n'
 	return_strings.list_out = camp_list_string
 
-	sort_list_string = 'SORT: Sorted list of camps by specified categories\n\n'
+	sort_list_string = '==================================================\n' 
+	sort_list_string += 'SORT: Sorted list of camps by specified categories\n'
+	sort_list_string += '==================================================\n\n' 
 	for item in result_data.sort.keys():
 		category = result_data.sort[item]
 		if item == 'warning':
@@ -43,13 +47,29 @@ def slack_output(result_data):
 		sort_list_string += '\n\n'
 	return_strings.sort_out = sort_list_string
 
-	summary_list_string = 'SUMMARY: Breakdown of specified categories (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
-	pprint(result_data.summary)
+	summary_list_string = '==================================================\n' 
+	summary_list_string += 'SUMMARY: Breakdown of specified categories (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
+	summary_list_string += '==================================================\n\n' 
+	for item in result_data.summary.keys():
+		category = result_data.summary[item]
+		if item == 'warning':
+			continue
+		summary_list_string += str(item).title() + '\n----------------------------\n'
+		category_sorted = sorted([[k,v] for k,v in category.iteritems()], key=lambda x: x[1], reverse=True)
+		"""for k,v in category.iteritems():
+			list_string = '            ' + str(k) + ': ' + str(v)
+			summary_list_string += list_string + '\n'"""
+		for x in category_sorted:
+			list_string = '            ' + str(x[0]) + ': ' + str(x[1])
+			summary_list_string += list_string + '\n'
+		summary_list_string += '\n\n'
 
 	print
 	print camp_list_string
 	print
 	print sort_list_string
+	print
+	print summary_list_string
 
 
 if __name__ == '__main__':

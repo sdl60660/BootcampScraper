@@ -35,10 +35,11 @@ def summary_dict(bootcamps, category):
                 else:
                     temp_dict[item] = 1
         elif type(camp[category]) is int:
-            if camp[category] in temp_dict:
-                temp_dict[camp[category]] += 1
-            else:
-                temp_dict[camp[category]] = 1
+            return -1, temp_dict, warning_list
+        #    if camp[category] in temp_dict:
+        #        temp_dict[camp[category]] += 1
+        #    else:
+        #        temp_dict[camp[category]] = 1
         elif 'Yes' in camp[category] or camp[category].find('available') != -1 \
         or camp[category].find('offer') != -1 or camp[category].find('partnership') != -1:
             if 'Yes' in temp_dict:
@@ -51,7 +52,7 @@ def summary_dict(bootcamps, category):
             else:
                 temp_dict['No'] = 1
         else:
-            pass
+            return
     return category, temp_dict, warning_list
 
 def dict_sort(in_dict, full_list=False):
@@ -264,6 +265,8 @@ def main(search_keys):
     summary_item['warning'] = []
     for cat in select_cats:
         category, sum_dict, warning_list = summary_dict(bootcamps, cat)
+        if category == -1:
+            continue
         summary_item[category] = sum_dict
         summary_item['warning'].append((cat, warning_list))
 
