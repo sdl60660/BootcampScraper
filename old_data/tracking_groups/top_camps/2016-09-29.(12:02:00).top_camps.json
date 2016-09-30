@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-30", 
+        "last_updated": "2016-09-29", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -101,9 +101,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9799, 
+            "followers": 9788, 
             "handle": "@devbootcamp", 
-            "tweets": 9580
+            "tweets": 9575
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -1152,7 +1152,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-30", 
+        "last_updated": "2016-09-29", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1251,43 +1251,10 @@
         "website": "https://generalassemb.ly/"
     }, 
     "Hack Reactor": {
-        "accreditation": "None", 
         "average_salary": 105000, 
         "class_ratio": null, 
         "cost_estimate": "$$$$", 
         "courses": {
-            "Hack Reactor": {
-                "Cost": null, 
-                "Course Location": [
-                    "San Francisco"
-                ], 
-                "Course Title": "Hack Reactor", 
-                "Hours/Week": null, 
-                "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
-                "Subjects": [
-                    "JavaScript", 
-                    "HTML", 
-                    "CSS"
-                ]
-            }, 
-            "Hack Reactor Remote": {
-                "Cost": null, 
-                "Course Location": [
-                    "Online"
-                ], 
-                "Course Title": "Hack Reactor Remote", 
-                "Hours/Week": null, 
-                "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
-                "Subjects": [
-                    "JavaScript", 
-                    "HTML", 
-                    "CSS"
-                ]
-            }, 
             "Web Development Bootcamp": {
                 "Class Size": 32, 
                 "Cost": 17780, 
@@ -1307,29 +1274,15 @@
                 "Title": "Web Development Bootcamp"
             }
         }, 
-        "cr_num_reviews": 35, 
-        "cr_rating": 4.9, 
-        "cr_technologies": [
-            "JavaScript", 
-            "HTML", 
-            "CSS"
-        ], 
-        "email": "contact@hackreactor.com", 
-        "facebook": "https://www.facebook.com/hackreactor", 
         "general_cost": "$$$$", 
         "hiring_rate": 99.0, 
-        "housing": "No", 
-        "job_assistance": "Yes", 
-        "job_guarantee": "No", 
-        "last_updated": "2016-09-30", 
+        "last_updated": "2016-09-29", 
         "locations": [
-            "San Francisco", 
-            "Online"
+            "San Francisco"
         ], 
         "name": "Hack Reactor", 
         "num_alumni": "N/A", 
-        "num_courses": 2, 
-        "num_locations": 2, 
+        "num_locations": 1, 
         "su_num_reviews": 35, 
         "su_rating": 4.9, 
         "su_technologies": [
@@ -1337,25 +1290,16 @@
         ], 
         "subjects": "Algorithims, AngularJS, CoffeeScript, CSS, Data Structures, Express, Git, HTML, JavaScript, jQuery, MongoDB, MySQL, Node.js, SQL", 
         "technologies": [
-            "JavaScript", 
-            "HTML", 
-            "CSS"
+            "JavaScript"
         ], 
         "top_source": [
-            "CourseReport"
+            "SwitchUp"
         ], 
         "tracking_groups": [
             "Top Camp", 
             "Selected Camp"
         ], 
-        "tracks": "Full-Stack Web Development", 
-        "twitter": {
-            "followers": 7478, 
-            "handle": "@HackReactor", 
-            "tweets": 2774
-        }, 
-        "visas": "No", 
-        "website": "http://hackreactor.com/"
+        "website": "http://www.hackreactor.com"
     }, 
     "Ironhack": {
         "accreditation": "None", 
@@ -1539,7 +1483,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-30", 
+        "last_updated": "2016-09-29", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1598,9 +1542,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8919, 
+            "followers": 8918, 
             "handle": "@ironhack", 
-            "tweets": 3401
+            "tweets": 3395
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1730,8 +1674,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 52, 
-        "cr_rating": 3.63, 
+        "cr_num_reviews": 51, 
+        "cr_rating": 3.61, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -1758,7 +1702,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-09-30", 
+        "last_updated": "2016-09-29", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1837,15 +1781,15 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Data Science", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Data Science"
         ], 
         "twitter": {
             "followers": 15300, 
             "handle": "@TheIronYard", 
-            "tweets": 7648
+            "tweets": 7647
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1859,8 +1803,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-09-30 12:13:20", 
-        "Days Out": 18, 
+        "Date/Time": "2016-09-29 12:24:48", 
+        "Days Out": 17, 
         "Detroit": [
             "The Iron Yard"
         ], 
@@ -1897,7 +1841,7 @@
             "Minneapolis": 1, 
             "Nashville": 1, 
             "New York City": 2, 
-            "Online": 2, 
+            "Online": 1, 
             "Orlando": 1, 
             "Raleigh": 1, 
             "Salt Lake City": 1, 
@@ -1915,7 +1859,7 @@
             "Algorithms": 1, 
             "Android": 1, 
             "AngularJS": 1, 
-            "CSS": 5, 
+            "CSS": 4, 
             "Cocoa": 1, 
             "Data Science": 1, 
             "Design": 2, 
@@ -1925,7 +1869,7 @@
             "Express.js": 1, 
             "Front End": 2, 
             "Git": 4, 
-            "HTML": 5, 
+            "HTML": 4, 
             "Hadoop": 1, 
             "Java": 2, 
             "JavaScript": 5, 

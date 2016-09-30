@@ -12,6 +12,8 @@ import datetime
 import revised_search
 from revised_search import main
 from revised_search import Camp_Info
+import slack_output
+#from slack_output import slack_output
 
 
 def find_file(pattern, path):
@@ -58,9 +60,21 @@ def check_flag(flag, arg_list):
             break
     return boolean, arg_list
 
+#1. COMPLETE SECTION TO FEED OUT SLACKBOT SEARCH
+#2. ADD PLOTTER OPTION FUNCTIONALITY ON THE WRAPPER END (CALL GENERATE_PLOT FUNCTION AND RETURN PLOT TO SLACK/CONSOLE)
+#3. AND/OR OPTIONS ON WRAPPER END
+
 def main(search_keys):
     tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
     tracking_groups_files = find_file('*.json','current_data/tracking_groups')
+
+    #print search_keys
+
+    if search_keys[-1] == 'Slack':
+        search_keys.remove('Slack')
+        source = 'Slack'
+    else:
+        source = 'Terminal'
 
     #COMMAND LINE OPTION PROCESSING
     or_flag, search_keys = check_flag('--or', search_keys)
@@ -69,6 +83,7 @@ def main(search_keys):
     sort_flag, search_keys = check_flag('--sort', search_keys)
     warnings_flag, search_keys = check_flag('--warnings', search_keys)
     custom_file, search_keys = check_flag('--file', search_keys)
+    plot_flag, search_keys = check_flag('--plot', search_keys)
 
     if custom_file == True:
         datafile = search_keys[1]
@@ -83,35 +98,38 @@ def main(search_keys):
         datafile = 'current_data/output.json'
 
     result_data = revised_search.main(sys.argv)
-    
-    if summary_flag == True:
-        print'\n================================================================================\n' \
-        'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
-        for cat in result_data.summary:
-            if cat != 'warning':
-                pprint(result_data.summary[cat])
-        if warnings_flag == True:
-            print
-            print 'WARNING: THESE CAMPS FIT THE SPECIFIED FILTERS, BUT DID NOT HAVE DATA FOR THE FOLLOWING CATEGORIES'
-            pprint(result_data.summary['warning'])
 
-    if sort_flag == True:
-        print '\n===============================================================================================\n' \
-        'SORT: Sorted list of camps by specified categories\n'
-        for cat in result_data.sort:
-            if cat != 'warning':
-                print cat.title() + ':'
-                pprint(result_data.sort[cat])
+    if source == 'Terminal':
+        if summary_flag == True:
+            print'\n================================================================================\n' \
+            'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
+            for cat in result_data.summary:
+                if cat != 'warning':
+                    pprint(result_data.summary[cat])
+            if warnings_flag == True:
                 print
-        if warnings_flag == True:
-            print
-            print 'WARNING: THESE CAMPS FIT THE SPECIFIED FILTERS, BUT DID NOT HAVE DATA FOR THE FOLLOWING CATEGORIES'
-            pprint(result_data.sort['warning'])
+                print 'WARNING: THESE CAMPS FIT THE SPECIFIED FILTERS, BUT DID NOT HAVE DATA FOR THE FOLLOWING CATEGORIES'
+                pprint(result_data.summary['warning'])
 
-    if list_flag == True:
-        print '\n===============================================================================================\n' \
-        'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
-        pprint(result_data.camp_list)
+        if sort_flag == True:
+            print '\n===============================================================================================\n' \
+            'SORT: Sorted list of camps by specified categories\n'
+            for cat in result_data.sort:
+                if cat != 'warning':
+                    print cat.title() + ':'
+                    pprint(result_data.sort[cat])
+                    print
+            if warnings_flag == True:
+                print
+                print 'WARNING: THESE CAMPS FIT THE SPECIFIED FILTERS, BUT DID NOT HAVE DATA FOR THE FOLLOWING CATEGORIES'
+                pprint(result_data.sort['warning'])
+
+        if list_flag == True:
+            print '\n===============================================================================================\n' \
+            'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
+            pprint(result_data.camp_list)
+    else:
+        slack_formatted_output = slack_output.slack_output(result_data)
 
 if __name__ == '__main__':
     main(sys.argv)

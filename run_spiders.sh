@@ -137,7 +137,7 @@ echo >>logs/scraper_log.txt
 #LOG TRACKED CHANGES
 log_date=$(date "+%Y-%m-%d")
 echo "CHANGES FOR $log_date" >>logs/change_log.txt
-python tracker_results.py 1 ALL>>logs/change_log.txt
+python search_track_plot_functions/tracker_results.py 1 ALL>>logs/change_log.txt
 echo "====================================">>logs/change_log.txt
 echo >>logs/change_log.txt
 output_time=$(date "+%H:%M:%S")
@@ -150,7 +150,7 @@ echo "Scraper finished!" >>logs/scraper_log.txt
 echo "-------------------" >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
 
-location_changes="$(python location_track_wrapper)"
+location_changes="$(python helper_functions/location_track_wrapper.py)"
 osascript -e "display notification '$location_changes' with title 'Location Changes'"
 
 echo

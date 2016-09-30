@@ -130,6 +130,9 @@ def apply_filter(key_filter, data_category, bootcamps, key_dict):
             pass
     return bootcamps
 
+#1. FIX SUMMARY SO THAT IT ALSO SORTS BY VALUE (MAYBE PRINTS BOTH KEY AND VALUE SORTED)
+#2. AND/OR FUNCTIONALITY TO SEARCH END
+
 def main(search_keys):
     import os
     #os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')

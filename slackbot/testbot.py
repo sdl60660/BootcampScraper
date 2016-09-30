@@ -21,6 +21,10 @@ EXAMPLE_COMMAND = "do"
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
 
+#1. ADJUST METHOD OF CALLING SEARCH_WRAPPER SO THAT IT DOESN'T USE THE TERMINAL
+#2. ADD FUNCTIONALITY FOR RETURNING A PLOT (DON'T KNOW IF ANYTHING NEEDS TO BE DONE ON THIS END)
+#3. HANDLE NON-SEARCH REQUESTS (I.E. JUST 'PLOT')
+#4. PUSH TRACKING/UPDATES THROUGH ON A SCHEDULE (NOT JUST WHEN PROMPTED)
 def handle_command(command, channel):
     """
         Receives commands directed at the bot and determines if they
@@ -33,7 +37,7 @@ def handle_command(command, channel):
         response = "Sure...write some more code then I can do that!"
     if command.startswith('search'):
         #arg_list = []
-        input_command = 'python search_wrapper.py ' + command[7:]
+        input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
         print input_command
         response = os.popen(input_command).read()
         #response = bootcamp_search.main(arg_list[0], arg_list[1])

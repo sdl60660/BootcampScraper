@@ -8,6 +8,7 @@ def main():
 	if len(result) > 0:
 		for x in result:
 			print_list.append('{0} has moved {1} {2}'.format(x[1], ('into' if x[2] == 'Addition' else 'out of'), x[0]))
+		print print_list
 		return print_list
 	else:
 		return -1
