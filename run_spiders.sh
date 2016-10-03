@@ -143,7 +143,6 @@ echo >>logs/change_log.txt
 output_time=$(date "+%H:%M:%S")
 echo "$output_time: Tracked Changes Logged..."
 
-
 current_time=$(date "+%Y-%m-%d.(%H:%M:%S)")
 echo $current_time >>logs/scraper_log.txt
 echo "Scraper finished!" >>logs/scraper_log.txt

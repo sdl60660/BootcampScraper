@@ -283,6 +283,6 @@ def main(search_keys):
     return return_info
 
 if __name__ == '__main__':
-    main(sys.argv)
+    main(search_keys)
 
 

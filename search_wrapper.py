@@ -12,9 +12,10 @@ import datetime
 import revised_search
 from revised_search import main
 from revised_search import Camp_Info
+
 import slack_output
+from slack_output import Slack_Output_Strings
 from current_data import attribute_dict
-#from slack_output import slack_output
 
 
 def find_file(pattern, path):
@@ -64,20 +65,16 @@ def check_flag(flag, arg_list):
 #1. COMPLETE SECTION TO FEED OUT SLACKBOT SEARCH
 #2. ADD PLOTTER OPTION FUNCTIONALITY ON THE WRAPPER END (CALL GENERATE_PLOT FUNCTION AND RETURN PLOT TO SLACK/CONSOLE)
 #3. AND/OR OPTIONS ON WRAPPER END
-#4. ~~~IN PROGRESS~~~ MAP SEARCH TERMS TO JSON TERMS USING ATTRIBUTE DICT
 
 def main(search_keys):
-    print "Need to finish search term translations!!!"
-    sys.exit()
-    #========IN PROGRESS========#
+    #Translate search terms into scraped category terms
     for i, term in enumerate(search_keys):
-        if term in attribute_dict.In_Dict.keys():
-            search_keys[i] = attribute_dict.In_Dict[term]
-    #========IN PROGRESS========#
+        closest_term = return_closest(term.title(), attribute_dict.In_Dict.keys(), 0.92)
+        if closest_term != -1:
+            search_keys[i] = attribute_dict.In_Dict[closest_term]
+
     tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
     tracking_groups_files = find_file('*.json','current_data/tracking_groups')
-
-    #print search_keys
 
     if search_keys[-1] == 'Slack':
         search_keys.remove('Slack')
@@ -106,7 +103,7 @@ def main(search_keys):
     if custom_file == False:
         datafile = 'current_data/output.json'
 
-    result_data = revised_search.main(sys.argv)
+    result_data = revised_search.main(search_keys)
 
     if source == 'Terminal':
         if summary_flag == True:
@@ -125,7 +122,11 @@ def main(search_keys):
             'SORT: Sorted list of camps by specified categories\n'
             for cat in result_data.sort:
                 if cat != 'warning':
-                    print cat.title() + ':'
+                    if cat in attribute_dict.Out_Dict:
+                        print_cat = Out_Dict[cat]
+                    else:
+                        print_cat = cat
+                    print print_cat.title() + ':'
                     pprint(result_data.sort[cat])
                     print
             if warnings_flag == True:
@@ -139,6 +140,16 @@ def main(search_keys):
             pprint(result_data.camp_list)
     else:
         slack_formatted_output = slack_output.slack_output(result_data)
+
+        full_outstring = '\n'
+        if list_flag:
+            full_outstring += slack_formatted_output.list_out + '\n\n'
+        if sort_flag:
+            full_outstring += slack_formatted_output.sort_out + '\n\n'
+        if summary_flag:
+            full_outstring += slack_formatted_output.summary_out + '\n\n'
+
+        return full_outstring
 
 if __name__ == '__main__':
     main(sys.argv)

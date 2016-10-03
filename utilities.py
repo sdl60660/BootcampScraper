@@ -10,9 +10,9 @@ def return_closest(query, search_set, threshold=0.7):
         if match > closest[1]:
             closest = (term, match)
     if closest[1] < threshold:
-        print
+        """print
         print 'Sorry! Your search term "' + str(query) + '" did not return a close enough match with any search terms. It may not be in the dataset.'
-        print
+        print"""
         return -1
     #print closest
     return closest[0]

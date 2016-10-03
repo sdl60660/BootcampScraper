@@ -4,14 +4,14 @@ Out_Dict = {
 	'cr_rating': "Course Report Rating",
 	'job_assistance': "Job Assistance",
 	'job_guarantee': "Job Guarantee",
-	'num_courses': "Number of Courses",
-	'num_locations': "Number of Locations",
+	'num_courses': "Number Of Courses",
+	'num_locations': "Number Of Locations",
 	'tracking_groups': "Tracking Groups",
-	'su_rating': "SwitchUp Rating",
-	'su_num_reviews': "Swithcup Reviews",
+	'su_rating': "Switchup Rating",
+	'su_num_reviews': "Switchup Reviews",
 	'last_updated': "Last Updated",
 }
 
 In_Dict = {	
-	v: k for k,v in Out_Dict.iteritems()
+	v:k for k,v in Out_Dict.iteritems()
 }

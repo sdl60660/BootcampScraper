@@ -6,6 +6,33 @@ sys.path.insert(0,'..')
 import search_wrapper #tracking, tracker_results, generate_plot, utilities
 import subprocess
 
+def input_to_searchkeys(command):
+    command = command.split(' ')
+    searchkeys = []
+    x = 0
+    while x < len(command):
+        if command[x][0:2] == '--':
+            searchkeys.append(str(command[x]))
+            x += 1
+        elif x == len(command)-1:
+            searchkeys.append(str(command[x][1:-1]))
+            x += 1
+        elif command[x][0] == "'" and command[x][-1] != "'":
+            found = False
+            y = x
+            full = command[x]
+            while found == False:
+                full = ' '.join([full, command[y+1]])
+                y += 1
+                if command[y][-1] == "'":
+                    found = True
+            searchkeys.append(str(full[1:-1]))
+            x += 1 + (y-x)
+        else:
+            searchkeys.append(str(command[x][1:-1]))
+            x += 1
+    return searchkeys
+
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
 
@@ -36,10 +63,12 @@ def handle_command(command, channel):
     if command.startswith(EXAMPLE_COMMAND):
         response = "Sure...write some more code then I can do that!"
     if command.startswith('search'):
-        #arg_list = []
-        input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
-        print input_command
-        response = os.popen(input_command).read()
+        keys = input_to_searchkeys(command)[1:]
+        keys.append('Slack')
+        response = search_wrapper.main(keys)
+        #input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
+        #print input_command
+        #response = os.popen(input_command).read()
         #response = bootcamp_search.main(arg_list[0], arg_list[1])
     slack_client.api_call("chat.postMessage", channel=channel,
                           text=response, as_user=True)

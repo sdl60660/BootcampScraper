@@ -41,7 +41,11 @@ def slack_output(result_data):
 		category = result_data.sort[item]
 		if item == 'warning':
 			continue
-		sort_list_string += str(item).title() + '\n----------------------------\n'
+		if item in attribute_dict.Out_Dict:
+			item_title = attribute_dict.Out_Dict[item].title()
+		else:
+			item_title = item.title()
+		sort_list_string += str(item_title) + '\n----------------------------\n'
 		for x in category:
 			#list_string = '{:<30}{}'.format((str(x[0]) + ':'), str(x[1]))
 			list_string = '            ' + str(x[0]) + ': ' + str(x[1])
@@ -56,7 +60,11 @@ def slack_output(result_data):
 		category = result_data.summary[item]
 		if item == 'warning':
 			continue
-		summary_list_string += str(item).title() + '\n----------------------------\n'
+		if item in attribute_dict.Out_Dict:
+			item_title = attribute_dict.Out_Dict[item].title()
+		else:
+			item_title = item.title()
+		summary_list_string += str(item_title) + '\n----------------------------\n'
 		category_sorted = sorted([[k,v] for k,v in category.iteritems()], key=lambda x: x[1], reverse=True)
 		"""for k,v in category.iteritems():
 			list_string = '            ' + str(k) + ': ' + str(v)
@@ -65,14 +73,8 @@ def slack_output(result_data):
 			list_string = '            ' + str(x[0]) + ': ' + str(x[1])
 			summary_list_string += list_string + '\n'
 		summary_list_string += '\n\n'
-
-	print
-	print camp_list_string
-	print
-	print sort_list_string
-	print
-	print summary_list_string
-
+	return_strings.summary_out = summary_list_string
+	return return_strings
 
 if __name__ == '__slack_output__':
     slack_output(result_data)
