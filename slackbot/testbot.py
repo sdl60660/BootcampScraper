@@ -5,6 +5,7 @@ import sys
 sys.path.insert(0,'..')
 import search_wrapper #tracking, tracker_results, generate_plot, utilities
 import subprocess
+import generate_plot
 
 def input_to_searchkeys(command):
     command = command.split(' ')
@@ -36,7 +37,6 @@ def input_to_searchkeys(command):
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
 
-
 # testbot's ID as an environment variable
 BOT_ID = os.environ.get("BOT_ID")
 
@@ -46,7 +46,6 @@ EXAMPLE_COMMAND = "do"
 
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
-
 
 #1. ADJUST METHOD OF CALLING SEARCH_WRAPPER SO THAT IT DOESN'T USE THE TERMINAL
 #2. ADD FUNCTIONALITY FOR RETURNING A PLOT (DON'T KNOW IF ANYTHING NEEDS TO BE DONE ON THIS END)
@@ -63,16 +62,21 @@ def handle_command(command, channel):
     if command.startswith(EXAMPLE_COMMAND):
         response = "Sure...write some more code then I can do that!"
     if command.startswith('search'):
-        keys = input_to_searchkeys(command)[1:]
-        keys.append('Slack')
-        response = search_wrapper.main(keys)
-        #input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
-        #print input_command
-        #response = os.popen(input_command).read()
-        #response = bootcamp_search.main(arg_list[0], arg_list[1])
+        #TO RUN WITHOUT GOING THROUGH TERMINAL, USE BELOW (MAY BE A LITTLE FASTER, BUT SPLITS INTO TWO
+        #SEPARATE SLACK MESSAGES)
+        #keys = input_to_searchkeys(command)[1:]
+        #keys.append('Slack')
+        #response = search_wrapper.main(keys)
+
+        #RUN THROUGH TERMINAL OUTPUT
+        input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
+        print input_command
+        response = os.popen(input_command).read()
+    if command.startswith('plot'):
+        input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
+        response = os.popen(input_command).read()
     slack_client.api_call("chat.postMessage", channel=channel,
                           text=response, as_user=True)
-
 
 def parse_slack_output(slack_rtm_output):
     """

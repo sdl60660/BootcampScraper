@@ -149,8 +149,10 @@ echo "Scraper finished!" >>logs/scraper_log.txt
 echo "-------------------" >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
 
-location_changes="$(python helper_functions/location_track_wrapper.py)"
-osascript -e "display notification '$location_changes' with title 'Location Changes'"
+python slackbot/post_changes.py
+
+#location_changes="$(python helper_functions/location_track_wrapper.py)"
+#osascript -e "display notification '$location_changes' with title 'Location Changes'"
 
 echo
 echo "Done!"

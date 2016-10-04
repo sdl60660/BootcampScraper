@@ -62,6 +62,8 @@ today = date.today()
 today_ordinal = today.toordinal()
 
 #OPEN CURRENT FILE
+if os.getcwd() == '/Users/samlearner/scrapy_projects/bootcamp_info/slackbot':
+    os.chdir('..')
 with open('current_data/output.json', 'rb') as current_data:
     bootcamps = json.load(current_data)
 

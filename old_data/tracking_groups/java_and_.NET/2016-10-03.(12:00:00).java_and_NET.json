@@ -10,7 +10,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "St. Louis"
         ], 
@@ -27,9 +27,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 3259, 
+            "followers": 3261, 
             "handle": "@ClaimAcademySTL", 
-            "tweets": 533
+            "tweets": 531
         }, 
         "visas": "No", 
         "website": "http://claimacademystl.com/"
@@ -153,7 +153,7 @@
         "housing": "Yes", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Seattle", 
             "Portland", 
@@ -391,7 +391,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Houston", 
             "San Francisco", 
@@ -565,8 +565,8 @@
                 "Title": "Full-Stack Immersive Course (Accelerated)"
             }
         }, 
-        "cr_num_reviews": 43, 
-        "cr_rating": 4.58, 
+        "cr_num_reviews": 42, 
+        "cr_rating": 4.57, 
         "cr_technologies": [
             "AngularJS", 
             "Front End", 
@@ -586,7 +586,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Greensboro", 
             "Charlotte"
@@ -595,7 +595,7 @@
         "num_alumni": "N/A", 
         "num_courses": 2, 
         "num_locations": 2, 
-        "su_num_reviews": 30, 
+        "su_num_reviews": 29, 
         "su_rating": 4.7, 
         "su_technologies": [
             "Algorithms", 
@@ -768,7 +768,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Chicago"
         ], 
@@ -949,7 +949,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Milwaukee"
         ], 
@@ -1007,9 +1007,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1209, 
+            "followers": 1205, 
             "handle": "@devcodecamp", 
-            "tweets": 887
+            "tweets": 886
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -1359,7 +1359,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Portland", 
             "Seattle", 
@@ -1421,11 +1421,11 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1095, 
+            "followers": 1094, 
             "handle": "@epicodus", 
             "tweets": 959
         }, 
@@ -1558,7 +1558,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Sydney", 
             "Brisbane", 
@@ -1825,7 +1825,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Detroit"
         ], 
@@ -1879,9 +1879,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5199, 
+            "followers": 5192, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6185
+            "tweets": 6173
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -2047,7 +2047,7 @@
         "housing": "None", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Los Angeles", 
             "Orange County", 
@@ -2111,7 +2111,7 @@
         "twitter": {
             "followers": 2252, 
             "handle": "@WeSabio", 
-            "tweets": 9647
+            "tweets": 9636
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -2177,7 +2177,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Denver"
         ], 
@@ -2217,9 +2217,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 471, 
+            "followers": 470, 
             "handle": "@SkillDistillery", 
-            "tweets": 381
+            "tweets": 380
         }, 
         "visas": "No", 
         "website": "http://skilldistillery.com/"
@@ -2341,7 +2341,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -2397,7 +2397,7 @@
         "twitter": {
             "followers": 645, 
             "handle": "@softwareguild", 
-            "tweets": 803
+            "tweets": 797
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -2527,8 +2527,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 53, 
-        "cr_rating": 3.66, 
+        "cr_num_reviews": 52, 
+        "cr_rating": 3.63, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -2555,7 +2555,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2642,7 +2642,7 @@
         "twitter": {
             "followers": 15300, 
             "handle": "@TheIronYard", 
-            "tweets": 7665
+            "tweets": 7661
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2739,7 +2739,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-04", 
+        "last_updated": "2016-10-03", 
         "locations": [
             "Portland", 
             "Online"
@@ -2807,7 +2807,7 @@
         "twitter": {
             "followers": 1717, 
             "handle": "@TheTechAcad", 
-            "tweets": 365
+            "tweets": 362
         }, 
         "visas": "No", 
         "website": "http://learncodinganywhere.com/"
@@ -2825,8 +2825,8 @@
         "Current Market": [
             "Software Guild"
         ], 
-        "Date/Time": "2016-10-04 12:13:10", 
-        "Days Out": 22, 
+        "Date/Time": "2016-10-03 12:12:06", 
+        "Days Out": 21, 
         "Detroit": [
             "The Iron Yard", 
             "Grand Circus"

@@ -13,8 +13,8 @@ import revised_search
 from revised_search import main
 from revised_search import Camp_Info
 
-import slack_output
-from slack_output import Slack_Output_Strings
+import slack_search_output
+from slack_search_output import Slack_Output_Strings
 from current_data import attribute_dict
 
 
@@ -139,7 +139,7 @@ def main(search_keys):
             'LIST: The following bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
             pprint(result_data.camp_list)
     else:
-        slack_formatted_output = slack_output.slack_output(result_data)
+        slack_formatted_output = slack_search_output.slack_output(result_data)
 
         full_outstring = '\n'
         if list_flag:
@@ -149,6 +149,7 @@ def main(search_keys):
         if summary_flag:
             full_outstring += slack_formatted_output.summary_out + '\n\n'
 
+        print full_outstring
         return full_outstring
 
 if __name__ == '__main__':
