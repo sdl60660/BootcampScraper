@@ -24,7 +24,6 @@ slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
 test_list = ['testing', 'technologies']
 
-#2. ADD FUNCTIONALITY FOR RETURNING A PLOT (DON'T KNOW IF ANYTHING NEEDS TO BE DONE ON THIS END)
 #3. HANDLE NON-SEARCH REQUESTS (I.E. JUST 'PLOT')
 #4. PUSH TRACKING/UPDATES THROUGH ON A SCHEDULE (NOT JUST WHEN PROMPTED)
 
@@ -42,12 +41,6 @@ def handle_command(command, channel, prompted):
     response = "Not sure what you mean. Use the *" + EXAMPLE_COMMAND + \
                "* command with numbers, delimited by spaces."
 
-    if command.startswith(EXAMPLE_COMMAND):
-        response = "Sure...write some more code then I can do that!"
-        emoji = default_emoji
-        user = default_user
-    
-
     if command.startswith('search'):
         #keys = input_to_searchkeys(command)[1:]
         #keys.append('Slack')
@@ -59,8 +52,7 @@ def handle_command(command, channel, prompted):
         response = os.popen(input_command).read()
         emoji = default_emoji
         user = default_user
-    
-    #if any(command.startswith(x) for x in test_list):
+
     if command.startswith('trends'):
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
         input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:]
@@ -73,7 +65,6 @@ def handle_command(command, channel, prompted):
 
     plot = False
 
-    #DOESN'T WORK YET, BUT SHOULD PROMPT A PLOT TO BE SENT THROUGH
     if command.startswith('plot'):
         plot_file_name, plot_title = tracking.plot_changes(20, 'technologies', current_status=True, max_items=15,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
@@ -110,9 +101,6 @@ def handle_command(command, channel, prompted):
         slack.files.upload(plot_file_name, filename=(plot_title + '.png'), title=plot_title, channels=channel)
         slack_client.api_call("chat.postMessage", channel=channel,
                               text='How many days back would you like to plot for?', as_user=True)
-        #print plot_file_name, plot_title
-        #plot_file_name = os.path.abspath(plot_file_name)
-        #print plot_file_name
         #slack_client.api_call('files.upload', file=plot_file_name, channel=channel, filename=(plot_title + '.png'), title=plot_title)
     else:
         #MAKE THE API CALL AS SEARCHBOT
@@ -149,31 +137,3 @@ if __name__ == "__main__":
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
-
-
-"""def input_to_searchkeys(command):
-    command = command.split(' ')
-    searchkeys = []
-    x = 0
-    while x < len(command):
-        if command[x][0:2] == '--':
-            searchkeys.append(str(command[x]))
-            x += 1
-        elif x == len(command)-1:
-            searchkeys.append(str(command[x][1:-1]))
-            x += 1
-        elif command[x][0] == "'" and command[x][-1] != "'":
-            found = False
-            y = x
-            full = command[x]
-            while found == False:
-                full = ' '.join([full, command[y+1]])
-                y += 1
-                if command[y][-1] == "'":
-                    found = True
-            searchkeys.append(str(full[1:-1]))
-            x += 1 + (y-x)
-        else:
-            searchkeys.append(str(command[x][1:-1]))
-            x += 1
-    return searchkeys"""
