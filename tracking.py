@@ -152,7 +152,8 @@ def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
     return print_arrays, diff_arrays
 
 def plot_changes(days_back, category, start_days_back=0, current_status=False, tracking_group=None, max_items=10,
-    percentage=False, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True):
+    percentage=False, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True,
+    slack_post=False):
     
     #Import modules
     import matplotlib.pyplot as plt
@@ -361,15 +362,23 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
      + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
     fig.suptitle(title, fontsize=13)
 
+    plot_title = title[(title.find('Information on ') + 15):]
+
     if save_plot == True:
-        plot_file_name = 'old_data/trend_charts/' + title[(title.find('Information on ') + 15):]
+        if slack_post:
+            subfolder = 'slack_requests'
+        else:
+            subfolder = 'trend_charts'
+        plot_file_name = 'old_data/' + subfolder + '/' + plot_title
         plt.savefig(plot_file_name, bbox_inches='tight')
+    else:
+        plot_file_name = 'No plot saved.'
 
     #Show plot
     if show_plot == True:
         plt.show()
-
-    return
+    
+    return plot_file_name, plot_title
 
 #PLOTS IN BAR OR PIE CHART THE MOST RECENT BREAKDOWN FOR A CATEGORY
 def plot_category():

@@ -17,7 +17,7 @@ def print_stats(print_arrays, max_diff):
 	for print_array, diff in zip(print_arrays, max_diff):
 		if len(print_array[0]) > 0:
 			print
-			print str(print_array[1]).upper() #<--THIS IS PRINTING A NUMBER, SHOULD BE PRINTING A CATEGORY
+			print ('>' + str(print_array[1])).title() #<--THIS IS PRINTING A NUMBER, SHOULD BE PRINTING A CATEGORY
 			print_array = print_array[0]
 			for change in print_array:
 				pprint(change, indent=4)
@@ -69,6 +69,32 @@ def full_print(days_back, cats, group='ALL'):
 				print
 	return
 
+def full_slack_print(days_back, cats, group='ALL'):
+	print_arrays, max_diff = tracking_group_stats(days_back, group)
+	if any(len(x[0]) > 0 for x in print_arrays):
+		print
+		print "`   Changes   `"
+	print_stats(print_arrays, max_diff)
+
+	detail_array = []
+	cat_data_list = []
+	for c in cats:
+		change_details = tracked_camp_changes(days_back, c, group)
+		detail_array.append(change_details)
+
+	print
+
+	if any(len(x) > 0 for x in detail_array):
+		print
+		print "`   Details   `"
+		print
+		for x, c in enumerate(cats):
+			if len(detail_array[x]) > 0:
+				print ('>' + c).title()
+				print_details(detail_array[x])
+				print
+	return
+
 
 def main():
 	if len(sys.argv) < 2:
@@ -89,16 +115,17 @@ def main():
 		tgroups[i] = return_closest(item, groups)
 
 	#If input was 'ALL', then print info for all tracking groups
-	if len(sys.argv) == 3 and sys.argv[-1] == 'ALL':
+	if len(sys.argv) == 3 and sys.argv[-1].upper() == 'ALL':
 		tgroups = groups
 
 
 	#*******************OVERALL CHANGES********************
 
 	print
-	print 'Overall Changes'.upper().center(35, '-')
+	#print '```Overall Changes (Last {} Days)```'.format(days_back)#.center(40, '=')
+	print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
 	try:
-		full_print(days_back, cats)
+		full_slack_print(days_back, cats)
 	except NameError:
 		print
 		print 'Could not find file for this date!'
@@ -107,9 +134,9 @@ def main():
 	#****************TRACKING GROUP CHANGES****************
 
 	for group in tgroups:
-		print group.upper().center(35, '-')
+		print group.center(40, '=')
 		try:
-			full_print(days_back, cats, group)
+			full_slack_print(days_back, cats, group)
 		except NameError:
 			print
 			print 'Could not find file for ' + str(group) + ' tracking group!'

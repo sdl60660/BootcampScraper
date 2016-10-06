@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -103,7 +103,7 @@
         "twitter": {
             "followers": 9815, 
             "handle": "@devbootcamp", 
-            "tweets": 9634
+            "tweets": 9622
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -1152,7 +1152,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1321,7 +1321,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "San Francisco", 
             "Online"
@@ -1350,9 +1350,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7499, 
+            "followers": 7492, 
             "handle": "@HackReactor", 
-            "tweets": 2780
+            "tweets": 2779
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1539,7 +1539,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1598,7 +1598,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8982, 
+            "followers": 8979, 
             "handle": "@ironhack", 
             "tweets": 3403
         }, 
@@ -1625,7 +1625,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-10-24", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Python", 
                     "JavaScript", 
@@ -1639,15 +1639,15 @@
                 "Title": "Back End Engineering"
             }, 
             "Back-End Engineering": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
                     "Greenville"
                 ], 
                 "Course Title": "Back-end Engineering", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "HTML", 
                     "Rails", 
@@ -1673,7 +1673,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-10-17", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1695,7 +1695,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-11-07", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Swift", 
                     "iOS", 
@@ -1707,19 +1707,19 @@
                 "Title": "Mobile Engineering"
             }, 
             "Ui Design": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
                     "Austin"
                 ], 
                 "Course Title": "UI Design", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Length": 12, 
                 "Location": [
                     "Raleigh"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Start Date": "2016-10-17", 
                 "Subjects": [
                     "JavaScript", 
@@ -1744,12 +1744,12 @@
             "Xcode", 
             "Objective-C", 
             "Mobile", 
-            "User Experience Design", 
             "jQuery", 
             "Python", 
             "Django", 
             ".NET", 
-            "Java"
+            "Java", 
+            "User Experience Design"
         ], 
         "email": "academy@theironyard.com", 
         "facebook": "https://www.facebook.com/TheIronYard", 
@@ -1758,7 +1758,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1816,12 +1816,12 @@
             "Objective-C", 
             "Swift", 
             "Xcode", 
-            "User Experience Design", 
             "jQuery", 
             "Python", 
             "Django", 
             ".NET", 
-            "Java"
+            "Java", 
+            "User Experience Design"
         ], 
         "top_source": [
             "CourseReport"
@@ -1845,7 +1845,7 @@
         "twitter": {
             "followers": 15300, 
             "handle": "@TheIronYard", 
-            "tweets": 7676
+            "tweets": 7666
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1859,8 +1859,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-10-06 14:02:23", 
-        "Days Out": 24, 
+        "Date/Time": "2016-10-05 12:14:18", 
+        "Days Out": 23, 
         "Detroit": [
             "The Iron Yard"
         ], 

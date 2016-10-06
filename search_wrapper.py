@@ -87,6 +87,8 @@ def main(search_keys):
     summary_flag, search_keys = check_flag('--summary', search_keys)
     list_flag, search_keys = check_flag('--list', search_keys)
     sort_flag, search_keys = check_flag('--sort', search_keys)
+    #IMPLEMENT THE FUNCTIONS BELOW
+    detail_flag, search_keys = check_flag('--details', search_keys)
     warnings_flag, search_keys = check_flag('--warnings', search_keys)
     custom_file, search_keys = check_flag('--file', search_keys)
     plot_flag, search_keys = check_flag('--plot', search_keys)

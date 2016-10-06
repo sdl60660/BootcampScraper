@@ -10,7 +10,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "St. Louis"
         ], 
@@ -27,7 +27,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 3251, 
+            "followers": 3258, 
             "handle": "@ClaimAcademySTL", 
             "tweets": 533
         }, 
@@ -153,7 +153,7 @@
         "housing": "Yes", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Seattle", 
             "Portland", 
@@ -391,7 +391,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Houston", 
             "San Francisco", 
@@ -454,9 +454,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1040, 
+            "followers": 1038, 
             "handle": "@CoderCamps", 
-            "tweets": 803
+            "tweets": 801
         }, 
         "visas": "No", 
         "website": "http://www.codercamps.com/"
@@ -470,7 +470,7 @@
             "Full Stack Accelerated": {
                 "Cost": null, 
                 "Course Location": [
-                    "New York City"
+                    "Charlotte"
                 ], 
                 "Course Title": "Full Stack Accelerated", 
                 "Hours/Week": null, 
@@ -478,6 +478,8 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
                     "JavaScript", 
                     ".NET", 
                     "HTML", 
@@ -485,28 +487,29 @@
                     "ASP.NET", 
                     "SQL", 
                     "jQuery", 
-                    "Mobile", 
                     "CSS"
                 ]
             }, 
             "Full Stack Immersive": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
-                    "New York City"
+                    "Greensboro"
                 ], 
                 "Course Title": "Full Stack Immersive", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
                     "JavaScript", 
                     ".NET", 
                     "HTML", 
                     "C#", 
                     "ASP.NET", 
                     "SQL", 
-                    "Mobile"
+                    "CSS"
                 ]
             }, 
             "Full-Stack Immersive Course ": {
@@ -562,8 +565,8 @@
                 "Title": "Full-Stack Immersive Course (Accelerated)"
             }
         }, 
-        "cr_num_reviews": 45, 
-        "cr_rating": 4.6, 
+        "cr_num_reviews": 43, 
+        "cr_rating": 4.58, 
         "cr_technologies": [
             "AngularJS", 
             "Front End", 
@@ -574,26 +577,24 @@
             "ASP.NET", 
             "SQL", 
             "CSS", 
-            "jQuery", 
-            "Mobile"
+            "jQuery"
         ], 
         "email": "info@coderfoundry.com", 
         "facebook": "https://www.facebook.com/coderfoundry", 
         "general_cost": "$$$", 
         "hiring_rate": 95.0, 
-        "housing": "No", 
+        "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Greensboro", 
-            "Charlotte", 
-            "New York City"
+            "Charlotte"
         ], 
         "name": "Coder Foundry", 
         "num_alumni": "N/A", 
         "num_courses": 2, 
-        "num_locations": 3, 
+        "num_locations": 2, 
         "su_num_reviews": 30, 
         "su_rating": 4.7, 
         "su_technologies": [
@@ -619,8 +620,7 @@
             ".NET", 
             "SQL", 
             "Front End", 
-            "ASP.NET", 
-            "Mobile"
+            "ASP.NET"
         ], 
         "top_source": [
             "CourseReport"
@@ -629,12 +629,9 @@
             "Java/.NET", 
             "Java/.NET"
         ], 
-        "tracks": [
-            "Mobile Development", 
-            "Full-Stack Web Development"
-        ], 
+        "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 859, 
+            "followers": 862, 
             "handle": "@CoderFoundry", 
             "tweets": 433
         }, 
@@ -771,7 +768,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Chicago"
         ], 
@@ -821,7 +818,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 186, 
+            "followers": 184, 
             "handle": "@coding_temple", 
             "tweets": 53
         }, 
@@ -927,8 +924,8 @@
                 "Title": "Web Development"
             }
         }, 
-        "cr_num_reviews": 34, 
-        "cr_rating": 4.36, 
+        "cr_num_reviews": 33, 
+        "cr_rating": 4.34, 
         "cr_technologies": [
             "AngularJS", 
             "Python", 
@@ -952,7 +949,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Milwaukee"
         ], 
@@ -1010,9 +1007,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1220, 
+            "followers": 1213, 
             "handle": "@devcodecamp", 
-            "tweets": 891
+            "tweets": 889
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -1362,7 +1359,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Portland", 
             "Seattle", 
@@ -1428,9 +1425,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1096, 
+            "followers": 1098, 
             "handle": "@epicodus", 
-            "tweets": 962
+            "tweets": 960
         }, 
         "visas": "No", 
         "website": "http://www.epicodus.com/"
@@ -1561,7 +1558,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Sydney", 
             "Brisbane", 
@@ -1828,7 +1825,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Detroit"
         ], 
@@ -1882,9 +1879,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5195, 
+            "followers": 5205, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6223
+            "tweets": 6197
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -2010,7 +2007,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 61, 
+        "cr_num_reviews": 60, 
         "cr_rating": 4.95, 
         "cr_technologies": [
             "AngularJS", 
@@ -2050,7 +2047,7 @@
         "housing": "None", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Los Angeles", 
             "Orange County", 
@@ -2112,9 +2109,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2256, 
+            "followers": 2250, 
             "handle": "@WeSabio", 
-            "tweets": 9665
+            "tweets": 9649
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -2180,7 +2177,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Denver"
         ], 
@@ -2220,7 +2217,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 470, 
+            "followers": 471, 
             "handle": "@SkillDistillery", 
             "tweets": 383
         }, 
@@ -2344,7 +2341,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -2398,9 +2395,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 646, 
+            "followers": 647, 
             "handle": "@softwareguild", 
-            "tweets": 812
+            "tweets": 807
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -2425,7 +2422,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-10-24", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Python", 
                     "JavaScript", 
@@ -2439,15 +2436,15 @@
                 "Title": "Back End Engineering"
             }, 
             "Back-End Engineering": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
                     "Greenville"
                 ], 
                 "Course Title": "Back-end Engineering", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "HTML", 
                     "Rails", 
@@ -2473,7 +2470,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-10-17", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -2495,7 +2492,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "2016-11-07", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "Swift", 
                     "iOS", 
@@ -2507,19 +2504,19 @@
                 "Title": "Mobile Engineering"
             }, 
             "Ui Design": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
                     "Austin"
                 ], 
                 "Course Title": "UI Design", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Length": 12, 
                 "Location": [
                     "Raleigh"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Start Date": "2016-10-17", 
                 "Subjects": [
                     "JavaScript", 
@@ -2544,12 +2541,12 @@
             "Xcode", 
             "Objective-C", 
             "Mobile", 
-            "User Experience Design", 
             "jQuery", 
             "Python", 
             "Django", 
             ".NET", 
-            "Java"
+            "Java", 
+            "User Experience Design"
         ], 
         "email": "academy@theironyard.com", 
         "facebook": "https://www.facebook.com/TheIronYard", 
@@ -2558,7 +2555,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2616,12 +2613,12 @@
             "Objective-C", 
             "Swift", 
             "Xcode", 
-            "User Experience Design", 
             "jQuery", 
             "Python", 
             "Django", 
             ".NET", 
-            "Java"
+            "Java", 
+            "User Experience Design"
         ], 
         "top_source": [
             "CourseReport"
@@ -2645,7 +2642,7 @@
         "twitter": {
             "followers": 15300, 
             "handle": "@TheIronYard", 
-            "tweets": 7676
+            "tweets": 7666
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2742,7 +2739,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-06", 
+        "last_updated": "2016-10-05", 
         "locations": [
             "Portland", 
             "Online"
@@ -2810,7 +2807,7 @@
         "twitter": {
             "followers": 1717, 
             "handle": "@TheTechAcad", 
-            "tweets": 371
+            "tweets": 368
         }, 
         "visas": "No", 
         "website": "http://learncodinganywhere.com/"
@@ -2828,8 +2825,8 @@
         "Current Market": [
             "Software Guild"
         ], 
-        "Date/Time": "2016-10-06 14:02:22", 
-        "Days Out": 24, 
+        "Date/Time": "2016-10-05 12:14:17", 
+        "Days Out": 23, 
         "Detroit": [
             "The Iron Yard", 
             "Grand Circus"
@@ -2870,7 +2867,7 @@
             "Milwaukee": 1, 
             "Minneapolis": 2, 
             "Nashville": 1, 
-            "New York City": 2, 
+            "New York City": 1, 
             "Online": 4, 
             "Orange County": 1, 
             "Orlando": 1, 
@@ -2913,7 +2910,7 @@
             "HTML": 13, 
             "Java": 7, 
             "JavaScript": 12, 
-            "Mobile": 6, 
+            "Mobile": 5, 
             "MongoDB": 4, 
             "MySQL": 6, 
             "Node.js": 7, 
