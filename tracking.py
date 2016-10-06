@@ -319,51 +319,50 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         ax.set_ylabel(y_label)
 
         ax.grid(zorder=0)
-
         plt.xticks(tick_locations, bar_labels, rotation=60, fontsize=9)
-        plt.show()
-        return
-
-    ax = plt.subplot(111)
-
-    #Plot a line for each of the item lists in data_list
-    for i, ilist in enumerate(data_list):
-        print ilist
-        print x_axis
-        ax.plot(x_axis, ilist[0], label=ilist[1])
-
-    #Arrange, position, format the legend if show_legend is True
-    if show_legend == True:
-        columns = int(math.floor(max_items/2))
-        box = ax.get_position()
-        ax.set_position([box.x0, box.y0 + box.height * 0.1,
-             box.width, box.height * 0.9])
-        ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
-            fancybox=True, shadow=True, ncol=columns)
+        
+        title = 'Showing Information on ' + str(category).title() + ' (as of last update)'
     
-    #Put date labels on the x_axis for each dataset's meta date field
-    plt.xticks(x_axis, date_labels, fontsize=8, rotation=60)
-    
-    #Set axis labels, adjust based on whether the setting was for raw number or percentage
-    if percentage == False:
-        plt.ylabel('# of Bootcamps', fontsize='medium')
     else:
-        plt.ylabel('% of Bootcamps', fontsize='medium')
-    plt.xlabel('Date', fontsize='medium')
-    plt.ylim(ymin=0)
+        ax = plt.subplot(111)
+
+        #Plot a line for each of the item lists in data_list
+        for i, ilist in enumerate(data_list):
+            print ilist
+            print x_axis
+            ax.plot(x_axis, ilist[0], label=ilist[1])
+
+        #Arrange, position, format the legend if show_legend is True
+        if show_legend == True:
+            columns = int(math.floor(max_items/2))
+            box = ax.get_position()
+            ax.set_position([box.x0, box.y0 + box.height * 0.1,
+                 box.width, box.height * 0.9])
+            ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
+                fancybox=True, shadow=True, ncol=columns)
+        
+        #Put date labels on the x_axis for each dataset's meta date field
+        plt.xticks(x_axis, date_labels, fontsize=8, rotation=60)
+        
+        #Set axis labels, adjust based on whether the setting was for raw number or percentage
+        if percentage == False:
+            plt.ylabel('# of Bootcamps', fontsize='medium')
+        else:
+            plt.ylabel('% of Bootcamps', fontsize='medium')
+        plt.xlabel('Date', fontsize='medium')
+        plt.ylim(ymin=0)
+        
+        #Set plot title
+        if tracking_group == None:
+            tgroup_label = ''
+        else:
+            tgroup_label = ' (Tracking Group: ' + str(tracking_group) + ')'
+        
+        title = 'Showing Information on ' + str(category).title() + ' for: ' \
+         + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
     
-    #Set plot title
-    if tracking_group == None:
-        tgroup_label = ''
-    else:
-        tgroup_label = ' (Tracking Group: ' + str(tracking_group) + ')'
-    
-    title = 'Showing Information on ' + str(category).title() + ' for: ' \
-     + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
     fig.suptitle(title, fontsize=13)
-
     plot_title = title[(title.find('Information on ') + 15):]
-
     if save_plot == True:
         if slack_post:
             subfolder = 'slack_requests'

@@ -75,7 +75,7 @@ def handle_command(command, channel, prompted):
 
     #DOESN'T WORK YET, BUT SHOULD PROMPT A PLOT TO BE SENT THROUGH
     if command.startswith('plot'):
-        plot_file_name, plot_title = tracking.plot_changes(20, 'technologies', max_items=15,
+        plot_file_name, plot_title = tracking.plot_changes(20, 'technologies', current_status=True, max_items=15,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
         plot_file_name += '.png'
         #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
