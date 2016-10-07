@@ -3,6 +3,7 @@ from tracking import tracking_groups
 
 from tracking import tracked_camp_changes
 from tracking import tracking_group_stats
+from tracking import new_bootcamps
 
 from utilities import return_closest
 
@@ -13,11 +14,14 @@ from pprint import pprint
 cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
 
-def print_stats(print_arrays, max_diff):
+def print_stats(print_arrays, max_diff, slack=False):
 	for print_array, diff in zip(print_arrays, max_diff):
 		if len(print_array[0]) > 0:
 			print
-			print ('>' + str(print_array[1])).title() #<--THIS IS PRINTING A NUMBER, SHOULD BE PRINTING A CATEGORY
+			if slack:
+				print ('>' + str(print_array[1])).title()
+			else:
+				print (str(print_array[1])).title()
 			print_array = print_array[0]
 			for change in print_array:
 				pprint(change, indent=4)
@@ -74,7 +78,7 @@ def full_slack_print(days_back, cats, group='ALL'):
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
 		print "`   Changes   `"
-	print_stats(print_arrays, max_diff)
+	print_stats(print_arrays, max_diff, slack=True)
 
 	detail_array = []
 	cat_data_list = []
@@ -97,6 +101,12 @@ def full_slack_print(days_back, cats, group='ALL'):
 
 
 def main():
+	if sys.argv[-1] == 'SLACK':
+		slack_command = True
+		sys.argv.remove('SLACK')
+	else:
+		slack_command = False
+
 	if len(sys.argv) < 2:
 		print 'USAGE: python tracker_results.py days_back (OPTIONAL:) [tracking_group1] ... [tracking_groupx]'
 		sys.exit()
@@ -125,7 +135,10 @@ def main():
 	#print '```Overall Changes (Last {} Days)```'.format(days_back)#.center(40, '=')
 	print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
 	try:
-		full_slack_print(days_back, cats)
+		if slack_command:
+			full_slack_print(days_back, cats)
+		else:
+			full_print(days_back, cats)
 	except NameError:
 		print
 		print 'Could not find file for this date!'
@@ -136,13 +149,21 @@ def main():
 	for group in tgroups:
 		print group.center(40, '=')
 		try:
-			full_slack_print(days_back, cats, group)
+			if slack_command:
+				full_slack_print(days_back, cats, group)
+			else:
+				full_print(days_back, cats, group)
 		except NameError:
 			print
 			print 'Could not find file for ' + str(group) + ' tracking group!'
 			print
 			continue
 		print
+
+	#print
+	#print ''.center(40,'*')
+	#print
+	#print 'NEW BOOTCAMPS IN DATASET: ' + str(['{} ({})'.format(str(x[0]), [str('{}').format(y) for y in x[1]] if x[1] else 'No Recorded Locations') for x in new_bootcamps(days_back)])
 
 
 if __name__ == '__main__':

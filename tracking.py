@@ -319,7 +319,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         ax.set_ylabel(y_label)
 
         ax.grid(zorder=0)
-        plt.xticks(tick_locations, bar_labels, rotation=60, fontsize=9)
+        plt.xticks(tick_locations, bar_labels, rotation=72, fontsize=8)
         
         title = 'Showing Information on ' + str(category).title() + ' (as of last update)'
     

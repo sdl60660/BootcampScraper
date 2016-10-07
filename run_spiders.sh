@@ -120,10 +120,6 @@ echo "$output_time: Tracking Group Data Files Sorted..."
 rm current_data/search_terms.csv
 python helper_functions/search_terms.py
 
-output_time=$(date "+%H:%M:%S")
-echo
-echo "$output_time: Scraper finished!"
-
 echo 'META DATA FROM LAST OUTPUT' >>logs/scraper_log.txt
 echo '--------------------------' >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
@@ -154,9 +150,9 @@ python slackbot/post_changes.py
 #location_changes="$(python helper_functions/location_track_wrapper.py)"
 #osascript -e "display notification '$location_changes' with title 'Location Changes'"
 
+output_time=$(date "+%H:%M:%S")
 echo
-echo "Done!"
-echo
+echo "$output_time: Scraper finished!"
 
 osascript -e 'display notification "Bootcamp scraper has finished!" with title "Bootcamp Scraper"'
 

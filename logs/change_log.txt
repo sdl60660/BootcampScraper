@@ -767,3 +767,99 @@ CHANGES FOR 2016-10-05
 CHANGES FOR 2016-10-06
 ====================================
 
+CHANGES FOR 2016-10-07
+
+=====Overall Changes (Last 1 Days)======
+
+Changes
+-------
+
+Locations
+'Denver: 15 (+1)'
+'London: 15 (-1)'
+'Phoenix: 3 (+1)'
+'Zurich: 2 (+1)'
+'Fort Collins: 1 (-1)'
+
+BIGGEST CHANGES: [(u'Denver', 1), (u'London', -1), (u'Zurich', 1)]
+
+Technologies
+'JavaScript: 240 (+1)'
+'HTML: 237 (+1)'
+'CSS: 233 (+1)'
+'jQuery: 154 (+1)'
+'SQL: 122 (-1)'
+'Python: 64 (+1)'
+'Mobile: 52 (+1)'
+'Data Science: 46 (+1)'
+'Objective-C: 40 (+1)'
+'R: 20 (+1)'
+
+BIGGEST CHANGES: [(u'jQuery', 1), (u'Mobile', 1), (u'HTML', 1)]
+
+Details
+-------
+
+LOCATIONS
+Phoenix: ['Galvanize (+)']
+Fort Collins: ['Galvanize (-)']
+London: ['Galvanize (-)']
+Zurich: ['Propulsion Academy (+)']
+
+TECHNOLOGIES
+Mobile: ['Designation (+)']
+JavaScript: ['Propulsion Academy (+)']
+HTML: ['Propulsion Academy (+)']
+CSS: ['Propulsion Academy (+)']
+Python: ['Propulsion Academy (+)']
+Data Science: ['Propulsion Academy (+)']
+R: ['Propulsion Academy (+)']
+Swift: ['Propulsion Academy (+)', 'V School (-)']
+Objective-C: ['Propulsion Academy (+)']
+jQuery: ['Codesmith (+)']
+SQL: ['Codesmith (-)']
+
+
+===============Java/.NET================
+
+================Top Camp================
+
+=============Selected Camp==============
+
+Changes
+-------
+
+Locations
+'Denver: 5 (+1)'
+'Phoenix: 1 (+1)'
+'London: 1 (-1)'
+
+BIGGEST CHANGES: [(u'Denver', 1), (u'Phoenix', 1), (u'London', -1)]
+
+Technologies
+'jQuery: 38 (+1)'
+'SQL: 35 (-1)'
+'Swift: 15 (-1)'
+
+BIGGEST CHANGES: [(u'jQuery', 1), (u'SQL', -1), (u'Swift', -1)]
+
+Details
+-------
+
+LOCATIONS
+Phoenix: ['Galvanize (+)']
+Fort Collins: ['Galvanize (-)']
+London: ['Galvanize (-)']
+
+TECHNOLOGIES
+jQuery: ['Codesmith (+)']
+SQL: ['Codesmith (-)']
+Swift: ['V School (-)']
+
+
+===========Potential Markets============
+
+============Current Markets=============
+
+====================================
+

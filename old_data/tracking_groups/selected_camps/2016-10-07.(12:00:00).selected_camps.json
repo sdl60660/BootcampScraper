@@ -181,7 +181,7 @@
         "twitter": {
             "followers": 2603, 
             "handle": "@adaacademy", 
-            "tweets": 2207
+            "tweets": 2205
         }, 
         "visas": "No", 
         "website": "http://adadevelopersacademy.org/"
@@ -526,7 +526,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4680, 
+            "followers": 4679, 
             "handle": "@appacademyio", 
             "tweets": 397
         }, 
@@ -797,11 +797,11 @@
             "Toronto"
         ], 
         "tracks": [
+            "Full-Stack Web Development", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Digital Marketing", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 5718, 
@@ -1999,7 +1999,7 @@
     }, 
     "Codesmith": {
         "accreditation": "None", 
-        "average_salary": 103000, 
+        "average_salary": "N/A", 
         "class_ratio": null, 
         "cost_estimate": "$", 
         "courses": {
@@ -2025,24 +2025,6 @@
                     "SQL"
                 ], 
                 "Title": "Full Stack Software Engineeraing Immersion Program"
-            }, 
-            "Full Stack Software Engineering Immersion Program": {
-                "Class Size": 20, 
-                "Cost": 0, 
-                "Course Location": [
-                    "Los Angeles"
-                ], 
-                "Course Title": "Full Stack Software Engineering Immersion Program", 
-                "Hours/Week": 60, 
-                "Length": 12, 
-                "Start Date": "2016-11-14", 
-                "Subjects": [
-                    "AngularJS", 
-                    "Express", 
-                    "Javascript", 
-                    "MongoDB", 
-                    "Node.js"
-                ]
             }, 
             "Software Engineering Immersive Program": {
                 "Cost": 17200, 
@@ -2090,24 +2072,24 @@
         "num_courses": 1, 
         "num_locations": 1, 
         "scholarships": "Codesmith Scholarship: $8,600 eligibility: https://www.codesmith.io/faq#scholarships", 
-        "su_num_reviews": 14, 
+        "su_num_reviews": 12, 
         "su_rating": 5.0, 
         "su_technologies": [
             "AngularJS", 
             "Express.js", 
             "JavaScript", 
-            "jQuery", 
             "MongoDB", 
-            "Node.js"
+            "Node.js", 
+            "SQL"
         ], 
         "subjects": "JavaScript, MongoDB, Express, Angular, React, Node, SQL Databases, Distributed Systems, Mobile Engineering With React Native, DevOps", 
         "technologies": [
             "AngularJS", 
             "Express.js", 
             "JavaScript", 
-            "jQuery", 
             "MongoDB", 
             "Node.js", 
+            "SQL", 
             "HTML", 
             "CSS", 
             "React.js"
@@ -2990,8 +2972,8 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 328, 
@@ -3103,7 +3085,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9824, 
+            "followers": 9821, 
             "handle": "@devbootcamp", 
             "tweets": 9655
         }, 
@@ -3456,9 +3438,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7499, 
+            "followers": 7500, 
             "handle": "@DevMtn", 
-            "tweets": 1860
+            "tweets": 1859
         }, 
         "visas": "No", 
         "website": "http://devmounta.in/"
@@ -3658,9 +3640,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 615, 
+            "followers": 611, 
             "handle": "@DgtlCrafts", 
-            "tweets": 1298
+            "tweets": 1297
         }, 
         "visas": "No", 
         "website": "http://www.digitalcrafts.com/"
@@ -4078,7 +4060,7 @@
         "twitter": {
             "followers": 1096, 
             "handle": "@epicodus", 
-            "tweets": 963
+            "tweets": 962
         }, 
         "visas": "No", 
         "website": "http://www.epicodus.com/"
@@ -4228,7 +4210,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6888, 
+            "followers": 6887, 
             "handle": "@FlatironSchool", 
             "tweets": 4368
         }, 
@@ -4417,7 +4399,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9233, 
+            "followers": 9232, 
             "handle": "@fullstack", 
             "tweets": 916
         }, 
@@ -4537,8 +4519,8 @@
             "CSS", 
             "Express.js", 
             "Node.js", 
-            "Python", 
             "Data Science", 
+            "Python", 
             "Hadoop", 
             "Sinatra"
         ], 
@@ -4552,9 +4534,9 @@
         "last_updated": "2016-10-07", 
         "locations": [
             "Boulder", 
-            "Denver", 
             "San Francisco", 
             "Seattle", 
+            "Denver", 
             "Austin", 
             "New York City", 
             "Phoenix", 
@@ -4602,7 +4584,7 @@
         "twitter": {
             "followers": 17000, 
             "handle": "@galvanize", 
-            "tweets": 7120
+            "tweets": 7119
         }, 
         "visas": "No", 
         "website": "http://www.galvanize.com/courses/?utm_source=CourseReport&utm_medium=profile&utm_campaign=affi"
@@ -6100,15 +6082,15 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Digital Marketing", 
-            "Full-Stack Web Development", 
             "Mobile Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5210, 
+            "followers": 5209, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6250
+            "tweets": 6248
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -6213,7 +6195,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7499, 
+            "followers": 7500, 
             "handle": "@HackReactor", 
             "tweets": 2781
         }, 
@@ -6615,7 +6597,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8926, 
+            "followers": 8922, 
             "handle": "@hackeryou", 
             "tweets": 3432
         }, 
@@ -7056,7 +7038,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8987, 
+            "followers": 8986, 
             "handle": "@ironhack", 
             "tweets": 3405
         }, 
@@ -7136,7 +7118,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 497, 
+            "followers": 496, 
             "handle": "@SDLEARN", 
             "tweets": 1614
         }, 
@@ -7305,8 +7287,8 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 159, 
@@ -7557,9 +7539,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4655, 
+            "followers": 4654, 
             "handle": "@lighthouse_labs", 
-            "tweets": 6870
+            "tweets": 6869
         }, 
         "visas": "No", 
         "website": "http://www.lighthouselabs.ca/"
@@ -7726,7 +7708,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8193, 
+            "followers": 8194, 
             "handle": "@MakerSquare", 
             "tweets": 5541
         }, 
@@ -8096,7 +8078,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1522, 
+            "followers": 1523, 
             "handle": "@NYCodeDesign", 
             "tweets": 1483
         }, 
@@ -8308,7 +8290,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 408, 
+            "followers": 409, 
             "handle": "@OriginCodeAcad", 
             "tweets": 150
         }, 
@@ -8787,7 +8769,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1189, 
+            "followers": 1190, 
             "handle": "@RefactorU", 
             "tweets": 3212
         }, 
@@ -9017,7 +8999,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2257, 
+            "followers": 2256, 
             "handle": "@WeSabio", 
             "tweets": 9675
         }, 
@@ -10128,7 +10110,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 497, 
+            "followers": 496, 
             "handle": "@Tech_Elevator", 
             "tweets": 1302
         }, 
@@ -11071,7 +11053,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 8310, 
+            "followers": 8309, 
             "handle": "@VSCHOOLHQ", 
             "tweets": 677
         }, 
@@ -11358,7 +11340,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7501, 
+            "followers": 7500, 
             "handle": "@zipcodewilm", 
             "tweets": 3059
         }, 
@@ -11382,7 +11364,7 @@
             "Software Guild", 
             "Tech Elevator"
         ], 
-        "Date/Time": "2016-10-07 13:30:21", 
+        "Date/Time": "2016-10-07 12:15:02", 
         "Days Out": 25, 
         "Detroit": [
             "The Iron Yard", 
@@ -11518,7 +11500,7 @@
             "Ruby": 21, 
             "Ruby on Rails": 23, 
             "SEO": 5, 
-            "SQL": 35, 
+            "SQL": 36, 
             "Sales": 2, 
             "Sinatra": 9, 
             "Swift": 15, 
@@ -11528,7 +11510,7 @@
             "Wordpress": 4, 
             "Xcode": 10, 
             "iOS": 17, 
-            "jQuery": 38
+            "jQuery": 37
         }
     }
 }

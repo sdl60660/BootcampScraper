@@ -55,7 +55,7 @@ def handle_command(command, channel, prompted):
 
     if command.startswith('trends'):
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
-        input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:]
+        input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:] + ' SLACK'
         print input_command
         response = os.popen(input_command).read()
         #response = "How many days back would you like to see changes for?"
@@ -66,7 +66,7 @@ def handle_command(command, channel, prompted):
     plot = False
 
     if command.startswith('plot'):
-        plot_file_name, plot_title = tracking.plot_changes(20, 'technologies', current_status=True, max_items=15,
+        plot_file_name, plot_title = tracking.plot_changes(20, 'housing', current_status=True, max_items=18,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
         plot_file_name += '.png'
         #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
@@ -107,7 +107,10 @@ def handle_command(command, channel, prompted):
         slack_client.api_call("chat.postMessage", channel=channel,
                               text=response, as_user=False, username=user, icon_emoji=emoji)
 
-    return prompted
+    slack_client.api_call("chat.postMessage", channel=channel,
+                              text=last_command, as_user=False, username=user, icon_emoji=emoji)
+
+    return command
 
 def parse_slack_output(slack_rtm_output):
     """
@@ -126,14 +129,14 @@ def parse_slack_output(slack_rtm_output):
 
 
 if __name__ == "__main__":
-    prompted = False
+    last_command = ''
     READ_WEBSOCKET_DELAY = 0.3 # 1 second delay between reading from firehose
     if slack_client.rtm_connect():
         print("TestBot connected and running!")
         while True:
             command, channel = parse_slack_output(slack_client.rtm_read())
             if command and channel:
-                prompted = handle_command(command, channel, prompted)
+                last_command = handle_command(command, channel, last_command)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
