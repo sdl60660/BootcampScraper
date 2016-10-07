@@ -60,7 +60,7 @@ def handle_command(command, channel, prompted):
         response = os.popen(input_command).read()
         #response = "How many days back would you like to see changes for?"
         #prompted = True
-        emoji = ':arrow_upper_right:'
+        emoji = ':chart_with_upwards_trend:'
         user = 'trendbot'
 
     plot = False
