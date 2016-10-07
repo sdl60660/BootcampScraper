@@ -40,7 +40,7 @@ if location_changes != -1:
 	)
 
 tech_out_string = ''
-tech_changes = slack_tracker_wrapper.technology_changes(tracked_camp_changes(10, 'technologies', 'Selected Camp'))
+tech_changes = slack_tracker_wrapper.technology_changes(tracked_camp_changes(1, 'technologies', 'Selected Camp'))
 if tech_changes != -1:
 	for x in tech_changes:
 		tech_out_string += x +'\n\n'
