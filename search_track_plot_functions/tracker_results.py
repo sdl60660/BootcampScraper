@@ -160,11 +160,11 @@ def main():
 			continue
 		print
 
-	#print
-	#print ''.center(40,'*')
-	#print
-	#print 'NEW BOOTCAMPS IN DATASET: ' + str(['{} ({})'.format(str(x[0]), [str('{}').format(y) for y in x[1]] if x[1] else 'No Recorded Locations') for x in new_bootcamps(days_back)])
-
+	if not slack_command:
+		print
+		print ''.center(40,'*')
+		print
+		print 'NEW BOOTCAMPS IN DATASET: ' + str(['{} ({})'.format(str(x[0]), [str('{}').format(y) for y in x[1]] if x[1] else 'No Recorded Locations') for x in new_bootcamps(days_back)])
 
 if __name__ == '__main__':
   main()

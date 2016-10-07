@@ -379,10 +379,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     
     return plot_file_name, plot_title
 
-#PLOTS IN BAR OR PIE CHART THE MOST RECENT BREAKDOWN FOR A CATEGORY
-def plot_category():
-    pass
-
 #PLOTS SPECIFIED BOOTCAMPS FOR SPECIFIED CATEGORIES (I.E. NUM_LOCATIONS FOR SPECIFIED BOOTCAMPS OVER TIME)
 def plot_bootcamp_info():
     pass
@@ -405,15 +401,6 @@ def new_bootcamps(days_back, start_date=0):
         new_camps[x] = (camp, bootcamps[camp]['locations'])
 
     return new_camps
-
-
-def meta_category_trend():
-    pass
-
-
-def full_meta_trends():
-    pass
-
 
 
 
