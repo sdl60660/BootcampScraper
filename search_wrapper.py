@@ -91,7 +91,6 @@ def main(search_keys):
     detail_flag, search_keys = check_flag('--details', search_keys)
     warnings_flag, search_keys = check_flag('--warnings', search_keys)
     custom_file, search_keys = check_flag('--file', search_keys)
-    plot_flag, search_keys = check_flag('--plot', search_keys)
 
     if custom_file == True:
         datafile = search_keys[1]
@@ -105,9 +104,18 @@ def main(search_keys):
     if custom_file == False:
         datafile = 'current_data/output.json'
 
-    result_data = revised_search.main(search_keys)
+    result_data, bootcamp_search = revised_search.main(search_keys)
 
     if source == 'Terminal':
+        if bootcamp_search:
+            bootcamps = result_data.bootcamp_data
+            print
+            for camp in bootcamps:
+                print ''.center(40, '*')
+                print camp.center(40, '-')
+                print ''.center(40, '*')
+                pprint(bootcamps[camp])
+                print
         if summary_flag == True:
             print'\n================================================================================\n' \
             'SUMMARY: Breakdown of specified categories (Total Camps in Query: ' + str(len(result_data.camps)) + ')\n'
@@ -144,12 +152,17 @@ def main(search_keys):
         slack_formatted_output = slack_search_output.slack_output(result_data)
 
         full_outstring = '\n'
-        if list_flag:
-            full_outstring += slack_formatted_output.list_out + '\n\n'
-        if sort_flag:
-            full_outstring += slack_formatted_output.sort_out + '\n\n'
-        if summary_flag:
-            full_outstring += slack_formatted_output.summary_out + '\n\n'
+        if bootcamp_search:
+            full_outstring += slack_formatted_output.bootcamps_out
+        else:
+            #if detail_flag:
+                #full_outstring += slack_formatted_output.details_out + '\n\n'
+            if list_flag:
+                full_outstring += slack_formatted_output.list_out + '\n\n'
+            if sort_flag:
+                full_outstring += slack_formatted_output.sort_out + '\n\n'
+            if summary_flag:
+                full_outstring += slack_formatted_output.summary_out + '\n\n'
 
         print full_outstring
         return full_outstring

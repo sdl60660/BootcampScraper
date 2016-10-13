@@ -1,3 +1,4 @@
+import sys
 import tracking
 from tracking import tracking_groups
 
@@ -8,7 +9,6 @@ from tracking import new_bootcamps
 from utilities import return_closest
 
 import numpy as np
-import sys
 from pprint import pprint
 
 cats = ['locations', 'technologies']

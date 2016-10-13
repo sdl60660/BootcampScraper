@@ -3,6 +3,8 @@
 #IN CASE NOT ALREADY ACTIVATED
 source ~/.virtualenvs/scrapy_venv/bin/activate
 
+export PYTHONPATH="${PYTHONPATH}:~/scrapy_projects/bootcamp_info"
+
 echo
 current_time=$(date "+%H:%M:%S")
 echo "$current_time: Scraper started!"

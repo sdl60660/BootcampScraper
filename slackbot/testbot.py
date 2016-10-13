@@ -107,8 +107,8 @@ def handle_command(command, channel, prompted):
         slack_client.api_call("chat.postMessage", channel=channel,
                               text=response, as_user=False, username=user, icon_emoji=emoji)
 
-    slack_client.api_call("chat.postMessage", channel=channel,
-                              text=last_command, as_user=False, username=user, icon_emoji=emoji)
+    """slack_client.api_call("chat.postMessage", channel=channel,
+                              text=last_command, as_user=False, username=user, icon_emoji=emoji)"""
 
     return command
 

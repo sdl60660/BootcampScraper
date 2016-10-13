@@ -6,7 +6,8 @@ import operator
 import os.path
 
 class Camp_Info:
-    def __init__(self, category_data, camps, summary=None, camp_list=None, sort=None):
+    def __init__(self, bootcamp_data, category_data, camps, summary=None, camp_list=None, sort=None):
+        self.bootcamp_data = bootcamp_data
         self.category_data = category_data
         self.camps = camps
         self.summary = summary if summary is not None else []
@@ -18,7 +19,10 @@ def summary_dict(bootcamps, category):
     warning_list = []
     for bootcamp in bootcamps:
         camp = bootcamps[bootcamp]
-        if not camp[category]:
+        if category not in camp.keys():
+            warning_list.append(bootcamp)
+            continue
+        if not camp[category] or camp[category] == '\n':
             warning_list.append(bootcamp)
             continue
         try:
@@ -97,7 +101,10 @@ def sort_dict(bootcamps, category, full_list=False):
         out_category = category
     for bootcamp in bootcamps:
         camp = bootcamps[bootcamp]
-        if not camp[category]:
+        if category not in camp.keys():
+            warnings.append(bootcamp)
+            continue
+        if not camp[category] or camp[category] == '\n':
             warnings.append(bootcamp)
             continue
         if secondary_cat and not camp[category][secondary_cat]:
@@ -190,26 +197,26 @@ def main(search_keys):
 
     # =============WORK ON SECTION BELOW=============
 
+    bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
+
     if 'Meta' in key_dict.keys():
         out_data = bootcamps['meta']
         return out_data
-
     del bootcamps['meta']
 
-    if 'Bootcamp' in key_dict.keys():
-        out_data = []
-        for bootcamp in key_dict['Bootcamp']:
-            out_data.append(bootcamps[bootcamp])
-        for b in out_data:
-            pprint(b)
-        return out_data
-
-    # =============WORK ON SECTION ABOVE=============
-
     #FILTERS: TRACKING GROUPS, LOCATIONS, TECHNOLOGIES
-    bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
     bootcamps = apply_filter('Technology', 'technologies', bootcamps, key_dict)
     bootcamps = apply_filter('Location', 'locations', bootcamps, key_dict)
+
+    bootcamp_search = False
+    if 'Bootcamp' in key_dict.keys():
+        if len(key_dict['Bootcamp']) == (len(search_keys)-1):
+            bootcamp_search = True
+        del_list = [camp for camp in bootcamps if camp not in key_dict['Bootcamp']]
+        for camp in del_list:
+            del bootcamps[camp]
+
+    # =============WORK ON SECTION ABOVE=============
 
     """Filter selected categories out of keys and secondary keys. Courses will stay in as long as there's a course category
     in the key dict"""
@@ -251,7 +258,14 @@ def main(search_keys):
 
         #Regular categories
         for cat in select_cats:
-            data.append((cat, bootcamps[camp][cat]))
+            try:
+                if not bootcamps[camp][cat] or bootcamps[camp][cat] == '\n':
+                    continue
+                else:
+                    data.append((cat, bootcamps[camp][cat]))
+            except KeyError:
+                pass
+                #data.append((cat, 'NO DATA'))
 
         #Secondary categories
         for cat in secondary_cats:
@@ -279,8 +293,12 @@ def main(search_keys):
         sort_item[category] = st_dict
         sort_item['warning'].append((cat, warning_list))
     
-    return_info = Camp_Info(cat_data_dict, camps, summary_item, list_item, sort_item)
-    return return_info
+    return_info = Camp_Info(bootcamps, cat_data_dict, camps, summary_item, list_item, sort_item)
+
+    #pprint(return_info.bootcamp_data)
+    #pprint(return_info.category_data)
+    #pprint(return_info.camp_list)
+    return return_info, bootcamp_search
 
 if __name__ == '__main__':
     main(sys.argv)

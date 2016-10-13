@@ -10,6 +10,13 @@ Out_Dict = {
 	'su_rating': "Switchup Rating",
 	'su_num_reviews': "Switchup Reviews",
 	'last_updated': "Last Updated",
+	'hiring_rate': "Hiring Rate",
+	'class_ratio': "Class Ratio",
+	'num_alumni': "Number of Alumni",
+	'acceptance_rate': "Acceptance Rate",
+	'matriculation_stats': "Matriculation Stats",
+	'employment_rates': "Employment Rates"
+
 }
 
 In_Dict = {	
