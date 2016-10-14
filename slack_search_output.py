@@ -13,6 +13,60 @@ from current_data import attribute_dict
         self.summary = summary if summary is not None else []
         self.camp_list = camp_list if camp_list is not None else []
         self.sort = sort if sort is not None else []"""
+
+def title_string(camp, full=True):
+	title_string = ''
+	if full:
+		title_string += '`' + ''.center((len(camp) + 10), '=') + '`\n'
+	title_string += '`-----{}-----`\n\n'.format(camp)
+	if full:
+		title_string += '`' + ''.center((len(camp) + 10), '=') + '`\n\n\n'
+	return title_string
+
+def category_string(cat_data, camp, cat):
+	cat_string = ''
+	try:
+		if cat in attribute_dict.Out_Dict.keys():
+			cat_name = attribute_dict.Out_Dict[cat]
+		else:
+			cat_name = cat.title()
+		cat_string += '*' + str(cat_name) + '*: '
+		data_string = ''
+		if type(cat_data) is list:
+			data_string += '\n'
+			for item in cat_data:
+				data_string += '        ' + str(item) + ',\n'
+			data_string = data_string[:-2]
+			cat_string += data_string + '\n'
+		elif cat == 'courses':
+			data_string += '\n'
+			for item in cat_data.keys():
+				try:
+					data_string += '        {} _(${})_,\n'.format(str(item), (cat_data[item]['Cost']/1))
+				except (TypeError, KeyError):
+					data_string += '        {},\n'.format(str(item))
+			data_string = data_string[:-2]
+			cat_string += data_string + '\n'
+		elif type(cat_data) is dict:
+			data_string += '\n'	
+			if cat == 'employment_rates' or cat == 'matriculation_stats':
+				er_ms_order = ['30 days', '60 days', '90 days', '120 days', '120+ days',
+				'accepted', 'enrolled', 'graduated', 'job_seeking']
+				for key in er_ms_order:
+					if key in cat_data.keys():
+						data_string += '        {}: {}%\n'.format(key.title(),cat_data[key])
+			else:
+				for k,v in cat_data.iteritems():
+					data_string += '        {}: {}\n'.format(k,v)
+			cat_string += data_string + '\n'
+		else:
+			cat_string += str(cat_data) + '\n'
+		
+	except UnicodeError:
+		return -1, -1
+
+	return cat_string, cat_name
+
 class Slack_Output_Strings:
 	def __init__(self, bootcamps_out=None, details_out=None, list_out=None, sort_out=None, summary_out=None):
 		self.bootcamps_out = bootcamps_out
@@ -38,6 +92,8 @@ def slack_output(result_data):
 	['Last Updated', 'Tracking Groups']
 	]
 
+	#=========================BOOTCAMP PRINT=========================
+
 	bootcamps_string = '\n\n'
 	for camp in result_data.bootcamp_data:
 		
@@ -59,56 +115,17 @@ def slack_output(result_data):
 		except ZeroDivisionError:
 			pass
 
-		bootcamps_string += '`' + ''.center((len(camp) + 10), '=') + '`\n'
-		bootcamps_string += '`-----{}-----`\n\n'.format(camp)
-		bootcamps_string += '`' + ''.center((len(camp) + 10), '=') + '`\n\n\n'
+		bootcamps_string += title_string(camp)
 		
 		cstrings = {}
 
 		for cat in result_data.bootcamp_data[camp]:
-			cat_string = ''
-			try:
-				if cat in non_display_list:
-					continue
-				if cat in attribute_dict.Out_Dict.keys():
-					cat_name = attribute_dict.Out_Dict[cat]
-				else:
-					cat_name = cat.title()
-				cat_string += '*' + str(cat_name) + '*: '
-				cat_data = result_data.bootcamp_data[camp][cat]
-				data_string = ''
-				if type(cat_data) is list:
-					data_string += '\n'
-					for item in cat_data:
-						data_string += '        ' + str(item) + ',\n'
-					data_string = data_string[:-2]
-					cat_string += data_string + '\n'
-				elif cat == 'courses':
-					data_string += '\n'
-					for item in cat_data.keys():
-						try:
-							data_string += '        {} _(${})_,\n'.format(str(item), (cat_data[item]['Cost']/1))
-						except (TypeError, KeyError):
-							data_string += '        {},\n'.format(str(item))
-					data_string = data_string[:-2]
-					cat_string += data_string + '\n'
-				elif type(cat_data) is dict:
-					data_string += '\n'	
-					if cat == 'employment_rates' or cat == 'matriculation_stats':
-						er_ms_order = ['30 days', '60 days', '90 days', '120 days', '120+ days',
-						'accepted', 'enrolled', 'graduated', 'job_seeking']
-						for key in er_ms_order:
-							if key in cat_data.keys():
-								data_string += '        {}: {}%\n'.format(key.title(),cat_data[key])
-					else:
-						for k,v in cat_data.iteritems():
-							data_string += '        {}: {}\n'.format(k,v)
-					cat_string += data_string + '\n'
-				else:
-					cat_string += str(cat_data) + '\n'
+			if cat in non_display_list:
+				continue
+			cat_data = result_data.bootcamp_data[camp][cat]
+			cat_string, cat_name = category_string(cat_data, camp, cat)
+			if cat_string != -1:
 				cstrings[cat_name] = cat_string
-			except UnicodeError:
-				pass
 
 		for section in ordered_display_list:
 			for dcat in section:
@@ -119,7 +136,21 @@ def slack_output(result_data):
 		bootcamps_string = bootcamps_string[:-25] + '\n\n'
 	return_strings.bootcamps_out = bootcamps_string
 
-	pprint(result_data.category_data)
+	#======================CATEGORY/DETAIL PRINT======================
+
+	detail_string = '\n\n'
+	for camp in result_data.camp_list:
+		if len(result_data.category_data[camp]) == 0:
+			continue
+		detail_string += title_string(camp, full=False)
+		for tup in result_data.category_data[camp]:
+			cat_string, cat_name = category_string(tup[1], camp, tup[0])
+			if cat_string != -1:
+				detail_string += cat_string
+		detail_string += '\n\n\n'
+	return_strings.details_out = detail_string
+
+	#===========================LIST PRINT============================
 
 
 	camp_list_string = '==================================================\n' 
@@ -128,6 +159,8 @@ def slack_output(result_data):
 	for camp in result_data.camp_list:
 		camp_list_string += '            ' + str(camp) + '\n'
 	return_strings.list_out = camp_list_string
+
+	#===========================SORT PRINT============================
 
 	sort_list_string = '==================================================\n' 
 	sort_list_string += 'SORT: Sorted list of camps by specified categories\n'
@@ -143,10 +176,12 @@ def slack_output(result_data):
 		sort_list_string += str(item_title) + '\n----------------------------\n'
 		for x in category:
 			#list_string = '{:<30}{}'.format((str(x[0]) + ':'), str(x[1]))
-			list_string = '            ' + str(x[0]) + ': ' + str(x[1])
+			list_string = '            ' + unicode(x[0]) + ': ' + unicode(x[1])
 			sort_list_string += list_string + '\n'
 		sort_list_string += '\n\n'
 	return_strings.sort_out = sort_list_string
+
+	#==========================SUMMARY PRINT==========================
 
 	summary_list_string = '==================================================\n' 
 	summary_list_string += 'SUMMARY: Breakdown of specified categories (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
@@ -165,7 +200,7 @@ def slack_output(result_data):
 			list_string = '            ' + str(k) + ': ' + str(v)
 			summary_list_string += list_string + '\n'"""
 		for x in category_sorted:
-			list_string = '            ' + str(x[0]) + ': ' + str(x[1])
+			list_string = '            ' + unicode(x[0]) + ': ' + unicode(x[1])
 			summary_list_string += list_string + '\n'
 		summary_list_string += '\n\n'
 	return_strings.summary_out = summary_list_string

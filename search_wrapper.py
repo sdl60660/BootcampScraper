@@ -87,8 +87,8 @@ def main(search_keys):
     summary_flag, search_keys = check_flag('--summary', search_keys)
     list_flag, search_keys = check_flag('--list', search_keys)
     sort_flag, search_keys = check_flag('--sort', search_keys)
-    #IMPLEMENT THE FUNCTIONS BELOW
     detail_flag, search_keys = check_flag('--details', search_keys)
+    #IMPLEMENT THE FUNCTIONS BELOW
     warnings_flag, search_keys = check_flag('--warnings', search_keys)
     custom_file, search_keys = check_flag('--file', search_keys)
 
@@ -155,8 +155,10 @@ def main(search_keys):
         if bootcamp_search:
             full_outstring += slack_formatted_output.bootcamps_out
         else:
-            #if detail_flag:
-                #full_outstring += slack_formatted_output.details_out + '\n\n'
+            if not any([list_flag, sort_flag, summary_flag]):
+                detail_flag = True
+            if detail_flag:
+                full_outstring += slack_formatted_output.details_out + '\n\n'
             if list_flag:
                 full_outstring += slack_formatted_output.list_out + '\n\n'
             if sort_flag:
