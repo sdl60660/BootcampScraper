@@ -196,15 +196,15 @@ def main(search_keys):
     print 'Filters and Categories in Search: ' + str(key_dict)[1:-1]
 
     # =============WORK ON SECTION BELOW=============
-
-    bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
-
     if 'Meta' in key_dict.keys():
         out_data = bootcamps['meta']
+        pprint(out_data)
         return out_data
+    
     del bootcamps['meta']
-
+    
     #FILTERS: TRACKING GROUPS, LOCATIONS, TECHNOLOGIES
+    bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
     bootcamps = apply_filter('Technology', 'technologies', bootcamps, key_dict)
     bootcamps = apply_filter('Location', 'locations', bootcamps, key_dict)
 
@@ -215,6 +215,13 @@ def main(search_keys):
         del_list = [camp for camp in bootcamps if camp not in key_dict['Bootcamp']]
         for camp in del_list:
             del bootcamps[camp]
+
+    tgroup_search = False
+    if 'Tracking Group' in key_dict.keys() and len(key_dict['Tracking Group']) == (len(search_keys)-1):
+        key_dict['Category'] = ['locations', 'technologies']
+        tgroup_search = True
+        
+            
 
     # =============WORK ON SECTION ABOVE=============
 
@@ -298,7 +305,7 @@ def main(search_keys):
     #pprint(return_info.bootcamp_data)
     #pprint(return_info.category_data)
     #pprint(return_info.camp_list)
-    return return_info, bootcamp_search
+    return return_info, bootcamp_search, tgroup_search
 
 if __name__ == '__main__':
     main(sys.argv)

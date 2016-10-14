@@ -16,7 +16,6 @@ Out_Dict = {
 	'acceptance_rate': "Acceptance Rate",
 	'matriculation_stats': "Matriculation Stats",
 	'employment_rates': "Employment Rates"
-
 }
 
 In_Dict = {	

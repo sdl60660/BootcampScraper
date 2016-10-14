@@ -104,7 +104,11 @@ def main(search_keys):
     if custom_file == False:
         datafile = 'current_data/output.json'
 
-    result_data, bootcamp_search = revised_search.main(search_keys)
+    result_data, bootcamp_search, tgroup_search = revised_search.main(search_keys)
+    if tgroup_search:
+        summary_flag = True
+        list_flag = True
+        sort_flag = True
 
     if source == 'Terminal':
         if bootcamp_search:

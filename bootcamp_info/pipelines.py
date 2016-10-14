@@ -225,9 +225,11 @@ class TrackingGroupTags(object):
                 elif location.lower() in potential_markets:
                     if 'Potential Market' not in item['tracking_groups']:
                         item['tracking_groups'].append('Potential Market')
-        item['tracking_groups'] = list(set(item['tracking_groups']))
         except TypeError:
             pass
+
+        if len(item['tracking_groups']) > 0:
+            item['tracking_groups'] = list(set(item['tracking_groups']))
 
         return item
 
