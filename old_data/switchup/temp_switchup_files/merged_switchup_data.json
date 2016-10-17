@@ -6142,6 +6142,103 @@
         ], 
         "website": "http://devbootcamp.com/?utm_source=SwitchUp&utm_medium=banner&utm_campaign=home"
     }, 
+    "Dev League": {
+        "average_salary": "N/A", 
+        "class_ratio": "1:6", 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Dev League - Full Time": {
+                "Class Size": 20, 
+                "Cost": 10500, 
+                "Course Location": [
+                    "Honolulu"
+                ], 
+                "Course Title": "Dev League - Full Time", 
+                "Hours/Week": 66, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "PostgreSQL"
+                ]
+            }, 
+            "Dev League - Part Time": {
+                "Class Size": 20, 
+                "Cost": 10500, 
+                "Course Location": [
+                    "Honolulu"
+                ], 
+                "Course Title": "Dev League - Part Time", 
+                "Hours/Week": 19, 
+                "Length": 26, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "PostgreSQL"
+                ]
+            }
+        }, 
+        "hiring_rate": 90.0, 
+        "last_updated": "2016-10-17", 
+        "locations": [
+            "Honolulu"
+        ], 
+        "name": "Dev League", 
+        "num_alumni": 62, 
+        "num_locations": 1, 
+        "su_num_reviews": 22, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "PostgreSQL"
+        ], 
+        "subjects": " JavaScript, HTML, CSS, AngularJS, Node.js, Backbone.js, JQuery, D3", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "PostgreSQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.devleague.com"
+    }, 
     "Dev Mountain": {
         "average_salary": "N/A", 
         "class_ratio": "1:4", 
@@ -7012,9 +7109,7 @@
         }, 
         "hiring_rate": 100.0, 
         "last_updated": "2016-10-17", 
-        "locations": [
-            "Online"
-        ], 
+        "locations": null, 
         "name": "Devschool", 
         "num_alumni": 17, 
         "num_locations": 1, 
@@ -7974,49 +8069,6 @@
         ], 
         "tracking_groups": [], 
         "website": "http://www.epicu.org/"
-    }, 
-    "Evolve Security Academy": {
-        "average_salary": 65000, 
-        "class_ratio": "1:8", 
-        "cost_estimate": "$$", 
-        "courses": {
-            "Cybersecurity": {
-                "Class Size": 16, 
-                "Cost": 10000, 
-                "Course Location": [
-                    "N/A"
-                ], 
-                "Course Title": "Cybersecurity", 
-                "Hours/Week": 18, 
-                "Length": 12, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Chicago"
-                ]
-            }
-        }, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-10-17", 
-        "locations": [
-            "Chicago"
-        ], 
-        "name": "Evolve Security Academy", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": 5, 
-        "su_rating": 5.0, 
-        "su_technologies": [
-            "Chicago"
-        ], 
-        "subjects": "Cyber Security, Information Security, Cybersecurity, IT Security", 
-        "technologies": [
-            "Chicago"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://www.evolveacademy.io/"
     }, 
     "Fire Bootcamp": {
         "average_salary": "N/A", 
@@ -10579,7 +10631,7 @@
         "name": "Le Wagon", 
         "num_alumni": 800, 
         "num_locations": 15, 
-        "su_num_reviews": 73, 
+        "su_num_reviews": 74, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -11632,7 +11684,7 @@
         "name": "Montana Code School", 
         "num_alumni": "N/A", 
         "scholarships": "A number of scholarships are available for women, Native American, veterans, and low income populations. Value set at $2000", 
-        "su_num_reviews": 2, 
+        "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "su_technologies": null, 
         "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
@@ -13533,50 +13585,6 @@
         "tracking_groups": [], 
         "website": "http://bootcamp.shoutleaf.com/"
     }, 
-    "Simplon": {
-        "average_salary": "N/A", 
-        "class_ratio": null, 
-        "cost_estimate": "$", 
-        "courses": {
-            "Web Mobile Dev": {
-                "Cost": 3000, 
-                "Course Location": [
-                    "Paris"
-                ], 
-                "Course Title": "Web Mobile Dev", 
-                "Hours/Week": 40, 
-                "Start Date": "Rolling Dates", 
-                "Subjects": [
-                    "Mobile", 
-                    "Python"
-                ]
-            }
-        }, 
-        "hiring_rate": "No data", 
-        "last_updated": "2016-10-17", 
-        "locations": [
-            "Paris"
-        ], 
-        "name": "Simplon", 
-        "num_alumni": "N/A", 
-        "num_locations": 1, 
-        "su_num_reviews": 1, 
-        "su_rating": 5.0, 
-        "su_technologies": [
-            "Mobile", 
-            "Python"
-        ], 
-        "subjects": null, 
-        "technologies": [
-            "Mobile", 
-            "Python"
-        ], 
-        "top_source": [
-            "SwitchUp"
-        ], 
-        "tracking_groups": [], 
-        "website": "http://simplon.co/"
-    }, 
     "Skill Distillery": {
         "average_salary": 65000, 
         "class_ratio": "1 to 15 - No more than 20 per class total with additional instructors", 
@@ -13932,12 +13940,11 @@
             "Akron", 
             "Louisville", 
             "Minneapolis", 
-            "Cleveland", 
-            "Online"
+            "Cleveland"
         ], 
         "name": "Software Guild", 
         "num_alumni": "N/A", 
-        "num_locations": 5, 
+        "num_locations": 4, 
         "su_num_reviews": 24, 
         "su_rating": 4.8, 
         "su_technologies": [
@@ -15819,12 +15826,11 @@
         "hiring_rate": 95.0, 
         "last_updated": "2016-10-17", 
         "locations": [
-            "Portland", 
-            "Online"
+            "Portland"
         ], 
         "name": "The Tech Academy", 
         "num_alumni": 120, 
-        "num_locations": 2, 
+        "num_locations": 1, 
         "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
         "su_num_reviews": 72, 
         "su_rating": 4.9, 
@@ -17690,6 +17696,63 @@
         ], 
         "website": "http://www.zipcodewilmington.com/"
     }, 
+    "Zipfian Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$$", 
+        "courses": {
+            "Data Engineering 12-Week Immersive At Gschool": {
+                "Class Size": 25, 
+                "Cost": 16000, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Data Engineering 12-Week Immersive at gSchool", 
+                "Hours/Week": 70, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Data Science"
+                ]
+            }, 
+            "Data Science 12-Week Immersive At Gschool": {
+                "Class Size": 25, 
+                "Cost": 16000, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Data Science 12-Week Immersive at gSchool", 
+                "Hours/Week": 70, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Data Science"
+                ]
+            }
+        }, 
+        "hiring_rate": 93.0, 
+        "last_updated": "2016-10-17", 
+        "locations": [
+            "San Francisco"
+        ], 
+        "name": "Zipfian Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Data Science"
+        ], 
+        "subjects": "Data Science, Data Engineering", 
+        "technologies": [
+            "Data Science"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [], 
+        "website": "http://www.zipfianacademy.com/"
+    }, 
     "meta": {
         "Active": true, 
         "Buffalo": [], 
@@ -17702,20 +17765,20 @@
             "We Can Code It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-10-17 12:22:17", 
+        "Date/Time": "2016-10-17 15:14:45", 
         "Days Out": 35, 
         "Detroit": [], 
         "Number of Entries": 278, 
         "Pittsburgh": [], 
         "Potential Market": [
             "Brainstation", 
-            "Hackeryou", 
-            "Cincy Code It", 
-            "Become A Developer Bootcamp ( Net)", 
-            "Lighthouse Labs", 
-            "Software Tester Bootcamp", 
-            "Bitmaker Labs", 
             "Intensive Android Bootcamp", 
+            "Hackeryou", 
+            "Become A Developer Bootcamp ( Net)", 
+            "Cincy Code It", 
+            "Lighthouse Labs", 
+            "Bitmaker Labs", 
+            "Software Tester Bootcamp", 
             "Become A Developer Bootcamp (Java)", 
             "The Iron Yard", 
             "Grand Circus"
@@ -17751,7 +17814,7 @@
             "Charleston": 2, 
             "Charlotte": 4, 
             "Chelmsford": 1, 
-            "Chicago": 20, 
+            "Chicago": 19, 
             "Cincinnati": 2, 
             "Cleveland": 4, 
             "Columbus": 2, 
@@ -17767,6 +17830,7 @@
             "Greenville": 1, 
             "Ho Chi Minh": 1, 
             "Hong Kong": 2, 
+            "Honolulu": 1, 
             "Houston": 4, 
             "Indianapolis": 2, 
             "Iowa City": 1, 
@@ -17799,10 +17863,10 @@
             "New Orleans": 2, 
             "New York City": 26, 
             "Omaha": 2, 
-            "Online": 30, 
+            "Online": 27, 
             "Orange County": 4, 
             "Orlando": 1, 
-            "Paris": 3, 
+            "Paris": 2, 
             "Perth": 1, 
             "Philadelphia": 6, 
             "Phoenix": 1, 
@@ -17816,7 +17880,7 @@
             "Salt Lake City": 7, 
             "San Antonio": 4, 
             "San Diego": 4, 
-            "San Francisco": 31, 
+            "San Francisco": 32, 
             "San Jose": 4, 
             "Santiago": 1, 
             "Seattle": 15, 
@@ -17842,43 +17906,43 @@
             "ASP.NET MVC": 3, 
             "Algorithms": 45, 
             "Android": 15, 
-            "AngularJS": 49, 
+            "AngularJS": 50, 
             "Business": 6, 
             "C#": 18, 
             "C++": 4, 
-            "CSS": 110, 
+            "CSS": 111, 
             "Clojure": 4, 
             "Cocoa": 7, 
             "CoffeeScript": 7, 
             "Cyber Security": 2, 
-            "Data Science": 16, 
+            "Data Science": 17, 
             "Data Structures": 28, 
-            "Design Principles": 23, 
+            "Design Principles": 24, 
             "Digital Marketing": 12, 
             "Django": 9, 
             "Drupal": 1, 
             "Entrepreneurship": 14, 
             "Express.js": 27, 
             "Game Design": 2, 
-            "Git": 60, 
-            "HTML": 117, 
+            "Git": 61, 
+            "HTML": 118, 
             "Hadoop": 2, 
             "Illustrator": 7, 
             "Java": 20, 
-            "JavaScript": 124, 
+            "JavaScript": 125, 
             "Linux": 8, 
-            "Mobile": 20, 
-            "MongoDB": 33, 
-            "MySQL": 26, 
-            "Node.js": 43, 
+            "Mobile": 19, 
+            "MongoDB": 34, 
+            "MySQL": 27, 
+            "Node.js": 44, 
             "Objective-C": 15, 
             "PHP": 18, 
             "Perl": 2, 
             "Phonegap": 2, 
             "Photoshop": 10, 
-            "PostgreSQL": 15, 
+            "PostgreSQL": 16, 
             "Product Management": 8, 
-            "Python": 26, 
+            "Python": 25, 
             "Ruby": 24, 
             "Ruby on Rails": 60, 
             "SEO": 11, 
@@ -17901,7 +17965,7 @@
             "Windows Server": 1, 
             "Wordpress": 8, 
             "iOS": 28, 
-            "jQuery": 73
+            "jQuery": 74
         }
     }
 }

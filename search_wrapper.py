@@ -79,6 +79,8 @@ def main(search_keys):
     if search_keys[-1] == 'Slack':
         search_keys.remove('Slack')
         source = 'Slack'
+        if all(return_closest(key.title(), tracking_groups, 0.88) == -1 for key in search_keys) and '--all' not in search_keys:
+            search_keys.append('Selected Camp')
     else:
         source = 'Terminal'
 

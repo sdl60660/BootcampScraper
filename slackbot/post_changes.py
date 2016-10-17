@@ -22,7 +22,7 @@ SLACK_CHANNEL = '#testbot-test'
 
 loc_out_string = ''
 
-select_location_changes = tracked_camp_changes(1, 'locations', 'Selected Camp')
+select_location_changes = tracked_camp_changes(1, 'locations', 'Selected Camps')
 full_location_changes = tracked_camp_changes(1, 'locations')
 
 for item in full_location_changes:
@@ -40,7 +40,7 @@ if location_changes != -1:
 	)
 
 tech_out_string = ''
-tech_changes = slack_tracker_wrapper.technology_changes(tracked_camp_changes(1, 'technologies', 'Selected Camp'))
+tech_changes = slack_tracker_wrapper.technology_changes(tracked_camp_changes(1, 'technologies', 'Selected Camps'))
 if tech_changes != -1:
 	for x in tech_changes:
 		tech_out_string += x +'\n\n'
