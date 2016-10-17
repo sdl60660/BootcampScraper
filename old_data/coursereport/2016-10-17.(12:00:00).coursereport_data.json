@@ -209,20 +209,20 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "SQL", 
                     "MySQL", 
-                    "C#", 
+                    "Python", 
+                    "Data Science", 
+                    "JavaScript", 
                     "HTML", 
                     "PHP", 
-                    "JavaScript", 
-                    "Cocoa", 
+                    "C#", 
                     "Java", 
-                    "Ruby", 
+                    "Cocoa", 
+                    "SQL", 
                     "jQuery", 
-                    "Android", 
-                    "Data Science", 
+                    "Ruby", 
                     "Game Development", 
-                    "Python"
+                    "Android"
                 ]
             }, 
             "The Program": {
@@ -236,40 +236,40 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "SQL", 
                     "MySQL", 
-                    "C#", 
+                    "Python", 
+                    "Data Science", 
+                    "JavaScript", 
                     "HTML", 
                     "PHP", 
-                    "JavaScript", 
-                    "Cocoa", 
+                    "C#", 
                     "Java", 
-                    "Ruby", 
+                    "Cocoa", 
+                    "SQL", 
                     "jQuery", 
-                    "Android", 
-                    "Data Science", 
+                    "Ruby", 
                     "Game Development", 
-                    "Python"
+                    "Android"
                 ]
             }
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "cr_technologies": [
-            "SQL", 
             "MySQL", 
-            "C#", 
+            "Python", 
+            "Data Science", 
+            "JavaScript", 
             "HTML", 
             "PHP", 
-            "JavaScript", 
-            "Cocoa", 
+            "C#", 
             "Java", 
-            "Ruby", 
+            "Cocoa", 
+            "SQL", 
             "jQuery", 
-            "Android", 
-            "Data Science", 
+            "Ruby", 
             "Game Development", 
-            "Python"
+            "Android"
         ], 
         "email": "contact@42.us.org", 
         "facebook": "https://www.facebook.com/42Born2Code", 
@@ -285,20 +285,20 @@
         "num_courses": 2, 
         "num_locations": 2, 
         "technologies": [
-            "SQL", 
             "MySQL", 
-            "C#", 
+            "Python", 
+            "Data Science", 
+            "JavaScript", 
             "HTML", 
             "PHP", 
-            "JavaScript", 
-            "Cocoa", 
+            "C#", 
             "Java", 
-            "Ruby", 
+            "Cocoa", 
+            "SQL", 
             "jQuery", 
-            "Android", 
-            "Data Science", 
+            "Ruby", 
             "Game Development", 
-            "Python"
+            "Android"
         ], 
         "top_source": [
             "CourseReport"
@@ -3535,7 +3535,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2676, 
+            "followers": 2677, 
             "handle": "@trybloc", 
             "tweets": 2876
         }, 
@@ -5519,8 +5519,8 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 3237, 
@@ -6521,21 +6521,21 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "Ruby", 
-                    "Rails", 
-                    "CSS", 
-                    "Design", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
                     "MySQL", 
-                    "Node.js", 
-                    "React.js", 
-                    "Sinatra", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
                     "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Design", 
+                    "Ruby", 
                     "User Experience Design", 
-                    "Front End"
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
                 ]
             }
         }, 
@@ -6550,16 +6550,16 @@
             "Swift", 
             "iOS", 
             "Objective-C", 
-            "Ruby on Rails", 
-            "Design", 
-            "Git", 
-            "JavaScript", 
-            "jQuery", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
+            "Ruby on Rails", 
+            "jQuery", 
+            "Design", 
             "User Experience Design", 
-            "Front End"
+            "React.js", 
+            "Node.js"
         ], 
         "email": "info@codecore.ca", 
         "facebook": "https://www.facebook.com/CodeCoreBootcamp", 
@@ -6582,16 +6582,16 @@
             "Swift", 
             "iOS", 
             "Objective-C", 
-            "Ruby on Rails", 
-            "Design", 
-            "Git", 
-            "JavaScript", 
-            "jQuery", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
+            "Ruby on Rails", 
+            "jQuery", 
+            "Design", 
             "User Experience Design", 
-            "Front End"
+            "React.js", 
+            "Node.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -6738,9 +6738,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "UX Design", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 926, 
@@ -7314,8 +7314,8 @@
             "Java/.NET"
         ], 
         "tracks": [
-            "Front-End Web Development", 
             "Mobile Development", 
+            "Front-End Web Development", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
@@ -7547,7 +7547,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 864, 
+            "followers": 863, 
             "handle": "@CoderFoundry", 
             "tweets": 438
         }, 
@@ -7575,7 +7575,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 969, 
+            "followers": 970, 
             "handle": "@codervox", 
             "tweets": 700
         }, 
@@ -9475,9 +9475,9 @@
             "Potential Market"
         ], 
         "tracks": [
-            "Data Science", 
             "Other", 
-            "Product Management"
+            "Product Management", 
+            "Data Science"
         ], 
         "twitter": {
             "followers": 3488, 
@@ -10399,8 +10399,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
             "Product Management", 
+            "Other", 
             "Mobile Development", 
             "Digital Marketing", 
             "UX Design"
@@ -11688,25 +11688,25 @@
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "MySQL", 
+                    "CSS", 
                     "Digital Marketing", 
-                    "Python", 
-                    "JavaScript", 
-                    "MongoDB", 
-                    "HTML", 
-                    "Git", 
-                    "Rails", 
+                    "Express.js", 
                     "Go", 
-                    "SEO", 
-                    "SQL", 
+                    "Growth Hacking", 
+                    "HTML", 
+                    "JavaScript", 
                     "jQuery", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "Python", 
+                    "Rails", 
+                    "React.js", 
                     "Ruby", 
                     "Sales", 
-                    "Growth Hacking", 
-                    "CSS", 
-                    "Express.js", 
-                    "React.js", 
-                    "Node.js"
+                    "SEO", 
+                    "SQL", 
+                    "Git"
                 ]
             }, 
             "Web Development Track": {
@@ -11720,45 +11720,45 @@
                 "Onsite": "Online", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "Front End", 
-                    "JavaScript", 
-                    "HTML", 
-                    "Git", 
-                    "Rails", 
-                    "SEO", 
-                    "SQL", 
-                    "jQuery", 
-                    "Ruby", 
-                    "User Experience Design", 
                     "CSS", 
-                    "React.js"
+                    "Front End", 
+                    "Git", 
+                    "HTML", 
+                    "JavaScript", 
+                    "Rails", 
+                    "Ruby", 
+                    "SQL", 
+                    "React.js", 
+                    "SEO", 
+                    "User Experience Design", 
+                    "jQuery"
                 ]
             }
         }, 
         "cr_num_reviews": 17, 
         "cr_rating": 4.15, 
         "cr_technologies": [
-            "Front End", 
-            "JavaScript", 
-            "HTML", 
-            "Git", 
-            "Ruby on Rails", 
-            "SEO", 
-            "SQL", 
-            "jQuery", 
-            "Ruby", 
-            "User Experience Design", 
             "CSS", 
+            "Front End", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "SQL", 
             "React.js", 
-            "MySQL", 
+            "SEO", 
+            "User Experience Design", 
+            "jQuery", 
             "Digital Marketing", 
-            "Python", 
-            "MongoDB", 
-            "Go", 
-            "Sales", 
-            "Growth Hacking", 
             "Express.js", 
-            "Node.js"
+            "Go", 
+            "Growth Hacking", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "Python", 
+            "Sales"
         ], 
         "email": "hello@devschool.rocks", 
         "employment_rates": {
@@ -11786,36 +11786,36 @@
         "num_courses": 2, 
         "num_locations": 1, 
         "technologies": [
-            "Front End", 
-            "JavaScript", 
-            "HTML", 
-            "Git", 
-            "Ruby on Rails", 
-            "SEO", 
-            "SQL", 
-            "jQuery", 
-            "Ruby", 
-            "User Experience Design", 
             "CSS", 
+            "Front End", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "SQL", 
             "React.js", 
-            "MySQL", 
+            "SEO", 
+            "User Experience Design", 
+            "jQuery", 
             "Digital Marketing", 
-            "Python", 
-            "MongoDB", 
-            "Go", 
-            "Sales", 
-            "Growth Hacking", 
             "Express.js", 
-            "Node.js"
+            "Go", 
+            "Growth Hacking", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "Python", 
+            "Sales"
         ], 
         "top_source": [
             "CourseReport"
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 123, 
@@ -11962,7 +11962,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 879, 
+            "followers": 880, 
             "handle": "@EcoTechVisions", 
             "tweets": 1516
         }, 
@@ -12360,9 +12360,9 @@
             "Selected Camp"
         ], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 607, 
@@ -13391,7 +13391,7 @@
         "twitter": {
             "followers": 1103, 
             "handle": "@epicodus", 
-            "tweets": 967
+            "tweets": 966
         }, 
         "visas": "No", 
         "website": "http://www.epicodus.com/"
@@ -15493,7 +15493,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5244, 
+            "followers": 5243, 
             "handle": "@GrandCircusCo", 
             "tweets": 6356
         }, 
@@ -16532,70 +16532,70 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
-                    "Swift", 
-                    "MySQL", 
-                    "Digital Marketing", 
-                    "AngularJS", 
-                    "Python", 
-                    "Data Science", 
                     "Front End", 
-                    "JavaScript", 
-                    "iOS", 
-                    "MongoDB", 
-                    "HTML", 
-                    "Git", 
-                    "PHP", 
+                    "Android", 
+                    "AngularJS", 
                     "C#", 
-                    "Rails", 
+                    "CSS", 
+                    "Data Science", 
+                    "Design", 
+                    "Digital Marketing", 
+                    "Git", 
                     "Go", 
+                    "Growth Hacking", 
+                    "HTML", 
+                    "iOS", 
+                    "JavaScript", 
+                    "jQuery", 
+                    "Mobile", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "PHP", 
+                    "Product Management", 
+                    "Python", 
+                    "Rails", 
+                    "Ruby", 
                     "SEO", 
                     "SQL", 
-                    "Xcode", 
-                    "jQuery", 
-                    "Design", 
-                    "Product Management", 
-                    "Ruby", 
-                    "Mobile", 
-                    "Growth Hacking", 
+                    "Swift", 
                     "User Experience Design", 
-                    "CSS", 
-                    "Android", 
-                    "Node.js"
+                    "Xcode"
                 ]
             }
         }, 
         "cr_num_reviews": 3, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "Swift", 
-            "MySQL", 
-            "Digital Marketing", 
-            "AngularJS", 
-            "Python", 
-            "Data Science", 
             "Front End", 
-            "JavaScript", 
-            "iOS", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "PHP", 
+            "Android", 
+            "AngularJS", 
             "C#", 
-            "Ruby on Rails", 
+            "CSS", 
+            "Data Science", 
+            "Design", 
+            "Digital Marketing", 
+            "Git", 
             "Go", 
+            "Growth Hacking", 
+            "HTML", 
+            "iOS", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "Ruby on Rails", 
+            "Ruby", 
             "SEO", 
             "SQL", 
-            "Xcode", 
-            "jQuery", 
-            "Design", 
-            "Product Management", 
-            "Ruby", 
-            "Mobile", 
-            "Growth Hacking", 
+            "Swift", 
             "User Experience Design", 
-            "CSS", 
-            "Android", 
-            "Node.js"
+            "Xcode"
         ], 
         "email": "julien@holbertonschool.com", 
         "facebook": "https://www.facebook.com/HolbertonSchool", 
@@ -16610,35 +16610,35 @@
         "num_courses": 1, 
         "num_locations": 1, 
         "technologies": [
-            "Swift", 
-            "MySQL", 
-            "Digital Marketing", 
-            "AngularJS", 
-            "Python", 
-            "Data Science", 
             "Front End", 
-            "JavaScript", 
-            "iOS", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "PHP", 
+            "Android", 
+            "AngularJS", 
             "C#", 
-            "Ruby on Rails", 
+            "CSS", 
+            "Data Science", 
+            "Design", 
+            "Digital Marketing", 
+            "Git", 
             "Go", 
+            "Growth Hacking", 
+            "HTML", 
+            "iOS", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "Ruby on Rails", 
+            "Ruby", 
             "SEO", 
             "SQL", 
-            "Xcode", 
-            "jQuery", 
-            "Design", 
-            "Product Management", 
-            "Ruby", 
-            "Mobile", 
-            "Growth Hacking", 
+            "Swift", 
             "User Experience Design", 
-            "CSS", 
-            "Android", 
-            "Node.js"
+            "Xcode"
         ], 
         "top_source": [
             "CourseReport"
@@ -16647,14 +16647,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Other", 
-            "Product Management", 
-            "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "Data Science", 
             "Digital Marketing", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development", 
+            "Mobile Development", 
+            "Other", 
+            "Product Management", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 2737, 
@@ -17135,9 +17135,9 @@
         "tracking_groups": [], 
         "tracks": "Other", 
         "twitter": {
-            "followers": 1039, 
+            "followers": 1038, 
             "handle": "@Careerbootcamps", 
-            "tweets": 461
+            "tweets": 460
         }, 
         "visas": "No", 
         "website": "http://insidesalesbootcamp.com/"
@@ -17803,7 +17803,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9066, 
+            "followers": 9065, 
             "handle": "@ironhack", 
             "tweets": 3412
         }, 
@@ -20052,7 +20052,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8817, 
+            "followers": 8818, 
             "handle": "@makersacademy", 
             "tweets": 7591
         }, 
@@ -20217,7 +20217,7 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 628, 
+            "followers": 629, 
             "handle": "@MCORCollege", 
             "tweets": 1868
         }, 
@@ -20517,7 +20517,7 @@
         "twitter": {
             "followers": 3046, 
             "handle": "@thisismetis", 
-            "tweets": 4469
+            "tweets": 4468
         }, 
         "visas": [
             "Metis has partnerships with ", 
@@ -20889,7 +20889,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1801, 
+            "followers": 1800, 
             "handle": "@moringaschool", 
             "tweets": 2386
         }, 
@@ -21362,14 +21362,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 1543, 
+            "followers": 1542, 
             "handle": "@NYCodeDesign", 
-            "tweets": 1520
+            "tweets": 1519
         }, 
         "visas": "No", 
         "website": "https://nycda.com/"
@@ -23135,7 +23135,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1685, 
+            "followers": 1686, 
             "handle": "@RedAcademy", 
             "tweets": 1514
         }, 
@@ -23524,7 +23524,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1187, 
+            "followers": 1186, 
             "handle": "@RefactorU", 
             "tweets": 3249
         }, 
@@ -24330,7 +24330,7 @@
         "twitter": {
             "followers": 2259, 
             "handle": "@WeSabio", 
-            "tweets": 9736
+            "tweets": 9735
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -25125,10 +25125,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Digital Marketing", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15000, 
@@ -25203,7 +25203,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 287, 
+            "followers": 286, 
             "handle": "@SkylabCoders", 
             "tweets": 594
         }, 
@@ -25426,7 +25426,7 @@
         "twitter": {
             "followers": 651, 
             "handle": "@softwareguild", 
-            "tweets": 829
+            "tweets": 828
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -25946,9 +25946,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 16200, 
@@ -26644,7 +26644,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 501, 
+            "followers": 502, 
             "handle": "@Tech_Elevator", 
             "tweets": 1339
         }, 
@@ -27358,7 +27358,7 @@
         "twitter": {
             "followers": 3028, 
             "handle": "@thedatainc", 
-            "tweets": 678
+            "tweets": 677
         }, 
         "visas": "No", 
         "website": "http://www.thedataincubator.com/"
@@ -28528,10 +28528,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
+            "UX Design", 
             "Product Management", 
-            "Digital Marketing", 
-            "UX Design"
+            "Other", 
+            "Digital Marketing"
         ], 
         "twitter": {
             "followers": 3515, 
@@ -29666,17 +29666,24 @@
         "accreditation": "We Can Code IT is Registered by the Ohio State Board of Career Colleges and Schools. Registration No. 15-03-2064T", 
         "courses": {
             ".Net Full-Time Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 10000, 
                 "Course Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Course Title": ".NET Full-Time Coding Bootcamp", 
-                "Hours/Week": null, 
+                "Hours/Week": 30, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
-                    ".NET"
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
                 ]
             }, 
             ".Net Part-Time Coding Bootcamp": {
@@ -29707,10 +29714,10 @@
                     "Columbus"
                 ], 
                 "Course Title": "Java Full-Time Columbus", 
-                "Hours/Week": 14, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -29727,10 +29734,10 @@
                     "Columbus"
                 ], 
                 "Course Title": "Java Part-Time Columbus", 
-                "Hours/Week": 14, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -30514,7 +30521,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7643, 
+            "followers": 7644, 
             "handle": "@zipcodewilm", 
             "tweets": 3109
         }, 

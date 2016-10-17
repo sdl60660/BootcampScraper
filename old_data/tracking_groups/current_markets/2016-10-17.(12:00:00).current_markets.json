@@ -783,7 +783,7 @@
         "twitter": {
             "followers": 651, 
             "handle": "@softwareguild", 
-            "tweets": 829
+            "tweets": 828
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -1118,7 +1118,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 501, 
+            "followers": 502, 
             "handle": "@Tech_Elevator", 
             "tweets": 1339
         }, 
@@ -1132,17 +1132,24 @@
         "cost_estimate": "$$", 
         "courses": {
             ".Net Full-Time Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 10000, 
                 "Course Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Course Title": ".NET Full-Time Coding Bootcamp", 
-                "Hours/Week": null, 
+                "Hours/Week": 30, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
-                    ".NET"
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
                 ]
             }, 
             ".Net Part-Time Coding Bootcamp": {
@@ -1194,10 +1201,10 @@
                     "Columbus"
                 ], 
                 "Course Title": "Java Full-Time Columbus", 
-                "Hours/Week": 14, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1214,10 +1221,10 @@
                     "Columbus"
                 ], 
                 "Course Title": "Java Part-Time Columbus", 
-                "Hours/Week": 14, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1352,7 +1359,7 @@
             "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-10-17 12:27:48", 
+        "Date/Time": "2016-10-17 12:13:53", 
         "Days Out": 35, 
         "Detroit": [
             "Girl Develop It"

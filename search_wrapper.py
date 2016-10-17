@@ -169,6 +169,8 @@ def main(search_keys):
                 full_outstring += slack_formatted_output.sort_out + '\n\n'
             if summary_flag:
                 full_outstring += slack_formatted_output.summary_out + '\n\n'
+            if warnings_flag and slack_formatted_output.warnings_out:
+                full_outstring += slack_formatted_output.warnings_out + '\n\n'
 
         print full_outstring
         return full_outstring

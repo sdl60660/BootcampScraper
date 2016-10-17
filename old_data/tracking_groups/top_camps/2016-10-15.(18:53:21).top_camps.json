@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -101,9 +101,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9874, 
+            "followers": 9862, 
             "handle": "@devbootcamp", 
-            "tweets": 9734
+            "tweets": 9728
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -954,18 +954,7 @@
                 "Hours/Week": 6, 
                 "Length": 8, 
                 "Location": [
-                    "Atlanta", 
-                    "Austin", 
-                    "Boston", 
-                    "Chicago", 
-                    "London", 
-                    "Los Angeles", 
-                    "Melbourne", 
-                    "NYC", 
-                    "San Francisco", 
-                    "Seattle", 
-                    "Sydney", 
-                    "Washington"
+                    "N/A"
                 ], 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
@@ -1112,8 +1101,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 135, 
-        "cr_rating": 4.25, 
+        "cr_num_reviews": 134, 
+        "cr_rating": 4.24, 
         "cr_technologies": [
             "User Experience Design", 
             "Data Science", 
@@ -1152,7 +1141,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1321,7 +1310,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "San Francisco", 
             "Online"
@@ -1350,7 +1339,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7520, 
+            "followers": 7515, 
             "handle": "@HackReactor", 
             "tweets": 2807
         }, 
@@ -1383,15 +1372,15 @@
                 ]
             }, 
             "Front-End Web Development ": {
-                "Cost": null, 
+                "Cost": 10000, 
                 "Course Location": [
                     "Miami"
                 ], 
                 "Course Title": "Front-End Web Development ", 
-                "Hours/Week": null, 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "Front End", 
                     "JavaScript", 
@@ -1402,15 +1391,15 @@
                 ]
             }, 
             "Ios Mobile Bootcamp": {
-                "Cost": 2500, 
+                "Cost": 10000, 
                 "Course Location": [
                     "Miami"
                 ], 
                 "Course Title": "iOS Mobile Bootcamp", 
-                "Hours/Week": 6, 
+                "Hours/Week": 60, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "Swift", 
                     "iOS", 
@@ -1465,12 +1454,12 @@
             }, 
             "Web Development Bootcamp": {
                 "Class Size": 20, 
-                "Cost": 10000, 
+                "Cost": 2500, 
                 "Course Location": [
                     "Miami"
                 ], 
                 "Course Title": "Web Development Bootcamp", 
-                "Hours/Week": 40, 
+                "Hours/Week": 6, 
                 "Length": 8, 
                 "Location": [
                     "Barcelona", 
@@ -1479,7 +1468,7 @@
                 ], 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
-                "Part Or Full": "Full Time", 
+                "Part Or Full": "Part Time", 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "JavaScript", 
@@ -1539,7 +1528,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1598,7 +1587,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9066, 
+            "followers": 9052, 
             "handle": "@ironhack", 
             "tweets": 3412
         }, 
@@ -1673,7 +1662,7 @@
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-17", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1720,7 +1709,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-17", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1730,7 +1719,7 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 86, 
+        "cr_num_reviews": 84, 
         "cr_rating": 4.13, 
         "cr_technologies": [
             "HTML", 
@@ -1758,7 +1747,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1787,8 +1776,8 @@
         "num_courses": 5, 
         "num_locations": 21, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 44, 
-        "su_rating": 4.3, 
+        "su_num_reviews": 42, 
+        "su_rating": 4.2, 
         "su_technologies": [
             "CSS", 
             "HTML", 
@@ -1844,7 +1833,7 @@
         "twitter": {
             "followers": 15400, 
             "handle": "@TheIronYard", 
-            "tweets": 7721
+            "tweets": 7719
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1858,8 +1847,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-10-17 12:27:50", 
-        "Days Out": 35, 
+        "Date/Time": "2016-10-15 19:08:25", 
+        "Days Out": 33, 
         "Detroit": [
             "The Iron Yard"
         ], 

@@ -1742,8 +1742,8 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 3237, 
@@ -1880,21 +1880,21 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "Ruby", 
-                    "Rails", 
-                    "CSS", 
-                    "Design", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
                     "MySQL", 
-                    "Node.js", 
-                    "React.js", 
-                    "Sinatra", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
                     "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Design", 
+                    "Ruby", 
                     "User Experience Design", 
-                    "Front End"
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
                 ]
             }
         }, 
@@ -1909,16 +1909,16 @@
             "Swift", 
             "iOS", 
             "Objective-C", 
-            "Ruby on Rails", 
-            "Design", 
-            "Git", 
-            "JavaScript", 
-            "jQuery", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
+            "Ruby on Rails", 
+            "jQuery", 
+            "Design", 
             "User Experience Design", 
-            "Front End"
+            "React.js", 
+            "Node.js"
         ], 
         "email": "info@codecore.ca", 
         "facebook": "https://www.facebook.com/CodeCoreBootcamp", 
@@ -1971,12 +1971,12 @@
             "Swift", 
             "iOS", 
             "Objective-C", 
-            "Design", 
             "MySQL", 
-            "Node.js", 
-            "React.js", 
+            "Front End", 
+            "Design", 
             "User Experience Design", 
-            "Front End"
+            "React.js", 
+            "Node.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -3660,9 +3660,9 @@
             "Selected Camp"
         ], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 607, 
@@ -4084,7 +4084,7 @@
         "twitter": {
             "followers": 1103, 
             "handle": "@epicodus", 
-            "tweets": 967
+            "tweets": 966
         }, 
         "visas": "No", 
         "website": "http://www.epicodus.com/"
@@ -6133,7 +6133,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5244, 
+            "followers": 5243, 
             "handle": "@GrandCircusCo", 
             "tweets": 6356
         }, 
@@ -6689,70 +6689,70 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
-                    "Swift", 
-                    "MySQL", 
-                    "Digital Marketing", 
-                    "AngularJS", 
-                    "Python", 
-                    "Data Science", 
                     "Front End", 
-                    "JavaScript", 
-                    "iOS", 
-                    "MongoDB", 
-                    "HTML", 
-                    "Git", 
-                    "PHP", 
+                    "Android", 
+                    "AngularJS", 
                     "C#", 
-                    "Rails", 
+                    "CSS", 
+                    "Data Science", 
+                    "Design", 
+                    "Digital Marketing", 
+                    "Git", 
                     "Go", 
+                    "Growth Hacking", 
+                    "HTML", 
+                    "iOS", 
+                    "JavaScript", 
+                    "jQuery", 
+                    "Mobile", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "PHP", 
+                    "Product Management", 
+                    "Python", 
+                    "Rails", 
+                    "Ruby", 
                     "SEO", 
                     "SQL", 
-                    "Xcode", 
-                    "jQuery", 
-                    "Design", 
-                    "Product Management", 
-                    "Ruby", 
-                    "Mobile", 
-                    "Growth Hacking", 
+                    "Swift", 
                     "User Experience Design", 
-                    "CSS", 
-                    "Android", 
-                    "Node.js"
+                    "Xcode"
                 ]
             }
         }, 
         "cr_num_reviews": 3, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "Swift", 
-            "MySQL", 
-            "Digital Marketing", 
-            "AngularJS", 
-            "Python", 
-            "Data Science", 
             "Front End", 
-            "JavaScript", 
-            "iOS", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "PHP", 
+            "Android", 
+            "AngularJS", 
             "C#", 
-            "Ruby on Rails", 
+            "CSS", 
+            "Data Science", 
+            "Design", 
+            "Digital Marketing", 
+            "Git", 
             "Go", 
+            "Growth Hacking", 
+            "HTML", 
+            "iOS", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "Ruby on Rails", 
+            "Ruby", 
             "SEO", 
             "SQL", 
-            "Xcode", 
-            "jQuery", 
-            "Design", 
-            "Product Management", 
-            "Ruby", 
-            "Mobile", 
-            "Growth Hacking", 
+            "Swift", 
             "User Experience Design", 
-            "CSS", 
-            "Android", 
-            "Node.js"
+            "Xcode"
         ], 
         "email": "julien@holbertonschool.com", 
         "facebook": "https://www.facebook.com/HolbertonSchool", 
@@ -6795,28 +6795,28 @@
             "MySQL", 
             "Python", 
             "Ruby", 
-            "Swift", 
-            "Digital Marketing", 
-            "AngularJS", 
-            "Data Science", 
             "Front End", 
-            "iOS", 
-            "MongoDB", 
-            "PHP", 
+            "Android", 
+            "AngularJS", 
             "C#", 
-            "Ruby on Rails", 
+            "Data Science", 
+            "Design", 
+            "Digital Marketing", 
             "Go", 
+            "Growth Hacking", 
+            "iOS", 
+            "jQuery", 
+            "Mobile", 
+            "MongoDB", 
+            "Node.js", 
+            "PHP", 
+            "Product Management", 
+            "Ruby on Rails", 
             "SEO", 
             "SQL", 
-            "Xcode", 
-            "jQuery", 
-            "Design", 
-            "Product Management", 
-            "Mobile", 
-            "Growth Hacking", 
+            "Swift", 
             "User Experience Design", 
-            "Android", 
-            "Node.js"
+            "Xcode"
         ], 
         "top_source": [
             "CourseReport"
@@ -6825,14 +6825,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Other", 
-            "Product Management", 
-            "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "Data Science", 
             "Digital Marketing", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development", 
+            "Mobile Development", 
+            "Other", 
+            "Product Management", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 2737, 
@@ -7083,7 +7083,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9066, 
+            "followers": 9065, 
             "handle": "@ironhack", 
             "tweets": 3412
         }, 
@@ -8106,14 +8106,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 1543, 
+            "followers": 1542, 
             "handle": "@NYCodeDesign", 
-            "tweets": 1520
+            "tweets": 1519
         }, 
         "visas": "No", 
         "website": "https://nycda.com/"
@@ -8802,7 +8802,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1187, 
+            "followers": 1186, 
             "handle": "@RefactorU", 
             "tweets": 3249
         }, 
@@ -9033,7 +9033,7 @@
         "twitter": {
             "followers": 2259, 
             "handle": "@WeSabio", 
-            "tweets": 9736
+            "tweets": 9735
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -9320,7 +9320,7 @@
         "twitter": {
             "followers": 651, 
             "handle": "@softwareguild", 
-            "tweets": 829
+            "tweets": 828
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -10143,7 +10143,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 501, 
+            "followers": 502, 
             "handle": "@Tech_Elevator", 
             "tweets": 1339
         }, 
@@ -11371,7 +11371,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7643, 
+            "followers": 7644, 
             "handle": "@zipcodewilm", 
             "tweets": 3109
         }, 
@@ -11395,7 +11395,7 @@
             "Software Guild", 
             "Tech Elevator"
         ], 
-        "Date/Time": "2016-10-17 12:27:51", 
+        "Date/Time": "2016-10-17 12:13:56", 
         "Days Out": 35, 
         "Detroit": [
             "The Iron Yard", 

@@ -5,15 +5,6 @@ from pprint import pprint
 import sys
 from current_data import attribute_dict
 
-
-"""class Camp_Info:
-    def __init__(self, category_data, camps, summary=None, camp_list=None, sort=None):
-        self.category_data = category_data
-        self.camps = camps
-        self.summary = summary if summary is not None else []
-        self.camp_list = camp_list if camp_list is not None else []
-        self.sort = sort if sort is not None else []"""
-
 def title_string(camp, full=True):
 	title_string = ''
 	if full:
@@ -68,12 +59,13 @@ def category_string(cat_data, camp, cat):
 	return cat_string, cat_name
 
 class Slack_Output_Strings:
-	def __init__(self, bootcamps_out=None, details_out=None, list_out=None, sort_out=None, summary_out=None):
+	def __init__(self, bootcamps_out=None, details_out=None, list_out=None, sort_out=None, summary_out=None, warnings_out=None):
 		self.bootcamps_out = bootcamps_out
 		self.details_out = details_out
 		self.list_out = list_out
 		self.sort_out = sort_out
 		self.summary_out = summary_out
+		self.warnings_out = warnings_out
 
 #1. FINISH SUMMARY OUTPUT
 #2. APPEND WARNINGS (MAYBE TO SEPARATE CLASS FIELD) TO OUTPUT STRING OBJECT
@@ -176,7 +168,10 @@ def slack_output(result_data):
 		sort_list_string += str(item_title) + '\n----------------------------\n'
 		for x in category:
 			#list_string = '{:<30}{}'.format((str(x[0]) + ':'), str(x[1]))
-			list_string = '            ' + unicode(x[0]) + ': ' + unicode(x[1])
+			try:
+				list_string = '            ' + str(x[0]) + ': ' + str(x[1])
+			except UnicodeError:
+				continue
 			sort_list_string += list_string + '\n'
 		sort_list_string += '\n\n'
 	return_strings.sort_out = sort_list_string
@@ -200,10 +195,30 @@ def slack_output(result_data):
 			list_string = '            ' + str(k) + ': ' + str(v)
 			summary_list_string += list_string + '\n'"""
 		for x in category_sorted:
-			list_string = '            ' + unicode(x[0]) + ': ' + unicode(x[1])
+			try:
+				list_string = '            ' + str(x[0]) + ': ' + str(x[1])
+			except UnicodeError:
+				continue
 			summary_list_string += list_string + '\n'
 		summary_list_string += '\n\n'
 	return_strings.summary_out = summary_list_string
+
+	#==========================WARNING PRINT==========================
+
+	if len(result_data.summary['warning'][0][1]) > 0: 
+		warning_list_string = '`WARNING: These camps fit the specified filters, but did not have data for the following categories`: \n\n'
+		for cat in result_data.summary['warning']:
+			if cat[0] in attribute_dict.Out_Dict.keys():
+				cat_name = attribute_dict.Out_Dict[cat[0]]
+			else:
+				cat_name = cat[0].title()
+			warning_list_string += '*{}*: '.format(cat_name)
+			for camp in cat[1]:
+				warning_list_string += str(camp) + ', '
+			warning_list_string = warning_list_string[:-2]  +'\n'
+			warning_list_string += '\n\n'
+		return_strings.warnings_out = warning_list_string
+
 	return return_strings
 
 if __name__ == '__slack_output__':

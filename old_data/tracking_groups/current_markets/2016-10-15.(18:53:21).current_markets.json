@@ -399,7 +399,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Online", 
             "Bangalore"
@@ -450,7 +450,7 @@
         "twitter": {
             "followers": 889, 
             "handle": "@acadgild", 
-            "tweets": 2377
+            "tweets": 2376
         }, 
         "visas": "No", 
         "website": "http://acadgild.com/"
@@ -497,7 +497,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Cleveland"
         ], 
@@ -725,7 +725,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -781,9 +781,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 651, 
+            "followers": 653, 
             "handle": "@softwareguild", 
-            "tweets": 829
+            "tweets": 828
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -1075,7 +1075,7 @@
         "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -1118,9 +1118,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 501, 
+            "followers": 499, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1339
+            "tweets": 1336
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -1132,17 +1132,24 @@
         "cost_estimate": "$$", 
         "courses": {
             ".Net Full-Time Coding Bootcamp": {
-                "Cost": null, 
+                "Cost": 10000, 
                 "Course Location": [
-                    "Columbus"
+                    "Cleveland"
                 ], 
                 "Course Title": ".NET Full-Time Coding Bootcamp", 
-                "Hours/Week": null, 
+                "Hours/Week": 30, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
-                    ".NET"
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
                 ]
             }, 
             ".Net Part-Time Coding Bootcamp": {
@@ -1194,10 +1201,10 @@
                     "Columbus"
                 ], 
                 "Course Title": "Java Full-Time Columbus", 
-                "Hours/Week": 14, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1214,10 +1221,10 @@
                     "Columbus"
                 ], 
                 "Course Title": "Java Part-Time Columbus", 
-                "Hours/Week": 14, 
+                "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": "In Person", 
-                "Part Or Full": "Part Time", 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1251,7 +1258,7 @@
                 "Title": "Women-Only Coding Bootcamp"
             }
         }, 
-        "cr_num_reviews": 24, 
+        "cr_num_reviews": 23, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "JavaScript", 
@@ -1272,7 +1279,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-10-17", 
+        "last_updated": "2016-10-15", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -1318,7 +1325,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1531, 
+            "followers": 1536, 
             "handle": "@WeCanCodeIT", 
             "tweets": 1581
         }, 
@@ -1352,8 +1359,8 @@
             "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-10-17 12:27:48", 
-        "Days Out": 35, 
+        "Date/Time": "2016-10-15 19:08:23", 
+        "Days Out": 33, 
         "Detroit": [
             "Girl Develop It"
         ], 
