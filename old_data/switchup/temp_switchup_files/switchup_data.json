@@ -8344,9 +8344,7 @@
         "general_cost": "$$$", 
         "hiring_rate": 100.0, 
         "last_updated": "2016-10-17", 
-        "locations": [
-            "Online"
-        ], 
+        "locations": null, 
         "name": "Devschool", 
         "num_alumni": 17, 
         "num_locations": 1, 
@@ -12507,7 +12505,7 @@
         "name": "Le Wagon", 
         "num_alumni": 800, 
         "num_locations": 15, 
-        "su_num_reviews": 73, 
+        "su_num_reviews": 74, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -13770,7 +13768,7 @@
         "name": "Montana Code School", 
         "num_alumni": "N/A", 
         "scholarships": "A number of scholarships are available for women, Native American, veterans, and low income populations. Value set at $2000", 
-        "su_num_reviews": 2, 
+        "su_num_reviews": 3, 
         "su_rating": 5.0, 
         "su_technologies": null, 
         "subjects": "JavaScript, Node.js, HTML, CSS, SQL, GIT, Agile/ Lean Methodologies ", 
@@ -16361,12 +16359,11 @@
             "Akron", 
             "Louisville", 
             "Minneapolis", 
-            "Cleveland", 
-            "Online"
+            "Cleveland"
         ], 
         "name": "Software Guild", 
         "num_alumni": "N/A", 
-        "num_locations": 5, 
+        "num_locations": 4, 
         "su_num_reviews": 24, 
         "su_rating": 4.8, 
         "su_technologies": [
@@ -18682,12 +18679,11 @@
         "hiring_rate": 95.0, 
         "last_updated": "2016-10-17", 
         "locations": [
-            "Portland", 
-            "Online"
+            "Portland"
         ], 
         "name": "The Tech Academy", 
         "num_alumni": 120, 
-        "num_locations": 2, 
+        "num_locations": 1, 
         "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
         "su_num_reviews": 72, 
         "su_rating": 4.9, 
@@ -20967,7 +20963,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-10-17 12:22:19", 
+        "Date/Time": "2016-10-17 15:14:47", 
         "Days Out": 35, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -21092,7 +21088,7 @@
             "New York City": 27, 
             "Oakland": 1, 
             "Omaha": 2, 
-            "Online": 30, 
+            "Online": 27, 
             "Orange County": 4, 
             "Orlando": 1, 
             "Ottawa": 1, 

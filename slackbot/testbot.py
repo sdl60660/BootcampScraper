@@ -27,7 +27,7 @@ test_list = ['testing', 'technologies']
 #3. HANDLE NON-SEARCH REQUESTS (I.E. JUST 'PLOT')
 #4. PUSH TRACKING/UPDATES THROUGH ON A SCHEDULE (NOT JUST WHEN PROMPTED)
 
-def handle_command(command, channel, prompted):
+def handle_command(command, channel, last_command, stored_command_data):
     default_emoji = ':key:'
     default_user = 'searchbot'
 
@@ -66,7 +66,8 @@ def handle_command(command, channel, prompted):
     plot = False
 
     if command.startswith('plot'):
-        plot_file_name, plot_title = tracking.plot_changes(20, 'housing', current_status=True, max_items=18,
+        #temp_command = 
+        plot_file_name, plot_title = tracking.plot_changes(20, 'locations', current_status=True, max_items=18,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
         plot_file_name += '.png'
         #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
@@ -110,7 +111,7 @@ def handle_command(command, channel, prompted):
     """slack_client.api_call("chat.postMessage", channel=channel,
                               text=last_command, as_user=False, username=user, icon_emoji=emoji)"""
 
-    return command
+    return command, stored_command_data
 
 def parse_slack_output(slack_rtm_output):
     """
@@ -136,7 +137,7 @@ if __name__ == "__main__":
         while True:
             command, channel = parse_slack_output(slack_client.rtm_read())
             if command and channel:
-                last_command = handle_command(command, channel, last_command)
+                last_command, stored_command_data = handle_command(command, channel, last_command, stored_command_data)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
