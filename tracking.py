@@ -152,7 +152,7 @@ def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
     return print_arrays, diff_arrays
 
 def plot_changes(days_back, category, start_days_back=0, current_status=False, tracking_group=None, max_items=10,
-    percentage=False, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True,
+    percentage=True, start_item=0, show_legend=True, interval=1, active_only=True, show_plot=True, save_plot=True,
     slack_post=False):
     
     #Import modules
@@ -195,7 +195,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             
         elif type(tracking_group) is list:
             filtered_camps = [return_closest(camp, today_data.keys(), 0.93) for camp in tracking_group if return_closest(camp, today_data.keys(), 0.93) != -1]
-            print filtered_camps
         filtered_camps.append('meta')
     today_data = filter_data(today_data, filtered_camps)
 
@@ -249,8 +248,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             datasets.append('NO DATA')
             totals.append('NO DATA')
 
-        print meta_data
-
         date_labels.append(str(meta_data['Date/Time'])[5:10])
         x_axis.append(int(meta_data['Days Out']))
     date_labels = date_labels[::-1]
@@ -290,7 +287,14 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         for k, v in current.iteritems():
             temp_list.append((k, v))
         temp_list = sorted(temp_list, key=lambda x: x[1], reverse=True)
-        item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
+        if type(max_items) is int:
+            item_list = [x[0] for x in temp_list[start_item:(start_item+max_items)]]
+        elif type(max_items) is list:
+            cat_list = [x[0] for x in temp_list]
+            max_items = [return_closest(x, cat_list, 0.85) for x in max_items if return_closest(x, cat_list, 0.85) != -1]
+            print max_items
+            item_list = [x[0] for x in temp_list if x[0] in max_items]
+        num_items = len(item_list)
 
         #Fill data_list with a set of lists, one for each of category items identified above
         #Each of these category item lists contains values for that item for each of the required dates
@@ -348,7 +352,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         ax.set_ylabel(y_label)
 
         ax.grid(zorder=0)
-        plt.xticks(tick_locations, bar_labels, rotation=72, fontsize=8)
+        fsize = 12/((num_items/2)**0.4)
+        if fsize < 8:
+            fsize = 8
+        rot = 104-(fsize*6)
+        if rot < 40:
+            tick_locations = [loc + 0.125 for loc in tick_locations]
+        plt.xticks(tick_locations, bar_labels, rotation=rot, fontsize=fsize)
         
         title = 'Showing Information on ' + str(category).title() + ' (as of last update)'
     
@@ -363,7 +373,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
         #Arrange, position, format the legend if show_legend is True
         if show_legend == True:
-            columns = int(math.floor(max_items/2))
+            columns = int(math.floor(num_items/2))
             box = ax.get_position()
             ax.set_position([box.x0, box.y0 + box.height * 0.1,
                  box.width, box.height * 0.9])
@@ -431,7 +441,5 @@ def new_bootcamps(days_back, start_date=0):
         new_camps[x] = (camp, bootcamps[camp]['locations'])
 
     return new_camps
-
-
 
 
