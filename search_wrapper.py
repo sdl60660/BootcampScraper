@@ -161,6 +161,10 @@ def main(search_keys):
         full_outstring = '\n'
         if bootcamp_search:
             full_outstring += slack_formatted_output.bootcamps_out
+        elif slack_formatted_output.list_out == -1:
+            full_outstring = "\n*Sorry! This search didn't return any results...*\n\n" \
+            "This is either a mistake or there are no bootcamps that fit the specified filters.\n" \
+            "(Make sure to check the 'Tracking Group' and include --all in your search if you want to search all camps)\n"
         else:
             if not any([list_flag, sort_flag, summary_flag]):
                 detail_flag = True

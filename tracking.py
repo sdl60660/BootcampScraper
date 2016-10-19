@@ -161,7 +161,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     import datetime
     from datetime import date
     import math
-    from helper_functions.json_merge import create_meta_dict
+    from bootcamp_info.helper_functions.json_merge import create_meta_dict
 
     def filter_data(data, list_of_camps):
         temp_dict = {}

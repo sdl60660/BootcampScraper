@@ -148,8 +148,11 @@ def slack_output(result_data):
 	camp_list_string = '==================================================\n' 
 	camp_list_string += 'LIST: These bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
 	camp_list_string += '==================================================\n\n' 
-	for camp in result_data.camp_list:
-		camp_list_string += '            ' + str(camp) + '\n'
+	if len(result_data.camp_list) == 0:
+		camp_list_string = -1
+	else:
+		for camp in result_data.camp_list:
+			camp_list_string += '            ' + str(camp) + '\n'
 	return_strings.list_out = camp_list_string
 
 	#===========================SORT PRINT============================
@@ -205,7 +208,7 @@ def slack_output(result_data):
 
 	#==========================WARNING PRINT==========================
 
-	if len(result_data.summary['warning'][0][1]) > 0: 
+	if result_data.summary['warning'] and len(result_data.summary['warning'][0][1]) > 0: 
 		warning_list_string = '`WARNING: These camps fit the specified filters, but did not have data for the following categories`: \n\n'
 		for cat in result_data.summary['warning']:
 			if cat[0] in attribute_dict.Out_Dict.keys():

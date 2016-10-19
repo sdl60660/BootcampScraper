@@ -24,9 +24,6 @@ slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
 test_list = ['testing', 'technologies']
 
-#3. HANDLE NON-SEARCH REQUESTS (I.E. JUST 'PLOT')
-#4. PUSH TRACKING/UPDATES THROUGH ON A SCHEDULE (NOT JUST WHEN PROMPTED)
-
 def handle_command(command, channel, last_search, last_trend, stored_command_data):
     default_emoji = ':key:'
     default_user = 'searchbot'
@@ -41,17 +38,28 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     response = "Not sure what you mean. Use the *" + EXAMPLE_COMMAND + \
                "* command with numbers, delimited by spaces."
 
+
+
+
+
     if command.lower().startswith('search'):
+        import re
         #keys = input_to_searchkeys(command)[1:]
         #keys.append('Slack')
         #response = search_wrapper.main(keys)
 
         #RUN THROUGH TERMINAL OUTPUT
         input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
+        print re.findall("([^']*)'", input_command)
         print input_command
         response = os.popen(input_command).read()
         emoji = default_emoji
         user = default_user
+
+
+
+
+
 
     if command.lower().startswith('trends'):
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
@@ -63,12 +71,40 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         emoji = ':chart_with_upwards_trend:'
         user = 'trendbot'
 
-    plot = False
 
+
+
+
+
+
+    plot = False
     if command.lower().startswith('plot'):
-        #temp_command = 
-        plot_file_name, plot_title = tracking.plot_changes(20, 'locations', current_status=True, max_items=18,
-            percentage=True, save_plot=True, slack_post=True, show_plot=False)
+
+        #GATHER PLOT COMMAND DATA
+
+
+
+        #PARSE PLOT COMMAND DATA
+        def type_correct(command, string):
+            try:
+                command = int(command)
+            except ValueError:
+                command = command.split(',')
+                for i, x in enumerate(command):
+                    command[i] = x.strip().strip("'").strip('"')
+                if len(command) == 1:
+                    if string:
+                        command = str(command[0])
+            return command
+
+        commands = command[5:].split('/')
+        commands[2] = type_correct(commands[2], False)
+        commands[3] = type_correct(commands[3], True)
+        print commands[3]
+
+        #MAKE PLOT
+        plot_file_name, plot_title = tracking.plot_changes(int(commands[0]), str(commands[1]), current_status=True, max_items=commands[2],
+            tracking_group=commands[3], percentage=True, save_plot=True, slack_post=True, show_plot=False)
         plot_file_name += '.png'
         #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
         #response = os.popen(input_command).read()
@@ -83,25 +119,6 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     if command.lower().startswith('groups'):
         emoji = default_emoji
         user = default_user
-
-    #DOESN'T WORK YET, BUT SHOULD PROMPT A HELP TEXT TO BE SENT
-    """if command.startswith('help'):
-        full_help_text = 'Bootcamp Slackbot Help\n'
-        full_help_text += '===================\n\n'
-        full_help_text += '-Begin all commands with @bootcampbot\n'
-        full_help_text += '-Can be used to search camps and features of camps, plot data or look at trends\n\n\n'
-        full_help_text += 'Commands\n'
-        full_help_text += '---------------\n'
-        full_help_text += 'search: gives a list of camps that fit given location, technology or tracking group filters\n'
-        full_help_text += 'plot:\n'
-        full_help_text += 'trend:\n'
-
-        if len(command) < 6:
-            response = full_help_text
-        else:
-            help_key = command[5:]
-
-            response = 'SPECIFIC COMMAND HELP GOES HERE'"""
     
     if plot:
         slack = Slacker(os.environ.get('SLACK_BOT_TOKEN'))
@@ -115,6 +132,12 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         #MAKE THE API CALL AS SEARCHBOT
         slack_client.api_call("chat.postMessage", channel=channel,
                               text=response, as_user=False, username=user, icon_emoji=emoji)
+
+
+
+
+
+
 
     """slack_client.api_call("chat.postMessage", channel=channel,
                               text=last_command, as_user=False, username=user, icon_emoji=emoji)"""
@@ -140,6 +163,7 @@ def parse_slack_output(slack_rtm_output):
 if __name__ == "__main__":
     last_search = None
     last_trend = None
+    stored_command_data = None
     READ_WEBSOCKET_DELAY = 0.3 # 1 second delay between reading from firehose
     if slack_client.rtm_connect():
         print("TestBot connected and running!")
@@ -150,3 +174,29 @@ if __name__ == "__main__":
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
+
+
+
+
+
+
+
+
+    #DOESN'T WORK YET, BUT SHOULD PROMPT A HELP TEXT TO BE SENT
+    """if command.startswith('help'):
+        full_help_text = 'Bootcamp Slackbot Help\n'
+        full_help_text += '===================\n\n'
+        full_help_text += '-Begin all commands with @bootcampbot\n'
+        full_help_text += '-Can be used to search camps and features of camps, plot data or look at trends\n\n\n'
+        full_help_text += 'Commands\n'
+        full_help_text += '---------------\n'
+        full_help_text += 'search: gives a list of camps that fit given location, technology or tracking group filters\n'
+        full_help_text += 'plot:\n'
+        full_help_text += 'trend:\n'
+
+        if len(command) < 6:
+            response = full_help_text
+        else:
+            help_key = command[5:]
+
+            response = 'SPECIFIC COMMAND HELP GOES HERE'"""

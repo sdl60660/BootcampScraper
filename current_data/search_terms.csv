@@ -4,29 +4,18 @@ Potential Market,Tracking Group
 Top Camp,Tracking Group
 Selected Camp,Tracking Group
 Closer Academy,Bootcamp
+website,Category
+job_guarantee,Category
 last_updated,Category
-cr_rating,Category
-twitter,Category
-tweets,twitter
-handle,twitter
-followers,twitter
-locations,Category
-job_assistance,Category
+name,Category
 accreditation,Category
+cr_rating,Category
+num_courses,Category
 housing,Category
 cr_technologies,Category
-visas,Category
-top_source,Category
-email,Category
-website,Category
-num_locations,Category
-tracking_groups,Category
-tracks,Category
-facebook,Category
 technologies,Category
-name,Category
-job_guarantee,Category
-num_courses,Category
+locations,Category
+num_locations,Category
 courses,Category
 Onsite,Course Attribute
 Course Title,Course Attribute
@@ -37,6 +26,13 @@ Hours/Week,Course Attribute
 Minimum Skill,Course Attribute
 Part Or Full,Course Attribute
 cr_num_reviews,Category
+visas,Category
+facebook,Category
+tracks,Category
+tracking_groups,Category
+top_source,Category
+job_assistance,Category
+email,Category
 Los Angeles,Location
 Sales,Technology
 Actualize,Bootcamp
@@ -68,6 +64,7 @@ Ruby on Rails,Technology
 SQL,Technology
 Ruby,Technology
 Pen And Paper Coding,Bootcamp
+twitter,Category
 NoLang,Technology
 Coder Manual,Bootcamp
 Smart Factory,Bootcamp
@@ -206,6 +203,7 @@ Montana Code School,Bootcamp
 Missoula,Location
 Bozeman,Location
 Codeabode,Bootcamp
+Unc Charlotte Coding Boot Camp,Bootcamp
 Northwestern Coding Bootcamp,Bootcamp
 Codeworks,Bootcamp
 Barcelona,Location
@@ -223,6 +221,7 @@ Shreveport,Location
 Codify Academy,Bootcamp
 Hybrid (Online & In-person),Location
 Treehouse,Bootcamp
+Georgia Tech Coding Boot Camp,Bootcamp
 Codecademy,Bootcamp
 Next Academy,Bootcamp
 Rutgers Coding Bootcamp,Bootcamp
@@ -268,6 +267,7 @@ Coded,Bootcamp
 Gocode,Bootcamp
 Guanacaste,Location
 American Graphics Institute,Bootcamp
+Uc San Diego Coding Boot Camp,Bootcamp
 Parsec Group,Bootcamp
 Coding Boot Camp At Ut Austin,Bootcamp
 Houston,Location
@@ -440,6 +440,7 @@ Kansas City,Location
 Fullstack Academy,Bootcamp
 Israel Tech Challenge,Bootcamp
 Turn To Tech,Bootcamp
+Uc Berkeley Coding Boot Camp,Bootcamp
 Refactoru,Bootcamp
 4Geeks Academy,Bootcamp
 Caracas,Location
@@ -456,9 +457,9 @@ Desafio Latam,Bootcamp
 Santiago,Location
 Bogota,Location
 Digital Unicorn,Bootcamp
-Maricopa Corporate College,Bootcamp
-Tempe,Location
+Steer,Bootcamp
 Empower Security Academy,Bootcamp
+Gw Coding Bootcamp,Bootcamp
 Operation Spark,Bootcamp
 Nashville Software School,Bootcamp
 Level,Bootcamp
@@ -689,7 +690,8 @@ Makers Academy,Bootcamp
 Devcamp Mx,Bootcamp
 Institute Of Code,Bootcamp
 Puerto Vallarta,Location
-Steer,Bootcamp
+Maricopa Corporate College,Bootcamp
+Tempe,Location
 Codecore Bootcamp,Bootcamp
 Udacity,Bootcamp
 Try Ruby,Bootcamp

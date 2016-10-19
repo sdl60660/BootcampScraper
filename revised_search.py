@@ -62,6 +62,7 @@ def summary_dict(bootcamps, category):
 def dict_sort(in_dict, full_list=False):
     tuple_list = []
 
+    val_type = None
     for k,v in in_dict.iteritems():
         tuple_list.append([k, v])
         val_type = type(v)
