@@ -158,8 +158,22 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     #Import modules
     import matplotlib.pyplot as plt
     import heapq
+    import datetime
     from datetime import date
     import math
+    from helper_functions.json_merge import create_meta_dict
+
+    def filter_data(data, list_of_camps):
+        temp_dict = {}
+        for k,v in data.iteritems():
+            if k == 'meta':
+                date_time = datetime.datetime.strptime(str(v['Date/Time']), '%Y-%m-%d %H:%M:%S')
+            if k in list_of_camps:
+                temp_dict[k] = v
+        del temp_dict['meta']
+        meta_entry = create_meta_dict(date_time, temp_dict)
+        temp_dict['meta'] = meta_entry
+        return temp_dict
 
     #Set today's date for reference
     today = date.today()
@@ -167,11 +181,17 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     #Load date data for "today". If start_days_back == 0, this won't actually be today, but
     #will the data for the last data point
-    if start_days_back == 0 and tracking_group==None:
+    if start_days_back == 0:
         today_data = bootcamps
     else:
-        today_data = load_date_data(today_ordinal, start_days_back, tracking_group)
+        today_data = load_date_data(today_ordinal, start_days_back)
         today_ordinal = today_ordinal - start_days_back
+
+    filtered_camps = [camp for camp in today_data.keys()]
+    if tracking_group and tracking_group != 'ALL':
+        filtered_camps = [camp for camp in today_data.keys() if camp != 'meta' and tracking_group in today_data[camp]['tracking_groups']]
+        filtered_camps.append('meta')
+    today_data = filter_data(today_data, filtered_camps)
 
     #Initialize x-axis values and labels(dates) with the values for today or 'today'
     date_labels = [str(datetime.date.fromordinal(today_ordinal))[5:]]
@@ -210,7 +230,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     #dated dataset meta data
     for day in range(1, (days_back+1), interval):
         try:
-            meta_data = load_date_data(today_ordinal, day, tracking_group)['meta']
+            meta_data = filter_data(load_date_data(today_ordinal, day), filtered_camps)['meta']
             if meta_data['Active'] == False and active_only == True:
                 raise NameError('Non-active date for datafile')
             if subs == True:
@@ -222,6 +242,9 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         except (KeyError, NameError):
             datasets.append('NO DATA')
             totals.append('NO DATA')
+
+        print meta_data
+
         date_labels.append(str(meta_data['Date/Time'])[5:10])
         x_axis.append(int(meta_data['Days Out']))
     date_labels = date_labels[::-1]

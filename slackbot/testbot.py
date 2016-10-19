@@ -27,7 +27,7 @@ test_list = ['testing', 'technologies']
 #3. HANDLE NON-SEARCH REQUESTS (I.E. JUST 'PLOT')
 #4. PUSH TRACKING/UPDATES THROUGH ON A SCHEDULE (NOT JUST WHEN PROMPTED)
 
-def handle_command(command, channel, last_command, stored_command_data):
+def handle_command(command, channel, last_search, last_trend, stored_command_data):
     default_emoji = ':key:'
     default_user = 'searchbot'
 
@@ -41,7 +41,7 @@ def handle_command(command, channel, last_command, stored_command_data):
     response = "Not sure what you mean. Use the *" + EXAMPLE_COMMAND + \
                "* command with numbers, delimited by spaces."
 
-    if command.startswith('search'):
+    if command.lower().startswith('search'):
         #keys = input_to_searchkeys(command)[1:]
         #keys.append('Slack')
         #response = search_wrapper.main(keys)
@@ -53,7 +53,7 @@ def handle_command(command, channel, last_command, stored_command_data):
         emoji = default_emoji
         user = default_user
 
-    if command.startswith('trends'):
+    if command.lower().startswith('trends'):
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
         input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:] + ' SLACK'
         print input_command
@@ -65,7 +65,7 @@ def handle_command(command, channel, last_command, stored_command_data):
 
     plot = False
 
-    if command.startswith('plot'):
+    if command.lower().startswith('plot'):
         #temp_command = 
         plot_file_name, plot_title = tracking.plot_changes(20, 'locations', current_status=True, max_items=18,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
@@ -75,6 +75,14 @@ def handle_command(command, channel, last_command, stored_command_data):
         emoji = default_emoji
         user = default_user
         plot = True
+
+    if command.lower().startswith('terms'):
+        emoji = default_emoji
+        user = default_user
+
+    if command.lower().startswith('groups'):
+        emoji = default_emoji
+        user = default_user
 
     #DOESN'T WORK YET, BUT SHOULD PROMPT A HELP TEXT TO BE SENT
     """if command.startswith('help'):
@@ -111,7 +119,7 @@ def handle_command(command, channel, last_command, stored_command_data):
     """slack_client.api_call("chat.postMessage", channel=channel,
                               text=last_command, as_user=False, username=user, icon_emoji=emoji)"""
 
-    return command, stored_command_data
+    return last_search, last_trend, stored_command_data
 
 def parse_slack_output(slack_rtm_output):
     """
@@ -130,14 +138,15 @@ def parse_slack_output(slack_rtm_output):
 
 
 if __name__ == "__main__":
-    last_command = ''
+    last_search = None
+    last_trend = None
     READ_WEBSOCKET_DELAY = 0.3 # 1 second delay between reading from firehose
     if slack_client.rtm_connect():
         print("TestBot connected and running!")
         while True:
             command, channel = parse_slack_output(slack_client.rtm_read())
             if command and channel:
-                last_command, stored_command_data = handle_command(command, channel, last_command, stored_command_data)
+                last_search, last_trend, stored_command_data = handle_command(command, channel, last_search, last_trend, stored_command_data)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
