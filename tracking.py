@@ -189,7 +189,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     filtered_camps = [camp for camp in today_data.keys()]
     if tracking_group and tracking_group != 'ALL':
-        filtered_camps = [camp for camp in today_data.keys() if camp != 'meta' and tracking_group in today_data[camp]['tracking_groups']]
+        if type(tracking_group) is str:
+            tracking_group = return_closest(tracking_group, tracking_groups, 0.7)
+            filtered_camps = [camp for camp in today_data.keys() if camp != 'meta' and tracking_group in today_data[camp]['tracking_groups']]
+            
+        elif type(tracking_group) is list:
+            filtered_camps = [return_closest(camp, today_data.keys(), 0.93) for camp in tracking_group if return_closest(camp, today_data.keys(), 0.93) != -1]
+            print filtered_camps
         filtered_camps.append('meta')
     today_data = filter_data(today_data, filtered_camps)
 
@@ -382,9 +388,10 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             tgroup_label = ' (Tracking Group: ' + str(tracking_group) + ')'
         
         title = 'Showing Information on ' + str(category).title() + ' for: ' \
-         + date_labels[0] + ' to ' + date_labels[-1] + tgroup_label
+         + date_labels[0] + ' to ' + date_labels[-1] + '\n' + tgroup_label
     
     fig.suptitle(title, fontsize=13)
+    title = ''.join(title.split('\n'))
     plot_title = title[(title.find('Information on ') + 15):]
     if save_plot == True:
         if slack_post:
