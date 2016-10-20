@@ -399,7 +399,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         elif len(str(tracking_group)) < 100:
             tgroup_label = ' (Tracking Group: ' + str(tracking_group) + ')'
         else:
-            tgroup_label = ' (Tracking Group: Various Camps)'
+            tgroup_label = ' (Tracking Group: Previous Result)'
         
         title = 'Showing Information on ' + str(category).title() + ' for: ' \
          + date_labels[0] + ' to ' + date_labels[-1] + '\n' + tgroup_label
