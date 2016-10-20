@@ -200,7 +200,7 @@
             "Product Management", 
             "Full-Stack Web Development"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "https://www.30weeks.com/"
     }, 
@@ -327,7 +327,7 @@
         "twitter": {
             "followers": 18900, 
             "handle": "@42born2code", 
-            "tweets": 5927
+            "tweets": 5926
         }, 
         "visas": "The US campus has 163 dormitory rooms.", 
         "website": "http://www.42.us.org"
@@ -1541,7 +1541,7 @@
         "twitter": {
             "followers": 2626, 
             "handle": "@adaacademy", 
-            "tweets": 2227
+            "tweets": 2226
         }, 
         "visas": "No", 
         "website": "http://adadevelopersacademy.org/"
@@ -1911,7 +1911,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1504, 
+            "followers": 1503, 
             "handle": "@Andela_Nigeria", 
             "tweets": 766
         }, 
@@ -2448,7 +2448,7 @@
             "UX Design", 
             "Full-Stack Web Development"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://apprentice.io"
     }, 
@@ -3666,9 +3666,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5686, 
+            "followers": 5687, 
             "handle": "@betamore", 
-            "tweets": 4685
+            "tweets": 4684
         }, 
         "visas": "No", 
         "website": "http://www.betamore.com/academy/"
@@ -4037,11 +4037,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Other", 
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Other", 
+            "UX Design"
         ], 
         "twitter": {
             "followers": 11800, 
@@ -4068,50 +4068,50 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Part Time", 
                 "Subjects": [
-                    "AngularJS", 
-                    "ASP.NET", 
-                    "CSS", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
-                    "MongoDB", 
                     "MySQL", 
-                    ".NET", 
-                    "Node.js", 
-                    "PHP", 
-                    "Wordpress", 
-                    "Design", 
-                    "Express.js", 
+                    "AngularJS", 
                     "Front End", 
-                    "jQuery", 
+                    "JavaScript", 
+                    ".NET", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "ASP.NET", 
                     "Rails", 
                     "SQL", 
-                    "User Experience Design"
+                    "jQuery", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Wordpress", 
+                    "Express.js", 
+                    "Node.js"
                 ]
             }
         }, 
         "cr_num_reviews": null, 
         "cr_rating": null, 
         "cr_technologies": [
-            "AngularJS", 
-            "ASP.NET", 
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "MongoDB", 
             "MySQL", 
-            ".NET", 
-            "Node.js", 
-            "PHP", 
-            "Wordpress", 
-            "Design", 
-            "Express.js", 
+            "AngularJS", 
             "Front End", 
-            "jQuery", 
+            "JavaScript", 
+            ".NET", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "PHP", 
+            "ASP.NET", 
             "Ruby on Rails", 
             "SQL", 
+            "jQuery", 
+            "Design", 
             "User Experience Design", 
+            "CSS", 
+            "Wordpress", 
+            "Express.js", 
+            "Node.js", 
             "React.js"
         ], 
         "email": "admissions@bigskycodeacademy.org", 
@@ -4136,25 +4136,25 @@
         "su_technologies": null, 
         "subjects": "Wireframing, HTML5, CSS3, SaSS, JavaScript, Angular, React, Express, SQL, NoSQL, MySQL, MongoDB, networks, and Git. ", 
         "technologies": [
-            "AngularJS", 
-            "ASP.NET", 
-            "CSS", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "MongoDB", 
             "MySQL", 
-            ".NET", 
-            "Node.js", 
-            "PHP", 
-            "Wordpress", 
-            "Design", 
-            "Express.js", 
+            "AngularJS", 
             "Front End", 
-            "jQuery", 
+            "JavaScript", 
+            ".NET", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "PHP", 
+            "ASP.NET", 
             "Ruby on Rails", 
             "SQL", 
+            "jQuery", 
+            "Design", 
             "User Experience Design", 
+            "CSS", 
+            "Wordpress", 
+            "Express.js", 
+            "Node.js", 
             "React.js"
         ], 
         "top_source": [
@@ -4272,7 +4272,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Data Science", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.bitbootcamp.com/"
     }, 
@@ -4547,7 +4547,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5737, 
+            "followers": 5736, 
             "handle": "@BitmakerHQ", 
             "tweets": 8598
         }, 
@@ -4661,9 +4661,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "UX Design", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
@@ -4994,10 +4994,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Mobile Development", 
+            "Front-End Web Development", 
             "UX Design", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 2682, 
@@ -5243,7 +5243,7 @@
             "Current Market"
         ], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.boole.co/"
     }, 
@@ -5869,9 +5869,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7019, 
+            "followers": 7020, 
             "handle": "@BrainStation", 
-            "tweets": 7423
+            "tweets": 7421
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -6218,7 +6218,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 616, 
+            "followers": 615, 
             "handle": "@ByteAcademyCo", 
             "tweets": 2147
         }, 
@@ -6625,12 +6625,12 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Mobile Development"
         ], 
         "twitter": {
-            "followers": 5429, 
+            "followers": 5428, 
             "handle": "@careerfoundry", 
             "tweets": 7316
         }, 
@@ -6825,7 +6825,7 @@
         "twitter": {
             "followers": 340, 
             "handle": "@MAXCincinnati", 
-            "tweets": 3566
+            "tweets": 3564
         }, 
         "visas": "No", 
         "website": "http://cincycodeit.com/"
@@ -8328,7 +8328,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 3245, 
+            "followers": 3246, 
             "handle": "@codefellows", 
             "tweets": 3709
         }, 
@@ -8561,7 +8561,7 @@
         "twitter": {
             "followers": 1707, 
             "handle": "@CodersInstitute", 
-            "tweets": 3263
+            "tweets": 3262
         }, 
         "visas": "No", 
         "website": "http://www.codeinstitute.net/"
@@ -8778,7 +8778,7 @@
             "Selected Camp"
         ], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.codeplatoon.org/"
     }, 
@@ -9748,7 +9748,7 @@
             "Mobile Development", 
             "Full-Stack Web Development"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.chscodecamp.com/"
     }, 
@@ -9829,7 +9829,7 @@
         "twitter": {
             "followers": 2432, 
             "handle": "@CodeClanScot", 
-            "tweets": 1182
+            "tweets": 1181
         }, 
         "visas": "No", 
         "website": "http://codeclan.co.uk/"
@@ -10356,7 +10356,7 @@
         "twitter": {
             "followers": 937, 
             "handle": "@CodeCraftSchool", 
-            "tweets": 1074
+            "tweets": 1069
         }, 
         "visas": "No", 
         "website": "http://www.codecraftschool.com/"
@@ -10498,7 +10498,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://classes.codedinc.com/"
     }, 
@@ -10622,7 +10622,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "Yes", 
         "website": "http://www.joincoded.com/"
     }, 
@@ -11231,7 +11231,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1073, 
+            "followers": 1072, 
             "handle": "@CoderCamps", 
             "tweets": 816
         }, 
@@ -11751,7 +11751,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://coderoute.co.uk"
     }, 
@@ -11966,7 +11966,7 @@
             "Mobile Development", 
             "Full-Stack Web Development"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "Yes", 
         "website": "http://www.coderschool.vn/"
     }, 
@@ -12404,7 +12404,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 508, 
+            "followers": 507, 
             "handle": "@codesmithio", 
             "tweets": 464
         }, 
@@ -12731,7 +12731,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 246, 
+            "followers": 247, 
             "handle": "@codeworksbcn", 
             "tweets": 199
         }, 
@@ -12905,37 +12905,37 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
+                    "MySQL", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "SEO", 
+                    "jQuery", 
                     "CSS", 
                     "Express.js", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
-                    "MongoDB", 
-                    "MySQL", 
-                    "Node.js", 
-                    "PHP", 
                     "React.js", 
-                    "SEO"
+                    "Node.js"
                 ]
             }
         }, 
         "cr_num_reviews": 7, 
         "cr_rating": 4.33, 
         "cr_technologies": [
-            "CSS", 
-            "Express.js", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
             "MySQL", 
-            "Node.js", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
             "PHP", 
             "SEO", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js", 
             "React.js"
         ], 
         "email": null, 
@@ -12955,18 +12955,18 @@
             "$500 Coding Boot Camp at UT Austin Scholarship"
         ], 
         "technologies": [
-            "CSS", 
-            "Express.js", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
             "MySQL", 
-            "Node.js", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
             "PHP", 
             "SEO", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js", 
             "React.js"
         ], 
         "top_source": [
@@ -12974,7 +12974,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://codingbootcamp.utexas.edu"
     }, 
@@ -13465,7 +13465,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 3658, 
+            "followers": 3657, 
             "handle": "@codingdojo", 
             "tweets": 3068
         }, 
@@ -13575,7 +13575,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 3379, 
+            "followers": 3378, 
             "handle": "@codinghouse", 
             "tweets": 2704
         }, 
@@ -13640,7 +13640,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.cnl.io/"
     }, 
@@ -13825,7 +13825,7 @@
         "twitter": {
             "followers": 186, 
             "handle": "@coding_temple", 
-            "tweets": 58
+            "tweets": 57
         }, 
         "visas": "No", 
         "website": "http://codingtemple.com/"
@@ -14246,7 +14246,7 @@
             "Other", 
             "Data Science"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://datalaus.com/en/"
     }, 
@@ -14440,14 +14440,14 @@
             "Potential Market"
         ], 
         "tracks": [
-            "Data Science", 
             "Other", 
-            "Product Management"
+            "Product Management", 
+            "Data Science"
         ], 
         "twitter": {
-            "followers": 3514, 
+            "followers": 3512, 
             "handle": "@DataScienceDojo", 
-            "tweets": 4256
+            "tweets": 4252
         }, 
         "visas": "No", 
         "website": "http://datasciencedojo.com/"
@@ -14503,7 +14503,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Data Science", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.datascienceeurope.com/"
     }, 
@@ -14664,7 +14664,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 8121, 
+            "followers": 8122, 
             "handle": "@DataCamp", 
             "tweets": 1799
         }, 
@@ -15944,7 +15944,7 @@
         "twitter": {
             "followers": 9898, 
             "handle": "@devbootcamp", 
-            "tweets": 9762
+            "tweets": 9761
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -16013,7 +16013,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "last_updated": "2016-10-20", 
+        "last_updated": "2016-10-19", 
         "locations": [
             "Honolulu"
         ], 
@@ -16160,7 +16160,7 @@
         }, 
         "general_cost": "$$", 
         "hiring_rate": 91.0, 
-        "last_updated": "2016-10-20", 
+        "last_updated": "2016-10-18", 
         "locations": [
             "Salt Lake City", 
             "Provo", 
@@ -16304,7 +16304,7 @@
         "twitter": {
             "followers": 2418, 
             "handle": "@iowajpec", 
-            "tweets": 3823
+            "tweets": 3822
         }, 
         "visas": "No", 
         "website": "http://www.iowajpec.org/entrepreneur-support/deviowa/"
@@ -16602,7 +16602,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1240, 
+            "followers": 1241, 
             "handle": "@devcodecamp", 
             "tweets": 905
         }, 
@@ -17177,7 +17177,7 @@
             "Front-End Web Development", 
             "Full-Stack Web Development"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.developer-bootcamp.com"
     }, 
@@ -17591,9 +17591,9 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 7504, 
@@ -18271,7 +18271,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 882, 
+            "followers": 883, 
             "handle": "@EcoTechVisions", 
             "tweets": 1517
         }, 
@@ -19631,7 +19631,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1767, 
+            "followers": 1766, 
             "handle": "@elevenfifty", 
             "tweets": 2697
         }, 
@@ -19861,7 +19861,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 91, 
+            "followers": 90, 
             "handle": "@EliumAcademy_", 
             "tweets": 136
         }, 
@@ -20482,7 +20482,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Other", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.evolveacademy.io/"
     }, 
@@ -20647,7 +20647,7 @@
             "Java/.NET"
         ], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://firebootcamp.com/"
     }, 
@@ -21069,7 +21069,7 @@
             "Front-End Web Development", 
             "UX Design"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.frontendfoundry.com/"
     }, 
@@ -21277,7 +21277,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9347, 
+            "followers": 9345, 
             "handle": "@fullstack", 
             "tweets": 928
         }, 
@@ -21597,7 +21597,7 @@
         "twitter": {
             "followers": 17000, 
             "handle": "@galvanize", 
-            "tweets": 7253
+            "tweets": 7251
         }, 
         "visas": "No", 
         "website": "http://www.galvanize.com"
@@ -21670,7 +21670,7 @@
         "twitter": {
             "followers": 307, 
             "handle": "@geekskoolin", 
-            "tweets": 93
+            "tweets": 92
         }, 
         "visas": "No", 
         "website": "http://www.geekskool.com/"
@@ -22926,7 +22926,7 @@
         "num_courses": 42, 
         "num_locations": 16, 
         "scholarships": "General Assembly's Opportunity Fund offers scholarships for women, veterans, low-income, and other under-represented groups in tech.", 
-        "su_num_reviews": 70, 
+        "su_num_reviews": 69, 
         "su_rating": 3.9, 
         "su_technologies": [
             "UX", 
@@ -22983,14 +22983,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Other", 
+            "Data Science", 
+            "Full-Stack Web Development", 
             "Product Management", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Data Science", 
-            "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 101000, 
@@ -23276,7 +23276,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 6096, 
+            "followers": 6097, 
             "handle": "@hopperacademy", 
             "tweets": 339
         }, 
@@ -23566,7 +23566,7 @@
         "twitter": {
             "followers": 5253, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6375
+            "tweets": 6373
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -23660,14 +23660,14 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
+            "Other", 
             "Digital Marketing", 
-            "Other"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 529, 
             "handle": "@GXAcademy", 
-            "tweets": 446
+            "tweets": 445
         }, 
         "visas": "Yes", 
         "website": "http://www.gxacademy.com"
@@ -24006,7 +24006,7 @@
         "twitter": {
             "followers": 7535, 
             "handle": "@HackReactor", 
-            "tweets": 2822
+            "tweets": 2821
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -24278,7 +24278,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://hackerforge.io/"
     }, 
@@ -24841,7 +24841,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 9064, 
+            "followers": 9060, 
             "handle": "@hackeryou", 
             "tweets": 3451
         }, 
@@ -25327,7 +25327,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2754, 
+            "followers": 2753, 
             "handle": "@holbertonschool", 
             "tweets": 1237
         }, 
@@ -25618,8 +25618,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 40, 
@@ -26031,7 +26031,7 @@
         "tracking_groups": [], 
         "tracks": "Other", 
         "twitter": {
-            "followers": 1046, 
+            "followers": 1048, 
             "handle": "@Careerbootcamps", 
             "tweets": 467
         }, 
@@ -26467,7 +26467,7 @@
         "twitter": {
             "followers": 1730, 
             "handle": "@InterfaceSchool", 
-            "tweets": 3851
+            "tweets": 3850
         }, 
         "visas": "No", 
         "website": "https://interfaceschool.com/"
@@ -26508,7 +26508,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Other", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://interviewkickstart.com/"
     }, 
@@ -26587,7 +26587,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1127, 
+            "followers": 1128, 
             "handle": "@invasivecode", 
             "tweets": 9924
         }, 
@@ -26830,12 +26830,12 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 9114, 
+            "followers": 9112, 
             "handle": "@ironhack", 
             "tweets": 3418
         }, 
@@ -27012,7 +27012,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 139, 
+            "followers": 140, 
             "handle": "@ivydatascience", 
             "tweets": 615
         }, 
@@ -27244,7 +27244,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.jademy.ro/"
     }, 
@@ -27330,7 +27330,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3327, 
+            "followers": 3325, 
             "handle": "@k2datascience", 
             "tweets": 159
         }, 
@@ -27431,7 +27431,7 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 1195, 
+            "followers": 1196, 
             "handle": "@JoinKoru", 
             "tweets": 1679
         }, 
@@ -27856,7 +27856,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 8186, 
+            "followers": 8184, 
             "handle": "@Launch_Code", 
             "tweets": 3404
         }, 
@@ -28746,9 +28746,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 162, 
+            "followers": 161, 
             "handle": "@LearningFuze", 
-            "tweets": 364
+            "tweets": 363
         }, 
         "visas": "No", 
         "website": "http://learningfuze.com/"
@@ -29036,7 +29036,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 208, 
+            "followers": 207, 
             "handle": "@leveleducation", 
             "tweets": 475
         }, 
@@ -29422,7 +29422,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Other", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://lumenbrite.com/"
     }, 
@@ -29468,19 +29468,19 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
+                    "iOS", 
+                    "Python", 
+                    "Objective-C", 
+                    "User Experience Design", 
+                    "HTML", 
+                    "CSS", 
+                    "Ruby", 
+                    "Rails", 
+                    "JavaScript", 
+                    "Mobile", 
                     "Swift", 
                     "AngularJS", 
-                    "Python", 
-                    "JavaScript", 
-                    "iOS", 
-                    "HTML", 
-                    "Rails", 
-                    "Objective-C", 
                     "Product Management", 
-                    "Ruby", 
-                    "Mobile", 
-                    "User Experience Design", 
-                    "CSS", 
                     "Game Development"
                 ]
             }, 
@@ -29516,17 +29516,17 @@
             "iOS", 
             "Objective-C", 
             "Game Development", 
+            "Python", 
+            "User Experience Design", 
+            "HTML", 
+            "CSS", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "JavaScript", 
+            "Mobile", 
             "Swift", 
             "AngularJS", 
-            "Python", 
-            "JavaScript", 
-            "HTML", 
-            "Ruby on Rails", 
-            "Product Management", 
-            "Ruby", 
-            "Mobile", 
-            "User Experience Design", 
-            "CSS"
+            "Product Management"
         ], 
         "email": "hello@makeschool.com", 
         "facebook": "https://www.facebook.com/makegameswithus", 
@@ -29568,13 +29568,13 @@
             "Ruby on Rails", 
             "UX", 
             "Game Development", 
-            "AngularJS", 
             "Python", 
-            "JavaScript", 
-            "Product Management", 
+            "User Experience Design", 
             "Ruby", 
+            "JavaScript", 
             "Mobile", 
-            "User Experience Design"
+            "AngularJS", 
+            "Product Management"
         ], 
         "top_source": [
             "CourseReport"
@@ -29739,7 +29739,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8821, 
+            "followers": 8817, 
             "handle": "@makersacademy", 
             "tweets": 7611
         }, 
@@ -30024,7 +30024,7 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 632, 
+            "followers": 631, 
             "handle": "@MCORCollege", 
             "tweets": 1875
         }, 
@@ -30506,9 +30506,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3086, 
+            "followers": 3084, 
             "handle": "@thisismetis", 
-            "tweets": 4494
+            "tweets": 4492
         }, 
         "visas": [
             "Metis has partnerships with ", 
@@ -30559,7 +30559,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Data Science", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "https://ds3.research.microsoft.com/"
     }, 
@@ -30989,7 +30989,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1814, 
+            "followers": 1815, 
             "handle": "@moringaschool", 
             "tweets": 2401
         }, 
@@ -31294,7 +31294,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.newitacademy.com/"
     }, 
@@ -31651,7 +31651,7 @@
         "twitter": {
             "followers": 1547, 
             "handle": "@NYCodeDesign", 
-            "tweets": 1537
+            "tweets": 1536
         }, 
         "visas": "No", 
         "website": "https://nycda.com/"
@@ -32489,7 +32489,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 776, 
+            "followers": 775, 
             "handle": "@OperationSpark", 
             "tweets": 1071
         }, 
@@ -32764,7 +32764,7 @@
         "twitter": {
             "followers": 704, 
             "handle": "@PBCodeSchool", 
-            "tweets": 1341
+            "tweets": 1340
         }, 
         "visas": "No", 
         "website": "http://www.palmbeachcodeschool.com/#home"
@@ -32819,7 +32819,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 63, 
+            "followers": 62, 
             "handle": "@parsecgroup", 
             "tweets": 401
         }, 
@@ -32958,7 +32958,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 700, 
+            "followers": 699, 
             "handle": "@PDXCodeGuild", 
             "tweets": 474
         }, 
@@ -33039,7 +33039,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "https://www.penpapercoding.com/"
     }, 
@@ -33358,8 +33358,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 47, 
@@ -33716,7 +33716,7 @@
             "Product Management", 
             "Digital Marketing"
         ], 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.productschool.com/"
     }, 
@@ -34190,7 +34190,7 @@
         "twitter": {
             "followers": 1687, 
             "handle": "@RedAcademy", 
-            "tweets": 1520
+            "tweets": 1519
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -34679,7 +34679,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1192, 
+            "followers": 1191, 
             "handle": "@RefactorU", 
             "tweets": 3250
         }, 
@@ -35011,8 +35011,8 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 282, 
@@ -35575,7 +35575,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://codingbootcamp.rutgers.edu"
     }, 
@@ -36032,7 +36032,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.scaleschool.org/"
     }, 
@@ -36139,7 +36139,7 @@
         "twitter": {
             "followers": 646, 
             "handle": "@S2DS_School", 
-            "tweets": 1781
+            "tweets": 1779
         }, 
         "visas": "No", 
         "website": "http://www.s2ds.org/"
@@ -36214,7 +36214,7 @@
         "twitter": {
             "followers": 365, 
             "handle": "@SDCodeBootcamp", 
-            "tweets": 1393
+            "tweets": 1392
         }, 
         "visas": "No", 
         "website": "http://www.sdcodebootcamp.com/"
@@ -36494,7 +36494,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 6623, 
+            "followers": 6622, 
             "handle": "@Shillington_", 
             "tweets": 7900
         }, 
@@ -36739,7 +36739,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9862, 
+            "followers": 9860, 
             "handle": "@simplonco", 
             "tweets": 9902
         }, 
@@ -37581,7 +37581,7 @@
         "twitter": {
             "followers": 653, 
             "handle": "@softwareguild", 
-            "tweets": 846
+            "tweets": 845
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -37683,13 +37683,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Data Science", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Data Science"
         ], 
         "twitter": {
             "followers": 181, 
             "handle": "@SPICEDacademy", 
-            "tweets": 232
+            "tweets": 231
         }, 
         "visas": "No", 
         "website": "http://spiced-academy.com/"
@@ -37804,7 +37804,7 @@
         "twitter": {
             "followers": 9276, 
             "handle": "@Springboard", 
-            "tweets": 2038
+            "tweets": 2037
         }, 
         "visas": "No", 
         "website": "https://www.springboard.com/"
@@ -37851,7 +37851,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "Hotel room provided", 
         "website": "https://squareup.com/code-camp"
     }, 
@@ -38197,9 +38197,9 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 16300, 
@@ -39787,7 +39787,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 506, 
+            "followers": 505, 
             "handle": "@Tech_Elevator", 
             "tweets": 1358
         }, 
@@ -40168,7 +40168,7 @@
         "twitter": {
             "followers": 4695, 
             "handle": "@TechTalentSouth", 
-            "tweets": 7032
+            "tweets": 7031
         }, 
         "visas": "No", 
         "website": "http://www.techtalentsouth.com/"
@@ -40523,7 +40523,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 911, 
+            "followers": 912, 
             "handle": "@AppAcademyNL", 
             "tweets": 3647
         }, 
@@ -40686,7 +40686,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://codingbootcamp.uclaextension.edu"
     }, 
@@ -40832,7 +40832,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://codingbootcamp.unc.edu"
     }, 
@@ -40953,9 +40953,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3043, 
+            "followers": 3045, 
             "handle": "@thedatainc", 
-            "tweets": 682
+            "tweets": 681
         }, 
         "visas": "No", 
         "website": "http://www.thedataincubator.com/"
@@ -41131,7 +41131,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 32, 
+            "followers": 33, 
             "handle": "@thedevslab", 
             "tweets": 18
         }, 
@@ -41489,7 +41489,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Data Science", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://www.statistics.com/"
     }, 
@@ -41675,7 +41675,7 @@
         "num_courses": 5, 
         "num_locations": 21, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 46, 
+        "su_num_reviews": 45, 
         "su_rating": 4.3, 
         "su_technologies": [
             "CSS", 
@@ -41732,7 +41732,7 @@
         "twitter": {
             "followers": 15400, 
             "handle": "@TheIronYard", 
-            "tweets": 7734
+            "tweets": 7733
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -42023,8 +42023,7 @@
         "job_guarantee": "No", 
         "last_updated": "2016-10-20", 
         "locations": [
-            "New York City", 
-            "Online"
+            "New York City"
         ], 
         "matriculation_stats": {
             "accepted": 16, 
@@ -42035,7 +42034,7 @@
         "name": "Think Academy", 
         "num_alumni": 15, 
         "num_courses": 2, 
-        "num_locations": 2, 
+        "num_locations": 1, 
         "scholarships": "$500 Think Academy Scholarship", 
         "su_num_reviews": 1, 
         "su_rating": 5.0, 
@@ -42533,7 +42532,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 6461, 
+            "followers": 6459, 
             "handle": "@thinkful", 
             "tweets": 2080
         }, 
@@ -43885,7 +43884,7 @@
         ], 
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
-        "twitter": null, 
+        "twitter": "N/A", 
         "visas": "No", 
         "website": "http://codingbootcamp.ce.ucf.edu"
     }, 
@@ -44268,7 +44267,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9736, 
+            "followers": 9739, 
             "handle": "@VSCHOOLHQ", 
             "tweets": 721
         }, 
@@ -44481,9 +44480,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Mobile Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development", 
-            "Mobile Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 148, 
@@ -44792,7 +44791,7 @@
         "twitter": {
             "followers": 509, 
             "handle": "@NewHorizonsWI", 
-            "tweets": 2430
+            "tweets": 2429
         }, 
         "visas": "No", 
         "website": "http://vitalaccelerator.com/"
@@ -45449,7 +45448,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1386, 
+            "followers": 1385, 
             "handle": "@WildCodeSchool", 
             "tweets": 1971
         }, 
@@ -45732,14 +45731,14 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Product Management", 
             "Mobile Development", 
             "Front-End Web Development", 
             "Data Science", 
-            "Product Management"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2359, 
+            "followers": 2358, 
             "handle": "@Worldtechmaker", 
             "tweets": 2799
         }, 
@@ -46110,7 +46109,7 @@
         "twitter": {
             "followers": 7676, 
             "handle": "@zipcodewilm", 
-            "tweets": 3121
+            "tweets": 3120
         }, 
         "visas": "No", 
         "website": "http://www.zipcodewilmington.com/"
@@ -46285,7 +46284,7 @@
             "Girl Develop It", 
             "Boole Institute"
         ], 
-        "Date/Time": "2016-10-20 13:27:41", 
+        "Date/Time": "2016-10-20 12:14:19", 
         "Days Out": 38, 
         "Detroit": [
             "Grand Circus", 
@@ -46451,7 +46450,7 @@
             "Oakland": 4, 
             "Obidos": 1, 
             "Omaha": 2, 
-            "Online": 56, 
+            "Online": 55, 
             "Orange County": 7, 
             "Orlando": 2, 
             "Ottawa": 2, 

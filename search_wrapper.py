@@ -76,6 +76,10 @@ def main(search_keys):
     tracking_groups = ['Current Market', 'Potential Market', 'Top Camp', 'Java/.NET', 'Selected Camp']
     tracking_groups_files = find_file('*.json','current_data/tracking_groups')
 
+    text_off = False
+    if search_keys[0] == 'filler':
+        text_off = True
+
     if search_keys[-1] == 'Slack':
         search_keys.remove('Slack')
         source = 'Slack'
@@ -179,8 +183,9 @@ def main(search_keys):
             if warnings_flag and slack_formatted_output.warnings_out:
                 full_outstring += slack_formatted_output.warnings_out + '\n\n'
 
-        print full_outstring
-        return full_outstring
+        if not text_off:
+            print full_outstring
+        return full_outstring, result_data
 
 if __name__ == '__main__':
     main(sys.argv)

@@ -103,7 +103,7 @@
         "twitter": {
             "followers": 9898, 
             "handle": "@devbootcamp", 
-            "tweets": 9762
+            "tweets": 9761
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -1176,7 +1176,7 @@
         "num_courses": 42, 
         "num_locations": 16, 
         "scholarships": "General Assembly's Opportunity Fund offers scholarships for women, veterans, low-income, and other under-represented groups in tech.", 
-        "su_num_reviews": 70, 
+        "su_num_reviews": 69, 
         "su_rating": 3.9, 
         "su_technologies": [
             "UX", 
@@ -1233,14 +1233,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Other", 
+            "Data Science", 
+            "Full-Stack Web Development", 
             "Product Management", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Data Science", 
-            "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 101000, 
@@ -1352,7 +1352,7 @@
         "twitter": {
             "followers": 7535, 
             "handle": "@HackReactor", 
-            "tweets": 2822
+            "tweets": 2821
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1593,12 +1593,12 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 9114, 
+            "followers": 9112, 
             "handle": "@ironhack", 
             "tweets": 3418
         }, 
@@ -1787,7 +1787,7 @@
         "num_courses": 5, 
         "num_locations": 21, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 46, 
+        "su_num_reviews": 45, 
         "su_rating": 4.3, 
         "su_technologies": [
             "CSS", 
@@ -1844,7 +1844,7 @@
         "twitter": {
             "followers": 15400, 
             "handle": "@TheIronYard", 
-            "tweets": 7734
+            "tweets": 7733
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1858,7 +1858,7 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-10-20 13:27:42", 
+        "Date/Time": "2016-10-20 12:14:21", 
         "Days Out": 38, 
         "Detroit": [
             "The Iron Yard"

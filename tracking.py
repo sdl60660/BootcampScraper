@@ -306,10 +306,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                 #For everything else, fill with the appropriate value or, if percentage is True,
                 #Fill with the percent of total bootcamps in the set that have this category item
                 if s != 'NO DATA':
-                    if percentage == True:
-                        num_list.append(100*s[item]/float(totals[i]))
-                    else:
-                        num_list.append(s[item])
+                    try:
+                        if percentage == True:
+                            num_list.append(100*s[item]/float(totals[i]))
+                        else:
+                            num_list.append(s[item])
+                    except KeyError:
+                        num_list.append(None)
                 else:
                     num_list.append(None)
             num_list = num_list[::-1]
@@ -337,14 +340,9 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         #my_colors = 'rgbkymc'
         my_colors = []
         for x in range(len(bar_plot)):
+            #np.random.seed(item_name)
             my_colors.append(np.random.rand(3,1))
         #my_colors = sorted(my_colors, key=lambda x: x[1])
-
-        """ypos = np.zeros(len(bar_plot))
-        zpos = np.zeros(len(bar_plot))
-        dx = np.ones(len(bar_plot))
-        dy = np.ones(len(bar_plot))
-        ax.bar3d(x_locations, ypos, zpos, dx, dy, bar_plot, color=my_colors, zorder=3)"""
         ax.bar(x_locations, bar_plot, color=my_colors, zorder=3)
 
         ax.set_xlabel(category.title())
@@ -355,7 +353,11 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         fsize = 12/((num_items/2)**0.4)
         if fsize < 8:
             fsize = 8
+        if num_items > 60:
+            fsize = 5
         rot = 104-(fsize*6)
+        if num_items > 20:
+            rot = 90
         if rot < 40:
             tick_locations = [loc + 0.125 for loc in tick_locations]
         plt.xticks(tick_locations, bar_labels, rotation=rot, fontsize=fsize)

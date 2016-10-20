@@ -6,13 +6,14 @@ import operator
 import os.path
 
 class Camp_Info:
-    def __init__(self, bootcamp_data, category_data, camps, summary=None, camp_list=None, sort=None):
+    def __init__(self, bootcamp_data, category_data, camps, summary=None, camp_list=None, sort=None, key_list=None):
         self.bootcamp_data = bootcamp_data
         self.category_data = category_data
         self.camps = camps
         self.summary = summary if summary is not None else []
         self.camp_list = camp_list if camp_list is not None else []
         self.sort = sort if sort is not None else []
+        self.key_list = key_list if key_list is not None else []
 
 def summary_dict(bootcamps, category):
     temp_dict = {}
@@ -108,7 +109,11 @@ def sort_dict(bootcamps, category, full_list=False):
         if not camp[category] or camp[category] == '\n':
             warnings.append(bootcamp)
             continue
-        if secondary_cat and not camp[category][secondary_cat]:
+        try:
+            if secondary_cat and not camp[category][secondary_cat]:
+                warnings.append(bootcamp)
+                continue
+        except TypeError:
             warnings.append(bootcamp)
             continue
         try:
@@ -278,7 +283,10 @@ def main(search_keys):
         #Secondary categories
         for cat in secondary_cats:
             full_cat_title = str(cat[1]) + ' (%s)' % cat[0]
-            data.append((full_cat_title, bootcamps[camp][cat[0]][cat[1]]))
+            try:
+                data.append((full_cat_title, bootcamps[camp][cat[0]][cat[1]]))
+            except (TypeError, KeyError):
+                pass
         cat_data_dict[title] = data
 
     camps = [x for x in bootcamps.keys()]
@@ -301,11 +309,8 @@ def main(search_keys):
         sort_item[category] = st_dict
         sort_item['warning'].append((cat, warning_list))
     
-    return_info = Camp_Info(bootcamps, cat_data_dict, camps, summary_item, list_item, sort_item)
+    return_info = Camp_Info(bootcamps, cat_data_dict, camps, summary_item, list_item, sort_item, key_dict)
 
-    #pprint(return_info.bootcamp_data)
-    #pprint(return_info.category_data)
-    #pprint(return_info.camp_list)
     return return_info, bootcamp_search, tgroup_search
 
 if __name__ == '__main__':

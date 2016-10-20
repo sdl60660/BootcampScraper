@@ -4,10 +4,12 @@ from slackclient import SlackClient
 import sys
 sys.path.insert(0,'..')
 import search_wrapper #tracking, tracker_results, generate_plot, utilities
+from search_wrapper import main
 import subprocess
 import generate_plot
 import tracking
 from slacker import Slacker
+from helpers import input_to_searchkeys
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
@@ -24,6 +26,7 @@ slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
 test_list = ['testing', 'technologies']
 
+
 def handle_command(command, channel, last_search, last_trend, stored_command_data):
     default_emoji = ':key:'
     default_user = 'searchbot'
@@ -39,19 +42,13 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
                "* command with numbers, delimited by spaces."
 
 
-
-
-
     if command.lower().startswith('search'):
-        import re
-        #keys = input_to_searchkeys(command)[1:]
-        #keys.append('Slack')
+        keys = ['filler'] + input_to_searchkeys(command) + ['Slack']
+        out_string, result_data = search_wrapper.main(keys)
+        print result_data.key_list, result_data.camps
         #response = search_wrapper.main(keys)
-
         #RUN THROUGH TERMINAL OUTPUT
         input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
-        print re.findall("([^']*)'", input_command)
-        print input_command
         response = os.popen(input_command).read()
         emoji = default_emoji
         user = default_user
@@ -64,7 +61,7 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     if command.lower().startswith('trends'):
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
         input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:] + ' SLACK'
-        print input_command
+        #print input_command
         response = os.popen(input_command).read()
         #response = "How many days back would you like to see changes for?"
         #prompted = True
@@ -100,7 +97,7 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         commands = command[5:].split('/')
         commands[2] = type_correct(commands[2], False)
         commands[3] = type_correct(commands[3], True)
-        print commands[3]
+        #print commands[3]
 
         #MAKE PLOT
         plot_file_name, plot_title = tracking.plot_changes(int(commands[0]), str(commands[1]), current_status=True, max_items=commands[2],
@@ -163,7 +160,7 @@ def parse_slack_output(slack_rtm_output):
 if __name__ == "__main__":
     last_search = None
     last_trend = None
-    stored_command_data = None
+    stored_command_data = {}
     READ_WEBSOCKET_DELAY = 0.3 # 1 second delay between reading from firehose
     if slack_client.rtm_connect():
         print("TestBot connected and running!")
@@ -174,11 +171,6 @@ if __name__ == "__main__":
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
-
-
-
-
-
 
 
 

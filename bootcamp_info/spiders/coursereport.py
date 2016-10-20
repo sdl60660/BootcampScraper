@@ -248,7 +248,7 @@ class CourseReportSpider(scrapy.Spider):
             request = scrapy.Request(twitter_url, callback=self.twitter_reporter, meta={'item': item})
             yield request
         except IndexError:
-            item['twitter'] = 'N/A'     
+            item['twitter'] = None    
 
 
 

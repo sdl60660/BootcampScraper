@@ -4,18 +4,29 @@ Potential Market,Tracking Group
 Top Camp,Tracking Group
 Selected Camp,Tracking Group
 Closer Academy,Bootcamp
-website,Category
-job_guarantee,Category
 last_updated,Category
-name,Category
-accreditation,Category
 cr_rating,Category
-num_courses,Category
+twitter,Category
+tweets,twitter
+handle,twitter
+followers,twitter
+locations,Category
+job_assistance,Category
+accreditation,Category
 housing,Category
 cr_technologies,Category
-technologies,Category
-locations,Category
+visas,Category
+top_source,Category
+email,Category
+website,Category
 num_locations,Category
+tracking_groups,Category
+tracks,Category
+facebook,Category
+technologies,Category
+name,Category
+job_guarantee,Category
+num_courses,Category
 courses,Category
 Onsite,Course Attribute
 Course Title,Course Attribute
@@ -26,13 +37,6 @@ Hours/Week,Course Attribute
 Minimum Skill,Course Attribute
 Part Or Full,Course Attribute
 cr_num_reviews,Category
-visas,Category
-facebook,Category
-tracks,Category
-tracking_groups,Category
-top_source,Category
-job_assistance,Category
-email,Category
 Los Angeles,Location
 Sales,Technology
 Actualize,Bootcamp
@@ -64,7 +68,6 @@ Ruby on Rails,Technology
 SQL,Technology
 Ruby,Technology
 Pen And Paper Coding,Bootcamp
-twitter,Category
 NoLang,Technology
 Coder Manual,Bootcamp
 Smart Factory,Bootcamp
@@ -373,6 +376,7 @@ Coding Bootcamp At Ucla Extension,Bootcamp
 Careerfoundry,Bootcamp
 Florida Vocational Institute,Bootcamp
 Think Academy,Bootcamp
+Bootstrap,Technology
 Coder Camps,Bootcamp
 Scottsdale,Location
 Ikompass,Bootcamp
