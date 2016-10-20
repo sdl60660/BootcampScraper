@@ -24,7 +24,20 @@ EXAMPLE_COMMAND = "do"
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
-test_list = ['testing', 'technologies']
+plot_list = ['locations', 'technologies']
+
+default_command_data = {
+        'category': [],
+        'camps': [],
+        'items': {
+            'technologies': [],
+            'locations': []
+        },
+        'days': 1,
+        'max_items': 10,
+        'tracking_group': None,
+        'current/trend': 'current'
+    }
 
 
 def handle_command(command, channel, last_search, last_trend, stored_command_data):
@@ -45,6 +58,22 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     if command.lower().startswith('search'):
         keys = ['filler'] + input_to_searchkeys(command) + ['Slack']
         out_string, result_data = search_wrapper.main(keys)
+        last_search = keys
+        stored_command_data = default_command_data
+        
+        for item in plot_list:
+            if 'Category' in result_data.key_list.keys() and item in result_data.key_list['Category']:
+                stored_command_data['category'].append(item)
+        """if 'Technology' in result_data.key_list.keys():
+            for tech in result_data.key_list['Technology']:
+                stored_command_data['items']['technologies'].append(tech)
+        if 'Location' in result_data.key_list.keys():
+            for tech in result_data.key_list['Location']:
+                stored_command_data['items']['locations'].append(tech)"""
+        stored_command_data['camps'] = result_data.camps
+
+        print stored_command_data
+
         print result_data.key_list, result_data.camps
         #response = search_wrapper.main(keys)
         #RUN THROUGH TERMINAL OUTPUT
@@ -75,7 +104,7 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
 
     plot = False
-    if command.lower().startswith('plot'):
+    if command.lower().startswith('plot that!'):
 
         #GATHER PLOT COMMAND DATA
 
@@ -94,14 +123,15 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
                         command = str(command[0])
             return command
 
-        commands = command[5:].split('/')
+        """commands = command[5:].split('/')
         commands[2] = type_correct(commands[2], False)
-        commands[3] = type_correct(commands[3], True)
+        commands[3] = type_correct(commands[3], True)"""
         #print commands[3]
 
         #MAKE PLOT
-        plot_file_name, plot_title = tracking.plot_changes(int(commands[0]), str(commands[1]), current_status=True, max_items=commands[2],
-            tracking_group=commands[3], percentage=True, save_plot=True, slack_post=True, show_plot=False)
+        plot_file_name, plot_title = tracking.plot_changes(stored_command_data['days'], stored_command_data['category'][0], current_status=True,
+            max_items=stored_command_data['max_items'], tracking_group=stored_command_data['camps'],
+            percentage=True, save_plot=True, slack_post=True, show_plot=False)
         plot_file_name += '.png'
         #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
         #response = os.popen(input_command).read()
@@ -122,9 +152,13 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         """def upload(self, file_, content=None, filetype=None, filename=None,
                title=None, initial_comment=None, channels=None):"""
         slack.files.upload(plot_file_name, filename=(plot_title + '.png'), title=plot_title, channels=channel)
-        slack_client.api_call("chat.postMessage", channel=channel,
-                              text='How many days back would you like to plot for?', as_user=True)
-        #slack_client.api_call('files.upload', file=plot_file_name, channel=channel, filename=(plot_title + '.png'), title=plot_title)
+
+
+
+        """slack_client.api_call("chat.postMessage", channel=channel,
+                              text='How many days back would you like to plot for?', as_user=True)"""
+
+
     else:
         #MAKE THE API CALL AS SEARCHBOT
         slack_client.api_call("chat.postMessage", channel=channel,
@@ -160,7 +194,7 @@ def parse_slack_output(slack_rtm_output):
 if __name__ == "__main__":
     last_search = None
     last_trend = None
-    stored_command_data = {}
+    stored_command_data = default_command_data
     READ_WEBSOCKET_DELAY = 0.3 # 1 second delay between reading from firehose
     if slack_client.rtm_connect():
         print("TestBot connected and running!")
