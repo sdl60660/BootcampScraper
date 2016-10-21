@@ -29,6 +29,13 @@ def input_to_searchkeys(command):
     print searchkeys
     return searchkeys
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
 
 #import re
 #print re.findall("([^']*)'", input_command)

@@ -8,8 +8,10 @@ from search_wrapper import main
 import subprocess
 import generate_plot
 import tracking
+from bootcamp_info.utilities import return_closest
 from slacker import Slacker
-from helpers import input_to_searchkeys
+from helpers import input_to_searchkeys, is_number
+import datetime
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
@@ -25,6 +27,7 @@ EXAMPLE_COMMAND = "do"
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
 plot_list = ['locations', 'technologies']
+active_start_db = datetime.date.today().toordinal() - datetime.date(2016, 9, 12).toordinal()
 
 default_command_data = {
         'category': [],
@@ -33,10 +36,10 @@ default_command_data = {
             'technologies': [],
             'locations': []
         },
-        'days': 1,
+        'days': active_start_db,
         'max_items': 10,
         'tracking_group': None,
-        'current/trend': 'current'
+        'current/trend': True
     }
 
 
@@ -46,6 +49,9 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
     emoji = default_emoji
     user = default_user
+
+    plot_search = False
+    text_post = False
     """
         Receives commands directed at the bot and determines if they
         are valid commands. If so, then acts on the commands. If not,
@@ -54,9 +60,17 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     response = "Not sure what you mean. Use the *" + EXAMPLE_COMMAND + \
                "* command with numbers, delimited by spaces."
 
+    if command.lower().startswith('request'):
+        slack_client.api_call("chat.postMessage", channel=channel,
+            text='Thanks! Your request has been logged.', as_user=False, username=user, icon_emoji=emoji)
+        return last_search, last_trend, stored_command_data
 
     if command.lower().startswith('search'):
+        text_post = True
         keys = ['filler'] + input_to_searchkeys(command) + ['Slack']
+        if '--plot' in keys:
+            keys.remove('--plot')
+            plot_search = True
         out_string, result_data = search_wrapper.main(keys)
         last_search = keys
         stored_command_data = default_command_data
@@ -64,19 +78,14 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         for item in plot_list:
             if 'Category' in result_data.key_list.keys() and item in result_data.key_list['Category']:
                 stored_command_data['category'].append(item)
-        """if 'Technology' in result_data.key_list.keys():
-            for tech in result_data.key_list['Technology']:
-                stored_command_data['items']['technologies'].append(tech)
-        if 'Location' in result_data.key_list.keys():
-            for tech in result_data.key_list['Location']:
-                stored_command_data['items']['locations'].append(tech)"""
         stored_command_data['camps'] = result_data.camps
 
         print stored_command_data
-
         print result_data.key_list, result_data.camps
+
         #response = search_wrapper.main(keys)
         #RUN THROUGH TERMINAL OUTPUT
+        command = ''.join(command.split('--plot'))
         input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
         response = os.popen(input_command).read()
         emoji = default_emoji
@@ -104,10 +113,16 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
 
     plot = False
-    if command.lower().startswith('plot that!'):
-
+    if plot_search or command.lower().startswith('plot'):
+        plot = True
         #GATHER PLOT COMMAND DATA
-
+        pcommands = input_to_searchkeys(command)
+        if len(pcommands) < 1:
+            plot = False
+            text_post = True
+            response = "Please enter a category for the plot (i.e. 'technologies', 'locations'). For example: '@testbot plot technologies'\n" \
+            "If you'd like to plot the last search, enter '@testbot plot that!' or '@testbot plot search'.\n" \
+            "If you'd like to plot the last search as a trend, enter '@testbot plot trend (# of days)'\n"
 
 
         #PARSE PLOT COMMAND DATA
@@ -128,16 +143,35 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         commands[3] = type_correct(commands[3], True)"""
         #print commands[3]
 
+
+        days_back = stored_command_data['days']
+        if pcommands[0].lower() == 'trend':
+            c_status = False
+            if len(pcommands) > 1 and is_number(pcommands[1]):
+                days_back = int(pcommands[1])
+        else:
+            c_status = stored_command_data['current/trend']
+
+        #This is the right form, but the wrong variable/command positions
+        """if pcommands[1].lower() == 'trend' and type(pcommands[2]) is int:
+            m_items = int(pcommands[2])
+        else:
+            m_items = stored_command_data['max_items']"""
+
         #MAKE PLOT
-        plot_file_name, plot_title = tracking.plot_changes(stored_command_data['days'], stored_command_data['category'][0], current_status=True,
-            max_items=stored_command_data['max_items'], tracking_group=stored_command_data['camps'],
-            percentage=True, save_plot=True, slack_post=True, show_plot=False)
+
+        if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.92):
+            plot_file_name, plot_title = tracking.plot_changes(days_back, stored_command_data['category'][0], current_status=c_status,
+                max_items=stored_command_data['max_items'], tracking_group=stored_command_data['camps'],
+                percentage=True, save_plot=True, slack_post=True, show_plot=False)
+
+
+
         plot_file_name += '.png'
         #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
         #response = os.popen(input_command).read()
         emoji = default_emoji
         user = default_user
-        plot = True
 
     if command.lower().startswith('terms'):
         emoji = default_emoji
@@ -146,6 +180,16 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     if command.lower().startswith('groups'):
         emoji = default_emoji
         user = default_user
+
+
+
+
+
+
+    if text_post:
+        #MAKE THE API CALL AS SEARCHBOT
+        slack_client.api_call("chat.postMessage", channel=channel,
+                              text=response, as_user=False, username=user, icon_emoji=emoji)
     
     if plot:
         slack = Slacker(os.environ.get('SLACK_BOT_TOKEN'))
@@ -157,12 +201,6 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
         """slack_client.api_call("chat.postMessage", channel=channel,
                               text='How many days back would you like to plot for?', as_user=True)"""
-
-
-    else:
-        #MAKE THE API CALL AS SEARCHBOT
-        slack_client.api_call("chat.postMessage", channel=channel,
-                              text=response, as_user=False, username=user, icon_emoji=emoji)
 
 
 
@@ -195,16 +233,25 @@ if __name__ == "__main__":
     last_search = None
     last_trend = None
     stored_command_data = default_command_data
-    READ_WEBSOCKET_DELAY = 0.3 # 1 second delay between reading from firehose
+    READ_WEBSOCKET_DELAY = 0.3 # 0.3 second delay between reading from firehose
+    search_log = open('logs/slackbot_logs/slackbot_log.txt', 'a')
+    request_log = open('logs/slackbot_logs/requests.txt', 'a')
+    search_log.write('\n\n\n' + str(datetime.datetime.now())[:-7] + '\n-------------------\n')
     if slack_client.rtm_connect():
         print("TestBot connected and running!")
         while True:
             command, channel = parse_slack_output(slack_client.rtm_read())
             if command and channel:
+                search_log.write(str(datetime.datetime.now())[11:-7] + ': ' + str(command) + '\n')
+                print command.lower()
+                if command.lower().startswith('request'):
+                    request_log.write(str(datetime.datetime.now())[:-7] + ': ' + str(command)[8:] + '\n\n')
                 last_search, last_trend, stored_command_data = handle_command(command, channel, last_search, last_trend, stored_command_data)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
+    search_log.close()
+    request_log.close()
 
 
 

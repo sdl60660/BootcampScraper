@@ -216,8 +216,9 @@ def main(search_keys):
 
     bootcamp_search = False
     if 'Bootcamp' in key_dict.keys():
-        if len(key_dict['Bootcamp']) == (len(search_keys)-1):
+        if (len(key_dict['Bootcamp']) + len(key_dict['Tracking Group'])) == (len(search_keys)-1):
             bootcamp_search = True
+            del key_dict['Tracking Group']
         del_list = [camp for camp in bootcamps if camp not in key_dict['Bootcamp']]
         for camp in del_list:
             del bootcamps[camp]
