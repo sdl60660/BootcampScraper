@@ -120,10 +120,12 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         if len(pcommands) < 1:
             plot = False
             text_post = True
-            response = "Please enter a category for the plot (i.e. 'technologies', 'locations'). For example: '@testbot plot technologies'\n" \
-            "If you'd like to plot the last search, enter '@testbot plot that!' or '@testbot plot search'.\n" \
-            "If you'd like to plot the last search as a trend, enter '@testbot plot trend (# of days)'\n"
-
+            response = "Please enter a category for the plot (i.e. 'technologies', 'locations'). For example: `@testbot plot technologies`\n" \
+            "If you'd like to plot the last search, enter `@testbot plot that!` or `@testbot plot search`.\n" \
+            "If you'd like to plot the last search as a trend, enter `@testbot plot trend [# of days]`\n"
+            slack_client.api_call("chat.postMessage", channel=channel,
+                              text=response, as_user=False, username=user, icon_emoji=emoji)
+            return last_search, last_trend, stored_command_data
 
         #PARSE PLOT COMMAND DATA
         def type_correct(command, string):

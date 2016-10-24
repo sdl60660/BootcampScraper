@@ -31,8 +31,8 @@ def input_to_searchkeys(command):
 
 def is_number(s):
     try:
-        float(s)
-        return True
+        int(s)
+        return int(s)
     except ValueError:
         return False
 

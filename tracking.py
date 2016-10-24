@@ -390,6 +390,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             plt.ylabel('# of Bootcamps', fontsize='medium')
         else:
             plt.ylabel('% of Bootcamps', fontsize='medium')
+            plt.ylim([0,105])
         plt.xlabel('Date', fontsize='medium')
         plt.ylim(ymin=0)
         
