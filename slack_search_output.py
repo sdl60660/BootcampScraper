@@ -176,7 +176,7 @@ def slack_output(result_data):
 			item_title = attribute_dict.Out_Dict[item].title()
 		else:
 			item_title = item.title()
-		sort_list_string += str(item_title) + '\n----------------------------\n'
+		sort_list_string += '*' + str(item_title) + '*\n----------------------------\n'
 		for x in category:
 			#list_string = '{:<30}{}'.format((str(x[0]) + ':'), str(x[1]))
 			try:
@@ -200,7 +200,7 @@ def slack_output(result_data):
 			item_title = attribute_dict.Out_Dict[item].title()
 		else:
 			item_title = item.title()
-		summary_list_string += str(item_title) + '\n----------------------------\n'
+		summary_list_string += '*' + str(item_title) + '*\n----------------------------\n'
 		category_sorted = sorted([[k,v] for k,v in category.iteritems()], key=lambda x: x[1], reverse=True)
 		"""for k,v in category.iteritems():
 			list_string = '            ' + str(k) + ': ' + str(v)

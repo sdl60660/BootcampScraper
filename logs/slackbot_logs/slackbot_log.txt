@@ -394,3 +394,24 @@ search 'java' '.net' 'technologies' --list --plot
 18:06:38: trends 25
 18:07:22: trends 25
 18:11:11: trends 6
+
+
+
+2016-10-24 19:17:35
+-------------------
+19:17:41: search 'java' '.net' 'technologies' 'housing' --summary
+19:32:24: search 'java' '.net' 'technologies' 'housing' --summary
+19:32:37: search 'java' '.net' 'technologies' 'housing' --summary 'class_ratio'
+19:32:54: search 'java' --all 'technologies' 'housing' --summary
+19:33:17: search 'java' --all 'technologies' 'housing' --summary 'class_ratio'
+19:34:41: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:36:02: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:37:00: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:39:55: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:40:40: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:43:05: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:43:36: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:44:15: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:45:18: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:49:30: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort
+19:49:34: search 'java' --all 'technologies' 'housing' --summary 'num_location' 'class_ratio' --sort

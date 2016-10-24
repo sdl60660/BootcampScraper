@@ -5,6 +5,10 @@ from pprint import pprint
 import operator
 import os.path
 
+import numpy as np
+def mean(numbers):
+    return round(float(sum(numbers)) / max(len(numbers), 1), 1)
+
 class Camp_Info:
     def __init__(self, bootcamp_data, category_data, camps, summary=None, camp_list=None, sort=None, key_list=None):
         self.bootcamp_data = bootcamp_data
@@ -18,6 +22,7 @@ class Camp_Info:
 def summary_dict(bootcamps, category):
     temp_dict = {}
     warning_list = []
+    int_cat = False
     for bootcamp in bootcamps:
         camp = bootcamps[bootcamp]
         if category not in camp.keys():
@@ -40,11 +45,11 @@ def summary_dict(bootcamps, category):
                 else:
                     temp_dict[item] = 1
         elif type(camp[category]) is int:
-            return -1, temp_dict, warning_list
-        #    if camp[category] in temp_dict:
-        #        temp_dict[camp[category]] += 1
-        #    else:
-        #        temp_dict[camp[category]] = 1
+            int_cat = True
+            if 'List' in temp_dict.keys():
+                temp_dict['List'].append(camp[category])
+            else:
+                temp_dict['List'] = [camp[category]]
         elif 'Yes' in camp[category] or camp[category].find('available') != -1 \
         or camp[category].find('offer') != -1 or camp[category].find('partnership') != -1:
             if 'Yes' in temp_dict:
@@ -57,7 +62,13 @@ def summary_dict(bootcamps, category):
             else:
                 temp_dict['No'] = 1
         else:
-            return
+            return -1, temp_dict, warning_list
+
+    if int_cat:
+        temp_dict['Mean'] = mean(temp_dict['List'])
+        temp_dict['Median'] = int(np.median(temp_dict['List']))
+        del temp_dict['List']
+
     return category, temp_dict, warning_list
 
 def dict_sort(in_dict, full_list=False):
