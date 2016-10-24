@@ -13,7 +13,7 @@ from scrapy.http import HtmlResponse, Response
 from scrapy.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.linkextractors import LinkExtractor
 
-from bootcamp_info.items import SwitchupSchool
+from bootcamp_scraper.items import SwitchupSchool
 
 def is_number(s):
     try:

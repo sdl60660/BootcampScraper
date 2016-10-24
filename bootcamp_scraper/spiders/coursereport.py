@@ -12,7 +12,7 @@ from scrapy.linkextractors import LinkExtractor
 #from scrapy.spiders import Spider
 #from scrapy.selector import Selector
 
-from bootcamp_info.items import CourseReportSchool
+from bootcamp_scraper.items import CourseReportSchool
 
 
 class CourseReportSpider(scrapy.Spider):

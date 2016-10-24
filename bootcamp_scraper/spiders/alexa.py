@@ -9,7 +9,7 @@ import os, fnmatch
 import datetime
 from datetime import date
 
-from bootcamp_info.items import AlexaPage
+from bootcamp_scraper.items import AlexaPage
 
 def find_recent_output():
     path = 'old_data/full_outputs/'

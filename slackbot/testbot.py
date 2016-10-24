@@ -97,7 +97,9 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
 
     if command.lower().startswith('trends'):
-        os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
+
+        #os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
+        print os.getcwd()
         input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:] + ' SLACK'
         #print input_command
         response = os.popen(input_command).read()

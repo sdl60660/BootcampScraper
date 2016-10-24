@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 #from scrapy.spiders import Spider
 #from scrapy.selector import Selector
 
-from bootcamp_info.items import BootcampsInSchool
+from bootcamp_scraper.items import BootcampsInSchool
 
 
 class BootcampsinSpider(scrapy.Spider):

@@ -1,12 +1,14 @@
+
 import sys
-import tracking
-from tracking import tracking_groups
 
-from tracking import tracked_camp_changes
-from tracking import tracking_group_stats
-from tracking import new_bootcamps
+import bootcamp_info.tracking
+from ..tracking import tracking_groups
 
-from utilities import return_closest
+from ..tracking import tracked_camp_changes
+from ..tracking import tracking_group_stats
+from ..tracking import new_bootcamps
+
+from ..utilities import return_closest
 
 import numpy as np
 from pprint import pprint

@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'bootcamp_info'
+BOT_NAME = 'bootcamp_scraper'
 
-SPIDER_MODULES = ['bootcamp_info.spiders']
-NEWSPIDER_MODULE = 'bootcamp_info.spiders'
+SPIDER_MODULES = ['bootcamp_scraper.spiders']
+NEWSPIDER_MODULE = 'bootcamp_scraper.spiders'
 
 
 ###PUT PIPELINE INFORMATION HERE###
@@ -20,11 +20,11 @@ NEWSPIDER_MODULE = 'bootcamp_info.spiders'
 #ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
 ITEM_PIPELINES = {  #'bootcamp_info.pipelines.BootcampInfoPipeline': 1,
                     #'bootcamp_info.pipelines.DuplicatesPipeline': 10,
-                    'bootcamp_info.pipelines.CaughtDuplicateNames': 15,
-                    'bootcamp_info.pipelines.TechnologyListingFixes': 17,
-                    'bootcamp_info.pipelines.LocationFixes': 18,
-                    'bootcamp_info.pipelines.TrackingGroupTags': 20,
-                    'bootcamp_info.pipelines.EmptyChecker': 30,
+                    'bootcamp_scraper.pipelines.CaughtDuplicateNames': 15,
+                    'bootcamp_scraper.pipelines.TechnologyListingFixes': 17,
+                    'bootcamp_scraper.pipelines.LocationFixes': 18,
+                    'bootcamp_scraper.pipelines.TrackingGroupTags': 20,
+                    'bootcamp_scraper.pipelines.EmptyChecker': 30,
                     #'scrapy.pipelines.images.ImagesPipeline': 100,
 
 }
