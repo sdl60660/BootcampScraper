@@ -1,14 +1,13 @@
-
 import sys
 
-import bootcamp_info.tracking
-from ..tracking import tracking_groups
+import tracking
+from tracking import tracking_groups
 
-from ..tracking import tracked_camp_changes
-from ..tracking import tracking_group_stats
-from ..tracking import new_bootcamps
+from tracking import tracked_camp_changes
+from tracking import tracking_group_stats
+from tracking import new_bootcamps
 
-from ..utilities import return_closest
+from utilities import return_closest
 
 import numpy as np
 from pprint import pprint
@@ -16,22 +15,43 @@ from pprint import pprint
 cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
 
+def intersperse(array, interval):
+	temp_array = []
+	out_array = []
+	count = 2
+	for x in array:
+		temp_array.append(x)
+		if count % interval == 0:
+			temp_string = ', '.join(temp_array) + ','
+			out_array.append(temp_string)
+			out_array.append('\n\t\t\t')
+			temp_array = []
+		count += 1
+	temp_string = ', '.join(temp_array)
+	out_array.append(temp_string)
+	out_string = ''.join(out_array)
+	return out_string
+
 def print_stats(print_arrays, max_diff, slack=False):
 	for print_array, diff in zip(print_arrays, max_diff):
 		if len(print_array[0]) > 0:
 			print
 			if slack:
-				print ('>' + str(print_array[1])).title()
+				print ('*' + str(print_array[1]) + '*').title()
 			else:
 				print (str(print_array[1])).title()
 			print_array = print_array[0]
 			for change in print_array:
-				pprint(change, indent=4)
+				if slack:
+					print '\t\t\t' + change.strip("'")
+				else:
+					pprint(change, indent=4)
 			print
-			print 'BIGGEST CHANGES: ' + str(diff)
+			change_string = ', '.join(['{0} ({1:+d})'.format(str(x[0]), x[1]) for x in diff if x[1] != 0])
+			print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
 	return
 
-def print_details(detail_tuples):
+def print_details(detail_tuples, slack=False):
 	tech_array = []
 	for x in detail_tuples:
 		if x[0] not in tech_array:
@@ -45,7 +65,12 @@ def print_details(detail_tuples):
 				elif x[2] == 'Subtraction':
 					temp_str = str(x[1]) + ' (-)'
 				camp_array.append(temp_str)
-		print str(tech) + ': ' + str(camp_array)
+		#tech_list_string = intersperse(camp_array, 3)
+		tech_list_string = ', '.join(camp_array)
+		if slack:
+			print '\t\t\t*' + str(tech) + '*: ' + str(tech_list_string)
+		else:
+			print str(tech) + ': ' + str(tech_list_string)
 
 	return
 
@@ -79,7 +104,7 @@ def full_slack_print(days_back, cats, group='ALL'):
 	print_arrays, max_diff = tracking_group_stats(days_back, group)
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
-		print "`   Changes   `"
+		print "`-----Changes-----`"
 	print_stats(print_arrays, max_diff, slack=True)
 
 	detail_array = []
@@ -92,12 +117,12 @@ def full_slack_print(days_back, cats, group='ALL'):
 
 	if any(len(x) > 0 for x in detail_array):
 		print
-		print "`   Details   `"
+		print "`-----Details-----`"
 		print
 		for x, c in enumerate(cats):
 			if len(detail_array[x]) > 0:
-				print ('>' + c).title()
-				print_details(detail_array[x])
+				print ('*' + c + '*').title()
+				print_details(detail_array[x], slack=True)
 				print
 	return
 
@@ -135,7 +160,13 @@ def main():
 
 	print
 	#print '```Overall Changes (Last {} Days)```'.format(days_back)#.center(40, '=')
-	print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
+	if slack_command:
+		title_text = '`Overall Changes (Last {} Days)`'.format(days_back)
+		block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
+		print block_text + '\n' + title_text + '\n' + block_text + '\n'
+	else:
+		print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
+
 	try:
 		if slack_command:
 			full_slack_print(days_back, cats)
@@ -143,13 +174,19 @@ def main():
 			full_print(days_back, cats)
 	except NameError:
 		print
-		print 'Could not find file for this date!'
+		print 'Could not find file(s) for some of these dates!'
+	print
 	print
 
 	#****************TRACKING GROUP CHANGES****************
 
 	for group in tgroups:
-		print group.center(40, '=')
+		if slack_command:
+			title_text = '`Tracking Group: {} (Last {} Days)`'.format(group.title(), days_back)
+			block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
+			print block_text + '\n' + title_text + '\n' + block_text + '\n'
+		else:
+			print group.center(40, '=')
 		try:
 			if slack_command:
 				full_slack_print(days_back, cats, group)
@@ -157,7 +194,7 @@ def main():
 				full_print(days_back, cats, group)
 		except NameError:
 			print
-			print 'Could not find file for ' + str(group) + ' tracking group!'
+			print 'Could not find file(s) for ' + str(group) + ' tracking group!'
 			print
 			continue
 		print
@@ -166,7 +203,7 @@ def main():
 		print
 		print ''.center(40,'*')
 		print
-		print 'NEW BOOTCAMPS IN DATASET: ' + str(['{} ({})'.format(str(x[0]), [str('{}').format(y) for y in x[1]] if x[1] else 'No Recorded Locations') for x in new_bootcamps(days_back)])
+		print 'New Bootcamps in Dataset: ' + str(['{} ({})'.format(str(x[0]), [str('{}').format(y) for y in x[1]] if x[1] else 'No Recorded Locations') for x in new_bootcamps(days_back)])
 
 if __name__ == '__main__':
   main()

@@ -4,6 +4,7 @@ import utilities
 from pprint import pprint
 import sys
 from current_data import attribute_dict
+from slackbot.helpers import is_number
 
 def title_string(camp, full=True):
 	title_string = ''
@@ -23,6 +24,7 @@ def category_string(cat_data, camp, cat):
 			cat_name = cat.title()
 		cat_string += '*' + str(cat_name) + '*: '
 		data_string = ''
+
 		if type(cat_data) is list:
 			data_string += '\n'
 			for item in cat_data:
@@ -45,11 +47,17 @@ def category_string(cat_data, camp, cat):
 				'accepted', 'enrolled', 'graduated', 'job_seeking']
 				for key in er_ms_order:
 					if key in cat_data.keys():
-						data_string += '        {}: {}%\n'.format(key.title(),cat_data[key])
+						key_title = ' '.join(key.split('_'))
+						if is_number(key[0:2]):
+							data_string += '        {}: {}%\n'.format(key_title.title(),cat_data[key])
+						else:
+							data_string += '        {}: {}\n'.format(key_title.title(),cat_data[key])
 			else:
 				for k,v in cat_data.iteritems():
 					data_string += '        {}: {}\n'.format(k,v)
 			cat_string += data_string + '\n'
+		elif cat == 'acceptance_rate':
+			cat_string += str(cat_data) + '%\n'
 		else:
 			cat_string += str(cat_data) + '\n'
 		

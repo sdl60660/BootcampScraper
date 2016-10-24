@@ -3,14 +3,14 @@ import time
 from slackclient import SlackClient
 import sys
 sys.path.insert(0,'..')
-import search_wrapper
+import bootcamp_info.search_wrapper
 import subprocess
-import generate_plot
+import bootcamp_info.generate_plot
 
-from search_track_plot_functions import slack_tracker_wrapper
+from bootcamp_info.search_track_plot_functions.slack_tracker_wrapper import location_changes, technology_changes
 
-import tracking
-from tracking import tracked_camp_changes, tracking_group_stats, new_bootcamps
+import bootcamp_info.tracking
+from bootcamp_info.tracking import tracked_camp_changes, tracking_group_stats, new_bootcamps
 
 MARKETS = ['Cleveland', 'Columbus', 'Pittsburgh', 'Detroit', 'Buffalo', 'Chicago', 'Toronto', 'Cincinnati']
 
@@ -29,7 +29,7 @@ for item in full_location_changes:
 	if item[0] in MARKETS and item not in select_location_changes:
 		select_location_changes.append(item)
 
-location_changes = slack_tracker_wrapper.location_changes(select_location_changes)
+location_changes = location_changes(select_location_changes)
 if location_changes != -1:
 	for x in location_changes:
 		loc_out_string += x +'\n\n'
@@ -40,7 +40,7 @@ if location_changes != -1:
 	)
 
 tech_out_string = ''
-tech_changes = slack_tracker_wrapper.technology_changes(tracked_camp_changes(1, 'technologies', 'Selected Camps'))
+tech_changes = technology_changes(tracked_camp_changes(1, 'technologies', 'Selected Camps'))
 if tech_changes != -1:
 	for x in tech_changes:
 		tech_out_string += x +'\n\n'

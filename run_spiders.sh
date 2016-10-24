@@ -4,6 +4,8 @@
 source ~/.virtualenvs/scrapy_venv/bin/activate
 
 export PYTHONPATH="${PYTHONPATH}:~/scrapy_projects/bootcamp_info"
+export SLACK_BOT_TOKEN='xoxb-84508800582-zdQenvCLGRrmF1v4rafaUEQb'
+export BOT_ID='U2GEYPJH4'
 
 echo
 current_time=$(date "+%H:%M:%S")
