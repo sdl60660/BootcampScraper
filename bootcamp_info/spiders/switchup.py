@@ -15,6 +15,13 @@ from scrapy.linkextractors import LinkExtractor
 
 from bootcamp_info.items import SwitchupSchool
 
+def is_number(s):
+    try:
+        int(s)
+        return int(s)
+    except ValueError:
+        return False
+
 #GLOBAL COUNTER
 
 class SwitchupSpider(scrapy.Spider):
@@ -90,7 +97,17 @@ class SwitchupSpider(scrapy.Spider):
         item['hiring_rate'] = Selector(response).xpath(self.find_table_key('Hiring %', item_index)).extract()
         item['average_salary'] = self.type_converter((Selector(response).xpath(self.find_table_key('Avg Salary', item_index)).extract()), int)
         item['num_alumni'] = self.type_converter((Selector(response).xpath(self.find_table_key('Alumni #', item_index)).extract()), int)
-        item['class_ratio'] = Selector(response).xpath(self.find_table_key('Class Ratio', item_index)).extract()
+        
+        ratio_string = Selector(response).xpath(self.find_table_key('Class Ratio', item_index)).extract()
+        if len(ratio_string) == 1:
+            ratio_string = str(ratio_string[0])
+            ratio_string = ratio_string.replace(':', ' ').replace('to', ' ').split(' ')
+            item['class_ratio'] = None
+            for x in ratio_string:
+                if is_number(x) and int(x) != 1:
+                    item['class_ratio'] = int(x)
+        else:
+            item['class_ratio'] = None
 
         item['su_rating'] = self.type_converter((Selector(response).xpath('//*[@id="first-bootcamp-section"]/div/div/p/span[1]/span/text()').extract()), float) #DONE
         item['su_num_reviews'] = self.type_converter((Selector(response).xpath('//*[@id="first-bootcamp-section"]/div/div/p/span[2]/text()').extract()), int) #DONE

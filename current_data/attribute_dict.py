@@ -11,7 +11,7 @@ Out_Dict = {
 	'su_num_reviews': "Switchup Reviews",
 	'last_updated': "Last Updated",
 	'hiring_rate': "Hiring Rate",
-	'class_ratio': "Class Ratio",
+	'class_ratio': "Class Ratio (Students per Instructor)",
 	'num_alumni': "Number of Alumni",
 	'acceptance_rate': "Acceptance Rate",
 	'matriculation_stats': "Matriculation Stats",
