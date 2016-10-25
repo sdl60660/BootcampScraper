@@ -28,7 +28,7 @@ def summary_dict(bootcamps, category):
         if category not in camp.keys():
             warning_list.append(bootcamp)
             continue
-        if not camp[category] or camp[category] == '\n':
+        if not camp[category] or camp[category] == '\n' or camp[category] == 'N/A' or camp[category] == 'No data':
             warning_list.append(bootcamp)
             continue
         try:
@@ -44,7 +44,7 @@ def summary_dict(bootcamps, category):
                     temp_dict[item] += 1
                 else:
                     temp_dict[item] = 1
-        elif type(camp[category]) is int:
+        elif type(camp[category]) is int or type(camp[category]) is float:
             int_cat = True
             if 'List' in temp_dict.keys():
                 temp_dict['List'].append(camp[category])
@@ -65,8 +65,9 @@ def summary_dict(bootcamps, category):
             return -1, temp_dict, warning_list
 
     if int_cat:
+        print temp_dict['List']
         temp_dict['Mean'] = mean(temp_dict['List'])
-        temp_dict['Median'] = int(np.median(temp_dict['List']))
+        temp_dict['Median'] = round((np.median(temp_dict['List'])), 1)
         del temp_dict['List']
 
     return category, temp_dict, warning_list

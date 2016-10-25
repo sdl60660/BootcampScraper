@@ -448,7 +448,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 891, 
+            "followers": 892, 
             "handle": "@acadgild", 
             "tweets": 2394
         }, 
@@ -783,7 +783,7 @@
         "twitter": {
             "followers": 659, 
             "handle": "@softwareguild", 
-            "tweets": 855
+            "tweets": 854
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -1120,7 +1120,7 @@
         "twitter": {
             "followers": 513, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1376
+            "tweets": 1375
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -1285,23 +1285,23 @@
         "su_num_reviews": 4, 
         "su_rating": 4.7, 
         "su_technologies": [
-            "AngularJS", 
-            "C#", 
+            "C++", 
             "CSS", 
             "HTML", 
             "JavaScript", 
             ".NET", 
-            "C++"
+            "AngularJS", 
+            "C#"
         ], 
         "subjects": "Web Development, Windows .NET development, Databases / SQL, Object oriented design and Model-View-Controller design patterns", 
         "technologies": [
-            "AngularJS", 
-            "C#", 
+            "C++", 
             "CSS", 
             "HTML", 
             "JavaScript", 
             ".NET", 
-            "C++", 
+            "AngularJS", 
+            "C#", 
             "Git", 
             "ASP.NET", 
             "SQL", 
@@ -1352,7 +1352,7 @@
             "Tech Elevator", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-10-25 12:42:40", 
+        "Date/Time": "2016-10-25 09:48:56", 
         "Days Out": 43, 
         "Detroit": [
             "Girl Develop It"

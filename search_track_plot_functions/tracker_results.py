@@ -48,7 +48,10 @@ def print_stats(print_arrays, max_diff, slack=False):
 					pprint(change, indent=4)
 			print
 			change_string = ', '.join(['{0} ({1:+d})'.format(str(x[0]), x[1]) for x in diff if x[1] != 0])
-			print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
+			if slack:
+				print '\t\t\tBiggest Changes: ' + change_string + '\n\n-----------------------\n'
+			else:
+				print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
 	return
 
 def print_details(detail_tuples, slack=False):
@@ -65,8 +68,8 @@ def print_details(detail_tuples, slack=False):
 				elif x[2] == 'Subtraction':
 					temp_str = str(x[1]) + ' (-)'
 				camp_array.append(temp_str)
-		#tech_list_string = intersperse(camp_array, 3)
-		tech_list_string = ', '.join(camp_array)
+		tech_list_string = intersperse(camp_array, 3)
+		#tech_list_string = ', '.join(camp_array)
 		if slack:
 			print '\t\t\t*' + str(tech) + '*: ' + str(tech_list_string)
 		else:
@@ -100,7 +103,7 @@ def full_print(days_back, cats, group='ALL'):
 				print
 	return
 
-def full_slack_print(days_back, cats, group='ALL'):
+def full_slack_print(days_back, cats, details=False, group='ALL'):
 	print_arrays, max_diff = tracking_group_stats(days_back, group)
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
@@ -115,15 +118,16 @@ def full_slack_print(days_back, cats, group='ALL'):
 
 	print
 
-	if any(len(x) > 0 for x in detail_array):
-		print
-		print "`-----Details-----`"
-		print
-		for x, c in enumerate(cats):
-			if len(detail_array[x]) > 0:
-				print ('*' + c + '*').title()
-				print_details(detail_array[x], slack=True)
-				print
+	if details:
+		if any(len(x) > 0 for x in detail_array):
+			print
+			print "`-----Details-----`"
+			print
+			for x, c in enumerate(cats):
+				if len(detail_array[x]) > 0:
+					print ('*' + c + '*').title()
+					print_details(detail_array[x], slack=True)
+					print
 	return
 
 
@@ -133,6 +137,12 @@ def main():
 		sys.argv.remove('SLACK')
 	else:
 		slack_command = False
+
+	details = False
+	if 'details' in sys.argv:
+		details = True
+		sys.argv.remove('details')
+
 
 	if len(sys.argv) < 2:
 		print 'USAGE: python tracker_results.py days_back (OPTIONAL:) [tracking_group1] ... [tracking_groupx]'
@@ -169,7 +179,7 @@ def main():
 
 	try:
 		if slack_command:
-			full_slack_print(days_back, cats)
+			full_slack_print(days_back, cats, details=details)
 		else:
 			full_print(days_back, cats)
 	except NameError:

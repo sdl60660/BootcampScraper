@@ -27,6 +27,7 @@ EXAMPLE_COMMAND = "do"
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
 plot_list = ['locations', 'technologies']
+tracking_groups = ['Java/.NET', 'Selected Camp', 'Top Camp', 'Potential Market', 'Current Market']
 active_start_db = datetime.date.today().toordinal() - datetime.date(2016, 9, 12).toordinal()
 
 default_command_data = {
@@ -42,6 +43,15 @@ default_command_data = {
         'current/trend': True
     }
 
+def insert_option_tags(command_string):
+    options = ['list', 'sort', 'summary', 'details', 'warnings', 'file', 'all', 'plot']
+    new_command_string = command_string
+    for x in options:
+        if x in new_command_string.lower() and new_command_string[new_command_string.find(x)-1] == ' ':
+            new_command_string = new_command_string[:new_command_string.find(x)] + \
+            '--' + new_command_string[new_command_string.find(x):]
+            new_command_string.replace(x[new_command_string.find(x):new_command_string.find(x)+len(x)], x)
+    return new_command_string
 
 def handle_command(command, channel, last_search, last_trend, stored_command_data):
     default_emoji = ':key:'
@@ -65,7 +75,12 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
             text='Thanks! Your request has been logged.', as_user=False, username=user, icon_emoji=emoji)
         return last_search, last_trend, stored_command_data
 
+    if command.lower().startswith('upload data'):
+        slack = Slacker(os.environ.get('SLACK_BOT_TOKEN'))
+        slack.files.upload('current_data/output.json', filename='{}_bc_data.json'.format(str(datetime.date.today())), title=('Current BC Data JSON ({})'.format(str(datetime.date.today()))), channels=channel)
+
     if command.lower().startswith('search'):
+        command = insert_option_tags(command)
         text_post = True
         keys = ['filler'] + input_to_searchkeys(command) + ['Slack']
         if '--plot' in keys:
@@ -86,33 +101,34 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         #response = search_wrapper.main(keys)
         #RUN THROUGH TERMINAL OUTPUT
         command = ''.join(command.split('--plot'))
+
         input_command = 'python search_wrapper.py ' + command[7:] + ' Slack'
         response = os.popen(input_command).read()
         emoji = default_emoji
         user = default_user
 
 
-
-
-
-
-    if command.lower().startswith('trends'):
+    if command.lower().startswith('trend'):
         text_post = True
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
-        #print os.getcwd()
-        input_command = 'python search_track_plot_functions/tracker_results.py ' + command[7:] + ' SLACK'
+        stored_command_data['current/trend'] = False
+
+        for x in input_to_searchkeys(command):
+            if x.title() in tracking_groups:
+                stored_command_data['tracking_group'] = x.title()
+            elif is_number(x):
+                stored_command_data['days'] = int(x)
+            elif x.lower() == 'max':
+                stored_command_data['days'] = active_start_db
+
+        if 'max' in command.lower():
+            command = command.replace('max', str(active_start_db))
+
+        input_command = 'python search_track_plot_functions/tracker_results.py ' + command[6:] + ' SLACK'
         print input_command
-        #print input_command
         response = os.popen(input_command).read()
-        #response = "How many days back would you like to see changes for?"
-        #prompted = True
         emoji = ':chart_with_upwards_trend:'
         user = 'trendbot'
-
-
-
-
-
 
 
     plot = False
@@ -143,25 +159,16 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
                         command = str(command[0])
             return command
 
-        """commands = command[5:].split('/')
-        commands[2] = type_correct(commands[2], False)
-        commands[3] = type_correct(commands[3], True)"""
-        #print commands[3]
-
-
         days_back = stored_command_data['days']
         if pcommands[0].lower() == 'trend':
             c_status = False
-            if len(pcommands) > 1 and is_number(pcommands[1]):
-                days_back = int(pcommands[1])
+            if len(pcommands) > 1:
+                if is_number(pcommands[1]):
+                    days_back = int(pcommands[1])
+                elif pcommands[1].lower() == 'max':
+                    days_back = active_start_db
         else:
             c_status = stored_command_data['current/trend']
-
-        #This is the right form, but the wrong variable/command positions
-        """if pcommands[1].lower() == 'trend' and type(pcommands[2]) is int:
-            m_items = int(pcommands[2])
-        else:
-            m_items = stored_command_data['max_items']"""
 
         #MAKE PLOT
 
@@ -173,8 +180,6 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
 
         plot_file_name += '.png'
-        #input_command = 'python generate_plot.py 10 technologies 12 True True'# + command[7:]
-        #response = os.popen(input_command).read()
         emoji = default_emoji
         user = default_user
 
@@ -187,10 +192,6 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         user = default_user
 
 
-
-
-
-
     if text_post:
         #MAKE THE API CALL AS SEARCHBOT
         slack_client.api_call("chat.postMessage", channel=channel,
@@ -198,8 +199,6 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     
     if plot:
         slack = Slacker(os.environ.get('SLACK_BOT_TOKEN'))
-        """def upload(self, file_, content=None, filetype=None, filename=None,
-               title=None, initial_comment=None, channels=None):"""
         slack.files.upload(plot_file_name, filename=(plot_title + '.png'), title=plot_title, channels=channel)
 
 

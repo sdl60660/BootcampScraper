@@ -213,9 +213,11 @@ class SwitchupSpider(scrapy.Spider):
 
         for key, value in item.iteritems():
             try:
-                temp = str(value)
-                if temp == 'No data':
+                if value == 'No data':
                     item[key] = None
+                if type(value) is list and len(value) > 0:
+                    if value[0] == 'No data':
+                        item[key] = None
             except ValueError:
                 continue
         
@@ -225,7 +227,7 @@ class SwitchupSpider(scrapy.Spider):
                 item['hiring_rate'] = float(parsed_hiring_rate)
             except ValueError:
                 pass
-        except IndexError:
+        except (IndexError, TypeError):
             pass
 
         for key, value in item.iteritems():
