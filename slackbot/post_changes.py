@@ -1,4 +1,5 @@
 import os
+os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
 import time
 from slackclient import SlackClient
 import sys

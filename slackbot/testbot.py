@@ -12,6 +12,7 @@ from bootcamp_info.utilities import return_closest
 from slacker import Slacker
 from helpers import input_to_searchkeys, is_number
 import datetime
+import random
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
@@ -53,6 +54,20 @@ def insert_option_tags(command_string):
             new_command_string.replace(x[new_command_string.find(x):new_command_string.find(x)+len(x)], x)
     return new_command_string
 
+def request_more_info(category, action, accept_list, channel):
+    loop = True
+    while loop:
+        response = "Please enter {} for the {} (i.e. {}, {})".format(category, action, accept_list[0],
+            accept_list[random.randint(1, (len(accept_list)-1))])
+        slack_client.api_call("chat.postMessage", channel=channel,
+                  text=response, as_user=False, icon_emoji=':question:', username='Info Helper Bot')
+        reply, channel, user = parse_slack_output(slack_client.rtm_read(), feedback=True)
+        if reply:
+            x = return_closest(reply.lower(),accept_list, 0.8)
+            if x != -1:
+                loop = False
+                return x
+
 def handle_command(command, channel, last_search, last_trend, stored_command_data):
     default_emoji = ':key:'
     default_user = 'searchbot'
@@ -93,7 +108,19 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         for item in plot_list:
             if 'Category' in result_data.key_list.keys() and item in result_data.key_list['Category']:
                 stored_command_data['category'].append(item)
-        stored_command_data['camps'] = result_data.camps
+
+        if 'Technology' in result_data.key_list.keys() or 'Location' in result_data.key_list.keys():
+            stored_command_data['camps'] = result_data.camps
+            stored_command_data['tracking_group'] = None
+        elif 'Tracking Group' in result_data.key_list.keys():
+            if len(result_data.key_list['Tracking Group']) == 1:
+                stored_command_data['tracking_group'] = result_data.key_list['Tracking Group'][0]
+                stored_command_data['camps'] = []
+            else:
+                stored_command_data['camps'] = result_data.camps
+                stored_command_data['tracking_group'] = None
+        else:
+            stored_command_data['tracking_group'] = None
 
         print stored_command_data
         print result_data.key_list, result_data.camps
@@ -107,8 +134,8 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         emoji = default_emoji
         user = default_user
 
-
     if command.lower().startswith('trend'):
+        stored_command_data = default_command_data
         text_post = True
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
         stored_command_data['current/trend'] = False
@@ -129,7 +156,6 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         response = os.popen(input_command).read()
         emoji = ':chart_with_upwards_trend:'
         user = 'trendbot'
-
 
     plot = False
     if plot_search or command.lower().startswith('plot'):
@@ -171,13 +197,18 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
             c_status = stored_command_data['current/trend']
 
         #MAKE PLOT
+        if len(stored_command_data['camps']) > 0:
+            tgroup_input = stored_command_data['camps']
+        else:
+            tgroup_input = stored_command_data['tracking_group']
 
         if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.92):
+            if len(stored_command_data['category']) == 0:
+                stored_command_data['category'].append(request_more_info('category', 'plot', plot_list, channel))
+
             plot_file_name, plot_title = tracking.plot_changes(days_back, stored_command_data['category'][0], current_status=c_status,
-                max_items=stored_command_data['max_items'], tracking_group=stored_command_data['camps'],
+                max_items=stored_command_data['max_items'], tracking_group=tgroup_input,
                 percentage=True, save_plot=True, slack_post=True, show_plot=False)
-
-
 
         plot_file_name += '.png'
         emoji = default_emoji
@@ -208,16 +239,12 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
 
 
 
-
-
-
-
     """slack_client.api_call("chat.postMessage", channel=channel,
                               text=last_command, as_user=False, username=user, icon_emoji=emoji)"""
 
     return last_search, last_trend, stored_command_data
 
-def parse_slack_output(slack_rtm_output):
+def parse_slack_output(slack_rtm_output, feedback=False):
     """
         The Slack Real Time Messaging API is an events firehose.
         this parsing function returns None unless a message is
@@ -225,12 +252,16 @@ def parse_slack_output(slack_rtm_output):
     """
     output_list = slack_rtm_output
     if output_list and len(output_list) > 0:
+        print output_list
         for output in output_list:
             if output and 'text' in output and AT_BOT in output['text']:
                 # return text after the @ mention, whitespace removed
                 return output['text'].split(AT_BOT)[1].strip().lower(), \
-                       output['channel']
-    return None, None
+                       output['channel'], output['user']
+            if feedback:
+                if output and 'text' in output and 'bot_id' not in output:
+                    return output['text'].strip().lower(), output['channel'], output['user']
+    return None, None, None
 
 
 if __name__ == "__main__":
@@ -242,14 +273,14 @@ if __name__ == "__main__":
     request_log = open('logs/slackbot_logs/requests.txt', 'a')
     search_log.write('\n\n\n' + str(datetime.datetime.now())[:-7] + '\n-------------------\n')
     if slack_client.rtm_connect():
-        print("TestBot connected and running!")
+        print 'TestBot connected and running!'
         while True:
-            command, channel = parse_slack_output(slack_client.rtm_read())
+            command, channel, usercode = parse_slack_output(slack_client.rtm_read())
             if command and channel:
-                search_log.write(str(datetime.datetime.now())[11:-7] + ': ' + str(command) + '\n')
+                search_log.write(str(datetime.datetime.now())[11:-7] + ': ' + str(command) + ' (' + str(usercode) + ')\n')
                 print command.lower()
                 if command.lower().startswith('request'):
-                    request_log.write(str(datetime.datetime.now())[:-7] + ': ' + str(command)[8:] + '\n\n')
+                    request_log.write(str(datetime.datetime.now())[:-7] + ': ' + str(command)[8:] + ' (' + str(usercode) + ')\n\n')
                 last_search, last_trend, stored_command_data = handle_command(command, channel, last_search, last_trend, stored_command_data)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:

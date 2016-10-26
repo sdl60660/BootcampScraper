@@ -3971,13 +3971,16 @@
         "general_cost": null, 
         "hiring_rate": null, 
         "last_updated": "2016-10-25", 
-        "locations": null, 
+        "locations": [
+            "Online"
+        ], 
         "name": "Codecademy", 
         "num_alumni": "N/A", 
-        "su_num_reviews": 4, 
+        "num_locations": 1, 
+        "su_num_reviews": 5, 
         "su_rating": 4.7, 
         "su_technologies": null, 
-        "subjects": "Web, Javascript, PHP, Ruby, Python, API", 
+        "subjects": "Web, Javascript, PHP, Ruby, Python, API, HTML, CSS", 
         "technologies": [], 
         "top_source": [
             "SwitchUp"
@@ -5743,9 +5746,7 @@
         "general_cost": "$", 
         "hiring_rate": null, 
         "last_updated": "2016-10-25", 
-        "locations": [
-            "Online"
-        ], 
+        "locations": null, 
         "name": "Codeschool", 
         "num_alumni": "N/A", 
         "num_locations": 1, 
@@ -6981,7 +6982,7 @@
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "scholarships": "90% Veteran Scholarship", 
-        "su_num_reviews": 29, 
+        "su_num_reviews": 30, 
         "su_rating": 4.8, 
         "su_technologies": [
             "Android", 
@@ -8512,9 +8513,7 @@
         "general_cost": "$", 
         "hiring_rate": null, 
         "last_updated": "2016-10-25", 
-        "locations": [
-            "Allendale"
-        ], 
+        "locations": null, 
         "name": "Devschool Io", 
         "num_alumni": 7, 
         "num_locations": 1, 
@@ -20406,7 +20405,7 @@
         "num_alumni": "N/A", 
         "num_locations": 1, 
         "scholarships": "$1,000 scholarship for women", 
-        "su_num_reviews": 4, 
+        "su_num_reviews": 5, 
         "su_rating": 5.0, 
         "su_technologies": [
             "CSS", 
@@ -20617,23 +20616,23 @@
         "su_num_reviews": 4, 
         "su_rating": 4.7, 
         "su_technologies": [
-            "C++", 
+            "AngularJS", 
+            "C#", 
             "CSS", 
             "HTML", 
             "JavaScript", 
             ".NET", 
-            "AngularJS", 
-            "C#"
+            "C++"
         ], 
         "subjects": "Web Development, Windows .NET development, Databases / SQL, Object oriented design and Model-View-Controller design patterns", 
         "technologies": [
-            "C++", 
+            "AngularJS", 
+            "C#", 
             "CSS", 
             "HTML", 
             "JavaScript", 
             ".NET", 
-            "AngularJS", 
-            "C#"
+            "C++"
         ], 
         "top_source": [
             "SwitchUp"
@@ -21188,7 +21187,7 @@
         }, 
         "general_cost": "$$$", 
         "hiring_rate": 93.0, 
-        "last_updated": "2016-10-24", 
+        "last_updated": "2016-10-25", 
         "locations": [
             "Wilmington"
         ], 
@@ -21315,7 +21314,7 @@
             "Girl Develop It", 
             "Acadgild"
         ], 
-        "Date/Time": "2016-10-25 09:42:07", 
+        "Date/Time": "2016-10-25 12:37:16", 
         "Days Out": 43, 
         "Detroit": [
             "Intensive Android Bootcamp", 
@@ -21356,7 +21355,6 @@
             " Guadalajara": 1, 
             "Akron": 1, 
             "Albuquerque": 3, 
-            "Allendale": 1, 
             "Amsterdam": 3, 
             "Ann Arbor": 1, 
             "Antskog": 1, 
