@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~/scrapy_projects/bootcamp_info
+
 #IN CASE NOT ALREADY ACTIVATED
 source ~/.virtualenvs/scrapy_venv/bin/activate
 

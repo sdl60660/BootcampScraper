@@ -13,9 +13,18 @@ from slacker import Slacker
 from helpers import input_to_searchkeys, is_number
 import datetime
 import random
+import csv
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
+from current_data.attribute_dict import Out_Dict, In_Dict
+
+term_list = []
+datafile = open('current_data/search_terms.csv', 'r')
+search_terms = csv.reader(datafile)
+for row in search_terms:
+    term_list.append((row[0], row[1]))
+
 
 # testbot's ID as an environment variable
 BOT_ID = os.environ.get("BOT_ID")
@@ -27,7 +36,7 @@ EXAMPLE_COMMAND = "do"
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
-plot_list = ['locations', 'technologies']
+plot_list = ['locations', 'technologies', 'class_ratio', 'num_courses', 'num_locations']
 tracking_groups = ['Java/.NET', 'Selected Camp', 'Top Camp', 'Potential Market', 'Current Market']
 active_start_db = datetime.date.today().toordinal() - datetime.date(2016, 9, 12).toordinal()
 
@@ -41,7 +50,7 @@ default_command_data = {
         'days': active_start_db,
         'max_items': 10,
         'tracking_group': None,
-        'current/trend': True
+        'current/trend': False
     }
 
 def insert_option_tags(command_string):
@@ -57,16 +66,21 @@ def insert_option_tags(command_string):
 def request_more_info(category, action, accept_list, channel):
     loop = True
     while loop:
-        response = "Please enter {} for the {} (i.e. {}, {})".format(category, action, accept_list[0],
-            accept_list[random.randint(1, (len(accept_list)-1))])
+        response = "Please enter {} for the {} (i.e. '{}', '{}')".format(category, action, str(accept_list[0]),
+            ' '.join(str(accept_list[random.randint(1, (len(accept_list)-1))]).split('_')))
         slack_client.api_call("chat.postMessage", channel=channel,
                   text=response, as_user=False, icon_emoji=':question:', username='Info Helper Bot')
         reply, channel, user = parse_slack_output(slack_client.rtm_read(), feedback=True)
         if reply:
-            x = return_closest(reply.lower(),accept_list, 0.8)
-            if x != -1:
-                loop = False
-                return x
+            if is_number(reply):
+                if is_number(reply) in accept_list:
+                    loop = False
+                    return reply
+            else:
+                x = return_closest(reply.lower(), accept_list, 0.8)
+                if x != -1:
+                    loop = False
+                    return x
 
 def handle_command(command, channel, last_search, last_trend, stored_command_data):
     default_emoji = ':key:'
@@ -173,20 +187,10 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
             return last_search, last_trend, stored_command_data
 
         #PARSE PLOT COMMAND DATA
-        def type_correct(command, string):
-            try:
-                command = int(command)
-            except ValueError:
-                command = command.split(',')
-                for i, x in enumerate(command):
-                    command[i] = x.strip().strip("'").strip('"')
-                if len(command) == 1:
-                    if string:
-                        command = str(command[0])
-            return command
+
 
         days_back = stored_command_data['days']
-        if pcommands[0].lower() == 'trend':
+        if 'trend' in pcommands:
             c_status = False
             if len(pcommands) > 1:
                 if is_number(pcommands[1]):
@@ -196,19 +200,31 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
         else:
             c_status = stored_command_data['current/trend']
 
-        #MAKE PLOT
+        
         if len(stored_command_data['camps']) > 0:
             tgroup_input = stored_command_data['camps']
         else:
             tgroup_input = stored_command_data['tracking_group']
 
-        if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.92):
+        #MAKE PLOT
+
+        #*"There were several categories in the last search, some or all of which can be used in a plot. Which would you like to plot?"*"
+        #for cat in stored_command_data['category']:
+        #print "\t\t\t{}".format(cat)
+
+        if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.92) != -1:
             if len(stored_command_data['category']) == 0:
                 stored_command_data['category'].append(request_more_info('category', 'plot', plot_list, channel))
+        else:
+            for item in pcommands:
+                if item in plot_list:
+                    match = return_closest(item, plot_list, 0.9)
+                    if match != -1:
+                        stored_command_data['category'].append(match)
 
-            plot_file_name, plot_title = tracking.plot_changes(days_back, stored_command_data['category'][0], current_status=c_status,
-                max_items=stored_command_data['max_items'], tracking_group=tgroup_input,
-                percentage=True, save_plot=True, slack_post=True, show_plot=False)
+        plot_file_name, plot_title = tracking.plot_changes(days_back, stored_command_data['category'][0], current_status=c_status,
+            max_items=stored_command_data['max_items'], tracking_group=tgroup_input,
+            percentage=True, save_plot=True, slack_post=True, show_plot=False)
 
         plot_file_name += '.png'
         emoji = default_emoji
@@ -252,7 +268,7 @@ def parse_slack_output(slack_rtm_output, feedback=False):
     """
     output_list = slack_rtm_output
     if output_list and len(output_list) > 0:
-        print output_list
+        #print output_list
         for output in output_list:
             if output and 'text' in output and AT_BOT in output['text']:
                 # return text after the @ mention, whitespace removed

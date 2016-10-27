@@ -43,3 +43,10 @@ def dict_print(in_dict, title):
         pprint(print_string, indent=4)
     print
     return
+
+def is_number(s):
+    try:
+        int(s)
+        return int(s)
+    except ValueError:
+        return False

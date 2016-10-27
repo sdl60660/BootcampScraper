@@ -1,7 +1,7 @@
 import datetime
 from datetime import date
 from dateutil.relativedelta import relativedelta
-from utilities import return_closest, dict_print
+from utilities import return_closest, dict_print, is_number
 
 from pprint import pprint
 import numpy as np
@@ -160,11 +160,11 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     
     #Import modules
     import matplotlib.pyplot as plt
-    import heapq
     import datetime
     from datetime import date
     import math
     from bootcamp_info.helper_functions.json_merge import create_meta_dict
+    from utilities import is_number
 
     def filter_data(data, list_of_camps):
         temp_dict = {}
@@ -177,6 +177,19 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         meta_entry = create_meta_dict(date_time, temp_dict)
         temp_dict['meta'] = meta_entry
         return temp_dict
+
+    def int_check(category, data):
+        out_data = []
+        for camp in data.keys():
+            if category in data[camp].keys():
+                item = data[camp][category]
+                if type(item) is int or type(item) is float:
+                    out_data.append(item)
+        return out_data
+
+
+    #------------------------------------------------------------------------------------------------
+
 
     #Set today's date for reference
     today = date.today()
@@ -201,6 +214,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         filtered_camps.append('meta')
     today_data = filter_data(today_data, filtered_camps)
 
+    if len(int_check(category, today_data)) > 0:
+        today_data['meta'][category] = int_check(category, today_data)
+
+
+    #------------------------------------------------------------------------------------------------
+
+
     #Initialize x-axis values and labels(dates) with the values for today or 'today'
     date_labels = [str(datetime.date.fromordinal(today_ordinal))[5:]]
     x_axis = [int(today_data['meta']['Days Out'])]
@@ -212,8 +232,9 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     #If all of the items in dataset aren't either a dict or a tracking category,
     #there's going to be an issue, so return with error message
-    if type(today_data['meta'][category]) != dict and category not in tracking_groups:
-        raise ValueError('The selected category cannot be plotted! Please enter another category.')
+    
+    #if type(today_data['meta'][category]) != dict and category not in tracking_groups:
+    #    raise ValueError('The selected category cannot be plotted! Please enter another category.')
 
     #Initialize the list of datasets with the dataset from today or 'today', as well as
     #the list that holds total # of bootcamps in each dataset
@@ -238,13 +259,19 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     #dated dataset meta data
     for day in range(1, (days_back+1), interval):
         try:
-            meta_data = filter_data(load_date_data(today_ordinal, day), filtered_camps)['meta']
+            day_data = filter_data(load_date_data(today_ordinal, day), filtered_camps)
+            if len(int_check(category, day_data)) > 0:
+                day_data['meta'][category] = int_check(category, day_data)
+            meta_data = day_data['meta']
+            
             if meta_data['Active'] == False and active_only == True:
                 raise NameError('Non-active date for datafile')
+            
             if subs == True:
                 datasets.append([meta_data[s_cat] for s_cat in subcats])
             else:
                 datasets.append(meta_data[category])
+
             totals.append(meta_data['Number of Entries'])
         #If there's no corresponding dataset for a date, mark it with 'NO DATA'
         except (KeyError, NameError):
@@ -259,12 +286,12 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     data_list = []
 
     #**************HERE**************#
-    #This function should combine what's in the list and dict options as much as possible
-    #so that there aren't so many overlapping/wasted lines
-    def fill_data_list():
-        pass
 
-    if type(datasets[0]) is list:
+    for i, x in enumerate(datasets):
+        if type(x) is list and len(x) == 1 and type(x[0]) is list:
+            datasets[i] = x[0]
+    
+    if type(datasets[0]) is list and type(datasets[0][0]) is not int and type(datasets[0][0]) is not float:
         for x, item in enumerate(subcats):
             num_list = []
             for i, s in enumerate(datasets):
@@ -278,8 +305,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             num_list = num_list[::-1]
             #print num_list
             data_list.append((num_list, item))
-
-
 
     elif type(datasets[0]) is dict:
         #Use the most recent dataset to determine the category items in the range start_item:max_items
@@ -295,7 +320,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         elif type(max_items) is list:
             cat_list = [x[0] for x in temp_list]
             max_items = [return_closest(x, cat_list, 0.85) for x in max_items if return_closest(x, cat_list, 0.85) != -1]
-            print max_items
             item_list = [x[0] for x in temp_list if x[0] in max_items]
         num_items = len(item_list)
 
@@ -321,16 +345,56 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             num_list = num_list[::-1]
             data_list.append((num_list, item))
 
+    else:
+        for i, s in enumerate(datasets):
+            if s != 'NO DATA':
+                data_list.append(s)
+            else:
+                data_list.append(None)
+
+
     #-----------------PLOT THE DATA-----------------#
 
     #Set up plot
     fig = plt.figure()
-    
-    if current_status == True:
-        #from mpl_toolkits.mplot3d import Axes3D
-        ax = plt.subplot(111)
-        #ax = plt.subplot(111, projection='3d')
+    ax = plt.subplot(111)
 
+    #print type(data_list[0]), type(data_list[0][0])
+    #print data_list[0], data_list[0][0]
+
+    if type(datasets[0]) is list and (type(datasets[0][0]) is (int or float)):
+        if current_status:
+            num_bins = len(set(datasets[0]))
+            """if num_bins > 30:
+                num_bins /= 2
+            elif 30 >= num_bins > 15:
+                num_bins = 15"""
+            n, bins, patches = ax.hist(datasets[0], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
+            plt.xlabel(' '.join(category.split('_')).title())
+            plt.ylabel('# of Camps')
+            title = "Distribution of Bootcamps' " + str(' '.join(category.split('_')).title()) + ' (as of last update)'
+        else:
+            import numpy as np
+            def mean(numbers):
+                return round(float(sum(numbers)) / max(len(numbers), 1), 1)
+            items = ['Max', 'Min', 'Mean', 'Median']
+            max_list = []
+            min_list = []
+            mean_list = []
+            median_list = []
+
+            for dset in datasets:
+                max_list.append(max(dset))
+                min_list.append(min(dset))
+                mean_list.append(mean(dset))
+                median_list.append(np.median(dset))
+            plots = [max_list, min_list, mean_list, median_list]
+            for i, ilist in enumerate(plots):
+                ax.plot(x_axis, ilist, label=items[i])
+
+            num_items = 8
+
+    elif current_status:
         bar_plot = []
         bar_labels = []
         for a, array in enumerate(data_list):
@@ -343,9 +407,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         #my_colors = 'rgbkymc'
         my_colors = []
         for x in range(len(bar_plot)):
-            #np.random.seed(item_name)
             my_colors.append(np.random.rand(3,1))
-        #my_colors = sorted(my_colors, key=lambda x: x[1])
         ax.bar(x_locations, bar_plot, color=my_colors, zorder=3)
 
         ax.set_xlabel(category.title())
@@ -368,25 +430,11 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         title = 'Showing Information on ' + str(category).title() + ' (as of last update)'
     
     else:
-        ax = plt.subplot(111)
-
         #Plot a line for each of the item lists in data_list
         for i, ilist in enumerate(data_list):
             print ilist
             print x_axis
             ax.plot(x_axis, ilist[0], label=ilist[1])
-
-        #Arrange, position, format the legend if show_legend is True
-        if show_legend == True:
-            columns = int(math.floor(num_items/2))
-            box = ax.get_position()
-            ax.set_position([box.x0, box.y0 + box.height * 0.1,
-                 box.width, box.height * 0.9])
-            ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
-                fancybox=True, shadow=True, ncol=columns)
-        
-        #Put date labels on the x_axis for each dataset's meta date field
-        plt.xticks(x_axis, date_labels, fontsize=8, rotation=60)
         
         #Set axis labels, adjust based on whether the setting was for raw number or percentage
         if percentage == False:
@@ -396,7 +444,20 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             plt.ylim([0,105])
         plt.xlabel('Date', fontsize='medium')
         plt.ylim(ymin=0)
-        
+
+    if not current_status:
+        #Put date labels on the x_axis for each dataset's meta date field
+        plt.xticks(x_axis, date_labels, fontsize=7, rotation=60)
+
+        #Arrange, position, format the legend if show_legend is True
+        if show_legend == True:
+            columns = int(math.floor(num_items/2))
+            box = ax.get_position()
+            ax.set_position([box.x0, box.y0 + box.height * 0.1,
+                 box.width, box.height * 0.9])
+            ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.075),
+                fancybox=True, shadow=True, ncol=columns)
+            
         #Set plot title
         if tracking_group == None:
             tgroup_label = ''
@@ -410,7 +471,10 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     
     fig.suptitle(title, fontsize=13)
     title = ''.join(title.split('\n'))
-    plot_title = title[(title.find('Information on ') + 15):]
+    if title.startswith('Distribution'):
+        plot_title = title
+    else:
+        plot_title = title[(title.find('Information on ') + 15):]
     if save_plot == True:
         if slack_post:
             subfolder = 'slack_requests'
