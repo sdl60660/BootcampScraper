@@ -237,8 +237,10 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     #If all of the items in dataset aren't either a dict or a tracking category,
     #there's going to be an issue, so return with error message
     
-    if type(today_data['meta'][category]) != dict and category not in tracking_groups and not non_meta_cat:
-        raise ValueError('The selected category cannot be plotted! Please enter another category.')
+    if (category == -1) or (type(today_data['meta'][category]) != dict and category not in tracking_groups and not non_meta_cat):
+        error_string = 'The selected category cannot be plotted! Please use another category.'
+        print error_string
+        return error_string, None
 
     #Initialize the list of datasets with the dataset from today or 'today', as well as
     #the list that holds total # of bootcamps in each dataset
@@ -289,7 +291,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     data_list = []
 
-    #**************HERE**************#
 
     for i, x in enumerate(datasets):
         if type(x) is list and len(x) == 1 and type(x[0]) is list:

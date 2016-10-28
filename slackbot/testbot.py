@@ -245,6 +245,8 @@ def handle_command(command, channel, stored_command_data):
 
         #Tracking Groups/Camps
         stored_command_data = populate_category(pcommands, tracking_groups, stored_command_data, 'tracking_group')
+        if stored_command_data['tracking_group']:
+            stored_command_data['tracking_group'] = stored_command_data['tracking_group'][0]
         stored_command_data = populate_category(pcommands, bootcamp_list, stored_command_data, 'camps')
 
         #Locations/Technologies
@@ -304,7 +306,7 @@ def handle_command(command, channel, stored_command_data):
         if len(stored_command_data['camps']) > 0:
             tgroup_input = stored_command_data['camps']
         else:
-            tgroup_input = stored_command_data['tracking_group'][0]
+            tgroup_input = stored_command_data['tracking_group']
             
 
         #=====================MAKE PLOT=====================
@@ -314,9 +316,14 @@ def handle_command(command, channel, stored_command_data):
             max_items=items, tracking_group=tgroup_input,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
 
+        if not plot_title:
+            plot = False
+            text_post = True
+            response = plot_file_name
+            emoji = ':no_entry_sign:'
+            user = 'Error Bot'
+        
         plot_file_name += '.png'
-        emoji = default_emoji
-        user = default_user
 
     if command.lower().startswith('terms'):
         emoji = default_emoji
