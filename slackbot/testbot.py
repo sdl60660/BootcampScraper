@@ -36,21 +36,31 @@ EXAMPLE_COMMAND = "do"
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
-plot_list = ['locations', 'technologies', 'class_ratio', 'num_courses', 'num_locations']
+plot_list = ['technologies'] + [x[0] for x in term_list if x[1] == 'Category' and x[0] != 'technologies'] + ['Cost','Hours/Week', 'tweets', 'followers']
+for cat in ['last_updated', 'twitter', 'accreditation', 'housing', 'cr_technologies', 'visas', 'top_source', 'email', 'website', 'tracking_groups',
+'tracks', 'facebook', 'name', 'job_guarantee', 'courses', 'subjects', 'scholarships', 'su_technologies', 'general_cost', 'cost_estimate',
+'matriculation_stats']:
+    plot_list.remove(cat)
+for x in plot_list:
+    if x in Out_Dict.keys():
+        plot_list.append(Out_Dict[x])
+
+tech_list = [x[0] for x in term_list if x[1] == 'Technology']
+location_list = [x[0] for x in term_list if x[1] == 'Location']
+bootcamp_list = [x[0] for x in term_list if x[1] == 'Bootcamp']
 tracking_groups = ['Java/.NET', 'Selected Camp', 'Top Camp', 'Potential Market', 'Current Market']
+
 active_start_db = datetime.date.today().toordinal() - datetime.date(2016, 9, 12).toordinal()
 
 default_command_data = {
         'category': [],
         'camps': [],
-        'items': {
-            'technologies': [],
-            'locations': []
-        },
+        'technologies': [],
+        'locations': [],
         'days': active_start_db,
         'max_items': 10,
         'tracking_group': None,
-        'current/trend': False
+        'current/trend': True
     }
 
 def insert_option_tags(command_string):
@@ -64,8 +74,7 @@ def insert_option_tags(command_string):
     return new_command_string
 
 def request_more_info(category, action, accept_list, channel):
-    loop = True
-    while loop:
+    while True:
         response = "Please enter {} for the {} (i.e. '{}', '{}')".format(category, action, str(accept_list[0]),
             ' '.join(str(accept_list[random.randint(1, (len(accept_list)-1))]).split('_')))
         slack_client.api_call("chat.postMessage", channel=channel,
@@ -74,15 +83,32 @@ def request_more_info(category, action, accept_list, channel):
         if reply:
             if is_number(reply):
                 if is_number(reply) in accept_list:
-                    loop = False
                     return reply
             else:
                 x = return_closest(reply.lower(), accept_list, 0.8)
                 if x != -1:
-                    loop = False
                     return x
 
-def handle_command(command, channel, last_search, last_trend, stored_command_data):
+def populate_category(pcommands, cat_list, stored_command_data, cat):
+    if any(return_closest(x, cat_list, 0.8) != -1 for x in pcommands):
+        stored_command_data[cat] = []
+    for x in pcommands:
+        if return_closest(x, cat_list, 0.8) != -1:
+            stored_command_data[cat].append(x)
+    return stored_command_data
+
+def handle_command(command, channel, stored_command_data):
+    default_command_data = {
+        'category': [],
+        'camps': [],
+        'technologies': [],
+        'locations': [],
+        'days': active_start_db,
+        'max_items': 10,
+        'tracking_group': None,
+        'current/trend': True
+    }
+
     default_emoji = ':key:'
     default_user = 'searchbot'
 
@@ -186,44 +212,106 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
                               text=response, as_user=False, username=user, icon_emoji=emoji)
             return last_search, last_trend, stored_command_data
 
-        #PARSE PLOT COMMAND DATA
+        #==============PARSE PLOT COMMAND DATA==============
 
-
-        days_back = stored_command_data['days']
-        if 'trend' in pcommands:
-            c_status = False
-            if len(pcommands) > 1:
-                if is_number(pcommands[1]):
-                    days_back = int(pcommands[1])
-                elif pcommands[1].lower() == 'max':
-                    days_back = active_start_db
+        #"That" Plot From Search
+        if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.9) != -1:
+            plot_cat = stored_command_data['category'][0]
         else:
-            c_status = stored_command_data['current/trend']
+            stored_command_data = default_command_data
 
+        #Current vs. Trend
+        if any(x in pcommands for x in ['trend', 'Trend', 'past', 'Past']):
+            c_status = False
+            stored_command_data['current/trend'] = False
+        else:
+            c_status = True
+            stored_command_data['current/trend'] = True
+
+        #Days Back
+        days_back = stored_command_data['days']
+
+        if 'trend' in pcommands and len(pcommands) > (pcommands.index('trend')+1):
+            print pcommands.index('trend')
+            if is_number(pcommands[pcommands.index('trend')+1]):
+                days_back = int(pcommands[1])
+            elif 'max' in pcommands:
+                days_back = active_start_db
+        else:
+            for x in pcommands:
+                if is_number(x):
+                    stored_command_data['max_items'] = int(x)
+                    break
+
+        #Tracking Groups/Camps
+        stored_command_data = populate_category(pcommands, tracking_groups, stored_command_data, 'tracking_group')
+        stored_command_data = populate_category(pcommands, bootcamp_list, stored_command_data, 'camps')
+
+        #Locations/Technologies
+        stored_command_data = populate_category(pcommands, tech_list, stored_command_data, 'technologies')
+        stored_command_data = populate_category(pcommands, location_list, stored_command_data, 'locations')
         
+        if len(stored_command_data['technologies']) > 0:
+            stored_command_data['category'].append('technologies')
+        if len(stored_command_data['locations']) > 0:
+            stored_command_data['category'].append('locations')
+        
+        #Categories
+        for item in pcommands:
+            match = return_closest(item, plot_list, 0.8)
+            if match != -1:
+                if match in In_Dict.keys():
+                    match = In_Dict[match]
+                stored_command_data['category'].append(match)
+        stored_command_data['category'] = list(set(stored_command_data['category']))
+
+        if len(stored_command_data['category']) == 0:
+            stored_command_data['category'] = [request_more_info('category', 'plot', plot_list, channel)]
+            if stored_command_data['category'][0] in In_Dict.keys():
+                stored_command_data['category'][0] = In_Dict[stored_command_data['category'][0]]
+        elif len(stored_command_data['category']) > 1:
+            string = "*There were several categories in the last search, some or all of which can be used in a plot. Which would you like to plot?*\n"
+            for cat in stored_command_data['category']:
+                if cat in Out_Dict.keys():
+                    display_cat = Out_Dict[cat]
+                else:
+                    display_cat = cat
+                string += "\t\t\t{}\n".format(display_cat)
+            resolved = False
+            slack_client.api_call("chat.postMessage", channel=channel,
+                  text=string, as_user=False, icon_emoji=':question:', username='Info Helper Bot')
+            while resolved == False:
+                reply, channel, user = parse_slack_output(slack_client.rtm_read(), feedback=True)
+                if reply:
+                    if return_closest(reply, In_Dict.keys(), 0.8) != -1:
+                        reply = In_Dict[reply]
+                    if return_closest(reply, stored_command_data['category'], 0.8) != -1:
+                        stored_command_data['category'] = [return_closest(reply, stored_command_data['category'], 0.8)]
+                        resolved = True
+                    else:
+                        text = "Sorry, that doesn't appear to be one of the categories. Check for badly-butchered misspellings or tell Sam that his code is broken."
+                        slack_client.api_call("chat.postMessage", channel=channel,
+                            text=text, as_user=False, icon_emoji=':question:', username='Info Helper Bot')
+
+        plot_cat = stored_command_data['category'][0]
+        if plot_cat == 'technologies' and len(stored_command_data['technologies']) > 0:
+            items = stored_command_data['technologies']
+        elif plot_cat == 'locations' and len(stored_command_data['locations']) > 0:  
+            items = stored_command_data['locations']
+        else:
+            items = stored_command_data['max_items']
+
         if len(stored_command_data['camps']) > 0:
             tgroup_input = stored_command_data['camps']
         else:
-            tgroup_input = stored_command_data['tracking_group']
+            tgroup_input = stored_command_data['tracking_group'][0]
+            
 
-        #MAKE PLOT
+        #=====================MAKE PLOT=====================
+        print days_back, plot_cat, c_status, items, tgroup_input
 
-        #*"There were several categories in the last search, some or all of which can be used in a plot. Which would you like to plot?"*"
-        #for cat in stored_command_data['category']:
-        #print "\t\t\t{}".format(cat)
-
-        if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.92) != -1:
-            if len(stored_command_data['category']) == 0:
-                stored_command_data['category'].append(request_more_info('category', 'plot', plot_list, channel))
-        else:
-            for item in pcommands:
-                if item in plot_list:
-                    match = return_closest(item, plot_list, 0.9)
-                    if match != -1:
-                        stored_command_data['category'].append(match)
-
-        plot_file_name, plot_title = tracking.plot_changes(days_back, stored_command_data['category'][0], current_status=c_status,
-            max_items=stored_command_data['max_items'], tracking_group=tgroup_input,
+        plot_file_name, plot_title = tracking.plot_changes(days_back, plot_cat, current_status=c_status,
+            max_items=items, tracking_group=tgroup_input,
             percentage=True, save_plot=True, slack_post=True, show_plot=False)
 
         plot_file_name += '.png'
@@ -237,6 +325,10 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     if command.lower().startswith('groups'):
         emoji = default_emoji
         user = default_user
+
+
+    #=====================================================================
+    #=====================================================================
 
 
     if text_post:
@@ -258,7 +350,7 @@ def handle_command(command, channel, last_search, last_trend, stored_command_dat
     """slack_client.api_call("chat.postMessage", channel=channel,
                               text=last_command, as_user=False, username=user, icon_emoji=emoji)"""
 
-    return last_search, last_trend, stored_command_data
+    return stored_command_data
 
 def parse_slack_output(slack_rtm_output, feedback=False):
     """
@@ -281,8 +373,6 @@ def parse_slack_output(slack_rtm_output, feedback=False):
 
 
 if __name__ == "__main__":
-    last_search = None
-    last_trend = None
     stored_command_data = default_command_data
     READ_WEBSOCKET_DELAY = 0.3 # 0.3 second delay between reading from firehose
     search_log = open('logs/slackbot_logs/slackbot_log.txt', 'a')
@@ -297,7 +387,7 @@ if __name__ == "__main__":
                 print command.lower()
                 if command.lower().startswith('request'):
                     request_log.write(str(datetime.datetime.now())[:-7] + ': ' + str(command)[8:] + ' (' + str(usercode) + ')\n\n')
-                last_search, last_trend, stored_command_data = handle_command(command, channel, last_search, last_trend, stored_command_data)
+                stored_command_data = handle_command(command, channel, stored_command_data)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")

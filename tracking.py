@@ -39,14 +39,16 @@ def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     
     if target_date.weekday() == 6:
         try:
-            filename = generate_filename(target_date, tracking_group)
-            return json.load(open(filename, 'rb'))
+            return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
         except IndexError:
-            target_date = date.fromordinal(today_ordinal - ordinal_back - 2)
+            try:
+                target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
+                return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
+            except IndexError:
+                target_date = date.fromordinal(today_ordinal - ordinal_back - 2)
     elif target_date.weekday() == 5:
         try:
-            filename = generate_filename(target_date, tracking_group)
-            return json.load(open(filename, 'rb'))
+            return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
         except IndexError:
             target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
     try:
@@ -214,8 +216,10 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         filtered_camps.append('meta')
     today_data = filter_data(today_data, filtered_camps)
 
+    non_meta_cat = False
     if len(int_check(category, today_data)) > 0:
         today_data['meta'][category] = int_check(category, today_data)
+        non_meta_cat = True
 
 
     #------------------------------------------------------------------------------------------------
@@ -233,8 +237,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     #If all of the items in dataset aren't either a dict or a tracking category,
     #there's going to be an issue, so return with error message
     
-    #if type(today_data['meta'][category]) != dict and category not in tracking_groups:
-    #    raise ValueError('The selected category cannot be plotted! Please enter another category.')
+    if type(today_data['meta'][category]) != dict and category not in tracking_groups and not non_meta_cat:
+        raise ValueError('The selected category cannot be plotted! Please enter another category.')
 
     #Initialize the list of datasets with the dataset from today or 'today', as well as
     #the list that holds total # of bootcamps in each dataset
@@ -359,22 +363,24 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     fig = plt.figure()
     ax = plt.subplot(111)
 
-    #print type(data_list[0]), type(data_list[0][0])
-    #print data_list[0], data_list[0][0]
+    os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
+    from current_data.attribute_dict import In_Dict, Out_Dict
+    if category in Out_Dict.keys():
+        cat_label = Out_Dict[category]
+    else:
+        cat_label = ' '.join(category.split('_')).title()
 
-    if type(datasets[0]) is list and (type(datasets[0][0]) is (int or float)):
+    import numpy as np
+
+    if type(datasets[0]) is list and (type(datasets[0][0]) is int or type(datasets[0][0]) is float):
         if current_status:
-            num_bins = len(set(datasets[0]))
-            """if num_bins > 30:
-                num_bins /= 2
-            elif 30 >= num_bins > 15:
-                num_bins = 15"""
+            num_bins = max([int(max(datasets[0]) - min(datasets[0])), len(set(datasets[0]))])
             n, bins, patches = ax.hist(datasets[0], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
-            plt.xlabel(' '.join(category.split('_')).title())
+            plt.xlabel(cat_label)
             plt.ylabel('# of Camps')
-            title = "Distribution of Bootcamps' " + str(' '.join(category.split('_')).title()) + ' (as of last update)'
+            plt.xlim([0,max(datasets[0])])
+            title = "Distribution of Bootcamps' " + str(cat_label) + ' (as of {})'.format(str(date_labels[-1]))
         else:
-            import numpy as np
             def mean(numbers):
                 return round(float(sum(numbers)) / max(len(numbers), 1), 1)
             items = ['Max', 'Min', 'Mean', 'Median']
@@ -411,7 +417,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         ax.bar(x_locations, bar_plot, color=my_colors, zorder=3)
 
         ax.set_xlabel(category.title())
-        y_label = 'Prevelance Among Selected Bootcamps (%s)' % ('Total' if percentage==False else '%')
+        y_label = 'Prevelance Among Bootcamp Group (%s)' % ('Total' if percentage==False else '%')
         ax.set_ylabel(y_label)
 
         ax.grid(zorder=0)
@@ -427,7 +433,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             tick_locations = [loc + 0.125 for loc in tick_locations]
         plt.xticks(tick_locations, bar_labels, rotation=rot, fontsize=fsize)
         
-        title = 'Showing Information on ' + str(category).title() + ' (as of last update)'
+        title = 'Showing Information on ' + cat_label + ' (as of {})'.format(str(date_labels[-1]))
     
     else:
         #Plot a line for each of the item lists in data_list
@@ -452,6 +458,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         #Arrange, position, format the legend if show_legend is True
         if show_legend == True:
             columns = int(math.floor(num_items/2))
+            if columns > 6:
+                columns = 6
             box = ax.get_position()
             ax.set_position([box.x0, box.y0 + box.height * 0.1,
                  box.width, box.height * 0.9])
@@ -466,7 +474,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         else:
             tgroup_label = ' (Tracking Group: Previous Result)'
         
-        title = 'Showing Information on ' + str(category).title() + ' for: ' \
+        title = 'Showing Information on ' + cat_label + ' for: ' \
          + date_labels[0] + ' to ' + date_labels[-1] + '\n' + tgroup_label
     
     fig.suptitle(title, fontsize=13)
