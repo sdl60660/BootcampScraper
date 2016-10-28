@@ -36,7 +36,8 @@ EXAMPLE_COMMAND = "do"
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
-plot_list = ['technologies'] + [x[0] for x in term_list if x[1] == 'Category' and x[0] != 'technologies'] + ['Cost','Hours/Week', 'tweets', 'followers']
+sub_course_cats = ['Cost','Hours/Week', 'tweets', 'followers']
+plot_list = ['technologies'] + [x[0] for x in term_list if x[1] == 'Category' and x[0] != 'technologies'] + sub_course_cats
 for cat in ['last_updated', 'twitter', 'accreditation', 'housing', 'cr_technologies', 'visas', 'top_source', 'email', 'website', 'tracking_groups',
 'tracks', 'facebook', 'name', 'job_guarantee', 'courses', 'subjects', 'scholarships', 'su_technologies', 'general_cost', 'cost_estimate',
 'matriculation_stats']:
@@ -296,6 +297,12 @@ def handle_command(command, channel, stored_command_data):
                             text=text, as_user=False, icon_emoji=':question:', username='Info Helper Bot')
 
         plot_cat = stored_command_data['category'][0]
+        if plot_cat in sub_course_cats:
+            for x in term_list:
+                if x[0] == plot_cat:
+                    plot_cat = (x[0], x[1])
+                    break
+        
         if plot_cat == 'technologies' and len(stored_command_data['technologies']) > 0:
             items = stored_command_data['technologies']
         elif plot_cat == 'locations' and len(stored_command_data['locations']) > 0:  
@@ -308,9 +315,7 @@ def handle_command(command, channel, stored_command_data):
         else:
             tgroup_input = stored_command_data['tracking_group']
             
-
         #=====================MAKE PLOT=====================
-        print days_back, plot_cat, c_status, items, tgroup_input
 
         plot_file_name, plot_title = tracking.plot_changes(days_back, plot_cat, current_status=c_status,
             max_items=items, tracking_group=tgroup_input,
@@ -400,8 +405,6 @@ if __name__ == "__main__":
         print("Connection failed. Invalid Slack token or bot ID?")
     search_log.close()
     request_log.close()
-
-
 
     #DOESN'T WORK YET, BUT SHOULD PROMPT A HELP TEXT TO BE SENT
     """if command.startswith('help'):

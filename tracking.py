@@ -180,11 +180,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         temp_dict['meta'] = meta_entry
         return temp_dict
 
-    def int_check(category, data):
+    def int_check(category, data, child_cat=None):
         out_data = []
         for camp in data.keys():
             if category in data[camp].keys():
                 item = data[camp][category]
+                if child_cat and data[camp][category] and child_cat in data[camp][category].keys():
+                    item = data[camp][category][child_cat]
                 if type(item) is int or type(item) is float:
                     out_data.append(item)
         return out_data
@@ -217,8 +219,19 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     today_data = filter_data(today_data, filtered_camps)
 
     non_meta_cat = False
-    if len(int_check(category, today_data)) > 0:
-        today_data['meta'][category] = int_check(category, today_data)
+    child_cat = None
+    if type(category) is tuple:
+        child_cat = category[0]
+        category = category[1]
+        
+    if len(int_check(category, today_data, child_cat)) > 0:
+        if child_cat:
+            today_data['meta'][child_cat] = int_check(category, today_data, child_cat)
+            parent_cat = category
+            category = child_cat
+        else:
+            today_data['meta'][category] = int_check(category, today_data)
+            parent_cat = None
         non_meta_cat = True
 
 
@@ -371,16 +384,35 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     else:
         cat_label = ' '.join(category.split('_')).title()
 
+    if parent_cat:
+        cat_label += ' ({})'.format(parent_cat.title())
+
     import numpy as np
 
     if type(datasets[0]) is list and (type(datasets[0][0]) is int or type(datasets[0][0]) is float):
         if current_status:
-            num_bins = max([int(max(datasets[0]) - min(datasets[0])), len(set(datasets[0]))])
-            n, bins, patches = ax.hist(datasets[0], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
+            plt.xlim([0,max(datasets[0])])
             plt.xlabel(cat_label)
             plt.ylabel('# of Camps')
-            plt.xlim([0,max(datasets[0])])
             title = "Distribution of Bootcamps' " + str(cat_label) + ' (as of {})'.format(str(date_labels[-1]))
+
+            num_bins = max([int(max(datasets[0]) - min(datasets[0])), len(set(datasets[0]))])
+            if num_bins > 100:
+                from math import ceil
+                max_bin = np.log10(max(datasets[0]))
+                num_bins = np.logspace(0.1, max_bin, 50)
+
+                plt.xlim([1,10*ceil(max_bin)])
+                plt.xscale('log')
+
+                ticks = [int(x) for x in np.logspace(1,ceil(max_bin), ceil(max_bin))]
+                print ticks
+                tick_labels = [str(x) for x in ticks]
+                print tick_labels
+                plt.xticks(ticks, tick_labels)
+
+            n, bins, patches = ax.hist(datasets[0], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
+
         else:
             def mean(numbers):
                 return round(float(sum(numbers)) / max(len(numbers), 1), 1)
