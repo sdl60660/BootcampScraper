@@ -226,8 +226,9 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         if type(tracking_group) is str:
             tracking_group = return_closest(tracking_group, tracking_groups, 0.7)
             filtered_camps = [camp for camp in today_data.keys() if camp != 'meta' and tracking_group in today_data[camp]['tracking_groups']]
-            
+            camp_display = False
         elif type(tracking_group) is list:
+            camp_display = True
             filtered_camps = [return_closest(camp, today_data.keys(), 0.93) for camp in tracking_group if return_closest(camp, today_data.keys(), 0.93) != -1]
         filtered_camps.append('meta')
     today_data = filter_data(today_data, filtered_camps)
@@ -250,6 +251,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         else:
             today_data['meta'][category] = out_data
         non_meta_cat = True
+    if camp_display:
+        camp_sets = [out_camps]
 
 
     #------------------------------------------------------------------------------------------------
@@ -293,7 +296,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     #Fill these x-axis, label, dataset, total bootcamp lists with data from appropriately
     #dated dataset meta data
-    #==========LOAD DATESETS==========
+    #==========LOAD DATASETS==========
     for day in range(1, (days_back+1), interval):
         try:
             day_data = filter_data(load_date_data(today_ordinal, day), filtered_camps)
@@ -311,6 +314,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                     day_data['meta'][category] = out_data
                     parent_cat = None
             meta_data = day_data['meta']
+            if camp_display:
+                camp_sets.append(out_camps)
 
             if meta_data['Active'] == False and active_only == True:
                 raise NameError('Non-active date for datafile')
@@ -403,6 +408,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             else:
                 data_list.append(None)
         datasets = data_list[::-1]
+        camp_sets = camp_sets[::-1]
 
     #-----------------PLOT THE DATA-----------------#
 
@@ -452,8 +458,19 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             mean_list = []
             median_list = []
 
-            for dset in datasets:
+            if camp_display:
+                camp_dict = {}
+                for camp in filtered_camps:
+                    camp_dict[camp] = []
+                del camp_dict['meta']
+
+            for i, dset in enumerate(datasets):
                 if dset:
+                    for camp in camp_dict.keys():
+                        try:
+                            camp_dict[camp].append(dset[camp_sets[i].index(camp)])
+                        except IndexError:
+                            camp_dict[camp].append(None)
                     max_list.append(max(dset))
                     min_list.append(min(dset))
                     mean_list.append(mean(dset))
@@ -464,11 +481,17 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                     mean_list.append(None)
                     median_list.append(None)
             plots = [max_list, min_list, mean_list, median_list]
-            for i, ilist in enumerate(plots):
-                ax.plot(x_axis, ilist, label=items[i])
+            
+            if camp_display:
+                for camp in camp_dict.keys():
+                    ax.plot(x_axis, camp_dict[camp], label=camp)
+                ax.plot(x_axis, mean_list, label='Mean')
+                ax.plot(x_axis, median_list, label='Median')
+            else:
+                for i, ilist in enumerate(plots):
+                    ax.plot(x_axis, ilist, label=items[i])
 
-            plt.ylim([0,int(max(max_list) + max(max_list)/10)])
-
+            plt.ylim([0,math.ceil(max(max_list) + max(max_list)/10.0)])
             num_items = 8
 
     elif current_status:
