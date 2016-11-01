@@ -222,11 +222,11 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         today_ordinal = today_ordinal - start_days_back
 
     filtered_camps = [camp for camp in today_data.keys()]
+    camp_display = False
     if tracking_group and tracking_group != 'ALL':
         if type(tracking_group) is str:
             tracking_group = return_closest(tracking_group, tracking_groups, 0.7)
             filtered_camps = [camp for camp in today_data.keys() if camp != 'meta' and tracking_group in today_data[camp]['tracking_groups']]
-            camp_display = False
         elif type(tracking_group) is list:
             camp_display = True
             filtered_camps = [return_closest(camp, today_data.keys(), 0.93) for camp in tracking_group if return_closest(camp, today_data.keys(), 0.93) != -1]
@@ -427,50 +427,85 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         cat_label += ' ({})'.format(parent_cat.title())
 
     if type(datasets[-1]) is list and is_number(datasets[-1][-1]):
+        def mean(numbers):
+                return round(float(sum(numbers)) / max(len(numbers), 1), 1)
+
+        if camp_display:
+            camp_dict = {}
+            for camp in filtered_camps:
+                camp_dict[camp] = []
+            del camp_dict['meta']
+        for i, dset in enumerate(datasets):
+            if dset:
+                for camp in camp_dict.keys():
+                    try:
+                        camp_dict[camp].append(dset[camp_sets[i].index(camp)])
+                    except (IndexError, ValueError):
+                        camp_dict[camp].append(None)
+
         if current_status:
-            plt.xlim([0,max(datasets[-1])])
-            plt.xlabel(cat_label)
-            plt.ylabel('# of Camps')
-            title = "Distribution of Bootcamps' " + str(cat_label) + ' (as of {})'.format(str(date_labels[-1]))
+            if camp_display:
+                tick_labels = []
+                bar_heights = []
+                for camp in camp_dict.keys():
+                    tick_labels.append(camp)
+                    if camp_dict[camp][-1]:
+                        bar_heights.append(camp_dict[camp][-1])
 
-            num_bins = max([int(max(datasets[-1]) - min(datasets[-1])), len(set(datasets[-1]))])
-            
-            if num_bins > 150:
-                from math import ceil
-                max_bin = np.log10(max(datasets[-1]))
-                num_bins = np.logspace(0.1, max_bin, 50)
+                #Sort bars by height
+                tick_labels, bar_heights = zip(*sorted(zip(tick_labels, bar_heights), key=lambda x: x[1], reverse=True))
+                tick_labels, bar_heights = list(tick_labels), list(bar_heights)
 
-                plt.xlim([1,10*ceil(max_bin)])
-                plt.xscale('log')
+                tick_labels = ['Median'] + tick_labels
+                bar_heights = [(mean(bar_heights))] + bar_heights
+                ind = np.arange(1, (len(bar_heights)+1))
+                width = 0.75
 
-                ticks = [int(x) for x in np.logspace(1,ceil(max_bin), ceil(max_bin))]
-                tick_labels = [str(x) for x in ticks]
-                plt.xticks(ticks, tick_labels)
+                my_colors = [np.random.rand(3,1) for x in range(len(bar_heights) + 1)]
 
-            n, bins, patches = ax.hist(datasets[-1], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
+                ax.set_ylabel(cat_label)
+                ax.set_xlabel('Camp Name')
+                ax.set_xticks(ind + (width/2.0)) 
+                """for i, x in enumerate(tick_labels):
+                    tick_labels[i] = '\n'.join(x.split(' '))"""
+                ax.set_xticklabels(tick_labels, fontsize=7, rotation=90)
+
+                median = ax.bar(ind[0], bar_heights[0], width, color=my_colors[0], alpha=1.0)
+                rectangles = ax.bar(ind[1:], bar_heights[1:], width, color=my_colors[1:], alpha=0.5)
+
+                title = str(cat_label) + ' for Bootcamps In Set (as of {})'.format(str(date_labels[-1]))
+
+            else:
+                plt.xlim([0,max(datasets[-1])])
+                plt.xlabel(cat_label)
+                plt.ylabel('# of Camps')
+                title = "Distribution of Bootcamps' " + str(cat_label) + ' (as of {})'.format(str(date_labels[-1]))
+
+                num_bins = max([int(max(datasets[-1]) - min(datasets[-1])), len(set(datasets[-1]))])
+                
+                if num_bins > 150:
+                    from math import ceil
+                    max_bin = np.log10(max(datasets[-1]))
+                    num_bins = np.logspace(0.1, max_bin, 50)
+
+                    plt.xlim([1,10*ceil(max_bin)])
+                    plt.xscale('log')
+
+                    ticks = [int(x) for x in np.logspace(1,ceil(max_bin), ceil(max_bin))]
+                    tick_labels = [str(x) for x in ticks]
+                    plt.xticks(ticks, tick_labels)
+
+                n, bins, patches = ax.hist(datasets[-1], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
 
         else:
-            def mean(numbers):
-                return round(float(sum(numbers)) / max(len(numbers), 1), 1)
             items = ['Max', 'Min', 'Mean', 'Median']
             max_list = []
             min_list = []
             mean_list = []
             median_list = []
 
-            if camp_display:
-                camp_dict = {}
-                for camp in filtered_camps:
-                    camp_dict[camp] = []
-                del camp_dict['meta']
-
             for i, dset in enumerate(datasets):
                 if dset:
-                    for camp in camp_dict.keys():
-                        try:
-                            camp_dict[camp].append(dset[camp_sets[i].index(camp)])
-                        except IndexError:
-                            camp_dict[camp].append(None)
                     max_list.append(max(dset))
                     min_list.append(min(dset))
                     mean_list.append(mean(dset))
@@ -485,8 +520,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             if camp_display:
                 for camp in camp_dict.keys():
                     ax.plot(x_axis, camp_dict[camp], label=camp)
-                ax.plot(x_axis, mean_list, label='Mean')
-                ax.plot(x_axis, median_list, label='Median')
+                ax.plot(x_axis, mean_list, 'r--', label='Mean')
+                ax.plot(x_axis, median_list, 'y--', label='Median')
             else:
                 for i, ilist in enumerate(plots):
                     ax.plot(x_axis, ilist, label=items[i])
