@@ -251,8 +251,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         else:
             today_data['meta'][category] = out_data
         non_meta_cat = True
-    if camp_display:
-        camp_sets = [out_camps]
+    camp_sets = [out_camps]
 
 
     #------------------------------------------------------------------------------------------------
@@ -430,8 +429,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         def mean(numbers):
                 return round(float(sum(numbers)) / max(len(numbers), 1), 1)
 
+        camp_dict = {}
         if camp_display:
-            camp_dict = {}
             for camp in filtered_camps:
                 camp_dict[camp] = []
             del camp_dict['meta']
