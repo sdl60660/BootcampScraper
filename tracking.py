@@ -608,7 +608,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     
     fig.suptitle(title, fontsize=13)
     title = ''.join(title.split('\n'))
-    if title.startswith('Distribution'):
+    if title.startswith('Distribution') or title.startswith(cat_label):
         plot_title = title
     else:
         plot_title = title[(title.find('Information on ') + 15):]

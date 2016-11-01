@@ -65,7 +65,6 @@ def summary_dict(bootcamps, category):
             return -1, temp_dict, warning_list
 
     if int_cat:
-        print temp_dict['List']
         temp_dict['Max'] = max(temp_dict['List'])
         temp_dict['Mean'] = mean(temp_dict['List'])
         temp_dict['Median'] = round((np.median(temp_dict['List'])), 1)
