@@ -76,8 +76,9 @@ def insert_option_tags(command_string):
 
 def request_more_info(category, action, accept_list, channel):
     while True:
-        response = "Please enter {} for the {} (i.e. '{}', '{}')".format(category, action, str(accept_list[0]),
-            ' '.join(str(accept_list[random.randint(1, (len(accept_list)-1))]).split('_')))
+        display_list = [Out_Dict[x] if x in Out_Dict.keys() else x for x in accept_list]
+        response = "Please enter {} for the {} (i.e. '{}', '{}')".format(category, action, str(display_list[0]),
+            ' '.join(str(display_list[random.randint(1, (len(display_list)-1))]).split('_')))
         slack_client.api_call("chat.postMessage", channel=channel,
                   text=response, as_user=False, icon_emoji=':question:', username='Info Helper Bot')
         reply, channel, user = parse_slack_output(slack_client.rtm_read(), feedback=True)
@@ -233,9 +234,8 @@ def handle_command(command, channel, stored_command_data):
         days_back = stored_command_data['days']
 
         if 'trend' in pcommands and len(pcommands) > (pcommands.index('trend')+1):
-            print pcommands.index('trend')
             if is_number(pcommands[pcommands.index('trend')+1]):
-                days_back = int(pcommands[1])
+                days_back = int(pcommands[pcommands.index('trend')+1])
             elif 'max' in pcommands:
                 days_back = active_start_db
         else:
@@ -399,7 +399,12 @@ if __name__ == "__main__":
                 print command.lower()
                 if command.lower().startswith('request'):
                     request_log.write(str(datetime.datetime.now())[:-7] + ': ' + str(command)[8:] + ' (' + str(usercode) + ')\n\n')
+                #try:
                 stored_command_data = handle_command(command, channel, stored_command_data)
+                """except TypeError:
+                    response = "Sorry, something went wrong with your search. Check your search terms and your quotes or go tell Sam he messed something up."
+                    slack_client.api_call("chat.postMessage", channel=channel,
+                              text=response, as_user=False, username='Error Bot', icon_emoji=':no_entry_sign:')"""
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")

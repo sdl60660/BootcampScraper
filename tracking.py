@@ -167,6 +167,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     import math
     from bootcamp_info.helper_functions.json_merge import create_meta_dict
     from utilities import is_number
+    import numpy as np
 
     def filter_data(data, list_of_camps):
         temp_dict = {}
@@ -182,14 +183,27 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     def int_check(category, data, child_cat=None):
         out_data = []
+        out_camps = []
         for camp in data.keys():
             if category in data[camp].keys():
                 item = data[camp][category]
-                if child_cat and data[camp][category] and child_cat in data[camp][category].keys():
-                    item = data[camp][category][child_cat]
+
+                if child_cat and data[camp][category]:
+                    if child_cat in data[camp][category].keys():
+                        item = data[camp][category][child_cat]
+                    else:
+                        course_att_list = [data[camp][category][course][child_cat] for course in data[camp][category].keys() \
+                        if child_cat in data[camp][category][course].keys() and data[camp][category][course][child_cat]]
+                        
+                        if len(course_att_list) > 0:
+                            item = int(max(course_att_list))
+                        else:
+                            item = 'N/A'
+
                 if type(item) is int or type(item) is float:
                     out_data.append(item)
-        return out_data
+                    out_camps.append(camp)
+        return out_data, out_camps
 
 
     #------------------------------------------------------------------------------------------------
@@ -223,15 +237,18 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     if type(category) is tuple:
         child_cat = category[0]
         category = category[1]
-        
-    if len(int_check(category, today_data, child_cat)) > 0:
+        if category == 'Course Attribute':
+            category = 'courses'
+
+    parent_cat = None
+    out_data, out_camps = int_check(category, today_data, child_cat)
+    if len(out_data) > 0:
         if child_cat:
-            today_data['meta'][child_cat] = int_check(category, today_data, child_cat)
+            today_data['meta'][child_cat] = out_data
             parent_cat = category
             category = child_cat
         else:
-            today_data['meta'][category] = int_check(category, today_data)
-            parent_cat = None
+            today_data['meta'][category] = out_data
         non_meta_cat = True
 
 
@@ -276,13 +293,25 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     #Fill these x-axis, label, dataset, total bootcamp lists with data from appropriately
     #dated dataset meta data
+    #==========LOAD DATESETS==========
     for day in range(1, (days_back+1), interval):
         try:
             day_data = filter_data(load_date_data(today_ordinal, day), filtered_camps)
-            if len(int_check(category, day_data)) > 0:
-                day_data['meta'][category] = int_check(category, day_data)
+
+            if child_cat:
+                child_cat = category
+                category = parent_cat
+            out_data, out_camps = int_check(category, day_data, child_cat)
+            if len(out_data) > 0:
+                if child_cat:
+                    day_data['meta'][child_cat] = out_data
+                    parent_cat = category
+                    category = child_cat
+                else:
+                    day_data['meta'][category] = out_data
+                    parent_cat = None
             meta_data = day_data['meta']
-            
+
             if meta_data['Active'] == False and active_only == True:
                 raise NameError('Non-active date for datafile')
             
@@ -293,7 +322,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
             totals.append(meta_data['Number of Entries'])
         #If there's no corresponding dataset for a date, mark it with 'NO DATA'
-        except (KeyError, NameError):
+        except (KeyError, NameError, AttributeError):
             datasets.append('NO DATA')
             totals.append('NO DATA')
 
@@ -304,6 +333,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     data_list = []
 
+
+    #==========PROCESS DATA INTO DATASETS==========
 
     for i, x in enumerate(datasets):
         if type(x) is list and len(x) == 1 and type(x[0]) is list:
@@ -365,11 +396,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     else:
         for i, s in enumerate(datasets):
-            if s != 'NO DATA':
+            if s == 'NO DATA':
+                data_list.append(None)
+            elif all([is_number(x) or type(x) is int for x in s]):
                 data_list.append(s)
             else:
                 data_list.append(None)
-
+        datasets = data_list[::-1]
 
     #-----------------PLOT THE DATA-----------------#
 
@@ -377,41 +410,37 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     fig = plt.figure()
     ax = plt.subplot(111)
 
+    #Set correct category labels
     os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
     from current_data.attribute_dict import In_Dict, Out_Dict
     if category in Out_Dict.keys():
         cat_label = Out_Dict[category]
     else:
         cat_label = ' '.join(category.split('_')).title()
-
     if parent_cat:
         cat_label += ' ({})'.format(parent_cat.title())
 
-    import numpy as np
-
-    if type(datasets[0]) is list and (type(datasets[0][0]) is int or type(datasets[0][0]) is float):
+    if type(datasets[-1]) is list and is_number(datasets[-1][-1]):
         if current_status:
-            plt.xlim([0,max(datasets[0])])
+            plt.xlim([0,max(datasets[-1])])
             plt.xlabel(cat_label)
             plt.ylabel('# of Camps')
             title = "Distribution of Bootcamps' " + str(cat_label) + ' (as of {})'.format(str(date_labels[-1]))
 
-            num_bins = max([int(max(datasets[0]) - min(datasets[0])), len(set(datasets[0]))])
+            num_bins = max([int(max(datasets[-1]) - min(datasets[-1])), len(set(datasets[-1]))])
             if num_bins > 100:
                 from math import ceil
-                max_bin = np.log10(max(datasets[0]))
+                max_bin = np.log10(max(datasets[-1]))
                 num_bins = np.logspace(0.1, max_bin, 50)
 
                 plt.xlim([1,10*ceil(max_bin)])
                 plt.xscale('log')
 
                 ticks = [int(x) for x in np.logspace(1,ceil(max_bin), ceil(max_bin))]
-                print ticks
                 tick_labels = [str(x) for x in ticks]
-                print tick_labels
                 plt.xticks(ticks, tick_labels)
 
-            n, bins, patches = ax.hist(datasets[0], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
+            n, bins, patches = ax.hist(datasets[-1], bins=num_bins, facecolor=np.random.rand(3,1), alpha=0.6)
 
         else:
             def mean(numbers):
@@ -423,13 +452,21 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             median_list = []
 
             for dset in datasets:
-                max_list.append(max(dset))
-                min_list.append(min(dset))
-                mean_list.append(mean(dset))
-                median_list.append(np.median(dset))
+                if dset:
+                    max_list.append(max(dset))
+                    min_list.append(min(dset))
+                    mean_list.append(mean(dset))
+                    median_list.append(np.median(dset))
+                else:
+                    max_list.append(None)
+                    min_list.append(None)
+                    mean_list.append(None)
+                    median_list.append(None)
             plots = [max_list, min_list, mean_list, median_list]
             for i, ilist in enumerate(plots):
                 ax.plot(x_axis, ilist, label=items[i])
+
+            plt.ylim([0,int(max(max_list) + max(max_list)/10)])
 
             num_items = 8
 

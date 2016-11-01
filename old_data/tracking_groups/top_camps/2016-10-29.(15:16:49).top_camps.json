@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-31", 
+        "last_updated": "2016-10-29", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -101,9 +101,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9948, 
+            "followers": 9953, 
             "handle": "@devbootcamp", 
-            "tweets": 9847
+            "tweets": 9844
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -430,7 +430,7 @@
                 ]
             }, 
             "Digital Marketing (Part-Time)": {
-                "Cost": 14500, 
+                "Cost": 3950, 
                 "Course Location": [
                     "Denver"
                 ], 
@@ -518,15 +518,15 @@
                 ]
             }, 
             "Front End Web Development (Part-Time)": {
-                "Cost": null, 
+                "Cost": 3950, 
                 "Course Location": [
                     "Denver"
                 ], 
                 "Course Title": "Front End Web Development (Part-Time)", 
                 "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "Front End", 
                     "JavaScript", 
@@ -1038,12 +1038,12 @@
                 "Title": "Web Development Immersive"
             }, 
             "Web Development Immersive ": {
-                "Cost": 3950, 
+                "Cost": 13500, 
                 "Course Location": [
                     "Denver"
                 ], 
                 "Course Title": "Web Development Immersive ", 
-                "Hours/Week": null, 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
@@ -1152,7 +1152,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-31", 
+        "last_updated": "2016-10-29", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1233,14 +1233,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Data Science", 
-            "Full-Stack Web Development", 
+            "Other", 
             "Product Management", 
-            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "Data Science", 
+            "Digital Marketing", 
             "UX Design", 
-            "Other"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 101000, 
@@ -1307,7 +1307,7 @@
                 "Title": "Web Development Bootcamp"
             }
         }, 
-        "cr_num_reviews": 59, 
+        "cr_num_reviews": 58, 
         "cr_rating": 4.85, 
         "cr_technologies": [
             "JavaScript", 
@@ -1321,7 +1321,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-31", 
+        "last_updated": "2016-10-29", 
         "locations": [
             "San Francisco", 
             "Online"
@@ -1350,7 +1350,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7572, 
+            "followers": 7577, 
             "handle": "@HackReactor", 
             "tweets": 2854
         }, 
@@ -1510,8 +1510,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 84, 
-        "cr_rating": 4.52, 
+        "cr_num_reviews": 82, 
+        "cr_rating": 4.56, 
         "cr_technologies": [
             "Swift", 
             "iOS", 
@@ -1539,7 +1539,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-31", 
+        "last_updated": "2016-10-29", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1593,14 +1593,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9240, 
+            "followers": 9206, 
             "handle": "@ironhack", 
-            "tweets": 3422
+            "tweets": 3421
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1625,7 +1625,7 @@
                 "Minimum Skill": null, 
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-31", 
                 "Subjects": [
                     "Python", 
                     "JavaScript", 
@@ -1673,7 +1673,7 @@
                 "Minimum Skill": null, 
                 "Onsite": null, 
                 "Part Or Full": null, 
-                "Start Date": "Rolling Dates", 
+                "Start Date": "2016-10-31", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1707,20 +1707,20 @@
                 "Title": "Mobile Engineering"
             }, 
             "Ui Design": {
-                "Cost": null, 
+                "Cost": 13900, 
                 "Course Location": [
                     "Austin"
                 ], 
                 "Course Title": "UI Design", 
-                "Hours/Week": null, 
+                "Hours/Week": 40, 
                 "Length": 12, 
                 "Location": [
                     "Raleigh"
                 ], 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
-                "Start Date": "Rolling Dates", 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Start Date": "2016-10-31", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1758,7 +1758,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-10-31", 
+        "last_updated": "2016-10-29", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1844,7 +1844,7 @@
         "twitter": {
             "followers": 15400, 
             "handle": "@TheIronYard", 
-            "tweets": 7747
+            "tweets": 7745
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1858,8 +1858,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-10-31 12:19:58", 
-        "Days Out": 49, 
+        "Date/Time": "2016-10-29 16:28:43", 
+        "Days Out": 47, 
         "Detroit": [
             "The Iron Yard"
         ], 
