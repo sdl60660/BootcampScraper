@@ -428,7 +428,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             title = "Distribution of Bootcamps' " + str(cat_label) + ' (as of {})'.format(str(date_labels[-1]))
 
             num_bins = max([int(max(datasets[-1]) - min(datasets[-1])), len(set(datasets[-1]))])
-            if num_bins > 100:
+            
+            if num_bins > 150:
                 from math import ceil
                 max_bin = np.log10(max(datasets[-1]))
                 num_bins = np.logspace(0.1, max_bin, 50)
@@ -558,7 +559,12 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             subfolder = 'slack_requests'
         else:
             subfolder = 'trend_charts'
-        plot_file_name = 'old_data/' + subfolder + '/' + plot_title
+        
+        if '/' in plot_title:
+            temp_plot_title = '-'.join(plot_title.split('/'))
+            plot_file_name = 'old_data/' + subfolder + '/' + temp_plot_title
+        else:
+            plot_file_name = 'old_data/' + subfolder + '/' + plot_title
         plt.savefig(plot_file_name, bbox_inches='tight')
     else:
         plot_file_name = 'No plot saved.'
