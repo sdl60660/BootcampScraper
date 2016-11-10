@@ -19,44 +19,53 @@ class Camp_Info:
         self.sort = sort if sort is not None else []
         self.key_list = key_list if key_list is not None else []
 
-def summary_dict(bootcamps, category):
+def summary_dict(bootcamps, category, parent_cat=None):
     temp_dict = {}
     warning_list = []
     int_cat = False
     for bootcamp in bootcamps:
         camp = bootcamps[bootcamp]
+        
         if category not in camp.keys():
-            warning_list.append(bootcamp)
-            continue
-        if not camp[category] or camp[category] == '\n' or camp[category] == 'N/A' or camp[category] == 'No data':
+            if not parent_cat or parent_cat not in camp.keys() \
+            or (camp[parent_cat] and category not in camp[parent_cat].keys()) or not camp[parent_cat]:
+                warning_list.append(bootcamp)
+                continue
+
+        if parent_cat:
+            data = camp[parent_cat][category]
+        else:
+            data = camp[category]
+
+        if not data or data == '\n' or data == 'N/A' or data == 'No data':
             warning_list.append(bootcamp)
             continue
         try:
-            key_check = type(camp[category])
+            key_check = type(data)
             if key_check == list:
-                iter_check = camp[category][0]
+                iter_check = data[0]
         except (KeyError, TypeError):
             continue
 
-        if type(camp[category]) is list:
-            for item in camp[category]:
+        if type(data) is list:
+            for item in data:
                 if item in temp_dict:
                     temp_dict[item] += 1
                 else:
                     temp_dict[item] = 1
-        elif type(camp[category]) is int or type(camp[category]) is float:
+        elif type(data) is int or type(data) is float:
             int_cat = True
             if 'List' in temp_dict.keys():
-                temp_dict['List'].append(camp[category])
+                temp_dict['List'].append(data)
             else:
-                temp_dict['List'] = [camp[category]]
-        elif 'Yes' in camp[category] or camp[category].find('available') != -1 \
-        or camp[category].find('offer') != -1 or camp[category].find('partnership') != -1:
+                temp_dict['List'] = [data]
+        elif 'Yes' in data or data.find('available') != -1 \
+        or data.find('offer') != -1 or data.find('partnership') != -1:
             if 'Yes' in temp_dict:
                 temp_dict['Yes'] += 1
             else:
                 temp_dict['Yes'] = 1
-        elif 'No' or 'None' in camp[category]:
+        elif 'No' or 'None' in data:
             if 'No' in temp_dict:
                 temp_dict['No'] += 1
             else:
@@ -212,8 +221,6 @@ def main(search_keys):
         else:
             key_dict[key[1]] = [key[0]]
 
-    print 'Filters and Categories in Search: ' + str(key_dict)[1:-1]
-
     # =============WORK ON SECTION BELOW=============
     if 'Meta' in key_dict.keys():
         out_data = bootcamps['meta']
@@ -221,11 +228,6 @@ def main(search_keys):
         return out_data
     
     del bootcamps['meta']
-    
-    #FILTERS: TRACKING GROUPS, LOCATIONS, TECHNOLOGIES
-    bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
-    bootcamps = apply_filter('Technology', 'technologies', bootcamps, key_dict)
-    bootcamps = apply_filter('Location', 'locations', bootcamps, key_dict)
 
     bootcamp_search = False
     if 'Bootcamp' in key_dict.keys():
@@ -235,12 +237,20 @@ def main(search_keys):
         del_list = [camp for camp in bootcamps if camp not in key_dict['Bootcamp']]
         for camp in del_list:
             del bootcamps[camp]
+        for x in ['Tracking Group', 'Technology', 'Location']:
+            key_dict.pop(x, None)
+    else:
+        #FILTERS: TRACKING GROUPS, LOCATIONS, TECHNOLOGIES
+        bootcamps = apply_filter('Tracking Group', 'tracking_groups', bootcamps, key_dict)
+        bootcamps = apply_filter('Technology', 'technologies', bootcamps, key_dict)
+        bootcamps = apply_filter('Location', 'locations', bootcamps, key_dict)
 
     tgroup_search = False
     if 'Tracking Group' in key_dict.keys() and len(key_dict['Tracking Group']) == (len(search_keys)-1):
         key_dict['Category'] = ['locations', 'technologies']
         tgroup_search = True
-        
+
+    print 'Filters and Categories in Search: ' + str(key_dict)[1:-1]
             
 
     # =============WORK ON SECTION ABOVE=============
@@ -292,7 +302,6 @@ def main(search_keys):
                     data.append((cat, bootcamps[camp][cat]))
             except KeyError:
                 pass
-                #data.append((cat, 'NO DATA'))
 
         #Secondary categories
         for cat in secondary_cats:
@@ -307,12 +316,17 @@ def main(search_keys):
 
     summary_item = {}
     summary_item['warning'] = []
-    for cat in select_cats:
-        category, sum_dict, warning_list = summary_dict(bootcamps, cat)
+    for cat in (select_cats + secondary_cats):
+        if type(cat) is tuple:
+            category, sum_dict, warning_list = summary_dict(bootcamps, cat[1], cat[0])
+            display_cat = '{} ({})'.format(cat[1], cat[0])
+        else:
+            category, sum_dict, warning_list = summary_dict(bootcamps, cat)
+            display_cat = cat
         if category == -1:
             continue
         summary_item[category] = sum_dict
-        summary_item['warning'].append((cat, warning_list))
+        summary_item['warning'].append((display_cat, warning_list))
 
     list_item = camps
 

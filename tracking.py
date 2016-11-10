@@ -52,12 +52,45 @@ def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
         except IndexError:
             target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
     try:
+        return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
+    except IndexError:
+        not_found = True
+        count = 0
+        back = 1
+        while not_found and count < 10:
+            try:
+                return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
+                not_found = False
+            except IndexError:
+                target_date = date.fromordinal(today_ordinal - ordinal_back - back)
+                count += 1
+        raise NameError('Sorry! No file found for that date. Please enter a new one.')
+    return json.load(open(filename, 'rb'))
+
+"""def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
+    target_date = date.fromordinal(today_ordinal - ordinal_back)
+    
+    if target_date.weekday() == 6:
+        try:
+            return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
+        except IndexError:
+            try:
+                target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
+                return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
+            except IndexError:
+                target_date = date.fromordinal(today_ordinal - ordinal_back - 2)
+    elif target_date.weekday() == 5:
+        try:
+            return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
+        except IndexError:
+            target_date = date.fromordinal(today_ordinal - ordinal_back - 1)
+    try:
         filename = generate_filename(target_date, tracking_group)
     except IndexError:
         #print target_date, tracking_group
         #print 'Sorry! No file found for that date. Please enter a new one.'
         raise NameError('Sorry! No file found for that date. Please enter a new one.')
-    return json.load(open(filename, 'rb'))
+    return json.load(open(filename, 'rb'))"""
 
 
 today = date.today()
@@ -203,6 +236,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                 if type(item) is int or type(item) is float:
                     out_data.append(item)
                     out_camps.append(camp)
+        if len(out_camps) == 0:
+            out_camps = None
         return out_data, out_camps
 
 
@@ -270,7 +305,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     #there's going to be an issue, so return with error message
     
     if (category == -1) or (type(today_data['meta'][category]) != dict and category not in tracking_groups and not non_meta_cat):
-        error_string = 'The selected category cannot be plotted! Please use another category.'
+        error_string = "Either none of the selected bootcamps have data for the given category or the category can't be plotted. Please use another category or set of camps."
         print error_string
         return error_string, None
 
@@ -408,6 +443,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                 data_list.append(None)
         datasets = data_list[::-1]
         camp_sets = camp_sets[::-1]
+        camp_sets = [c for c in camp_sets if c is not None]
 
     #-----------------PLOT THE DATA-----------------#
 
@@ -434,13 +470,16 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             for camp in filtered_camps:
                 camp_dict[camp] = []
             del camp_dict['meta']
-        for i, dset in enumerate(datasets):
+
+        i = 0
+        for dset in datasets:
             if dset:
                 for camp in camp_dict.keys():
-                    try:
+                    if camp in camp_sets[i]:
                         camp_dict[camp].append(dset[camp_sets[i].index(camp)])
-                    except (IndexError, ValueError):
+                    else:
                         camp_dict[camp].append(None)
+                i += 1
 
         if current_status:
             if camp_display:
@@ -455,12 +494,12 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                 tick_labels, bar_heights = zip(*sorted(zip(tick_labels, bar_heights), key=lambda x: x[1], reverse=True))
                 tick_labels, bar_heights = list(tick_labels), list(bar_heights)
 
-                tick_labels = ['Median'] + tick_labels
+                tick_labels = ['Average'] + tick_labels
                 bar_heights = [(mean(bar_heights))] + bar_heights
                 ind = np.arange(1, (len(bar_heights)+1))
                 width = 0.75
 
-                my_colors = [np.random.rand(3,1) for x in range(len(bar_heights) + 1)]
+                my_colors = ['r'] + [np.random.rand(3,1) for x in range(len(bar_heights))]
 
                 ax.set_ylabel(cat_label)
                 ax.set_xlabel('Camp Name')
@@ -510,17 +549,16 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                     mean_list.append(mean(dset))
                     median_list.append(np.median(dset))
                 else:
-                    max_list.append(None)
-                    min_list.append(None)
-                    mean_list.append(None)
-                    median_list.append(None)
+                    del x_axis[i]
             plots = [max_list, min_list, mean_list, median_list]
+            for x in plots:
+                print
+                print x
             
             if camp_display:
                 for camp in camp_dict.keys():
-                    ax.plot(x_axis, camp_dict[camp], label=camp)
-                ax.plot(x_axis, mean_list, 'r--', label='Mean')
-                ax.plot(x_axis, median_list, 'y--', label='Median')
+                    ax.plot(x_axis[-len(camp_dict[camp]):], camp_dict[camp], label=camp)
+                ax.plot(x_axis, mean_list, 'r--', label='Average')
             else:
                 for i, ilist in enumerate(plots):
                     ax.plot(x_axis, ilist, label=items[i])
@@ -549,6 +587,9 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         ax.set_ylabel(y_label)
 
         ax.grid(zorder=0)
+        if num_items == 0:
+            error_string = 'None of the selected bootcamps have data for the selected categories.'
+            return error_string, None
         fsize = 12/((num_items/2)**0.4)
         if fsize < 8:
             fsize = 8
@@ -581,7 +622,12 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
 
     if not current_status:
         #Put date labels on the x_axis for each dataset's meta date field
-        plt.xticks(x_axis, date_labels, fontsize=7, rotation=60)
+        fsize = 7
+        if len(date_labels) > 35:
+            fsize = 6
+        if len(date_labels) > 60:
+            fsize = 5
+        plt.xticks(x_axis, date_labels, fontsize=fsize, rotation=60)
 
         #Arrange, position, format the legend if show_legend is True
         if show_legend == True:
@@ -632,9 +678,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
     
     return plot_file_name, plot_title
 
-#PLOTS SPECIFIED BOOTCAMPS FOR SPECIFIED CATEGORIES (I.E. NUM_LOCATIONS FOR SPECIFIED BOOTCAMPS OVER TIME)
-def plot_bootcamp_info():
-    pass
 
 #TRACK WHEN NEW BOOTCAMPS ARE ADDED TO THE DATA SET
 def new_bootcamps(days_back, start_date=0):

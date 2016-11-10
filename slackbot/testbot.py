@@ -1,19 +1,16 @@
-import os
-import time
-from slackclient import SlackClient
-import sys
+import os, time, sys
 sys.path.insert(0,'..')
-import search_wrapper #tracking, tracker_results, generate_plot, utilities
+
+from slackclient import SlackClient
+import search_wrapper
 from search_wrapper import main
+
 import subprocess
-import generate_plot
 import tracking
 from bootcamp_info.utilities import return_closest
 from slacker import Slacker
 from helpers import input_to_searchkeys, is_number
-import datetime
-import random
-import csv
+import datetime, random, csv
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
@@ -218,7 +215,7 @@ def handle_command(command, channel, stored_command_data):
 
         #"That" Plot From Search
         if plot_search or return_closest(pcommands[0].lower(), ['that', 'that!'], 0.9) != -1:
-            plot_cat = stored_command_data['category'][0]
+            pass
         else:
             stored_command_data = default_command_data
 
@@ -278,7 +275,7 @@ def handle_command(command, channel, stored_command_data):
                 if cat in Out_Dict.keys():
                     display_cat = Out_Dict[cat]
                 else:
-                    display_cat = cat
+                    display_cat = cat.title()
                 string += "\t\t\t{}\n".format(display_cat)
             resolved = False
             slack_client.api_call("chat.postMessage", channel=channel,
@@ -286,9 +283,9 @@ def handle_command(command, channel, stored_command_data):
             while resolved == False:
                 reply, channel, user = parse_slack_output(slack_client.rtm_read(), feedback=True)
                 if reply:
-                    if return_closest(reply, In_Dict.keys(), 0.8) != -1:
-                        reply = In_Dict[reply]
-                    if return_closest(reply, stored_command_data['category'], 0.8) != -1:
+                    if return_closest(reply, In_Dict.keys(), 0.7) != -1:
+                        reply = In_Dict[return_closest(reply, In_Dict.keys(), 0.7)]
+                    if return_closest(reply, stored_command_data['category'], 0.7) != -1:
                         stored_command_data['category'] = [return_closest(reply, stored_command_data['category'], 0.8)]
                         resolved = True
                     else:

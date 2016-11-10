@@ -68,6 +68,7 @@ def check_flag(flag, arg_list):
 
 def main(search_keys):
     #Translate search terms into scraped category terms
+
     for i, term in enumerate(search_keys):
         closest_term = return_closest(term.title(), attribute_dict.In_Dict.keys(), 0.92)
         if closest_term != -1:
@@ -172,6 +173,15 @@ def main(search_keys):
         else:
             if not any([list_flag, sort_flag, summary_flag]):
                 detail_flag = True
+                
+            kl_length = len(result_data.key_list.keys())
+            filter_length = 0
+            for cat in ['Tracking Group', 'Location', 'Technology']:
+                if cat in result_data.key_list.keys():
+                    filter_length += len(result_data.key_list[cat])
+            if kl_length == filter_length:
+                list_flag = True
+
             if detail_flag:
                 full_outstring += slack_formatted_output.details_out + '\n\n'
             if list_flag:
