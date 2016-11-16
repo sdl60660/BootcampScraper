@@ -282,16 +282,35 @@ def main(search_keys):
         #Course categories
         if 'courses_cat' in select_cats:
             course_dict = {}
-            select_cats.remove('courses_cat')
-            for course in bootcamps[camp]['courses']:
-                course_cat = {}
-                for item in key_dict['Course Attribute']:
+            #select_cats.remove('courses_cat')
+            try:
+                for course in bootcamps[camp]['courses']:
+                    course_cat = {}
+                    for item in key_dict['Course Attribute']:
+                        try:
+                            course_cat[item] = bootcamps[camp]['courses'][course][item]
+                        except KeyError:
+                            pass
+                    course_dict[course] = course_cat
+                data.append(('courses', course_dict))
+                #print course_dict
+            except KeyError:
+                pass
+
+            for cat in key_dict['Course Attribute']:
+                max_list = []
+                for course in course_dict:
                     try:
-                        course_cat[item] = bootcamps[camp]['courses'][course][item]
+                        max_list.append(course_dict[course][cat])
                     except KeyError:
                         pass
-                course_dict[course] = course_cat
-            data.append(('courses', course_dict))
+                if len(max_list) > 0:
+                    data.append((cat, max(max_list)))
+                    select_cats.append(cat)
+                else:
+                    data.append((cat, None))
+
+            
 
         #Regular categories
         for cat in select_cats:
@@ -314,12 +333,17 @@ def main(search_keys):
 
     camps = [x for x in bootcamps.keys()]
 
+    if 'courses_cat' in select_cats:
+        select_cats.remove('courses_cat')
+
     summary_item = {}
     summary_item['warning'] = []
-    for cat in (select_cats + secondary_cats):
+    for cat in (select_cats + secondary_cats): #+ key_dict['Course Attribute']):
         if type(cat) is tuple:
-            category, sum_dict, warning_list = summary_dict(bootcamps, cat[1], cat[0])
+            category, sum_dict, warning_list = summary_dict(bootcamps, cat[1], parent_cat=cat[0])
             display_cat = '{} ({})'.format(cat[1], cat[0])
+        #elif cat in key_dict['Course Attribute']:
+        #    category, sum_dict, warning_list = summary_dict(bootcamps, cat, course_data=cat_data_dict)
         else:
             category, sum_dict, warning_list = summary_dict(bootcamps, cat)
             display_cat = cat
@@ -332,7 +356,7 @@ def main(search_keys):
 
     sort_item = {}
     sort_item['warning'] = []
-    for cat in (select_cats + secondary_cats): #EVENTUALLY NEED TO ADD IN SECONDARY CATS, COURSE ATTRIBUTES AS WELL
+    for cat in (select_cats + secondary_cats):
         category, st_dict, warning_list = sort_dict(bootcamps, cat)
         sort_item[category] = st_dict
         sort_item['warning'].append((cat, warning_list))

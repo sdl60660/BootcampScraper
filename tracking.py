@@ -34,7 +34,7 @@ def generate_filename(date, tracking_group=None):
         filename = find_file(date_input,'old_data/full_outputs/')[-1]
     return filename
 
-def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
+def load_date_data(today_ordinal, ordinal_back, tracking_group=None, recurse_count=0):
     target_date = date.fromordinal(today_ordinal - ordinal_back)
     
     if target_date.weekday() == 6:
@@ -54,6 +54,9 @@ def load_date_data(today_ordinal, ordinal_back, tracking_group=None):
     try:
         return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
     except IndexError:
+        recurse_count += 1
+        if recurse_count < 5:
+            return load_date_data(today_ordinal, (ordinal_back+1), tracking_group, recurse_count)
         not_found = True
         count = 0
         back = 1
@@ -558,7 +561,8 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             if camp_display:
                 for camp in camp_dict.keys():
                     ax.plot(x_axis[-len(camp_dict[camp]):], camp_dict[camp], label=camp)
-                ax.plot(x_axis, mean_list, 'r--', label='Average')
+                if len(camp_dict.keys()) > 1:
+                    ax.plot(x_axis, mean_list, 'r--', label='Average')
             else:
                 for i, ilist in enumerate(plots):
                     ax.plot(x_axis, ilist, label=items[i])
@@ -697,5 +701,3 @@ def new_bootcamps(days_back, start_date=0):
         new_camps[x] = (camp, bootcamps[camp]['locations'])
 
     return new_camps
-
-

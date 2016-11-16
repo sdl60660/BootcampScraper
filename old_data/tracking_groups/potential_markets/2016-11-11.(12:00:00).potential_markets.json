@@ -47,7 +47,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Pittsburgh"
         ], 
@@ -85,7 +85,7 @@
         "twitter": {
             "followers": 634, 
             "handle": "@academypgh", 
-            "tweets": 1391
+            "tweets": 1387
         }, 
         "visas": "Temporary housing is available for students upon enquiry.", 
         "website": "http://www.academypgh.com/"
@@ -355,7 +355,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Toronto"
         ], 
@@ -419,9 +419,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5799, 
+            "followers": 5775, 
             "handle": "@BitmakerHQ", 
-            "tweets": 8601
+            "tweets": 8598
         }, 
         "visas": "No", 
         "website": "http://bitmaker.co/"
@@ -707,7 +707,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Toronto", 
             "Ottawa", 
@@ -787,9 +787,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7135, 
+            "followers": 7113, 
             "handle": "@BrainStation", 
-            "tweets": 7566
+            "tweets": 7540
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -864,7 +864,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Cincinnati"
         ], 
@@ -898,9 +898,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 347, 
+            "followers": 345, 
             "handle": "@MAXCincinnati", 
-            "tweets": 3602
+            "tweets": 3590
         }, 
         "visas": "No", 
         "website": "http://cincycodeit.com/"
@@ -1063,7 +1063,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Barcelona", 
             "Toronto", 
@@ -1095,14 +1095,14 @@
             "Potential Market"
         ], 
         "tracks": [
-            "Data Science", 
             "Other", 
-            "Product Management"
+            "Product Management", 
+            "Data Science"
         ], 
         "twitter": {
-            "followers": 3616, 
+            "followers": 3601, 
             "handle": "@DataScienceDojo", 
-            "tweets": 4541
+            "tweets": 4493
         }, 
         "visas": "No", 
         "website": "http://datasciencedojo.com/"
@@ -1418,7 +1418,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Detroit"
         ], 
@@ -1471,9 +1471,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5332, 
+            "followers": 5320, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6655
+            "tweets": 6612
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -1696,7 +1696,7 @@
                 "Title": "Part-time Intro to Ruby on Rails"
             }
         }, 
-        "cr_num_reviews": 3, 
+        "cr_num_reviews": 2, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "HTML", 
@@ -1717,7 +1717,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Toronto"
         ], 
@@ -1758,13 +1758,13 @@
             "Toronto"
         ], 
         "tracks": [
-            "UX Design", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 9413, 
+            "followers": 9340, 
             "handle": "@hackeryou", 
-            "tweets": 3507
+            "tweets": 3499
         }, 
         "visas": "No", 
         "website": "http://hackeryou.com/"
@@ -1838,7 +1838,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Toronto"
         ], 
@@ -1862,9 +1862,9 @@
         ], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 45100, 
+            "followers": 44900, 
             "handle": "@learningcode", 
-            "tweets": 13800
+            "tweets": 13700
         }, 
         "visas": "No", 
         "website": "http://ladieslearningcode.com/digital-skills-for-beginners/"
@@ -2038,7 +2038,7 @@
         "housing": "Housing options available.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Vancouver", 
             "Toronto", 
@@ -2057,7 +2057,7 @@
         "num_alumni": 400, 
         "num_courses": 4, 
         "num_locations": 6, 
-        "su_num_reviews": 40, 
+        "su_num_reviews": 39, 
         "su_rating": 4.6, 
         "su_technologies": [
             "CSS", 
@@ -2110,9 +2110,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4811, 
+            "followers": 4796, 
             "handle": "@lighthouse_labs", 
-            "tweets": 7191
+            "tweets": 7156
         }, 
         "visas": "No", 
         "website": "http://www.lighthouselabs.ca/"
@@ -2417,7 +2417,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Vancouver", 
             "Toronto"
@@ -2490,9 +2490,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1699, 
+            "followers": 1689, 
             "handle": "@RedAcademy", 
-            "tweets": 1556
+            "tweets": 1553
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -2504,7 +2504,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": null, 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Detroit"
         ], 
@@ -2651,8 +2651,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 103, 
-        "cr_rating": 4.26, 
+        "cr_num_reviews": 101, 
+        "cr_rating": 4.25, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -2679,7 +2679,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2708,8 +2708,8 @@
         "num_courses": 5, 
         "num_locations": 21, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 47, 
-        "su_rating": 4.2, 
+        "su_num_reviews": 46, 
+        "su_rating": 4.3, 
         "su_technologies": [
             "CSS", 
             "HTML", 
@@ -2765,7 +2765,7 @@
         "twitter": {
             "followers": 15500, 
             "handle": "@TheIronYard", 
-            "tweets": 7779
+            "tweets": 7768
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2834,7 +2834,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Toronto"
         ], 
@@ -2882,8 +2882,8 @@
         "Current Market": [
             "Girl Develop It"
         ], 
-        "Date/Time": "2016-11-16 12:37:34", 
-        "Days Out": 65, 
+        "Date/Time": "2016-11-11 12:15:50", 
+        "Days Out": 60, 
         "Detroit": [
             "Become A Developer Bootcamp (Java)", 
             "Software Tester Bootcamp", 

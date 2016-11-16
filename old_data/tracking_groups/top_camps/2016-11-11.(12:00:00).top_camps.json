@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -101,9 +101,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 10000, 
+            "followers": 9989, 
             "handle": "@devbootcamp", 
-            "tweets": 9978
+            "tweets": 9935
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -430,15 +430,15 @@
                 ]
             }, 
             "Digital Marketing (Part-Time)": {
-                "Cost": null, 
+                "Cost": 3950, 
                 "Course Location": [
                     "Denver"
                 ], 
                 "Course Title": "Digital Marketing (Part-Time)", 
                 "Hours/Week": null, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "Digital Marketing"
                 ]
@@ -917,7 +917,7 @@
                 "Title": "User Experience Design Immersive"
             }, 
             "User Experience Design Immersive ": {
-                "Cost": 3950, 
+                "Cost": 14500, 
                 "Course Location": [
                     "Denver"
                 ], 
@@ -1038,7 +1038,7 @@
                 "Title": "Web Development Immersive"
             }, 
             "Web Development Immersive ": {
-                "Cost": 14500, 
+                "Cost": 3950, 
                 "Course Location": [
                     "Denver"
                 ], 
@@ -1112,8 +1112,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 145, 
-        "cr_rating": 4.24, 
+        "cr_num_reviews": 143, 
+        "cr_rating": 4.26, 
         "cr_technologies": [
             "User Experience Design", 
             "Data Science", 
@@ -1152,7 +1152,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1303,7 +1303,7 @@
                 "Title": "Web Development Bootcamp"
             }
         }, 
-        "cr_num_reviews": 65, 
+        "cr_num_reviews": 64, 
         "cr_rating": 4.8, 
         "cr_technologies": [
             "JavaScript", 
@@ -1317,7 +1317,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "San Francisco", 
             "Online", 
@@ -1350,9 +1350,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7660, 
+            "followers": 7648, 
             "handle": "@HackReactor", 
-            "tweets": 2935
+            "tweets": 2911
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1510,8 +1510,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 77, 
-        "cr_rating": 4.9, 
+        "cr_num_reviews": 76, 
+        "cr_rating": 4.89, 
         "cr_technologies": [
             "Swift", 
             "iOS", 
@@ -1539,7 +1539,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1593,14 +1593,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 9526, 
+            "followers": 9422, 
             "handle": "@ironhack", 
-            "tweets": 3438
+            "tweets": 3430
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1730,8 +1730,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 103, 
-        "cr_rating": 4.26, 
+        "cr_num_reviews": 101, 
+        "cr_rating": 4.25, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -1758,7 +1758,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-11", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1787,8 +1787,8 @@
         "num_courses": 5, 
         "num_locations": 21, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 47, 
-        "su_rating": 4.2, 
+        "su_num_reviews": 46, 
+        "su_rating": 4.3, 
         "su_technologies": [
             "CSS", 
             "HTML", 
@@ -1844,7 +1844,7 @@
         "twitter": {
             "followers": 15500, 
             "handle": "@TheIronYard", 
-            "tweets": 7779
+            "tweets": 7768
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1858,8 +1858,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-11-16 12:37:34", 
-        "Days Out": 65, 
+        "Date/Time": "2016-11-11 12:15:51", 
+        "Days Out": 60, 
         "Detroit": [
             "The Iron Yard"
         ], 

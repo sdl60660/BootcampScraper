@@ -24,6 +24,7 @@ for row in search_terms:
 
 
 # testbot's ID as an environment variable
+#BOT_ID = 'U2GEYPJH4'
 BOT_ID = os.environ.get("BOT_ID")
 
 # constants
@@ -190,7 +191,7 @@ def handle_command(command, channel, stored_command_data):
         if 'max' in command.lower():
             command = command.replace('max', str(active_start_db))
 
-        input_command = 'python search_track_plot_functions/tracker_results.py ' + command[6:] + ' SLACK'
+        input_command = "python search_track_plot_functions/tracker_results.py " + command[6:] + " 'Selected Camp' SLACK"
         print input_command
         response = os.popen(input_command).read()
         emoji = ':chart_with_upwards_trend:'

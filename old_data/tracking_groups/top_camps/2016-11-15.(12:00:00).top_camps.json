@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-15", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -103,7 +103,7 @@
         "twitter": {
             "followers": 10000, 
             "handle": "@devbootcamp", 
-            "tweets": 9978
+            "tweets": 9966
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -1152,7 +1152,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-15", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1317,7 +1317,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-15", 
         "locations": [
             "San Francisco", 
             "Online", 
@@ -1350,9 +1350,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7660, 
+            "followers": 7653, 
             "handle": "@HackReactor", 
-            "tweets": 2935
+            "tweets": 2929
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1510,8 +1510,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 77, 
-        "cr_rating": 4.9, 
+        "cr_num_reviews": 76, 
+        "cr_rating": 4.89, 
         "cr_technologies": [
             "Swift", 
             "iOS", 
@@ -1539,7 +1539,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-15", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1593,14 +1593,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 9526, 
+            "followers": 9492, 
             "handle": "@ironhack", 
-            "tweets": 3438
+            "tweets": 3433
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1730,8 +1730,8 @@
                 "Title": "UI Design"
             }
         }, 
-        "cr_num_reviews": 103, 
-        "cr_rating": 4.26, 
+        "cr_num_reviews": 101, 
+        "cr_rating": 4.25, 
         "cr_technologies": [
             "HTML", 
             "Ruby on Rails", 
@@ -1758,7 +1758,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-11-16", 
+        "last_updated": "2016-11-15", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -1844,7 +1844,7 @@
         "twitter": {
             "followers": 15500, 
             "handle": "@TheIronYard", 
-            "tweets": 7779
+            "tweets": 7778
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -1858,8 +1858,8 @@
         "Cleveland": [], 
         "Columbus": [], 
         "Current Market": [], 
-        "Date/Time": "2016-11-16 12:37:34", 
-        "Days Out": 65, 
+        "Date/Time": "2016-11-15 12:14:46", 
+        "Days Out": 64, 
         "Detroit": [
             "The Iron Yard"
         ], 
