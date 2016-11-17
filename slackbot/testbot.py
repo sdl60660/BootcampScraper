@@ -394,6 +394,7 @@ if __name__ == "__main__":
             command, channel, usercode = parse_slack_output(slack_client.rtm_read())
             if command and channel:
                 search_log.write(str(datetime.datetime.now())[11:-7] + ': ' + str(command) + ' (' + str(usercode) + ')\n')
+                command = "'".join(command.split('"'))
                 print command.lower()
                 if command.lower().startswith('request'):
                     request_log.write(str(datetime.datetime.now())[:-7] + ': ' + str(command)[8:] + ' (' + str(usercode) + ')\n\n')

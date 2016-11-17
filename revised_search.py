@@ -292,7 +292,7 @@ def main(search_keys):
                         except KeyError:
                             pass
                     course_dict[course] = course_cat
-                data.append(('courses', course_dict))
+                #data.append(('courses', course_dict))
                 #print course_dict
             except KeyError:
                 pass
@@ -306,9 +306,11 @@ def main(search_keys):
                         pass
                 if len(max_list) > 0:
                     data.append((cat, max(max_list)))
+                    bootcamps[camp][cat] = max(max_list)
                     select_cats.append(cat)
                 else:
                     data.append((cat, None))
+                    bootcamps[camp][cat] = None
 
             
 
@@ -329,12 +331,15 @@ def main(search_keys):
                 data.append((full_cat_title, bootcamps[camp][cat[0]][cat[1]]))
             except (TypeError, KeyError):
                 pass
+        data = list(set(data))
         cat_data_dict[title] = data
 
     camps = [x for x in bootcamps.keys()]
 
     if 'courses_cat' in select_cats:
         select_cats.remove('courses_cat')
+
+    select_cats = list(set(select_cats))
 
     summary_item = {}
     summary_item['warning'] = []
