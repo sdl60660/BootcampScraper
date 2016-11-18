@@ -447,6 +447,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
         datasets = data_list[::-1]
         camp_sets = camp_sets[::-1]
         camp_sets = [c for c in camp_sets if c is not None]
+        print camp_sets
 
     #-----------------PLOT THE DATA-----------------#
 
@@ -489,9 +490,12 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                 tick_labels = []
                 bar_heights = []
                 for camp in camp_dict.keys():
-                    tick_labels.append(camp)
                     if camp_dict[camp][-1]:
+                        tick_labels.append(camp)
                         bar_heights.append(camp_dict[camp][-1])
+
+                print bar_heights
+                print tick_labels
 
                 #Sort bars by height
                 tick_labels, bar_heights = zip(*sorted(zip(tick_labels, bar_heights), key=lambda x: x[1], reverse=True))

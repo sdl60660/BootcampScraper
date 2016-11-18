@@ -331,7 +331,15 @@ def main(search_keys):
                 data.append((full_cat_title, bootcamps[camp][cat[0]][cat[1]]))
             except (TypeError, KeyError):
                 pass
-        data = list(set(data))
+
+        pass_list = []
+        new_data = []
+        for x in data:
+            if x[0] not in pass_list:
+                pass_list.append(x[0])
+                new_data.append(x)
+        data = new_data
+
         cat_data_dict[title] = data
 
     camps = [x for x in bootcamps.keys()]

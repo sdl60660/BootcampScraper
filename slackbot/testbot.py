@@ -312,12 +312,17 @@ def handle_command(command, channel, stored_command_data):
             tgroup_input = stored_command_data['camps']
         else:
             tgroup_input = stored_command_data['tracking_group']
+
+        if 'raw' in pcommands:
+            pct = False
+        else:
+            pct = True
             
         #=====================MAKE PLOT=====================
 
         plot_file_name, plot_title = tracking.plot_changes(days_back, plot_cat, current_status=c_status,
             max_items=items, tracking_group=tgroup_input,
-            percentage=True, save_plot=True, slack_post=True, show_plot=False)
+            percentage=pct, save_plot=True, slack_post=True, show_plot=False)
 
         if not plot_title:
             plot = False
