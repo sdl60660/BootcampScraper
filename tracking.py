@@ -494,9 +494,6 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                         tick_labels.append(camp)
                         bar_heights.append(camp_dict[camp][-1])
 
-                print bar_heights
-                print tick_labels
-
                 #Sort bars by height
                 tick_labels, bar_heights = zip(*sorted(zip(tick_labels, bar_heights), key=lambda x: x[1], reverse=True))
                 tick_labels, bar_heights = list(tick_labels), list(bar_heights)
@@ -549,6 +546,7 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
             mean_list = []
             median_list = []
 
+            x_axis_del = []
             for i, dset in enumerate(datasets):
                 if dset:
                     max_list.append(max(dset))
@@ -556,10 +554,13 @@ def plot_changes(days_back, category, start_days_back=0, current_status=False, t
                     mean_list.append(mean(dset))
                     median_list.append(np.median(dset))
                 else:
-                    del x_axis[i]
+                    x_axis_del.append(i)
+
+            x_axis = [i for j, i in enumerate(x_axis) if j not in x_axis_del]
+            date_labels = [i for j, i in enumerate(date_labels) if j not in x_axis_del]
+
             plots = [max_list, min_list, mean_list, median_list]
             for x in plots:
-                print
                 print x
             
             if camp_display:
