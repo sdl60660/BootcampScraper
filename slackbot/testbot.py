@@ -154,7 +154,7 @@ def handle_command(command, channel, stored_command_data):
             stored_command_data['tracking_group'] = None
         elif 'Tracking Group' in result_data.key_list.keys():
             if len(result_data.key_list['Tracking Group']) == 1:
-                stored_command_data['tracking_group'] = result_data.key_list['Tracking Group'][0]
+                stored_command_data['tracking_group'] = [result_data.key_list['Tracking Group'][0]]
                 stored_command_data['camps'] = []
             else:
                 stored_command_data['camps'] = result_data.camps
@@ -319,6 +319,8 @@ def handle_command(command, channel, stored_command_data):
             pct = True
             
         #=====================MAKE PLOT=====================
+
+        print stored_command_data
 
         plot_file_name, plot_title = tracking.plot_changes(days_back, plot_cat, current_status=c_status,
             max_items=items, tracking_group=tgroup_input,

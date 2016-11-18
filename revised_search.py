@@ -59,17 +59,20 @@ def summary_dict(bootcamps, category, parent_cat=None):
                 temp_dict['List'].append(data)
             else:
                 temp_dict['List'] = [data]
-        elif 'Yes' in data or data.find('available') != -1 \
-        or data.find('offer') != -1 or data.find('partnership') != -1:
-            if 'Yes' in temp_dict:
-                temp_dict['Yes'] += 1
+        elif type(data) is str:
+            if 'Yes' in data or data.find('available') != -1 \
+            or data.find('offer') != -1 or data.find('partnership') != -1:
+                if 'Yes' in temp_dict:
+                    temp_dict['Yes'] += 1
+                else:
+                    temp_dict['Yes'] = 1
+            elif 'No' or 'None' in data:
+                if 'No' in temp_dict:
+                    temp_dict['No'] += 1
+                else:
+                    temp_dict['No'] = 1
             else:
-                temp_dict['Yes'] = 1
-        elif 'No' or 'None' in data:
-            if 'No' in temp_dict:
-                temp_dict['No'] += 1
-            else:
-                temp_dict['No'] = 1
+                return -1, temp_dict, warning_list
         else:
             return -1, temp_dict, warning_list
 
