@@ -172,7 +172,11 @@ def main():
 	print
 	#print '```Overall Changes (Last {} Days)```'.format(days_back)#.center(40, '=')
 	if slack_command:
-		title_text = '`Overall Changes (Last {} Days)`'.format(days_back)
+		if days_back == 1:
+			day_text = 'Day'
+		else:
+			day_text = '{} Days'.format(days_back)
+		title_text = '`Overall Changes (Last {})`'.format(day_text)
 		block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
 		print block_text + '\n' + title_text + '\n' + block_text + '\n'
 	else:
@@ -193,7 +197,11 @@ def main():
 
 	for group in tgroups:
 		if slack_command:
-			title_text = '`Tracking Group: {} (Last {} Days)`'.format(group.title(), days_back)
+			if days_back == 1:
+				day_text = 'Day'
+			else:
+				day_text = '{} Days'.format(days_back)
+			title_text = '`Tracking Group: {} (Last {})`'.format(group.title(), day_text)
 			block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
 			print block_text + '\n' + title_text + '\n' + block_text + '\n'
 		else:

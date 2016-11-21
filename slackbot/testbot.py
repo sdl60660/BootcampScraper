@@ -395,7 +395,7 @@ def handle_command(command, channel, stored_command_data):
         response += '`=======================================`\n\n\n\n'
         for key in tgroup_dict.keys():
             response += '*' + str(key) + '*: '
-            for x in tgroup_dict[key]:
+            for x in sorted(tgroup_dict[key]):
                 response += '`' + str(x) + '`, '
             response = response[:-2] + '\n\n'
 
