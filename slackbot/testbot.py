@@ -387,8 +387,11 @@ def handle_command(command, channel, stored_command_data):
         text_post = True
 
     if command.lower().startswith('groups'):
-        emoji = default_emoji
-        user = default_user
+
+        
+        emoji = ':question:'
+        user = 'Info Helper Bot'
+        text_post = True
 
 
     #=====================================================================

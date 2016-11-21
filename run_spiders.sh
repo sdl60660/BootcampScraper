@@ -151,6 +151,7 @@ echo "Scraper finished!" >>logs/scraper_log.txt
 echo "-------------------" >>logs/scraper_log.txt
 echo >>logs/scraper_log.txt
 
+python helper_functions/tgroup_dict.py
 python slackbot/post_changes.py
 
 #location_changes="$(python helper_functions/location_track_wrapper.py)"
