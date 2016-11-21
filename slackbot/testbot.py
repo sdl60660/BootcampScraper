@@ -361,7 +361,9 @@ def handle_command(command, channel, stored_command_data):
             else:
                 term_dict['Category'].append(term[0])
         
-        response = '\n`------------List Of Search Terms------------`\n\n'
+        response = '\n\n`============================================`'
+        response += '\n`------------List Of Search Terms------------`\n'
+        response += '`============================================`\n\n\n\n'
 
         if len(print_lists) == 0:
             response = 'You either entered an invalid type of search term or something went wrong! Try asking again in the form: "terms [term type 1] [term type 2] etc."'
@@ -372,7 +374,8 @@ def handle_command(command, channel, stored_command_data):
                 else:
                     display_key = key + 's'
                 response += '*' + display_key + '*: '
-                for term in term_dict[key]:
+                t_list = sorted(term_dict[key])
+                for term in t_list:
                     if term in Out_Dict.keys():
                         response += '`' + str(Out_Dict[term]) + '`, '
                     else:
