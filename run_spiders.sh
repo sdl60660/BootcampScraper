@@ -139,7 +139,7 @@ echo >>logs/scraper_log.txt
 #LOG TRACKED CHANGES
 log_date=$(date "+%Y-%m-%d")
 echo "CHANGES FOR $log_date" >>logs/change_log.txt
-python search_track_plot_functions/tracker_results.py 1 ALL>>logs/change_log.txt
+python trend_functions/tracker_results.py 1 ALL>>logs/change_log.txt
 echo "====================================">>logs/change_log.txt
 echo >>logs/change_log.txt
 output_time=$(date "+%H:%M:%S")

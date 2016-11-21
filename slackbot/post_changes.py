@@ -8,7 +8,7 @@ import bootcamp_info.search_wrapper
 import subprocess
 import bootcamp_info.generate_plot
 
-from bootcamp_info.search_track_plot_functions.slack_tracker_wrapper import location_changes, technology_changes
+from bootcamp_info.trend_functions.slack_tracker_wrapper import location_changes, technology_changes
 
 import bootcamp_info.tracking
 from bootcamp_info.tracking import tracked_camp_changes, tracking_group_stats, new_bootcamps

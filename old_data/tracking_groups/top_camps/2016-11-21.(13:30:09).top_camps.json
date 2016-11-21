@@ -1449,14 +1449,14 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Data Science", 
-            "Full-Stack Web Development", 
+            "Other", 
             "Product Management", 
-            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "Data Science", 
+            "Digital Marketing", 
             "UX Design", 
-            "Other"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 102000, 
@@ -1566,9 +1566,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7705, 
+            "followers": 7704, 
             "handle": "@HackReactor", 
-            "tweets": 2956
+            "tweets": 2955
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -2050,15 +2050,15 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Data Science", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Data Science"
         ], 
         "twitter": {
             "followers": 15600, 
             "handle": "@TheIronYard", 
-            "tweets": 7792
+            "tweets": 7791
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2066,7 +2066,7 @@
     "meta": {
         "Active": true, 
         "Current Market": [], 
-        "Date/Time": "2016-11-21 14:42:46", 
+        "Date/Time": "2016-11-21 13:45:03", 
         "Days Out": 70, 
         "Number of Entries": 6, 
         "Potential Market": [
