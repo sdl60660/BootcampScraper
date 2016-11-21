@@ -1,4 +1,5 @@
 import sys
+sys.path.insert(0,'..')
 
 import tracking
 from tracking import tracking_groups

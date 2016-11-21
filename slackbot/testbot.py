@@ -34,7 +34,7 @@ EXAMPLE_COMMAND = "do"
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 
-sub_course_cats = ['Cost','Hours/Week', 'tweets', 'followers']
+sub_course_cats = ['Cost','Hours/Week', 'Class Size', 'tweets', 'followers']
 plot_list = ['technologies'] + [x[0] for x in term_list if x[1] == 'Category' and x[0] != 'technologies'] + sub_course_cats
 for cat in ['last_updated', 'twitter', 'accreditation', 'housing', 'cr_technologies', 'visas', 'top_source', 'email', 'website', 'tracking_groups',
 'tracks', 'facebook', 'name', 'job_guarantee', 'courses', 'subjects', 'scholarships', 'su_technologies', 'general_cost', 'cost_estimate',
@@ -191,7 +191,7 @@ def handle_command(command, channel, stored_command_data):
         if 'max' in command.lower():
             command = command.replace('max', str(active_start_db))
 
-        input_command = "python search_track_plot_functions/tracker_results.py " + command[6:] + " 'Selected Camp' SLACK"
+        input_command = "python trend_functions/tracker_results.py " + command[6:] + " 'Selected Camp' SLACK"
         print input_command
         response = os.popen(input_command).read()
         emoji = ':chart_with_upwards_trend:'
@@ -336,8 +336,52 @@ def handle_command(command, channel, stored_command_data):
         plot_file_name += '.png'
 
     if command.lower().startswith('terms'):
-        emoji = default_emoji
-        user = default_user
+        term_dict = {
+            'Bootcamp': [],
+            'Tracking Group': [],
+            'Category': [],
+            'Technology': [],
+            'Location': [],
+            'Course Attribute': []
+        }
+
+        print_lists = []
+        command_list = input_to_searchkeys(command)
+        print command_list
+        if len(command_list) > 0:
+            for x in command_list:
+                if return_closest(x.title(), term_dict.keys()) != -1:
+                    print_lists.append(return_closest(x.title(), term_dict.keys()))
+        else:
+            print_lists = ['Category', 'Technology', 'Location', 'Course Attribute', 'Tracking Group']
+
+        for term in term_list:
+            if term[1].title() in term_dict.keys():
+                term_dict[term[1].title()].append(term[0])
+            else:
+                term_dict['Category'].append(term[0])
+        
+        response = '\n`------------List Of Search Terms------------`\n\n'
+
+        if len(print_lists) == 0:
+            response = 'You either entered an invalid type of search term or something went wrong! Try asking again in the form: "terms [term type 1] [term type 2] etc."'
+        else:
+            for key in print_lists:
+                if key[-1] == 'y':
+                    display_key = key[:-1] + 'ies'
+                else:
+                    display_key = key + 's'
+                response += '*' + display_key + '*: '
+                for term in term_dict[key]:
+                    if term in Out_Dict.keys():
+                        response += '`' + str(Out_Dict[term]) + '`, '
+                    else:
+                        response += '`' + term + '`, '
+                response = response[:-2] + '\n\n'
+
+        emoji = ':question:'
+        user = 'Info Helper Bot'
+        text_post = True
 
     if command.lower().startswith('groups'):
         emoji = default_emoji
