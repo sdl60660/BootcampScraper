@@ -10,7 +10,7 @@ import tracking
 from bootcamp_info.utilities import return_closest
 from slacker import Slacker
 from helpers import input_to_searchkeys, is_number
-import datetime, random, csv
+import datetime, random, csv, json
 
 #os.chdir(os.path.dirname(os.path.abspath('bootcamp_info')))
 os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
@@ -22,6 +22,8 @@ search_terms = csv.reader(datafile)
 for row in search_terms:
     term_list.append((row[0], row[1]))
 
+datafile = open('current_data/tracking_groups.json', 'r')
+tgroup_dict = json.load(datafile)
 
 # testbot's ID as an environment variable
 #BOT_ID = 'U2GEYPJH4'
@@ -388,7 +390,15 @@ def handle_command(command, channel, stored_command_data):
 
     if command.lower().startswith('groups'):
 
-        
+        response = '\n\n`=======================================`'
+        response += '\n`------------Tracking Groups------------`\n'
+        response += '`=======================================`\n\n\n\n'
+        for key in tgroup_dict.keys():
+            response += '*' + str(key) + '*: '
+            for x in tgroup_dict[key]:
+                response += '`' + str(x) + '`, '
+            response = response[:-2] + '\n\n'
+
         emoji = ':question:'
         user = 'Info Helper Bot'
         text_post = True

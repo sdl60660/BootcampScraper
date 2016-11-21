@@ -16,14 +16,6 @@ def create_meta_dict(date_time, output_dict):
     meta_dict['Current Market'] = list()
     meta_dict['Potential Market'] = list()
 
-    meta_dict['Cleveland'] = list()
-    meta_dict['Columbus'] = list()
-    meta_dict['Pittsburgh'] = list()
-    meta_dict['Cincinnati'] = list()
-    meta_dict['Buffalo'] = list()
-    meta_dict['Detroit'] = list()
-    meta_dict['Toronto'] = list()
-
     if meta_dict['Days Out'] < 0:
         meta_dict['Active'] = False
     else:

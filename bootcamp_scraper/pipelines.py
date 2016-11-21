@@ -195,7 +195,7 @@ class TrackingGroupTags(object):
     def process_item(self, item, spider):
 
         #This is completely subject to change, just needed to put in a few to test out the pipeline
-        top_camps = ['hack reactor', 'the iron yard', 'general assembly', 'ironhack', 'dev bootcamp']
+        top_camps = ['hack reactor', 'the iron yard', 'general assembly', 'ironhack', 'dev bootcamp', 'flatiron school']
         current_markets = ['cleveland', 'columbus']
         potential_markets = ['cincinnati', 'pittsburgh', 'detroit', 'buffalo', 'toronto']
         java_and_net = ['Claim Academy', 'Coder Camps', 'Coder Foundry', 'Code Ninja', 'Coding Temple', 'Devcodecamp', 'Epicodus', 'Fire Bootcamp', 'Grand Circus', 'Sabio', 'Skill Distillery', 'Software Guild', 'The Iron Yard', 'The Tech Academy']
