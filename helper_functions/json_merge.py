@@ -95,7 +95,6 @@ def main():
             bootcamp_data[key_num] = json.load(json_data)
 
     num_similar = 0
-
     output_dict = {}
 
     #merge each file included in argument list, with later ones taking conflict priority
@@ -155,6 +154,15 @@ def main():
                 else:
                     output_dict[name] = bootcamp_data[file][x]
 
+    today = datetime.date.today()
+
+    for camp in output_dict.keys():
+        try:
+            if (today.toordinal() - datetime.datetime.strptime(output_dict[camp]['last_updated'], '%Y-%m-%d').toordinal()) >= 14:
+                del output_dict[camp]
+        except KeyError:
+                pass
+
     #MERGE TECHNOLOGIES FROM DIFFERENT REPORTING SOURCES AND REPLACE TECHNOLOGIES LIST FOR EACH BOOTCAMP
     for name in output_dict:
         new_technologies = []
@@ -181,7 +189,6 @@ def main():
     #STORE META DATA ON THE OUTPUT JSON
     now = datetime.datetime.now()
     output_dict['meta'] = create_meta_dict(now, output_dict)
-
 
     #write merge JSON to output file
     with open(output_file, 'w') as f:

@@ -231,7 +231,7 @@ class TrackingGroupTags(object):
         if len(item['tracking_groups']) > 0:
             item['tracking_groups'] = list(set(item['tracking_groups']))
 
-        if item['name'].lower() == 'acadgild' or 'girl develop it':
+        if item['name'] is 'Acadgild' or item['name'].lower() is 'girl develop it':
             item['tracking_groups'] = []
 
         return item

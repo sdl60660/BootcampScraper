@@ -1,9 +1,10 @@
 import json, csv
 import os
 
-def main():
-	tracking_groups = ['Java/.NET', 'Selected Camp', 'Top Camp', 'Potential Market', 'Current Market']
+tracking_groups = ['Java/.NET', 'Selected Camp', 'Top Camp', 'Potential Market', 'Current Market']
 
+def main():
+	
 	temp_dict = {}
 	for group in tracking_groups:
 		temp_dict[group] = []

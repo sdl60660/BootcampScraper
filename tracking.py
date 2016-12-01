@@ -55,7 +55,7 @@ def load_date_data(today_ordinal, ordinal_back, tracking_group=None, recurse_cou
         return json.load(open(generate_filename(target_date, tracking_group), 'rb'))
     except IndexError:
         recurse_count += 1
-        if recurse_count < 5:
+        if recurse_count < 7:
             return load_date_data(today_ordinal, (ordinal_back+1), tracking_group, recurse_count)
         not_found = True
         count = 0
