@@ -164,9 +164,10 @@ def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
     for x in current_meta:
         cat = current_meta[x]
         if type(cat) is list:
-            for item in cat:
+            """for item in cat:
                 if item not in old_meta[x]:
-                    print str(x).title() + ': ' + str(item)
+                    print str(x).title() + ': ' + str(item)"""
+            pass
         elif type(cat) is dict:
             max_diff = [(None, 0) for j in range(highlight_length)]
             print_array = []

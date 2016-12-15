@@ -1,14 +1,14 @@
 import sys
 sys.path.insert(0,'..')
 
-import tracking
-from tracking import tracking_groups
+import bootcamp_info.tracking as tracking
+from bootcamp_info.tracking import tracking_groups
 
-from tracking import tracked_camp_changes
-from tracking import tracking_group_stats
-from tracking import new_bootcamps
+from bootcamp_info.tracking import tracked_camp_changes
+from bootcamp_info.tracking import tracking_group_stats
+from bootcamp_info.tracking import new_bootcamps
 
-from utilities import return_closest
+from bootcamp_info.utilities import return_closest
 
 import numpy as np
 from pprint import pprint
@@ -50,7 +50,7 @@ def print_stats(print_arrays, max_diff, slack=False):
 			print
 			change_string = ', '.join(['{0} ({1:+d})'.format(str(x[0]), x[1]) for x in diff if x[1] != 0])
 			if slack:
-				print '\t\t\tBiggest Changes: ' + change_string + '\n\n-----------------------\n'
+				print '*Biggest Changes*: ' + change_string + '\n\n-----------------------\n'
 			else:
 				print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
 	return
@@ -79,7 +79,15 @@ def print_details(detail_tuples, slack=False):
 	return
 
 def full_print(days_back, cats, group='ALL'):
-	print_arrays, max_diff = tracking_group_stats(days_back, group)
+	if days_back > 15:
+		hl_length = int(days_back/5)
+	else:
+		hl_length = 3
+
+	if hl_length > 8:
+		hl_length = 8
+
+	print_arrays, max_diff = tracking_group_stats(days_back, group, highlight_length=hl_length)
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
 		print "Changes"
@@ -105,7 +113,15 @@ def full_print(days_back, cats, group='ALL'):
 	return
 
 def full_slack_print(days_back, cats, details=False, group='ALL'):
-	print_arrays, max_diff = tracking_group_stats(days_back, group)
+	if days_back > 15:
+		hl_length = int(days_back/5)
+	else:
+		hl_length = 3
+
+	if hl_length > 8:
+		hl_length = 8
+
+	print_arrays, max_diff = tracking_group_stats(days_back, group, highlight_length=hl_length)
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
 		print "`-----Changes-----`"
@@ -161,6 +177,8 @@ def main():
 		if item == 'ALL':
 			continue
 		tgroups[i] = return_closest(item, groups)
+
+	tgroups = [x for x in tgroups if x != -1]
 
 	#If input was 'ALL', then print info for all tracking groups
 	if len(sys.argv) == 3 and sys.argv[-1].upper() == 'ALL':
