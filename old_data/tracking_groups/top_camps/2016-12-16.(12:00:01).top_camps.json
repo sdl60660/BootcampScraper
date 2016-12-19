@@ -35,8 +35,8 @@
                 "Title": "Web Development"
             }
         }, 
-        "cr_num_reviews": 103, 
-        "cr_rating": 4.32, 
+        "cr_num_reviews": 97, 
+        "cr_rating": 4.3, 
         "cr_technologies": [
             "JavaScript", 
             "HTML", 
@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -298,8 +298,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 36, 
-        "cr_rating": 4.28, 
+        "cr_num_reviews": 32, 
+        "cr_rating": 4.19, 
         "cr_technologies": [
             "Swift", 
             "iOS", 
@@ -331,7 +331,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "New York City", 
             "Online"
@@ -347,8 +347,8 @@
         "num_courses": 3, 
         "num_locations": 2, 
         "scholarships": "$250 Flatiron Learn Verified Scholarship", 
-        "su_num_reviews": 20, 
-        "su_rating": 4.8, 
+        "su_num_reviews": 18, 
+        "su_rating": 4.7, 
         "su_technologies": [
             "AngularJS", 
             "CSS", 
@@ -402,7 +402,7 @@
             "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 7105, 
+            "followers": 7098, 
             "handle": "@FlatironSchool", 
             "tweets": 4465
         }, 
@@ -1413,8 +1413,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 157, 
-        "cr_rating": 4.23, 
+        "cr_num_reviews": 155, 
+        "cr_rating": 4.22, 
         "cr_technologies": [
             "User Experience Design", 
             "Data Science", 
@@ -1453,7 +1453,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1534,14 +1534,14 @@
             "Selected Camp"
         ], 
         "tracks": [
+            "Data Science", 
+            "Full-Stack Web Development", 
             "Product Management", 
+            "Digital Marketing", 
             "Mobile Development", 
             "Front-End Web Development", 
-            "Data Science", 
-            "Digital Marketing", 
             "UX Design", 
-            "Other", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
             "followers": 102000, 
@@ -1604,8 +1604,8 @@
                 "Title": "Web Development Bootcamp"
             }
         }, 
-        "cr_num_reviews": 109, 
-        "cr_rating": 4.58, 
+        "cr_num_reviews": 108, 
+        "cr_rating": 4.57, 
         "cr_technologies": [
             "JavaScript", 
             "HTML", 
@@ -1618,7 +1618,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "San Francisco", 
             "Online", 
@@ -1651,9 +1651,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7902, 
+            "followers": 7885, 
             "handle": "@HackReactor", 
-            "tweets": 3072
+            "tweets": 3070
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1840,7 +1840,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1894,14 +1894,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9987, 
+            "followers": 9965, 
             "handle": "@ironhack", 
-            "tweets": 3498
+            "tweets": 3490
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -2178,7 +2178,7 @@
         "housing": "\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2214,14 +2214,14 @@
             "JavaScript", 
             "jQuery", 
             "Responsive Design", 
+            "ASP.NET MVC", 
+            "C#", 
+            ".NET", 
+            "SQL", 
             "UX", 
             "Bootstrap", 
             "Ruby", 
             "Ruby on Rails", 
-            "SQL", 
-            "ASP.NET MVC", 
-            "C#", 
-            ".NET", 
             "Cocoa", 
             "iOS", 
             "Mobile", 
@@ -2238,14 +2238,14 @@
             "JavaScript", 
             "jQuery", 
             "Responsive Design", 
+            "ASP.NET MVC", 
+            "C#", 
+            ".NET", 
+            "SQL", 
             "UX", 
             "Bootstrap", 
             "Ruby", 
             "Ruby on Rails", 
-            "SQL", 
-            "ASP.NET MVC", 
-            "C#", 
-            ".NET", 
             "Cocoa", 
             "iOS", 
             "Mobile", 
@@ -2271,14 +2271,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15600, 
             "handle": "@TheIronYard", 
-            "tweets": 7875
+            "tweets": 7864
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2286,8 +2286,8 @@
     "meta": {
         "Active": true, 
         "Current Market": [], 
-        "Date/Time": "2016-12-19 12:15:44", 
-        "Days Out": 98, 
+        "Date/Time": "2016-12-16 12:15:15", 
+        "Days Out": 95, 
         "Number of Entries": 6, 
         "Potential Market": [
             "The Iron Yard"

@@ -26,7 +26,6 @@ datafile = open('current_data/tracking_groups.json', 'r')
 tgroup_dict = json.load(datafile)
 
 # testbot's ID as an environment variable
-#BOT_ID = 'U2GEYPJH4'
 BOT_ID = os.environ.get("BOT_ID")
 
 # constants

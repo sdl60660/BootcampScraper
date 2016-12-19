@@ -50,7 +50,7 @@ def print_stats(print_arrays, max_diff, slack=False):
 			print
 			change_string = ', '.join(['{0} ({1:+d})'.format(str(x[0]), x[1]) for x in diff if x[1] != 0])
 			if slack:
-				print '*Biggest Changes*: ' + change_string + '\n\n-----------------------\n'
+				print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
 			else:
 				print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
 	return
@@ -196,7 +196,7 @@ def main():
 			day_text = '{} Days'.format(days_back)
 		title_text = '`Overall Changes (Last {})`'.format(day_text)
 		block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
-		print block_text + '\n' + title_text + '\n' + block_text + '\n'
+		print '\n' + block_text + '\n' + title_text + '\n' + block_text + '\n'
 	else:
 		print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
 
@@ -226,7 +226,7 @@ def main():
 			print group.center(40, '=')
 		try:
 			if slack_command:
-				full_slack_print(days_back, cats, group)
+				full_slack_print(days_back, cats, details=details, group=group)
 			else:
 				full_print(days_back, cats, group)
 		except NameError:

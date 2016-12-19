@@ -47,7 +47,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Pittsburgh"
         ], 
@@ -83,9 +83,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 650, 
+            "followers": 647, 
             "handle": "@academypgh", 
-            "tweets": 1455
+            "tweets": 1454
         }, 
         "visas": "Temporary housing is available for students upon enquiry.", 
         "website": "http://www.academypgh.com/"
@@ -169,7 +169,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Toronto"
         ], 
@@ -202,9 +202,9 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 5855, 
+            "followers": 5852, 
             "handle": "@BitmakerHQ", 
-            "tweets": 8614
+            "tweets": 8613
         }, 
         "visas": "No", 
         "website": "http://bitmaker.co/"
@@ -332,7 +332,7 @@
         }, 
         "general_cost": "$", 
         "hiring_rate": 92.0, 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Toronto"
         ], 
@@ -663,7 +663,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Toronto", 
             "Ottawa", 
@@ -742,9 +742,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7209, 
+            "followers": 7203, 
             "handle": "@BrainStation", 
-            "tweets": 7698
+            "tweets": 7695
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -819,7 +819,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Cincinnati"
         ], 
@@ -852,9 +852,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 347, 
+            "followers": 344, 
             "handle": "@MAXCincinnati", 
-            "tweets": 3643
+            "tweets": 3637
         }, 
         "visas": "No", 
         "website": "http://cincycodeit.com/"
@@ -1036,7 +1036,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Barcelona", 
             "Toronto", 
@@ -1069,14 +1069,14 @@
             "Potential Market"
         ], 
         "tracks": [
-            "Product Management", 
             "Data Science", 
-            "Other"
+            "Other", 
+            "Product Management"
         ], 
         "twitter": {
-            "followers": 3717, 
+            "followers": 3707, 
             "handle": "@DataScienceDojo", 
-            "tweets": 4854
+            "tweets": 4832
         }, 
         "visas": "No", 
         "website": "http://datasciencedojo.com/"
@@ -1309,7 +1309,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Detroit"
         ], 
@@ -1355,15 +1355,15 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Digital Marketing", 
-            "Full-Stack Web Development", 
             "Mobile Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5396, 
+            "followers": 5389, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6959
+            "tweets": 6930
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -1607,7 +1607,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Toronto"
         ], 
@@ -1651,9 +1651,9 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 9819, 
+            "followers": 9796, 
             "handle": "@hackeryou", 
-            "tweets": 3582
+            "tweets": 3579
         }, 
         "visas": "No", 
         "website": "http://hackeryou.com/"
@@ -1698,7 +1698,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Toronto"
         ], 
@@ -1859,7 +1859,7 @@
         "housing": "Limited availability; contact jon@leveledu.com", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Seattle", 
             "Charlotte", 
@@ -1901,9 +1901,9 @@
         ], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 218, 
+            "followers": 215, 
             "handle": "@leveleducation", 
-            "tweets": 635
+            "tweets": 626
         }, 
         "visas": "No", 
         "website": "http://www.leveledu.com/"
@@ -2051,10 +2051,10 @@
             "Sinatra", 
             "Ruby", 
             "CSS", 
-            "Cocoa", 
             "Git", 
-            "Product Management", 
+            "Cocoa", 
             "Objective-C", 
+            "Product Management", 
             "JavaScript", 
             "MongoDB", 
             "Ruby on Rails", 
@@ -2077,7 +2077,7 @@
         "housing": "Housing options available.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Vancouver", 
             "Toronto", 
@@ -2144,13 +2144,13 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4981, 
+            "followers": 4978, 
             "handle": "@lighthouse_labs", 
-            "tweets": 7432
+            "tweets": 7429
         }, 
         "visas": "No", 
         "website": "http://www.lighthouselabs.ca/"
@@ -2426,7 +2426,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Vancouver", 
             "Toronto"
@@ -2470,9 +2470,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1743, 
+            "followers": 1751, 
             "handle": "@RedAcademy", 
-            "tweets": 1628
+            "tweets": 1626
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -2484,7 +2484,7 @@
         "courses": {}, 
         "general_cost": null, 
         "hiring_rate": null, 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Detroit"
         ], 
@@ -2777,7 +2777,7 @@
         "housing": "\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2813,14 +2813,14 @@
             "JavaScript", 
             "jQuery", 
             "Responsive Design", 
+            "ASP.NET MVC", 
+            "C#", 
+            ".NET", 
+            "SQL", 
             "UX", 
             "Bootstrap", 
             "Ruby", 
             "Ruby on Rails", 
-            "SQL", 
-            "ASP.NET MVC", 
-            "C#", 
-            ".NET", 
             "Cocoa", 
             "iOS", 
             "Mobile", 
@@ -2837,14 +2837,14 @@
             "JavaScript", 
             "jQuery", 
             "Responsive Design", 
+            "ASP.NET MVC", 
+            "C#", 
+            ".NET", 
+            "SQL", 
             "UX", 
             "Bootstrap", 
             "Ruby", 
             "Ruby on Rails", 
-            "SQL", 
-            "ASP.NET MVC", 
-            "C#", 
-            ".NET", 
             "Cocoa", 
             "iOS", 
             "Mobile", 
@@ -2870,14 +2870,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15600, 
             "handle": "@TheIronYard", 
-            "tweets": 7875
+            "tweets": 7864
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2946,7 +2946,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-19", 
+        "last_updated": "2016-12-16", 
         "locations": [
             "Toronto"
         ], 
@@ -2980,8 +2980,8 @@
     "meta": {
         "Active": true, 
         "Current Market": [], 
-        "Date/Time": "2016-12-19 12:15:44", 
-        "Days Out": 98, 
+        "Date/Time": "2016-12-16 12:15:14", 
+        "Days Out": 95, 
         "Number of Entries": 15, 
         "Potential Market": [
             "Ladies Learning Code", 
