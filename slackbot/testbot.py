@@ -50,7 +50,7 @@ location_list = [x[0] for x in term_list if x[1] == 'Location']
 bootcamp_list = [x[0] for x in term_list if x[1] == 'Bootcamp']
 tracking_groups = ['Java/.NET', 'Selected Camp', 'Top Camp', 'Potential Market', 'Current Market']
 
-active_start_db = datetime.date.today().toordinal() - datetime.date(2016, 9, 12).toordinal()
+active_start_db = datetime.date.today().toordinal() - datetime.date(2016, 9, 13).toordinal()
 
 default_command_data = {
         'category': [],
@@ -181,9 +181,12 @@ def handle_command(command, channel, stored_command_data):
         os.chdir('/Users/samlearner/scrapy_projects/bootcamp_info')
         stored_command_data['current/trend'] = False
 
+        tgroup_selected = False
+
         for x in input_to_searchkeys(command):
             if x.title() in tracking_groups:
                 stored_command_data['tracking_group'] = x.title()
+                tgroup_selected = True
             elif is_number(x):
                 stored_command_data['days'] = int(x)
             elif x.lower() == 'max':
@@ -191,8 +194,11 @@ def handle_command(command, channel, stored_command_data):
 
         if 'max' in command.lower():
             command = command.replace('max', str(active_start_db))
-
-        input_command = "python trend_functions/tracker_results.py " + command[6:] + " 'Selected Camp' SLACK"
+ 
+        if tgroup_selected:
+            input_command = "python trend_functions/tracker_results.py " + command[6:] + " SLACK"
+        else:
+            input_command = "python trend_functions/tracker_results.py " + command[6:] + " default SLACK"
         print input_command
         response = os.popen(input_command).read()
         emoji = ':chart_with_upwards_trend:'

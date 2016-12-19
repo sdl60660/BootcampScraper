@@ -153,9 +153,9 @@ def slack_output(result_data):
 	#===========================LIST PRINT============================
 
 
-	camp_list_string = '==================================================\n' 
-	camp_list_string += 'LIST: These bootcamps fit the inputed tracking group, location, and technology filters (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
-	camp_list_string += '==================================================\n\n' 
+	camp_list_string = '`=========================================================`\n' 
+	camp_list_string += '`List`: These bootcamps fit the group/location/technology filters (Camps in Search: {})'.format(str(len(result_data.camps)))
+	camp_list_string += '\n`=========================================================`\n\n' 
 	if len(result_data.camp_list) == 0:
 		camp_list_string = -1
 	else:
@@ -165,9 +165,9 @@ def slack_output(result_data):
 
 	#===========================SORT PRINT============================
 
-	sort_list_string = '==================================================\n' 
-	sort_list_string += 'SORT: Sorted list of camps by specified categories\n'
-	sort_list_string += '==================================================\n\n' 
+	sort_list_string = '`===================================================`\n' 
+	sort_list_string += '`SORT`: Sorted list of camps by specified categories'
+	sort_list_string += '\n`===================================================`\n\n' 
 	for item in result_data.sort.keys():
 		category = result_data.sort[item]
 		if item == 'warning':
@@ -189,9 +189,9 @@ def slack_output(result_data):
 
 	#==========================SUMMARY PRINT==========================
 
-	summary_list_string = '==================================================\n' 
-	summary_list_string += 'SUMMARY: Breakdown of specified categories (Total Camps in Search: ' + str(len(result_data.camps)) + ')\n'
-	summary_list_string += '==================================================\n\n' 
+	summary_list_string = '`=========================================================`\n' 
+	summary_list_string += '`SUMMARY`: Breakdown of specified categories (Camps in Search: {})'.format(str(len(result_data.camps)))
+	summary_list_string += '\n`=========================================================`\n\n' 
 	for item in result_data.summary.keys():
 		category = result_data.summary[item]
 		if item == 'warning':

@@ -13,7 +13,6 @@ from bootcamp_info.utilities import return_closest
 import numpy as np
 from pprint import pprint
 
-cats = ['locations', 'technologies']
 groups = ['Java/.NET', 'Top Camp', 'Selected Camp', 'Potential Markets', 'Current Markets']
 
 def intersperse(array, interval):
@@ -33,26 +32,34 @@ def intersperse(array, interval):
 	out_string = ''.join(out_array)
 	return out_string
 
-def print_stats(print_arrays, max_diff, slack=False):
-	for print_array, diff in zip(print_arrays, max_diff):
+def print_stats(print_arrays, max_diff, cats, slack=False):
+	output = [x for x in print_arrays if x[-1] in cats]
+	print_bar = True
+	for print_array, diff in zip(output, max_diff):
 		if len(print_array[0]) > 0:
 			print
+
 			if slack:
 				print ('*' + str(print_array[1]) + '*').title()
 			else:
 				print (str(print_array[1])).title()
+
 			print_array = print_array[0]
+
 			for change in print_array:
 				if slack:
 					print '\t\t\t' + change.strip("'")
 				else:
 					pprint(change, indent=4)
+
 			print
 			change_string = ', '.join(['{0} ({1:+d})'.format(str(x[0]), x[1]) for x in diff if x[1] != 0])
-			if slack:
-				print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
-			else:
-				print 'Biggest Changes: ' + change_string + '\n\n-----------------------\n'
+			print 'Biggest Changes: ' + change_string
+			if print_bar == True:
+				print '\n\n-----------------------\n'
+				print_bar = False
+		else:
+			print '\n_No changes found for this group/category over the given time period._'
 	return
 
 def print_details(detail_tuples, slack=False):
@@ -92,7 +99,7 @@ def full_print(days_back, cats, group='ALL'):
 		print
 		print "Changes"
 		print "-------"
-	print_stats(print_arrays, max_diff)
+	print_stats(print_arrays, max_diff, cats)
 
 	detail_array = []
 	cat_data_list = []
@@ -125,7 +132,7 @@ def full_slack_print(days_back, cats, details=False, group='ALL'):
 	if any(len(x[0]) > 0 for x in print_arrays):
 		print
 		print "`-----Changes-----`"
-	print_stats(print_arrays, max_diff, slack=True)
+	print_stats(print_arrays, max_diff, cats, slack=True)
 
 	detail_array = []
 	cat_data_list = []
@@ -144,22 +151,41 @@ def full_slack_print(days_back, cats, details=False, group='ALL'):
 				if len(detail_array[x]) > 0:
 					print ('*' + c + '*').title()
 					print_details(detail_array[x], slack=True)
+					if x == 0:
+						print '\n\n-----------------------\n'
 					print
 	return
 
 
 def main():
+	cats = ['locations', 'technologies']
+
 	if sys.argv[-1] == 'SLACK':
 		slack_command = True
 		sys.argv.remove('SLACK')
 	else:
 		slack_command = False
 
+	if 'default' in sys.argv:
+		default = True
+		sys.argv.remove('default')
+		sys.argv.append('Selected Camp')
+	else:
+		default = False
+
 	details = False
 	if 'details' in sys.argv:
 		details = True
 		sys.argv.remove('details')
 
+	args = [x.lower() for x in sys.argv]
+	if any(x in args for x in ['locations', 'technologies']):
+		cats = []
+
+	if 'locations' in args:
+		cats.append('locations')
+	if 'technologies' in args:
+		cats.append('technologies')
 
 	if len(sys.argv) < 2:
 		print 'USAGE: python tracker_results.py days_back (OPTIONAL:) [tracking_group1] ... [tracking_groupx]'
@@ -184,32 +210,31 @@ def main():
 	if len(sys.argv) == 3 and sys.argv[-1].upper() == 'ALL':
 		tgroups = groups
 
-
 	#*******************OVERALL CHANGES********************
 
-	print
-	#print '```Overall Changes (Last {} Days)```'.format(days_back)#.center(40, '=')
-	if slack_command:
-		if days_back == 1:
-			day_text = 'Day'
-		else:
-			day_text = '{} Days'.format(days_back)
-		title_text = '`Overall Changes (Last {})`'.format(day_text)
-		block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
-		print '\n' + block_text + '\n' + title_text + '\n' + block_text + '\n'
-	else:
-		print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
-
-	try:
-		if slack_command:
-			full_slack_print(days_back, cats, details=details)
-		else:
-			full_print(days_back, cats)
-	except NameError:
+	if len(tgroups) == 0 or default == True:
 		print
-		print 'Could not find file(s) for some of these dates!'
-	print
-	print
+		if slack_command:
+			if days_back == 1:
+				day_text = 'Day'
+			else:
+				day_text = '{} Days'.format(days_back)
+			title_text = '`Overall Changes (Last {})`'.format(day_text)
+			block_text = '`' + ''.center(len(title_text)-2, '=') + '`'
+			print '\n' + block_text + '\n' + title_text + '\n' + block_text + '\n'
+		else:
+			print 'Overall Changes (Last {} Days)'.format(days_back).center(40, '=')
+
+		try:
+			if slack_command:
+				full_slack_print(days_back, cats, details=details)
+			else:
+				full_print(days_back, cats)
+		except NameError:
+			print
+			print 'Could not find file(s) for some of these dates!'
+		print
+		print
 
 	#****************TRACKING GROUP CHANGES****************
 

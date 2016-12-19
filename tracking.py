@@ -154,9 +154,20 @@ def tracking_group_stats(days_back, tracking_group='ALL', highlight_length=3):
         with open(filename, 'rb') as current_data:
             bootcamps = json.load(current_data)
         old_data = load_date_data(today_ordinal, days_back, tracking_group)
+        working = False
+        while working == False:
+            try:
+                old_meta = old_data['meta']
+                working = True
+            except KeyError:
+                days_back -= 1
+                print days_back
+                old_data = load_date_data(today_ordinal, days_back, tracking_group)
 
+    else:
+        old_meta = old_data['meta']
+    
     current_meta = bootcamps['meta']
-    old_meta = old_data['meta']
 
     print_arrays = []
     diff_arrays = []
