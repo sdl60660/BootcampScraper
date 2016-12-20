@@ -30,6 +30,8 @@ def intersperse(array, interval):
 	temp_string = ', '.join(temp_array)
 	out_array.append(temp_string)
 	out_string = ''.join(out_array)
+	if out_string[-4:] == '\n\t\t\t':
+		out_string = out_string[:-4]
 	return out_string
 
 def print_stats(print_arrays, max_diff, cats, slack=False):
@@ -76,8 +78,10 @@ def print_details(detail_tuples, slack=False):
 				elif x[2] == 'Subtraction':
 					temp_str = str(x[1]) + ' (-)'
 				camp_array.append(temp_str)
-		tech_list_string = intersperse(camp_array, 3)
+		#tech_list_string = intersperse(camp_array, 3)
 		#tech_list_string = ', '.join(camp_array)
+		double_indent = '\n\t\t\t\t\t\t'
+		tech_list_string = double_indent + double_indent.join(camp_array)
 		if slack:
 			print '\t\t\t*' + str(tech) + '*: ' + str(tech_list_string)
 		else:

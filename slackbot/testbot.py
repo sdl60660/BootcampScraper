@@ -185,12 +185,20 @@ def handle_command(command, channel, stored_command_data):
 
         for x in input_to_searchkeys(command):
             if x.title() in tracking_groups:
-                stored_command_data['tracking_group'] = x.title()
+                stored_command_data['tracking_group'] = [x.title()]
                 tgroup_selected = True
             elif is_number(x):
                 stored_command_data['days'] = int(x)
             elif x.lower() == 'max':
                 stored_command_data['days'] = active_start_db
+            if x.lower() == 'locations' or x.lower() == 'technologies':
+                stored_command_data['category'] = [x.lower()]
+
+        print input_to_searchkeys(command)
+
+        stored_command_data['current/trend'] = False
+        from pprint import pprint
+        pprint(stored_command_data)
 
         if 'max' in command.lower():
             command = command.replace('max', str(active_start_db))
@@ -228,7 +236,7 @@ def handle_command(command, channel, stored_command_data):
             stored_command_data = default_command_data
 
         #Current vs. Trend
-        if any(x in pcommands for x in ['trend', 'Trend', 'past', 'Past']):
+        if any(x in pcommands for x in ['trend', 'Trend', 'past', 'Past']) or stored_command_data['current/trend'] == False:
             c_status = False
             stored_command_data['current/trend'] = False
         else:
