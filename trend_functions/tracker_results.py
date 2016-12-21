@@ -36,6 +36,9 @@ def intersperse(array, interval):
 
 def print_stats(print_arrays, max_diff, cats, slack=False):
 	output = [x for x in print_arrays if x[-1] in cats]
+	for i, array in enumerate(print_arrays):
+		if array not in output:
+			del max_diff[i]
 	print_bar = True
 	for print_array, diff in zip(output, max_diff):
 		if len(print_array[0]) > 0:
