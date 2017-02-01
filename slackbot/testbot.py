@@ -337,8 +337,8 @@ def handle_command(command, channel, stored_command_data):
 
         print stored_command_data
 
-        plot_file_name, plot_title = tracking.plot_changes(days_back, plot_cat, current_status=c_status,
-            max_items=items, tracking_group=tgroup_input,
+        plot_file_name, plot_title = tracking.plot_changes(days_back, plot_cat,
+            current_status=c_status, max_items=items, tracking_group=tgroup_input,
             percentage=pct, save_plot=True, slack_post=True, show_plot=False)
 
         if not plot_title:

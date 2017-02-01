@@ -1,8 +1,8 @@
 {
     "Claim Academy": {
-        "accreditation": "None", 
-        "average_salary": "N/A", 
-        "class_ratio": 5, 
+        "accreditation": "Yes, the only bootcamp accredited by the state of Missouri workforce development and training.", 
+        "average_salary": 58000, 
+        "class_ratio": 10, 
         "cost_estimate": "$$", 
         "courses": {
             ".Net Bootcamp": {
@@ -19,6 +19,20 @@
                     ".NET"
                 ]
             }, 
+            ".Net Full Stack Software Engineering Cohort": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": ".Net Full Stack Software Engineering Cohort", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#"
+                ]
+            }, 
             "Java Bootcamp": {
                 "Class Size": 10, 
                 "Cost": 8000, 
@@ -30,6 +44,21 @@
                 "Length": 12, 
                 "Start Date": "Rolling Dates", 
                 "Subjects": [
+                    "Java"
+                ]
+            }, 
+            "Java Or Full Stack Software Engineering Cohort": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java or Full Stack Software Engineering Cohort", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "2017-01-14", 
+                "Subjects": [
+                    "C#", 
                     "Java"
                 ]
             }, 
@@ -53,29 +82,32 @@
         "cr_technologies": null, 
         "email": "info@claimacademystl.com", 
         "facebook": "https://www.facebook.com/claimacademy", 
-        "hiring_rate": null, 
-        "housing": null, 
-        "job_assistance": "No", 
+        "hiring_rate": 95.0, 
+        "housing": "No", 
+        "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "St. Louis"
         ], 
         "name": "Claim Academy", 
-        "num_alumni": "N/A", 
+        "num_alumni": 100, 
         "num_courses": 0, 
         "num_locations": 1, 
-        "scholarships": "Full scholarships for top candidates", 
+        "scholarships": [
+            "$500 Claim Academy Scholarship", 
+            "$500 Claim Academy Scholarship"
+        ], 
         "su_num_reviews": 10, 
         "su_rating": 3.7, 
         "su_technologies": [
-            "Java", 
-            ".NET"
+            "C#", 
+            "Java"
         ], 
-        "subjects": "Java and .NET", 
+        "subjects": "Java and .NET, Agile, Scrum, Javascript", 
         "technologies": [
-            "Java", 
-            ".NET"
+            "C#", 
+            "Java"
         ], 
         "top_source": [
             "CourseReport"
@@ -85,9 +117,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2937, 
+            "followers": 2932, 
             "handle": "@ClaimAcademySTL", 
-            "tweets": 604
+            "tweets": 608
         }, 
         "visas": "No", 
         "website": "http://claimacademystl.com/"
@@ -211,7 +243,7 @@
         "housing": "Yes", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Seattle", 
             "Portland", 
@@ -275,7 +307,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 188, 
+            "followers": 189, 
             "handle": "@codeninjaUS", 
             "tweets": 229
         }, 
@@ -283,7 +315,7 @@
         "website": "http://code-ninja.co/"
     }, 
     "Coder Camps": {
-        "accreditation": "BPPE-CABPPE-AZTWC-TXOSPI-WA", 
+        "accreditation": "BPPE-AZ TWC-TX", 
         "average_salary": 70000, 
         "class_ratio": 10, 
         "cost_estimate": "$$$", 
@@ -341,7 +373,7 @@
             "Full Stack .Net + Javascript": {
                 "Cost": null, 
                 "Course Location": [
-                    "Online"
+                    "Phoenix"
                 ], 
                 "Course Title": "Full Stack .NET + JavaScript", 
                 "Hours/Week": null, 
@@ -349,13 +381,8 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
-                    "AngularJS", 
                     "JavaScript", 
-                    ".NET", 
-                    "HTML", 
-                    "C#", 
-                    "jQuery", 
-                    "CSS"
+                    ".NET"
                 ]
             }, 
             "Full Stack Java": {
@@ -425,7 +452,7 @@
         "housing": "\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Houston", 
             "Seattle", 
@@ -478,13 +505,12 @@
         ], 
         "tracks": [
             "Front-End Web Development", 
-            "Mobile Development", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1263, 
+            "followers": 1871, 
             "handle": "@CoderCamps", 
-            "tweets": 921
+            "tweets": 944
         }, 
         "visas": "No", 
         "website": "http://www.codercamps.com/"
@@ -653,7 +679,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Greensboro", 
             "Charlotte", 
@@ -703,9 +729,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 883, 
+            "followers": 882, 
             "handle": "@CoderFoundry", 
-            "tweets": 449
+            "tweets": 450
         }, 
         "visas": "No", 
         "website": "http://www.coderfoundry.com/"
@@ -898,7 +924,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Chicago"
         ], 
@@ -966,7 +992,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 197, 
+            "followers": 196, 
             "handle": "@coding_temple", 
             "tweets": 62
         }, 
@@ -1097,7 +1123,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Milwaukee"
         ], 
@@ -1136,9 +1162,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1300, 
+            "followers": 1308, 
             "handle": "@devcodecamp", 
-            "tweets": 938
+            "tweets": 946
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -1532,7 +1558,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Portland", 
             "Seattle"
@@ -1727,7 +1753,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Sydney", 
             "Brisbane", 
@@ -1994,7 +2020,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Detroit"
         ], 
@@ -2046,9 +2072,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5407, 
+            "followers": 5422, 
             "handle": "@GrandCircusCo", 
-            "tweets": 6971
+            "tweets": 7021
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -2171,7 +2197,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 81, 
+        "cr_num_reviews": 82, 
         "cr_rating": 4.96, 
         "cr_technologies": [
             "AngularJS", 
@@ -2211,7 +2237,7 @@
         "housing": "None", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Los Angeles", 
             "Orange County", 
@@ -2265,17 +2291,17 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Product Management", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "UX Design", 
             "Other", 
-            "Product Management", 
-            "UX Design"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2298, 
+            "followers": 2292, 
             "handle": "@WeSabio", 
-            "tweets": 10100
+            "tweets": 10200
         }, 
         "visas": "Yes", 
         "website": "http://sabio.la"
@@ -2341,7 +2367,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Denver"
         ], 
@@ -2380,9 +2406,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 471, 
+            "followers": 472, 
             "handle": "@SkillDistillery", 
-            "tweets": 390
+            "tweets": 391
         }, 
         "visas": "No", 
         "website": "http://skilldistillery.com/"
@@ -2483,17 +2509,17 @@
         "cr_num_reviews": 52, 
         "cr_rating": 4.77, 
         "cr_technologies": [
-            "C#", 
-            ".NET", 
-            "ASP.NET", 
-            "HTML", 
-            "CSS", 
-            "JavaScript", 
-            "jQuery", 
             "AngularJS", 
             "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
             "Git", 
+            "C#", 
+            "ASP.NET", 
             "SQL", 
+            "jQuery", 
+            "CSS", 
             "MySQL", 
             "Java"
         ], 
@@ -2504,7 +2530,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -2515,7 +2541,7 @@
         "num_alumni": "N/A", 
         "num_courses": 2, 
         "num_locations": 4, 
-        "su_num_reviews": 16, 
+        "su_num_reviews": 20, 
         "su_rating": 4.8, 
         "su_technologies": [
             "CSS", 
@@ -2541,10 +2567,10 @@
             "AngularJS", 
             ".NET", 
             "SQL", 
-            "C#", 
-            "ASP.NET", 
             "Front End", 
-            "Git"
+            "Git", 
+            "C#", 
+            "ASP.NET"
         ], 
         "top_source": [
             "CourseReport"
@@ -2559,9 +2585,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 677, 
+            "followers": 683, 
             "handle": "@softwareguild", 
-            "tweets": 1009
+            "tweets": 1016
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -2832,7 +2858,7 @@
         "housing": "\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2860,7 +2886,7 @@
         "num_courses": 5, 
         "num_locations": 20, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 59, 
+        "su_num_reviews": 60, 
         "su_rating": 4.2, 
         "su_technologies": [
             "CSS", 
@@ -2915,9 +2941,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 15600, 
+            "followers": 15700, 
             "handle": "@TheIronYard", 
-            "tweets": 7883
+            "tweets": 7895
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2991,7 +3017,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 108, 
+        "cr_num_reviews": 110, 
         "cr_rating": 4.93, 
         "cr_technologies": [
             "MySQL", 
@@ -3014,7 +3040,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Portland", 
             "Online"
@@ -3024,7 +3050,7 @@
         "num_courses": 1, 
         "num_locations": 2, 
         "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
-        "su_num_reviews": 81, 
+        "su_num_reviews": 82, 
         "su_rating": 4.9, 
         "su_technologies": [
             "Algorithms", 
@@ -3079,9 +3105,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1725, 
+            "followers": 1726, 
             "handle": "@TheTechAcad", 
-            "tweets": 581
+            "tweets": 598
         }, 
         "visas": "No", 
         "website": "http://learncodinganywhere.com/"
@@ -3091,8 +3117,8 @@
         "Current Market": [
             "Software Guild"
         ], 
-        "Date/Time": "2016-12-21 12:11:54", 
-        "Days Out": 100, 
+        "Date/Time": "2016-12-27 12:12:24", 
+        "Days Out": 106, 
         "Number of Entries": 14, 
         "Potential Market": [
             "The Iron Yard", 
@@ -3145,14 +3171,14 @@
             "Washington": 2
         }, 
         "technologies": {
-            ".NET": 12, 
+            ".NET": 11, 
             "ASP.NET": 7, 
             "ASP.NET MVC": 1, 
             "Algorithms": 3, 
             "Android": 2, 
             "AngularJS": 10, 
             "Bootstrap": 1, 
-            "C#": 11, 
+            "C#": 12, 
             "CSS": 13, 
             "Data Science": 2, 
             "Data Structures": 2, 

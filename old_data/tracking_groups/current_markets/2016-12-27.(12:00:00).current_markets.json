@@ -370,8 +370,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 75, 
-        "cr_rating": 4.27, 
+        "cr_num_reviews": 76, 
+        "cr_rating": 4.26, 
         "cr_technologies": [
             "Git", 
             "Android", 
@@ -399,7 +399,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Online", 
             "Bangalore"
@@ -439,15 +439,15 @@
             "Current Market"
         ], 
         "tracks": [
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Data Science", 
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "Digital Marketing", 
-            "Other", 
-            "Full-Stack Web Development"
+            "Other"
         ], 
         "twitter": {
-            "followers": 906, 
+            "followers": 898, 
             "handle": "@acadgild", 
             "tweets": 2421
         }, 
@@ -496,7 +496,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Cleveland"
         ], 
@@ -620,17 +620,17 @@
         "cr_num_reviews": 52, 
         "cr_rating": 4.77, 
         "cr_technologies": [
-            "C#", 
-            ".NET", 
-            "ASP.NET", 
-            "HTML", 
-            "CSS", 
-            "JavaScript", 
-            "jQuery", 
             "AngularJS", 
             "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
             "Git", 
+            "C#", 
+            "ASP.NET", 
             "SQL", 
+            "jQuery", 
+            "CSS", 
             "MySQL", 
             "Java"
         ], 
@@ -641,7 +641,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -652,7 +652,7 @@
         "num_alumni": "N/A", 
         "num_courses": 2, 
         "num_locations": 4, 
-        "su_num_reviews": 16, 
+        "su_num_reviews": 20, 
         "su_rating": 4.8, 
         "su_technologies": [
             "CSS", 
@@ -678,10 +678,10 @@
             "AngularJS", 
             ".NET", 
             "SQL", 
-            "C#", 
-            "ASP.NET", 
             "Front End", 
-            "Git"
+            "Git", 
+            "C#", 
+            "ASP.NET"
         ], 
         "top_source": [
             "CourseReport"
@@ -696,9 +696,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 677, 
+            "followers": 683, 
             "handle": "@softwareguild", 
-            "tweets": 1009
+            "tweets": 1016
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -990,7 +990,7 @@
         "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -1031,9 +1031,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 645, 
+            "followers": 646, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1591
+            "tweets": 1604
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -1185,7 +1185,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2016-12-27", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -1231,7 +1231,7 @@
         "twitter": {
             "followers": 1604, 
             "handle": "@WeCanCodeIT", 
-            "tweets": 1689
+            "tweets": 1692
         }, 
         "visas": "No", 
         "website": "https://wecancodeit.org/"
@@ -1245,8 +1245,8 @@
             "Acadgild", 
             "Boole Institute"
         ], 
-        "Date/Time": "2016-12-21 12:11:53", 
-        "Days Out": 100, 
+        "Date/Time": "2016-12-27 12:12:24", 
+        "Days Out": 106, 
         "Number of Entries": 5, 
         "Potential Market": [], 
         "locations": {

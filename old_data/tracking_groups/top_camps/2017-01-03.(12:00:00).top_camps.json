@@ -35,8 +35,8 @@
                 "Title": "Web Development"
             }
         }, 
-        "cr_num_reviews": 102, 
-        "cr_rating": 4.32, 
+        "cr_num_reviews": 115, 
+        "cr_rating": 4.36, 
         "cr_technologies": [
             "JavaScript", 
             "HTML", 
@@ -53,7 +53,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2017-01-03", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -67,8 +67,8 @@
         "num_courses": 1, 
         "num_locations": 6, 
         "scholarships": "$500 Dev Bootcamp Scholarship!", 
-        "su_num_reviews": 27, 
-        "su_rating": 3.8, 
+        "su_num_reviews": 30, 
+        "su_rating": 3.9, 
         "su_technologies": [
             "Algorithms", 
             "CSS", 
@@ -101,9 +101,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 10100, 
+            "followers": 10200, 
             "handle": "@devbootcamp", 
-            "tweets": 10200
+            "tweets": 10300
         }, 
         "visas": "No", 
         "website": "http://devbootcamp.com/"
@@ -298,8 +298,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 36, 
-        "cr_rating": 4.28, 
+        "cr_num_reviews": 38, 
+        "cr_rating": 4.32, 
         "cr_technologies": [
             "Swift", 
             "iOS", 
@@ -331,7 +331,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2017-01-03", 
         "locations": [
             "New York City", 
             "Online"
@@ -347,42 +347,42 @@
         "num_courses": 3, 
         "num_locations": 2, 
         "scholarships": "$250 Flatiron Learn Verified Scholarship", 
-        "su_num_reviews": 20, 
+        "su_num_reviews": 23, 
         "su_rating": 4.8, 
         "su_technologies": [
-            "AngularJS", 
-            "CSS", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "Node.js", 
-            "Ruby", 
-            "Ruby on Rails", 
-            "SQL", 
-            "Git", 
-            "React.js", 
-            "Sinatra", 
-            "Cocoa", 
-            "Objective-C", 
-            "Swift"
-        ], 
-        "subjects": "Full Stack JavaScript, Full Stack Ruby, iOS, HTML/CSS,  Swift, React, Bootcamp Prep", 
-        "technologies": [
-            "AngularJS", 
-            "CSS", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "Node.js", 
-            "Ruby", 
-            "Ruby on Rails", 
-            "SQL", 
-            "Git", 
-            "React.js", 
-            "Sinatra", 
             "Cocoa", 
             "Objective-C", 
             "Swift", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Node.js", 
+            "React.js", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Sinatra", 
+            "SQL", 
+            "AngularJS", 
+            "Git", 
+            "jQuery"
+        ], 
+        "subjects": "Full Stack JavaScript, Full Stack Ruby, iOS, HTML/CSS,  Swift, React, Bootcamp Prep", 
+        "technologies": [
+            "Cocoa", 
+            "Objective-C", 
+            "Swift", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Node.js", 
+            "React.js", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "Sinatra", 
+            "SQL", 
+            "AngularJS", 
+            "Git", 
+            "jQuery", 
             "iOS", 
             "Xcode", 
             "Mobile", 
@@ -402,9 +402,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7112, 
+            "followers": 7116, 
             "handle": "@FlatironSchool", 
-            "tweets": 4466
+            "tweets": 4470
         }, 
         "visas": "No", 
         "website": "http://flatironschool.com/"
@@ -1413,7 +1413,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 160, 
+        "cr_num_reviews": 164, 
         "cr_rating": 4.22, 
         "cr_technologies": [
             "User Experience Design", 
@@ -1453,7 +1453,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2017-01-03", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -1546,7 +1546,7 @@
         "twitter": {
             "followers": 102000, 
             "handle": "@GA", 
-            "tweets": 16600
+            "tweets": 16700
         }, 
         "visas": "No", 
         "website": "https://generalassemb.ly/"
@@ -1604,8 +1604,8 @@
                 "Title": "Web Development Bootcamp"
             }
         }, 
-        "cr_num_reviews": 113, 
-        "cr_rating": 4.56, 
+        "cr_num_reviews": 115, 
+        "cr_rating": 4.57, 
         "cr_technologies": [
             "JavaScript", 
             "HTML", 
@@ -1618,7 +1618,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2017-01-03", 
         "locations": [
             "San Francisco", 
             "Online", 
@@ -1651,9 +1651,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 7901, 
+            "followers": 7922, 
             "handle": "@HackReactor", 
-            "tweets": 3081
+            "tweets": 3099
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -1811,7 +1811,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 79, 
+        "cr_num_reviews": 80, 
         "cr_rating": 4.9, 
         "cr_technologies": [
             "Swift", 
@@ -1840,7 +1840,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2017-01-03", 
         "locations": [
             "Barcelona", 
             "Madrid", 
@@ -1851,7 +1851,7 @@
         "num_courses": 6, 
         "num_locations": 3, 
         "scholarships": "1000$ Scholarship for Women. Payment plans available on our website", 
-        "su_num_reviews": 51, 
+        "su_num_reviews": 52, 
         "su_rating": 4.9, 
         "su_technologies": [
             "Cocoa", 
@@ -1899,9 +1899,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 9999, 
+            "followers": 10100, 
             "handle": "@ironhack", 
-            "tweets": 3504
+            "tweets": 3507
         }, 
         "visas": "No", 
         "website": "http://www.ironhack.com/en/"
@@ -1940,55 +1940,63 @@
                 "Title": "Back End Engineering"
             }, 
             "Back End Engineering - .Net": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
-                    "Charleston", 
-                    "Greenville"
+                    "Tampa"
                 ], 
                 "Course Title": "Back End Engineering - .NET", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Length": 12, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Start Date": "2017-01-09", 
                 "Subjects": [
-                    "C#", 
-                    "CSS", 
+                    "JavaScript", 
                     "HTML", 
-                    "Javascript", 
-                    "SQL"
+                    "C#", 
+                    "SQL", 
+                    "CSS"
                 ]
             }, 
             "Back End Engineering - Java": {
-                "Cost": 12000, 
+                "Cost": null, 
                 "Course Location": [
                     "Orlando"
                 ], 
                 "Course Title": "Back End Engineering - Java", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Length": 12, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Start Date": "2017-01-09", 
                 "Subjects": [
-                    "CSS", 
+                    "JavaScript", 
                     "HTML", 
                     "Java", 
-                    "Javascript", 
-                    "SQL"
+                    "SQL", 
+                    "CSS"
                 ]
             }, 
             "Back End Engineering - Ruby On Rails": {
-                "Cost": 13900, 
+                "Cost": null, 
                 "Course Location": [
-                    "Raleigh-Durham"
+                    "Tampa"
                 ], 
                 "Course Title": "Back End Engineering - Ruby on Rails", 
-                "Hours/Week": 40, 
+                "Hours/Week": null, 
                 "Length": 12, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
                 "Start Date": "2017-01-09", 
                 "Subjects": [
-                    "CSS", 
+                    "JavaScript", 
                     "HTML", 
-                    "Javascript", 
+                    "SQL", 
                     "Ruby", 
-                    "SQL"
+                    "CSS"
                 ]
             }, 
             "Back-End Engineering": {
@@ -2059,7 +2067,7 @@
                 "Course Title": "Front End Engineering - Foundations", 
                 "Hours/Week": 10, 
                 "Length": 2, 
-                "Start Date": "2017-01-03", 
+                "Start Date": "Rolling Dates", 
                 "Subjects": [
                     "CSS", 
                     "HTML", 
@@ -2112,11 +2120,7 @@
                 "Start Date": "2017-01-30", 
                 "Subjects": [
                     "Swift", 
-                    "iOS", 
-                    "Git", 
-                    "Xcode", 
-                    "Objective-C", 
-                    "Mobile"
+                    "Objective-C"
                 ], 
                 "Title": "Mobile Engineering"
             }, 
@@ -2163,16 +2167,18 @@
             "Python", 
             "Django", 
             ".NET", 
-            "Java"
+            "Java", 
+            "SQL", 
+            "C#"
         ], 
         "email": "hello@theironyard.com", 
         "facebook": "https://www.facebook.com/TheIronYard", 
         "general_cost": "$$$", 
         "hiring_rate": 90.0, 
-        "housing": "\u00a0", 
+        "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2016-12-21", 
+        "last_updated": "2017-01-03", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -2197,10 +2203,10 @@
         ], 
         "name": "The Iron Yard", 
         "num_alumni": 1800, 
-        "num_courses": 5, 
+        "num_courses": 8, 
         "num_locations": 20, 
         "scholarships": "$1000 Diversity Scholarship available", 
-        "su_num_reviews": 59, 
+        "su_num_reviews": 60, 
         "su_rating": 4.2, 
         "su_technologies": [
             "CSS", 
@@ -2255,9 +2261,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 15600, 
+            "followers": 15700, 
             "handle": "@TheIronYard", 
-            "tweets": 7883
+            "tweets": 7901
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -2265,8 +2271,8 @@
     "meta": {
         "Active": true, 
         "Current Market": [], 
-        "Date/Time": "2016-12-21 12:11:55", 
-        "Days Out": 100, 
+        "Date/Time": "2017-01-03 12:11:37", 
+        "Days Out": 113, 
         "Number of Entries": 6, 
         "Potential Market": [
             "The Iron Yard"

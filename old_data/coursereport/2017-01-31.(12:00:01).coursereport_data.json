@@ -22,7 +22,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -38,7 +38,7 @@
         "twitter": {
             "followers": 683, 
             "handle": "@CyberRetraining", 
-            "tweets": 383
+            "tweets": 382
         }, 
         "visas": "No", 
         "website": "https://cyber-academy.co.uk/"
@@ -87,7 +87,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Tel Aviv"
         ], 
@@ -148,7 +148,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -165,12 +165,72 @@
         "tracking_groups": [], 
         "tracks": "Product Management", 
         "twitter": {
-            "followers": 1852, 
+            "followers": 1847, 
             "handle": "@2020Shift", 
-            "tweets": 5213
+            "tweets": 5205
         }, 
         "visas": "No", 
         "website": "http://www.2020shift.com/more-than-code/"
+    }, 
+    "23 Code Street": {
+        "accreditation": "None", 
+        "courses": {
+            "Web Development Foundation Course ": {
+                "Cost": 1500, 
+                "Course Location": [
+                    "London"
+                ], 
+                "Course Title": "Web Development Foundation Course ", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 1, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "email": "hello@23codestreet.com", 
+        "facebook": "https://www.facebook.com/23codestreet", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "London"
+        ], 
+        "name": "23 Code Street", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 698, 
+            "handle": "@23codestreet", 
+            "tweets": 423
+        }, 
+        "visas": "No", 
+        "website": "http://23codestreet.com/"
     }, 
     "30 Weeks": {
         "accreditation": "None", 
@@ -207,7 +267,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -314,7 +374,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Paris", 
             "Silicon Valley"
@@ -346,7 +406,7 @@
         "twitter": {
             "followers": 20200, 
             "handle": "@42born2code", 
-            "tweets": 6197
+            "tweets": 6195
         }, 
         "visas": "The US campus has 163 dormitory rooms.", 
         "website": "http://www.42.us.org"
@@ -471,7 +531,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami", 
             "Caracas"
@@ -506,9 +566,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 242, 
+            "followers": 243, 
             "handle": "@4GeeksAcademy", 
-            "tweets": 794
+            "tweets": 792
         }, 
         "visas": "No", 
         "website": "http://4geeksacademy.com"
@@ -522,7 +582,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Lisbon"
         ], 
@@ -534,9 +594,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 760, 
+            "followers": 761, 
             "handle": "@academia_codigo", 
-            "tweets": 1482
+            "tweets": 1480
         }, 
         "visas": "No", 
         "website": "http://academiadecodigo.org/"
@@ -577,7 +637,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Stockholm"
         ], 
@@ -597,7 +657,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4576, 
+            "followers": 4575, 
             "handle": "@AcademicWork_se", 
             "tweets": 8521
         }, 
@@ -648,7 +708,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Pittsburgh"
         ], 
@@ -678,9 +738,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 676, 
+            "followers": 673, 
             "handle": "@academypgh", 
-            "tweets": 1502
+            "tweets": 1496
         }, 
         "visas": "Temporary housing is available for students upon enquiry.", 
         "website": "http://www.academypgh.com/"
@@ -715,7 +775,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco", 
             "Los Angeles"
@@ -736,7 +796,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 345, 
+            "followers": 343, 
             "handle": "@academyx", 
             "tweets": 611
         }, 
@@ -1138,7 +1198,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Bangalore"
@@ -1171,17 +1231,17 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Data Science", 
             "Mobile Development", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
+            "Data Science", 
             "Digital Marketing", 
-            "Other"
+            "Other", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 905, 
+            "followers": 907, 
             "handle": "@acadgild", 
-            "tweets": 2534
+            "tweets": 2528
         }, 
         "visas": "No", 
         "website": "http://acadgild.com/"
@@ -1224,7 +1284,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bangalore"
         ], 
@@ -1245,9 +1305,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 437, 
+            "followers": 436, 
             "handle": "@_acehacker", 
-            "tweets": 1636
+            "tweets": 1637
         }, 
         "visas": "No", 
         "website": "http://www.acehacker.com/writeright.html"
@@ -1290,7 +1350,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago", 
             "San Francisco", 
@@ -1324,15 +1384,15 @@
         "accreditation": "None", 
         "courses": {
             "Software Development Intensive ": {
-                "Cost": null, 
+                "Cost": 0, 
                 "Course Location": [
                     "Seattle"
                 ], 
                 "Course Title": "Software Development Intensive ", 
-                "Hours/Week": null, 
+                "Hours/Week": 40, 
                 "Minimum Skill": null, 
-                "Onsite": null, 
-                "Part Or Full": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
                 "Subjects": [
                     "JavaScript", 
                     "HTML", 
@@ -1358,7 +1418,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Seattle"
         ], 
@@ -1381,9 +1441,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2795, 
+            "followers": 2794, 
             "handle": "@adaacademy", 
-            "tweets": 2362
+            "tweets": 2361
         }, 
         "visas": "No", 
         "website": "http://adadevelopersacademy.org/"
@@ -1420,7 +1480,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bend"
         ], 
@@ -1497,7 +1557,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Athens"
         ], 
@@ -1520,7 +1580,7 @@
         "twitter": {
             "followers": 57, 
             "handle": "@AFDEmpNews", 
-            "tweets": 141
+            "tweets": 140
         }, 
         "visas": "No", 
         "website": "http://www.afdemp.org/bootcamp/"
@@ -1534,7 +1594,7 @@
         "housing": "Yes", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Obidos", 
             "Porto", 
@@ -1593,7 +1653,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boston"
         ], 
@@ -1612,9 +1672,9 @@
         "tracking_groups": [], 
         "tracks": "UX Design", 
         "twitter": {
-            "followers": 1452, 
+            "followers": 1456, 
             "handle": "@agitraining", 
-            "tweets": 726
+            "tweets": 723
         }, 
         "visas": "No", 
         "website": "https://www.agitraining.com"
@@ -1655,7 +1715,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Nairobi", 
             "Lagos"
@@ -1679,7 +1739,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2029, 
+            "followers": 2020, 
             "handle": "@Andela_Nigeria", 
             "tweets": 882
         }, 
@@ -1748,25 +1808,25 @@
         "cr_num_reviews": 113, 
         "cr_rating": 4.68, 
         "cr_technologies": [
-            "Front End", 
-            "JavaScript", 
-            "HTML", 
-            "Ruby on Rails", 
-            "SQL", 
-            "jQuery", 
-            "Design", 
             "Ruby", 
-            "User Experience Design", 
+            "Ruby on Rails", 
             "CSS", 
+            "Design", 
+            "Front End", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Node.js", 
             "React.js", 
-            "Node.js"
+            "SQL", 
+            "User Experience Design"
         ], 
         "email": "contact@appacademy.io", 
         "facebook": "https://www.facebook.com/hashmaplabs", 
         "housing": "App Academy has a partnership with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco", 
             "New York City"
@@ -1775,18 +1835,18 @@
         "num_courses": 3, 
         "num_locations": 2, 
         "technologies": [
-            "Front End", 
-            "JavaScript", 
-            "HTML", 
-            "Ruby on Rails", 
-            "SQL", 
-            "jQuery", 
-            "Design", 
             "Ruby", 
-            "User Experience Design", 
+            "Ruby on Rails", 
             "CSS", 
+            "Design", 
+            "Front End", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Node.js", 
             "React.js", 
-            "Node.js"
+            "SQL", 
+            "User Experience Design"
         ], 
         "top_source": [
             "CourseReport"
@@ -1852,7 +1912,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles", 
             "San Diego", 
@@ -1950,7 +2010,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boston", 
             "San Francisco"
@@ -2014,7 +2074,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Conway"
         ], 
@@ -2033,7 +2093,7 @@
         "twitter": {
             "followers": 122, 
             "handle": "@arcoding", 
-            "tweets": 59
+            "tweets": 57
         }, 
         "visas": "No", 
         "website": "http://arkansascodingacademy.com/"
@@ -2072,7 +2132,7 @@
         "housing": "Array does not provide student housing. Students may request a list of local realtors and agencies from the school's office.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cheyenne"
         ], 
@@ -2091,7 +2151,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 70, 
+            "followers": 69, 
             "handle": "@arrayschool", 
             "tweets": 60
         }, 
@@ -2126,7 +2186,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -2189,7 +2249,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Durham"
         ], 
@@ -2267,7 +2327,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta"
         ], 
@@ -2368,7 +2428,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Austin"
         ], 
@@ -2397,7 +2457,7 @@
         "twitter": {
             "followers": 2506, 
             "handle": "@AustinCoding", 
-            "tweets": 1104
+            "tweets": 1099
         }, 
         "visas": "No", 
         "website": "http://www.austincodingacademy.com/"
@@ -2446,7 +2506,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Lexington"
         ], 
@@ -2470,9 +2530,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 3014, 
+            "followers": 3016, 
             "handle": "@awesome_inc", 
-            "tweets": 6175
+            "tweets": 6174
         }, 
         "visas": "No", 
         "website": "http://www.awesomeincu.com/bootcamp/"
@@ -2509,7 +2569,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona"
         ], 
@@ -2527,7 +2587,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1325, 
+            "followers": 1327, 
             "handle": "@gk3000", 
             "tweets": 392
         }, 
@@ -2594,7 +2654,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Vienna", 
             "Medellin"
@@ -2617,9 +2677,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 650, 
+            "followers": 616, 
             "handle": "@basecamp_ai", 
-            "tweets": 1734
+            "tweets": 1729
         }, 
         "visas": "No", 
         "website": "http://www.basecamp.ai/"
@@ -2687,7 +2747,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles"
         ], 
@@ -2718,7 +2778,7 @@
             "Other"
         ], 
         "twitter": {
-            "followers": 111, 
+            "followers": 112, 
             "handle": "@beachcoders", 
             "tweets": 755
         }, 
@@ -2776,7 +2836,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -2876,7 +2936,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Baltimore"
         ], 
@@ -2902,9 +2962,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5866, 
+            "followers": 5861, 
             "handle": "@betamore", 
-            "tweets": 4880
+            "tweets": 4876
         }, 
         "visas": "No", 
         "website": "http://www.betamore.com/academy/"
@@ -2951,7 +3011,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dallas"
         ], 
@@ -2974,9 +3034,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 954, 
+            "followers": 953, 
             "handle": "@bigdcode", 
-            "tweets": 1419
+            "tweets": 1418
         }, 
         "visas": "No", 
         "website": "http://bigdcode.com/"
@@ -3108,7 +3168,7 @@
         "housing": "We provide housing for students who take our 5 and 7 day bootcamps at their respective locations.", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta", 
             "Monterey"
@@ -3210,7 +3270,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bozeman", 
             "Missoula", 
@@ -3247,9 +3307,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 660, 
+            "followers": 650, 
             "handle": "@bigskyacademy", 
-            "tweets": 275
+            "tweets": 273
         }, 
         "visas": "No", 
         "website": "http://www.bigskycodeacademy.org/"
@@ -3332,7 +3392,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -3439,7 +3499,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Toronto"
         ], 
@@ -3472,9 +3532,9 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 5892, 
+            "followers": 5888, 
             "handle": "@BitmakerHQ", 
-            "tweets": 8595
+            "tweets": 8591
         }, 
         "visas": "No", 
         "website": "http://bitmaker.co/"
@@ -3515,7 +3575,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami"
         ], 
@@ -3535,13 +3595,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "UX Design", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 55, 
+            "followers": 54, 
             "handle": "@BlackbeltCoding", 
             "tweets": 23
         }, 
@@ -3710,7 +3770,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -3740,13 +3800,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Mobile Development", 
+            "Front-End Web Development", 
             "UX Design", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2747, 
+            "followers": 2749, 
             "handle": "@trybloc", 
             "tweets": 2946
         }, 
@@ -3762,7 +3822,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Fayetteville"
         ], 
@@ -3834,7 +3894,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boise"
         ], 
@@ -3864,9 +3924,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 757, 
+            "followers": 760, 
             "handle": "@BoiseCodeWorks", 
-            "tweets": 960
+            "tweets": 957
         }, 
         "visas": "No", 
         "website": "https://boisecodeworks.com/"
@@ -3913,7 +3973,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cleveland"
         ], 
@@ -4013,7 +4073,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Salt Lake City", 
             "Online", 
@@ -4243,7 +4303,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -4486,7 +4546,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Toronto", 
             "Ottawa", 
@@ -4531,9 +4591,9 @@
             "Other"
         ], 
         "twitter": {
-            "followers": 7326, 
+            "followers": 7324, 
             "handle": "@BrainStation", 
-            "tweets": 7793
+            "tweets": 7792
         }, 
         "visas": "No", 
         "website": "http://www.brainstation.io/"
@@ -4700,7 +4760,7 @@
         "housing": "We partner with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "Singapore", 
@@ -4733,15 +4793,15 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "Data Science", 
             "Other", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 718, 
+            "followers": 722, 
             "handle": "@ByteAcademyCo", 
-            "tweets": 2386
+            "tweets": 2385
         }, 
         "visas": "No", 
         "website": "http://www.byteacademy.co/"
@@ -4827,7 +4887,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -4852,9 +4912,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2384, 
+            "followers": 2382, 
             "handle": "@C4QNYC", 
-            "tweets": 2563
+            "tweets": 2561
         }, 
         "visas": "No", 
         "website": "http://www.c4q.nyc/accesscode"
@@ -4898,7 +4958,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bali"
         ], 
@@ -4920,7 +4980,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8942, 
+            "followers": 8941, 
             "handle": "@campcodeaway", 
             "tweets": 58
         }, 
@@ -5030,7 +5090,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Berlin"
@@ -5067,9 +5127,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5706, 
+            "followers": 5704, 
             "handle": "@careerfoundry", 
-            "tweets": 7799
+            "tweets": 7792
         }, 
         "visas": "No", 
         "website": "http://www.careerfoundry.com/?affiliate=coursereport"
@@ -5110,7 +5170,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cleveland"
         ], 
@@ -5133,12 +5193,84 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9792, 
+            "followers": 9786, 
             "handle": "@cwru", 
-            "tweets": 2730
+            "tweets": 2729
         }, 
         "visas": "No", 
         "website": "https://codingbootcamp.case.edu/"
+    }, 
+    "Centriq Training": {
+        "accreditation": "Centriq\u2019s Boot Camp program is approved annually by the Private Post-Secondary division of the Kansas Board of Regents.", 
+        "courses": {
+            "Tech Smart Kc": {
+                "Cost": 22495, 
+                "Course Location": [
+                    "Kansas City"
+                ], 
+                "Course Title": "Tech Smart KC", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 2, 
+        "cr_rating": 2.5, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "SQL", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "email": "tparker@centriq.com", 
+        "facebook": "https://www.facebook.com/TechSmartKC", 
+        "housing": "YEs", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "Kansas City"
+        ], 
+        "name": "Centriq Training", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "SQL", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 1188, 
+            "handle": "@CentriqTraining", 
+            "tweets": 4087
+        }, 
+        "visas": "No", 
+        "website": "http://centriq.com/career/techsmart-kc-program/"
     }, 
     "Cincy Code It": {
         "accreditation": "Cincy Code IT is authorized by the Ohio State Board of Career Colleges and Schools.  Also, Cincy Code IT is approved by the state of Ohio as an \"Eligible Training Provider,\" and may receive Workforce Innovation & Opportunities Act grants (WIOA/WIA).  ", 
@@ -5205,7 +5337,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cincinnati"
         ], 
@@ -5233,9 +5365,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 343, 
+            "followers": 346, 
             "handle": "@MAXCincinnati", 
-            "tweets": 3712
+            "tweets": 3711
         }, 
         "visas": "No", 
         "website": "http://cincycodeit.com/"
@@ -5251,7 +5383,7 @@
         "housing": "While we do not have our own housing. We \u00a0assist you in finding reasonable \u00a0housing in the St Louis area", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "St. Louis"
         ], 
@@ -5274,9 +5406,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2881, 
+            "followers": 2883, 
             "handle": "@ClaimAcademySTL", 
-            "tweets": 620
+            "tweets": 619
         }, 
         "visas": "No", 
         "website": "http://claimacademystl.com/"
@@ -5314,7 +5446,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cleveland"
         ], 
@@ -5335,7 +5467,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 65, 
+            "followers": 64, 
             "handle": "@clevelandcodes", 
             "tweets": 17
         }, 
@@ -5370,7 +5502,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles"
         ], 
@@ -5446,7 +5578,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Hyderabad"
         ], 
@@ -5509,7 +5641,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Seattle"
         ], 
@@ -5616,7 +5748,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta"
         ], 
@@ -5644,13 +5776,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Mobile Development"
+            "Mobile Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 57, 
+            "followers": 58, 
             "handle": "@CodeCareerAcad", 
-            "tweets": 242
+            "tweets": 239
         }, 
         "visas": "No", 
         "website": "https://codecareeracademy.com/"
@@ -5738,7 +5870,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -5765,7 +5897,7 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 959, 
+            "followers": 958, 
             "handle": "@codechicago", 
             "tweets": 796
         }, 
@@ -5796,7 +5928,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -5810,7 +5942,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4789, 
+            "followers": 4794, 
             "handle": "@CodeCloudMe", 
             "tweets": 951
         }, 
@@ -6022,8 +6154,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 87, 
-        "cr_rating": 4.03, 
+        "cr_num_reviews": 86, 
+        "cr_rating": 4.02, 
         "cr_technologies": [
             "Front End", 
             "JavaScript", 
@@ -6047,7 +6179,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Seattle", 
             "Portland"
@@ -6085,9 +6217,9 @@
             "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 3348, 
+            "followers": 3349, 
             "handle": "@codefellows", 
-            "tweets": 3933
+            "tweets": 3932
         }, 
         "visas": "No", 
         "website": "https://www.codefellows.org/"
@@ -6116,7 +6248,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami"
         ], 
@@ -6130,7 +6262,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1888, 
+            "followers": 1886, 
             "handle": "@CodeFeverMiami", 
             "tweets": 3077
         }, 
@@ -6191,7 +6323,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Washington"
         ], 
@@ -6213,7 +6345,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2632, 
+            "followers": 2630, 
             "handle": "@codeforprogress", 
             "tweets": 926
         }, 
@@ -6254,7 +6386,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dublin", 
             "Online"
@@ -6274,9 +6406,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1794, 
+            "followers": 1797, 
             "handle": "@CodersInstitute", 
-            "tweets": 3477
+            "tweets": 3475
         }, 
         "visas": "No", 
         "website": "http://www.codeinstitute.net/"
@@ -6342,7 +6474,7 @@
         "housing": "Yes", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Mexico City", 
             "Online", 
@@ -6386,9 +6518,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 253, 
+            "followers": 252, 
             "handle": "@codeninjaUS", 
-            "tweets": 329
+            "tweets": 323
         }, 
         "visas": "No", 
         "website": "http://code-ninja.co/"
@@ -6401,7 +6533,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -6496,7 +6628,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Reno"
         ], 
@@ -6618,7 +6750,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -6639,7 +6771,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 151, 
+            "followers": 150, 
             "handle": "@CodeUnionIO", 
             "tweets": 86
         }, 
@@ -6686,7 +6818,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Mexico City"
         ], 
@@ -6708,7 +6840,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 559, 
+            "followers": 560, 
             "handle": "@codeacamp", 
             "tweets": 367
         }, 
@@ -6853,7 +6985,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Charleston"
         ], 
@@ -6960,7 +7092,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Edinburgh"
         ], 
@@ -6999,7 +7131,7 @@
         "twitter": {
             "followers": 2807, 
             "handle": "@CodeClanScot", 
-            "tweets": 1653
+            "tweets": 1643
         }, 
         "visas": "No", 
         "website": "http://codeclan.com"
@@ -7052,21 +7184,21 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "MySQL", 
-                    "Front End", 
-                    "JavaScript", 
-                    "HTML", 
-                    "Git", 
-                    "Rails", 
-                    "SQL", 
-                    "Sinatra", 
-                    "jQuery", 
-                    "Design", 
                     "Ruby", 
-                    "User Experience Design", 
+                    "Rails", 
                     "CSS", 
+                    "Design", 
+                    "Git", 
+                    "HTML", 
+                    "JavaScript", 
+                    "jQuery", 
+                    "MySQL", 
+                    "Node.js", 
                     "React.js", 
-                    "Node.js"
+                    "Sinatra", 
+                    "SQL", 
+                    "User Experience Design", 
+                    "Front End"
                 ]
             }
         }, 
@@ -7081,23 +7213,23 @@
             "Swift", 
             "iOS", 
             "Objective-C", 
-            "MySQL", 
-            "Front End", 
-            "JavaScript", 
-            "Git", 
             "Ruby on Rails", 
-            "jQuery", 
             "Design", 
-            "User Experience Design", 
+            "Git", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "Node.js", 
             "React.js", 
-            "Node.js"
+            "User Experience Design", 
+            "Front End"
         ], 
         "email": "info@codecore.ca", 
         "facebook": "https://www.facebook.com/CodeCoreBootcamp", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Vancouver"
         ], 
@@ -7113,16 +7245,16 @@
             "Swift", 
             "iOS", 
             "Objective-C", 
-            "MySQL", 
-            "Front End", 
-            "JavaScript", 
-            "Git", 
             "Ruby on Rails", 
-            "jQuery", 
             "Design", 
-            "User Experience Design", 
+            "Git", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "Node.js", 
             "React.js", 
-            "Node.js"
+            "User Experience Design", 
+            "Front End"
         ], 
         "top_source": [
             "CourseReport"
@@ -7135,9 +7267,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2007, 
+            "followers": 2004, 
             "handle": "@CodeCoreYVR", 
-            "tweets": 2875
+            "tweets": 2859
         }, 
         "visas": "No", 
         "website": "http://codecore.ca/"
@@ -7236,7 +7368,7 @@
         "housing": "Housing available at Casa de Coders.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boulder"
         ], 
@@ -7267,14 +7399,14 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Front-End Web Development", 
             "UX Design", 
-            "Front-End Web Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 978, 
+            "followers": 977, 
             "handle": "@CodeCraftSchool", 
-            "tweets": 1446
+            "tweets": 1441
         }, 
         "visas": "No", 
         "website": "http://www.codecraftschool.com/"
@@ -7333,7 +7465,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -7389,7 +7521,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Philadelphia"
         ], 
@@ -7453,7 +7585,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Kuwait City"
         ], 
@@ -7523,7 +7655,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Perth"
         ], 
@@ -7553,7 +7685,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 84, 
+            "followers": 83, 
             "handle": "@CodemasterInst", 
             "tweets": 106
         }, 
@@ -7616,7 +7748,7 @@
         "housing": "Yes - housing, computers and meals are all included in the tuition price.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Orange County"
         ], 
@@ -7721,7 +7853,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -7783,7 +7915,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Houston", 
             "Seattle", 
@@ -7813,9 +7945,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2674, 
+            "followers": 2665, 
             "handle": "@CoderCamps", 
-            "tweets": 1096
+            "tweets": 1091
         }, 
         "visas": "No", 
         "website": "http://www.codercamps.com/"
@@ -7900,7 +8032,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Melbourne", 
             "Sydney"
@@ -8029,7 +8161,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Greensboro", 
             "New York City", 
@@ -8064,12 +8196,40 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 906, 
+            "followers": 904, 
             "handle": "@CoderFoundry", 
-            "tweets": 455
+            "tweets": 454
         }, 
         "visas": "No", 
         "website": "http://www.coderfoundry.com/"
+    }, 
+    "Coder Vox": {
+        "accreditation": "None", 
+        "cr_num_reviews": 2, 
+        "cr_rating": 4.5, 
+        "email": "info@codervox.com", 
+        "facebook": "https://www.facebook.com/codervox", 
+        "housing": null, 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "Online"
+        ], 
+        "name": "Coder Vox", 
+        "num_locations": 1, 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 993, 
+            "handle": "@codervox", 
+            "tweets": 775
+        }, 
+        "visas": "No", 
+        "website": "http://codervox.com"
     }, 
     "Coderhouse": {
         "accreditation": "None", 
@@ -8166,7 +8326,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Buenos Aires", 
             "Montevideo", 
@@ -8197,7 +8357,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1939, 
+            "followers": 1936, 
             "handle": "@coderhouse", 
             "tweets": 1481
         }, 
@@ -8231,7 +8391,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -8284,7 +8444,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Warsaw"
         ], 
@@ -8394,7 +8554,7 @@
         "housing": "We welcome both international and local participants. Our courses are FREE, so you can invest in your own housing. We have graduated a few foreign developers (form the US, Korea and India) in the past!", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Ho Chi Minh City", 
             "Hanoi"
@@ -8481,7 +8641,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -8505,7 +8665,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 49, 
+            "followers": 48, 
             "handle": "@Coderversity", 
             "tweets": 39
         }, 
@@ -8535,7 +8695,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 35, 
+        "cr_num_reviews": 34, 
         "cr_rating": 4.94, 
         "cr_technologies": [
             "AngularJS", 
@@ -8550,7 +8710,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles"
         ], 
@@ -8576,9 +8736,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 588, 
+            "followers": 584, 
             "handle": "@codesmithio", 
-            "tweets": 574
+            "tweets": 573
         }, 
         "visas": "No", 
         "website": "http://www.codesmith.io/"
@@ -8610,7 +8770,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta"
         ], 
@@ -8672,7 +8832,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Antonio"
         ], 
@@ -8692,7 +8852,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2353, 
+            "followers": 2352, 
             "handle": "@gocodeup", 
             "tweets": 2182
         }, 
@@ -8768,7 +8928,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona", 
             "Online"
@@ -8795,13 +8955,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 351, 
+            "followers": 352, 
             "handle": "@codeworksbcn", 
-            "tweets": 428
+            "tweets": 427
         }, 
         "visas": "Yes", 
         "website": "https://codeworks.me/"
@@ -8854,7 +9014,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Wales"
         ], 
@@ -8919,7 +9079,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco", 
             "Hybrid (Online & In-person)"
@@ -8943,7 +9103,7 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 371, 
+            "followers": 372, 
             "handle": "@CodifyAcad", 
             "tweets": 394
         }, 
@@ -8994,7 +9154,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Paris"
         ], 
@@ -9039,19 +9199,19 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
-                    "MySQL", 
-                    "Front End", 
-                    "JavaScript", 
-                    "MongoDB", 
-                    "HTML", 
-                    "Git", 
-                    "PHP", 
-                    "SEO", 
-                    "jQuery", 
                     "CSS", 
                     "Express.js", 
+                    "Front End", 
+                    "Git", 
+                    "HTML", 
+                    "JavaScript", 
+                    "jQuery", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "PHP", 
                     "React.js", 
-                    "Node.js"
+                    "SEO"
                 ]
             }
         }, 
@@ -9076,7 +9236,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Austin", 
             "Houston"
@@ -9111,6 +9271,93 @@
         "twitter": null, 
         "visas": "No", 
         "website": "http://codingbootcamp.utexas.edu"
+    }, 
+    "Coding Bootcamp Praha": {
+        "accreditation": "None", 
+        "courses": {
+            "Full-Stack Web Development": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Prague"
+                ], 
+                "Course Title": "Full-Stack Web Development", 
+                "Hours/Week": 35, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "SEO", 
+                    "SQL", 
+                    "jQuery", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Wordpress"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 2, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "MySQL", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "PHP", 
+            "SEO", 
+            "SQL", 
+            "jQuery", 
+            "User Experience Design", 
+            "CSS", 
+            "Wordpress"
+        ], 
+        "email": "ask@data4you.cz", 
+        "facebook": "https://www.facebook.com/data4you.cz", 
+        "housing": "Yes. We offer our own housing.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "Prague"
+        ], 
+        "name": "Coding Bootcamp Praha", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "MySQL", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "PHP", 
+            "SEO", 
+            "SQL", 
+            "jQuery", 
+            "User Experience Design", 
+            "CSS", 
+            "Wordpress"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 326, 
+            "handle": "@codeBoot", 
+            "tweets": 148
+        }, 
+        "visas": "Yes", 
+        "website": "http://www.codingbootcamp.cz"
     }, 
     "Coding Dojo": {
         "accreditation": "Yes", 
@@ -9288,7 +9535,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Seattle", 
             "San Francisco", 
@@ -9341,16 +9588,16 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Security", 
             "Other", 
+            "Mobile Development", 
+            "Front-End Web Development", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 3924, 
             "handle": "@codingdojo", 
-            "tweets": 3323
+            "tweets": 3319
         }, 
         "visas": "Yes", 
         "website": "http://codingdojo.com/"
@@ -9393,7 +9640,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Delhi"
         ], 
@@ -9553,7 +9800,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -9592,12 +9839,12 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Front-End Web Development", 
             "UX Design", 
+            "Front-End Web Development", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 210, 
+            "followers": 208, 
             "handle": "@coding_temple", 
             "tweets": 63
         }, 
@@ -9638,7 +9885,7 @@
         "housing": "Several housing options included in each host country.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bali", 
             "Mexico City", 
@@ -9718,7 +9965,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Gothenburg", 
@@ -9754,7 +10001,7 @@
         "twitter": {
             "followers": 125, 
             "handle": "@CraftAcademySE", 
-            "tweets": 514
+            "tweets": 513
         }, 
         "visas": "Yes", 
         "website": "https://www.craftacademy.se/english"
@@ -9814,7 +10061,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Raleigh"
         ], 
@@ -9883,7 +10130,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta"
         ], 
@@ -9957,7 +10204,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Albuquerque"
         ], 
@@ -9987,7 +10234,7 @@
         "twitter": {
             "followers": 585, 
             "handle": "@CultivateCoders", 
-            "tweets": 1669
+            "tweets": 1668
         }, 
         "visas": "No", 
         "website": "https://www.cultivatingcoders.com/"
@@ -10037,7 +10284,7 @@
         "housing": "925 S Atlantic Blvd, 203B, Monterey Park, CA", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles", 
             "Online", 
@@ -10237,7 +10484,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona", 
             "Toronto", 
@@ -10275,9 +10522,9 @@
             "Other"
         ], 
         "twitter": {
-            "followers": 3858, 
+            "followers": 3857, 
             "handle": "@DataScienceDojo", 
-            "tweets": 5357
+            "tweets": 5344
         }, 
         "visas": "No", 
         "website": "http://datasciencedojo.com/"
@@ -10315,7 +10562,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dublin"
         ], 
@@ -10370,7 +10617,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -10391,7 +10638,7 @@
         "twitter": {
             "followers": 19200, 
             "handle": "@datascifellows", 
-            "tweets": 1529
+            "tweets": 1528
         }, 
         "visas": "No", 
         "website": "http://dssg.io/"
@@ -10446,7 +10693,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Berlin"
         ], 
@@ -10465,12 +10712,40 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 5010, 
+            "followers": 5009, 
             "handle": "@dataScienceRet", 
-            "tweets": 2509
+            "tweets": 2505
         }, 
         "visas": "No", 
         "website": "http://datascienceretreat.com/"
+    }, 
+    "Datacamp": {
+        "accreditation": "None", 
+        "cr_num_reviews": 3, 
+        "cr_rating": 2.0, 
+        "email": "mgmt@datacamp.com", 
+        "facebook": "https://www.facebook.com/pages/DataCamp/726282547396228", 
+        "housing": null, 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "Online"
+        ], 
+        "name": "Datacamp", 
+        "num_locations": 1, 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Data Science", 
+        "twitter": {
+            "followers": 9951, 
+            "handle": "@DataCamp", 
+            "tweets": 2025
+        }, 
+        "visas": "No", 
+        "website": "https://www.datacamp.com/"
     }, 
     "Davinci Coders": {
         "accreditation": "We are a Certified Occupational School  CLASSES ARE APPROVED BY THE COLORADO DEPARTMENT OF HIGHER EDUCATION (CDHE). A MICRODEGREE\u2122 ACCREDITED BOOTCAMP", 
@@ -10583,7 +10858,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver"
         ], 
@@ -10623,9 +10898,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1671, 
+            "followers": 1672, 
             "handle": "@DaVinciCodersCO", 
-            "tweets": 3467
+            "tweets": 3466
         }, 
         "visas": "No", 
         "website": "http://davincicoders.com/"
@@ -10676,7 +10951,7 @@
         "housing": "Full-service student housing with direct access to campus via Evo Montreal. Special price for DecodeMTL students at $1,100 per month including taxes. Check it out here: http://www.evomontreal.com", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Montreal"
         ], 
@@ -10781,7 +11056,7 @@
         "housing": "Yes, partnership with University Village Hotel", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Albuquerque"
         ], 
@@ -10810,9 +11085,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1130, 
+            "followers": 1132, 
             "handle": "@DeepDiveCoding", 
-            "tweets": 1451
+            "tweets": 1450
         }, 
         "visas": "No", 
         "website": "http://stemuluscenter.org/products/deep-dive-coding-bootcamp"
@@ -10847,7 +11122,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Austin"
         ], 
@@ -10915,7 +11190,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cedar Rapids"
         ], 
@@ -10939,7 +11214,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 76, 
+            "followers": 75, 
             "handle": "@DeltaVCode", 
             "tweets": 38
         }, 
@@ -11033,7 +11308,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Birmingham", 
             "Mobile"
@@ -11062,8 +11337,8 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 360, 
@@ -11119,7 +11394,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Santiago", 
             "Bogota", 
@@ -11146,7 +11421,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 6217, 
+            "followers": 6215, 
             "handle": "@DesafioLatam", 
             "tweets": 1248
         }, 
@@ -11225,7 +11500,7 @@
         "housing": "Student group rates available at Chicago Getaway Hostel (getawayhostel.com)", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago", 
             "Online"
@@ -11246,13 +11521,13 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
-            "Other", 
             "Mobile Development", 
             "Digital Marketing", 
-            "UX Design"
+            "UX Design", 
+            "Other"
         ], 
         "twitter": {
-            "followers": 18700, 
+            "followers": 18600, 
             "handle": "@designationio", 
             "tweets": 1763
         }, 
@@ -11346,7 +11621,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -11408,7 +11683,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Wellington"
         ], 
@@ -11429,9 +11704,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1354, 
+            "followers": 1353, 
             "handle": "@DevAcademyNZ", 
-            "tweets": 1376
+            "tweets": 1375
         }, 
         "visas": "No", 
         "website": "http://devacademy.co.nz/"
@@ -11475,7 +11750,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco", 
             "Chicago", 
@@ -11545,7 +11820,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Iowa City"
         ], 
@@ -11563,9 +11838,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2485, 
+            "followers": 2487, 
             "handle": "@iowajpec", 
-            "tweets": 4097
+            "tweets": 4092
         }, 
         "visas": "No", 
         "website": "http://deviowa.org/"
@@ -11622,7 +11897,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Monterrey"
         ], 
@@ -11703,7 +11978,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Milwaukee"
         ], 
@@ -11730,9 +12005,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1483, 
+            "followers": 1480, 
             "handle": "@devcodecamp", 
-            "tweets": 1047
+            "tweets": 1046
         }, 
         "visas": "No", 
         "website": "http://www.devcodecamp.com/"
@@ -11834,7 +12109,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chelmsford", 
             "Online", 
@@ -11934,7 +12209,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bristol"
         ], 
@@ -11966,9 +12241,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 580, 
+            "followers": 578, 
             "handle": "@develop_me_uk", 
-            "tweets": 886
+            "tweets": 884
         }, 
         "visas": "No", 
         "website": "https://developme.training/fellowship/"
@@ -12023,19 +12298,19 @@
                 "Onsite": null, 
                 "Part Or Full": null, 
                 "Subjects": [
+                    "MySQL", 
                     "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "SQL", 
+                    "jQuery", 
                     "CSS", 
                     "Express.js", 
-                    "Front End", 
-                    "Git", 
-                    "HTML", 
-                    "JavaScript", 
-                    "jQuery", 
-                    "MongoDB", 
-                    "MySQL", 
-                    "Node.js", 
                     "React.js", 
-                    "SQL"
+                    "Node.js"
                 ]
             }, 
             "Full Stack Full Time Session - March 13, 2017": {
@@ -12079,26 +12354,26 @@
         "cr_num_reviews": 21, 
         "cr_rating": 5.0, 
         "cr_technologies": [
+            "MySQL", 
             "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "SQL", 
+            "jQuery", 
             "CSS", 
             "Express.js", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
-            "MySQL", 
-            "Node.js", 
             "React.js", 
-            "SQL"
+            "Node.js"
         ], 
         "email": "contact@devleague.com", 
         "facebook": "https://www.facebook.com/pages/Dev-League/419352214850086", 
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Honolulu"
         ], 
@@ -12106,19 +12381,19 @@
         "num_courses": 5, 
         "num_locations": 1, 
         "technologies": [
+            "MySQL", 
             "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "SQL", 
+            "jQuery", 
             "CSS", 
             "Express.js", 
-            "Front End", 
-            "Git", 
-            "HTML", 
-            "JavaScript", 
-            "jQuery", 
-            "MongoDB", 
-            "MySQL", 
-            "Node.js", 
             "React.js", 
-            "SQL"
+            "Node.js"
         ], 
         "top_source": [
             "CourseReport"
@@ -12126,7 +12401,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 682, 
+            "followers": 681, 
             "handle": "@devleaguehawaii", 
             "tweets": 624
         }, 
@@ -12275,7 +12550,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Provo", 
             "Salt Lake City", 
@@ -12316,9 +12591,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7539, 
+            "followers": 7537, 
             "handle": "@DevMtn", 
-            "tweets": 1968
+            "tweets": 1967
         }, 
         "visas": "No", 
         "website": "http://devmounta.in/"
@@ -12427,7 +12702,7 @@
         "housing": "Yes, DevPoint Labs provides free student housing steps away from campus. Student Housing is on a first come first serve basis.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Salt Lake City"
         ], 
@@ -12457,13 +12732,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "Data Science", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Data Science"
         ], 
         "twitter": {
-            "followers": 462, 
+            "followers": 460, 
             "handle": "@DevPointLabs", 
             "tweets": 1495
         }, 
@@ -12519,7 +12794,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver", 
             "Chicago", 
@@ -12608,7 +12883,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dublin"
         ], 
@@ -12629,7 +12904,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 289, 
+            "followers": 288, 
             "handle": "@DevStream_io", 
             "tweets": 443
         }, 
@@ -12668,7 +12943,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami"
         ], 
@@ -12689,9 +12964,9 @@
             "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 1032, 
+            "followers": 1034, 
             "handle": "@EcoTechVisions", 
-            "tweets": 1643
+            "tweets": 1641
         }, 
         "visas": "No", 
         "website": "http://www.ecotechvisions.org/digitalcitizen/"
@@ -12751,7 +13026,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Buenos Aires"
         ], 
@@ -12777,9 +13052,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1718, 
+            "followers": 1705, 
             "handle": "@_digitalhouse", 
-            "tweets": 1196
+            "tweets": 1188
         }, 
         "visas": "No", 
         "website": "http://digitalhouse.com/"
@@ -12829,7 +13104,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago", 
             "Online"
@@ -12918,7 +13193,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -13040,7 +13315,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta", 
             "Houston"
@@ -13083,7 +13358,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 686, 
+            "followers": 684, 
             "handle": "@DgtlCrafts", 
             "tweets": 1423
         }, 
@@ -13124,7 +13399,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Kansas City"
         ], 
@@ -13216,7 +13491,7 @@
         "housing": "No. However, if you are accepted into one of our programs, we will point you to several resources that can help you find a place to stay, and offer guidance on nearby neighborhoods.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dallas"
         ], 
@@ -13237,9 +13512,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 224, 
+            "followers": 229, 
             "handle": "@DivergenceDFW", 
-            "tweets": 994
+            "tweets": 993
         }, 
         "visas": "No", 
         "website": "http://divergence.academy/"
@@ -13331,7 +13606,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Hurst"
         ], 
@@ -13394,7 +13669,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -13411,11 +13686,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "Digital Marketing"
+            "Digital Marketing", 
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 452, 
+            "followers": 454, 
             "handle": "@EnergyHouseDigi", 
             "tweets": 268
         }, 
@@ -13485,7 +13760,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Tel Aviv"
         ], 
@@ -13597,7 +13872,7 @@
         "housing": "\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Indianapolis"
         ], 
@@ -13624,9 +13899,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1870, 
+            "followers": 1871, 
             "handle": "@elevenfifty", 
-            "tweets": 2917
+            "tweets": 2912
         }, 
         "visas": "No", 
         "website": "http://elevenfifty.org"
@@ -13645,20 +13920,20 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "JavaScript", 
-                    "HTML", 
-                    "CSS", 
-                    "MongoDB", 
-                    "AngularJS", 
-                    "Express.js", 
-                    "Node.js", 
-                    "Design", 
-                    "Front End", 
-                    "Git", 
                     "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "Design", 
                     "Product Management", 
+                    "Sales", 
+                    "CSS", 
+                    "Express.js", 
                     "React.js", 
-                    "Sales"
+                    "Node.js"
                 ]
             }, 
             "Full Stack Web Development (Part-Time)": {
@@ -13672,20 +13947,20 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
+                    "MySQL", 
                     "AngularJS", 
-                    "CSS", 
-                    "Design", 
-                    "Express.js", 
                     "Front End", 
-                    "Git", 
-                    "HTML", 
                     "JavaScript", 
                     "MongoDB", 
-                    "MySQL", 
-                    "Node.js", 
-                    "React.js", 
+                    "HTML", 
+                    "Git", 
+                    "Design", 
                     "Sales", 
-                    "User Experience Design"
+                    "User Experience Design", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
                 ]
             }, 
             "Growth Hacking": {
@@ -13711,20 +13986,20 @@
         "cr_num_reviews": 9, 
         "cr_rating": 4.44, 
         "cr_technologies": [
-            "JavaScript", 
-            "HTML", 
-            "CSS", 
-            "MongoDB", 
-            "AngularJS", 
-            "Express.js", 
-            "Node.js", 
-            "Design", 
-            "Front End", 
-            "Git", 
             "MySQL", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "Design", 
             "Product Management", 
-            "React.js", 
             "Sales", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
             "Digital Marketing", 
             "SEO", 
             "Growth Hacking", 
@@ -13735,7 +14010,7 @@
         "housing": "Check out\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Brussels"
         ], 
@@ -13743,20 +14018,20 @@
         "num_courses": 3, 
         "num_locations": 1, 
         "technologies": [
-            "JavaScript", 
-            "HTML", 
-            "CSS", 
-            "MongoDB", 
-            "AngularJS", 
-            "Express.js", 
-            "Node.js", 
-            "Design", 
-            "Front End", 
-            "Git", 
             "MySQL", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "Design", 
             "Product Management", 
-            "React.js", 
             "Sales", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
             "Digital Marketing", 
             "SEO", 
             "Growth Hacking", 
@@ -13767,12 +14042,12 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
             "Product Management", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 88, 
+            "followers": 89, 
             "handle": "@EliumAcademy_", 
             "tweets": 186
         }, 
@@ -13938,7 +14213,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Portland", 
             "Seattle"
@@ -13974,11 +14249,11 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1152, 
+            "followers": 1149, 
             "handle": "@epicodus", 
             "tweets": 967
         }, 
@@ -14017,7 +14292,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dallas"
         ], 
@@ -14077,7 +14352,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -14146,7 +14421,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Sydney", 
             "Brisbane", 
@@ -14294,7 +14569,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "Online"
@@ -14337,13 +14612,13 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Full-Stack Web Development", 
-            "Front-End Web Development"
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 7247, 
+            "followers": 7245, 
             "handle": "@FlatironSchool", 
-            "tweets": 4492
+            "tweets": 4490
         }, 
         "visas": "No", 
         "website": "http://flatironschool.com/"
@@ -14384,7 +14659,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami"
         ], 
@@ -14440,7 +14715,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London", 
             "Nazareth"
@@ -14460,7 +14735,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2100, 
+            "followers": 2102, 
             "handle": "@founderscoders", 
             "tweets": 1217
         }, 
@@ -14499,7 +14774,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles"
         ], 
@@ -14567,7 +14842,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -14705,7 +14980,7 @@
         "housing": "Fullstack Academy has a partnership with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "Chicago", 
@@ -14741,7 +15016,7 @@
         "twitter": {
             "followers": 10700, 
             "handle": "@fullstack", 
-            "tweets": 1001
+            "tweets": 1000
         }, 
         "visas": "No", 
         "website": "http://www.fullstackacademy.com/"
@@ -14784,7 +15059,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Gainesville"
         ], 
@@ -14805,7 +15080,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 124, 
+            "followers": 123, 
             "handle": "@GainesvilleDev", 
             "tweets": 505
         }, 
@@ -14937,7 +15212,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boulder", 
             "Denver", 
@@ -14976,9 +15251,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 18000, 
+            "followers": 17900, 
             "handle": "@galvanize", 
-            "tweets": 8547
+            "tweets": 8535
         }, 
         "visas": "No", 
         "website": "http://www.galvanize.com/courses/?utm_source=coursereport&utm_medium=referral&utm_term=profile&utm_campaign=affiliate"
@@ -15017,7 +15292,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bangalore"
         ], 
@@ -15039,9 +15314,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 359, 
+            "followers": 357, 
             "handle": "@geekskoolin", 
-            "tweets": 184
+            "tweets": 183
         }, 
         "visas": "No", 
         "website": "http://www.geekskool.com/"
@@ -15121,7 +15396,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Fresno"
         ], 
@@ -15142,7 +15417,7 @@
         "twitter": {
             "followers": 1185, 
             "handle": "@GeekwiseAcademy", 
-            "tweets": 1330
+            "tweets": 1327
         }, 
         "visas": "No", 
         "website": "http://geekwiseacademy.com"
@@ -15849,7 +16124,7 @@
         "housing": "General Assembly has partnerships with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles", 
             "Boston", 
@@ -15921,7 +16196,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 106000, 
+            "followers": 105000, 
             "handle": "@GA", 
             "tweets": 17000
         }, 
@@ -15951,7 +16226,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Arlington"
         ], 
@@ -15968,7 +16243,7 @@
         "twitter": {
             "followers": 38900, 
             "handle": "@GWtweets", 
-            "tweets": 7674
+            "tweets": 7673
         }, 
         "visas": "No", 
         "website": "http://codingbootcamp.cps.gwu.edu"
@@ -16026,7 +16301,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Atlanta", 
             "Savannah"
@@ -16104,7 +16379,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Buckinghamshire"
         ], 
@@ -16128,7 +16403,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 222, 
+            "followers": 224, 
             "handle": "@gohustlers", 
             "tweets": 243
         }, 
@@ -16268,7 +16543,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Detroit"
         ], 
@@ -16304,9 +16579,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 5520, 
+            "followers": 5512, 
             "handle": "@GrandCircusCo", 
-            "tweets": 7371
+            "tweets": 7362
         }, 
         "visas": "No", 
         "website": "http://grandcircus.co/"
@@ -16378,7 +16653,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -16405,9 +16680,9 @@
             "Other"
         ], 
         "twitter": {
-            "followers": 839, 
+            "followers": 838, 
             "handle": "@GXAcademy", 
-            "tweets": 692
+            "tweets": 686
         }, 
         "visas": "Yes", 
         "website": "http://www.gxacademy.com"
@@ -16471,7 +16746,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dallas"
         ], 
@@ -16577,7 +16852,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Hong Kong"
@@ -16660,7 +16935,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco", 
             "Online", 
@@ -16686,9 +16961,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 8089, 
+            "followers": 8091, 
             "handle": "@HackReactor", 
-            "tweets": 3199
+            "tweets": 3193
         }, 
         "visas": "No", 
         "website": "http://hackreactor.com/"
@@ -16702,7 +16977,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Monterrey"
         ], 
@@ -16781,7 +17056,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -16805,7 +17080,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 11500, 
+            "followers": 11400, 
             "handle": "@Hackbright", 
             "tweets": 14200
         }, 
@@ -16852,7 +17127,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles"
         ], 
@@ -16915,7 +17190,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Shreveport"
         ], 
@@ -17002,7 +17277,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -17247,7 +17522,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 4, 
+        "cr_num_reviews": 3, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "JavaScript", 
@@ -17269,7 +17544,7 @@
         "housing": "No.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Toronto"
         ], 
@@ -17307,7 +17582,7 @@
         "twitter": {
             "followers": 10300, 
             "handle": "@hackeryou", 
-            "tweets": 3691
+            "tweets": 3685
         }, 
         "visas": "No", 
         "website": "http://hackeryou.com/"
@@ -17344,7 +17619,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Jakarta"
         ], 
@@ -17365,7 +17640,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 45, 
+            "followers": 44, 
             "handle": "@hacktiv8id", 
             "tweets": 37
         }, 
@@ -17508,7 +17783,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Salt Lake City"
         ], 
@@ -17638,7 +17913,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -17687,7 +17962,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 3304, 
+            "followers": 3293, 
             "handle": "@holbertonschool", 
             "tweets": 1647
         }, 
@@ -17742,7 +18017,7 @@
         "housing": "Housing included in tuition costs.", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Philadelphia", 
             "Boston"
@@ -17852,7 +18127,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Hyderabad"
         ], 
@@ -17916,7 +18191,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Singapore"
         ], 
@@ -17934,7 +18209,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4303, 
+            "followers": 4304, 
             "handle": "@iKompass1", 
             "tweets": 201
         }, 
@@ -17977,7 +18252,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Missoula"
         ], 
@@ -17997,7 +18272,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 189, 
+            "followers": 191, 
             "handle": "@ikuw", 
             "tweets": 368
         }, 
@@ -18054,7 +18329,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Fort Lauderdale"
         ], 
@@ -18119,7 +18394,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boulder", 
             "Denver", 
@@ -18243,7 +18518,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Silicon Valley", 
             "New York City", 
@@ -18269,7 +18544,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 4896, 
+            "followers": 4884, 
             "handle": "@InsightDataSci", 
             "tweets": 297
         }, 
@@ -18308,7 +18583,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bali", 
             "Puerto Vallarta"
@@ -18327,7 +18602,7 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 361, 
+            "followers": 360, 
             "handle": "@instituteofcode", 
             "tweets": 140
         }, 
@@ -18457,7 +18732,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Omaha", 
             "Lincoln"
@@ -18491,9 +18766,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1799, 
+            "followers": 1787, 
             "handle": "@InterfaceSchool", 
-            "tweets": 4113
+            "tweets": 4110
         }, 
         "visas": "No", 
         "website": "https://interfaceschool.com/"
@@ -18521,7 +18796,7 @@
         "housing": "\r\n\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Sunnyvale"
         ], 
@@ -18592,7 +18867,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona", 
             "San Francisco"
@@ -18613,7 +18888,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1165, 
+            "followers": 1166, 
             "handle": "@invasivecode", 
             "tweets": 10400
         }, 
@@ -18705,7 +18980,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami", 
             "Madrid", 
@@ -18787,7 +19062,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Tel Aviv"
         ], 
@@ -18862,7 +19137,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Orange County"
         ], 
@@ -18895,7 +19170,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Washington"
         ], 
@@ -18907,9 +19182,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 218, 
+            "followers": 213, 
             "handle": "@ivydatascience", 
-            "tweets": 1527
+            "tweets": 1523
         }, 
         "visas": "No", 
         "website": "http://www.ivydatascience.com/"
@@ -18958,7 +19233,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cape Town"
         ], 
@@ -19026,7 +19301,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bangalore"
         ], 
@@ -19084,7 +19359,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bucharest"
         ], 
@@ -19163,7 +19438,7 @@
         "housing": "NA, Online", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -19187,7 +19462,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 4789, 
+            "followers": 4788, 
             "handle": "@k2datascience", 
             "tweets": 2293
         }, 
@@ -19288,7 +19563,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Madrid"
         ], 
@@ -19327,11 +19602,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Mobile Development"
         ], 
         "twitter": {
-            "followers": 2114, 
+            "followers": 2102, 
             "handle": "@KeepCoding_es", 
             "tweets": 19100
         }, 
@@ -19368,7 +19643,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -19385,9 +19660,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 54, 
+            "followers": 55, 
             "handle": "@LabsIOT", 
-            "tweets": 95
+            "tweets": 94
         }, 
         "visas": "No", 
         "website": "https://labsiot.com/home.aspx"
@@ -19432,7 +19707,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Toronto"
         ], 
@@ -19507,7 +19782,7 @@
         "housing": "Launch Academy has a partnership with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boston", 
             "Online", 
@@ -19526,7 +19801,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2403, 
+            "followers": 2401, 
             "handle": "@LaunchAcademy", 
             "tweets": 1743
         }, 
@@ -19572,45 +19847,45 @@
                 "Onsite": "In Person", 
                 "Part Or Full": "Full Time", 
                 "Subjects": [
-                    "Front End", 
-                    "JavaScript", 
-                    "MongoDB", 
-                    "HTML", 
-                    "Git", 
-                    "Rails", 
-                    "SQL", 
-                    "Sinatra", 
-                    "jQuery", 
-                    "Ruby", 
                     "CSS", 
                     "Express.js", 
-                    "Node.js"
+                    "Front End", 
+                    "Git", 
+                    "HTML", 
+                    "JavaScript", 
+                    "jQuery", 
+                    "MongoDB", 
+                    "Node.js", 
+                    "Rails", 
+                    "Ruby", 
+                    "Sinatra", 
+                    "SQL"
                 ]
             }
         }, 
         "cr_num_reviews": 11, 
         "cr_rating": 5.0, 
         "cr_technologies": [
-            "Front End", 
-            "JavaScript", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "Ruby on Rails", 
-            "SQL", 
-            "Sinatra", 
-            "jQuery", 
-            "Ruby", 
             "CSS", 
             "Express.js", 
-            "Node.js"
+            "Front End", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "Sinatra", 
+            "SQL"
         ], 
         "email": "hello@launchschool.com", 
         "facebook": "https://www.facebook.com/launchschoolonline", 
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -19618,19 +19893,19 @@
         "num_courses": 2, 
         "num_locations": 1, 
         "technologies": [
-            "Front End", 
-            "JavaScript", 
-            "MongoDB", 
-            "HTML", 
-            "Git", 
-            "Ruby on Rails", 
-            "SQL", 
-            "Sinatra", 
-            "jQuery", 
-            "Ruby", 
             "CSS", 
             "Express.js", 
-            "Node.js"
+            "Front End", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "Node.js", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "Sinatra", 
+            "SQL"
         ], 
         "top_source": [
             "CourseReport"
@@ -19641,7 +19916,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 591, 
+            "followers": 592, 
             "handle": "@launchschool", 
             "tweets": 98
         }, 
@@ -19680,7 +19955,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "St. Louis", 
             "Kansas City", 
@@ -19699,11 +19974,11 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 8675, 
+            "followers": 8671, 
             "handle": "@Launch_Code", 
             "tweets": 3600
         }, 
@@ -19780,7 +20055,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Brussels", 
             "Paris", 
@@ -19827,9 +20102,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 5606, 
+            "followers": 5602, 
             "handle": "@Lewagonparis", 
-            "tweets": 4563
+            "tweets": 4561
         }, 
         "visas": "Yes", 
         "website": "http://www.lewagon.org/"
@@ -19880,7 +20155,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Diego"
         ], 
@@ -19908,9 +20183,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 539, 
+            "followers": 535, 
             "handle": "@SDLEARN", 
-            "tweets": 1882
+            "tweets": 1879
         }, 
         "visas": "No", 
         "website": "https://www.learnacademy.org/"
@@ -19943,7 +20218,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -19959,7 +20234,7 @@
         "tracking_groups": [], 
         "tracks": null, 
         "twitter": {
-            "followers": 37, 
+            "followers": 38, 
             "handle": "@learncodelondon", 
             "tweets": 21
         }, 
@@ -20000,7 +20275,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Oakland"
         ], 
@@ -20019,9 +20294,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1064, 
+            "followers": 1062, 
             "handle": "@LearnersGuildUS", 
-            "tweets": 360
+            "tweets": 359
         }, 
         "visas": "Learners Guild provides up to $1500 per month for housing.", 
         "website": "https://www.learnersguild.org"
@@ -20091,7 +20366,7 @@
         "housing": "Housing availability depends on interest.\u00a0 Housing assistance is available.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Orange County", 
             "Irvine"
@@ -20120,13 +20395,13 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
             "followers": 194, 
             "handle": "@LearningFuze", 
-            "tweets": 439
+            "tweets": 438
         }, 
         "visas": "No", 
         "website": "http://learningfuze.com/"
@@ -20195,7 +20470,7 @@
         "housing": "Limited availability; contact jon@leveledu.com", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Seattle", 
             "Charlotte", 
@@ -20222,9 +20497,9 @@
         ], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 240, 
+            "followers": 239, 
             "handle": "@leveleducation", 
-            "tweets": 752
+            "tweets": 749
         }, 
         "visas": "No", 
         "website": "http://www.leveledu.com/"
@@ -20362,7 +20637,7 @@
         "housing": "Housing options available.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Vancouver", 
             "Toronto", 
@@ -20413,13 +20688,13 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
-            "Full-Stack Web Development"
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 5224, 
+            "followers": 5216, 
             "handle": "@lighthouse_labs", 
-            "tweets": 7705
+            "tweets": 7700
         }, 
         "visas": "No", 
         "website": "http://www.lighthouselabs.ca/"
@@ -20435,7 +20710,7 @@
         "housing": "Logit helps its out of town students locate accommodations for the duration of the course.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles"
         ], 
@@ -20465,7 +20740,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Austin"
         ], 
@@ -20550,7 +20825,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "San Francisco"
@@ -20583,7 +20858,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 3849, 
+            "followers": 3845, 
             "handle": "@MakeSchool", 
             "tweets": 2229
         }, 
@@ -20659,7 +20934,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London", 
             "Online"
@@ -20686,9 +20961,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9049, 
+            "followers": 9046, 
             "handle": "@makersacademy", 
-            "tweets": 8046
+            "tweets": 8041
         }, 
         "visas": "Yes", 
         "website": "http://www.makersacademy.com/"
@@ -20733,7 +21008,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Tempe"
         ], 
@@ -20755,9 +21030,9 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 655, 
+            "followers": 653, 
             "handle": "@MCORCollege", 
-            "tweets": 2042
+            "tweets": 2040
         }, 
         "visas": "No", 
         "website": "http://info.maricopacorporatecollege.com/webdev"
@@ -20842,7 +21117,7 @@
         "housing": "\n", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Provo"
@@ -20899,7 +21174,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Zurich"
         ], 
@@ -20918,7 +21193,7 @@
         "twitter": {
             "followers": 248, 
             "handle": "@master21academy", 
-            "tweets": 144
+            "tweets": 143
         }, 
         "visas": "No", 
         "website": "https://master21.academy/"
@@ -20964,7 +21239,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona"
         ], 
@@ -20980,7 +21255,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 18, 
+            "followers": 19, 
             "handle": "@maven_learn", 
             "tweets": 9
         }, 
@@ -21009,7 +21284,7 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 8, 
+        "cr_num_reviews": 7, 
         "cr_rating": 5.0, 
         "cr_technologies": [
             "JavaScript", 
@@ -21022,7 +21297,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Bath"
         ], 
@@ -21041,13 +21316,13 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Product Management", 
-            "Front-End Web Development", 
             "Security", 
-            "Full-Stack Web Development"
+            "Product Management", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 85, 
+            "followers": 82, 
             "handle": "@MaydenAcademy", 
             "tweets": 251
         }, 
@@ -21226,7 +21501,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "San Francisco", 
@@ -21254,9 +21529,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3585, 
+            "followers": 3582, 
             "handle": "@thisismetis", 
-            "tweets": 5103
+            "tweets": 5090
         }, 
         "visas": [
             "Metis has partnerships with ", 
@@ -21292,7 +21567,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -21340,7 +21615,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -21357,7 +21632,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 271, 
+            "followers": 270, 
             "handle": "@MWHackerSchool", 
             "tweets": 163
         }, 
@@ -21400,7 +21675,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Ramat Gan"
         ], 
@@ -21474,7 +21749,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -21498,9 +21773,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1590, 
+            "followers": 1586, 
             "handle": "@monroe_college", 
-            "tweets": 2290
+            "tweets": 2289
         }, 
         "visas": "No", 
         "website": "https://www.monroecollege.edu/Degrees/Special-Programs/Tech-Boot-Camp_/"
@@ -21542,7 +21817,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Missoula", 
             "Bozeman"
@@ -21564,7 +21839,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 396, 
+            "followers": 394, 
             "handle": "@mtcodeschool", 
             "tweets": 273
         }, 
@@ -21607,7 +21882,7 @@
         "housing": "Will Assist", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Nairobi"
         ], 
@@ -21626,15 +21901,15 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "UX Design", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "UX Design", 
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2028, 
+            "followers": 2023, 
             "handle": "@moringaschool", 
-            "tweets": 2612
+            "tweets": 2611
         }, 
         "visas": "Yes", 
         "website": "http://moringaschool.com/index.html"
@@ -21702,7 +21977,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Nashville"
         ], 
@@ -21728,7 +22003,7 @@
         "twitter": {
             "followers": 1777, 
             "handle": "@NashSoftware", 
-            "tweets": 858
+            "tweets": 857
         }, 
         "visas": "No", 
         "website": "http://nashvillesoftwareschool.com/"
@@ -21770,7 +22045,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dallas"
         ], 
@@ -21855,7 +22130,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Berlin"
         ], 
@@ -22107,7 +22382,7 @@
         "housing": "NYCDA has a partnership with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Amsterdam", 
             "Salt Lake City", 
@@ -22151,7 +22426,7 @@
         "twitter": {
             "followers": 1614, 
             "handle": "@NYCodeDesign", 
-            "tweets": 1808
+            "tweets": 1806
         }, 
         "visas": "No", 
         "website": "https://nycda.com/"
@@ -22213,7 +22488,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -22292,7 +22567,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -22319,7 +22594,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 42600, 
+            "followers": 42500, 
             "handle": "@NorthwesternU", 
             "tweets": 10400
         }, 
@@ -22474,8 +22749,8 @@
                 ]
             }
         }, 
-        "cr_num_reviews": 80, 
-        "cr_rating": 4.8, 
+        "cr_num_reviews": 79, 
+        "cr_rating": 4.79, 
         "cr_technologies": [
             "Python", 
             "Data Science", 
@@ -22492,7 +22767,7 @@
         "housing": "We partner with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -22517,9 +22792,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 16200, 
+            "followers": 16100, 
             "handle": "@NYCDataSci", 
-            "tweets": 2493
+            "tweets": 2490
         }, 
         "visas": "Yes", 
         "website": "http://nycdatascience.com/"
@@ -22553,7 +22828,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Omaha"
         ], 
@@ -22617,7 +22892,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Antonio"
         ], 
@@ -22715,7 +22990,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New Orleans"
         ], 
@@ -22750,7 +23025,7 @@
         "twitter": {
             "followers": 825, 
             "handle": "@OperationSpark", 
-            "tweets": 1094
+            "tweets": 1092
         }, 
         "visas": "No", 
         "website": "https://www.operationspark.org/"
@@ -22797,7 +23072,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Irvine", 
             "Orange County"
@@ -22821,7 +23096,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 571, 
+            "followers": 572, 
             "handle": "@OCCSDEV", 
             "tweets": 475
         }, 
@@ -22870,7 +23145,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Diego"
         ], 
@@ -22896,7 +23171,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 421, 
+            "followers": 422, 
             "handle": "@OriginCodeAcad", 
             "tweets": 153
         }, 
@@ -22939,7 +23214,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Palm Beach"
         ], 
@@ -22962,7 +23237,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 728, 
+            "followers": 729, 
             "handle": "@PBCodeSchool", 
             "tweets": 1448
         }, 
@@ -23003,7 +23278,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Albuquerque"
         ], 
@@ -23022,7 +23297,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 71, 
+            "followers": 72, 
             "handle": "@ParallaxCode", 
             "tweets": 236
         }, 
@@ -23061,7 +23336,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver"
         ], 
@@ -23124,7 +23399,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Portland"
         ], 
@@ -23145,7 +23420,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 739, 
+            "followers": 737, 
             "handle": "@PDXCodeGuild", 
             "tweets": 523
         }, 
@@ -23210,7 +23485,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -23296,7 +23571,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Buenos Aires"
         ], 
@@ -23323,7 +23598,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 417, 
+            "followers": 419, 
             "handle": "@plataforma5la", 
             "tweets": 84
         }, 
@@ -23393,7 +23668,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Oakland"
         ], 
@@ -23416,7 +23691,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 50, 
+            "followers": 51, 
             "handle": "@ThePortAcademy", 
             "tweets": 17
         }, 
@@ -23457,7 +23732,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Minneapolis"
         ], 
@@ -23480,7 +23755,7 @@
         "twitter": {
             "followers": 787, 
             "handle": "@goprimeacademy", 
-            "tweets": 428
+            "tweets": 425
         }, 
         "visas": "No", 
         "website": "http://primeacademy.io/"
@@ -23513,7 +23788,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco", 
             "New York City", 
@@ -23611,7 +23886,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Zurich"
         ], 
@@ -23686,7 +23961,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -23702,7 +23977,7 @@
         "twitter": {
             "followers": 18800, 
             "handle": "@recursecenter", 
-            "tweets": 1376
+            "tweets": 1364
         }, 
         "visas": [
             "The Recurse Center has a partnership with\u00a0", 
@@ -23981,7 +24256,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Vancouver", 
             "Toronto"
@@ -24019,15 +24294,15 @@
         ], 
         "tracks": [
             "Mobile Development", 
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "Digital Marketing", 
             "UX Design", 
-            "Full-Stack Web Development"
+            "Front-End Web Development"
         ], 
         "twitter": {
-            "followers": 1819, 
+            "followers": 1818, 
             "handle": "@RedAcademy", 
-            "tweets": 1667
+            "tweets": 1666
         }, 
         "visas": "No", 
         "website": "https://www.redacademy.com"
@@ -24096,7 +24371,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Orange County"
         ], 
@@ -24401,7 +24676,7 @@
         "housing": "RefactorU House", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boulder", 
             "Online"
@@ -24586,7 +24861,7 @@
         "housing": "Bootcamp students receive 12 weeks of accommodation as well as a living stipend.\u00a0", 
         "job_assistance": "No", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Reston", 
             "Hybrid (Online & In-person)", 
@@ -24654,10 +24929,77 @@
         "twitter": {
             "followers": 247, 
             "handle": "@WeAreRevature", 
-            "tweets": 395
+            "tweets": 394
         }, 
         "visas": "No", 
         "website": "https://revature.com"
+    }, 
+    "Rithm School": {
+        "accreditation": "None", 
+        "courses": {
+            "Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Front End", 
+                    "JavaScript", 
+                    "SQL", 
+                    "React.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 3, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "Python", 
+            "Front End", 
+            "JavaScript", 
+            "SQL", 
+            "React.js"
+        ], 
+        "email": "info@rithmschool.com", 
+        "facebook": "https://www.facebook.com/rithmschool", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "San Francisco"
+        ], 
+        "name": "Rithm School", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "scholarships": "$500 Rithm School Scholarship", 
+        "technologies": [
+            "Python", 
+            "Front End", 
+            "JavaScript", 
+            "SQL", 
+            "React.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 318, 
+            "handle": "@rithmschool", 
+            "tweets": 177
+        }, 
+        "visas": "No", 
+        "website": "https://www.rithmschool.com/"
     }, 
     "Rmotr": {
         "accreditation": "None", 
@@ -24732,7 +25074,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -24757,9 +25099,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1074, 
+            "followers": 1073, 
             "handle": "@rmotr_com", 
-            "tweets": 356
+            "tweets": 355
         }, 
         "visas": "No", 
         "website": "https://rmotr.com/"
@@ -24841,7 +25183,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Pacific Coast, Ecuador", 
             "Canary Islands", 
@@ -24914,7 +25256,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Jersey City", 
             "Somerset"
@@ -25104,7 +25446,7 @@
         "housing": "None", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles", 
             "Orange County", 
@@ -25158,15 +25500,15 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Product Management", 
             "Mobile Development", 
             "Front-End Web Development", 
+            "UX Design", 
             "Other", 
-            "Product Management", 
-            "UX Design"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2314, 
+            "followers": 2320, 
             "handle": "@WeSabio", 
             "tweets": 10400
         }, 
@@ -25207,7 +25549,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Nashville", 
             "St. Louis"
@@ -25227,9 +25569,9 @@
         "tracking_groups": [], 
         "tracks": "Front-End Web Development", 
         "twitter": {
-            "followers": 255, 
+            "followers": 261, 
             "handle": "@SavvyCoders", 
-            "tweets": 1255
+            "tweets": 1254
         }, 
         "visas": "No", 
         "website": "http://savvycoders.com/"
@@ -25279,7 +25621,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Antonio"
         ], 
@@ -25335,7 +25677,7 @@
         "housing": "Provided.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -25400,7 +25742,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Sioux Falls"
         ], 
@@ -25426,9 +25768,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 371, 
+            "followers": 370, 
             "handle": "@SDCodeBootcamp", 
-            "tweets": 1536
+            "tweets": 1535
         }, 
         "visas": "No", 
         "website": "http://www.sdcodebootcamp.com/"
@@ -25457,7 +25799,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver"
         ], 
@@ -25544,7 +25886,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Lynchburg"
         ], 
@@ -25604,7 +25946,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -25625,7 +25967,7 @@
         "twitter": {
             "followers": 6834, 
             "handle": "@Shillington_", 
-            "tweets": 8284
+            "tweets": 8280
         }, 
         "visas": "Yes", 
         "website": "http://www.shillingtoneducation.com/us/"
@@ -25678,7 +26020,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver"
         ], 
@@ -25741,7 +26083,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cluj", 
             "Paris"
@@ -25802,7 +26144,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver"
         ], 
@@ -25823,7 +26165,7 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 484, 
+            "followers": 482, 
             "handle": "@SkillDistillery", 
             "tweets": 399
         }, 
@@ -25937,7 +26279,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -25963,10 +26305,10 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Digital Marketing", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 15700, 
@@ -26018,7 +26360,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona"
         ], 
@@ -26041,9 +26383,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 467, 
+            "followers": 464, 
             "handle": "@SkylabCoders", 
-            "tweets": 793
+            "tweets": 790
         }, 
         "visas": "No", 
         "website": "http://www.skylabcoders.com/en"
@@ -26056,7 +26398,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Minneapolis"
         ], 
@@ -26078,6 +26420,81 @@
         }, 
         "visas": "No", 
         "website": "http://smartfactory.com/"
+    }, 
+    "Softstack Factory": {
+        "accreditation": "None", 
+        "courses": {
+            "Mobile Hybrid App Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Diego"
+                ], 
+                "Course Title": "Mobile Hybrid App Development", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Mobile", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 3, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "MySQL", 
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Mobile", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "email": "contact@softstackfactory.com", 
+        "facebook": "https://www.facebook.com/softstackfactory", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "San Diego"
+        ], 
+        "name": "Softstack Factory", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "MySQL", 
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Mobile", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Mobile Development", 
+        "twitter": {
+            "followers": 138, 
+            "handle": "@SoftStack", 
+            "tweets": 126
+        }, 
+        "visas": "No", 
+        "website": "http://www.softstackfactory.com/"
     }, 
     "Software Guild": {
         "accreditation": "Registered and compliant with the Ohio State Board of Career Colleges and Schools. Registration number is #13-11-2036T. Kentucky Commission on Proprietary Education, Resident School License No. R-0470", 
@@ -26150,7 +26567,7 @@
         "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Akron", 
             "Minneapolis", 
@@ -26187,9 +26604,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 702, 
+            "followers": 700, 
             "handle": "@softwareguild", 
-            "tweets": 1082
+            "tweets": 1078
         }, 
         "visas": "No", 
         "website": "http://www.thesoftwareguild.com"
@@ -26228,7 +26645,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Dallas"
         ], 
@@ -26248,7 +26665,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 30400, 
+            "followers": 30300, 
             "handle": "@SMU", 
             "tweets": 21100
         }, 
@@ -26293,7 +26710,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Berlin"
         ], 
@@ -26319,7 +26736,7 @@
         "twitter": {
             "followers": 238, 
             "handle": "@SPICEDacademy", 
-            "tweets": 371
+            "tweets": 370
         }, 
         "visas": "No", 
         "website": "http://spiced-academy.com/"
@@ -26423,7 +26840,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -26449,7 +26866,7 @@
             "Data Science"
         ], 
         "twitter": {
-            "followers": 9333, 
+            "followers": 9336, 
             "handle": "@Springboard", 
             "tweets": 2169
         }, 
@@ -26483,7 +26900,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -26510,7 +26927,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Berlin"
         ], 
@@ -26565,7 +26982,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Lincoln"
         ], 
@@ -26758,7 +27175,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chicago"
         ], 
@@ -26786,12 +27203,12 @@
         "tracking_groups": [], 
         "tracks": [
             "Product Management", 
-            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design"
+            "UX Design", 
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 18200, 
+            "followers": 18100, 
             "handle": "@starterleague", 
             "tweets": 8022
         }, 
@@ -26832,7 +27249,7 @@
         "housing": "No", 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Provo"
         ], 
@@ -27128,7 +27545,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Boston", 
             "New York City"
@@ -27173,11 +27590,11 @@
             "Selected Camp"
         ], 
         "tracks": [
-            "Front-End Web Development", 
+            "Full-Stack Web Development", 
             "Digital Marketing", 
             "UX Design", 
-            "Other", 
-            "Full-Stack Web Development"
+            "Front-End Web Development", 
+            "Other"
         ], 
         "twitter": {
             "followers": 17500, 
@@ -27232,7 +27649,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami"
         ], 
@@ -27265,7 +27682,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Sydney"
         ], 
@@ -27277,7 +27694,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 298, 
+            "followers": 299, 
             "handle": "@SydneyDevCamp", 
             "tweets": 108
         }, 
@@ -27334,7 +27751,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Milan"
         ], 
@@ -27359,9 +27776,9 @@
             "UX Design"
         ], 
         "twitter": {
-            "followers": 3209, 
+            "followers": 3204, 
             "handle": "@tag_school", 
-            "tweets": 3552
+            "tweets": 3549
         }, 
         "visas": "No", 
         "website": "http://innovationschool.talentgarden.org/"
@@ -27418,7 +27835,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -27441,7 +27858,7 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 893, 
+            "followers": 895, 
             "handle": "@talentbuddy", 
             "tweets": 840
         }, 
@@ -27507,7 +27924,7 @@
         "housing": "Discounted accommodation is available at\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Athens", 
             "Online"
@@ -27599,7 +28016,7 @@
         "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -27627,9 +28044,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 691, 
+            "followers": 692, 
             "handle": "@Tech_Elevator", 
-            "tweets": 1705
+            "tweets": 1703
         }, 
         "visas": "No", 
         "website": "http://www.techelevator.com/"
@@ -27819,7 +28236,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Asheville", 
             "Atlanta", 
@@ -27866,9 +28283,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4803, 
+            "followers": 4800, 
             "handle": "@TechTalentSouth", 
-            "tweets": 7509
+            "tweets": 7505
         }, 
         "visas": "No", 
         "website": "http://www.techtalentsouth.com/"
@@ -27933,7 +28350,7 @@
         "housing": "Housing provided through local partners.\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Amsterdam"
         ], 
@@ -27957,9 +28374,9 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 932, 
+            "followers": 936, 
             "handle": "@AppAcademyNL", 
-            "tweets": 3798
+            "tweets": 3796
         }, 
         "visas": "Yes", 
         "website": "http://www.theappacademy.nl/"
@@ -28015,7 +28432,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Diego"
         ], 
@@ -28093,7 +28510,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Irvine"
         ], 
@@ -28174,7 +28591,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles", 
             "Westwood"
@@ -28240,7 +28657,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Charlotte"
         ], 
@@ -28266,7 +28683,7 @@
         "twitter": {
             "followers": 49200, 
             "handle": "@unccharlotte", 
-            "tweets": 6328
+            "tweets": 6326
         }, 
         "visas": "No", 
         "website": "https://codingbootcamp.uncc.edu/"
@@ -28320,7 +28737,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Chapel Hill"
         ], 
@@ -28379,7 +28796,7 @@
         "housing": "The Data Incubator has a partnership with\u00a0", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "Washington", 
@@ -28397,9 +28814,9 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 3794, 
+            "followers": 3787, 
             "handle": "@thedatainc", 
-            "tweets": 1073
+            "tweets": 1066
         }, 
         "visas": "No", 
         "website": "http://www.thedataincubator.com/"
@@ -28434,7 +28851,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Nairobi"
         ], 
@@ -28503,7 +28920,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Diego"
         ], 
@@ -28526,7 +28943,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 25, 
+            "followers": 26, 
             "handle": "@thedevslab", 
             "tweets": 22
         }, 
@@ -28579,7 +28996,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -28604,9 +29021,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 4179, 
+            "followers": 4178, 
             "handle": "@FirehoseProject", 
-            "tweets": 557
+            "tweets": 556
         }, 
         "visas": "No", 
         "website": "http://www.thefirehoseproject.com/"
@@ -28653,7 +29070,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -28676,7 +29093,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 6242, 
+            "followers": 6241, 
             "handle": "@hopperacademy", 
             "tweets": 394
         }, 
@@ -28692,7 +29109,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Hyderabad"
         ], 
@@ -28746,7 +29163,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -28941,7 +29358,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Greenville", 
             "Atlanta", 
@@ -29000,14 +29417,14 @@
         ], 
         "tracks": [
             "Mobile Development", 
+            "Full-Stack Web Development", 
             "Front-End Web Development", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "UX Design"
         ], 
         "twitter": {
             "followers": 15800, 
             "handle": "@TheIronYard", 
-            "tweets": 7969
+            "tweets": 7966
         }, 
         "visas": "No", 
         "website": "http://theironyard.com/"
@@ -29064,7 +29481,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Portland", 
             "Online"
@@ -29099,9 +29516,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 1729, 
+            "followers": 1730, 
             "handle": "@TheTechAcad", 
-            "tweets": 685
+            "tweets": 683
         }, 
         "visas": "No", 
         "website": "http://learncodinganywhere.com/"
@@ -29179,7 +29596,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City", 
             "Online"
@@ -29503,7 +29920,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Atlanta", 
@@ -29550,14 +29967,14 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Mobile Development", 
-            "Front-End Web Development", 
             "Data Science", 
-            "UX Design", 
-            "Full-Stack Web Development"
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
+            "UX Design"
         ], 
         "twitter": {
-            "followers": 6572, 
+            "followers": 6571, 
             "handle": "@thinkful", 
             "tweets": 2183
         }, 
@@ -29628,7 +30045,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Toronto"
         ], 
@@ -29652,7 +30069,7 @@
             "Mobile Development"
         ], 
         "twitter": {
-            "followers": 311, 
+            "followers": 312, 
             "handle": "@ThoughtKite", 
             "tweets": 185
         }, 
@@ -29735,7 +30152,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -29761,15 +30178,15 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Product Management", 
-            "Digital Marketing", 
             "UX Design", 
-            "Other"
+            "Product Management", 
+            "Other", 
+            "Digital Marketing"
         ], 
         "twitter": {
-            "followers": 3720, 
+            "followers": 3718, 
             "handle": "@Tradecraft", 
-            "tweets": 570
+            "tweets": 569
         }, 
         "visas": "No", 
         "website": "http://www.tradecraft.com/"
@@ -29885,7 +30302,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -29997,7 +30414,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Denver"
         ], 
@@ -30035,9 +30452,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2017, 
+            "followers": 2015, 
             "handle": "@turingschool", 
-            "tweets": 2324
+            "tweets": 2322
         }, 
         "visas": "Yes", 
         "website": "http://www.turing.io"
@@ -30128,7 +30545,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -30151,7 +30568,7 @@
         "tracking_groups": [], 
         "tracks": "Mobile Development", 
         "twitter": {
-            "followers": 1593, 
+            "followers": 1592, 
             "handle": "@TurnToTech", 
             "tweets": 1152
         }, 
@@ -30264,7 +30681,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Barcelona"
         ], 
@@ -30303,7 +30720,7 @@
         "twitter": {
             "followers": 251, 
             "handle": "@Ubiqum", 
-            "tweets": 317
+            "tweets": 315
         }, 
         "visas": "No", 
         "website": "http://www.ubiqum.com/"
@@ -30360,7 +30777,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Orlando", 
             "Sandford", 
@@ -30418,7 +30835,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Phoenix"
         ], 
@@ -30512,7 +30929,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Los Angeles", 
             "Online"
@@ -30621,7 +31038,7 @@
         "housing": "FREE Housing at all locations. First come basis", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Provo", 
             "Salt Lake City", 
@@ -30671,7 +31088,7 @@
         "twitter": {
             "followers": 10500, 
             "handle": "@VSCHOOLHQ", 
-            "tweets": 1354
+            "tweets": 1348
         }, 
         "visas": "No", 
         "website": "http://vschool.io/en/"
@@ -30789,7 +31206,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "New York City"
         ], 
@@ -30819,9 +31236,9 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
+            "Mobile Development", 
             "Front-End Web Development", 
-            "Full-Stack Web Development", 
-            "Mobile Development"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
             "followers": 147, 
@@ -30903,7 +31320,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online"
         ], 
@@ -30934,7 +31351,7 @@
         "twitter": {
             "followers": 28200, 
             "handle": "@vikingeducation", 
-            "tweets": 2100
+            "tweets": 2095
         }, 
         "visas": "No", 
         "website": "http://www.vikingcodeschool.com/"
@@ -31020,7 +31437,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Online", 
             "Milwaukee", 
@@ -31050,9 +31467,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 513, 
+            "followers": 515, 
             "handle": "@NewHorizonsWI", 
-            "tweets": 2595
+            "tweets": 2593
         }, 
         "visas": "No", 
         "website": "http://vitalaccelerator.com/"
@@ -31156,7 +31573,7 @@
         "housing": "\n", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Cleveland", 
             "Columbus"
@@ -31184,9 +31601,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 1627, 
+            "followers": 1621, 
             "handle": "@WeCanCodeIT", 
-            "tweets": 1743
+            "tweets": 1742
         }, 
         "visas": "No", 
         "website": "https://wecancodeit.org/"
@@ -31268,7 +31685,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "London"
         ], 
@@ -31293,9 +31710,9 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 754, 
+            "followers": 752, 
             "handle": "@wegotcoders", 
-            "tweets": 1658
+            "tweets": 1654
         }, 
         "visas": null, 
         "website": "http://wegotcoders.com"
@@ -31344,7 +31761,7 @@
         "housing": "Accommodation and food are included in the price", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Helsinki"
         ], 
@@ -31372,7 +31789,7 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 66, 
+            "followers": 65, 
             "handle": "@webdev_camp", 
             "tweets": 46
         }, 
@@ -31403,7 +31820,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Johannesburg"
         ], 
@@ -31417,12 +31834,75 @@
         "tracking_groups": [], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 2344, 
+            "followers": 2343, 
             "handle": "@wethinkcode", 
             "tweets": 1105
         }, 
         "visas": "No", 
         "website": "http://www.wethinkcode.co.za/"
+    }, 
+    "World Tech Academy": {
+        "accreditation": "None", 
+        "courses": {
+            "Front End Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Provo"
+                ], 
+                "Course Title": "Front End Development", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 3, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "email": "info@worldtechacademy.com", 
+        "facebook": "https://www.facebook.com/worldtechacademy/", 
+        "housing": null, 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-01-31", 
+        "locations": [
+            "Provo"
+        ], 
+        "name": "World Tech Academy", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Front-End Web Development", 
+        "twitter": {
+            "followers": 413, 
+            "handle": "@_WorldTech_", 
+            "tweets": 316
+        }, 
+        "visas": "No", 
+        "website": "http://worldtechacademy.com/index.html"
     }, 
     "World Tech Makers": {
         "accreditation": "Organization\u00b4s accreditation with strong external references.", 
@@ -31504,7 +31984,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "Yes", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Sao Paulo", 
             "Santiago", 
@@ -31542,16 +32022,16 @@
         ], 
         "tracking_groups": [], 
         "tracks": [
-            "Full-Stack Web Development", 
+            "Product Management", 
             "Mobile Development", 
             "Front-End Web Development", 
             "Data Science", 
-            "Product Management"
+            "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 2616, 
+            "followers": 2619, 
             "handle": "@Worldtechmaker", 
-            "tweets": 3217
+            "tweets": 3216
         }, 
         "visas": "Yes", 
         "website": "http://worldtechmakers.com/"
@@ -31620,7 +32100,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Miami"
         ], 
@@ -31652,9 +32132,9 @@
             "Full-Stack Web Development"
         ], 
         "twitter": {
-            "followers": 4848, 
+            "followers": 4840, 
             "handle": "@wyncode", 
-            "tweets": 6316
+            "tweets": 6311
         }, 
         "visas": "No", 
         "website": "http://www.wyncode.co"
@@ -31710,7 +32190,7 @@
         "housing": null, 
         "job_assistance": "No", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Austin"
         ], 
@@ -31779,7 +32259,7 @@
         "housing": "No", 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "Wilmington"
         ], 
@@ -31802,9 +32282,9 @@
         ], 
         "tracks": "Full-Stack Web Development", 
         "twitter": {
-            "followers": 9741, 
+            "followers": 9740, 
             "handle": "@zipcodewilm", 
-            "tweets": 3435
+            "tweets": 3433
         }, 
         "visas": "No", 
         "website": "http://www.zipcodewilmington.com/"
@@ -31879,7 +32359,7 @@
         "housing": null, 
         "job_assistance": "Yes", 
         "job_guarantee": "No", 
-        "last_updated": "2017-02-01", 
+        "last_updated": "2017-01-31", 
         "locations": [
             "San Francisco"
         ], 
@@ -31895,7 +32375,7 @@
         "tracking_groups": [], 
         "tracks": "Data Science", 
         "twitter": {
-            "followers": 6053, 
+            "followers": 6054, 
             "handle": "@ZipfianAcademy", 
             "tweets": 1356
         }, 

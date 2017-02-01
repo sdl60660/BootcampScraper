@@ -42608,3 +42608,1912 @@ http://www.blackbeltcoding.com/
 Scraper finished!
 -------------------
 
+2016-12-22.(12:00:01)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+{'Tracking Group': [], 'Meta': ['meta']}
+{u'Active': True,
+ u'Current Market': [u'We Can Code It',
+                     u'Software Guild',
+                     u'Tech Elevator',
+                     u'Acadgild',
+                     u'Boole Institute'],
+ u'Date/Time': u'2016-12-22 12:11:20',
+ u'Days Out': 101,
+ u'Number of Entries': 419,
+ u'Potential Market': [u'Thoughtkite',
+                       u'Grand Circus',
+                       u'Academy Pittsburgh',
+                       u'Cincy Code It',
+                       u'Lighthouse Labs',
+                       u'Bitmaker Labs',
+                       u'Software Tester Bootcamp',
+                       u'The Iron Yard',
+                       u'Level',
+                       u'Ladies Learning Code',
+                       u'Brainstation',
+                       u'Hackeryou',
+                       u'Red Academy',
+                       u'Bitmaker ',
+                       u'Data Science Dojo'],
+ u'locations': {u'Akron': 1,
+                u'Albuquerque': 2,
+                u'Amsterdam': 4,
+                u'Appleton': 1,
+                u'Arlington': 2,
+                u'Asheville': 1,
+                u'Athens': 2,
+                u'Atlanta': 14,
+                u'Austin': 16,
+                u'Bali': 4,
+                u'Baltimore': 2,
+                u'Bangalore': 4,
+                u'Barcelona': 10,
+                u'Beirut': 2,
+                u'Belo Horizonte': 1,
+                u'Bend': 1,
+                u'Berkeley': 1,
+                u'Berlin': 7,
+                u'Billings': 1,
+                u'Birmingham': 1,
+                u'Bogota': 2,
+                u'Boise': 1,
+                u'Bordeaux': 1,
+                u'Boston': 10,
+                u'Boulder': 6,
+                u'Bozeman': 2,
+                u'Branson': 1,
+                u'Brisbane': 1,
+                u'Bristol': 1,
+                u'Brussels': 2,
+                u'Bucharest': 1,
+                u'Buenos Aires': 4,
+                u'Calgary': 1,
+                u'Canary Islands': 1,
+                u'Cape Town': 1,
+                u'Caracas': 1,
+                u'Cedar Rapids': 1,
+                u'Chapel Hill': 2,
+                u'Charleston': 2,
+                u'Charlotte': 6,
+                u'Chelmsford': 1,
+                u'Cheyenne': 1,
+                u'Chicago': 22,
+                u'Cincinnati': 2,
+                u'Cleveland': 3,
+                u'Cluj': 1,
+                u'Columbia': 1,
+                u'Columbus': 2,
+                u'Conway': 1,
+                u'Copenhagen': 1,
+                u'Dallas': 12,
+                u'Delhi': 1,
+                u'Denver': 14,
+                u'Detroit': 2,
+                u'Dubai': 1,
+                u'Dublin': 3,
+                u'Durham': 2,
+                u'Edinburgh': 1,
+                u'Fayetteville': 1,
+                u'Fort Collins': 1,
+                u'Fort Lauderdale': 2,
+                u'Fresno': 1,
+                u'Gainesville': 2,
+                u'Gothenburg': 1,
+                u'Greensboro': 1,
+                u'Greenville': 1,
+                u'Halifax': 1,
+                u'Hanoi': 1,
+                u'Helsinki': 1,
+                u'Ho Chi Minh City': 1,
+                u'Hong Kong': 2,
+                u'Honolulu': 2,
+                u'Houston': 5,
+                u'Hurst': 1,
+                u'Hybrid (Online & In-person)': 2,
+                u'Hyderabad': 3,
+                u'Indianapolis': 2,
+                u'Iowa City': 1,
+                u'Irvine': 4,
+                u'Jacksonville': 1,
+                u'Jakarta': 1,
+                u'Jersey City': 1,
+                u'Johannesburg': 1,
+                u'Kansas City': 3,
+                u'Koh Lanta': 1,
+                u'Kuala Lumpur': 1,
+                u'Kuwait City': 1,
+                u'Lagos': 1,
+                u'Las Vegas': 1,
+                u'Lexington': 2,
+                u'Lille': 1,
+                u'Lincoln': 2,
+                u'Lisbon': 3,
+                u'London': 17,
+                u'Los Angeles': 23,
+                u'Louisville': 1,
+                u'Lynchburg': 1,
+                u'Madison': 2,
+                u'Madrid': 2,
+                u'Maui': 1,
+                u'Melbourne': 3,
+                u'Mexico City': 4,
+                u'Miami': 9,
+                u'Milan': 1,
+                u'Milwaukee': 2,
+                u'Minneapolis': 4,
+                u'Missoula': 3,
+                u'Mobile': 1,
+                u'Monterey': 1,
+                u'Monterrey': 3,
+                u'Montevideo': 1,
+                u'Montreal': 4,
+                u'Nairobi': 3,
+                u'Nantes': 1,
+                u'Nashville': 3,
+                u'Nazareth': 1,
+                u'New Orleans': 2,
+                u'New York City': 43,
+                u'Oakland': 2,
+                u'Obidos': 1,
+                u'Omaha': 2,
+                u'Online': 61,
+                u'Orange County': 8,
+                u'Orlando': 2,
+                u'Ottawa': 1,
+                u'Pacific Coast, Ecuador': 1,
+                u'Palm Beach': 1,
+                u'Panama City': 1,
+                u'Paris': 6,
+                u'Perth': 1,
+                u'Philadelphia': 5,
+                u'Phoenix': 3,
+                u'Pittsburgh': 1,
+                u'Portland': 7,
+                u'Porto': 1,
+                u'Prague': 1,
+                u'Provo': 7,
+                u'Puerto Vallarta': 1,
+                u'Raleigh': 6,
+                u'Ramat Gan': 1,
+                u'Reno': 1,
+                u'Reston': 1,
+                u'Rio de Janeiro': 1,
+                u'Salt Lake City': 8,
+                u'San Antonio': 4,
+                u'San Diego': 7,
+                u'San Francisco': 40,
+                u'San Jose': 6,
+                u'Sandford': 1,
+                u'Santa Clara': 1,
+                u'Santiago': 3,
+                u'Sao Paulo': 2,
+                u'Savannah': 2,
+                u'Scottsdale': 2,
+                u'Seattle': 18,
+                u'Shreveport': 1,
+                u'Silicon Valley': 8,
+                u'Singapore': 5,
+                u'Sioux Falls': 1,
+                u'Somerset': 1,
+                u'St. Louis': 3,
+                u'Stockholm': 3,
+                u'Sunnyvale': 2,
+                u'Sydney': 6,
+                u'Tampa': 1,
+                u'Tel Aviv': 3,
+                u'Tempe': 1,
+                u'Toronto': 10,
+                u'Vancouver': 4,
+                u'Victoria': 1,
+                u'Vienna': 1,
+                u'Wales': 2,
+                u'Warsaw': 1,
+                u'Washington': 11,
+                u'Washington DC': 1,
+                u'Wellington': 1,
+                u'Westwood': 1,
+                u'Wilmington': 1,
+                u'Woodside': 1,
+                u'Zurich': 2},
+ u'technologies': {u'.NET': 45,
+                   u'ASP.NET': 26,
+                   u'ASP.NET MVC': 4,
+                   u'Algorithms': 48,
+                   u'Android': 42,
+                   u'AngularJS': 105,
+                   u'Bootstrap': 7,
+                   u'Business': 8,
+                   u'C#': 45,
+                   u'C++': 4,
+                   u'CSS': 245,
+                   u'Clojure': 4,
+                   u'Cocoa': 13,
+                   u'CoffeeScript': 6,
+                   u'Command line': 2,
+                   u'Cyber Security': 3,
+                   u'Data Science': 48,
+                   u'Data Structures': 30,
+                   u'Data Visualization': 2,
+                   u'Design': 53,
+                   u'Design Principles': 25,
+                   u'Digital Marketing': 26,
+                   u'Django': 24,
+                   u'Drupal': 1,
+                   u'Entrepreneurship': 13,
+                   u'Excel': 8,
+                   u'Express.js': 61,
+                   u'Front End': 104,
+                   u'Game Design': 3,
+                   u'Game Development': 9,
+                   u'Git': 164,
+                   u'Go': 4,
+                   u'Growth Hacking': 14,
+                   u'HTML': 251,
+                   u'Hadoop': 19,
+                   u'Heroku': 1,
+                   u'Illustrator': 8,
+                   u'Java': 59,
+                   u'JavaScript': 255,
+                   u'Linux': 9,
+                   u'Mobile': 53,
+                   u'MongoDB': 91,
+                   u'MySQL': 89,
+                   u'N/A': 1,
+                   u'NoLang': 2,
+                   u'Node.js': 109,
+                   u'Objective-C': 37,
+                   u'PHP': 47,
+                   u'Perl': 2,
+                   u'Phonegap': 2,
+                   u'Photoshop': 12,
+                   u'PostgreSQL': 19,
+                   u'Product Management': 30,
+                   u'Python': 64,
+                   u'R': 20,
+                   u'R Programming': 1,
+                   u'React.js': 50,
+                   u'Responsive Design': 2,
+                   u'Ruby': 91,
+                   u'Ruby on Rails': 103,
+                   u'SEO': 33,
+                   u'SQL': 134,
+                   u'SQL Business Intelligence': 1,
+                   u'SQL Programming': 1,
+                   u'SQL Server Administration': 1,
+                   u'Sales': 12,
+                   u'Scala': 2,
+                   u'Security and Session Storage': 1,
+                   u'SharePoint': 1,
+                   u'Sinatra': 25,
+                   u'Spark': 10,
+                   u'Spring MVC': 1,
+                   u'Swift': 51,
+                   u'UNIX': 1,
+                   u'UX': 30,
+                   u'User Experience Design': 65,
+                   u'VB.NET': 1,
+                   u'WCF': 1,
+                   u'WPF': 1,
+                   u'Web Services': 6,
+                   u'Windows Server': 1,
+                   u'Wordpress': 21,
+                   u'Xcode': 27,
+                   u'iOS': 64,
+                   u'jQuery': 172}}
+
+WARNING: These possible duplicates were found:
+https://codingbootcamp.uncc.edu/
+http://www.insightdatascience.com/
+https://codingbootcamp.pe.gatech.edu/
+https://codingbootcamp.uncc.edu/
+https://codingbootcamp.pe.gatech.edu/
+http://www.codezacademy.co.uk/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.codezacademy.co.uk/
+http://www.insightdatascience.com/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.blackbeltcoding.com/
+http://www.blackbeltcoding.com/
+
+((u'Insight', [u'CourseReport']), (u'Insight Data Science', [u'SwitchUp']))
+((u'The Coding Boot Camp At Unc Charlotte', [u'CourseReport']), (u'Unc Charlotte Coding Boot Camp', [u'SwitchUp']))
+((u'Atlanta Coding Bootcamp By Georgia Tech', [u'SwitchUp']), (u'Georgia Tech Coding Boot Camp', [u'CourseReport']))
+((u'Uc San Diego Coding Boot Camp', [u'SwitchUp']), (u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']))
+((u'Codez Academy', [u'SwitchUp']), (u'Codez Academy ', [u'CourseReport']))
+((u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']), (u'Uc San Diego Coding Boot Camp', [u'SwitchUp']))
+((u'Blackbelt Coding', [u'SwitchUp']), (u'Blackbelt Coding ', [u'CourseReport']))
+
+2016-12-22.(12:11:28)
+Scraper finished!
+-------------------
+
+2016-12-27.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+{'Tracking Group': [], 'Meta': ['meta']}
+{u'Active': True,
+ u'Current Market': [u'We Can Code It',
+                     u'Software Guild',
+                     u'Tech Elevator',
+                     u'Acadgild',
+                     u'Boole Institute'],
+ u'Date/Time': u'2016-12-27 12:12:23',
+ u'Days Out': 106,
+ u'Number of Entries': 419,
+ u'Potential Market': [u'Thoughtkite',
+                       u'Grand Circus',
+                       u'Academy Pittsburgh',
+                       u'Cincy Code It',
+                       u'Lighthouse Labs',
+                       u'Bitmaker Labs',
+                       u'Software Tester Bootcamp',
+                       u'The Iron Yard',
+                       u'Level',
+                       u'Ladies Learning Code',
+                       u'Brainstation',
+                       u'Hackeryou',
+                       u'Red Academy',
+                       u'Bitmaker ',
+                       u'Data Science Dojo'],
+ u'locations': {u'Akron': 1,
+                u'Albuquerque': 2,
+                u'Amsterdam': 4,
+                u'Appleton': 1,
+                u'Arlington': 2,
+                u'Asheville': 1,
+                u'Athens': 2,
+                u'Atlanta': 14,
+                u'Austin': 16,
+                u'Bali': 4,
+                u'Baltimore': 2,
+                u'Bangalore': 4,
+                u'Barcelona': 10,
+                u'Beirut': 2,
+                u'Belo Horizonte': 1,
+                u'Bend': 1,
+                u'Berkeley': 1,
+                u'Berlin': 8,
+                u'Billings': 1,
+                u'Birmingham': 1,
+                u'Bogota': 2,
+                u'Boise': 1,
+                u'Bordeaux': 1,
+                u'Boston': 11,
+                u'Boulder': 6,
+                u'Bozeman': 2,
+                u'Branson': 1,
+                u'Brisbane': 1,
+                u'Bristol': 1,
+                u'Brussels': 2,
+                u'Bucharest': 1,
+                u'Buenos Aires': 4,
+                u'Calgary': 1,
+                u'Canary Islands': 1,
+                u'Cape Town': 1,
+                u'Caracas': 1,
+                u'Cedar Rapids': 1,
+                u'Chapel Hill': 2,
+                u'Charleston': 2,
+                u'Charlotte': 6,
+                u'Chelmsford': 1,
+                u'Cheyenne': 1,
+                u'Chicago': 22,
+                u'Cincinnati': 2,
+                u'Cleveland': 3,
+                u'Cluj': 1,
+                u'Columbia': 1,
+                u'Columbus': 2,
+                u'Conway': 1,
+                u'Copenhagen': 1,
+                u'Dallas': 12,
+                u'Delhi': 1,
+                u'Denver': 14,
+                u'Detroit': 2,
+                u'Dubai': 1,
+                u'Dublin': 3,
+                u'Durham': 2,
+                u'Edinburgh': 1,
+                u'Fayetteville': 1,
+                u'Fort Collins': 1,
+                u'Fort Lauderdale': 2,
+                u'Fresno': 1,
+                u'Gainesville': 2,
+                u'Gothenburg': 1,
+                u'Greensboro': 1,
+                u'Greenville': 1,
+                u'Halifax': 1,
+                u'Hanoi': 1,
+                u'Helsinki': 1,
+                u'Ho Chi Minh City': 1,
+                u'Hong Kong': 2,
+                u'Honolulu': 2,
+                u'Houston': 5,
+                u'Hurst': 1,
+                u'Hybrid (Online & In-person)': 2,
+                u'Hyderabad': 3,
+                u'Indianapolis': 2,
+                u'Iowa City': 1,
+                u'Irvine': 4,
+                u'Jacksonville': 1,
+                u'Jakarta': 1,
+                u'Jersey City': 1,
+                u'Johannesburg': 1,
+                u'Kansas City': 3,
+                u'Koh Lanta': 1,
+                u'Kuala Lumpur': 1,
+                u'Kuwait City': 1,
+                u'Lagos': 1,
+                u'Las Vegas': 1,
+                u'Lexington': 2,
+                u'Lille': 1,
+                u'Lincoln': 2,
+                u'Lisbon': 3,
+                u'London': 17,
+                u'Los Angeles': 23,
+                u'Louisville': 1,
+                u'Lynchburg': 1,
+                u'Madison': 2,
+                u'Madrid': 2,
+                u'Maui': 1,
+                u'Melbourne': 3,
+                u'Mexico City': 4,
+                u'Miami': 9,
+                u'Milan': 1,
+                u'Milwaukee': 2,
+                u'Minneapolis': 4,
+                u'Missoula': 3,
+                u'Mobile': 1,
+                u'Monterey': 1,
+                u'Monterrey': 3,
+                u'Montevideo': 1,
+                u'Montreal': 4,
+                u'Nairobi': 3,
+                u'Nantes': 1,
+                u'Nashville': 3,
+                u'Nazareth': 1,
+                u'New Orleans': 2,
+                u'New York City': 43,
+                u'Oakland': 2,
+                u'Obidos': 1,
+                u'Omaha': 2,
+                u'Online': 61,
+                u'Orange County': 8,
+                u'Orlando': 2,
+                u'Ottawa': 1,
+                u'Pacific Coast, Ecuador': 1,
+                u'Palm Beach': 1,
+                u'Panama City': 1,
+                u'Paris': 6,
+                u'Perth': 1,
+                u'Philadelphia': 5,
+                u'Phoenix': 3,
+                u'Pittsburgh': 1,
+                u'Portland': 7,
+                u'Porto': 1,
+                u'Prague': 1,
+                u'Provo': 7,
+                u'Puerto Vallarta': 1,
+                u'Raleigh': 6,
+                u'Ramat Gan': 1,
+                u'Reno': 1,
+                u'Reston': 1,
+                u'Rio de Janeiro': 1,
+                u'Salt Lake City': 8,
+                u'San Antonio': 4,
+                u'San Diego': 7,
+                u'San Francisco': 40,
+                u'San Jose': 6,
+                u'Sandford': 1,
+                u'Santa Clara': 1,
+                u'Santiago': 3,
+                u'Sao Paulo': 2,
+                u'Savannah': 2,
+                u'Scottsdale': 2,
+                u'Seattle': 18,
+                u'Shreveport': 1,
+                u'Silicon Valley': 8,
+                u'Singapore': 5,
+                u'Sioux Falls': 1,
+                u'Somerset': 1,
+                u'St. Louis': 3,
+                u'Stockholm': 3,
+                u'Sunnyvale': 2,
+                u'Sydney': 6,
+                u'Tampa': 1,
+                u'Tel Aviv': 3,
+                u'Tempe': 1,
+                u'Toronto': 10,
+                u'Vancouver': 4,
+                u'Victoria': 1,
+                u'Vienna': 1,
+                u'Wales': 2,
+                u'Warsaw': 1,
+                u'Washington': 11,
+                u'Washington DC': 1,
+                u'Wellington': 1,
+                u'Westwood': 1,
+                u'Wilmington': 1,
+                u'Woodside': 1,
+                u'Zurich': 2},
+ u'technologies': {u'.NET': 44,
+                   u'ASP.NET': 26,
+                   u'ASP.NET MVC': 4,
+                   u'Algorithms': 48,
+                   u'Android': 42,
+                   u'AngularJS': 105,
+                   u'Bootstrap': 7,
+                   u'Business': 8,
+                   u'C#': 46,
+                   u'C++': 4,
+                   u'CSS': 245,
+                   u'Clojure': 4,
+                   u'Cocoa': 13,
+                   u'CoffeeScript': 6,
+                   u'Command line': 2,
+                   u'Cyber Security': 3,
+                   u'Data Science': 48,
+                   u'Data Structures': 30,
+                   u'Data Visualization': 2,
+                   u'Design': 53,
+                   u'Design Principles': 25,
+                   u'Digital Marketing': 26,
+                   u'Django': 24,
+                   u'Drupal': 1,
+                   u'Entrepreneurship': 13,
+                   u'Excel': 8,
+                   u'Express.js': 61,
+                   u'Front End': 104,
+                   u'Game Design': 3,
+                   u'Game Development': 9,
+                   u'Git': 164,
+                   u'Go': 4,
+                   u'Growth Hacking': 14,
+                   u'HTML': 251,
+                   u'Hadoop': 19,
+                   u'Heroku': 1,
+                   u'Illustrator': 8,
+                   u'Java': 59,
+                   u'JavaScript': 255,
+                   u'Linux': 9,
+                   u'Mobile': 53,
+                   u'MongoDB': 91,
+                   u'MySQL': 89,
+                   u'N/A': 1,
+                   u'NoLang': 2,
+                   u'Node.js': 109,
+                   u'Objective-C': 37,
+                   u'PHP': 47,
+                   u'Perl': 2,
+                   u'Phonegap': 2,
+                   u'Photoshop': 12,
+                   u'PostgreSQL': 19,
+                   u'Product Management': 30,
+                   u'Python': 64,
+                   u'R': 20,
+                   u'R Programming': 1,
+                   u'React.js': 50,
+                   u'Responsive Design': 2,
+                   u'Ruby': 91,
+                   u'Ruby on Rails': 103,
+                   u'SEO': 33,
+                   u'SQL': 134,
+                   u'SQL Business Intelligence': 1,
+                   u'SQL Programming': 1,
+                   u'SQL Server Administration': 1,
+                   u'Sales': 12,
+                   u'Scala': 2,
+                   u'Security and Session Storage': 1,
+                   u'SharePoint': 1,
+                   u'Sinatra': 25,
+                   u'Spark': 10,
+                   u'Spring MVC': 1,
+                   u'Swift': 51,
+                   u'UNIX': 1,
+                   u'UX': 30,
+                   u'User Experience Design': 65,
+                   u'VB.NET': 1,
+                   u'WCF': 1,
+                   u'WPF': 1,
+                   u'Web Services': 6,
+                   u'Windows Server': 1,
+                   u'Wordpress': 21,
+                   u'Xcode': 27,
+                   u'iOS': 64,
+                   u'jQuery': 172}}
+
+WARNING: These possible duplicates were found:
+https://codingbootcamp.uncc.edu/
+http://www.insightdatascience.com/
+https://codingbootcamp.pe.gatech.edu/
+https://codingbootcamp.uncc.edu/
+https://codingbootcamp.pe.gatech.edu/
+http://www.codezacademy.co.uk/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.codezacademy.co.uk/
+http://www.insightdatascience.com/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.blackbeltcoding.com/
+http://www.blackbeltcoding.com/
+
+((u'Insight', [u'CourseReport']), (u'Insight Data Science', [u'SwitchUp']))
+((u'The Coding Boot Camp At Unc Charlotte', [u'CourseReport']), (u'Unc Charlotte Coding Boot Camp', [u'SwitchUp']))
+((u'Atlanta Coding Bootcamp By Georgia Tech', [u'SwitchUp']), (u'Georgia Tech Coding Boot Camp', [u'CourseReport']))
+((u'Uc San Diego Coding Boot Camp', [u'SwitchUp']), (u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']))
+((u'Codez Academy', [u'SwitchUp']), (u'Codez Academy ', [u'CourseReport']))
+((u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']), (u'Uc San Diego Coding Boot Camp', [u'SwitchUp']))
+((u'Blackbelt Coding', [u'SwitchUp']), (u'Blackbelt Coding ', [u'CourseReport']))
+
+2016-12-27.(12:12:31)
+Scraper finished!
+-------------------
+
+2017-01-01.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+{'Tracking Group': [], 'Meta': ['meta']}
+{u'Active': True,
+ u'Current Market': [u'We Can Code It',
+                     u'Software Guild',
+                     u'Tech Elevator',
+                     u'Acadgild',
+                     u'Boole Institute'],
+ u'Date/Time': u'2017-01-01 12:12:19',
+ u'Days Out': 111,
+ u'Number of Entries': 419,
+ u'Potential Market': [u'Thoughtkite',
+                       u'Grand Circus',
+                       u'Academy Pittsburgh',
+                       u'Cincy Code It',
+                       u'Lighthouse Labs',
+                       u'Bitmaker Labs',
+                       u'Software Tester Bootcamp',
+                       u'The Iron Yard',
+                       u'Level',
+                       u'Ladies Learning Code',
+                       u'Brainstation',
+                       u'Hackeryou',
+                       u'Red Academy',
+                       u'Bitmaker ',
+                       u'Data Science Dojo'],
+ u'locations': {u'Akron': 1,
+                u'Albuquerque': 2,
+                u'Amsterdam': 4,
+                u'Appleton': 1,
+                u'Arlington': 2,
+                u'Asheville': 1,
+                u'Athens': 2,
+                u'Atlanta': 14,
+                u'Austin': 16,
+                u'Bali': 4,
+                u'Baltimore': 2,
+                u'Bangalore': 4,
+                u'Barcelona': 10,
+                u'Beirut': 2,
+                u'Belo Horizonte': 1,
+                u'Bend': 1,
+                u'Berkeley': 1,
+                u'Berlin': 8,
+                u'Billings': 1,
+                u'Birmingham': 1,
+                u'Bogota': 2,
+                u'Boise': 1,
+                u'Bordeaux': 1,
+                u'Boston': 11,
+                u'Boulder': 6,
+                u'Bozeman': 2,
+                u'Branson': 1,
+                u'Brisbane': 1,
+                u'Bristol': 1,
+                u'Brussels': 2,
+                u'Bucharest': 1,
+                u'Buenos Aires': 4,
+                u'Calgary': 1,
+                u'Canary Islands': 1,
+                u'Cape Town': 1,
+                u'Caracas': 1,
+                u'Cedar Rapids': 1,
+                u'Chapel Hill': 2,
+                u'Charleston': 2,
+                u'Charlotte': 7,
+                u'Chelmsford': 1,
+                u'Cheyenne': 1,
+                u'Chicago': 22,
+                u'Cincinnati': 2,
+                u'Cleveland': 3,
+                u'Cluj': 1,
+                u'Columbia': 1,
+                u'Columbus': 2,
+                u'Conway': 1,
+                u'Copenhagen': 1,
+                u'Dallas': 13,
+                u'Delhi': 1,
+                u'Denver': 14,
+                u'Detroit': 2,
+                u'Dubai': 1,
+                u'Dublin': 3,
+                u'Durham': 2,
+                u'Edinburgh': 1,
+                u'Fayetteville': 1,
+                u'Fort Collins': 1,
+                u'Fort Lauderdale': 3,
+                u'Fresno': 1,
+                u'Gainesville': 2,
+                u'Gothenburg': 1,
+                u'Greensboro': 1,
+                u'Greenville': 1,
+                u'Halifax': 1,
+                u'Hanoi': 1,
+                u'Helsinki': 1,
+                u'Ho Chi Minh City': 1,
+                u'Hong Kong': 2,
+                u'Honolulu': 2,
+                u'Houston': 6,
+                u'Hurst': 1,
+                u'Hybrid (Online & In-person)': 2,
+                u'Hyderabad': 3,
+                u'Indianapolis': 2,
+                u'Iowa City': 1,
+                u'Irvine': 4,
+                u'Jacksonville': 1,
+                u'Jakarta': 1,
+                u'Jersey City': 1,
+                u'Johannesburg': 1,
+                u'Kansas City': 3,
+                u'Koh Lanta': 1,
+                u'Kuala Lumpur': 1,
+                u'Kuwait City': 1,
+                u'Lagos': 1,
+                u'Las Vegas': 1,
+                u'Lexington': 2,
+                u'Lille': 1,
+                u'Lincoln': 2,
+                u'Lisbon': 3,
+                u'London': 17,
+                u'Los Angeles': 24,
+                u'Louisville': 1,
+                u'Lynchburg': 1,
+                u'Madison': 2,
+                u'Madrid': 2,
+                u'Maui': 1,
+                u'Melbourne': 3,
+                u'Mexico City': 4,
+                u'Miami': 9,
+                u'Milan': 1,
+                u'Milwaukee': 2,
+                u'Minneapolis': 4,
+                u'Missoula': 3,
+                u'Mobile': 1,
+                u'Monterey': 1,
+                u'Monterrey': 3,
+                u'Montevideo': 1,
+                u'Montreal': 4,
+                u'Nairobi': 3,
+                u'Nantes': 1,
+                u'Nashville': 3,
+                u'Nazareth': 1,
+                u'New Orleans': 2,
+                u'New York City': 43,
+                u'Oakland': 2,
+                u'Obidos': 1,
+                u'Omaha': 2,
+                u'Online': 61,
+                u'Orange County': 8,
+                u'Orlando': 3,
+                u'Ottawa': 1,
+                u'Pacific Coast, Ecuador': 1,
+                u'Palm Beach': 1,
+                u'Panama City': 1,
+                u'Paris': 6,
+                u'Perth': 1,
+                u'Philadelphia': 5,
+                u'Phoenix': 3,
+                u'Pittsburgh': 1,
+                u'Portland': 7,
+                u'Porto': 1,
+                u'Prague': 1,
+                u'Provo': 7,
+                u'Puerto Vallarta': 1,
+                u'Raleigh': 6,
+                u'Ramat Gan': 1,
+                u'Reno': 1,
+                u'Reston': 1,
+                u'Rio de Janeiro': 1,
+                u'Salt Lake City': 8,
+                u'San Antonio': 4,
+                u'San Diego': 8,
+                u'San Francisco': 39,
+                u'San Jose': 6,
+                u'Sandford': 1,
+                u'Santa Clara': 1,
+                u'Santiago': 3,
+                u'Sao Paulo': 2,
+                u'Savannah': 3,
+                u'Scottsdale': 2,
+                u'Seattle': 18,
+                u'Shreveport': 1,
+                u'Silicon Valley': 8,
+                u'Singapore': 5,
+                u'Sioux Falls': 1,
+                u'Somerset': 1,
+                u'St. Louis': 3,
+                u'Stockholm': 3,
+                u'Sunnyvale': 2,
+                u'Sydney': 6,
+                u'Tampa': 1,
+                u'Tel Aviv': 3,
+                u'Tempe': 1,
+                u'Toronto': 10,
+                u'Vancouver': 4,
+                u'Victoria': 1,
+                u'Vienna': 1,
+                u'Wales': 2,
+                u'Warsaw': 1,
+                u'Washington': 11,
+                u'Washington DC': 1,
+                u'Wellington': 1,
+                u'Westwood': 1,
+                u'Wilmington': 1,
+                u'Woodside': 1,
+                u'Zurich': 2},
+ u'technologies': {u'.NET': 45,
+                   u'ASP.NET': 29,
+                   u'ASP.NET MVC': 4,
+                   u'Algorithms': 49,
+                   u'Android': 42,
+                   u'AngularJS': 106,
+                   u'Bookshelf.js': 5,
+                   u'Bootstrap': 17,
+                   u'Business': 8,
+                   u'C#': 50,
+                   u'C++': 4,
+                   u'CSS': 254,
+                   u'Clojure': 4,
+                   u'Cocoa': 13,
+                   u'CoffeeScript': 6,
+                   u'Command line': 8,
+                   u'Cyber Security': 3,
+                   u'Data Science': 48,
+                   u'Data Structures': 31,
+                   u'Data Visualization': 2,
+                   u'Design': 53,
+                   u'Design Principles': 25,
+                   u'Digital Marketing': 26,
+                   u'Django': 25,
+                   u'Drupal': 1,
+                   u'Entrepreneurship': 13,
+                   u'Excel': 8,
+                   u'Express.js': 67,
+                   u'Front End': 104,
+                   u'Game Design': 3,
+                   u'Game Development': 9,
+                   u'Git': 172,
+                   u'Go': 4,
+                   u'Growth Hacking': 13,
+                   u'HTML': 260,
+                   u'Hadoop': 19,
+                   u'Heroku': 5,
+                   u'Illustrator': 8,
+                   u'Java': 63,
+                   u'JavaScript': 263,
+                   u'Laravel': 3,
+                   u'Linux': 9,
+                   u'Mobile': 53,
+                   u'MongoDB': 101,
+                   u'MySQL': 99,
+                   u'N/A': 1,
+                   u'NoLang': 2,
+                   u'Node.js': 118,
+                   u'Objective-C': 37,
+                   u'PHP': 47,
+                   u'Perl': 2,
+                   u'Phonegap': 2,
+                   u'Photoshop': 12,
+                   u'PostgreSQL': 19,
+                   u'Product Management': 30,
+                   u'Python': 65,
+                   u'R': 20,
+                   u'R Programming': 1,
+                   u'React.js': 60,
+                   u'Responsive Design': 6,
+                   u'Ruby': 91,
+                   u'Ruby on Rails': 103,
+                   u'SEO': 33,
+                   u'SQL': 134,
+                   u'SQL Business Intelligence': 1,
+                   u'SQL Programming': 1,
+                   u'SQL Server Administration': 1,
+                   u'Sales': 12,
+                   u'Scala': 2,
+                   u'Security and Session Storage': 3,
+                   u'SharePoint': 1,
+                   u'Sinatra': 25,
+                   u'Spark': 10,
+                   u'Spring MVC': 1,
+                   u'Swift': 51,
+                   u'UNIX': 1,
+                   u'UX': 30,
+                   u'User Authentication': 3,
+                   u'User Experience Design': 65,
+                   u'VB.NET': 1,
+                   u'WCF': 1,
+                   u'WPF': 1,
+                   u'Web Services': 6,
+                   u'Windows Server': 1,
+                   u'Wordpress': 21,
+                   u'Xcode': 27,
+                   u'iOS': 64,
+                   u'jQuery': 182}}
+
+WARNING: These possible duplicates were found:
+https://codingbootcamp.uncc.edu/
+http://www.insightdatascience.com/
+https://codingbootcamp.pe.gatech.edu/
+https://codingbootcamp.uncc.edu/
+https://codingbootcamp.pe.gatech.edu/
+http://www.codezacademy.co.uk/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.codezacademy.co.uk/
+http://www.insightdatascience.com/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.blackbeltcoding.com/
+http://www.blackbeltcoding.com/
+
+((u'Insight', [u'CourseReport']), (u'Insight Data Science', [u'SwitchUp']))
+((u'The Coding Boot Camp At Unc Charlotte', [u'CourseReport']), (u'Unc Charlotte Coding Boot Camp', [u'SwitchUp']))
+((u'Atlanta Coding Bootcamp By Georgia Tech', [u'SwitchUp']), (u'Georgia Tech Coding Boot Camp', [u'CourseReport']))
+((u'Uc San Diego Coding Boot Camp', [u'SwitchUp']), (u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']))
+((u'Codez Academy', [u'SwitchUp']), (u'Codez Academy ', [u'CourseReport']))
+((u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']), (u'Uc San Diego Coding Boot Camp', [u'SwitchUp']))
+((u'Blackbelt Coding', [u'SwitchUp']), (u'Blackbelt Coding ', [u'CourseReport']))
+
+2017-01-01.(12:12:29)
+Scraper finished!
+-------------------
+
+2017-01-03.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+{'Tracking Group': [], 'Meta': ['meta']}
+{u'Active': True,
+ u'Current Market': [u'We Can Code It',
+                     u'Software Guild',
+                     u'Tech Elevator',
+                     u'Acadgild',
+                     u'Boole Institute'],
+ u'Date/Time': u'2017-01-03 12:11:34',
+ u'Days Out': 113,
+ u'Number of Entries': 419,
+ u'Potential Market': [u'Thoughtkite',
+                       u'Grand Circus',
+                       u'Academy Pittsburgh',
+                       u'Cincy Code It',
+                       u'Lighthouse Labs',
+                       u'Bitmaker Labs',
+                       u'Software Tester Bootcamp',
+                       u'The Iron Yard',
+                       u'Level',
+                       u'Ladies Learning Code',
+                       u'Brainstation',
+                       u'Hackeryou',
+                       u'Red Academy',
+                       u'Bitmaker ',
+                       u'Data Science Dojo'],
+ u'locations': {u'Akron': 1,
+                u'Albuquerque': 2,
+                u'Amsterdam': 4,
+                u'Appleton': 1,
+                u'Arlington': 2,
+                u'Asheville': 1,
+                u'Athens': 2,
+                u'Atlanta': 14,
+                u'Austin': 16,
+                u'Bali': 4,
+                u'Baltimore': 2,
+                u'Bangalore': 4,
+                u'Barcelona': 10,
+                u'Beirut': 2,
+                u'Belo Horizonte': 1,
+                u'Bend': 1,
+                u'Berkeley': 1,
+                u'Berlin': 8,
+                u'Billings': 1,
+                u'Birmingham': 1,
+                u'Bogota': 2,
+                u'Boise': 1,
+                u'Bordeaux': 1,
+                u'Boston': 11,
+                u'Boulder': 6,
+                u'Bozeman': 2,
+                u'Branson': 1,
+                u'Brisbane': 1,
+                u'Bristol': 1,
+                u'Brussels': 2,
+                u'Bucharest': 1,
+                u'Buenos Aires': 4,
+                u'Calgary': 1,
+                u'Canary Islands': 1,
+                u'Cape Town': 1,
+                u'Caracas': 1,
+                u'Cedar Rapids': 1,
+                u'Chapel Hill': 2,
+                u'Charleston': 2,
+                u'Charlotte': 7,
+                u'Chelmsford': 1,
+                u'Cheyenne': 1,
+                u'Chicago': 22,
+                u'Cincinnati': 2,
+                u'Cleveland': 3,
+                u'Cluj': 1,
+                u'Columbia': 1,
+                u'Columbus': 2,
+                u'Conway': 1,
+                u'Copenhagen': 1,
+                u'Dallas': 13,
+                u'Delhi': 1,
+                u'Denver': 14,
+                u'Detroit': 2,
+                u'Dubai': 1,
+                u'Dublin': 3,
+                u'Durham': 2,
+                u'Edinburgh': 1,
+                u'Fayetteville': 1,
+                u'Fort Collins': 1,
+                u'Fort Lauderdale': 3,
+                u'Fresno': 1,
+                u'Gainesville': 2,
+                u'Gothenburg': 1,
+                u'Greensboro': 1,
+                u'Greenville': 1,
+                u'Halifax': 1,
+                u'Hanoi': 1,
+                u'Helsinki': 1,
+                u'Ho Chi Minh City': 1,
+                u'Hong Kong': 2,
+                u'Honolulu': 2,
+                u'Houston': 6,
+                u'Hurst': 1,
+                u'Hybrid (Online & In-person)': 2,
+                u'Hyderabad': 3,
+                u'Indianapolis': 2,
+                u'Iowa City': 1,
+                u'Irvine': 4,
+                u'Jacksonville': 1,
+                u'Jakarta': 1,
+                u'Jersey City': 1,
+                u'Johannesburg': 1,
+                u'Kansas City': 3,
+                u'Koh Lanta': 1,
+                u'Kuala Lumpur': 1,
+                u'Kuwait City': 1,
+                u'Lagos': 1,
+                u'Las Vegas': 1,
+                u'Lexington': 2,
+                u'Lille': 1,
+                u'Lincoln': 2,
+                u'Lisbon': 3,
+                u'London': 17,
+                u'Los Angeles': 24,
+                u'Louisville': 1,
+                u'Lynchburg': 1,
+                u'Madison': 2,
+                u'Madrid': 2,
+                u'Maui': 1,
+                u'Melbourne': 3,
+                u'Mexico City': 4,
+                u'Miami': 9,
+                u'Milan': 1,
+                u'Milwaukee': 2,
+                u'Minneapolis': 4,
+                u'Missoula': 3,
+                u'Mobile': 1,
+                u'Monterey': 1,
+                u'Monterrey': 3,
+                u'Montevideo': 1,
+                u'Montreal': 4,
+                u'Nairobi': 3,
+                u'Nantes': 1,
+                u'Nashville': 3,
+                u'Nazareth': 1,
+                u'New Orleans': 2,
+                u'New York City': 43,
+                u'Oakland': 2,
+                u'Obidos': 1,
+                u'Omaha': 2,
+                u'Online': 61,
+                u'Orange County': 8,
+                u'Orlando': 3,
+                u'Ottawa': 1,
+                u'Pacific Coast, Ecuador': 1,
+                u'Palm Beach': 1,
+                u'Panama City': 1,
+                u'Paris': 6,
+                u'Perth': 1,
+                u'Philadelphia': 5,
+                u'Phoenix': 3,
+                u'Pittsburgh': 1,
+                u'Portland': 7,
+                u'Porto': 1,
+                u'Prague': 1,
+                u'Provo': 7,
+                u'Puerto Vallarta': 1,
+                u'Raleigh': 6,
+                u'Ramat Gan': 1,
+                u'Reno': 1,
+                u'Reston': 1,
+                u'Rio de Janeiro': 1,
+                u'Salt Lake City': 8,
+                u'San Antonio': 4,
+                u'San Diego': 8,
+                u'San Francisco': 39,
+                u'San Jose': 6,
+                u'Sandford': 1,
+                u'Santa Clara': 1,
+                u'Santiago': 3,
+                u'Sao Paulo': 2,
+                u'Savannah': 3,
+                u'Scottsdale': 2,
+                u'Seattle': 18,
+                u'Shreveport': 1,
+                u'Silicon Valley': 8,
+                u'Singapore': 5,
+                u'Sioux Falls': 1,
+                u'Somerset': 1,
+                u'St. Louis': 3,
+                u'Stockholm': 3,
+                u'Sunnyvale': 2,
+                u'Sydney': 6,
+                u'Tampa': 1,
+                u'Tel Aviv': 3,
+                u'Tempe': 1,
+                u'Toronto': 10,
+                u'Vancouver': 4,
+                u'Victoria': 1,
+                u'Vienna': 1,
+                u'Wales': 2,
+                u'Warsaw': 1,
+                u'Washington': 11,
+                u'Washington DC': 1,
+                u'Wellington': 1,
+                u'Westwood': 1,
+                u'Wilmington': 1,
+                u'Woodside': 1,
+                u'Zurich': 2},
+ u'technologies': {u'.NET': 45,
+                   u'ASP.NET': 29,
+                   u'ASP.NET MVC': 4,
+                   u'Algorithms': 50,
+                   u'Android': 42,
+                   u'AngularJS': 106,
+                   u'Bookshelf.js': 5,
+                   u'Bootstrap': 19,
+                   u'Business': 8,
+                   u'C#': 50,
+                   u'C++': 4,
+                   u'CSS': 254,
+                   u'Clojure': 4,
+                   u'Cocoa': 13,
+                   u'CoffeeScript': 6,
+                   u'Command line': 9,
+                   u'Cyber Security': 3,
+                   u'Data Science': 48,
+                   u'Data Structures': 31,
+                   u'Data Visualization': 2,
+                   u'Design': 53,
+                   u'Design Principles': 25,
+                   u'Digital Marketing': 26,
+                   u'Django': 25,
+                   u'Drupal': 2,
+                   u'Entrepreneurship': 13,
+                   u'Excel': 8,
+                   u'Express.js': 67,
+                   u'Front End': 104,
+                   u'Game Design': 3,
+                   u'Game Development': 9,
+                   u'Git': 172,
+                   u'Go': 4,
+                   u'Growth Hacking': 13,
+                   u'HTML': 260,
+                   u'Hadoop': 19,
+                   u'Heroku': 5,
+                   u'Illustrator': 8,
+                   u'Java': 63,
+                   u'JavaScript': 263,
+                   u'Laravel': 4,
+                   u'Linux': 9,
+                   u'Mobile': 53,
+                   u'MongoDB': 101,
+                   u'MySQL': 100,
+                   u'N/A': 1,
+                   u'NoLang': 2,
+                   u'Node.js': 118,
+                   u'Objective-C': 37,
+                   u'PHP': 47,
+                   u'Perl': 2,
+                   u'Phonegap': 2,
+                   u'Photoshop': 12,
+                   u'PostgreSQL': 19,
+                   u'Product Management': 30,
+                   u'Python': 65,
+                   u'R': 20,
+                   u'R Programming': 1,
+                   u'React.js': 60,
+                   u'Responsive Design': 7,
+                   u'Ruby': 91,
+                   u'Ruby on Rails': 103,
+                   u'SEO': 33,
+                   u'SQL': 135,
+                   u'SQL Business Intelligence': 1,
+                   u'SQL Programming': 1,
+                   u'SQL Server Administration': 1,
+                   u'Sales': 12,
+                   u'Scala': 2,
+                   u'Security and Session Storage': 3,
+                   u'SharePoint': 1,
+                   u'Sinatra': 25,
+                   u'Spark': 10,
+                   u'Spring MVC': 1,
+                   u'Swift': 51,
+                   u'UNIX': 1,
+                   u'UX': 30,
+                   u'User Authentication': 3,
+                   u'User Experience Design': 65,
+                   u'VB.NET': 1,
+                   u'WCF': 1,
+                   u'WPF': 1,
+                   u'Web Services': 6,
+                   u'Windows Server': 1,
+                   u'Wordpress': 21,
+                   u'Xcode': 27,
+                   u'iOS': 64,
+                   u'jQuery': 182}}
+
+WARNING: These possible duplicates were found:
+https://codingbootcamp.uncc.edu/
+http://www.insightdatascience.com/
+https://codingbootcamp.pe.gatech.edu/
+https://codingbootcamp.uncc.edu/
+https://codingbootcamp.pe.gatech.edu/
+http://www.codezacademy.co.uk/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.codezacademy.co.uk/
+http://www.insightdatascience.com/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.blackbeltcoding.com/
+http://www.blackbeltcoding.com/
+
+((u'Insight', [u'CourseReport']), (u'Insight Data Science', [u'SwitchUp']))
+((u'The Coding Boot Camp At Unc Charlotte', [u'CourseReport']), (u'Unc Charlotte Coding Boot Camp', [u'SwitchUp']))
+((u'Atlanta Coding Bootcamp By Georgia Tech', [u'SwitchUp']), (u'Georgia Tech Coding Boot Camp', [u'CourseReport']))
+((u'Uc San Diego Coding Boot Camp', [u'SwitchUp']), (u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']))
+((u'Codez Academy', [u'SwitchUp']), (u'Codez Academy ', [u'CourseReport']))
+((u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']), (u'Uc San Diego Coding Boot Camp', [u'SwitchUp']))
+((u'Blackbelt Coding', [u'SwitchUp']), (u'Blackbelt Coding ', [u'CourseReport']))
+
+2017-01-03.(12:11:42)
+Scraper finished!
+-------------------
+
+2017-01-04.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+{'Tracking Group': [], 'Meta': ['meta']}
+{u'Active': True,
+ u'Current Market': [u'We Can Code It',
+                     u'Software Guild',
+                     u'Tech Elevator',
+                     u'Acadgild',
+                     u'Boole Institute'],
+ u'Date/Time': u'2017-01-04 12:12:04',
+ u'Days Out': 114,
+ u'Number of Entries': 420,
+ u'Potential Market': [u'Thoughtkite',
+                       u'Grand Circus',
+                       u'Academy Pittsburgh',
+                       u'Cincy Code It',
+                       u'Lighthouse Labs',
+                       u'Bitmaker Labs',
+                       u'Software Tester Bootcamp',
+                       u'The Iron Yard',
+                       u'Level',
+                       u'Ladies Learning Code',
+                       u'Brainstation',
+                       u'Hackeryou',
+                       u'Red Academy',
+                       u'Bitmaker ',
+                       u'Data Science Dojo'],
+ u'locations': {u'Akron': 1,
+                u'Albuquerque': 2,
+                u'Amsterdam': 4,
+                u'Appleton': 1,
+                u'Arlington': 2,
+                u'Asheville': 1,
+                u'Athens': 2,
+                u'Atlanta': 14,
+                u'Austin': 16,
+                u'Bali': 4,
+                u'Baltimore': 2,
+                u'Bangalore': 4,
+                u'Barcelona': 10,
+                u'Beirut': 2,
+                u'Belo Horizonte': 1,
+                u'Bend': 1,
+                u'Berkeley': 1,
+                u'Berlin': 8,
+                u'Billings': 1,
+                u'Birmingham': 1,
+                u'Bogota': 2,
+                u'Boise': 1,
+                u'Bordeaux': 1,
+                u'Boston': 11,
+                u'Boulder': 6,
+                u'Bozeman': 2,
+                u'Branson': 1,
+                u'Brisbane': 1,
+                u'Bristol': 1,
+                u'Brussels': 2,
+                u'Bucharest': 1,
+                u'Buenos Aires': 4,
+                u'Calgary': 1,
+                u'Canary Islands': 1,
+                u'Cape Town': 1,
+                u'Caracas': 1,
+                u'Cedar Rapids': 1,
+                u'Chapel Hill': 2,
+                u'Charleston': 2,
+                u'Charlotte': 7,
+                u'Chelmsford': 1,
+                u'Cheyenne': 1,
+                u'Chicago': 22,
+                u'Cincinnati': 2,
+                u'Cleveland': 3,
+                u'Cluj': 1,
+                u'Columbia': 1,
+                u'Columbus': 2,
+                u'Conway': 1,
+                u'Copenhagen': 1,
+                u'Dallas': 13,
+                u'Delhi': 1,
+                u'Denver': 14,
+                u'Detroit': 2,
+                u'Dubai': 1,
+                u'Dublin': 3,
+                u'Durham': 2,
+                u'Edinburgh': 1,
+                u'Fayetteville': 1,
+                u'Fort Collins': 1,
+                u'Fort Lauderdale': 3,
+                u'Fresno': 1,
+                u'Gainesville': 2,
+                u'Gothenburg': 1,
+                u'Greensboro': 1,
+                u'Greenville': 1,
+                u'Halifax': 1,
+                u'Hanoi': 1,
+                u'Helsinki': 1,
+                u'Ho Chi Minh City': 1,
+                u'Hong Kong': 2,
+                u'Honolulu': 2,
+                u'Houston': 6,
+                u'Hurst': 1,
+                u'Hybrid (Online & In-person)': 2,
+                u'Hyderabad': 3,
+                u'Indianapolis': 2,
+                u'Iowa City': 1,
+                u'Irvine': 4,
+                u'Jacksonville': 1,
+                u'Jakarta': 1,
+                u'Jersey City': 1,
+                u'Johannesburg': 1,
+                u'Kansas City': 3,
+                u'Koh Lanta': 1,
+                u'Kuala Lumpur': 1,
+                u'Kuwait City': 1,
+                u'Lagos': 1,
+                u'Las Vegas': 1,
+                u'Lexington': 2,
+                u'Lille': 1,
+                u'Lincoln': 2,
+                u'Lisbon': 3,
+                u'London': 17,
+                u'Los Angeles': 25,
+                u'Louisville': 1,
+                u'Lynchburg': 1,
+                u'Madison': 2,
+                u'Madrid': 2,
+                u'Maui': 1,
+                u'Melbourne': 3,
+                u'Mexico City': 4,
+                u'Miami': 9,
+                u'Milan': 1,
+                u'Milwaukee': 2,
+                u'Minneapolis': 4,
+                u'Missoula': 3,
+                u'Mobile': 1,
+                u'Monterey': 1,
+                u'Monterrey': 3,
+                u'Montevideo': 1,
+                u'Montreal': 4,
+                u'Nairobi': 3,
+                u'Nantes': 1,
+                u'Nashville': 3,
+                u'Nazareth': 1,
+                u'New Orleans': 2,
+                u'New York City': 43,
+                u'Oakland': 2,
+                u'Obidos': 1,
+                u'Omaha': 2,
+                u'Online': 61,
+                u'Orange County': 8,
+                u'Orlando': 3,
+                u'Ottawa': 1,
+                u'Pacific Coast, Ecuador': 1,
+                u'Palm Beach': 1,
+                u'Panama City': 1,
+                u'Paris': 6,
+                u'Perth': 1,
+                u'Philadelphia': 5,
+                u'Phoenix': 3,
+                u'Pittsburgh': 1,
+                u'Portland': 7,
+                u'Porto': 1,
+                u'Prague': 1,
+                u'Provo': 7,
+                u'Puerto Vallarta': 1,
+                u'Raleigh': 6,
+                u'Ramat Gan': 1,
+                u'Reno': 1,
+                u'Reston': 1,
+                u'Rio de Janeiro': 1,
+                u'Salt Lake City': 8,
+                u'San Antonio': 4,
+                u'San Diego': 9,
+                u'San Francisco': 40,
+                u'San Jose': 6,
+                u'Sandford': 1,
+                u'Santa Clara': 1,
+                u'Santiago': 3,
+                u'Sao Paulo': 2,
+                u'Savannah': 3,
+                u'Scottsdale': 2,
+                u'Seattle': 18,
+                u'Shreveport': 1,
+                u'Silicon Valley': 8,
+                u'Singapore': 5,
+                u'Sioux Falls': 1,
+                u'Somerset': 1,
+                u'St. Louis': 3,
+                u'Stockholm': 3,
+                u'Sunnyvale': 2,
+                u'Sydney': 6,
+                u'Tampa': 1,
+                u'Tel Aviv': 3,
+                u'Tempe': 1,
+                u'Toronto': 10,
+                u'Vancouver': 4,
+                u'Victoria': 1,
+                u'Vienna': 1,
+                u'Wales': 2,
+                u'Warsaw': 1,
+                u'Washington': 11,
+                u'Washington DC': 1,
+                u'Wellington': 1,
+                u'Westwood': 1,
+                u'Wilmington': 1,
+                u'Woodside': 1,
+                u'Zurich': 2},
+ u'technologies': {u'.NET': 45,
+                   u'ASP.NET': 29,
+                   u'ASP.NET MVC': 4,
+                   u'Algorithms': 50,
+                   u'Android': 43,
+                   u'AngularJS': 106,
+                   u'Bookshelf.js': 5,
+                   u'Bootstrap': 19,
+                   u'Business': 8,
+                   u'C#': 50,
+                   u'C++': 4,
+                   u'CSS': 254,
+                   u'Clojure': 4,
+                   u'Cocoa': 13,
+                   u'CoffeeScript': 6,
+                   u'Command line': 9,
+                   u'Cyber Security': 3,
+                   u'Data Science': 48,
+                   u'Data Structures': 31,
+                   u'Data Visualization': 2,
+                   u'Design': 53,
+                   u'Design Principles': 25,
+                   u'Digital Marketing': 26,
+                   u'Django': 25,
+                   u'Drupal': 2,
+                   u'Entrepreneurship': 13,
+                   u'Excel': 8,
+                   u'Express.js': 67,
+                   u'Front End': 104,
+                   u'Game Design': 3,
+                   u'Game Development': 9,
+                   u'Git': 173,
+                   u'Go': 4,
+                   u'Growth Hacking': 13,
+                   u'HTML': 260,
+                   u'Hadoop': 19,
+                   u'Heroku': 5,
+                   u'Illustrator': 8,
+                   u'Java': 63,
+                   u'JavaScript': 263,
+                   u'Laravel': 4,
+                   u'Linux': 9,
+                   u'Mobile': 53,
+                   u'MongoDB': 101,
+                   u'MySQL': 100,
+                   u'N/A': 1,
+                   u'NoLang': 2,
+                   u'Node.js': 118,
+                   u'Objective-C': 38,
+                   u'PHP': 47,
+                   u'Perl': 2,
+                   u'Phonegap': 2,
+                   u'Photoshop': 12,
+                   u'PostgreSQL': 19,
+                   u'Product Management': 30,
+                   u'Python': 65,
+                   u'R': 20,
+                   u'R Programming': 1,
+                   u'React.js': 60,
+                   u'Responsive Design': 7,
+                   u'Ruby': 91,
+                   u'Ruby on Rails': 103,
+                   u'SEO': 33,
+                   u'SQL': 135,
+                   u'SQL Business Intelligence': 1,
+                   u'SQL Programming': 1,
+                   u'SQL Server Administration': 1,
+                   u'Sales': 12,
+                   u'Scala': 2,
+                   u'Security and Session Storage': 3,
+                   u'SharePoint': 1,
+                   u'Sinatra': 25,
+                   u'Spark': 10,
+                   u'Spring MVC': 1,
+                   u'Swift': 52,
+                   u'UNIX': 1,
+                   u'UX': 30,
+                   u'User Authentication': 3,
+                   u'User Experience Design': 65,
+                   u'VB.NET': 1,
+                   u'WCF': 1,
+                   u'WPF': 1,
+                   u'Web Services': 6,
+                   u'Windows Server': 1,
+                   u'Wordpress': 21,
+                   u'Xcode': 27,
+                   u'iOS': 65,
+                   u'jQuery': 182}}
+
+WARNING: These possible duplicates were found:
+https://codingbootcamp.uncc.edu/
+http://www.insightdatascience.com/
+https://codingbootcamp.pe.gatech.edu/
+https://codingbootcamp.uncc.edu/
+https://codingbootcamp.pe.gatech.edu/
+http://www.codezacademy.co.uk/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.codezacademy.co.uk/
+http://www.insightdatascience.com/
+https://codingbootcamp.extension.ucsd.edu/
+http://www.blackbeltcoding.com/
+http://www.blackbeltcoding.com/
+
+((u'Insight', [u'CourseReport']), (u'Insight Data Science', [u'SwitchUp']))
+((u'The Coding Boot Camp At Unc Charlotte', [u'CourseReport']), (u'Unc Charlotte Coding Boot Camp', [u'SwitchUp']))
+((u'Atlanta Coding Bootcamp By Georgia Tech', [u'SwitchUp']), (u'Georgia Tech Coding Boot Camp', [u'CourseReport']))
+((u'Uc San Diego Coding Boot Camp', [u'SwitchUp']), (u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']))
+((u'Codez Academy', [u'SwitchUp']), (u'Codez Academy ', [u'CourseReport']))
+((u'The Coding Boot Camp At Uc San Diego Extension', [u'CourseReport']), (u'Uc San Diego Coding Boot Camp', [u'SwitchUp']))
+((u'Blackbelt Coding', [u'SwitchUp']), (u'Blackbelt Coding ', [u'CourseReport']))
+
+2017-01-04.(12:12:12)
+Scraper finished!
+-------------------
+
+2017-01-05.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-05.(12:11:59)
+Scraper finished!
+-------------------
+
+2017-01-07.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-07.(12:12:14)
+Scraper finished!
+-------------------
+
+2017-01-09.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-09.(12:16:56)
+Scraper finished!
+-------------------
+
+2017-01-10.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-10.(12:11:54)
+Scraper finished!
+-------------------
+
+2017-01-11.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-11.(12:16:26)
+Scraper finished!
+-------------------
+
+2017-01-12.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-12.(12:16:28)
+Scraper finished!
+-------------------
+
+2017-01-13.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-13.(12:12:29)
+Scraper finished!
+-------------------
+
+2017-01-16.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-16.(12:15:45)
+Scraper finished!
+-------------------
+
+2017-01-17.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-17.(12:21:34)
+Scraper finished!
+-------------------
+
+2017-01-18.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-18.(12:15:28)
+Scraper finished!
+-------------------
+
+2017-01-19.(12:00:01)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-19.(12:13:44)
+Scraper finished!
+-------------------
+
+2017-01-20.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-20.(12:22:21)
+Scraper finished!
+-------------------
+
+2017-01-23.(12:00:01)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-23.(12:16:30)
+Scraper finished!
+-------------------
+
+2017-01-24.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-24.(12:12:43)
+Scraper finished!
+-------------------
+
+2017-01-25.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-25.(12:14:23)
+Scraper finished!
+-------------------
+
+2017-01-26.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-26.(12:14:09)
+Scraper finished!
+-------------------
+
+2017-01-27.(12:00:01)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-27.(12:12:11)
+Scraper finished!
+-------------------
+
+2017-01-30.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-30.(12:12:36)
+Scraper finished!
+-------------------
+
+2017-01-31.(12:00:01)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-01-31.(12:15:18)
+Scraper finished!
+-------------------
+
+2017-02-01.(12:00:00)
+Scraper started!
+
+META DATA FROM LAST OUTPUT
+--------------------------
+
+/Users/samlearner/scrapy_projects/bootcamp_info
+
+WARNING: These possible duplicates were found:
+
+2017-02-01.(12:17:23)
+Scraper finished!
+-------------------
+
