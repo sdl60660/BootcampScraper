@@ -104,25 +104,29 @@ def main():
                 try:
                     name = str(bootcamp_data[file][x]['name']).title()
                     if name in output_dict:
-                        temp_item = output_dict[name]
-                        output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
-
-                        #JUST IN CASE A TRACKING GROUP WAS MARKED ON ONE SOURCE
-                        #AND NOT ANOTHER AND THEN MISSED BECAUSE OF THE MERGE
-                        output_dict[name]['tracking_groups'] = []
-
-                        for group in bootcamp_data[file][x]['tracking_groups']:
-                            output_dict[name]['tracking_groups'].append(group)
-                        for group in temp_item['tracking_groups']:
-                            if group not in bootcamp_data[file][x]['tracking_groups']:
-                                output_dict[name]['tracking_groups'].append(group)
-
                         try:
-                            for course in bootcamp_data[file][x]['courses'].keys():
-                                if course in temp_item['courses'].keys():
-                                    output_dict[name]['courses'][course] = merge(temp_item['courses'][course], bootcamp_data[file][x]['courses'][course])
-                        except KeyError:
+                            temp_item = output_dict[name]
+                            output_dict[name] = merge(output_dict[name], bootcamp_data[file][x])
+
+                            #JUST IN CASE A TRACKING GROUP WAS MARKED ON ONE SOURCE
+                            #AND NOT ANOTHER AND THEN MISSED BECAUSE OF THE MERGE
+                            output_dict[name]['tracking_groups'] = []
+
+                            for group in bootcamp_data[file][x]['tracking_groups']:
+                                output_dict[name]['tracking_groups'].append(group)
+                            for group in temp_item['tracking_groups']:
+                                if group not in bootcamp_data[file][x]['tracking_groups']:
+                                    output_dict[name]['tracking_groups'].append(group)
+
+                            try:
+                                for course in bootcamp_data[file][x]['courses'].keys():
+                                    if course in temp_item['courses'].keys():
+                                        output_dict[name]['courses'][course] = merge(temp_item['courses'][course], bootcamp_data[file][x]['courses'][course])
+                            except KeyError:
+                                pass
+                        except (UnicodeError, UnicodeEncodeError):
                             pass
+                        
                     else:
                         output_dict[name] = bootcamp_data[file][x]
                 except KeyError:
@@ -184,7 +188,6 @@ def main():
             output_dict[name]['technologies'] = new_technologies
         except (KeyError, TypeError):
             pass
-
 
     #STORE META DATA ON THE OUTPUT JSON
     now = datetime.datetime.now()
