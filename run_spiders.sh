@@ -32,7 +32,7 @@ rm current_data/coursereport_data.json current_data/output.json
 #SWITCHUP SPIDER
 
 switchup_array=()
-for i in `seq 1 2`;
+for i in `seq 1 3`;
 do
 	index=($i - 1)
 	switchup_array[$index]="old_data/switchup/temp_switchup_files/switchup_data$i.json"
