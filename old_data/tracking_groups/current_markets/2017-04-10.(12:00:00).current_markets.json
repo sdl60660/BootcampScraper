@@ -1,0 +1,2097 @@
+{
+    "Acadgild": {
+        "accreditation": "None", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Advance J2Ee Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Advance J2ee Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "Java", 
+                    "SQL", 
+                    "CSS"
+                ]
+            }, 
+            "Android Development Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Android Development Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Git", 
+                    "Android"
+                ]
+            }, 
+            "Android Programming For Children": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Android Programming for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Java", 
+                    "Android"
+                ]
+            }, 
+            "Apache Spark Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Apache Spark Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "Spark"
+                ]
+            }, 
+            "Arduino For Children": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Arduino for Children", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Big Data Hadoop Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Big Data Hadoop Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "Hadoop"
+                ]
+            }, 
+            "Business Analytics With R Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Business Analytics with R Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "R"
+                ]
+            }, 
+            "Ceh Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "CEH Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Cloud Bundle": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Cloud Bundle", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Hadoop"
+                ]
+            }, 
+            "Cloud Computing Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Cloud Computing Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Core Java Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Core Java Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Java"
+                ]
+            }, 
+            "Data Analytics Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Data Analytics Training", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "R", 
+                    "Excel"
+                ]
+            }, 
+            "Data Science Bundle": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Data Science Bundle", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "R", 
+                    "Hadoop"
+                ]
+            }, 
+            "Devops Training": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "DevOps Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Digital Marketing Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Digital Marketing Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Digital Marketing", 
+                    "SEO", 
+                    "Growth Hacking"
+                ]
+            }, 
+            "Front End Web Development Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Front End Web Development Training", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Frontend Bundle": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Frontend Bundle", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "HTML", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Frontend Web Development Fundamentals Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Frontend Web Development Fundamentals Training", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Full Stack Web Development Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Full Stack Web Development Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }, 
+            "Hadoop Administration Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Hadoop Administration Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "Hadoop"
+                ]
+            }, 
+            "Itil Foundation Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "ITIL Foundation Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Lean Six Sigma Green Belt Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Lean Six Sigma Green Belt Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Machine Learning With R Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Machine Learning with R Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "R"
+                ]
+            }, 
+            "Mobile Bundle": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Mobile Bundle", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Java", 
+                    "Android", 
+                    "Node.js"
+                ]
+            }, 
+            "Mongodb Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "MongoDB Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MongoDB"
+                ]
+            }, 
+            "Node.Js Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Node.js Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "Node.js"
+                ]
+            }, 
+            "Pmp Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "PMP Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Prince2 Training": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Prince2 Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Python Programming For Children": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Python Programming for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Python"
+                ]
+            }, 
+            "Raspberry Pi For Childern": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Raspberry Pi for Childern", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python"
+                ]
+            }, 
+            "Robotics For Children": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Robotics for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Software Testing Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Software Testing Training", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Unity 2D For Children": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Unity 2D for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Game Development"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 130, 
+        "cr_rating": 4.25, 
+        "cr_technologies": [
+            "Data Science", 
+            "Hadoop", 
+            "HTML", 
+            "Node.js", 
+            "JavaScript", 
+            "jQuery", 
+            "CSS", 
+            "R", 
+            "Excel", 
+            "Java", 
+            "Android", 
+            "Python", 
+            "Digital Marketing", 
+            "SEO", 
+            "Growth Hacking", 
+            "Front End", 
+            "MongoDB", 
+            "Game Development", 
+            "MySQL", 
+            "SQL", 
+            "Spark", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby"
+        ], 
+        "email": "enquiry@acadgild.com", 
+        "facebook": "https://www.facebook.com/acadgild", 
+        "general_cost": "$", 
+        "hiring_rate": null, 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Online", 
+            "Bangalore"
+        ], 
+        "name": "Acadgild", 
+        "num_alumni": "N/A", 
+        "num_courses": 33, 
+        "num_locations": 2, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Mobile Development, Front-End Web Development, Data Science, Digital Marketing, Full-Stack Web Development", 
+        "technologies": [
+            "Data Science", 
+            "Hadoop", 
+            "HTML", 
+            "Node.js", 
+            "JavaScript", 
+            "jQuery", 
+            "CSS", 
+            "R", 
+            "Excel", 
+            "Java", 
+            "Android", 
+            "Python", 
+            "Digital Marketing", 
+            "SEO", 
+            "Growth Hacking", 
+            "Front End", 
+            "MongoDB", 
+            "Game Development", 
+            "MySQL", 
+            "SQL", 
+            "Spark", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "Data Science", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Security", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 907, 
+            "handle": "@@", 
+            "tweets": 2848
+        }, 
+        "visas": "No", 
+        "website": "https://acadgild.com"
+    }, 
+    "Boole Institute": {
+        "accreditation": "None", 
+        "courses": {
+            "Full Stack Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Full Stack Web Development", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 1, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "email": "contact@boole.co", 
+        "facebook": "https://www.facebook.com/Boole-Institute-190552871301815/", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Cleveland"
+        ], 
+        "name": "Boole Institute", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": null, 
+        "visas": "No", 
+        "website": "http://www.boole.co/"
+    }, 
+    "Case Western Reserve University Coding Boot Camp": {
+        "accreditation": "Yes", 
+        "courses": {
+            "Full Stack Flex": {
+                "Cost": null, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Full Stack Flex", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Java", 
+                    "Django", 
+                    "jQuery", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": null, 
+        "cr_rating": null, 
+        "cr_technologies": [
+            "MySQL", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Java", 
+            "Django", 
+            "jQuery", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "email": null, 
+        "facebook": "https://www.facebook.com/CWRUCBC/", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Cleveland"
+        ], 
+        "name": "Case Western Reserve University Coding Boot Camp", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "MySQL", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Java", 
+            "Django", 
+            "jQuery", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": null, 
+        "visas": "No", 
+        "website": "https://codingbootcamp.case.edu/"
+    }, 
+    "Cleveland Codes": {
+        "accreditation": "Yes", 
+        "courses": {
+            " It Fast Track Program": {
+                "Cost": null, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": " IT Fast Track Program", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 1, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "CSS"
+        ], 
+        "email": "ITFastTrack@tri-c.edu", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Cleveland"
+        ], 
+        "name": "Cleveland Codes", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 69, 
+            "handle": "@@", 
+            "tweets": 17
+        }, 
+        "visas": "No", 
+        "website": "http://clevelandcodes.org/"
+    }, 
+    "Cwru Coding Boot Camp": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Part-Time, Full-Stack Web Development Program": {
+                "Class Size": 25, 
+                "Cost": 9500, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Part-Time, Full-Stack Web Development Program", 
+                "Hours/Week": 10, 
+                "Length": 24, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Bookshelf.js", 
+                    "Bootstrap", 
+                    "Command line", 
+                    "CSS", 
+                    "Express.js", 
+                    "Git", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MongoDB", 
+                    "MySQL", 
+                    "Node.js", 
+                    "React.js"
+                ]
+            }
+        }, 
+        "hiring_rate": null, 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Cleveland"
+        ], 
+        "name": "Cwru Coding Boot Camp", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "Bookshelf.js", 
+            "Bootstrap", 
+            "Command line", 
+            "CSS", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "React.js"
+        ], 
+        "subjects": " HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Java, Node.js, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, Git", 
+        "technologies": [
+            "Bookshelf.js", 
+            "Bootstrap", 
+            "Command line", 
+            "CSS", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MongoDB", 
+            "MySQL", 
+            "Node.js", 
+            "React.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "website": "codingbootcamp.case.edu"
+    }, 
+    "Software Guild": {
+        "accreditation": "Registered and compliant with the Ohio State Board of Career Colleges and Schools. Registration number is #13-11-2036T. Kentucky Commission on Proprietary Education, Resident School License No. R-0470", 
+        "average_salary": 55000, 
+        "class_ratio": 12, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
+                "Course Title": ".NET Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            ".Net/C#": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": ".NET/C#", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Java", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Course Title": "Java Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "cr_num_reviews": 57, 
+        "cr_rating": 4.7, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "MySQL", 
+            "Java"
+        ], 
+        "email": "info@thesoftwareguild.com", 
+        "facebook": "https://www.facebook.com/thesoftwareguild", 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Akron", 
+            "Minneapolis", 
+            "Louisville", 
+            "Online"
+        ], 
+        "name": "Software Guild", 
+        "num_alumni": "N/A", 
+        "num_courses": 2, 
+        "num_locations": 4, 
+        "su_num_reviews": 21, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL", 
+            "Front End", 
+            "Git", 
+            "C#", 
+            "ASP.NET"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp", 
+            "Current Market"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 753, 
+            "handle": "@@", 
+            "tweets": 1217
+        }, 
+        "visas": "No", 
+        "website": "http://www.thesoftwareguild.com"
+    }, 
+    "Tech Elevator": {
+        "accreditation": "Tech Elevator is licensed under the Ohio State Board of Career Colleges and Schools. ", 
+        "average_salary": 60300, 
+        "class_ratio": 15, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            ".Net Bootcamp - Fall '16 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Location": [
+                    "Cleveland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Bootcamp - Fall '16 Cleveland"
+            }, 
+            ".Net Bootcamp - Spring '17 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Akron", 
+                    "Cleveland"
+                ], 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Location": [
+                    "Akron", 
+                    "Cleveland"
+                ], 
+                "Start Date": "2017-01-09", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Bootcamp - Spring '17 Cleveland"
+            }, 
+            ".Net Coding Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": ".NET Coding Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Bootcamp - Fall '16 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Location": [
+                    "Cleveland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "SQL"
+                ], 
+                "Title": "Java Bootcamp - Fall '16 Cleveland"
+            }, 
+            "Java Bootcamp - Spring '17 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Location": [
+                    "Cleveland"
+                ], 
+                "Start Date": "2017-01-09", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "SQL"
+                ], 
+                "Title": "Java Bootcamp - Spring '17 Cleveland"
+            }, 
+            "Java Coding Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Java Coding Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java/.Net Bootcamp - Fall '16 Columbus": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Akron", 
+                    "Columbus"
+                ], 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Location": [
+                    "Akron", 
+                    "Columbus"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Fall '16 Columbus"
+            }, 
+            "Java/.Net Bootcamp - Fall '17 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Java/.NET Bootcamp - Fall '17 Cleveland", 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Fall '17 Cleveland"
+            }, 
+            "Java/.Net Bootcamp - Fall '17 Columbus": {
+                "Course Title": "Java/.NET Bootcamp - Fall '17 Columbus", 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Start Date": "2017-08-28", 
+                "Subjects": [
+                    "C#", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Fall '17 Columbus"
+            }, 
+            "Java/.Net Bootcamp - Spring '17 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Java/.NET Bootcamp - Spring '17 Cleveland", 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Spring '17 Cleveland"
+            }, 
+            "Java/.Net Bootcamp - Spring '17 Columbus": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Java/.NET Bootcamp - Spring '17 Columbus", 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Location": [
+                    "Cleveland", 
+                    "Columbus"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Spring '17 Columbus"
+            }, 
+            "Java/.Net Bootcamp - Summer '17 Cleveland": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Java/.NET Bootcamp - Summer '17 Cleveland", 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Start Date": "2017-05-01", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Summer '17 Cleveland"
+            }, 
+            "Java/.Net Bootcamp - Summer '17 Columbus": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Java/.NET Bootcamp - Summer '17 Columbus", 
+                "Hours/Week": 60, 
+                "Length": 14, 
+                "Start Date": "2017-05-08", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Java/.NET Bootcamp - Summer '17 Columbus"
+            }
+        }, 
+        "cr_num_reviews": 30, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Java", 
+            "MySQL"
+        ], 
+        "email": "hello@techelevator.com", 
+        "facebook": "https://www.facebook.com/techelevator/", 
+        "general_cost": "$$$", 
+        "hiring_rate": 97.5, 
+        "housing": "Yes. Housing and program bundling options available in Cleveland location. Fully furnished apartments nearby classes.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Cleveland", 
+            "Columbus"
+        ], 
+        "name": "Tech Elevator", 
+        "num_alumni": "N/A", 
+        "num_courses": 2, 
+        "num_locations": 2, 
+        "su_num_reviews": 27, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "C#", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "SQL", 
+            "CSS", 
+            ".NET"
+        ], 
+        "subjects": "Full Stack Web Development, Java, .NET, C#, CSS, HTML, Javascript, SQL, VB", 
+        "technologies": [
+            "C#", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "SQL", 
+            "CSS", 
+            ".NET", 
+            "jQuery", 
+            "MySQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp", 
+            "Current Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 757, 
+            "handle": "@@", 
+            "tweets": 1833
+        }, 
+        "visas": "No", 
+        "website": "http://www.techelevator.com/"
+    }, 
+    "Tech Talent South": {
+        "accreditation": "None", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$", 
+        "courses": {
+            "Big Data Analytics": {
+                "Cost": null, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Big Data Analytics", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "SQL"
+                ]
+            }, 
+            "Full-Time Code Immersion": {
+                "Cost": 2250, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Full-time Code Immersion", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Full-Time Code Immersion Program": {
+                "Cost": 6750, 
+                "Course Location": [
+                    "Asheville", 
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Columbus", 
+                    "Dallas", 
+                    "New Orleans", 
+                    "Phoenix", 
+                    "Raleigh-Durham", 
+                    "San Antonio", 
+                    "Wilmington"
+                ], 
+                "Course Title": "Full-Time Code Immersion Program", 
+                "Hours/Week": 20, 
+                "Length": 8, 
+                "Location": [
+                    "Asheville", 
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Dallas", 
+                    "New Orleans", 
+                    "Raleigh-Durham", 
+                    "San Antonio"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Entrepreneurship", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Full-Time Code Immersion Program"
+            }, 
+            "Intro To Website Design & Creation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Phoenix"
+                ], 
+                "Course Title": "Intro to Website Design & Creation", 
+                "Hours/Week": 6, 
+                "Length": 8, 
+                "Location": [
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Dallas", 
+                    "New Orleans", 
+                    "Raleigh"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [], 
+                "Title": "Intro to Website Design & Creation"
+            }, 
+            "Introduction To Website Design & Creation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Introduction to Website Design & Creation", 
+                "Hours/Week": 18, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Ios Development": {
+                "Cost": 3250, 
+                "Course Location": [
+                    "Asheville", 
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Columbus", 
+                    "Dallas", 
+                    "New Orleans", 
+                    "Phoenix", 
+                    "Raleigh", 
+                    "San Antonio", 
+                    "Wilmington"
+                ], 
+                "Course Title": "iOS Development", 
+                "Hours/Week": 10, 
+                "Length": 6, 
+                "Location": [
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Raleigh"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Design Principles", 
+                    "Swift", 
+                    "UX"
+                ], 
+                "Title": "iOS Development"
+            }, 
+            "Ios Development ": {
+                "Cost": 2200, 
+                "Course Location": [
+                    "Phoenix"
+                ], 
+                "Course Title": "iOS Development ", 
+                "Hours/Week": 18, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Javascript 101": {
+                "Cost": null, 
+                "Course Location": [
+                    "Wilmington"
+                ], 
+                "Course Title": "JavaScript 101", 
+                "Hours/Week": null, 
+                "Length": 8, 
+                "Location": [
+                    "Atlanta", 
+                    "Charlotte"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [], 
+                "Title": "JavaScript 101"
+            }, 
+            "Javascript App Development": {
+                "Cost": 2250, 
+                "Course Location": [
+                    "Phoenix"
+                ], 
+                "Course Title": "JavaScript App Development", 
+                "Hours/Week": 18, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Next Level Rails": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Next Level Rails", 
+                "Hours/Week": 18, 
+                "Length": 4, 
+                "Location": [
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Dallas", 
+                    "Raleigh"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [], 
+                "Title": "Next Level Rails"
+            }, 
+            "Part-Time Code Immersion": {
+                "Cost": 2200, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Part-time Code Immersion", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Part-Time Code Immersion Program": {
+                "Cost": 4750, 
+                "Course Location": [
+                    "Asheville", 
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Columbus", 
+                    "Dallas", 
+                    "New Orleans", 
+                    "Phoenix", 
+                    "Raleigh-Durham", 
+                    "San Antonio", 
+                    "Wilmington"
+                ], 
+                "Course Title": "Part-Time Code Immersion Program", 
+                "Hours/Week": 10, 
+                "Length": 8, 
+                "Location": [
+                    "Asheville", 
+                    "Atlanta", 
+                    "Charlotte", 
+                    "Dallas", 
+                    "New Orleans", 
+                    "Raleigh-Durham", 
+                    "San Antonio"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Entrepreneurship", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Part-Time Code Immersion Program"
+            }, 
+            "Startup Primer": {
+                "Cost": 3250, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Startup Primer", 
+                "Hours/Week": 9, 
+                "Length": 8, 
+                "Location": [
+                    "Charlotte"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "Business", 
+                    "Design Principles", 
+                    "Digital Marketing", 
+                    "Entrepreneurship"
+                ], 
+                "Title": "Startup Primer"
+            }, 
+            "The Graduate Program": {
+                "Cost": 2200, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "The Graduate Program", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Ux Design For Beginners": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Antonio"
+                ], 
+                "Course Title": "UX Design for Beginners", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": []
+            }
+        }, 
+        "cr_num_reviews": 52, 
+        "cr_rating": 4.71, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Front End", 
+            "Design", 
+            "jQuery", 
+            "Data Science", 
+            "Mobile", 
+            "React.js", 
+            "MongoDB", 
+            "SQL", 
+            "Hadoop", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "MySQL", 
+            "Node.js"
+        ], 
+        "email": "info@techtalentsouth.com", 
+        "facebook": "https://www.facebook.com/techtalentsouth", 
+        "general_cost": "$", 
+        "hiring_rate": null, 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Asheville", 
+            "Atlanta", 
+            "Charlotte", 
+            "Raleigh", 
+            "New Orleans", 
+            "Jacksonville", 
+            "Dallas", 
+            "Phoenix", 
+            "Wilmington", 
+            "Columbus", 
+            "San Antonio"
+        ], 
+        "name": "Tech Talent South", 
+        "num_alumni": "N/A", 
+        "num_courses": 11, 
+        "num_locations": 11, 
+        "scholarships": "Female Scholarships, Rockstar Scholarships, Recent Graduate Scholarships, Veteran Scholarships", 
+        "su_num_reviews": 85, 
+        "su_rating": 4.7, 
+        "su_technologies": [
+            "CSS", 
+            "Entrepreneurship", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Ruby on Rails", 
+            "Design Principles", 
+            "Swift", 
+            "UX", 
+            "Algorithms", 
+            "Business", 
+            "Digital Marketing"
+        ], 
+        "subjects": "Ruby on Rails, Domain Modeling, HTTP and \"RESTful\" Design, HTML/CSS, Javascript and AJAX", 
+        "technologies": [
+            "CSS", 
+            "Entrepreneurship", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Ruby on Rails", 
+            "Design Principles", 
+            "Swift", 
+            "UX", 
+            "Algorithms", 
+            "Business", 
+            "Digital Marketing", 
+            "Ruby", 
+            "Front End", 
+            "Design", 
+            "Data Science", 
+            "Mobile", 
+            "React.js", 
+            "MongoDB", 
+            "SQL", 
+            "Hadoop", 
+            "iOS", 
+            "Xcode", 
+            "MySQL", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp", 
+            "Current Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 4870, 
+            "handle": "@@", 
+            "tweets": 7779
+        }, 
+        "visas": "No", 
+        "website": "http://www.techtalentsouth.com/"
+    }, 
+    "We Can Code It": {
+        "accreditation": "We Can Code IT is Registered by the Ohio State Board of Career Colleges and Schools. Registration No. 15-03-2064T (Cleveland) and  15-03-2100T (Columbus).", 
+        "average_salary": "N/A", 
+        "class_ratio": 13, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            ".Net Full-Time Coding Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": ".NET Full-Time Coding Bootcamp", 
+                "Hours/Week": 14, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    ".NET"
+                ]
+            }, 
+            ".Net Part-Time Coding Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": ".NET Part-Time Coding Bootcamp", 
+                "Hours/Week": 30, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Coding Bootcamp": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Coding Bootcamp", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Cleveland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET"
+                ], 
+                "Title": "Coding Bootcamp"
+            }, 
+            "Java Full-Time Columbus": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Java Full-Time Columbus", 
+                "Hours/Week": 30, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Part-Time Columbus": {
+                "Cost": null, 
+                "Course Location": [
+                    "Columbus"
+                ], 
+                "Course Title": "Java Part-Time Columbus", 
+                "Hours/Week": 30, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Women-Only Coding Bootcamp": {
+                "Cost": 9000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Women-Only Coding Bootcamp", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Cleveland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET"
+                ], 
+                "Title": "Women-Only Coding Bootcamp"
+            }
+        }, 
+        "cr_num_reviews": 36, 
+        "cr_rating": 4.78, 
+        "cr_technologies": [
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Java"
+        ], 
+        "email": "hello@WeCanCodeIT.org", 
+        "facebook": "https://www.facebook.com/wecancodeit", 
+        "general_cost": "$$", 
+        "hiring_rate": null, 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-04-10", 
+        "locations": [
+            "Cleveland", 
+            "Columbus"
+        ], 
+        "name": "We Can Code It", 
+        "num_alumni": 180, 
+        "num_courses": 4, 
+        "num_locations": 2, 
+        "scholarships": "$2,000 diversity focus award automatically applied towards bootcamp tuition if you meet any of the following conditions:1) You are a woman2) You are African American3) You are Hispanic4) You are Native American", 
+        "su_num_reviews": 13, 
+        "su_rating": 4.4, 
+        "su_technologies": [
+            "Git", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "Spring MVC", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            ".NET"
+        ], 
+        "subjects": "Web Development, C# .NET development, Databases / SQL, Object oriented design and Model-View-Controller design patterns", 
+        "technologies": [
+            "Git", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "Spring MVC", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            ".NET", 
+            "ASP.NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 1635, 
+            "handle": "@@", 
+            "tweets": 1810
+        }, 
+        "visas": "No", 
+        "website": "https://wecancodeit.org/"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [
+            "Boole Institute", 
+            "Case Western Reserve University Coding Boot Camp", 
+            "Cleveland Codes", 
+            "We Can Code It", 
+            "Cwru Coding Boot Camp", 
+            "Software Guild", 
+            "Tech Elevator", 
+            "Tech Talent South", 
+            "Acadgild"
+        ], 
+        "Date/Time": "2017-04-10 12:25:02", 
+        "Days Out": 210, 
+        "Number of Entries": 9, 
+        "Potential Market": [], 
+        "locations": {
+            "Akron": 1, 
+            "Asheville": 1, 
+            "Atlanta": 1, 
+            "Bangalore": 1, 
+            "Charlotte": 1, 
+            "Cleveland": 6, 
+            "Columbus": 3, 
+            "Dallas": 1, 
+            "Jacksonville": 1, 
+            "Louisville": 1, 
+            "Minneapolis": 1, 
+            "New Orleans": 1, 
+            "Online": 2, 
+            "Phoenix": 1, 
+            "Raleigh": 1, 
+            "San Antonio": 1, 
+            "Wilmington": 1
+        }, 
+        "technologies": {
+            ".NET": 4, 
+            "ASP.NET": 2, 
+            "Algorithms": 1, 
+            "Android": 1, 
+            "AngularJS": 2, 
+            "Bookshelf.js": 1, 
+            "Bootstrap": 1, 
+            "Business": 1, 
+            "C#": 4, 
+            "CSS": 9, 
+            "Command line": 1, 
+            "Data Science": 2, 
+            "Data Structures": 1, 
+            "Design": 1, 
+            "Design Principles": 1, 
+            "Digital Marketing": 2, 
+            "Django": 1, 
+            "Entrepreneurship": 1, 
+            "Excel": 1, 
+            "Express.js": 2, 
+            "Front End": 5, 
+            "Game Development": 1, 
+            "Git": 5, 
+            "Growth Hacking": 1, 
+            "HTML": 9, 
+            "Hadoop": 2, 
+            "Java": 6, 
+            "JavaScript": 8, 
+            "Mobile": 1, 
+            "MongoDB": 4, 
+            "MySQL": 6, 
+            "Node.js": 5, 
+            "Python": 1, 
+            "R": 1, 
+            "React.js": 3, 
+            "Ruby": 2, 
+            "Ruby on Rails": 2, 
+            "SEO": 1, 
+            "SQL": 5, 
+            "Spark": 1, 
+            "Spring MVC": 1, 
+            "Swift": 1, 
+            "UX": 1, 
+            "Xcode": 1, 
+            "iOS": 1, 
+            "jQuery": 8
+        }
+    }
+}

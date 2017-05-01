@@ -1,0 +1,3167 @@
+{
+    "Claim Academy": {
+        "accreditation": "Yes, the only bootcamp accredited by the state of Missouri workforce development and training.", 
+        "average_salary": 58000, 
+        "class_ratio": 10, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Bootcamp": {
+                "Class Size": 10, 
+                "Cost": 8000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": ".NET Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    ".NET"
+                ]
+            }, 
+            ".Net Full Stack Software Engineering Cohort": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": ".Net Full Stack Software Engineering Cohort", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "2017-06-10", 
+                "Subjects": [
+                    "C#"
+                ]
+            }, 
+            "Java Bootcamp": {
+                "Class Size": 10, 
+                "Cost": 8000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Java"
+                ]
+            }, 
+            "Java Or Full Stack Software Engineering Cohort": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java or Full Stack Software Engineering Cohort", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "2017-06-10", 
+                "Subjects": [
+                    "C#", 
+                    "Java"
+                ]
+            }, 
+            "Java Summer Bootcamp": {
+                "Class Size": 20, 
+                "Cost": 8000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java Summer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Java"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 12, 
+        "cr_rating": 4.33, 
+        "cr_technologies": null, 
+        "email": "info@claimacademystl.com", 
+        "facebook": "https://www.facebook.com/claimacademy", 
+        "hiring_rate": 95.0, 
+        "housing": "While we do not have our own housing. We assist you in finding reasonable housing in the St. Louis area", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "St. Louis"
+        ], 
+        "name": "Claim Academy", 
+        "num_alumni": 100, 
+        "num_courses": 0, 
+        "num_locations": 1, 
+        "scholarships": [
+            "$500 Claim Academy Scholarship", 
+            "$500 Claim Academy Scholarship"
+        ], 
+        "su_num_reviews": 13, 
+        "su_rating": 4.0, 
+        "su_technologies": [
+            "C#", 
+            "Java"
+        ], 
+        "subjects": "Java and .NET, Agile, Scrum, Javascript", 
+        "technologies": [
+            "C#", 
+            "Java"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "tracks": [
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 2814, 
+            "handle": "@@", 
+            "tweets": 733
+        }, 
+        "visas": "No", 
+        "website": "http://claimacademystl.com/"
+    }, 
+    "Code Ninja": {
+        "accreditation": "Accelerated", 
+        "courses": {
+            "Jumpst@Rt": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "JumpSt@rt", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Ramp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
+                "Course Title": "RAMP", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "Python", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "Go", 
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "Ruby", 
+                    "Mobile", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Ramp ": {
+                "Cost": 999, 
+                "Course Location": [
+                    "Maui"
+                ], 
+                "Course Title": "RAMP ", 
+                "Hours/Week": 30, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Python", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "Go", 
+                    "jQuery", 
+                    "Design", 
+                    "Mobile", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Ramp (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "RAMP (Part-Time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "Python", 
+                    "Front End", 
+                    "JavaScript", 
+                    "Git", 
+                    "PHP", 
+                    "Go", 
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "Ruby", 
+                    "Mobile", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Ramp - Thailand": {
+                "Cost": 1599, 
+                "Course Location": [
+                    "Koh Lanta"
+                ], 
+                "Course Title": "RAMP - Thailand", 
+                "Hours/Week": 30, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Python", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "Go", 
+                    "jQuery", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 1, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Python", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "PHP", 
+            "Go", 
+            "jQuery", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Objective-C", 
+            "Ruby", 
+            "Mobile"
+        ], 
+        "email": "ninja@code-ninja.co", 
+        "facebook": "https://www.facebook.com/CodeNinjaUS", 
+        "housing": "Yes", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Mexico City", 
+            "Online", 
+            "Maui", 
+            "Koh Lanta", 
+            "Milwaukee"
+        ], 
+        "name": "Code Ninja", 
+        "num_courses": 5, 
+        "num_locations": 5, 
+        "technologies": [
+            "AngularJS", 
+            "Python", 
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "PHP", 
+            "Go", 
+            "jQuery", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Objective-C", 
+            "Ruby", 
+            "Mobile"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 280, 
+            "handle": "@@", 
+            "tweets": 508
+        }, 
+        "visas": "No", 
+        "website": "http://code-ninja.co/"
+    }, 
+    "Coder Camps": {
+        "accreditation": "BPPE-AZ TWC-TX", 
+        "courses": {
+            "Full Stack Web Development": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Phoenix"
+                ], 
+                "Course Title": "Full Stack Web Development", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    ".NET"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 39, 
+        "cr_rating": 3.71, 
+        "cr_technologies": [
+            "JavaScript", 
+            ".NET", 
+            "AngularJS", 
+            "HTML", 
+            "C#", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "email": "howdy@codercamps.com", 
+        "facebook": "https://www.facebook.com/CoderCamps", 
+        "housing": "\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Houston", 
+            "Seattle", 
+            "Online", 
+            "Phoenix"
+        ], 
+        "name": "Coder Camps", 
+        "num_courses": 1, 
+        "num_locations": 4, 
+        "technologies": [
+            "JavaScript", 
+            ".NET", 
+            "AngularJS", 
+            "HTML", 
+            "C#", 
+            "jQuery", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 2912, 
+            "handle": "@@", 
+            "tweets": 1228
+        }, 
+        "visas": "No", 
+        "website": "http://www.codercamps.com/"
+    }, 
+    "Coder Foundry": {
+        "accreditation": "None", 
+        "average_salary": 65000, 
+        "class_ratio": 7, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Full Stack Accelerated": {
+                "Cost": null, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Full Stack Accelerated", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Full Stack Immersive": {
+                "Cost": null, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Full Stack Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "Mobile"
+                ]
+            }, 
+            "Full-Stack Accelerated Course": {
+                "Class Size": 15, 
+                "Cost": 9900, 
+                "Course Location": [
+                    "Charlotte", 
+                    "Greensboro"
+                ], 
+                "Course Title": "Full-Stack Accelerated Course", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    ".NET", 
+                    "SQL"
+                ]
+            }, 
+            "Full-Stack Immersive Course ": {
+                "Class Size": 15, 
+                "Cost": 13900, 
+                "Course Location": [
+                    "Charlotte", 
+                    "Greensboro", 
+                    "NYC"
+                ], 
+                "Course Title": "Full-Stack Immersive Course ", 
+                "Hours/Week": 40, 
+                "Length": 18, 
+                "Location": [
+                    "Greensboro"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Mobile", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Full-Stack Immersive Course "
+            }, 
+            "Full-Stack Immersive Course (Accelerated)": {
+                "Class Size": 15, 
+                "Cost": 9900, 
+                "Course Location": [
+                    "Charlotte", 
+                    "Greensboro"
+                ], 
+                "Course Title": "Full-Stack Immersive Course (Accelerated)", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Charlotte", 
+                    "Greensboro"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Full-Stack Immersive Course (Accelerated)"
+            }, 
+            "Mobile App Development": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Mobile App Development", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "iOS", 
+                    "C#", 
+                    "Android"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 58, 
+        "cr_rating": 4.66, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "CSS", 
+            "jQuery", 
+            "iOS", 
+            "Android", 
+            "Mobile"
+        ], 
+        "email": "info@coderfoundry.com", 
+        "facebook": "https://www.facebook.com/coderfoundry", 
+        "general_cost": "$$$", 
+        "hiring_rate": 95.0, 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Greensboro", 
+            "New York City", 
+            "Charlotte"
+        ], 
+        "name": "Coder Foundry", 
+        "num_alumni": "N/A", 
+        "num_courses": 3, 
+        "num_locations": 3, 
+        "su_num_reviews": 37, 
+        "su_rating": 4.6, 
+        "su_technologies": [
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": ".NET, Javascript, HTML5, CSS3, AngularJS, C#, MVC, Mobile, Xamarin", 
+        "technologies": [
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "SQL", 
+            "Front End", 
+            "ASP.NET", 
+            "iOS", 
+            "Android"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 910, 
+            "handle": "@@", 
+            "tweets": 479
+        }, 
+        "visas": "No", 
+        "website": "http://www.coderfoundry.com/"
+    }, 
+    "Coding Temple": {
+        "accreditation": "Yes", 
+        "average_salary": "N/A", 
+        "class_ratio": 4, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Asp.Net Mvc Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "ASP.NET MVC BOOTCAMP", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "Objective-C", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "C# Asp.Net 10 Week Course": {
+                "Class Size": 8, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "C# ASP.NET 10 Week Course", 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "ASP.NET MVC", 
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    ".NET", 
+                    "SQL"
+                ]
+            }, 
+            "C# Asp.Net 12 Week Course": {
+                "Class Size": 12, 
+                "Course Title": "C# ASP.NET 12 Week Course", 
+                "Hours/Week": 30, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "jQuery", 
+                    ".NET"
+                ], 
+                "Title": "C# ASP.NET 12 Week Course"
+            }, 
+            "Full-Stack Python + Data Science": {
+                "Cost": 10500, 
+                "Course Location": [
+                    "Washington"
+                ], 
+                "Course Title": "Full-Stack Python + Data Science", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Python", 
+                    "Data Science", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Django", 
+                    "SQL", 
+                    "jQuery", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Full-Stack Python Washington D.C": {
+                "Cost": 10500, 
+                "Course Location": [
+                    "Washington DC"
+                ], 
+                "Course Title": "Full-Stack Python Washington D.C", 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Start Date": "2017-06-05", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "Bootstrap", 
+                    "CSS", 
+                    "Data Science", 
+                    "Django", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Python", 
+                    "SQL", 
+                    "UX"
+                ]
+            }, 
+            "Full-Time Full-Stack Javascript Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Full-Time Full-Stack JavaScript Development", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "Objective-C", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Part-Time Javascript": {
+                "Class Size": 6, 
+                "Cost": 7000, 
+                "Course Location": [
+                    "N/A"
+                ], 
+                "Course Title": "Part-Time JavaScript", 
+                "Hours/Week": 20, 
+                "Length": 10, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Chicago"
+                ]
+            }, 
+            "Part-Time Mean.Js - Full-Stack Javascript": {
+                "Cost": 10500, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Part-Time MEAN.JS - Full-Stack JavaScript", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Python + Data Science 10-Week Course": {
+                "Class Size": 6, 
+                "Course Title": "Python + Data Science 10-Week Course", 
+                "Hours/Week": 40, 
+                "Length": 10, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "AngularJS", 
+                    "Bootstrap", 
+                    "CSS", 
+                    "Data Science", 
+                    "Django", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "PostgreSQL", 
+                    "Python", 
+                    "SQL"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 25, 
+        "cr_rating": 4.77, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MySQL", 
+            "Python", 
+            "Data Science", 
+            "Django", 
+            "SQL", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "Objective-C", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "email": "info@codingtemple.com", 
+        "facebook": "https://www.facebook.com/codingtemple?_rdr", 
+        "general_cost": "$$", 
+        "hiring_rate": null, 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Chicago", 
+            "Washington"
+        ], 
+        "name": "Coding Temple", 
+        "num_alumni": "N/A", 
+        "num_courses": 4, 
+        "num_locations": 2, 
+        "scholarships": "$500 Coding Temple Scholarship", 
+        "su_num_reviews": 6, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "ASP.NET MVC", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            ".NET", 
+            "SQL", 
+            "Bootstrap", 
+            "Data Science", 
+            "Django", 
+            "Git", 
+            "PostgreSQL", 
+            "Python", 
+            "UX"
+        ], 
+        "subjects": ".Net, Python, CSS, HTML, JavaScript, C#, jQuery, AngularJS, ReactJS, Entity Framework, Django, SQL, MangoDB, NodeJS", 
+        "technologies": [
+            "Algorithms", 
+            "AngularJS", 
+            "ASP.NET MVC", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            ".NET", 
+            "SQL", 
+            "Bootstrap", 
+            "Data Science", 
+            "Django", 
+            "Git", 
+            "PostgreSQL", 
+            "Python", 
+            "UX", 
+            "Front End", 
+            "MongoDB", 
+            "Design", 
+            "User Experience Design", 
+            "MySQL", 
+            "ASP.NET", 
+            "Objective-C", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Data Science", 
+            "Other"
+        ], 
+        "twitter": {
+            "followers": 205, 
+            "handle": "@@", 
+            "tweets": 64
+        }, 
+        "visas": "No", 
+        "website": "http://codingtemple.com/"
+    }, 
+    "Devcodecamp": {
+        "accreditation": "Licensed by the State of Wisconsin EAB", 
+        "average_salary": "N/A", 
+        "class_ratio": 20, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Full Stack Software Development ": {
+                "Cost": 14900, 
+                "Course Location": [
+                    "N/A"
+                ], 
+                "Course Title": "Full Stack Software Development ", 
+                "Hours/Week": 50, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Milwaukee"
+                ]
+            }, 
+            "Full Time Software Development": {
+                "Cost": 14900, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
+                "Course Title": "Full Time Software Development", 
+                "Hours/Week": 50, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Python", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "CSS"
+                ]
+            }, 
+            "Software Development": {
+                "Cost": 14987, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
+                "Course Title": "Software Development", 
+                "Hours/Week": 50, 
+                "Length": 12, 
+                "Location": [
+                    "Milwaukee"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Software Development"
+            }, 
+            "Web Development": {
+                "Cost": 9987, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 13, 
+                "Location": [
+                    "Milwaukee"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "SEO", 
+                    "UX"
+                ], 
+                "Title": "Web Development"
+            }
+        }, 
+        "cr_num_reviews": 45, 
+        "cr_rating": 4.55, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Python", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "CSS"
+        ], 
+        "email": "hello@devcodecamp.com", 
+        "facebook": "http://www.facebook.com/devCodeCamp", 
+        "general_cost": "$$$", 
+        "hiring_rate": null, 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Milwaukee"
+        ], 
+        "name": "Devcodecamp", 
+        "num_alumni": "N/A", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "su_num_reviews": 24, 
+        "su_rating": 4.7, 
+        "su_technologies": [], 
+        "subjects": "C#, .Net, Javascript, Python, CSS, HTML, Angular, MongoDB, PHP, jQuery", 
+        "technologies": [
+            "AngularJS", 
+            "Python", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 2179, 
+            "handle": "@@", 
+            "tweets": 1495
+        }, 
+        "visas": "No", 
+        "website": "http://www.devcodecamp.com/"
+    }, 
+    "Epicodus": {
+        "accreditation": "None", 
+        "average_salary": 45000, 
+        "class_ratio": 30, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            ".Net": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Course Title": ".NET", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    ".NET"
+                ], 
+                "Title": ".NET"
+            }, 
+            "Android": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "Android", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Android"
+                ], 
+                "Title": "Android"
+            }, 
+            "C#": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Course Title": "C#", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#"
+                ], 
+                "Title": "C#"
+            }, 
+            "C# And .Net": {
+                "Cost": 5900, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "C# and .NET", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "ASP.NET", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Css": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "CSS", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS"
+                ], 
+                "Title": "CSS"
+            }, 
+            "Css And Design": {
+                "Cost": null, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "CSS and Design", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Design": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "Design", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Design Principles"
+                ], 
+                "Title": "Design"
+            }, 
+            "Drupal": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Philadelphia", 
+                    "Portland"
+                ], 
+                "Course Title": "Drupal", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia", 
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Drupal"
+                ], 
+                "Title": "Drupal"
+            }, 
+            "Intro To Programming": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Philadelphia", 
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Course Title": "Intro to Programming", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia", 
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Intro to Programming"
+            }, 
+            "Intro To Programming (Part-Time Evening)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Intro to Programming (Part-Time Evening)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "Java", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Java"
+                ], 
+                "Title": "Java"
+            }, 
+            "Java And Android": {
+                "Cost": 5900, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Java and Android", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "Mobile", 
+                    "CSS", 
+                    "Android"
+                ]
+            }, 
+            "Javascript": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Philadelphia", 
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Course Title": "JavaScript", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia", 
+                    "Portland", 
+                    "Seattle"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript"
+                ], 
+                "Title": "JavaScript"
+            }, 
+            "Php": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Philadelphia", 
+                    "Portland"
+                ], 
+                "Course Title": "PHP", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Philadelphia", 
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "PHP"
+                ], 
+                "Title": "PHP"
+            }, 
+            "Php And Drupal": {
+                "Cost": 5900, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "PHP and Drupal", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "PHP", 
+                    "SQL", 
+                    "CSS"
+                ]
+            }, 
+            "Rails": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "Rails", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby on Rails"
+                ], 
+                "Title": "Rails"
+            }, 
+            "Ruby": {
+                "Class Size": 30, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "Ruby", 
+                "Hours/Week": 40, 
+                "Length": 5, 
+                "Location": [
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Ruby"
+                ], 
+                "Title": "Ruby"
+            }, 
+            "Ruby And Ruby On Rails": {
+                "Cost": 5900, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Ruby and Ruby on Rails", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 96, 
+        "cr_rating": 4.8, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "PHP", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "AngularJS", 
+            "Front End", 
+            "Git", 
+            "Design", 
+            "User Experience Design", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "Java", 
+            "Mobile", 
+            "Android", 
+            "Sinatra"
+        ], 
+        "email": "hi@epicodus.com", 
+        "facebook": "https://www.facebook.com/epicodus.school", 
+        "general_cost": "$", 
+        "hiring_rate": 94.0, 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Portland", 
+            "Seattle"
+        ], 
+        "name": "Epicodus", 
+        "num_alumni": 742, 
+        "num_courses": 6, 
+        "num_locations": 2, 
+        "su_num_reviews": 97, 
+        "su_rating": 4.9, 
+        "su_technologies": null, 
+        "subjects": "Intro to Programming, Ruby, PHP, Java, C#, JavaScript, Rails, Drupal, Android, .NET, CSS, Design", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "PHP", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "AngularJS", 
+            "Front End", 
+            "Git", 
+            "Design", 
+            "User Experience Design", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "Java", 
+            "Mobile", 
+            "Android", 
+            "Sinatra"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 1168, 
+            "handle": "@@", 
+            "tweets": 985
+        }, 
+        "visas": "No", 
+        "website": "http://www.epicodus.com/"
+    }, 
+    "Fire Bootcamp": {
+        "accreditation": "None", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$", 
+        "courses": {
+            "Asp .Net Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "ASP .NET Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Firebootcamp Core: Enterprise Mvc": {
+                "Class Size": null, 
+                "Cost": 5000, 
+                "Course Location": [
+                    "Melbourne", 
+                    "Sydney", 
+                    "Washington"
+                ], 
+                "Course Title": "FireBootCamp Core: Enterprise MVC", 
+                "Hours/Week": null, 
+                "Length": 4, 
+                "Location": [
+                    "Melbourne", 
+                    "Sydney", 
+                    "Washington"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET"
+                ], 
+                "Title": "FireBootCamp Core: Enterprise MVC"
+            }, 
+            "Firebootcamp Mini": {
+                "Class Size": null, 
+                "Cost": 0, 
+                "Course Location": [
+                    "Sydney", 
+                    "Washington"
+                ], 
+                "Course Title": "FireBootCamp Mini", 
+                "Hours/Week": null, 
+                "Length": 0, 
+                "Location": [
+                    "Sydney", 
+                    "Washington"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "FireBootCamp Mini"
+            }, 
+            "Firebootcamp Ultra": {
+                "Cost": null, 
+                "Course Location": [
+                    "Sydney"
+                ], 
+                "Course Title": "FireBootCamp Ultra", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Firebootcamp Ultra: Enterprise Mvc": {
+                "Class Size": null, 
+                "Cost": 6000, 
+                "Course Location": [
+                    "Sydney"
+                ], 
+                "Course Title": "FireBootCamp Ultra: Enterprise MVC", 
+                "Hours/Week": null, 
+                "Length": 9, 
+                "Location": [
+                    "Sydney"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    ".NET"
+                ], 
+                "Title": "FireBootCamp Ultra: Enterprise MVC"
+            }
+        }, 
+        "cr_num_reviews": 4, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "CSS"
+        ], 
+        "email": null, 
+        "facebook": "https://www.facebook.com/SSW.page", 
+        "general_cost": "$$", 
+        "hiring_rate": null, 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Sydney", 
+            "Brisbane", 
+            "Melbourne", 
+            "San Francisco"
+        ], 
+        "name": "Fire Bootcamp", 
+        "num_alumni": "N/A", 
+        "num_courses": 2, 
+        "num_locations": 4, 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            ".NET"
+        ], 
+        "subjects": "ASP.NET MVC5, HTML5, CSS, jQuery, JavaScript, Git", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            ".NET"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": null, 
+        "visas": "No", 
+        "website": "http://firebootcamp.com/"
+    }, 
+    "Grand Circus": {
+        "accreditation": "Licensed, proprietary school", 
+        "average_salary": "N/A", 
+        "class_ratio": 8, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net (C#) Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": ".NET (C#) Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "CSS"
+                ]
+            }, 
+            "Front-End Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Front-End Bootcamp", 
+                "Hours/Week": null, 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS", 
+                    "Node.js"
+                ], 
+                "Title": "Front-end Bootcamp"
+            }, 
+            "Front-End Bootcamp (Javascript)": {
+                "Cost": 7500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Front-end Bootcamp (JavaScript)", 
+                "Hours/Week": 50, 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front-end Bootcamp (JavaScript)"
+            }, 
+            "Front-End Bootcamp (Part-Time)": {
+                "Cost": 7500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Front-end Bootcamp (Part-time)", 
+                "Hours/Week": 20, 
+                "Length": 14, 
+                "Location": [
+                    "Detroit"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Front-end Bootcamp (Part-time)"
+            }, 
+            "Front-End Part-Time Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Front-End Part-time Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Intro To Web Development Part 1: Html + Css": {
+                "Cost": 495, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Intro to Web Development Part 1: HTML + CSS", 
+                "Hours/Week": 4, 
+                "Length": 3, 
+                "Location": [
+                    "Detroit"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML"
+                ], 
+                "Title": "Intro to Web Development Part 1: HTML + CSS"
+            }, 
+            "Intro To Web Development Part 2: Javascript + Jquery": {
+                "Cost": 1495, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Intro to Web Development Part 2: JavaScript + jQuery", 
+                "Hours/Week": 4, 
+                "Length": 6, 
+                "Location": [
+                    "Detroit"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript", 
+                    "jQuery"
+                ], 
+                "Title": "Intro to Web Development Part 2: JavaScript + jQuery"
+            }, 
+            "Intro To Web Development: Html + Css": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Intro to Web Development: HTML + CSS", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Intro To Web Development: Javascript + Jquery": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Intro to Web Development: JavaScript + jQuery", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Java Bootcamp", 
+                "Hours/Week": null, 
+                "Length": 10, 
+                "Location": [
+                    "Detroit"
+                ], 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Java", 
+                    "CSS"
+                ], 
+                "Title": "Java Bootcamp"
+            }
+        }, 
+        "cr_num_reviews": 8, 
+        "cr_rating": 4.63, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Node.js", 
+            "Java", 
+            "MySQL", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "SQL"
+        ], 
+        "email": "hello@grandcircus.co", 
+        "facebook": "https://www.facebook.com/GrandCircusCo", 
+        "general_cost": "$$", 
+        "hiring_rate": 92.0, 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Detroit"
+        ], 
+        "name": "Grand Circus", 
+        "num_alumni": "N/A", 
+        "num_courses": 6, 
+        "num_locations": 1, 
+        "scholarships": "$1,000 Automatic Scholarship for women, veterans, and underrepresented minorities in tech.", 
+        "su_num_reviews": 12, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "AngularJS", 
+            "JavaScript", 
+            "jQuery", 
+            "Git", 
+            "Java", 
+            "MySQL"
+        ], 
+        "subjects": "Java, .NET, Javascript, HTML, CSS", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "AngularJS", 
+            "JavaScript", 
+            "jQuery", 
+            "Git", 
+            "Java", 
+            "MySQL", 
+            "Node.js", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Digital Marketing", 
+            "Full-Stack Web Development", 
+            "Mobile Development", 
+            "Front-End Web Development"
+        ], 
+        "twitter": {
+            "followers": 5716, 
+            "handle": "@@", 
+            "tweets": 8184
+        }, 
+        "visas": "No", 
+        "website": "http://grandcircus.co/"
+    }, 
+    "Sabio": {
+        "accreditation": "Via the Antioch University courses, students can get College Credits and use their Military Veteran Benefits (GI Bill).  Veternas also get a Basic Housing Allowance (up to $2,500 per month of training).", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Full Stack Web Developer + Ios": {
+                "Class Size": null, 
+                "Cost": 13000, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Full Stack Web Developer + iOS", 
+                "Hours/Week": null, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ]
+            }, 
+            "Full Stack Web Development At Antioch University": {
+                "Cost": 16950, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Full Stack Web Development at Antioch University", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SEO", 
+                    "jQuery", 
+                    "Excel", 
+                    "Design", 
+                    "Sales", 
+                    "Mobile", 
+                    "Growth Hacking", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Full Stack Weekday Training (12 Weeks)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Full Stack Weekday Training (12 weeks)", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SEO", 
+                    "SQL", 
+                    "jQuery", 
+                    "Excel", 
+                    "Product Management", 
+                    "Mobile", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Mean Stack": {
+                "Cost": 16950, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "MEAN Stack", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Digital Marketing", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "SEO", 
+                    "jQuery", 
+                    "Excel", 
+                    "Design", 
+                    "Product Management", 
+                    "Sales", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Game Development", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Weekend Ios": {
+                "Class Size": null, 
+                "Cost": 3000, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Weekend iOS", 
+                "Hours/Week": null, 
+                "Length": 1, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "iOS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 105, 
+        "cr_rating": 4.97, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SEO", 
+            "jQuery", 
+            "Excel", 
+            "Design", 
+            "Sales", 
+            "Mobile", 
+            "Growth Hacking", 
+            "User Experience Design", 
+            "CSS", 
+            "Digital Marketing", 
+            "MongoDB", 
+            "Product Management", 
+            "Game Development", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "email": "join@sabio.la", 
+        "facebook": "https://www.facebook.com/wesabio", 
+        "hiring_rate": null, 
+        "housing": "No.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Orange County", 
+            "Seattle", 
+            "Los Angeles"
+        ], 
+        "name": "Sabio", 
+        "num_alumni": "N/A", 
+        "num_courses": 3, 
+        "num_locations": 3, 
+        "scholarships": [
+            "$500 Sabio Scholarship", 
+            "$1500 Jill H. Mays Women in Tech Scholarship"
+        ], 
+        "su_num_reviews": 14, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "iOS"
+        ], 
+        "subjects": "JavaScript, HTML, CSS, iOS", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "iOS", 
+            "AngularJS", 
+            "Front End", 
+            ".NET", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SEO", 
+            "jQuery", 
+            "Excel", 
+            "Design", 
+            "Sales", 
+            "Mobile", 
+            "Growth Hacking", 
+            "User Experience Design", 
+            "Digital Marketing", 
+            "MongoDB", 
+            "Product Management", 
+            "Game Development", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 2363, 
+            "handle": "@@", 
+            "tweets": 10900
+        }, 
+        "visas": "No", 
+        "website": "http://sabio.la"
+    }, 
+    "Skill Distillery": {
+        "accreditation": "Skill Distillery accepts the GI Bill.", 
+        "average_salary": 65000, 
+        "class_ratio": 20, 
+        "cost_estimate": "$$$$", 
+        "courses": {
+            "Java Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Denver"
+                ], 
+                "Course Title": "Java Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "HTML", 
+                    "Java", 
+                    "CSS"
+                ]
+            }, 
+            "Skill Distillery Web Developer With Java / Spring Bootcamp": {
+                "Class Size": 20, 
+                "Cost": 16000, 
+                "Course Location": [
+                    "Denver"
+                ], 
+                "Course Title": "Skill Distillery Web Developer with Java / Spring Bootcamp", 
+                "Hours/Week": 45, 
+                "Length": 19, 
+                "Location": [
+                    "Denver"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Git", 
+                    "HTML", 
+                    "Java", 
+                    "Node.js", 
+                    "SQL"
+                ], 
+                "Title": "Skill Distillery Web Developer with Java / Spring Bootcamp"
+            }
+        }, 
+        "cr_num_reviews": 46, 
+        "cr_rating": 4.31, 
+        "cr_technologies": [
+            "HTML", 
+            "Java", 
+            "CSS"
+        ], 
+        "email": "info@skilldistillery.com", 
+        "facebook": "https://www.facebook.com/pages/Skill-Distillery/1488594038024451", 
+        "general_cost": "$$$", 
+        "hiring_rate": null, 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Denver"
+        ], 
+        "name": "Skill Distillery", 
+        "num_alumni": 40000, 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "scholarships": "Scholarships are available", 
+        "su_num_reviews": 10, 
+        "su_rating": 4.5, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Java", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "subjects": "Java Programming, JavaScript, HTML5, CSS3, Linux, SQL, Spring", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "Java", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 488, 
+            "handle": "@@", 
+            "tweets": 432
+        }, 
+        "visas": "No", 
+        "website": "http://skilldistillery.com/"
+    }, 
+    "Software Guild": {
+        "accreditation": "Registered and compliant with the Ohio State Board of Career Colleges and Schools. Registration number is #13-11-2036T. Kentucky Commission on Proprietary Education, Resident School License No. R-0470", 
+        "average_salary": 55000, 
+        "class_ratio": 12, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
+                "Course Title": ".NET Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            ".Net/C#": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": ".NET/C#", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Java", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Course Title": "Java Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "cr_num_reviews": 70, 
+        "cr_rating": 4.69, 
+        "cr_technologies": [
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "MySQL", 
+            "Java"
+        ], 
+        "email": "info@thesoftwareguild.com", 
+        "facebook": "https://www.facebook.com/thesoftwareguild", 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "housing": "The Software Guild offers short-term subleases to apartments in all three locations.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Akron", 
+            "Minneapolis", 
+            "Louisville", 
+            "Online"
+        ], 
+        "name": "Software Guild", 
+        "num_alumni": "N/A", 
+        "num_courses": 2, 
+        "num_locations": 4, 
+        "su_num_reviews": 23, 
+        "su_rating": 4.8, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Full Stack Web Development - Java or .NET, SQL Server / MySQL, HTML/CSS/JavaScript", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL", 
+            "Front End", 
+            "Git", 
+            "C#", 
+            "ASP.NET"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp", 
+            "Current Market"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 756, 
+            "handle": "@@", 
+            "tweets": 1232
+        }, 
+        "visas": "No", 
+        "website": "http://www.thesoftwareguild.com"
+    }, 
+    "The Iron Yard": {
+        "accreditation": "None", 
+        "average_salary": 45000, 
+        "class_ratio": 15, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Back End Engineering": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Dallas"
+                ], 
+                "Course Title": "Back End Engineering", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Greenville"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Ruby", 
+                    "Ruby on Rails"
+                ], 
+                "Title": "Back End Engineering"
+            }, 
+            "Back End Engineering - .Net": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Dallas", 
+                    "Tampa"
+                ], 
+                "Course Title": "Back End Engineering - .NET", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "SQL"
+                ]
+            }, 
+            "Back End Engineering - Java": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Austin", 
+                    "Charlotte"
+                ], 
+                "Course Title": "Back End Engineering - Java", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "SQL"
+                ]
+            }, 
+            "Back End Engineering - Python": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Raleigh-Durham"
+                ], 
+                "Course Title": "Back End Engineering - Python", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Python", 
+                    "SQL"
+                ]
+            }, 
+            "Back End Engineering - Ruby On Rails": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Tampa"
+                ], 
+                "Course Title": "Back End Engineering - Ruby on Rails", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "Ruby", 
+                    "SQL"
+                ]
+            }, 
+            "Front End Engineering": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Charleston", 
+                    "Greenville", 
+                    "Raleigh-Durham"
+                ], 
+                "Course Title": "Front End Engineering", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Charleston", 
+                    "Cincinnati", 
+                    "Greenville", 
+                    "Raleigh-Durham", 
+                    "Salt Lake City"
+                ], 
+                "Start Date": "2017-01-09", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "UX"
+                ], 
+                "Title": "Front End Engineering"
+            }, 
+            "Front End Engineering ": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Dallas", 
+                    "Orlando", 
+                    "Tampa"
+                ], 
+                "Course Title": "Front End Engineering ", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ]
+            }, 
+            "Front End Engineering - Foundations": {
+                "Cost": 900, 
+                "Course Location": [
+                    "Las Vegas"
+                ], 
+                "Course Title": "Front End Engineering - Foundations", 
+                "Hours/Week": 10, 
+                "Length": 2, 
+                "Start Date": "2017-05-22", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ]
+            }, 
+            "Front End Engineering - Foundations ": {
+                "Cost": 900, 
+                "Course Location": [
+                    "Nashville", 
+                    "Raleigh-Durham"
+                ], 
+                "Course Title": "Front End Engineering - Foundations ", 
+                "Hours/Week": 10, 
+                "Length": 2, 
+                "Start Date": "2017-04-17", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ]
+            }, 
+            "Front End Engineering - Night/Weekend": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Dallas"
+                ], 
+                "Course Title": "Front End Engineering - Night/Weekend", 
+                "Hours/Week": 20, 
+                "Length": 24, 
+                "Start Date": "2017-04-24", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript"
+                ]
+            }, 
+            "Front End Engineering - Sprint Course": {
+                "Cost": 2900, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Front End Engineering - Sprint Course", 
+                "Hours/Week": 13, 
+                "Length": 4, 
+                "Start Date": "2017-02-06", 
+                "Subjects": [
+                    "Javascript"
+                ]
+            }, 
+            "Mobile Engineering": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Orlando"
+                ], 
+                "Course Title": "Mobile Engineering", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Houston"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Objective-C", 
+                    "Swift"
+                ], 
+                "Title": "Mobile Engineering"
+            }, 
+            "Ui Design": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Raleigh"
+                ], 
+                "Course Title": "UI Design", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Location": [
+                    "Raleigh"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Illustrator", 
+                    "Javascript", 
+                    "Photoshop"
+                ], 
+                "Title": "UI Design"
+            }, 
+            "Web Development Basics": {
+                "Cost": 900, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Web Development Basics", 
+                "Hours/Week": null, 
+                "Length": 2, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Career Path": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Washington"
+                ], 
+                "Course Title": "Web Development Career Path", 
+                "Hours/Week": null, 
+                "Length": 12, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 127, 
+        "cr_rating": 4.24, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "email": "hello@theironyard.com", 
+        "facebook": "https://www.facebook.com/TheIronYard", 
+        "general_cost": "$$$", 
+        "hiring_rate": 90.0, 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Greenville", 
+            "Atlanta", 
+            "Nashville", 
+            "Indianapolis", 
+            "Las Vegas", 
+            "Charleston", 
+            "Durham", 
+            "Houston", 
+            "Raleigh", 
+            "Austin", 
+            "Charlotte", 
+            "Dallas", 
+            "Orlando", 
+            "Tampa", 
+            "Washington"
+        ], 
+        "name": "The Iron Yard", 
+        "num_alumni": 1800, 
+        "num_courses": 2, 
+        "num_locations": 15, 
+        "scholarships": "https://www.theironyard.com/scholarships", 
+        "su_num_reviews": 72, 
+        "su_rating": 4.1, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Express.js", 
+            "Git", 
+            "jQuery", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "subjects": "HTML, CSS, JavaScript, SQL, Express.js, Front End, git, jQuery, Node.js", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "Express.js", 
+            "Git", 
+            "jQuery", 
+            "Node.js", 
+            "SQL", 
+            "Front End"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Java/.NET", 
+            "Selected Camp", 
+            "Potential Market"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 16000, 
+            "handle": "@@", 
+            "tweets": 8167
+        }, 
+        "visas": "No", 
+        "website": "http://theironyard.com/"
+    }, 
+    "The Tech Academy": {
+        "accreditation": "In progress.", 
+        "average_salary": 60000, 
+        "class_ratio": 20, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Software Developer Boot Camp": {
+                "Class Size": 150, 
+                "Cost": 7980, 
+                "Course Location": [
+                    "Online", 
+                    "Portland"
+                ], 
+                "Course Title": "Software Developer Boot Camp", 
+                "Hours/Week": 40, 
+                "Length": 15, 
+                "Location": [
+                    "Online", 
+                    "Portland"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Mobile", 
+                    ".NET", 
+                    ".NET", 
+                    "PHP", 
+                    "Product Mgmt", 
+                    "Python", 
+                    "SQL"
+                ], 
+                "Title": "Software Developer Boot Camp"
+            }, 
+            "Software Developer Bootcamp": {
+                "Cost": 7980, 
+                "Course Location": [
+                    "Portland"
+                ], 
+                "Course Title": "Software Developer Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "Python", 
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "Product Management", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 123, 
+        "cr_rating": 4.9, 
+        "cr_technologies": [
+            "MySQL", 
+            "Python", 
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "jQuery", 
+            "Product Management", 
+            "CSS"
+        ], 
+        "email": "info@learncodinganywhere.com", 
+        "facebook": "https://www.facebook.com/learncodinganywhere/", 
+        "general_cost": "$$", 
+        "hiring_rate": 90.0, 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-04-19", 
+        "locations": [
+            "Portland", 
+            "Online"
+        ], 
+        "name": "The Tech Academy", 
+        "num_alumni": 180, 
+        "num_courses": 1, 
+        "num_locations": 2, 
+        "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
+        "su_num_reviews": 95, 
+        "su_rating": 4.9, 
+        "su_technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "SQL"
+        ], 
+        "subjects": "C#, Python, HTML5, CSS3, ASP.NET, JavaScript, SQL, .NET, Data Structures, Algorithms, Design Principles, jQuery, mobile development, PHP", 
+        "technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "SQL", 
+            "MySQL", 
+            "Front End", 
+            "ASP.NET"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 1665, 
+            "handle": "@@", 
+            "tweets": 852
+        }, 
+        "visas": "No", 
+        "website": "http://learncodinganywhere.com/"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [
+            "Software Guild"
+        ], 
+        "Date/Time": "2017-04-19 12:15:40", 
+        "Days Out": 219, 
+        "Number of Entries": 14, 
+        "Potential Market": [
+            "The Iron Yard", 
+            "Grand Circus"
+        ], 
+        "locations": {
+            "Akron": 1, 
+            "Atlanta": 1, 
+            "Austin": 1, 
+            "Brisbane": 1, 
+            "Charleston": 1, 
+            "Charlotte": 2, 
+            "Chicago": 1, 
+            "Dallas": 1, 
+            "Denver": 1, 
+            "Detroit": 1, 
+            "Durham": 1, 
+            "Greensboro": 1, 
+            "Greenville": 1, 
+            "Houston": 2, 
+            "Indianapolis": 1, 
+            "Koh Lanta": 1, 
+            "Las Vegas": 1, 
+            "Los Angeles": 1, 
+            "Louisville": 1, 
+            "Maui": 1, 
+            "Melbourne": 1, 
+            "Mexico City": 1, 
+            "Milwaukee": 2, 
+            "Minneapolis": 1, 
+            "Nashville": 1, 
+            "New York City": 1, 
+            "Online": 4, 
+            "Orange County": 1, 
+            "Orlando": 1, 
+            "Phoenix": 1, 
+            "Portland": 2, 
+            "Raleigh": 1, 
+            "San Francisco": 1, 
+            "Seattle": 3, 
+            "St. Louis": 1, 
+            "Sydney": 1, 
+            "Tampa": 1, 
+            "Washington": 2
+        }, 
+        "technologies": {
+            ".NET": 10, 
+            "ASP.NET": 8, 
+            "ASP.NET MVC": 1, 
+            "Algorithms": 2, 
+            "Android": 2, 
+            "AngularJS": 10, 
+            "Bootstrap": 1, 
+            "C#": 10, 
+            "CSS": 13, 
+            "Data Science": 1, 
+            "Data Structures": 2, 
+            "Design": 4, 
+            "Design Principles": 1, 
+            "Digital Marketing": 1, 
+            "Django": 1, 
+            "Excel": 1, 
+            "Express.js": 2, 
+            "Front End": 8, 
+            "Game Development": 1, 
+            "Git": 10, 
+            "Go": 1, 
+            "Growth Hacking": 1, 
+            "HTML": 13, 
+            "Java": 5, 
+            "JavaScript": 12, 
+            "Mobile": 5, 
+            "MongoDB": 2, 
+            "MySQL": 4, 
+            "Node.js": 6, 
+            "Objective-C": 2, 
+            "PHP": 3, 
+            "PostgreSQL": 1, 
+            "Product Management": 2, 
+            "Python": 4, 
+            "React.js": 3, 
+            "Ruby": 2, 
+            "Ruby on Rails": 1, 
+            "SEO": 1, 
+            "SQL": 10, 
+            "Sales": 1, 
+            "Sinatra": 1, 
+            "UX": 1, 
+            "User Experience Design": 4, 
+            "iOS": 2, 
+            "jQuery": 11
+        }
+    }
+}

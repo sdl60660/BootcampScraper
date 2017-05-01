@@ -91,6 +91,12 @@ class CaughtDuplicateNames(object):
 
         if item['name'].title() == 'New York Code And Design Academy':
             item['name'] = 'New York Code + Design Academy'
+
+        if item['name'].title() == 'Bitmaker':
+            item['name'] = 'Bitmaker Labs'
+
+        if item['name'] == 'Cwru Coding Boot Camp':
+            item['name'] = 'Case Western Reserve University Coding Boot Camp'
         
         return item
 
