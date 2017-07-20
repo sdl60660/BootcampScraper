@@ -1,0 +1,202 @@
+{
+    "Software Guild": {
+        "average_salary": 55000, 
+        "class_ratio": 12, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
+                "Course Title": ".NET Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Course Title": "Java Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "Software Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 23, 
+        "su_rating": 4.78, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Coding Bootcamps,Mobile Development,Full-Stack Web Development,Online Courses", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
+    "We Can Code It": {
+        "average_salary": "N/A", 
+        "class_ratio": 13, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Coding Bootcamp": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Cleveland"
+                ], 
+                "Course Title": "Coding Bootcamp", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "C#", 
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET"
+                ]
+            }
+        }, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Cleveland", 
+            "Columbus"
+        ], 
+        "name": "We Can Code It", 
+        "num_alumni": 180, 
+        "num_locations": 2, 
+        "scholarships": "$2,000 diversity focus award automatically applied towards bootcamp tuition if you meet any of the following conditions:1) You are a woman2) You are African American3) You are Hispanic4) You are Native American", 
+        "su_num_reviews": 19, 
+        "su_rating": 4.39, 
+        "su_technologies": [
+            "Git", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "Spring MVC", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            ".NET"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "Git", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "Spring MVC", 
+            "AngularJS", 
+            "C#", 
+            "CSS", 
+            "HTML", 
+            ".NET"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market"
+        ], 
+        "website": "http://bootcamp.wecancodeit.org/"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [
+            "Software Guild", 
+            "We Can Code It"
+        ], 
+        "Date/Time": "2017-06-28 12:16:40", 
+        "Days Out": 289, 
+        "Number of Entries": 2, 
+        "Potential Market": [], 
+        "locations": {
+            "Akron": 1, 
+            "Cleveland": 2, 
+            "Columbus": 1, 
+            "Louisville": 1, 
+            "Minneapolis": 1, 
+            "Online": 1
+        }, 
+        "technologies": {
+            ".NET": 2, 
+            "AngularJS": 2, 
+            "C#": 1, 
+            "CSS": 2, 
+            "Data Structures": 1, 
+            "Git": 1, 
+            "HTML": 2, 
+            "Java": 2, 
+            "JavaScript": 2, 
+            "MySQL": 1, 
+            "SQL": 1, 
+            "Spring MVC": 1, 
+            "jQuery": 2
+        }
+    }
+}

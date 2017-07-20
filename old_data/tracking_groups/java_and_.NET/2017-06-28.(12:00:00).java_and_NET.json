@@ -1,0 +1,488 @@
+{
+    "Claim Academy": {
+        "average_salary": 58000, 
+        "class_ratio": 10, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Bootcamp": {
+                "Class Size": 10, 
+                "Cost": 8000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": ".NET Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    ".NET"
+                ]
+            }, 
+            ".Net Full Stack Software Engineering Cohort": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": ".Net Full Stack Software Engineering Cohort", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#"
+                ]
+            }, 
+            "Java Bootcamp": {
+                "Class Size": 10, 
+                "Cost": 8000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Java"
+                ]
+            }, 
+            "Java Or Full Stack Software Engineering Cohort": {
+                "Class Size": 15, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java or Full Stack Software Engineering Cohort", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "C#", 
+                    "Java"
+                ]
+            }, 
+            "Java Summer Bootcamp": {
+                "Class Size": 20, 
+                "Cost": 8000, 
+                "Course Location": [
+                    "St. Louis"
+                ], 
+                "Course Title": "Java Summer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Java"
+                ]
+            }
+        }, 
+        "hiring_rate": 95.0, 
+        "last_updated": "2017-06-28", 
+        "locations": null, 
+        "name": "Claim Academy", 
+        "num_alumni": 100, 
+        "num_locations": 1, 
+        "scholarships": "$500 Women minority scholarship,  $500 Veteran scholarship,  $500 Women In Technology scholarship,  $1000 College Upgrade scholarship", 
+        "su_num_reviews": 18, 
+        "su_rating": 4.3, 
+        "su_technologies": [
+            "C#", 
+            "Java"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "C#", 
+            "Java"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "website": "http://claimacademystl.com/"
+    }, 
+    "Code Ninja": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$", 
+        "courses": {
+            "Jumpst@Rt": {
+                "Cost": 0, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "JumpSt@rt", 
+                "Hours/Week": null, 
+                "Length": 1, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML"
+                ]
+            }, 
+            "Remote Ramp": {
+                "Class Size": 10, 
+                "Cost": 999, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Remote RAMP", 
+                "Hours/Week": 12, 
+                "Length": 4, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ]
+            }
+        }, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": null, 
+        "name": "Code Ninja", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "website": "http://code-ninja.co/"
+    }, 
+    "Devcodecamp": {
+        "average_salary": "N/A", 
+        "class_ratio": 15, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Full Stack Software Development ": {
+                "Cost": 14900, 
+                "Course Location": [
+                    "N/A"
+                ], 
+                "Course Title": "Full Stack Software Development ", 
+                "Hours/Week": 50, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Milwaukee"
+                ]
+            }, 
+            "Software Development": {
+                "Cost": 14987, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
+                "Course Title": "Software Development", 
+                "Hours/Week": 50, 
+                "Length": 12, 
+                "Location": [
+                    "Milwaukee"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": "Software Development"
+            }, 
+            "Web Development": {
+                "Cost": 9987, 
+                "Course Location": [
+                    "Milwaukee"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 13, 
+                "Location": [
+                    "Milwaukee"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "SEO", 
+                    "UX"
+                ], 
+                "Title": "Web Development"
+            }
+        }, 
+        "general_cost": "$$$", 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Milwaukee"
+        ], 
+        "name": "Devcodecamp", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": 25, 
+        "su_rating": 4.67, 
+        "su_technologies": [], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET"
+        ], 
+        "website": "http://www.devcodecamp.com/"
+    }, 
+    "Software Guild": {
+        "average_salary": 55000, 
+        "class_ratio": 12, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
+                "Course Title": ".NET Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Course Title": "Java Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "Software Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 23, 
+        "su_rating": 4.78, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Coding Bootcamps,Mobile Development,Full-Stack Web Development,Online Courses", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
+    "The Tech Academy": {
+        "average_salary": 60000, 
+        "class_ratio": 20, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Software Developer Boot Camp": {
+                "Class Size": 150, 
+                "Cost": 7980, 
+                "Course Location": [
+                    "Online", 
+                    "Portland"
+                ], 
+                "Course Title": "Software Developer Boot Camp", 
+                "Hours/Week": 40, 
+                "Length": 15, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Mobile", 
+                    ".NET", 
+                    ".NET", 
+                    "PHP", 
+                    "Product Mgmt", 
+                    "Python", 
+                    "SQL"
+                ]
+            }
+        }, 
+        "hiring_rate": 90.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Portland", 
+            "Online"
+        ], 
+        "name": "The Tech Academy", 
+        "num_alumni": 180, 
+        "num_locations": 2, 
+        "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
+        "su_num_reviews": 103, 
+        "su_rating": 4.9, 
+        "su_technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "SQL"
+        ], 
+        "subjects": "Digital Marketing,Coding Bootcamps,Web Design (UX/UI)", 
+        "technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "website": "http://learncodinganywhere.com/"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [
+            "Software Guild"
+        ], 
+        "Date/Time": "2017-06-28 12:16:41", 
+        "Days Out": 289, 
+        "Number of Entries": 5, 
+        "Potential Market": [], 
+        "locations": {
+            "Akron": 1, 
+            "Cleveland": 1, 
+            "Louisville": 1, 
+            "Milwaukee": 1, 
+            "Minneapolis": 1, 
+            "Online": 2, 
+            "Portland": 1
+        }, 
+        "technologies": {
+            ".NET": 2, 
+            "Algorithms": 1, 
+            "AngularJS": 1, 
+            "C#": 2, 
+            "CSS": 3, 
+            "Data Structures": 2, 
+            "Design Principles": 1, 
+            "Git": 1, 
+            "HTML": 3, 
+            "Java": 2, 
+            "JavaScript": 3, 
+            "Mobile": 1, 
+            "MySQL": 1, 
+            "PHP": 1, 
+            "Product Management": 1, 
+            "Python": 1, 
+            "SQL": 2, 
+            "jQuery": 3
+        }
+    }
+}

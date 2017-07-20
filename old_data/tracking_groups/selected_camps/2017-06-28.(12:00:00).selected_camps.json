@@ -1,0 +1,1526 @@
+{
+    "Academy Pittsburgh": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {}, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Pittsburgh"
+        ], 
+        "name": "Academy Pittsburgh", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "free to qualified candidates, with priority to people from groups underrepresented in tech", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps,Front-End Development", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "website": "http://www.academypgh.com/"
+    }, 
+    "App Academy": {
+        "accreditation": "None", 
+        "courses": {
+            "Bootcamp Prep (New York City)": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Bootcamp Prep (New York City)", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Node.js"
+                ]
+            }, 
+            "Bootcamp Prep (San Francisco)": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Bootcamp Prep (San Francisco)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "Node.js"
+                ]
+            }, 
+            "Full Stack Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Full Stack Web Development", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "SQL", 
+                    "jQuery", 
+                    "Design", 
+                    "Ruby", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 192, 
+        "cr_rating": 4.66, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "jQuery", 
+            "Design", 
+            "Ruby", 
+            "User Experience Design", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "email": "contact@appacademy.io", 
+        "facebook": "https://www.facebook.com/hashmaplabs", 
+        "housing": "App Academy has a partnership with\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco", 
+            "New York City"
+        ], 
+        "name": "App Academy", 
+        "num_courses": 3, 
+        "num_locations": 2, 
+        "scholarships": [
+            "$500 App Academy Scholarship", 
+            "$500 App Academy Scholarship"
+        ], 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "jQuery", 
+            "Design", 
+            "Ruby", 
+            "User Experience Design", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "https://www.appacademy.io/"
+    }, 
+    "Code Platoon": {
+        "average_salary": 66000, 
+        "class_ratio": 6, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Web Developer": {
+                "Class Size": 15, 
+                "Cost": 13000, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Web Developer", 
+                "Hours/Week": 70, 
+                "Length": 14, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "CSS", 
+                    "PostgreSQL", 
+                    "Ruby", 
+                    "Ruby on Rails", 
+                    "SQL", 
+                    "Test-driven development (TDD)"
+                ]
+            }
+        }, 
+        "hiring_rate": 85.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Chicago"
+        ], 
+        "name": "Code Platoon", 
+        "num_alumni": 9, 
+        "num_locations": 1, 
+        "scholarships": "$10,500 Veteran Scholarship, $500 Women In Technology Scholarship, 1 Full Scholarship Transgender", 
+        "su_num_reviews": 3, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Test-driven development (TDD)"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "Algorithms", 
+            "CSS", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Test-driven development (TDD)"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "website": "http://www.codeplatoon.org/"
+    }, 
+    "Codesmith": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$$", 
+        "courses": {
+            "Full Stack Software Engineering Immersion Program": {
+                "Class Size": 20, 
+                "Cost": 17200, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Full Stack Software Engineering Immersion Program", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "2017-07-24", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Express", 
+                    "Javascript", 
+                    "MongoDB", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Los Angeles"
+        ], 
+        "name": "Codesmith", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "Codesmith Scholarship: $8,600 and $4,300 eligibility: https://www.codesmith.io/faq#scholarships", 
+        "su_num_reviews": 22, 
+        "su_rating": 4.91, 
+        "su_technologies": [
+            "AngularJS", 
+            "Express.js", 
+            "JavaScript", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "AngularJS", 
+            "Express.js", 
+            "JavaScript", 
+            "MongoDB", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "website": "http://www.codesmith.io/"
+    }, 
+    "Dev Bootcamp": {
+        "accreditation": "None", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Web Development": {
+                "Cost": 13950, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 40, 
+                "Length": 18, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "SQL", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 145, 
+        "cr_rating": 4.33, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra"
+        ], 
+        "email": "hello@devbootcamp.com", 
+        "facebook": "https://www.facebook.com/devbootcamp", 
+        "hiring_rate": null, 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco", 
+            "Chicago", 
+            "San Diego", 
+            "Austin", 
+            "Seattle", 
+            "New York City"
+        ], 
+        "name": "Dev Bootcamp", 
+        "num_alumni": 2800, 
+        "num_courses": 1, 
+        "num_locations": 6, 
+        "scholarships": "Take $500 Off Tuition at Dev Bootcamp!", 
+        "su_num_reviews": 45, 
+        "su_rating": 4.07, 
+        "su_technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "Algorithms", 
+            "CSS", 
+            "HTML", 
+            "JavaScript", 
+            "PostgreSQL", 
+            "Ruby", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Sinatra"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "visas": "No", 
+        "website": "http://devbootcamp.com/"
+    }, 
+    "Devmountain": {
+        "accreditation": "Certification available. ", 
+        "courses": {
+            "Ios After Hours": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "iOS After Hours", 
+                "Hours/Week": 11, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Swift", 
+                    "iOS", 
+                    "Xcode", 
+                    "Design", 
+                    "Mobile", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Ios Development Immersive": {
+                "Cost": 10900, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "iOS Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Swift", 
+                    "iOS", 
+                    "Xcode", 
+                    "Objective-C", 
+                    "Design", 
+                    "Mobile", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Software Qa Testing Immersive": {
+                "Cost": 7500, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "Software QA Testing Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Git"
+                ]
+            }, 
+            "Ui/Ux Design After Hours": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Provo"
+                ], 
+                "Course Title": "UI/UX Design After Hours", 
+                "Hours/Week": 11, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Ux Design Immersive": {
+                "Cost": 10900, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "UX Design Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Design", 
+                    "Product Management", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Web Development After Hours": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "Web Development After Hours", 
+                "Hours/Week": 11, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Immersive": {
+                "Cost": 10900, 
+                "Course Location": [
+                    "Phoenix"
+                ], 
+                "Course Title": "Web Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "SQL", 
+                    "jQuery", 
+                    "Design", 
+                    "Product Management", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 171, 
+        "cr_rating": 4.69, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Design", 
+            "User Experience Design", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "Objective-C", 
+            "Product Management", 
+            "MySQL", 
+            "Front End", 
+            "SQL"
+        ], 
+        "email": "admissions@devmountain.com", 
+        "facebook": "https://www.facebook.com/DevMountain", 
+        "housing": "\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Provo", 
+            "Salt Lake City", 
+            "Dallas", 
+            "Phoenix"
+        ], 
+        "name": "Devmountain", 
+        "num_courses": 7, 
+        "num_locations": 4, 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Design", 
+            "User Experience Design", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "Objective-C", 
+            "Product Management", 
+            "MySQL", 
+            "Front End", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://devmountain.com"
+    }, 
+    "Flatiron School": {
+        "accreditation": "None", 
+        "courses": {
+            "Community-Powered Bootcamp": {
+                "Cost": 149, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Community-Powered Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "Rails", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Online Web Developer Program": {
+                "Cost": 1000, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Online Web Developer Program", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Immersive": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Web Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 150, 
+        "cr_rating": 4.72, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "email": "info@flatironschool.com", 
+        "facebook": "https://www.facebook.com/FlatironSchool", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "New York City", 
+            "Online"
+        ], 
+        "name": "Flatiron School", 
+        "num_courses": 3, 
+        "num_locations": 2, 
+        "scholarships": "$500 Flatiron School Scholarship", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://flatironschool.com/"
+    }, 
+    "Hack Reactor": {
+        "accreditation": "None", 
+        "average_salary": 104000, 
+        "class_ratio": null, 
+        "cost_estimate": "$$$$", 
+        "courses": {
+            "Hack Reactor": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Hack Reactor", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Hack Reactor Remote": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Hack Reactor Remote", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Bootcamp": {
+                "Class Size": 32, 
+                "Cost": 17780, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Web Development Bootcamp", 
+                "Hours/Week": 80, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Javascript"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 138, 
+        "cr_rating": 4.51, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ], 
+        "email": "admissions@hackreactor.com", 
+        "facebook": "https://www.facebook.com/hackreactor", 
+        "hiring_rate": 98.0, 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco", 
+            "Online", 
+            "New York City", 
+            "Los Angeles", 
+            "Austin", 
+            "San Francisco"
+        ], 
+        "name": "Hack Reactor", 
+        "num_alumni": "N/A", 
+        "num_courses": 2, 
+        "num_locations": 6, 
+        "su_num_reviews": 14, 
+        "su_rating": 4.29, 
+        "su_technologies": [
+            "JavaScript"
+        ], 
+        "subjects": "Coding Bootcamps,Online Courses,Full-Stack Web Development", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "visas": "No", 
+        "website": "http://hackreactor.com/"
+    }, 
+    "Hackbright Academy": {
+        "average_salary": 92000, 
+        "class_ratio": 4, 
+        "cost_estimate": "$$$$", 
+        "courses": {
+            "Software Engineering Fellowship": {
+                "Cost": 16570, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Software Engineering Fellowship", 
+                "Hours/Week": 40, 
+                "Length": 12, 
+                "Start Date": "2017-07-03", 
+                "Subjects": [
+                    "CSS", 
+                    "Django", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "Python", 
+                    "SQL"
+                ]
+            }
+        }, 
+        "hiring_rate": 90.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco"
+        ], 
+        "name": "Hackbright Academy", 
+        "num_alumni": 450, 
+        "num_locations": 1, 
+        "scholarships": "Full list of scholarships can be found here: hackbrightacademy.com/scholarships/", 
+        "su_num_reviews": 15, 
+        "su_rating": 3.47, 
+        "su_technologies": [
+            "CSS", 
+            "Django", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "Python", 
+            "SQL"
+        ], 
+        "subjects": "Coding Bootcamps,Data Science,Women Coding Bootcamps", 
+        "technologies": [
+            "CSS", 
+            "Django", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "Python", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "website": "https://hackbrightacademy.com/courses/fellowship/?utm_campaign=Fellowship%20Push&utm_medium=Display%20Ad&utm_source=SwitchUp%20Ads"
+    }, 
+    "Ironhack": {
+        "accreditation": "Licensed by the Florida Dept. of Education ", 
+        "courses": {
+            "Ux/Ui Design": {
+                "Cost": null, 
+                "Course Location": [
+                    "Paris"
+                ], 
+                "Course Title": "UX/UI Design", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "Design", 
+                    "Product Management", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Wordpress"
+                ]
+            }, 
+            "Web Development Bootcamp (Full-Time) ": {
+                "Cost": null, 
+                "Course Location": [
+                    "Paris"
+                ], 
+                "Course Title": "Web Development Bootcamp (Full-time) ", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Part-Time": {
+                "Cost": null, 
+                "Course Location": [
+                    "Paris"
+                ], 
+                "Course Title": "Web Development Part-Time", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 178, 
+        "cr_rating": 4.9, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MongoDB", 
+            "Git", 
+            "Express.js", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "jQuery", 
+            "SQL", 
+            "React.js", 
+            "MySQL", 
+            "Product Management", 
+            "Wordpress"
+        ], 
+        "email": "hi@ironhack.com", 
+        "facebook": "https://www.facebook.com/theironhack", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Miami", 
+            "Madrid", 
+            "Barcelona", 
+            "Paris"
+        ], 
+        "name": "Ironhack", 
+        "num_courses": 3, 
+        "num_locations": 4, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MongoDB", 
+            "Git", 
+            "Express.js", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "jQuery", 
+            "SQL", 
+            "React.js", 
+            "MySQL", 
+            "Product Management", 
+            "Wordpress"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://www.ironhack.com/en/"
+    }, 
+    "Prime Digital Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": 10, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Software Engineering Academy - Cohort 1": {
+                "Class Size": 20, 
+                "Cost": 12500, 
+                "Course Location": [
+                    "Minneapolis"
+                ], 
+                "Course Title": "Software Engineering Academy - Cohort 1", 
+                "Hours/Week": 60, 
+                "Length": 18, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Node.js"
+                ]
+            }, 
+            "Software Engineering Academy - Cohort 2": {
+                "Class Size": 20, 
+                "Cost": 12500, 
+                "Course Location": [
+                    "Minneapolis"
+                ], 
+                "Course Title": "Software Engineering Academy - Cohort 2", 
+                "Hours/Week": 60, 
+                "Length": 18, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Express", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Minneapolis"
+        ], 
+        "name": "Prime Digital Academy", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "$1,000 for women, $500 for veterans", 
+        "su_num_reviews": 4, 
+        "su_rating": 4.75, 
+        "su_technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Node.js"
+        ], 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "AngularJS", 
+            "CSS", 
+            "Data Structures", 
+            "Express.js", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "website": "http://primeacademy.io"
+    }, 
+    "Software Guild": {
+        "average_salary": 55000, 
+        "class_ratio": 12, 
+        "cost_estimate": "$$", 
+        "courses": {
+            ".Net Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Cost": 10000, 
+                "Course Location": [
+                    "Akron"
+                ], 
+                "Course Title": ".NET Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Location": [
+                    "Akron"
+                ], 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "AngularJS", 
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Javascript", 
+                    ".NET", 
+                    "SQL"
+                ], 
+                "Title": ".NET Web Developer Bootcamp"
+            }, 
+            "Java Web Developer Bootcamp": {
+                "Class Size": 16, 
+                "Course Title": "Java Web Developer Bootcamp", 
+                "Hours/Week": 60, 
+                "Length": 12, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "CSS", 
+                    "Data Structures", 
+                    "HTML", 
+                    "Java", 
+                    "Javascript", 
+                    "jQuery", 
+                    "MySQL"
+                ], 
+                "Title": "Java Web Developer Bootcamp"
+            }
+        }, 
+        "general_cost": "$$", 
+        "hiring_rate": 95.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Akron", 
+            "Louisville", 
+            "Minneapolis", 
+            "Cleveland", 
+            "Online"
+        ], 
+        "name": "Software Guild", 
+        "num_alumni": "N/A", 
+        "num_locations": 5, 
+        "su_num_reviews": 23, 
+        "su_rating": 4.78, 
+        "su_technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "subjects": "Coding Bootcamps,Mobile Development,Full-Stack Web Development,Online Courses", 
+        "technologies": [
+            "CSS", 
+            "Data Structures", 
+            "HTML", 
+            "Java", 
+            "JavaScript", 
+            "jQuery", 
+            "MySQL", 
+            "AngularJS", 
+            ".NET", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Current Market", 
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "website": "http://www.swcguild.com"
+    }, 
+    "Telegraph Academy": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {}, 
+        "general_cost": "$", 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": null, 
+        "name": "Telegraph Academy", 
+        "num_alumni": "N/A", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "website": "http://getcoding.hackreactor.com/telegraph-academy/"
+    }, 
+    "The Tech Academy": {
+        "average_salary": 60000, 
+        "class_ratio": 20, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Software Developer Boot Camp": {
+                "Class Size": 150, 
+                "Cost": 7980, 
+                "Course Location": [
+                    "Online", 
+                    "Portland"
+                ], 
+                "Course Title": "Software Developer Boot Camp", 
+                "Hours/Week": 40, 
+                "Length": 15, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Algorithms", 
+                    "C#", 
+                    "CSS", 
+                    "Data Structures", 
+                    "Design Principles", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery", 
+                    "Mobile", 
+                    ".NET", 
+                    ".NET", 
+                    "PHP", 
+                    "Product Mgmt", 
+                    "Python", 
+                    "SQL"
+                ]
+            }
+        }, 
+        "hiring_rate": 90.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Portland", 
+            "Online"
+        ], 
+        "name": "The Tech Academy", 
+        "num_alumni": 180, 
+        "num_locations": 2, 
+        "scholarships": "Scholarship offered to students who commit to a 40 hour schedule.", 
+        "su_num_reviews": 103, 
+        "su_rating": 4.9, 
+        "su_technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "SQL"
+        ], 
+        "subjects": "Digital Marketing,Coding Bootcamps,Web Design (UX/UI)", 
+        "technologies": [
+            "Algorithms", 
+            "C#", 
+            "CSS", 
+            "Data Structures", 
+            "Design Principles", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery", 
+            "Mobile", 
+            ".NET", 
+            "PHP", 
+            "Product Management", 
+            "Python", 
+            "SQL"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "website": "http://learncodinganywhere.com/"
+    }, 
+    "Think Academy": {
+        "average_salary": 50, 
+        "class_ratio": null, 
+        "cost_estimate": "$", 
+        "courses": {
+            "Front End Web Developer Career Course - Online Campus": {
+                "Cost": 4999, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Front End Web Developer Career Course - Online Campus", 
+                "Hours/Week": 30, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Bootstrap", 
+                    "CSS", 
+                    "Git", 
+                    "HTML", 
+                    "Javascript", 
+                    "jQuery"
+                ]
+            }
+        }, 
+        "hiring_rate": 90.0, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "New York City"
+        ], 
+        "name": "Think Academy", 
+        "num_alumni": 15, 
+        "num_locations": 1, 
+        "scholarships": "10% - Scholarships available for underrepresented groups in tech including women and veterans. Email help@thinkacademy.io to inquire about eligibility!", 
+        "su_num_reviews": 1, 
+        "su_rating": 5.0, 
+        "su_technologies": [
+            "Bootstrap", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery"
+        ], 
+        "subjects": "Coding Bootcamps,Front-End Development,Full-Stack Web Development", 
+        "technologies": [
+            "Bootstrap", 
+            "CSS", 
+            "Git", 
+            "HTML", 
+            "JavaScript", 
+            "jQuery"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "website": "http://thinkacademy.io/"
+    }, 
+    "Wyncode": {
+        "accreditation": "Licensed by the Commission for Independent Education, Florida Department of Education.", 
+        "courses": {
+            "Full-Time Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "Full-time Web Development", 
+                "Hours/Week": 9, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }, 
+            "Part-Time Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "Part-time Web Development", 
+                "Hours/Week": 9, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "HTML", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 141, 
+        "cr_rating": 4.62, 
+        "cr_technologies": [
+            "Front End", 
+            "HTML", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "JavaScript"
+        ], 
+        "email": "weare@wyncode.co", 
+        "facebook": "https://www.facebook.com/wyncode", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Miami"
+        ], 
+        "name": "Wyncode", 
+        "num_courses": 2, 
+        "num_locations": 1, 
+        "technologies": [
+            "Front End", 
+            "HTML", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "JavaScript"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://www.wyncode.co"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [
+            "Software Guild"
+        ], 
+        "Date/Time": "2017-06-28 12:16:41", 
+        "Days Out": 289, 
+        "Number of Entries": 16, 
+        "Potential Market": [
+            "Academy Pittsburgh"
+        ], 
+        "locations": {
+            "Akron": 1, 
+            "Austin": 2, 
+            "Barcelona": 1, 
+            "Chicago": 2, 
+            "Cleveland": 1, 
+            "Dallas": 1, 
+            "Los Angeles": 2, 
+            "Louisville": 1, 
+            "Madrid": 1, 
+            "Miami": 2, 
+            "Minneapolis": 2, 
+            "New York City": 5, 
+            "Online": 4, 
+            "Paris": 1, 
+            "Phoenix": 1, 
+            "Pittsburgh": 1, 
+            "Portland": 1, 
+            "Provo": 1, 
+            "Salt Lake City": 1, 
+            "San Diego": 1, 
+            "San Francisco": 5, 
+            "Seattle": 1
+        }, 
+        "technologies": {
+            ".NET": 2, 
+            "Algorithms": 3, 
+            "AngularJS": 5, 
+            "Bootstrap": 1, 
+            "C#": 1, 
+            "CSS": 13, 
+            "Data Structures": 3, 
+            "Design": 3, 
+            "Design Principles": 1, 
+            "Django": 1, 
+            "Express.js": 4, 
+            "Front End": 4, 
+            "Git": 7, 
+            "HTML": 12, 
+            "Java": 1, 
+            "JavaScript": 13, 
+            "Mobile": 2, 
+            "MongoDB": 3, 
+            "MySQL": 3, 
+            "Node.js": 6, 
+            "Objective-C": 1, 
+            "PHP": 1, 
+            "PostgreSQL": 2, 
+            "Product Management": 3, 
+            "Python": 2, 
+            "React.js": 4, 
+            "Ruby": 5, 
+            "Ruby on Rails": 5, 
+            "SQL": 9, 
+            "Sinatra": 2, 
+            "Swift": 1, 
+            "Test-driven development (TDD)": 1, 
+            "User Experience Design": 3, 
+            "Wordpress": 1, 
+            "Xcode": 1, 
+            "iOS": 1, 
+            "jQuery": 7
+        }
+    }
+}

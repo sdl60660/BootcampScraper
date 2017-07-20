@@ -3,7 +3,7 @@ Current Market,Tracking Group
 Potential Market,Tracking Group
 Top Camp,Tracking Group
 Selected Camp,Tracking Group
-Closer Academy,Bootcamp
+Actualize,Bootcamp
 last_updated,Category
 cr_rating,Category
 twitter,Category
@@ -37,55 +37,49 @@ Hours/Week,Course Attribute
 Minimum Skill,Course Attribute
 Part Or Full,Course Attribute
 cr_num_reviews,Category
-Los Angeles,Location
-Sales,Technology
-Actualize,Bootcamp
-hiring_rate,Category
-subjects,Category
-scholarships,Category
-class_ratio,Category
-average_salary,Category
-num_alumni,Category
-su_technologies,Category
-general_cost,Category
-su_rating,Category
-cost_estimate,Category
-Class Size,Course Attribute
-Title,Course Attribute
-Length,Course Attribute
-Location,Course Attribute
-Start Date,Course Attribute
-su_num_reviews,Category
 Chicago,Location
 San Francisco,Location
 New York City,Location
+Online,Location
 AngularJS,Technology
-CSS,Technology
-Git,Technology
-HTML,Technology
 JavaScript,Technology
+HTML,Technology
+Git,Technology
 Ruby on Rails,Technology
-SQL,Technology
 Ruby,Technology
+CSS,Technology
+SQL,Technology
+Beginex,Bootcamp
+class_ratio,Category
+cost_estimate,Category
+hiring_rate,Category
+average_salary,Category
+Class Size,Course Attribute
+Length,Course Attribute
+Start Date,Course Attribute
+num_alumni,Category
+su_rating,Category
+su_num_reviews,Category
+subjects,Category
+su_technologies,Category
 Pen And Paper Coding,Bootcamp
 NoLang,Technology
 Coder Manual,Bootcamp
+general_cost,Category
 Smart Factory,Bootcamp
 Minneapolis,Location
-Android,Technology
-iOS,Technology
-Java,Technology
-SEO,Technology
 Codepath,Bootcamp
+iOS,Technology
 Swift,Technology
 Objective-C,Technology
 Mobile,Technology
+Android,Technology
 Vital Accelerator,Bootcamp
-Online,Location
 Milwaukee,Location
 Appleton,Location
 Madison,Location
 Algorithms,Technology
+Java,Technology
 jQuery,Technology
 .NET,Technology
 Python,Technology
@@ -93,37 +87,32 @@ Data Science,Technology
 Manifest Agility Boot Camp,Bootcamp
 Learntech Labs,Bootcamp
 The Grace Hopper Program,Bootcamp
+Node.js,Technology
 Express.js,Technology
 React.js,Technology
-Node.js,Technology
-HackSchool,Bootcamp
-Monterrey,Location
+C4Q Access Code Access Code,Bootcamp
+Codeacamp,Bootcamp
+Mexico City,Location
+MySQL,Technology
 Austin Community College Continuing Education,Bootcamp
 Austin,Location
 Lumenbrite,Bootcamp
 Orange County Code School,Bootcamp
 Irvine,Location
 Orange County,Location
-Data Structures,Technology
-MongoDB,Technology
-Design,Technology
 Simplon,Bootcamp
 Cluj,Location
 Paris,Location
 User Experience Design,Technology
 Omaha Code School,Bootcamp
 Omaha,Location
-CoffeeScript,Technology
-Sinatra,Technology
+"The Coding Forum,",Bootcamp
 Rmotr,Bootcamp
-MySQL,Technology
+Front End,Technology
 Django,Technology
+MongoDB,Technology
 Dev/Iowa Bootcamp,Bootcamp
 Iowa City,Location
-Tech Elevator,Bootcamp
-Cleveland,Location
-Columbus,Location
-C#,Technology
 Coderhouse,Bootcamp
 Buenos Aires,Location
 Montevideo,Location
@@ -131,25 +120,23 @@ Santiago,Location
 Digital Marketing,Technology
 Codeclan,Bootcamp
 Edinburgh,Location
-Front End,Technology
+Sinatra,Technology
 Array School Of Technology And Design,Bootcamp
 Cheyenne,Location
-Code University,Bootcamp
-Berlin,Location
-Product Management,Technology
+Design,Technology
+Wordpress,Technology
+SEO,Technology
 Startup Institute,Bootcamp
 Boston,Location
-Design Principles,Technology
-UX,Technology
-Business,Technology
-Entrepreneurship,Technology
-Responsive Design,Technology
-R,Technology
 Growth Hacking,Technology
-Wordpress,Technology
+PHP,Technology
 Xcode,Technology
+Product Management,Technology
+Sales,Technology
 Helio Training Bootcamp,Bootcamp
+scholarships,Category
 Salt Lake City,Location
+C#,Technology
 Game Development,Technology
 Skill Distillery,Bootcamp
 Denver,Location
@@ -163,80 +150,74 @@ Galvanize,Bootcamp
 Boulder,Location
 Seattle,Location
 Phoenix,Location
-Data Visualization,Technology
-Database design,Technology
 Hadoop,Technology
 Spark,Technology
-Ucf Coding Bootcamp,Bootcamp
-Orlando,Location
-Fort Lauderdale,Location
-Heroku,Technology
-User Authentication,Technology
-Laravel,Technology
+Machine Learning,Technology
 Codecamp Charleston,Bootcamp
 Charleston,Location
-C++,Technology
-PHP,Technology
-Clojure,Technology
-Scala,Technology
 Digital House,Bootcamp
 Sd Code Bootcamp,Bootcamp
 Sioux Falls,Location
-Springboard,Bootcamp
-Excel,Technology
+Nyc Data Science Academy,Bootcamp
+R,Technology
 Green Fox Academy,Bootcamp
 Budapest,Location
-Logit Academy,Bootcamp
 Code Fever,Bootcamp
 Miami,Location
 Savvy Coders,Bootcamp
 Nashville,Location
+University Of Richmond Coding Boot Camp,Bootcamp
+Richmond,Location
 Icancode,Bootcamp
 Hyderabad,Location
 The Tech Academy,Bootcamp
 Portland,Location
+Data Structures,Technology
+Design Principles,Technology
 ASP.NET,Technology
 "Ine, Inc",Bootcamp
-The Coding Bootcamp At Unc Chapel Hill,Bootcamp
-Chapel Hill,Location
-Bootstrap,Technology
+Berkeley Boot Camps,Bootcamp
+Excel,Technology
+University Of Miami Coding Boot Camp ,Bootcamp
 Code Career Academy,Bootcamp
 Atlanta,Location
-ASP.NET MVC,Technology
 Palm Beach Code School,Bootcamp
 Palm Beach,Location
 Sydney Dev Camp,Bootcamp
 Sydney,Location
 Tutorials Point,Bootcamp
+Project Shift,Bootcamp
+Durham,Location
+Raleigh,Location
 Montana Code School,Bootcamp
 Missoula,Location
 Bozeman,Location
+Bootstrap,Technology
+Database design,Technology
+Heroku,Technology
+Responsive Design,Technology
 Scrum,Technology
 Test-driven development (TDD),Technology
 UX Design,Technology
+Up Academy,Bootcamp
+Lisbon,Location
 Codeabode,Bootcamp
-Unc Charlotte Coding Boot Camp,Bootcamp
-Charlotte,Location
-Bookshelf.js,Technology
-Command line,Technology
-Northwestern Coding Bootcamp,Bootcamp
 Codeworks,Bootcamp
 Barcelona,Location
-Cyber Security,Technology
-Linux,Technology
-Phonegap,Technology
-PostgreSQL,Technology
 Insight,Bootcamp
 Silicon Valley,Location
 Tech901,Bootcamp
 Memphis,Location
-Codeschool,Bootcamp
+C++,Technology
+Northwestern Coding Boot Camps,Bootcamp
 Covalence,Bootcamp
 Birmingham,Location
 Chattanooga,Location
 Code Chrysalis,Bootcamp
 Tokyo,Location
-Turing School Of Software And Design,Bootcamp
+User Authentication,Technology
+HackSchool,Bootcamp
+Monterrey,Location
 Misterbit Coding Academy,Bootcamp
 Ramat Gan,Location
 Hackerforge,Bootcamp
@@ -248,31 +229,18 @@ Hybrid (Online & In-person),Location
 Treehouse,Bootcamp
 Georgia Tech Coding Boot Camp,Bootcamp
 Savannah,Location
-Codecademy,Bootcamp
-Next Academy,Bootcamp
-Singapore,Location
-Kuala Lumpur,Location
-Rutgers Coding Bootcamp,Bootcamp
-Jersey City,Location
-Somerset,Location
-Koru,Bootcamp
-Southern Methodist University Coding Boot Camp,Bootcamp
-Dallas,Location
+The Dev School,Bootcamp
+Nairobi,Location
 Go-Live Labs,Bootcamp
 The Coding Boot Camp At Unc Charlotte,Bootcamp
+Charlotte,Location
 We Got Coders,Bootcamp
 London,Location
-Photoshop,Technology
 Tech Career Booster,Bootcamp
 Athens,Location
-Behavior Driven Development (BDD),Technology
-Jasmine,Technology
-Neo4j,Technology
-NoSQL,Technology
-Sass,Technology
-TCP/IP,Technology
 Flatiron School,Bootcamp
 Byte Academy,Bootcamp
+Singapore,Location
 Bangalore,Location
 Geekskool,Bootcamp
 Ada Developers Academy,Bootcamp
@@ -282,69 +250,63 @@ Codez Academy ,Bootcamp
 Wales,Location
 Free Code Camp,Bootcamp
 Code Fellows,Bootcamp
-Cocoa,Technology
 Apprentice.Io,Bootcamp
 Epicu,Bootcamp
+Dallas,Location
 Coded Kuwait,Bootcamp
 Kuwait City,Location
 Keepcoding ,Bootcamp
 Madrid,Location
+Cocoa,Technology
 Thoughtkite,Bootcamp
 Toronto,Location
 Big Sky Code Academy,Bootcamp
 Billings,Location
 Helena,Location
+"
+        ",Technology
 Codeu,Bootcamp
 Appjamming,Bootcamp
 Coded,Bootcamp
-Dev League,Bootcamp
-Honolulu,Location
 American Graphics Institute,Bootcamp
 University Of Arizona Coding Boot Camp,Bootcamp
-Uc San Diego Coding Boot Camp,Bootcamp
-San Diego,Location
 Parsec Group,Bootcamp
-Coding Boot Camp At Ut Austin,Bootcamp
-Houston,Location
-National American University Coding Bootcamp,Bootcamp
-Coding Bootcamp At Ut Austin,Bootcamp
-Security and Session Storage,Technology
-Gainesville Dev Academy,Bootcamp
-Gainesville,Location
+Academy X,Bootcamp
+Los Angeles,Location
 Acc Web Developer Bootcamp,Bootcamp
-Rmotr Com,Bootcamp
 Uc Berkeley Data Science,Bootcamp
 Berkeley,Location
 10X.Org.Il,Bootcamp
 Tel Aviv,Location
 Davinci Coders,Bootcamp
-Game Design,Technology
-UI Design,Technology
 Softstack Factory,Bootcamp
+San Diego,Location
 Blur State,Bootcamp
 Fayetteville,Location
+Unit Factory,Bootcamp
+Kiev,Location
 Lambda School,Bootcamp
 Hack Reactor,Bootcamp
 Cribb,Bootcamp
 Code Bootcamp Usa,Bootcamp
+Gainesville,Location
 Moringa School,Bootcamp
-Nairobi,Location
 Grand Circus,Bootcamp
 Detroit,Location
+Grand Rapids,Location
 Bottega,Bootcamp
 Scottsdale,Location
-George Washington University Coding Boot Camp,Bootcamp
-Arlington,Location
 Plataforma 5,Bootcamp
 Tech Talent South,Bootcamp
 Asheville,Location
-Raleigh,Location
 New Orleans,Location
 Jacksonville,Location
 Wilmington,Location
+Columbus,Location
 San Antonio,Location
 Craftsmanship Academy,Bootcamp
 Inceptures Software School,Bootcamp
+Fort Lauderdale,Location
 Open Cloud Academy,Bootcamp
 Academy Pittsburgh,Bootcamp
 Pittsburgh,Location
@@ -352,36 +314,35 @@ Deep Dive Coding,Bootcamp
 Albuquerque,Location
 Boisecodeworks,Bootcamp
 Boise,Location
+Bytecamp,Bootcamp
+Houston,Location
 Codez Academy,Bootcamp
 Knowledgenet,Bootcamp
 Coder Foundry,Bootcamp
 Greensboro,Location
 Telegraph Academy,Bootcamp
 Product School,Bootcamp
-Inside Sales Bootcamp,Bootcamp
-Devschool,Bootcamp
-Academy X,Bootcamp
 Stackademy,Bootcamp
-Grace Hopper Program,Bootcamp
-Goit,Bootcamp
+Berlin,Location
 Awesome Inc U,Bootcamp
 Lexington,Location
-Rocket U,Bootcamp
 Science To Data Science,Bootcamp
-Jaaga,Bootcamp
+Code For Progress,Bootcamp
+Washington,Location
 Learners Guild,Bootcamp
 Oakland,Location
 Hackbright Academy,Bootcamp
+San Jose,Location
 Bov Academy,Bootcamp
 Digital Citizen,Bootcamp
 Redwood Code Academy,Bootcamp
+Title,Course Attribute
+Location,Course Attribute
+ASP.NET MVC,Technology
 San Antonio Coding Academy,Bootcamp
 Cincy Code It,Bootcamp
 Cincinnati,Location
-Insight Data Science,Bootcamp
 Data Application Lab,Bootcamp
-Codingschool,Bootcamp
-Statistics & Probability,Technology
 Lighthouse Labs,Bootcamp
 Vancouver,Location
 Montreal,Location
@@ -394,15 +355,16 @@ Cyber Retraining Academy,Bootcamp
 Academic Work Academy,Bootcamp
 Stockholm,Location
 Digitalcrafts,Bootcamp
-Dev Mountain,Bootcamp
-Provo,Location
-Sketch,Technology
 Decodemtl,Bootcamp
+Viking Code School,Bootcamp
 Ehd Academy,Bootcamp
+University Of Kansas Coding Boot Camp,Bootcamp
+Kansas City,Location
 meta,Meta
 Codaisseur,Bootcamp
 Amsterdam,Location
 Devmountain,Bootcamp
+Provo,Location
 App Coda,Bootcamp
 Midwest Hacker School,Bootcamp
 Mindteck Academy,Bootcamp
@@ -412,15 +374,15 @@ Growthx Academy,Bootcamp
 Turntotech,Bootcamp
 Elium Academy,Bootcamp
 Brussels,Location
+Codestream Labs,Bootcamp
 Dev Academy,Bootcamp
 Wellington,Location
 Designlab,Bootcamp
-Illustrator,Technology
 Bitmaker Labs,Bootcamp
-Depot/U,Bootcamp
 Coder Cadre,Bootcamp
+Ut Austin Boot Camps,Bootcamp
 Base10 Academy,Bootcamp
-Coding Bootcamp At Ucla Extension,Bootcamp
+Gainesville Dev Academy,Bootcamp
 Careerfoundry,Bootcamp
 Florida Vocational Institute,Bootcamp
 Think Academy,Bootcamp
@@ -430,109 +392,93 @@ Epicodus,Bootcamp
 App Academy,Bootcamp
 Wethinkcode_,Bootcamp
 Johannesburg,Location
-Impekable Design Workshop,Bootcamp
-Fort Collins,Location
-San Jose,Location
 Academy,Bootcamp
-The Hacking School,Bootcamp
-Code Cloud,Bootcamp
 Barcelona Code School,Bootcamp
-Logic Room,Bootcamp
-Mobile Makers Edu,Bootcamp
-Makersquare,Bootcamp
-Coderoute,Bootcamp
 Designation,Bootcamp
-Axure,Technology
 Monroe College Tech Boot Camp,Bootcamp
 Interview Kickstart,Bootcamp
 Sunnyvale,Location
 Academia De C\Xf3Digo,Bootcamp
-Lisbon,Location
-Berkeley Coding Boot Camp,Bootcamp
-Zipfian Academy,Bootcamp
+Gw Boot Camps,Bootcamp
+Arlington,Location
+Code,Bootcamp
 Launch Academy,Bootcamp
 Philadelphia,Location
+PostgreSQL,Technology
 Mente Argentina,Bootcamp
-Frontend Foundry,Bootcamp
 The Coding Boot Camp At Uc San Diego Extension,Bootcamp
 Startup Ignition,Bootcamp
+Entrepreneurship,Technology
 Umass Amherst Coding Boot Camp,Bootcamp
 Software Tester Bootcamp,Bootcamp
-Wyncode,Bootcamp
+Principal Analytics Prep,Bootcamp
 Reactjs Academy,Bootcamp
-Origin Code Academy,Bootcamp
 Devleague,Bootcamp
-Fire Bootcamp,Bootcamp
-Brisbane,Location
-Melbourne,Location
+Honolulu,Location
+Queens Tech Academy,Bootcamp
 Prime Digital Academy,Bootcamp
 23 Code Street,Bootcamp
 Geekwise Academy,Bootcamp
 Fresno,Location
-Makers Academy,Bootcamp
 Code Union,Bootcamp
-Devschool Io,Bootcamp
-The Coding Forum,Bootcamp
-University Of Utah Professional Education Coding Boot Camp,Bootcamp
+Keepcoding,Bootcamp
 Case Western Reserve University Coding Boot Camp,Bootcamp
+Cleveland,Location
 Microsoft Research Data Science Summer School,Bootcamp
-Steer,Bootcamp
-Coder Factory Academy,Bootcamp
+Wyncode,Bootcamp
 Evolve Security Academy,Bootcamp
 University Of Denver Coding Boot Camp,Bootcamp
 The Iron Yard,Bootcamp
 Greenville,Location
 Indianapolis,Location
 Las Vegas,Location
-Durham,Location
+Orlando,Location
 Tampa,Location
-Washington,Location
-Portland Code School,Bootcamp
 New York Code + Design Academy,Bootcamp
-Web Services,Technology
-First Step Coding,Bootcamp
-Washington DC,Location
-Santa Clara,Location
 Centriq Training,Bootcamp
-Kansas City,Location
 Fullstack Academy,Bootcamp
 Go,Technology
 Israel Tech Challenge,Bootcamp
-Turn To Tech,Bootcamp
-Refactoru,Bootcamp
+Refactory,Bootcamp
+Bandung,Location
 4Geeks Academy,Bootcamp
 Caracas,Location
+UX,Technology
+Coder Space,Bootcamp
+Liverpool,Location
 Square Code Camp,Bootcamp
 Accelerate,Bootcamp
 Hong Kong,Location
-Code For Progress,Bootcamp
 Rsquare Edge,Bootcamp
 Spiced Academy,Bootcamp
+NoSQL,Technology
+Rutgers Bootcamps,Bootcamp
+Jersey City,Location
+Somerset,Location
 Developme_,Bootcamp
 Bristol,Location
-Drupal,Technology
 Gocode Academy,Bootcamp
 Buckinghamshire,Location
-Nyc Data Science Academy,Bootcamp
+Atlantis Coding ,Bootcamp
 Ivy Data Science,Bootcamp
 Labsiot,Bootcamp
 Desafio Latam,Bootcamp
-Bogota,Location
 Digital Unicorn,Bootcamp
 Asi Data Science,Bootcamp
 Xtol Corp,Bootcamp
 Data Science Retreat,Bootcamp
-Gw Coding Bootcamp,Bootcamp
 Operation Spark,Bootcamp
 Nashville Software School,Bootcamp
 Level,Bootcamp
+Business,Technology
+Web Services,Technology
+Monroe Community\Xa0College,Bootcamp
+Rochester,Location
 Jademy,Bootcamp
 Bucharest,Location
 Cleveland Codes,Bootcamp
-Code District,Bootcamp
 Data Science Europe,Bootcamp
 Dublin,Location
-Qa Camp,Bootcamp
 Master 21 Academy,Bootcamp
 Zurich,Location
 Ikuw,Bootcamp
@@ -541,25 +487,23 @@ Tag Innovation School,Bootcamp
 Milan,Location
 Deltav Code School,Bootcamp
 Cedar Rapids,Location
-Viking Code School,Bootcamp
+The Dev Masters,Bootcamp
 Star City Code School,Bootcamp
 Lincoln,Location
-Decode Mtl,Bootcamp
+Software Development Academy,Bootcamp
 Coderversity,Bootcamp
 Houston Coding Academy,Bootcamp
-Code Berlin,Bootcamp
-October  1,Technology
-Dojo Dev Camp,Bootcamp
+Nirguna,Bootcamp
 Konexio,Bootcamp
 Coding Academy By Epitech,Bootcamp
-Edit Disruptive Digital Education,Bootcamp
-Porto,Location
 Make School,Bootcamp
+Beijing,Location
+Taichung City,Location
 Unity,Technology
-Code Builders,Bootcamp
 Launch School,Bootcamp
-General Assembly,Bootcamp
 Bitbootcamp,Bootcamp
+Tk2 Academy,Bootcamp
+Boca Raton,Location
 Silicon Stem Academy,Bootcamp
 Rockit Bootcamp,Bootcamp
 Le Wagon,Bootcamp
@@ -571,33 +515,22 @@ Rio de Janeiro,Location
 Nantes,Location
 Shanghai,Location
 Marseille,Location
+Chengdu,Location
+Belo Horizonte,Location
 Metis,Bootcamp
 Epitech Coding Academy,Bootcamp
+Springboard,Bootcamp
+Dots School,Bootcamp
 We Can Code It,Bootcamp
 Spring MVC,Technology
-The Guild Of Software Architects,Bootcamp
-Dots School,Bootcamp
-Polycademy,Bootcamp
 Women'S Coding Collective,Bootcamp
 Developer Bootcamp,Bootcamp
 Chelmsford,Location
-Perl,Technology
-SQL Programming,Technology
-SQL Server Administration,Technology
-SQL Business Intelligence,Technology
-VB.NET,Technology
-WCF,Technology
-WPF,Technology
-Windows Server,Technology
-UNIX,Technology
-SharePoint,Technology
 Launchcode,Bootcamp
 Codeup,Bootcamp
 World Tech Academy,Bootcamp
 Ait Learning,Bootcamp
-Ut Houston Coding Bootcamp,Bootcamp
 Ubiqum Code Academy,Bootcamp
-R Programming,Technology
 Redwood Code Academy ,Bootcamp
 Coderschool,Bootcamp
 Ho Chi Minh City,Location
@@ -606,30 +539,28 @@ Seedpaths,Bootcamp
 Alliance For Digital Employability ,Bootcamp
 Devpoint Labs,Bootcamp
 Jrs Coding School,Bootcamp
-Edge Tech Academy,Bootcamp
-Hurst,Location
+Secureset Academy,Bootcamp
 Turing,Bootcamp
 Sabio,Bootcamp
-The Coding Boot Camp At Uci Continuing Education,Bootcamp
 World Tech Makers,Bootcamp
-Mexico City,Location
+Bogota,Location
 Playcrafting,Bootcamp
-Lambdaschool,Bootcamp
 30 Weeks,Bootcamp
 Starter League,Bootcamp
 Hackeryou,Bootcamp
 The Data Incubator,Bootcamp
 Ixperience,Bootcamp
 Cape Town,Location
-Codeacamp,Bootcamp
+Origin Code Academy,Bootcamp
 Software Guild,Bootcamp
 Akron,Location
 Louisville,Location
-Learn,Bootcamp
-Hackership,Bootcamp
-Delta Program,Bootcamp
+Southern Careers Institute,Bootcamp
+Dev Bootcamp,Bootcamp
+Tech Elevator,Bootcamp
 Astro Code School,Bootcamp
 The App Academy Nl,Bootcamp
+Jaaga,Bootcamp
 Devstream,Bootcamp
 Hungry Academy,Bootcamp
 Big D Code,Bootcamp
@@ -637,13 +568,16 @@ Ladies Learning Code,Bootcamp
 Learn To Code London,Bootcamp
 Hacktiv8,Bootcamp
 Jakarta,Location
-Queens Tech Academy,Bootcamp
+Fire Bootcamp,Bootcamp
+Brisbane,Location
+Melbourne,Location
 Coding Bootcamp Praha,Bootcamp
 Prague,Location
-N/A,Technology
+Laravel,Technology
+MVC,Technology
+Sass,Technology
 Beach Coders Academy,Bootcamp
 The Coding Boot Camp At Ucla Extension,Bootcamp
-Westwood,Location
 Craft Academy,Bootcamp
 Gothenburg,Location
 Pretoria,Location
@@ -651,13 +585,13 @@ Founders & Coders,Bootcamp
 Nazareth,Location
 Codingnomads,Bootcamp
 Bali,Location
-Koh Lanta,Location
+Playa del Carmen,Location
+Koh Tao,Location
 Market Campus,Bootcamp
-Apprentice Io By Thoughtbot,Bootcamp
+Acclaim Education,Bootcamp
 Coder Vox,Bootcamp
 Digital Professional Institute,Bootcamp
 Holberton School,Bootcamp
-Machine Learning,Technology
 Skillcrush,Bootcamp
 Coded By U,Bootcamp
 Hacker: Coding Academy,Bootcamp
@@ -668,60 +602,53 @@ Camp Code Away,Bootcamp
 Web Fellowship,Bootcamp
 Code Institute,Bootcamp
 I2 Labs Academy,Bootcamp
-Coding House,Bootcamp
-Woodside,Location
 Coding Is The New Literacy,Bootcamp
 Delhi,Location
-Uc Berkeley Coding Boot Camp,Bootcamp
-Xtol.Careers,Bootcamp
 42,Bootcamp
 Invasivecode,Bootcamp
-Blackbelt Coding ,Bootcamp
 Code Astra,Bootcamp
 Thinkful,Bootcamp
 Brainstation,Bootcamp
 Parallax Code Academy,Bootcamp
 Basecamp ,Bootcamp
 Vienna,Location
-Medellin,Location
 Framework,Bootcamp
-Boulder Digital Arts,Bootcamp
 Dallas Coding Academy,Bootcamp
 Mother Coders,Bootcamp
 Austin Coding Academy,Bootcamp
 Andela,Bootcamp
 Lagos,Location
-Adventure Code School,Bootcamp
-Bend,Location
 Skylab Coders Academy,Bootcamp
 K2 Data Science,Bootcamp
 The Coded,Bootcamp
+Phonegap,Technology
 Alphappl,Bootcamp
 Obidos,Location
+Porto,Location
+Cambridge Spark,Bootcamp
+Cambridge,Location
 Betamore Academy,Bootcamp
 Baltimore,Location
 Rithm School,Bootcamp
 Code Ninja,Bootcamp
 Maui,Location
+Koh Lanta,Location
 Alchemy Lab,Bootcamp
 Zip Code Wilmington,Bootcamp
+University Of Utah Professional Education Coding Boot Camp,Bootcamp
 Awesome Inc  U,Bootcamp
 The Devs Lab,Bootcamp
+Cyber Security,Technology
 Code Platoon,Bootcamp
 Altcademy,Bootcamp
-Ho Chi Minh,Location
-Betamore,Bootcamp
 Ns Screencasts,Bootcamp
 Big Nerd Ranch,Bootcamp
 Monterey,Location
-University Of Kansas Coding Bootcamp,Bootcamp
-Computational Thinkers,Bootcamp
 Scale,Bootcamp
 Velocity 360,Bootcamp
 Philly Dev Camp,Bootcamp
 New It Academy,Bootcamp
-Udacity,Bootcamp
-Nation Of Code,Bootcamp
+Codemasters Academy,Bootcamp
 Blackbelt Coding,Bootcamp
 Codecraft School,Bootcamp
 Q College,Bootcamp
@@ -736,10 +663,9 @@ Gtt Academy,Bootcamp
 Princeton,Location
 Marcademy,Bootcamp
 Ucf Coding Boot Camp,Bootcamp
-Destination Dev,Bootcamp
-Coding Boot Camp At Uc Irvine,Bootcamp
+The Hacking School,Bootcamp
 Atlanta Code,Bootcamp
-Secureset Academy,Bootcamp
+Edge Tech Academy,Bootcamp
 Shillington School,Bootcamp
 Ruby On The Beach,Bootcamp
 "Pacific Coast, Ecuador",Location
@@ -755,37 +681,36 @@ Propulsion Academy,Bootcamp
 Code Tahoe,Bootcamp
 Reno,Location
 Roving Labs Coding Bootcamp,Bootcamp
-Boole Institute,Bootcamp
-Geekuni,Bootcamp
-Tech Bootcamps,Bootcamp
 Coding School At Thoughtstem,Bootcamp
 Revature,Bootcamp
 Reston,Location
 Coding Temple,Bootcamp
 Tradecraft,Bootcamp
+UI Design,Technology
 Devatory,Bootcamp
 Devry Bootcamp,Bootcamp
+Linux,Technology
 Learningfuze,Bootcamp
 Ku Coding Boot Camp,Bootcamp
 Data Science For Social Good,Bootcamp
-The Dev School,Bootcamp
 Upscale Academy,Bootcamp
 Datacamp,Bootcamp
-Shoutleaf Web Bootcamp,Bootcamp
-Georgia Tech Coding Boot Camp At Savannah,Bootcamp
+Makers Academy,Bootcamp
 Devcamp Mx,Bootcamp
+Devtree Academy,Bootcamp
+Sandpoint,Location
 Institute Of Code,Bootcamp
-Puerto Vallarta,Location
 Maricopa Corporate College,Bootcamp
 Tempe,Location
 Sales Bootcamp,Bootcamp
 Codecore Bootcamp,Bootcamp
+Uc Irvine Boot Camps,Bootcamp
 Application University,Bootcamp
 Try Ruby,Bootcamp
+Google Summer Of Code,Bootcamp
 Hunter Business School,Bootcamp
 Long Island,Location
-Talentbuddy,Bootcamp
-Dev Bootcamp,Bootcamp
+Coder Academy,Bootcamp
 Bloc,Bootcamp
 Disruption Institute,Bootcamp
 Coders Lab,Bootcamp
@@ -793,16 +718,17 @@ Warsaw,Location
 Interface Web School,Bootcamp
 Eleven Fifty Coding Academy,Bootcamp
 Devcodecamp,Bootcamp
-Codemasters Academy,Bootcamp
+Nation Of Code,Bootcamp
 The Firehose Project,Bootcamp
-School Of Devs,Bootcamp
 Coding Dojo,Bootcamp
 Smu Coding Boot Camp,Bootcamp
 Sun Training Center,Bootcamp
-Alt-U,Bootcamp
 The Institute For Statistics Education,Bootcamp
 Mayden Academy,Bootcamp
 Bath,Location
+Se Factory,Bootcamp
+Beirut,Location
+Bash,Technology
 Ironhack,Bootcamp
 Pdx Code Guild,Bootcamp
 Data Science Dojo,Bootcamp
@@ -811,7 +737,7 @@ Learn Academy,Bootcamp
 Horizons School Of Technology,Bootcamp
 Code Chicago,Bootcamp
 The Coding Boot Camp At Unc-Chapel Hill,Bootcamp
+Chapel Hill,Location
 Codesmith,Bootcamp
 Divergence Academy,Bootcamp
 V School,Bootcamp
-Beirut,Location

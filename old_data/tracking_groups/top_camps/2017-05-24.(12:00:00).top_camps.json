@@ -1,0 +1,1267 @@
+{
+    "Dev Bootcamp": {
+        "accreditation": "None", 
+        "courses": {
+            "Web Development": {
+                "Cost": 13950, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "SQL", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 141, 
+        "cr_rating": 4.33, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra"
+        ], 
+        "email": "hello@devbootcamp.com", 
+        "facebook": "https://www.facebook.com/devbootcamp", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-05-24", 
+        "locations": [
+            "San Francisco", 
+            "Chicago", 
+            "San Diego", 
+            "Austin", 
+            "Seattle", 
+            "New York City"
+        ], 
+        "name": "Dev Bootcamp", 
+        "num_courses": 1, 
+        "num_locations": 6, 
+        "scholarships": "Take $500 Off Tuition at Dev Bootcamp!", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 10600, 
+            "handle": "@@", 
+            "tweets": "11.4K\n            "
+        }, 
+        "visas": "No", 
+        "website": "http://devbootcamp.com/"
+    }, 
+    "Flatiron School": {
+        "accreditation": "None", 
+        "courses": {
+            "Community-Powered Bootcamp": {
+                "Cost": 149, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Community-Powered Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "Rails", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Online Web Developer Program": {
+                "Cost": 1000, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Online Web Developer Program", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Immersive": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Web Development Immersive", 
+                "Hours/Week": 45, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 148, 
+        "cr_rating": 4.72, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "email": "info@flatironschool.com", 
+        "facebook": "https://www.facebook.com/FlatironSchool", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-05-24", 
+        "locations": [
+            "New York City", 
+            "Online"
+        ], 
+        "name": "Flatiron School", 
+        "num_courses": 3, 
+        "num_locations": 2, 
+        "scholarships": "$500 Flatiron School Scholarship", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 7646, 
+            "handle": "@@", 
+            "tweets": 4594
+        }, 
+        "visas": "No", 
+        "website": "http://flatironschool.com/"
+    }, 
+    "General Assembly": {
+        "accreditation": "None", 
+        "courses": {
+            "Android Development Immersive": {
+                "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Android Development Immersive", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Java", 
+                    "Android"
+                ]
+            }, 
+            "Data Analysis Circuit": {
+                "Cost": 1250, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Data Analysis Circuit", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "SQL", 
+                    "Excel"
+                ]
+            }, 
+            "Data Analytics (10 Week Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Data Analytics (10 week part-time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science"
+                ]
+            }, 
+            "Data Analytics (Part-Time)": {
+                "Cost": 3500, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Data Analytics (Part-time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science"
+                ]
+            }, 
+            "Data Science (10 Week Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Data Science (10 week part-time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Python", 
+                    "Data Science"
+                ]
+            }, 
+            "Data Science (Part Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Boston"
+                ], 
+                "Course Title": "Data Science (Part Time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Python", 
+                    "Data Science"
+                ]
+            }, 
+            "Data Science (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Data Science (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Data Science"
+                ]
+            }, 
+            "Data Science Immersive": {
+                "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Data Science Immersive", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": []
+            }, 
+            "Digital Marketing  (Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Digital Marketing  (Part-time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Digital Marketing"
+                ]
+            }, 
+            "Digital Marketing (Part-Time)": {
+                "Cost": 15950, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Digital Marketing (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Digital Marketing Circuit": {
+                "Cost": 750, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Digital Marketing Circuit", 
+                "Hours/Week": 8, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Digital Marketing"
+                ]
+            }, 
+            "Front End Web Development (10 Week Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Front End Web Development (10 week part-time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "CSS"
+                ]
+            }, 
+            "Front End Web Development (Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Denver"
+                ], 
+                "Course Title": "Front End Web Development (Part-Time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "CSS"
+                ]
+            }, 
+            "Front-End Web Development": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Boston"
+                ], 
+                "Course Title": "Front-End Web Development", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "CSS"
+                ]
+            }, 
+            "Front-End Web Development  (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Front-End Web Development  (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Front-End Web Development (Part-Time)": {
+                "Cost": 3500, 
+                "Course Location": [
+                    "Melbourne"
+                ], 
+                "Course Title": "Front-End Web Development (Part-time)", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Html, Css, And Web Design Circuit": {
+                "Cost": 1250, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "HTML, CSS, and Web Design Circuit", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Ios Development  (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "iOS Development  (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Swift", 
+                    "iOS", 
+                    "Mobile"
+                ]
+            }, 
+            "Ios Development Immersive": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "iOS Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "iOS"
+                ]
+            }, 
+            "Javascript Circuit": {
+                "Cost": 1250, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "JavaScript Circuit", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Javascript Development (10 Week Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "JavaScript Development (10 week part-time)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript"
+                ]
+            }, 
+            "Javascript Development (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Denver"
+                ], 
+                "Course Title": "Javascript Development (Part-Time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript"
+                ]
+            }, 
+            "Product Management (Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Product Management (Part-time)", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "User Experience Design (10 Week Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "User Experience Design (10 week part-time)", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "User Experience Design (Accelerated 1 Week)": {
+                "Cost": 14950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "User Experience Design (Accelerated 1 Week)", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "User Experience Design (Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "User Experience Design (Part-Time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "User Experience Design (Part-Time, One Week)": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Melbourne"
+                ], 
+                "Course Title": "User Experience Design (Part-time, One Week)", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "User Experience Design Circuit": {
+                "Cost": 850, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "User Experience Design Circuit", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "User Experience Design Immersive": {
+                "Cost": 14950, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "User Experience Design Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "User Experience Design Immersive ": {
+                "Cost": 14950, 
+                "Course Location": [
+                    "Denver"
+                ], 
+                "Course Title": "User Experience Design Immersive ", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "User Experience Design Immersive (Full-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "User Experience Design Immersive (full-time)", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "Visual Design (8 Week Part-Time)": {
+                "Cost": 3950, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Visual Design (8 week part-time)", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Design"
+                ]
+            }, 
+            "Visual Design (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Austin"
+                ], 
+                "Course Title": "Visual Design (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Design"
+                ]
+            }, 
+            "Web Development Immersive": {
+                "Cost": 14950, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Web Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Immersive ": {
+                "Cost": 14950, 
+                "Course Location": [
+                    "Denver"
+                ], 
+                "Course Title": "Web Development Immersive ", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Rails", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Immersive - Remote ": {
+                "Cost": 13950, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Web Development Immersive - Remote ", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "jQuery", 
+                    "Ruby", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 211, 
+        "cr_rating": 4.18, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Ruby on Rails", 
+            "jQuery", 
+            "Ruby", 
+            "CSS", 
+            "Node.js", 
+            "Data Science", 
+            "User Experience Design", 
+            "Java", 
+            "Android", 
+            "Digital Marketing", 
+            "Product Management", 
+            "Swift", 
+            "iOS", 
+            "Mobile", 
+            "Front End", 
+            "Python", 
+            "SQL", 
+            "Git", 
+            "Growth Hacking", 
+            "Design", 
+            "Express.js", 
+            "Excel", 
+            "React.js", 
+            "MySQL", 
+            "Hadoop", 
+            "R"
+        ], 
+        "email": "hello@generalassemb.ly", 
+        "facebook": "https://www.facebook.com/gnrlassembly", 
+        "housing": "General Assembly has partnerships with\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-05-24", 
+        "locations": [
+            "Los Angeles", 
+            "New York City", 
+            "San Francisco", 
+            "Washington", 
+            "Hong Kong", 
+            "Sydney", 
+            "London", 
+            "Boston", 
+            "Austin", 
+            "Seattle", 
+            "Online", 
+            "Atlanta", 
+            "Singapore", 
+            "Melbourne", 
+            "Denver", 
+            "Chicago"
+        ], 
+        "name": "General Assembly", 
+        "num_courses": 36, 
+        "num_locations": 16, 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Ruby on Rails", 
+            "jQuery", 
+            "Ruby", 
+            "CSS", 
+            "Node.js", 
+            "Data Science", 
+            "User Experience Design", 
+            "Java", 
+            "Android", 
+            "Digital Marketing", 
+            "Product Management", 
+            "Swift", 
+            "iOS", 
+            "Mobile", 
+            "Front End", 
+            "Python", 
+            "SQL", 
+            "Git", 
+            "Growth Hacking", 
+            "Design", 
+            "Express.js", 
+            "Excel", 
+            "React.js", 
+            "MySQL", 
+            "Hadoop", 
+            "R"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Data Science", 
+            "Full-Stack Web Development", 
+            "Product Management", 
+            "Digital Marketing", 
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Other"
+        ], 
+        "twitter": {
+            "followers": 120000, 
+            "handle": "@@", 
+            "tweets": "18K\n            "
+        }, 
+        "visas": "No", 
+        "website": "https://generalassemb.ly/"
+    }, 
+    "Hack Reactor": {
+        "accreditation": "None", 
+        "courses": {
+            "Hack Reactor": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Hack Reactor", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Hack Reactor Remote": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Hack Reactor Remote", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 134, 
+        "cr_rating": 4.5, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ], 
+        "email": "admissions@hackreactor.com", 
+        "facebook": "https://www.facebook.com/hackreactor", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-05-24", 
+        "locations": [
+            "San Francisco", 
+            "Online", 
+            "New York City", 
+            "Los Angeles", 
+            "Austin", 
+            "San Francisco"
+        ], 
+        "name": "Hack Reactor", 
+        "num_courses": 2, 
+        "num_locations": 6, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 8487, 
+            "handle": "@@", 
+            "tweets": 3605
+        }, 
+        "visas": "No", 
+        "website": "http://hackreactor.com/"
+    }, 
+    "Ironhack": {
+        "accreditation": "Licensed by the Florida Dept. of Education ", 
+        "courses": {
+            "Ux/Ui Design": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "UX/UI Design", 
+                "Hours/Week": 50, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Design", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Bootcamp (Full-Time) ": {
+                "Cost": null, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "Web Development Bootcamp (Full-time) ", 
+                "Hours/Week": 50, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Part-Time": {
+                "Cost": null, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "Web Development Part-Time", 
+                "Hours/Week": 50, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 128, 
+        "cr_rating": 4.88, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MongoDB", 
+            "Git", 
+            "Express.js", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "jQuery"
+        ], 
+        "email": "hi@ironhack.com", 
+        "facebook": "https://www.facebook.com/theironhack", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-05-24", 
+        "locations": [
+            "Miami", 
+            "Madrid", 
+            "Barcelona", 
+            "Paris"
+        ], 
+        "name": "Ironhack", 
+        "num_courses": 3, 
+        "num_locations": 4, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MongoDB", 
+            "Git", 
+            "Express.js", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "jQuery"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 10500, 
+            "handle": "@@", 
+            "tweets": 3781
+        }, 
+        "visas": "No", 
+        "website": "http://www.ironhack.com/en/"
+    }, 
+    "The Iron Yard": {
+        "accreditation": "None", 
+        "courses": {
+            "Web Development Basics": {
+                "Cost": 900, 
+                "Course Location": [
+                    "Charlotte"
+                ], 
+                "Course Title": "Web Development Basics", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Career Path": {
+                "Cost": 13900, 
+                "Course Location": [
+                    "Washington"
+                ], 
+                "Course Title": "Web Development Career Path", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 161, 
+        "cr_rating": 4.4, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "email": "hello@theironyard.com", 
+        "facebook": "https://www.facebook.com/TheIronYard", 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-05-24", 
+        "locations": [
+            "Greenville", 
+            "Atlanta", 
+            "Nashville", 
+            "Indianapolis", 
+            "Las Vegas", 
+            "Charleston", 
+            "Durham", 
+            "Houston", 
+            "Raleigh", 
+            "Austin", 
+            "Charlotte", 
+            "Dallas", 
+            "Orlando", 
+            "Tampa", 
+            "Washington"
+        ], 
+        "name": "The Iron Yard", 
+        "num_courses": 2, 
+        "num_locations": 15, 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Java/.NET", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 16000, 
+            "handle": "@@", 
+            "tweets": 8247
+        }, 
+        "visas": "No", 
+        "website": "http://theironyard.com/"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [], 
+        "Date/Time": "2017-05-24 12:14:23", 
+        "Days Out": 254, 
+        "Number of Entries": 6, 
+        "Potential Market": [], 
+        "locations": {
+            "Atlanta": 2, 
+            "Austin": 4, 
+            "Barcelona": 1, 
+            "Boston": 1, 
+            "Charleston": 1, 
+            "Charlotte": 1, 
+            "Chicago": 2, 
+            "Dallas": 1, 
+            "Denver": 1, 
+            "Durham": 1, 
+            "Greenville": 1, 
+            "Hong Kong": 1, 
+            "Houston": 1, 
+            "Indianapolis": 1, 
+            "Las Vegas": 1, 
+            "London": 1, 
+            "Los Angeles": 2, 
+            "Madrid": 1, 
+            "Melbourne": 1, 
+            "Miami": 1, 
+            "Nashville": 1, 
+            "New York City": 4, 
+            "Online": 3, 
+            "Orlando": 1, 
+            "Paris": 1, 
+            "Raleigh": 1, 
+            "San Diego": 1, 
+            "San Francisco": 4, 
+            "Seattle": 2, 
+            "Singapore": 1, 
+            "Sydney": 1, 
+            "Tampa": 1, 
+            "Washington": 2
+        }, 
+        "technologies": {
+            "Android": 1, 
+            "AngularJS": 2, 
+            "CSS": 6, 
+            "Data Science": 1, 
+            "Design": 2, 
+            "Digital Marketing": 1, 
+            "Excel": 1, 
+            "Express.js": 3, 
+            "Front End": 3, 
+            "Git": 4, 
+            "Growth Hacking": 1, 
+            "HTML": 6, 
+            "Hadoop": 1, 
+            "Java": 1, 
+            "JavaScript": 6, 
+            "Mobile": 1, 
+            "MongoDB": 2, 
+            "MySQL": 1, 
+            "Node.js": 4, 
+            "Product Management": 1, 
+            "Python": 1, 
+            "R": 1, 
+            "React.js": 2, 
+            "Ruby": 3, 
+            "Ruby on Rails": 3, 
+            "SQL": 4, 
+            "Sinatra": 2, 
+            "Swift": 1, 
+            "User Experience Design": 2, 
+            "iOS": 1, 
+            "jQuery": 3
+        }
+    }
+}

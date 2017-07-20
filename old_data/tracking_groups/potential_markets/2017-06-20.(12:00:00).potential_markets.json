@@ -1,0 +1,2284 @@
+{
+    "Academy Pittsburgh": {
+        "accreditation": "None", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            "Code Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Pittsburgh"
+                ], 
+                "Course Title": "Code Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "C#", 
+                    "Rails", 
+                    "SQL", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 1, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS"
+        ], 
+        "email": "academypgh@gmail.com", 
+        "facebook": "https://m.facebook.com/academypgh/", 
+        "hiring_rate": null, 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Pittsburgh"
+        ], 
+        "name": "Academy Pittsburgh", 
+        "num_alumni": "N/A", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "scholarships": "free to qualified candidates, with priority to people from groups underrepresented in tech", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps,Front-End Development", 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "C#", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 774, 
+            "handle": "@@", 
+            "tweets": 1710
+        }, 
+        "visas": "Temporary housing is available for students upon enquiry.", 
+        "website": "http://www.academypgh.com/"
+    }, 
+    "Bitmaker Labs": {
+        "accreditation": "Bitmaker is a fully accredited private career college in Ontario ", 
+        "courses": {
+            "Front-End Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Front-End Web Development", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Intro To Digital Marketing": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to Digital Marketing", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Digital Marketing"
+                ]
+            }, 
+            "User Experience Design": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "User Experience Design", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }, 
+            "Ux And Product Design": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "UX and Product Design", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 40, 
+        "cr_rating": 4.38, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "User Experience Design", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Sinatra", 
+            "Ruby", 
+            "React.js", 
+            "Design", 
+            "Digital Marketing"
+        ], 
+        "email": "contact@bitmaker.co", 
+        "facebook": "https://www.facebook.com/BitmakerHQ", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Toronto"
+        ], 
+        "name": "Bitmaker Labs", 
+        "num_courses": 5, 
+        "num_locations": 1, 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "User Experience Design", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Sinatra", 
+            "Ruby", 
+            "React.js", 
+            "Design", 
+            "Digital Marketing"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 6132, 
+            "handle": "@@", 
+            "tweets": 8611
+        }, 
+        "visas": "No", 
+        "website": "http://bitmaker.co/"
+    }, 
+    "Brainstation": {
+        "accreditation": "PCC - Ontario, CanadaPTIB - British Columbia, Canada", 
+        "courses": {
+            "Data Analytics": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "Data Analytics", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Digital Marketing": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "Digital Marketing", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Full-Time User Experience Design Program": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "Full-Time User Experience Design Program", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Full-Time Web Development Program": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Full-Time Web Development Program", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Ios Development": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "iOS Development", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Product Management": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "Product Management", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Remote Full-Time Web Development Program": {
+                "Cost": 12000, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Remote Full-Time Web Development Program", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "jQuery", 
+                    "Product Management", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Seo/Sem & Analytics": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "SEO/SEM & Analytics", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "User Experience Design": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "User Experience Design", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "User Interface Design": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "User Interface Design", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Web Development": {
+                "Cost": 2500, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }
+        }, 
+        "cr_num_reviews": 99, 
+        "cr_rating": 4.52, 
+        "cr_technologies": [
+            "Digital Marketing", 
+            "Product Management", 
+            "Front End", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Design", 
+            "User Experience Design", 
+            "Swift", 
+            "Cocoa", 
+            "Xcode", 
+            "Mobile", 
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "Git", 
+            "Java", 
+            "SQL", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "MySQL", 
+            "Excel", 
+            "SEO"
+        ], 
+        "email": "contact@brainstation.io", 
+        "facebook": "https://www.facebook.com/brainstation", 
+        "housing": "BrainStation does not provide housing, however our Student Success Team is happy to help with suggestions on finding accommodation.\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Toronto", 
+            "Vancouver", 
+            "New York City", 
+            "San Jose", 
+            "Online"
+        ], 
+        "name": "Brainstation", 
+        "num_courses": 11, 
+        "num_locations": 5, 
+        "scholarships": "$500 BrainStation Scholarship", 
+        "technologies": [
+            "Digital Marketing", 
+            "Product Management", 
+            "Front End", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Design", 
+            "User Experience Design", 
+            "Swift", 
+            "Cocoa", 
+            "Xcode", 
+            "Mobile", 
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "Git", 
+            "Java", 
+            "SQL", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "MySQL", 
+            "Excel", 
+            "SEO"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": [
+            "Product Management", 
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 7630, 
+            "handle": "@@", 
+            "tweets": 7898
+        }, 
+        "visas": "No", 
+        "website": "http://www.brainstation.io/"
+    }, 
+    "Cincy Code It": {
+        "accreditation": "Cincy Code IT is authorized by the Ohio State Board of Career Colleges and Schools.  Also, Cincy Code IT is approved by the state of Ohio as an \"Eligible Training Provider,\" and may receive Workforce Innovation & Opportunities Act grants (WIOA/WIA).  ", 
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {
+            ".Net Developer Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Cincinnati"
+                ], 
+                "Course Title": ".NET Developer Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Developer Bootcamp": {
+                "Cost": 15000, 
+                "Course Location": [
+                    "Cincinnati"
+                ], 
+                "Course Title": "Java Developer Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "HTML", 
+                    "Git", 
+                    "Java", 
+                    "SQL", 
+                    "jQuery"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 22, 
+        "cr_rating": 4.95, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Git", 
+            "Java"
+        ], 
+        "email": "lisa@cincycodeit.com", 
+        "facebook": "https://www.facebook.com/cincycodeit", 
+        "general_cost": null, 
+        "hiring_rate": null, 
+        "housing": "We do not provide housing however, we are located in an upscale, high growth area with numerous hotel options including long-term stay hotels. Students have used these for their lodging.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Cincinnati"
+        ], 
+        "name": "Cincy Code It", 
+        "num_alumni": "N/A", 
+        "num_courses": 2, 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            ".NET", 
+            "HTML", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "jQuery", 
+            "CSS", 
+            "Git", 
+            "Java"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "twitter": {
+            "followers": 350, 
+            "handle": "@@", 
+            "tweets": 3799
+        }, 
+        "visas": "No", 
+        "website": "http://cincycodeit.com/"
+    }, 
+    "Data Science Dojo": {
+        "accreditation": "LinkedIn Certificate", 
+        "courses": {
+            "Data Science And Data Engineering": {
+                "Cost": null, 
+                "Course Location": [
+                    "Amsterdam"
+                ], 
+                "Course Title": "Data Science and Data Engineering", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Excel"
+                ]
+            }, 
+            "Data Science And Data Engineering | Austin": {
+                "Cost": null, 
+                "Course Location": [
+                    "Austin"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Austin", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Data Science", 
+                    "R", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | Barcelona": {
+                "Cost": null, 
+                "Course Location": [
+                    "Barcelona"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Barcelona", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | Chicago": {
+                "Cost": null, 
+                "Course Location": [
+                    "Chicago"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Chicago", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | New York": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Data Science and Data Engineering | New York", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | Seattle": {
+                "Cost": null, 
+                "Course Location": [
+                    "Seattle"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Seattle", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | Singapore": {
+                "Cost": null, 
+                "Course Location": [
+                    "Singapore"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Singapore", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Data Science", 
+                    "R", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | Toronto": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Toronto", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Hadoop"
+                ]
+            }, 
+            "Data Science And Data Engineering | Washington": {
+                "Cost": null, 
+                "Course Location": [
+                    "Washington"
+                ], 
+                "Course Title": "Data Science and Data Engineering | Washington", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Hadoop"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 21, 
+        "cr_rating": 4.86, 
+        "cr_technologies": [
+            "Python", 
+            "Data Science", 
+            "R", 
+            "SQL", 
+            "Hadoop", 
+            "Excel"
+        ], 
+        "email": "help@datasciencedojo.com", 
+        "facebook": "https://www.facebook.com/datasciencedojo", 
+        "housing": "No", 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Barcelona", 
+            "Toronto", 
+            "Washington", 
+            "New York City", 
+            "Chicago", 
+            "Seattle", 
+            "Austin", 
+            "Singapore", 
+            "Amsterdam", 
+            "Paris", 
+            "Sydney", 
+            "Dubai", 
+            "Las Vegas"
+        ], 
+        "name": "Data Science Dojo", 
+        "num_courses": 9, 
+        "num_locations": 13, 
+        "technologies": [
+            "Python", 
+            "Data Science", 
+            "R", 
+            "SQL", 
+            "Hadoop", 
+            "Excel"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": [
+            "Product Management", 
+            "Data Science", 
+            "Other"
+        ], 
+        "twitter": {
+            "followers": 4352, 
+            "handle": "@@", 
+            "tweets": 6206
+        }, 
+        "visas": "No", 
+        "website": "http://datasciencedojo.com/bootcamp"
+    }, 
+    "Grand Circus": {
+        "accreditation": "Licensed, proprietary school", 
+        "courses": {
+            ".Net (C#) Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": ".NET (C#) Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "JavaScript", 
+                    ".NET", 
+                    "HTML", 
+                    "C#", 
+                    "ASP.NET", 
+                    "SQL", 
+                    "CSS"
+                ]
+            }, 
+            "Front-End Bootcamp": {
+                "Cost": 7000, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Front-End Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Front-End Part-Time Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Front-End Part-time Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Intro To Web Development: Html + Css": {
+                "Cost": 8500, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Intro to Web Development: HTML + CSS", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Intro To Web Development: Javascript + Jquery": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Intro to Web Development: JavaScript + jQuery", 
+                "Hours/Week": 17, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Java Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Detroit"
+                ], 
+                "Course Title": "Java Bootcamp", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Java", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 8, 
+        "cr_rating": 4.63, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Node.js", 
+            "MySQL", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "Java"
+        ], 
+        "email": "hello@grandcircus.co", 
+        "facebook": "https://www.facebook.com/GrandCircusCo", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Detroit", 
+            "Grand Rapids"
+        ], 
+        "name": "Grand Circus", 
+        "num_courses": 6, 
+        "num_locations": 2, 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Node.js", 
+            "MySQL", 
+            ".NET", 
+            "C#", 
+            "ASP.NET", 
+            "SQL", 
+            "Java"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Java/.NET", 
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Digital Marketing", 
+            "Full-Stack Web Development", 
+            "Mobile Development", 
+            "Front-End Web Development"
+        ], 
+        "twitter": {
+            "followers": 5877, 
+            "handle": "@@", 
+            "tweets": 8891
+        }, 
+        "visas": "No", 
+        "website": "http://grandcircus.co/"
+    }, 
+    "Hackeryou": {
+        "accreditation": "HackerYou's Web Development Immersive Program is registered under the Private Career Colleges Act of Ontario (2005).", 
+        "courses": {
+            "Advanced Digital Design (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Advanced Digital Design (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Advanced Full-Stack Web Application Development (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Advanced Full-Stack Web Application Development (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "MongoDB", 
+                    "jQuery", 
+                    "React.js"
+                ]
+            }, 
+            "Advanced Javascript & Jquery (Part-Time)": {
+                "Cost": 8500, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Advanced JavaScript & jQuery (Part-time)", 
+                "Hours/Week": 35, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Advanced Seo (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Advanced SEO (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Digital Marketing", 
+                    "SEO"
+                ]
+            }, 
+            "Advanced Ux Design (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Advanced UX Design (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Advanced Web Development (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Advanced Web Development (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Intro To Digital Design (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to Digital Design (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Design"
+                ]
+            }, 
+            "Intro To Full-Stack Web Application Development (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to Full-Stack Web Application Development (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "MongoDB", 
+                    "jQuery", 
+                    "Express.js", 
+                    "React.js"
+                ]
+            }, 
+            "Intro To Javascript And Jquery (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to JavaScript and jQuery (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Intro To Seo (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to SEO (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Digital Marketing", 
+                    "SEO"
+                ]
+            }, 
+            "Intro To Ux Design (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to UX Design (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Intro To Web Development (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to Web Development (Part-time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Immersive (Bootcamp)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Web Development Immersive (Bootcamp)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS", 
+                    "React.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 49, 
+        "cr_rating": 4.96, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "MongoDB", 
+            "React.js", 
+            "Front End", 
+            "Git", 
+            "Design", 
+            "User Experience Design", 
+            "Digital Marketing", 
+            "SEO", 
+            "Express.js"
+        ], 
+        "email": "info@hackeryou.com", 
+        "facebook": "https://www.facebook.com/thisishackeryou", 
+        "housing": "No.", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Toronto"
+        ], 
+        "name": "Hackeryou", 
+        "num_courses": 13, 
+        "num_locations": 1, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "MongoDB", 
+            "React.js", 
+            "Front End", 
+            "Git", 
+            "Design", 
+            "User Experience Design", 
+            "Digital Marketing", 
+            "SEO", 
+            "Express.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Full-Stack Web Development", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Front-End Web Development"
+        ], 
+        "twitter": {
+            "followers": 12000, 
+            "handle": "@@", 
+            "tweets": 4165
+        }, 
+        "visas": "No", 
+        "website": "http://hackeryou.com/"
+    }, 
+    "Ladies Learning Code": {
+        "accreditation": "None", 
+        "courses": {
+            "Digital Skills For Beginners (Part-Time)": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Digital Skills For Beginners (Part-Time)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "SEO", 
+                    "jQuery", 
+                    "CSS", 
+                    "Wordpress"
+                ]
+            }
+        }, 
+        "cr_num_reviews": null, 
+        "cr_rating": null, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "SEO", 
+            "jQuery", 
+            "CSS", 
+            "Wordpress"
+        ], 
+        "email": "info@ladieslearningcode.com", 
+        "facebook": "https://www.facebook.com/ladieslearningcode", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Toronto"
+        ], 
+        "name": "Ladies Learning Code", 
+        "num_courses": 1, 
+        "num_locations": 1, 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "SEO", 
+            "jQuery", 
+            "CSS", 
+            "Wordpress"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": "Front-End Web Development", 
+        "twitter": {
+            "followers": 56700, 
+            "handle": "@@", 
+            "tweets": "16.6K\n            "
+        }, 
+        "visas": "No", 
+        "website": "http://ladieslearningcode.com/digital-skills-for-beginners/"
+    }, 
+    "Level": {
+        "accreditation": "Yes; Level's data analytics programs can be articulated for up to 12 credits towards Masters in Analytics programs at Northeastern University. ", 
+        "average_salary": "N/A", 
+        "class_ratio": 15, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Aws & Cloud Computing": {
+                "Cost": null, 
+                "Course Location": [
+                    "Boston"
+                ], 
+                "Course Title": "AWS & Cloud Computing", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": []
+            }, 
+            "Aws: Foundations Of Cloud Computing": {
+                "Class Size": 15, 
+                "Cost": 2950, 
+                "Course Location": [
+                    "Boston", 
+                    "Seattle"
+                ], 
+                "Course Title": "AWS: Foundations of Cloud Computing", 
+                "Hours/Week": 10, 
+                "Length": 6, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Web Services"
+                ]
+            }, 
+            "Data Analytics Core": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Data Analytics Core", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "Data Science", 
+                    "R", 
+                    "SQL", 
+                    "Excel"
+                ]
+            }, 
+            "Data Analytics Set": {
+                "Cost": null, 
+                "Course Location": [
+                    "Boston"
+                ], 
+                "Course Title": "Data Analytics Set", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Data Science", 
+                    "SQL", 
+                    "Excel"
+                ]
+            }, 
+            "Full-Time Data Analytics Bootcamp": {
+                "Class Size": 15, 
+                "Cost": 7995, 
+                "Course Location": [
+                    "Boston", 
+                    "Charlotte", 
+                    "Seattle", 
+                    "Silicon Valley"
+                ], 
+                "Course Title": "Full-Time Data Analytics Bootcamp", 
+                "Hours/Week": 40, 
+                "Length": 20, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Data Science", 
+                    "Data Structures", 
+                    "MySQL", 
+                    "SQL"
+                ]
+            }, 
+            "Hybrid Data Analytics Bootcamp": {
+                "Class Size": 15, 
+                "Cost": 7995, 
+                "Course Location": [
+                    "Boston", 
+                    "Charlotte", 
+                    "Seattle", 
+                    "Silicon Valley", 
+                    "Toronto"
+                ], 
+                "Course Title": "Hybrid Data Analytics Bootcamp", 
+                "Hours/Week": 15, 
+                "Length": 8, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Data Science", 
+                    "Data Structures", 
+                    "MySQL", 
+                    "SQL"
+                ]
+            }, 
+            "Internet Of Things": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Jose"
+                ], 
+                "Course Title": "Internet of Things", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "Python", 
+                    "Data Science", 
+                    "iOS", 
+                    "Git", 
+                    "PHP", 
+                    "Java", 
+                    "R", 
+                    "SQL", 
+                    "Objective-C", 
+                    "Product Management"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 10, 
+        "cr_rating": 3.56, 
+        "cr_technologies": [
+            "MySQL", 
+            "Data Science", 
+            "R", 
+            "SQL", 
+            "Excel", 
+            "Python", 
+            "iOS", 
+            "Git", 
+            "PHP", 
+            "Java", 
+            "Objective-C", 
+            "Product Management"
+        ], 
+        "email": "jon@leveledu.com", 
+        "facebook": "https://www.facebook.com/levelbootcamp", 
+        "hiring_rate": null, 
+        "housing": "Limited availability; contact jon@leveledu.com", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Seattle", 
+            "Charlotte", 
+            "Boston", 
+            "San Jose", 
+            "Toronto"
+        ], 
+        "name": "Level", 
+        "num_alumni": 100, 
+        "num_courses": 4, 
+        "num_locations": 5, 
+        "scholarships": "Partial scholarships available", 
+        "su_num_reviews": 12, 
+        "su_rating": 4.34, 
+        "su_technologies": [
+            "Business", 
+            "Data Science", 
+            "Data Structures", 
+            "MySQL", 
+            "SQL", 
+            "Web Services"
+        ], 
+        "subjects": "Coding Bootcamps,Data Science,University Coding Bootcamps", 
+        "technologies": [
+            "Business", 
+            "Data Science", 
+            "Data Structures", 
+            "MySQL", 
+            "SQL", 
+            "Web Services", 
+            "R", 
+            "Excel", 
+            "Python", 
+            "iOS", 
+            "Git", 
+            "PHP", 
+            "Java", 
+            "Objective-C", 
+            "Product Management"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": "Data Science", 
+        "twitter": {
+            "followers": 271, 
+            "handle": "@@", 
+            "tweets": 1078
+        }, 
+        "visas": "No", 
+        "website": "http://www.leveledu.com/"
+    }, 
+    "Lighthouse Labs": {
+        "accreditation": "Lighthouse Labs is accredited and in full compliance with PTIB, EQA and is registered as a Private Career College.", 
+        "courses": {
+            "Intro To Ios Development": {
+                "Cost": 1695, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Intro to iOS Development", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Swift", 
+                    "Front End", 
+                    "iOS", 
+                    "Git", 
+                    "Xcode", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Intro To Web Development": {
+                "Cost": 1575, 
+                "Course Location": [
+                    "Halifax"
+                ], 
+                "Course Title": "Intro to Web Development", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "HTML", 
+                    "Git", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Ios Development Bootcamp": {
+                "Cost": 10170, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "iOS Development Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Swift", 
+                    "Front End", 
+                    "iOS", 
+                    "Git", 
+                    "Cocoa", 
+                    "Xcode", 
+                    "Objective-C", 
+                    "Design", 
+                    "Product Management", 
+                    "Mobile", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Web Development Bootcamp": {
+                "Cost": 8400, 
+                "Course Location": [
+                    "Halifax"
+                ], 
+                "Course Title": "Web Development Bootcamp", 
+                "Hours/Week": 60, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Product Management", 
+                    "Ruby", 
+                    "CSS", 
+                    "Express.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 43, 
+        "cr_rating": 4.53, 
+        "cr_technologies": [
+            "Swift", 
+            "Front End", 
+            "iOS", 
+            "Xcode", 
+            "Design", 
+            "Mobile", 
+            "User Experience Design", 
+            "HTML", 
+            "Sinatra", 
+            "Ruby", 
+            "CSS", 
+            "Git", 
+            "Cocoa", 
+            "Objective-C", 
+            "Product Management", 
+            "JavaScript", 
+            "MongoDB", 
+            "Ruby on Rails", 
+            "SQL", 
+            "jQuery", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "email": "hello@lighthouselabs.ca", 
+        "facebook": "https://www.facebook.com/lighthouselabsvancouver", 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Vancouver", 
+            "Toronto", 
+            "Montreal", 
+            "Calgary", 
+            "Victoria", 
+            "Halifax"
+        ], 
+        "name": "Lighthouse Labs", 
+        "num_courses": 4, 
+        "num_locations": 6, 
+        "technologies": [
+            "Swift", 
+            "Front End", 
+            "iOS", 
+            "Xcode", 
+            "Design", 
+            "Mobile", 
+            "User Experience Design", 
+            "HTML", 
+            "Sinatra", 
+            "Ruby", 
+            "CSS", 
+            "Git", 
+            "Cocoa", 
+            "Objective-C", 
+            "Product Management", 
+            "JavaScript", 
+            "MongoDB", 
+            "Ruby on Rails", 
+            "SQL", 
+            "jQuery", 
+            "Express.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 5921, 
+            "handle": "@@", 
+            "tweets": 8600
+        }, 
+        "visas": "No", 
+        "website": "http://www.lighthouselabs.ca/"
+    }, 
+    "Red Academy": {
+        "accreditation": "PTIB Registered", 
+        "courses": {
+            " Digital Design & Ux Foundation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": " Digital Design & UX Foundation", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Application Developer Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Application Developer Professional", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Digital Marketing Foundation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Digital Marketing Foundation", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Digital Marketing"
+                ]
+            }, 
+            "Digital Marketing Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Digital Marketing Professional", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Digital Marketing"
+                ]
+            }, 
+            "Full-Stack Designer Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Full-Stack Designer Professional", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Full-Stack Developer Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Full-stack Developer Professional", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Full-Stack Marketer Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Full-stack Marketer Professional", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Fundamentals Of Virtual, Augmented And Mixed Reality": {
+                "Cost": null, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "Fundamentals of Virtual, Augmented and Mixed Reality", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Html & Css Essentials": {
+                "Cost": 1650, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "HTML & CSS Essentials", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Ui & Communication Design Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "UI & Communication Design Professional", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Ui Essentials": {
+                "Cost": null, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "UI Essentials", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "User Interface Design Foundation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "User Interface Design Foundation", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Ux Designer Foundation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "UX Designer Foundation", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Ux Designer Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "UX Designer Professional", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Ux Essentials": {
+                "Cost": null, 
+                "Course Location": [
+                    "Vancouver"
+                ], 
+                "Course Title": "UX Essentials", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Web Developer Foundation": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Web Developer Foundation", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS", 
+                    "Wordpress"
+                ]
+            }, 
+            "Web Developer Professional": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Web Developer Professional", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }
+        }, 
+        "cr_num_reviews": 34, 
+        "cr_rating": 4.62, 
+        "cr_technologies": [
+            "HTML", 
+            "CSS", 
+            "Design", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
+            "PHP", 
+            "jQuery", 
+            "User Experience Design", 
+            "Wordpress", 
+            "MongoDB", 
+            "SQL", 
+            "Sinatra", 
+            "Xcode", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Digital Marketing", 
+            "Java"
+        ], 
+        "email": "vancouver@redacademy.com", 
+        "facebook": "https://www.facebook.com/LearnAtRED/", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Vancouver", 
+            "Toronto"
+        ], 
+        "name": "Red Academy", 
+        "num_courses": 17, 
+        "num_locations": 2, 
+        "technologies": [
+            "HTML", 
+            "CSS", 
+            "Design", 
+            "AngularJS", 
+            "Front End", 
+            "JavaScript", 
+            "Git", 
+            "PHP", 
+            "jQuery", 
+            "User Experience Design", 
+            "Wordpress", 
+            "MongoDB", 
+            "SQL", 
+            "Sinatra", 
+            "Xcode", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Digital Marketing", 
+            "Java"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "twitter": {
+            "followers": 2001, 
+            "handle": "@@", 
+            "tweets": 1814
+        }, 
+        "visas": "No", 
+        "website": "https://www.redacademy.com"
+    }, 
+    "Software Tester Bootcamp": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Detroit"
+        ], 
+        "name": "Software Tester Bootcamp", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "Veterans, Women, Underrepresented Minorities [Case by Case]", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "website": "http://www.grandcircus.co"
+    }, 
+    "Thoughtkite": {
+        "accreditation": "None", 
+        "courses": {
+            "Digital Product Design": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Digital Product Design", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Product Management", 
+                    "Growth Hacking"
+                ]
+            }, 
+            "Digital Product Growth": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Digital Product Growth", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Product Management", 
+                    "Growth Hacking"
+                ]
+            }, 
+            "Mobile App Development: Ios": {
+                "Cost": null, 
+                "Course Location": [
+                    "Toronto"
+                ], 
+                "Course Title": "Mobile App Development: iOS", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "iOS", 
+                    "Objective-C", 
+                    "Product Management", 
+                    "Growth Hacking"
+                ]
+            }
+        }, 
+        "cr_num_reviews": null, 
+        "cr_rating": null, 
+        "cr_technologies": [
+            "Product Management", 
+            "Growth Hacking", 
+            "iOS", 
+            "Objective-C"
+        ], 
+        "email": "hello@thoughtkite.com", 
+        "facebook": "https://www.facebook.com/ThoughtKite", 
+        "housing": null, 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-20", 
+        "locations": [
+            "Toronto"
+        ], 
+        "name": "Thoughtkite", 
+        "num_courses": 3, 
+        "num_locations": 1, 
+        "technologies": [
+            "Product Management", 
+            "Growth Hacking", 
+            "iOS", 
+            "Objective-C"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "tracks": [
+            "Product Management", 
+            "Mobile Development"
+        ], 
+        "twitter": {
+            "followers": 301, 
+            "handle": "@@", 
+            "tweets": 186
+        }, 
+        "visas": "No", 
+        "website": "http://thoughtkite.com/"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [], 
+        "Date/Time": "2017-06-20 12:14:43", 
+        "Days Out": 281, 
+        "Number of Entries": 13, 
+        "Potential Market": [
+            "Ladies Learning Code", 
+            "Cincy Code It", 
+            "Level", 
+            "Academy Pittsburgh", 
+            "Software Tester Bootcamp", 
+            "Bitmaker Labs", 
+            "Lighthouse Labs", 
+            "Red Academy", 
+            "Hackeryou", 
+            "Thoughtkite", 
+            "Brainstation", 
+            "Data Science Dojo", 
+            "Grand Circus"
+        ], 
+        "locations": {
+            "Amsterdam": 1, 
+            "Austin": 1, 
+            "Barcelona": 1, 
+            "Boston": 1, 
+            "Calgary": 1, 
+            "Charlotte": 1, 
+            "Chicago": 1, 
+            "Cincinnati": 1, 
+            "Detroit": 2, 
+            "Dubai": 1, 
+            "Grand Rapids": 1, 
+            "Halifax": 1, 
+            "Las Vegas": 1, 
+            "Montreal": 1, 
+            "New York City": 2, 
+            "Online": 1, 
+            "Paris": 1, 
+            "Pittsburgh": 1, 
+            "San Jose": 2, 
+            "Seattle": 2, 
+            "Singapore": 1, 
+            "Sydney": 1, 
+            "Toronto": 9, 
+            "Vancouver": 3, 
+            "Victoria": 1, 
+            "Washington": 1
+        }, 
+        "technologies": {
+            ".NET": 2, 
+            "ASP.NET": 2, 
+            "AngularJS": 4, 
+            "Business": 1, 
+            "C#": 3, 
+            "CSS": 9, 
+            "Cocoa": 2, 
+            "Data Science": 2, 
+            "Data Structures": 1, 
+            "Design": 5, 
+            "Digital Marketing": 4, 
+            "Excel": 3, 
+            "Express.js": 4, 
+            "Front End": 7, 
+            "Git": 8, 
+            "Growth Hacking": 1, 
+            "HTML": 9, 
+            "Hadoop": 1, 
+            "Java": 5, 
+            "JavaScript": 9, 
+            "Mobile": 2, 
+            "MongoDB": 4, 
+            "MySQL": 3, 
+            "Node.js": 4, 
+            "Objective-C": 3, 
+            "PHP": 2, 
+            "Product Management": 4, 
+            "Python": 2, 
+            "R": 2, 
+            "React.js": 4, 
+            "Ruby": 3, 
+            "Ruby on Rails": 3, 
+            "SEO": 3, 
+            "SQL": 9, 
+            "Sinatra": 3, 
+            "Swift": 2, 
+            "User Experience Design": 5, 
+            "Web Services": 1, 
+            "Wordpress": 2, 
+            "Xcode": 3, 
+            "iOS": 3, 
+            "jQuery": 8
+        }
+    }
+}

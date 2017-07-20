@@ -1,0 +1,220 @@
+{
+    "Academy Pittsburgh": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {}, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Pittsburgh"
+        ], 
+        "name": "Academy Pittsburgh", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "free to qualified candidates, with priority to people from groups underrepresented in tech", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps,Front-End Development", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market", 
+            "Selected Camp"
+        ], 
+        "website": "http://www.academypgh.com/"
+    }, 
+    "Cincy Code It": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Cincinnati"
+        ], 
+        "name": "Cincy Code It", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "website": "http://cincycodeit.com/"
+    }, 
+    "Level": {
+        "average_salary": "N/A", 
+        "class_ratio": 15, 
+        "cost_estimate": "$$", 
+        "courses": {
+            "Aws: Foundations Of Cloud Computing": {
+                "Class Size": 15, 
+                "Cost": 2950, 
+                "Course Location": [
+                    "Boston", 
+                    "Seattle"
+                ], 
+                "Course Title": "AWS: Foundations of Cloud Computing", 
+                "Hours/Week": 10, 
+                "Length": 6, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Web Services"
+                ]
+            }, 
+            "Full-Time Data Analytics Bootcamp": {
+                "Class Size": 15, 
+                "Cost": 7995, 
+                "Course Location": [
+                    "Boston", 
+                    "Charlotte", 
+                    "Seattle", 
+                    "Silicon Valley"
+                ], 
+                "Course Title": "Full-Time Data Analytics Bootcamp", 
+                "Hours/Week": 40, 
+                "Length": 20, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Data Science", 
+                    "Data Structures", 
+                    "MySQL", 
+                    "SQL"
+                ]
+            }, 
+            "Hybrid Data Analytics Bootcamp": {
+                "Class Size": 15, 
+                "Cost": 7995, 
+                "Course Location": [
+                    "Boston", 
+                    "Charlotte", 
+                    "Seattle", 
+                    "Silicon Valley", 
+                    "Toronto"
+                ], 
+                "Course Title": "Hybrid Data Analytics Bootcamp", 
+                "Hours/Week": 15, 
+                "Length": 8, 
+                "Start Date": "Rolling Dates", 
+                "Subjects": [
+                    "Business", 
+                    "Data Science", 
+                    "Data Structures", 
+                    "MySQL", 
+                    "SQL"
+                ]
+            }
+        }, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Boston", 
+            "Charlotte", 
+            "Seattle", 
+            "San Jose", 
+            "Toronto"
+        ], 
+        "name": "Level", 
+        "num_alumni": 100, 
+        "num_locations": 5, 
+        "scholarships": "Partial scholarships available", 
+        "su_num_reviews": 12, 
+        "su_rating": 4.34, 
+        "su_technologies": [
+            "Business", 
+            "Data Science", 
+            "Data Structures", 
+            "MySQL", 
+            "SQL", 
+            "Web Services"
+        ], 
+        "subjects": "Coding Bootcamps,Data Science,University Coding Bootcamps", 
+        "technologies": [
+            "Business", 
+            "Data Science", 
+            "Data Structures", 
+            "MySQL", 
+            "SQL", 
+            "Web Services"
+        ], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "website": "http://www.leveledu.com/"
+    }, 
+    "Software Tester Bootcamp": {
+        "average_salary": "N/A", 
+        "class_ratio": null, 
+        "cost_estimate": "$$$", 
+        "courses": {}, 
+        "general_cost": null, 
+        "hiring_rate": null, 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Detroit"
+        ], 
+        "name": "Software Tester Bootcamp", 
+        "num_alumni": "N/A", 
+        "num_locations": 1, 
+        "scholarships": "Veterans, Women, Underrepresented Minorities [Case by Case]", 
+        "su_num_reviews": null, 
+        "su_rating": null, 
+        "su_technologies": null, 
+        "subjects": "Coding Bootcamps", 
+        "technologies": [], 
+        "top_source": [
+            "SwitchUp"
+        ], 
+        "tracking_groups": [
+            "Potential Market"
+        ], 
+        "website": "http://www.grandcircus.co"
+    }, 
+    "meta": {
+        "Active": true, 
+        "Current Market": [], 
+        "Date/Time": "2017-06-28 12:16:41", 
+        "Days Out": 289, 
+        "Number of Entries": 4, 
+        "Potential Market": [
+            "Level", 
+            "Cincy Code It", 
+            "Academy Pittsburgh", 
+            "Software Tester Bootcamp"
+        ], 
+        "locations": {
+            "Boston": 1, 
+            "Charlotte": 1, 
+            "Cincinnati": 1, 
+            "Detroit": 1, 
+            "Pittsburgh": 1, 
+            "San Jose": 1, 
+            "Seattle": 1, 
+            "Toronto": 1
+        }, 
+        "technologies": {
+            "Business": 1, 
+            "Data Science": 1, 
+            "Data Structures": 1, 
+            "MySQL": 1, 
+            "SQL": 1, 
+            "Web Services": 1
+        }
+    }
+}

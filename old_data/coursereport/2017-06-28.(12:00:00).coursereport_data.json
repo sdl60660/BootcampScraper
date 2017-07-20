@@ -1,0 +1,1846 @@
+{
+    "Acadgild": {
+        "accreditation": "None", 
+        "courses": {
+            "Advance J2Ee Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Advance J2ee Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "Java", 
+                    "SQL", 
+                    "CSS"
+                ]
+            }, 
+            "Android Development Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Android Development Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Git", 
+                    "Android"
+                ]
+            }, 
+            "Android Programming For Children": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Android Programming for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Java", 
+                    "Android"
+                ]
+            }, 
+            "Apache Spark Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Apache Spark Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python", 
+                    "Data Science", 
+                    "R", 
+                    "Spark"
+                ]
+            }, 
+            "Arduino For Children": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Arduino for Children", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Big Data Hadoop Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Big Data Hadoop Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "Hadoop"
+                ]
+            }, 
+            "Business Analytics With R Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Business Analytics with R Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "R"
+                ]
+            }, 
+            "Ceh Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "CEH Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Cloud Bundle": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Cloud Bundle", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Hadoop"
+                ]
+            }, 
+            "Cloud Computing Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Cloud Computing Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Core Java Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Core Java Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Java"
+                ]
+            }, 
+            "Data Analytics Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Data Analytics Training", 
+                "Hours/Week": 4, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "R", 
+                    "Excel"
+                ]
+            }, 
+            "Data Science Bundle": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Data Science Bundle", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "R", 
+                    "Hadoop"
+                ]
+            }, 
+            "Devops Training": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "DevOps Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Digital Marketing Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Digital Marketing Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Digital Marketing", 
+                    "SEO", 
+                    "Growth Hacking"
+                ]
+            }, 
+            "Front End Web Development Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Front End Web Development Training", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }, 
+            "Frontend Bundle": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Frontend Bundle", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "HTML", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Frontend Web Development Fundamentals Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Frontend Web Development Fundamentals Training", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Full Stack Web Development Training": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Full Stack Web Development Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }, 
+            "Hadoop Administration Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Hadoop Administration Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "Hadoop"
+                ]
+            }, 
+            "Itil Foundation Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "ITIL Foundation Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Lean Six Sigma Green Belt Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Lean Six Sigma Green Belt Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Machine Learning With R Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Machine Learning with R Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "R"
+                ]
+            }, 
+            "Mobile Bundle": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Mobile Bundle", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Java", 
+                    "Android", 
+                    "Node.js"
+                ]
+            }, 
+            "Mongodb Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "MongoDB Training", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MongoDB"
+                ]
+            }, 
+            "Node.Js Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Node.js Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "Node.js"
+                ]
+            }, 
+            "Pmp Training": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "PMP Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Prince2 Training": {
+                "Cost": 1199, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Prince2 Training", 
+                "Hours/Week": 3, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Python Programming For Children": {
+                "Cost": 600, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Python Programming for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Python"
+                ]
+            }, 
+            "Raspberry Pi For Childern": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Raspberry Pi for Childern", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Python"
+                ]
+            }, 
+            "Robotics For Children": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Robotics for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Software Testing Training": {
+                "Cost": 499, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Software Testing Training", 
+                "Hours/Week": 6, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": []
+            }, 
+            "Unity 2D For Children": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Unity 2D for Children", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Game Development"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 157, 
+        "cr_rating": 4.32, 
+        "cr_technologies": [
+            "Data Science", 
+            "Hadoop", 
+            "HTML", 
+            "Node.js", 
+            "JavaScript", 
+            "jQuery", 
+            "CSS", 
+            "R", 
+            "Excel", 
+            "Java", 
+            "Android", 
+            "Python", 
+            "Digital Marketing", 
+            "SEO", 
+            "Growth Hacking", 
+            "Front End", 
+            "MongoDB", 
+            "Game Development", 
+            "MySQL", 
+            "SQL", 
+            "Spark", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby"
+        ], 
+        "email": "enquiry@acadgild.com", 
+        "facebook": "https://www.facebook.com/acadgild", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Online", 
+            "Bangalore"
+        ], 
+        "name": "Acadgild", 
+        "num_courses": 33, 
+        "num_locations": 2, 
+        "technologies": [
+            "Data Science", 
+            "Hadoop", 
+            "HTML", 
+            "Node.js", 
+            "JavaScript", 
+            "jQuery", 
+            "CSS", 
+            "R", 
+            "Excel", 
+            "Java", 
+            "Android", 
+            "Python", 
+            "Digital Marketing", 
+            "SEO", 
+            "Growth Hacking", 
+            "Front End", 
+            "MongoDB", 
+            "Game Development", 
+            "MySQL", 
+            "SQL", 
+            "Spark", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": [
+            "UX Design", 
+            "Security", 
+            "Other", 
+            "Digital Marketing", 
+            "Data Science", 
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development"
+        ], 
+        "visas": "No", 
+        "website": "https://acadgild.com"
+    }, 
+    "App Academy": {
+        "accreditation": "None", 
+        "courses": {
+            "Bootcamp Prep (New York City)": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Bootcamp Prep (New York City)", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Node.js"
+                ]
+            }, 
+            "Bootcamp Prep (San Francisco)": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Bootcamp Prep (San Francisco)", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "JavaScript", 
+                    "Node.js"
+                ]
+            }, 
+            "Full Stack Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Full Stack Web Development", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "SQL", 
+                    "jQuery", 
+                    "Design", 
+                    "Ruby", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "React.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 192, 
+        "cr_rating": 4.66, 
+        "cr_technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "jQuery", 
+            "Design", 
+            "Ruby", 
+            "User Experience Design", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "email": "contact@appacademy.io", 
+        "facebook": "https://www.facebook.com/hashmaplabs", 
+        "housing": "App Academy has a partnership with\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco", 
+            "New York City"
+        ], 
+        "name": "App Academy", 
+        "num_courses": 3, 
+        "num_locations": 2, 
+        "scholarships": [
+            "$500 App Academy Scholarship", 
+            "$500 App Academy Scholarship"
+        ], 
+        "technologies": [
+            "Front End", 
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "jQuery", 
+            "Design", 
+            "Ruby", 
+            "User Experience Design", 
+            "CSS", 
+            "React.js", 
+            "Node.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "https://www.appacademy.io/"
+    }, 
+    "Dev Bootcamp": {
+        "accreditation": "None", 
+        "courses": {
+            "Web Development": {
+                "Cost": 13950, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Web Development", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "SQL", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 145, 
+        "cr_rating": 4.33, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra"
+        ], 
+        "email": "hello@devbootcamp.com", 
+        "facebook": "https://www.facebook.com/devbootcamp", 
+        "housing": null, 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco", 
+            "Chicago", 
+            "San Diego", 
+            "Austin", 
+            "Seattle", 
+            "New York City"
+        ], 
+        "name": "Dev Bootcamp", 
+        "num_courses": 1, 
+        "num_locations": 6, 
+        "scholarships": "Take $500 Off Tuition at Dev Bootcamp!", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Ruby on Rails", 
+            "SQL", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "visas": "No", 
+        "website": "http://devbootcamp.com/"
+    }, 
+    "Devmountain": {
+        "accreditation": "Certification available. ", 
+        "courses": {
+            "Ios After Hours": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "iOS After Hours", 
+                "Hours/Week": 11, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Swift", 
+                    "iOS", 
+                    "Xcode", 
+                    "Design", 
+                    "Mobile", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Ios Development Immersive": {
+                "Cost": 10900, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "iOS Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Swift", 
+                    "iOS", 
+                    "Xcode", 
+                    "Objective-C", 
+                    "Design", 
+                    "Mobile", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Software Qa Testing Immersive": {
+                "Cost": 7500, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "Software QA Testing Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Git"
+                ]
+            }, 
+            "Ui/Ux Design After Hours": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Provo"
+                ], 
+                "Course Title": "UI/UX Design After Hours", 
+                "Hours/Week": 11, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Design", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Ux Design Immersive": {
+                "Cost": 10900, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "UX Design Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "Design", 
+                    "Product Management", 
+                    "User Experience Design"
+                ]
+            }, 
+            "Web Development After Hours": {
+                "Cost": 4500, 
+                "Course Location": [
+                    "Salt Lake City"
+                ], 
+                "Course Title": "Web Development After Hours", 
+                "Hours/Week": 11, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Immersive": {
+                "Cost": 10900, 
+                "Course Location": [
+                    "Phoenix"
+                ], 
+                "Course Title": "Web Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "Git", 
+                    "SQL", 
+                    "jQuery", 
+                    "Design", 
+                    "Product Management", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 171, 
+        "cr_rating": 4.69, 
+        "cr_technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Design", 
+            "User Experience Design", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "Objective-C", 
+            "Product Management", 
+            "MySQL", 
+            "Front End", 
+            "SQL"
+        ], 
+        "email": "admissions@devmountain.com", 
+        "facebook": "https://www.facebook.com/DevMountain", 
+        "housing": "\u00a0", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Provo", 
+            "Salt Lake City", 
+            "Dallas", 
+            "Phoenix"
+        ], 
+        "name": "Devmountain", 
+        "num_courses": 7, 
+        "num_locations": 4, 
+        "technologies": [
+            "AngularJS", 
+            "JavaScript", 
+            "MongoDB", 
+            "HTML", 
+            "Git", 
+            "jQuery", 
+            "CSS", 
+            "Express.js", 
+            "React.js", 
+            "Node.js", 
+            "Design", 
+            "User Experience Design", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "Objective-C", 
+            "Product Management", 
+            "MySQL", 
+            "Front End", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Front-End Web Development", 
+            "UX Design", 
+            "Other", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://devmountain.com"
+    }, 
+    "Flatiron School": {
+        "accreditation": "None", 
+        "courses": {
+            "Community-Powered Bootcamp": {
+                "Cost": 149, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Community-Powered Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "HTML", 
+                    "Rails", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Online Web Developer Program": {
+                "Cost": 1000, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Online Web Developer Program", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "Ruby", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Immersive": {
+                "Cost": null, 
+                "Course Location": [
+                    "New York City"
+                ], 
+                "Course Title": "Web Development Immersive", 
+                "Hours/Week": 40, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 150, 
+        "cr_rating": 4.72, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "email": "info@flatironschool.com", 
+        "facebook": "https://www.facebook.com/FlatironSchool", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "New York City", 
+            "Online"
+        ], 
+        "name": "Flatiron School", 
+        "num_courses": 3, 
+        "num_locations": 2, 
+        "scholarships": "$500 Flatiron School Scholarship", 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "Sinatra", 
+            "React.js", 
+            "Node.js", 
+            "SQL"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://flatironschool.com/"
+    }, 
+    "Hack Reactor": {
+        "accreditation": "None", 
+        "courses": {
+            "Hack Reactor": {
+                "Cost": null, 
+                "Course Location": [
+                    "San Francisco"
+                ], 
+                "Course Title": "Hack Reactor", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": []
+            }, 
+            "Hack Reactor Remote": {
+                "Cost": null, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Hack Reactor Remote", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 138, 
+        "cr_rating": 4.51, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ], 
+        "email": "admissions@hackreactor.com", 
+        "facebook": "https://www.facebook.com/hackreactor", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "San Francisco", 
+            "Online", 
+            "New York City", 
+            "Los Angeles", 
+            "Austin", 
+            "San Francisco"
+        ], 
+        "name": "Hack Reactor", 
+        "num_courses": 2, 
+        "num_locations": 6, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": "Full-Stack Web Development", 
+        "visas": "No", 
+        "website": "http://hackreactor.com/"
+    }, 
+    "Ironhack": {
+        "accreditation": "Licensed by the Florida Dept. of Education ", 
+        "courses": {
+            "Ux/Ui Design": {
+                "Cost": null, 
+                "Course Location": [
+                    "Paris"
+                ], 
+                "Course Title": "UX/UI Design", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "Design", 
+                    "Product Management", 
+                    "User Experience Design", 
+                    "CSS", 
+                    "Wordpress"
+                ]
+            }, 
+            "Web Development Bootcamp (Full-Time) ": {
+                "Cost": null, 
+                "Course Location": [
+                    "Paris"
+                ], 
+                "Course Title": "Web Development Bootcamp (Full-time) ", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Web Development Part-Time": {
+                "Cost": null, 
+                "Course Location": [
+                    "Paris"
+                ], 
+                "Course Title": "Web Development Part-Time", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": null, 
+                "Part Or Full": null, 
+                "Subjects": [
+                    "MySQL", 
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "MongoDB", 
+                    "HTML", 
+                    "SQL", 
+                    "jQuery", 
+                    "CSS", 
+                    "Express.js", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 178, 
+        "cr_rating": 4.9, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MongoDB", 
+            "Git", 
+            "Express.js", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "jQuery", 
+            "SQL", 
+            "React.js", 
+            "MySQL", 
+            "Product Management", 
+            "Wordpress"
+        ], 
+        "email": "hi@ironhack.com", 
+        "facebook": "https://www.facebook.com/theironhack", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Miami", 
+            "Madrid", 
+            "Barcelona", 
+            "Paris"
+        ], 
+        "name": "Ironhack", 
+        "num_courses": 3, 
+        "num_locations": 4, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Design", 
+            "User Experience Design", 
+            "CSS", 
+            "MongoDB", 
+            "Git", 
+            "Express.js", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "jQuery", 
+            "SQL", 
+            "React.js", 
+            "MySQL", 
+            "Product Management", 
+            "Wordpress"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Top Camp", 
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Front-End Web Development", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://www.ironhack.com/en/"
+    }, 
+    "Le Wagon": {
+        "accreditation": "None", 
+        "courses": {
+            "Coding Bootcamp": {
+                "Cost": null, 
+                "Course Location": [
+                    "Belo Horizonte"
+                ], 
+                "Course Title": "Coding Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Full Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Rails", 
+                    "SQL", 
+                    "Sinatra", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 193, 
+        "cr_rating": 5.0, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "MySQL", 
+            "Front End", 
+            "SQL", 
+            "Sinatra", 
+            "jQuery", 
+            "Design", 
+            "User Experience Design", 
+            "Product Management"
+        ], 
+        "email": "contact@lewagon.org", 
+        "facebook": "https://www.facebook.com/lewagon", 
+        "housing": null, 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Brussels", 
+            "Paris", 
+            "Bordeaux", 
+            "Lille", 
+            "Amsterdam", 
+            "Copenhagen", 
+            "London", 
+            "Lisbon", 
+            "Barcelona", 
+            "Sao Paulo", 
+            "Rio de Janeiro", 
+            "Nantes", 
+            "Montreal", 
+            "Berlin", 
+            "Lyon", 
+            "Tokyo", 
+            "Shanghai", 
+            "Marseille", 
+            "Chengdu", 
+            "Belo Horizonte"
+        ], 
+        "name": "Le Wagon", 
+        "num_courses": 1, 
+        "num_locations": 20, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "Git", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "MySQL", 
+            "Front End", 
+            "SQL", 
+            "Sinatra", 
+            "jQuery", 
+            "Design", 
+            "User Experience Design", 
+            "Product Management"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": "Full-Stack Web Development", 
+        "visas": "Yes", 
+        "website": "http://www.lewagon.org/"
+    }, 
+    "Skillcrush": {
+        "accreditation": "None", 
+        "courses": {
+            "Freelance Wordpress Developer Blueprint": {
+                "Cost": 399, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Freelance WordPress Developer Blueprint", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "MySQL", 
+                    "PHP", 
+                    "Wordpress"
+                ]
+            }, 
+            "Responsive Web Designer And Developer Blueprint": {
+                "Cost": 399, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Responsive Web Designer and Developer Blueprint", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "jQuery", 
+                    "Design", 
+                    "Mobile"
+                ]
+            }, 
+            "Ruby On Rails Developer Blueprint": {
+                "Cost": 399, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Ruby on Rails Developer Blueprint", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Rails", 
+                    "Ruby"
+                ]
+            }, 
+            "Web Design Blueprint": {
+                "Cost": 399, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Web Design Blueprint", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "User Experience Design", 
+                    "CSS"
+                ]
+            }, 
+            "Web Development Blueprint": {
+                "Cost": 399, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Web Development Blueprint", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 208, 
+        "cr_rating": 4.78, 
+        "cr_technologies": [
+            "JavaScript", 
+            "HTML", 
+            "User Experience Design", 
+            "CSS", 
+            "jQuery", 
+            "Design", 
+            "Mobile", 
+            "Ruby", 
+            "MySQL", 
+            "PHP", 
+            "Wordpress", 
+            "Ruby on Rails"
+        ], 
+        "email": "hello@skillcrush.com", 
+        "facebook": "https://www.facebook.com/Skillcrush", 
+        "housing": null, 
+        "job_assistance": "No", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Online"
+        ], 
+        "name": "Skillcrush", 
+        "num_courses": 5, 
+        "num_locations": 1, 
+        "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "User Experience Design", 
+            "CSS", 
+            "jQuery", 
+            "Design", 
+            "Mobile", 
+            "Ruby", 
+            "MySQL", 
+            "PHP", 
+            "Wordpress", 
+            "Ruby on Rails"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": [
+            "Front-End Web Development", 
+            "Digital Marketing", 
+            "UX Design", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://skillcrush.com/skillcrush-blueprints/"
+    }, 
+    "Thinkful": {
+        "accreditation": "https://www.thinkful.com/bootcamp-jobs-stats/audit-results-feb-2016.pdf", 
+        "courses": {
+            "Backend In Node.Js": {
+                "Cost": 500, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Backend in Node.js", 
+                "Hours/Week": 10, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Git", 
+                    "Node.js"
+                ]
+            }, 
+            "Flexible Data Science Bootcamp": {
+                "Cost": 1500, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Flexible Data Science Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science"
+                ]
+            }, 
+            "Flexible Web Development Bootcamp": {
+                "Cost": 1500, 
+                "Course Location": [
+                    "Los Angeles"
+                ], 
+                "Course Title": "Flexible Web Development Bootcamp", 
+                "Hours/Week": null, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "AngularJS", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "jQuery", 
+                    "CSS", 
+                    "Node.js"
+                ]
+            }, 
+            "Frontend Web Development": {
+                "Cost": 500, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Frontend Web Development", 
+                "Hours/Week": 10, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "jQuery", 
+                    "CSS"
+                ]
+            }, 
+            "Full Time Web Development Bootcamp": {
+                "Cost": 1500, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Full Time Web Development Bootcamp", 
+                "Hours/Week": 20, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Data Science", 
+                    "Front End", 
+                    "JavaScript", 
+                    "HTML", 
+                    "Git", 
+                    "Design", 
+                    "CSS", 
+                    "React.js", 
+                    "Node.js"
+                ]
+            }, 
+            "Ios Programming In Swift": {
+                "Cost": 500, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "iOS Programming in Swift", 
+                "Hours/Week": 10, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Swift", 
+                    "iOS", 
+                    "Xcode", 
+                    "Mobile"
+                ]
+            }, 
+            "Programming In Python": {
+                "Cost": 500, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "Programming in Python", 
+                "Hours/Week": 10, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Python", 
+                    "SQL"
+                ]
+            }, 
+            "User Experience Design": {
+                "Cost": 300, 
+                "Course Location": [
+                    "Online"
+                ], 
+                "Course Title": "User Experience Design", 
+                "Hours/Week": 10, 
+                "Minimum Skill": null, 
+                "Onsite": "Online", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "User Experience Design"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 241, 
+        "cr_rating": 4.57, 
+        "cr_technologies": [
+            "Python", 
+            "SQL", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "User Experience Design", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Git", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "Data Science", 
+            "Design", 
+            "React.js"
+        ], 
+        "email": "hello@thinkful.com", 
+        "facebook": "https://www.facebook.com/thinkfulschool", 
+        "housing": "\n", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "Yes", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Online", 
+            "Atlanta", 
+            "Washington", 
+            "Los Angeles"
+        ], 
+        "name": "Thinkful", 
+        "num_courses": 8, 
+        "num_locations": 4, 
+        "scholarships": [
+            "$50 Scholarship to Thinkful", 
+            "$150 Off Thinkful Flexible Web Development Bootcamp!"
+        ], 
+        "technologies": [
+            "Python", 
+            "SQL", 
+            "Swift", 
+            "iOS", 
+            "Xcode", 
+            "Mobile", 
+            "User Experience Design", 
+            "JavaScript", 
+            "HTML", 
+            "jQuery", 
+            "CSS", 
+            "Git", 
+            "Node.js", 
+            "AngularJS", 
+            "Front End", 
+            "Data Science", 
+            "Design", 
+            "React.js"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [], 
+        "tracks": [
+            "Data Science", 
+            "Mobile Development", 
+            "Full-Stack Web Development", 
+            "Front-End Web Development", 
+            "UX Design"
+        ], 
+        "visas": "No", 
+        "website": "https://www.thinkful.com/a/coursereport"
+    }, 
+    "Wyncode": {
+        "accreditation": "Licensed by the Commission for Independent Education, Florida Department of Education.", 
+        "courses": {
+            "Full-Time Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "Full-time Web Development", 
+                "Hours/Week": 9, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "JavaScript", 
+                    "HTML", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }, 
+            "Part-Time Web Development": {
+                "Cost": null, 
+                "Course Location": [
+                    "Miami"
+                ], 
+                "Course Title": "Part-time Web Development", 
+                "Hours/Week": 9, 
+                "Minimum Skill": null, 
+                "Onsite": "In Person", 
+                "Part Or Full": "Part Time", 
+                "Subjects": [
+                    "Front End", 
+                    "HTML", 
+                    "Rails", 
+                    "Ruby", 
+                    "CSS"
+                ]
+            }
+        }, 
+        "cr_num_reviews": 141, 
+        "cr_rating": 4.62, 
+        "cr_technologies": [
+            "Front End", 
+            "HTML", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "JavaScript"
+        ], 
+        "email": "weare@wyncode.co", 
+        "facebook": "https://www.facebook.com/wyncode", 
+        "housing": "No", 
+        "job_assistance": "Yes", 
+        "job_guarantee": "No", 
+        "last_updated": "2017-06-28", 
+        "locations": [
+            "Miami"
+        ], 
+        "name": "Wyncode", 
+        "num_courses": 2, 
+        "num_locations": 1, 
+        "technologies": [
+            "Front End", 
+            "HTML", 
+            "Ruby on Rails", 
+            "Ruby", 
+            "CSS", 
+            "JavaScript"
+        ], 
+        "top_source": [
+            "CourseReport"
+        ], 
+        "tracking_groups": [
+            "Selected Camp"
+        ], 
+        "tracks": [
+            "Mobile Development", 
+            "Full-Stack Web Development"
+        ], 
+        "visas": "No", 
+        "website": "http://www.wyncode.co"
+    }
+}
