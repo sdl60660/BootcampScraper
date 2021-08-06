@@ -2,3 +2,5 @@ logs/command_line_outputs
 
 *.pyc
 .DS_Store
+
+slackbot/variables.sh
